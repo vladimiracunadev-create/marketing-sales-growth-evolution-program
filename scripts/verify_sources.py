@@ -19,7 +19,7 @@ Este verificador no usa red. Comprueba once cosas:
   8. Ningún bloque de fuentes se repite entre clases.
   9. Cada cita de cada clase declara qué idea concreta sostiene.
  10. Toda norma nombrada en una clase enlaza su texto oficial.
- 11. Las cifras que muestra el README coinciden con el recuento del registro.
+ 11. Ninguna obra del registro falta en `docs/FUENTES.md`.
 
 Lo que este verificador NO hace: pedir nada por red. Si la red entra en el CI,
 el CI se vuelve inestable y se acaba ignorando. La comprobación en red vive en
@@ -60,10 +60,6 @@ RE_HTTPS = re.compile(r"^https://[^\s]+$")
 
 OBLIGATORIOS = ("id", "type", "authors", "title", "published", "authority",
                 "locator", "used_in", "status")
-
-# Marcas del bloque de cifras que el README publica sobre el registro.
-INICIO_CIFRAS = "<!-- REGISTRO-FUENTES:INICIO -->"
-FIN_CIFRAS = "<!-- REGISTRO-FUENTES:FIN -->"
 
 
 class Informe(object):
@@ -351,41 +347,42 @@ def cifras_del_registro(datos):
     }
 
 
-def verificar_readme(datos, informe, detalle):
-    """El README no puede declarar cifras que el registro no respalde."""
-    ruta = os.path.join(RAIZ, "README.md")
-    with open(ruta, encoding="utf-8") as fh:
-        texto = fh.read()
+def verificar_pagina_de_fuentes(datos, informe, detalle):
+    """Ninguna obra del registro puede faltar en la página que las lista.
 
-    if INICIO_CIFRAS not in texto or FIN_CIFRAS not in texto:
-        informe.error("README.md no publica el bloque {} … {}".format(
-            INICIO_CIFRAS, FIN_CIFRAS))
+    Un registro completo no sirve de nada si la página que la gente abre deja
+    obras fuera. Aquí se comprueba lo único que importa de verdad: que estén
+    todas, con su título y con la dirección donde se resuelven.
+    """
+    ruta = os.path.join(RAIZ, "docs", "FUENTES.md")
+    if not os.path.exists(ruta):
+        informe.error("Falta docs/FUENTES.md, la página que lista las fuentes")
         return
-    bloque = texto.split(INICIO_CIFRAS, 1)[1].split(FIN_CIFRAS, 1)[0]
+    with open(ruta, encoding="utf-8") as fh:
+        fuentes = fh.read()
 
-    if "sources/bibliography.json" not in texto:
+    faltan_titulo = []
+    faltan_enlace = []
+    for e in datos["entries"]:
+        if e["title"] not in fuentes:
+            faltan_titulo.append(e["id"])
+        if e.get("locator") and e["locator"] not in fuentes:
+            faltan_enlace.append(e["id"])
+    for ident in faltan_titulo:
+        informe.error("docs/FUENTES.md no lista la obra «{}»".format(ident))
+    for ident in faltan_enlace:
+        informe.error("docs/FUENTES.md lista «{}» sin enlazar su localizador".format(ident))
+
+    with open(os.path.join(RAIZ, "README.md"), encoding="utf-8") as fh:
+        readme = fh.read()
+    if "docs/FUENTES.md" not in readme:
+        informe.error("README.md no enlaza docs/FUENTES.md")
+    if "sources/bibliography.json" not in readme:
         informe.error("README.md no enlaza el registro de fuentes")
 
-    cifras = cifras_del_registro(datos)
-    esperado = {
-        "entradas del registro": cifras["entradas"],
-        "obras con localizador verificado": cifras["verificadas"],
-        "entradas pendientes": cifras["pendientes"],
-        "libros con ISBN-13": cifras["con_isbn13"],
-    }
-    for etiqueta, valor in sorted(esperado.items()):
-        patron = r"\|\s*{}\s*\|\s*\*?\*?([\d]+)".format(re.escape(etiqueta))
-        m = re.search(patron, bloque)
-        if not m:
-            informe.error("El README no publica la cifra «{}»".format(etiqueta))
-        elif int(m.group(1)) != valor:
-            informe.error("El README declara {} = {} y el registro dice {}".format(
-                etiqueta, m.group(1), valor))
-    if cifras["verified_on"] not in bloque:
-        informe.error("El README no publica la fecha de verificación del registro ({})".format(
-            cifras["verified_on"]))
     if detalle:
-        print("  cifras publicadas: {}".format(cifras))
+        print("  docs/FUENTES.md: {} obras listadas".format(
+            len(datos["entries"]) - len(faltan_titulo)))
 
 
 def main():
@@ -408,7 +405,7 @@ def main():
     por_id = verificar_entradas(datos, informe)
     verificar_cobertura(por_id, informe, args.detalle)
     total_clases = verificar_clases(informe, args.detalle)
-    verificar_readme(datos, informe, args.detalle)
+    verificar_pagina_de_fuentes(datos, informe, args.detalle)
 
     cifras = cifras_del_registro(datos)
     print("")
@@ -427,8 +424,8 @@ def main():
 
     print("-" * 72)
     if informe.ok:
-        print("VEREDICTO: cada obra citada tiene una entrada con localizador resoluble,")
-        print("ninguna entrada sobra y las cifras del README las produce este verificador.")
+        print("VEREDICTO: cada obra citada tiene su entrada con localizador resoluble, ninguna")
+        print("entrada sobra, las normas citadas enlazan su texto y docs/FUENTES.md las lista todas.")
         return 0
     print("VEREDICTO: {} problema(s). El registro no respalda lo que el programa declara.".format(
         len(informe.errores)))

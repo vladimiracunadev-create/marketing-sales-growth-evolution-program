@@ -44,7 +44,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
 | `curriculum/spec` | 57 | __init__.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py, clases_p02.py… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
-| `docs` | 20 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
+| `docs` | 21 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
 | `evidence` | 2 | .gitkeep, README.md |
 | `labs/part-01` | 2 | lab-01-1-b2c-b2b-b2g-y-modelos-hibridos.md, lab-01-2-ventas-transaccionales-y-consultivas.md |
 | `labs/part-02` | 2 | lab-02-1-buyer-persona-con-evidencia.md, lab-02-2-riesgo-percibido-y-confianza.md |
@@ -96,7 +96,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 1 | stp-canvas.md |
 | `tests` | 7 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py, test_registro_fuentes.py… |
-| `tools` | 14 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_practica.py, build_readme_bibliografia.py… |
+| `tools` | 15 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_fuentes.py, build_practica.py… |
 
 ---
 

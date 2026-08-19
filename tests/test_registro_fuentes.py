@@ -174,6 +174,21 @@ def test_el_acceso_de_cada_obra_esta_declarado(entradas):
         assert e["access"] in validos, (e["id"], e.get("access"))
 
 
+def test_la_pagina_de_fuentes_lista_todas_las_obras(raiz, entradas):
+    """`docs/FUENTES.md` es la página que alguien abre para ver las fuentes.
+
+    Un registro completo no sirve si la página que la gente lee deja obras
+    fuera: cada una tiene que aparecer con su título y con su enlace.
+    """
+    with open(os.path.join(raiz, "docs", "FUENTES.md"), encoding="utf-8") as fh:
+        pagina = fh.read()
+
+    for e in entradas:
+        assert e["title"] in pagina, "falta la obra «{}»".format(e["id"])
+        if e.get("locator"):
+            assert e["locator"] in pagina, "«{}» sin enlace".format(e["id"])
+
+
 def test_el_verificador_da_verde(raiz):
     proceso = subprocess.run(
         [sys.executable, os.path.join(raiz, "scripts", "verify_sources.py")],

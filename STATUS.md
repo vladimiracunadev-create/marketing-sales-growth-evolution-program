@@ -2,7 +2,7 @@
 
 # Estado del repositorio
 
-**Versión:** 1.5.0 · **Actualizado:** 2026-08-19
+**Versión:** 1.6.0 · **Actualizado:** 2026-08-19
 
 ## Inventario frente a metas
 
@@ -14,14 +14,14 @@
 | Evaluaciones de parte | 24 | 24 | OK |
 | Casos extendidos | 24 | 24 | OK |
 | Proyectos integradores | 12 | 12 | OK |
-| Documentos de docs/ | 20 | 20 | OK |
+| Documentos de docs/ | 21 | 20 | OK |
 | Notebooks | 8 | 8 | OK |
 | Conjuntos de datos | 5 | 5 | OK |
 | Obras en bibliografía | 96 | 90 | OK |
 
 **Palabras de contenido curricular:** 1.799.438
 
-**Páginas HTML generadas:** 631 · **Módulos de prueba:** 7 · **Plantillas:** 14
+**Páginas HTML generadas:** 632 · **Módulos de prueba:** 7 · **Plantillas:** 14
 
 ## Verificaciones automatizadas
 

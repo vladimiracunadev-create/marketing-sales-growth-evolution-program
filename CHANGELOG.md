@@ -4,6 +4,24 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.6.0] — 2026-08-19
+
+Nueva página [`docs/FUENTES.md`](docs/FUENTES.md): las obras y los enlaces que sostienen el programa, sin
+recuentos y sin explicaciones sobre el método. Quien abre un repositorio de curso quiere ver de qué libros
+sale el contenido; el README anterior le daba en su lugar cuatro párrafos sobre verificación y una tabla de
+estadísticas.
+
+- **`docs/FUENTES.md`** lista, con enlace: qué obras sostienen cada una de las 24 partes, los libros
+  agrupados por área con lo que aporta cada uno, las cinco normas chilenas con su texto oficial, los cuatro
+  organismos que fiscalizan y las obras que se pueden leer gratis.
+- El README pasa de una sección de más de cien líneas a una corta que enlaza esa página y publica las
+  normas, que son lo único que cualquiera puede abrir y leer completo sin pagar. Fuera las estadísticas del
+  registro.
+- `scripts/verify_sources.py` cambia lo que exige del README: ya no contrasta cifras, ahora **falla si
+  alguna obra del registro no aparece en `docs/FUENTES.md`** con su título y su enlace. Un registro completo
+  no sirve de nada si la página que la gente lee deja obras fuera.
+- Una prueba nueva; el repositorio pasa de 84 a **85 pruebas**.
+
 ## [1.5.0] — 2026-08-19
 
 Retirado el front matter YAML de todo el material. GitHub lo pinta como una tabla de metadatos justo encima

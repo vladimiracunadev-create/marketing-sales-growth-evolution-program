@@ -20,6 +20,7 @@
 | [Mapa del currículo](MAPA-DEL-CURRICULO.md) | 24 partes y 336 clases con conceptos y señales · **generado** |
 | [Glosario](GLOSARIO.md) | 1.344 términos con definición operacional · **generado** |
 | [Fórmulas y métricas](FORMULAS-Y-METRICAS.md) | 1.008 señales con su ficha de medición · **generado** |
+| [Fuentes](FUENTES.md) | Las obras y enlaces que sostienen el programa, con su dirección · **generado** |
 | [Bibliografía](BIBLIOGRAFIA.md) | 96 obras con el lente que aporta cada una · **generado** |
 | [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) | Competencias, roles y artefactos por parte · **generado** |
 

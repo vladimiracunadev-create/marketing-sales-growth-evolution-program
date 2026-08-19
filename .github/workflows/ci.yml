@@ -98,6 +98,7 @@ jobs:
           python tools/build_rutas.py
           python tools/build_docs.py
           python tools/build_bibliography_json.py
+          python tools/build_fuentes.py
           python tools/build_readme_bibliografia.py
 
       - name: Comprobar que no hay diferencias
@@ -110,6 +111,7 @@ jobs:
             echo "  python tools/build_rutas.py"
             echo "  python tools/build_docs.py"
             echo "  python tools/build_bibliography_json.py"
+            echo "  python tools/build_fuentes.py"
             echo "  python tools/build_readme_bibliografia.py"
             git status --porcelain
             git diff --stat
@@ -142,11 +144,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Contrastar las cifras de fuentes del README contra el registro
+      - name: Comprobar que docs/FUENTES.md lista todas las obras del registro
         run: |
           set -e
           python scripts/verify_sources.py
-          echo "Cifras declaradas coherentes con el contenido."
+          echo "Las fuentes publicadas coinciden con el registro."
 
   markdown:
     name: Estilo de Markdown

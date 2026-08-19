@@ -3,7 +3,7 @@ title: "Parte 12 — Marketing digital y adquisición"
 type: part-index
 language: es
 part: 12
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 12 — Marketing digital y adquisición

@@ -3,7 +3,7 @@ title: "Parte 24 — Empresa real, regulación y Capstone"
 type: part-index
 language: es
 part: 24
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 24 — Empresa real, regulación y Capstone

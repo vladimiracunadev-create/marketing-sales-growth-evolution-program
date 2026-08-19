@@ -2,19 +2,19 @@
 title: "Mapa de IA comercial"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 21
 class: 01
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["russell-norvig", "nist-airmf", "provost", "ng-mlyearning"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 21.01 — Mapa de IA comercial
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

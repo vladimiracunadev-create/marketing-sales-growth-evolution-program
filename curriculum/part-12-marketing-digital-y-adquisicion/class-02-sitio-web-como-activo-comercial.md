@@ -2,19 +2,19 @@
 title: "El sitio web como activo comercial"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 12
 class: 02
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["krug", "eisenberg", "laja", "chaffey"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 12.02 — El sitio web como activo comercial
 
-**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

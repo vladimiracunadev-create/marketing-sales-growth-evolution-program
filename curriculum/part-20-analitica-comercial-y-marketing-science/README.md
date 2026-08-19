@@ -3,7 +3,7 @@ title: "Parte 20 — Analítica comercial y marketing science"
 type: part-index
 language: es
 part: 20
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 20 — Analítica comercial y marketing science

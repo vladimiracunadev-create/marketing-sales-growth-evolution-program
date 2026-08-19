@@ -2,19 +2,19 @@
 title: "Modelo de datos de RevOps"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 17
 class: 08
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["diorio", "provost", "roberge", "kaplan-norton"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 17.08 — Modelo de datos de RevOps
 
-**Parte 17 · Marketing automation y revenue operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 17 · Marketing automation y revenue operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

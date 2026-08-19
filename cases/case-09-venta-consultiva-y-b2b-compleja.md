@@ -3,7 +3,7 @@ title: "Caso 09 — Venta consultiva y B2B compleja"
 type: case
 language: es
 part: 09
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 09 — Venta consultiva y B2B compleja

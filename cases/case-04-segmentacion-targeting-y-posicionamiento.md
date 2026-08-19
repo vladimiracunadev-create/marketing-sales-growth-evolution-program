@@ -3,7 +3,7 @@ title: "Caso 04 — Segmentación, targeting y posicionamiento"
 type: case
 language: es
 part: 04
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 04 — Segmentación, targeting y posicionamiento

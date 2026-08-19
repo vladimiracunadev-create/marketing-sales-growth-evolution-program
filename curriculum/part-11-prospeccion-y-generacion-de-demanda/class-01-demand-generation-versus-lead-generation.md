@@ -2,19 +2,19 @@
 title: "Generación de demanda versus generación de leads"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 11
 class: 01
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["binet-field", "godin", "weinberg-traction", "chaffey"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 11.01 — Generación de demanda versus generación de leads
 
-**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

@@ -2,19 +2,19 @@
 title: "Ticket promedio y paquetes"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 15
 class: 09
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ramanujam", "flint", "fader", "nagle"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 15.09 — Ticket promedio y paquetes
 
-**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

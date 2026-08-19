@@ -3,7 +3,7 @@ title: "Índice de archivos"
 type: file-index
 language: es
 generated: true
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 > Documento generado por `tools/build_docs.py`. No editar a mano: los cambios se pierden en la siguiente generación. La fuente de verdad está en `curriculum/spec/`.

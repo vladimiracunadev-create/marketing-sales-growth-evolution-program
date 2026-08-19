@@ -2,19 +2,19 @@
 title: "Ventas transaccionales y consultivas"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 01
 class: 10
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["rackham", "roberge", "keenan", "moore"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 01.10 — Ventas transaccionales y consultivas
 
-**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

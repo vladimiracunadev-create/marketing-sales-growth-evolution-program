@@ -3,7 +3,7 @@ title: "Caso 06 — Marca, branding y comunicación estratégica"
 type: case
 language: es
 part: 06
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 06 — Marca, branding y comunicación estratégica

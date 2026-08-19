@@ -2,19 +2,19 @@
 title: "Lead scoring asistido por modelos"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 21
 class: 07
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["provost", "ng-mlyearning", "oneil", "nist-airmf"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 21.07 — Lead scoring asistido por modelos
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

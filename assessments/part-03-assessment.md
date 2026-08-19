@@ -4,7 +4,7 @@ type: assessment
 language: es
 part: 03
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Evaluación — Parte 03: Investigación de mercados e inteligencia competitiva

@@ -2,7 +2,7 @@
 """Validador de profundidad del contenido.
 
 Comprueba que cada clase alcance la extensión mínima del estándar
-`clase-profunda-v3` y reporta la distribución para detectar degradación.
+`clase-profunda-v1` y reporta la distribución para detectar degradación.
 
 Uso:
     python tools/validate_depth.py

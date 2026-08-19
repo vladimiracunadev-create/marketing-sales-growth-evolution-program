@@ -2,19 +2,19 @@
 title: "Gestión de desempeño"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 23
 class: 11
 level: Dirección y Capstone
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["grove", "zoltners", "lencioni", "collins"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 23.11 — Gestión de desempeño
 
-**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

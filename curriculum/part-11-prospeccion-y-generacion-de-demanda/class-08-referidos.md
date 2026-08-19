@@ -2,19 +2,19 @@
 title: "Referidos"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 11
 class: 08
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["reichheld", "cialdini", "mehta", "godin"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 11.08 — Referidos
 
-**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

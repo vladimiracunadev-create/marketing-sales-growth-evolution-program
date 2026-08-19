@@ -4,7 +4,7 @@ type: assessment
 language: es
 part: 11
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Evaluación — Parte 11: Prospección y generación de demanda

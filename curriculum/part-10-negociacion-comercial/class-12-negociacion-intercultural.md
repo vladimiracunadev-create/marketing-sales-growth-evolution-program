@@ -2,19 +2,19 @@
 title: "Negociación intercultural"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 10
 class: 12
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["shell", "fisher-ury", "malhotra-neg", "solomon"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 10.12 — Negociación intercultural
 
-**Parte 10 · Negociación comercial** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 10 · Negociación comercial** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

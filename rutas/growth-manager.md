@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: growth-manager
 family: Growth
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🚀 Growth manager

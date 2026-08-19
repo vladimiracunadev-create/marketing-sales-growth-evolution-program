@@ -3,7 +3,7 @@ title: "Parte 16 — CRM, pipeline y sales operations"
 type: part-index
 language: es
 part: 16
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 16 — CRM, pipeline y sales operations

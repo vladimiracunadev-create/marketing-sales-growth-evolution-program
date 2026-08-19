@@ -2,19 +2,19 @@
 title: "Employer branding y marca personal"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 06
 class: 11
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["godin", "handley", "collins", "lencioni"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 06.11 — Employer branding y marca personal
 
-**Parte 06 · Marca, branding y comunicación estratégica** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 06 · Marca, branding y comunicación estratégica** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

@@ -20,8 +20,10 @@ Aun así, hay superficies que importan y que se revisan:
 
 | Versión | Estado |
 |---|---|
-| 2.x | Con soporte |
-| 1.x | Sin soporte |
+| 1.x | Con soporte |
+
+Se da soporte a la serie publicada más reciente. Las correcciones se aplican sobre `main` y se documentan en
+el [changelog](CHANGELOG.md).
 
 ## Cómo reportar una vulnerabilidad
 

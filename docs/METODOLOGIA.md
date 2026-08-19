@@ -70,7 +70,7 @@ Capstone.
 
 ## 3. Estructura de una clase
 
-Todas las clases siguen el estándar `clase-profunda-v3`. La secuencia no es arbitraria: reproduce el orden en
+Todas las clases siguen el estándar `clase-profunda-v1`. La secuencia no es arbitraria: reproduce el orden en
 que una persona construye criterio.
 
 | Bloque | Función pedagógica |

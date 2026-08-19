@@ -2,19 +2,19 @@
 title: "Generación de contenido con controles"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 21
 class: 04
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["handley", "nist-airmf", "oneil", "godin"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 21.04 — Generación de contenido con controles
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

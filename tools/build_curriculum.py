@@ -4,7 +4,7 @@
 Lee `curriculum/spec/` y escribe:
 
 * `curriculum/part-XX-*/README.md`         índice y contrato de la parte
-* `curriculum/part-XX-*/class-YY-*.md`     clase completa (estándar clase-profunda-v3)
+* `curriculum/part-XX-*/class-YY-*.md`     clase completa (estándar clase-profunda-v1)
 * `curriculum/curriculum.json`             índice legible por máquina (sitio, apps, tests)
 
 Uso:
@@ -29,8 +29,8 @@ sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import EMPRESA, PARTES  # noqa: E402
 
-FECHA = "2026-08-18"
-VERSION_ESTANDAR = "clase-profunda-v3"
+FECHA = "2026-08-19"
+VERSION_ESTANDAR = "clase-profunda-v1"
 
 
 # --------------------------------------------------------------------------

@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: ecommerce-manager
 family: Adquisición
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🛒 E-commerce manager

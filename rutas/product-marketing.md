@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: product-marketing
 family: Marketing
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🧩 Product marketing manager

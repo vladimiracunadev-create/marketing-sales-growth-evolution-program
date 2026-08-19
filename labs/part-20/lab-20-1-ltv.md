@@ -6,7 +6,7 @@ part: 20
 lab: 1
 mastery_threshold: 80
 estimated_minutes: 240
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Lab 20.1 — Valor de vida del cliente

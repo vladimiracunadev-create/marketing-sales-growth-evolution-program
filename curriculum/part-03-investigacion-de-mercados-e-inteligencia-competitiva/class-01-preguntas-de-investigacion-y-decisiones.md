@@ -2,19 +2,19 @@
 title: "Preguntas de investigación y decisiones"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 03
 class: 01
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["hubbard", "malhotra", "fitzpatrick", "provost"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 03.01 — Preguntas de investigación y decisiones
 
-**Parte 03 · Investigación de mercados e inteligencia competitiva** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 03 · Investigación de mercados e inteligencia competitiva** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

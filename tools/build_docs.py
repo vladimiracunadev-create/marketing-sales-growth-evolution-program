@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import EMPRESA, NIVELES, PARTES  # noqa: E402
 
-FECHA = "2026-08-18"
+FECHA = "2026-08-19"
 
 CATEGORIAS = [
     ("marketing", "Marketing"),

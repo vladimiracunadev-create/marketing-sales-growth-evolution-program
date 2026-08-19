@@ -3,7 +3,7 @@ title: "Caso 16 — CRM, pipeline y sales operations"
 type: case
 language: es
 part: 16
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 16 — CRM, pipeline y sales operations

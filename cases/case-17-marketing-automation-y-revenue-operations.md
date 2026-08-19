@@ -3,7 +3,7 @@ title: "Caso 17 — Marketing automation y revenue operations"
 type: case
 language: es
 part: 17
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 17 — Marketing automation y revenue operations

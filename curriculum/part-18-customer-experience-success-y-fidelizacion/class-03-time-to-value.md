@@ -2,19 +2,19 @@
 title: "Time to value"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 18
 class: 03
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["hulick", "mehta", "croll-yoskovitz", "cagan"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 18.03 — Time to value
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

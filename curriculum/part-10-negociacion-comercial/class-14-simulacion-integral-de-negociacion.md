@@ -2,19 +2,19 @@
 title: "Simulación integral de negociación"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 10
 class: 14
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["malhotra-neg", "fisher-ury", "ury", "shell"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 10.14 — Simulación integral de negociación
 
-**Parte 10 · Negociación comercial** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 10 · Negociación comercial** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

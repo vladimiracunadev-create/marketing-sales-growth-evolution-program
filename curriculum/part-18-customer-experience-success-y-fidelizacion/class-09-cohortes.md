@@ -2,19 +2,19 @@
 title: "Análisis de cohortes"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 18
 class: 09
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["croll-yoskovitz", "fader", "provost", "kaushik"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 18.09 — Análisis de cohortes
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

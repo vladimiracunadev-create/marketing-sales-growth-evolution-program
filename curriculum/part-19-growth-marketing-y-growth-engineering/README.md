@@ -3,7 +3,7 @@ title: "Parte 19 — Growth marketing y growth engineering"
 type: part-index
 language: es
 part: 19
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 19 — Growth marketing y growth engineering

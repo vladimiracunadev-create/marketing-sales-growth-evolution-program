@@ -2,19 +2,19 @@
 title: "Sistema de retención y expansión"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 18
 class: 14
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["mehta", "fader-ltv", "reichheld", "croll-yoskovitz"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 18.14 — Sistema de retención y expansión
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

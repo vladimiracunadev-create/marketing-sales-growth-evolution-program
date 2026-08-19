@@ -2,19 +2,19 @@
 title: "Diseño de experimentos"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 19
 class: 11
 level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["kohavi", "provost", "laja", "wheeler-dv"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 19.11 — Diseño de experimentos
 
-**Parte 19 · Growth marketing y growth engineering** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 19 · Growth marketing y growth engineering** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

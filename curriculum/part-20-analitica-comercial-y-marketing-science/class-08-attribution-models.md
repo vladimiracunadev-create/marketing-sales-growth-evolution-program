@@ -2,19 +2,19 @@
 title: "Modelos de atribución"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 20
 class: 08
 level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["kaushik", "kohavi", "provost", "binet-field"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 20.08 — Modelos de atribución
 
-**Parte 20 · Analítica comercial y marketing science** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 20 · Analítica comercial y marketing science** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

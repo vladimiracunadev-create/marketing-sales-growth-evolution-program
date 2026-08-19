@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: performance-marketer
 family: Adquisición
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 📈 Performance marketer / Media buyer

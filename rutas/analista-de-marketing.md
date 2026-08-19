@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: analista-de-marketing
 family: Analítica
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 📊 Analista de marketing y de ingresos

@@ -6,7 +6,7 @@ part: 07
 lab: 2
 mastery_threshold: 80
 estimated_minutes: 240
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Lab 07.2 — Freemium y pruebas gratuitas

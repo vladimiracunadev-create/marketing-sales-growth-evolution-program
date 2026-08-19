@@ -3,7 +3,7 @@ title: "Caso 11 — Prospección y generación de demanda"
 type: case
 language: es
 part: 11
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 11 — Prospección y generación de demanda

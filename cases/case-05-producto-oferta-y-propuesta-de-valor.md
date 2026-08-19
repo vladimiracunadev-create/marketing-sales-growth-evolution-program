@@ -3,7 +3,7 @@ title: "Caso 05 — Producto, oferta y propuesta de valor"
 type: case
 language: es
 part: 05
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 05 — Producto, oferta y propuesta de valor

@@ -3,7 +3,7 @@ title: "Parte 08 — Fundamentos profesionales de ventas"
 type: part-index
 language: es
 part: 08
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 08 — Fundamentos profesionales de ventas

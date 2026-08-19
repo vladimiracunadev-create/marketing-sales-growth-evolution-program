@@ -2,19 +2,19 @@
 title: "Variables de segmentación B2B"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 04
 class: 03
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["moore", "ross", "fader", "roberge"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 04.03 — Variables de segmentación B2B
 
-**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

@@ -2,19 +2,19 @@
 title: "Conversión en comercio digital"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 15
 class: 07
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["laja", "eisenberg", "kaushik", "krug"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 15.07 — Conversión en comercio digital
 
-**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

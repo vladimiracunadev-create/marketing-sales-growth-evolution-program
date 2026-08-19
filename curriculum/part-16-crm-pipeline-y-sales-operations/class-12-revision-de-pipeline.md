@@ -2,19 +2,19 @@
 title: "Revisión de pipeline"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 16
 class: 12
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["grove", "roberge", "miller-heiman", "lencioni"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 16.12 — Revisión de pipeline
 
-**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

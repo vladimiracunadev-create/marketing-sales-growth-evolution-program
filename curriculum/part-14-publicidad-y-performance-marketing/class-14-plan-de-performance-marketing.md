@@ -2,19 +2,19 @@
 title: "Plan de performance marketing"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 14
 class: 14
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["kaushik", "geddes", "binet-field", "wheeler-dv"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 14.14 — Plan de performance marketing
 
-**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

@@ -3,14 +3,14 @@ title: "Estado del repositorio"
 type: status
 language: es
 generated: true
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 > Documento generado por `tools/build_status.py`. Los números provienen de contar archivos reales.
 
 # Estado del repositorio
 
-**Versión:** 2.1.0 · **Actualizado:** 2026-08-18
+**Versión:** 1.0.0 · **Actualizado:** 2026-08-19
 
 ## Inventario frente a metas
 

@@ -34,7 +34,7 @@ updated: 2026-08-18
 
 | Documento | Contenido |
 |---|---|
-| [Estándar pedagógico](ESTANDAR-PEDAGOGICO.md) | Especificación `clase-profunda-v3` y su auditoría |
+| [Estándar pedagógico](ESTANDAR-PEDAGOGICO.md) | Especificación `clase-profunda-v1` y su auditoría |
 | [Estándar de evidencia](ESTANDAR-DE-EVIDENCIA.md) | Qué cuenta como evidencia y cómo se organiza |
 | [Evaluación y rúbricas](EVALUACION-Y-RUBRICAS.md) | Instrumentos, pesos y criterios de aprobación |
 | [Arquitectura del programa](ARQUITECTURA-DEL-PROGRAMA.md) | Cómo se genera y se mantiene el repositorio |

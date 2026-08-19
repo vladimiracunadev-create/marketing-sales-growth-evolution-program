@@ -2,7 +2,7 @@
 title: "Rutas profesionales por rol"
 type: career-index
 language: es
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🧭 Rutas profesionales por rol

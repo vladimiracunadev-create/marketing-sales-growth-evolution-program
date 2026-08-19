@@ -3,7 +3,7 @@ title: "Caso 19 — Growth marketing y growth engineering"
 type: case
 language: es
 part: 19
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 19 — Growth marketing y growth engineering

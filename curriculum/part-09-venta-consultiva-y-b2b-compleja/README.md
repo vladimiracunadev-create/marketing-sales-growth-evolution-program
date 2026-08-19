@@ -3,7 +3,7 @@ title: "Parte 09 — Venta consultiva y B2B compleja"
 type: part-index
 language: es
 part: 09
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 09 — Venta consultiva y B2B compleja

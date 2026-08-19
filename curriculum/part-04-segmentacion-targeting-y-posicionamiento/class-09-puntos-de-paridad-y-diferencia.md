@@ -2,19 +2,19 @@
 title: "Puntos de paridad y de diferencia"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 04
 class: 09
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["keller-brand", "kotler", "ries-trout", "sharp"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 04.09 — Puntos de paridad y de diferencia
 
-**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

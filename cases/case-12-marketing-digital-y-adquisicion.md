@@ -3,7 +3,7 @@ title: "Caso 12 — Marketing digital y adquisición"
 type: case
 language: es
 part: 12
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 12 — Marketing digital y adquisición

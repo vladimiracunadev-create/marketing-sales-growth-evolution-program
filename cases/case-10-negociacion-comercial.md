@@ -3,7 +3,7 @@ title: "Caso 10 — Negociación comercial"
 type: case
 language: es
 part: 10
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 10 — Negociación comercial

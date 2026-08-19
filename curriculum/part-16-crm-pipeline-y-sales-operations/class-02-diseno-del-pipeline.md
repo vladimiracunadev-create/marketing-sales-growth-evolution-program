@@ -2,19 +2,19 @@
 title: "Diseño del pipeline"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 16
 class: 02
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["roberge", "miller-heiman", "grove", "provost"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 16.02 — Diseño del pipeline
 
-**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

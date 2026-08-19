@@ -3,7 +3,7 @@ title: "Parte 14 — Publicidad y performance marketing"
 type: part-index
 language: es
 part: 14
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 14 — Publicidad y performance marketing

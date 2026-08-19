@@ -2,7 +2,7 @@
 """Pruebas del contenido publicado.
 
 Verifican que el Markdown generado corresponda a la especificación, cumpla el
-estándar `clase-profunda-v3` y esté escrito en español.
+estándar `clase-profunda-v1` y esté escrito en español.
 """
 
 from __future__ import annotations
@@ -94,7 +94,7 @@ def test_clases_declaran_metadatos(raiz, partes):
         texto = leer(ruta)
         assert texto.startswith("---\n")
         assert "language: es" in texto
-        assert "standard: clase-profunda-v3" in texto
+        assert "standard: clase-profunda-v1" in texto
         assert "mastery_threshold: 80" in texto
         assert "part: {}".format(parte["num"]) in texto
 

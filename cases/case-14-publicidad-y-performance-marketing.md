@@ -3,7 +3,7 @@ title: "Caso 14 — Publicidad y performance marketing"
 type: case
 language: es
 part: 14
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 14 — Publicidad y performance marketing

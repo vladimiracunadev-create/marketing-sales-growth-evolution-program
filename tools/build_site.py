@@ -27,7 +27,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from markdown_min import render  # noqa: E402
 
 SALIDA = os.path.join(RAIZ, "site")
-FECHA = "2026-08-18"
+FECHA = "2026-08-19"
 TITULO = "Marketing, Sales & Growth Evolution Program"
 
 DIRECTORIOS = ["curriculum", "rutas", "labs", "assessments", "cases", "projects", "capstone", "docs",

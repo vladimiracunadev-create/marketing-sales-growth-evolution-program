@@ -2,7 +2,7 @@
 title: "Checklist del Capstone"
 type: checklist
 language: es
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Checklist del Capstone

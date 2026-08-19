@@ -2,19 +2,19 @@
 title: "Health score"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 18
 class: 05
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["mehta", "provost", "fader", "croll-yoskovitz"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 18.05 — Health score
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

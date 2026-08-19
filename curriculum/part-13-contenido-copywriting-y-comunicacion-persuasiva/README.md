@@ -3,7 +3,7 @@ title: "Parte 13 — Contenido, copywriting y comunicación persuasiva"
 type: part-index
 language: es
 part: 13
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 13 — Contenido, copywriting y comunicación persuasiva

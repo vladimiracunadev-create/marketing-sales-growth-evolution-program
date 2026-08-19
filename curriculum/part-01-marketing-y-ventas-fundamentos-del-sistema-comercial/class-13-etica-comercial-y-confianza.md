@@ -2,19 +2,19 @@
 title: "Ética comercial y confianza"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 01
 class: 13
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["cialdini", "thaler", "oneil", "godin"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 01.13 — Ética comercial y confianza
 
-**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

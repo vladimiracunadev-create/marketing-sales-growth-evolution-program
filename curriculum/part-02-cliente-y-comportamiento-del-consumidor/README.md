@@ -3,7 +3,7 @@ title: "Parte 02 — Cliente y comportamiento del consumidor"
 type: part-index
 language: es
 part: 02
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 02 — Cliente y comportamiento del consumidor

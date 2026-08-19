@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: founder
 family: Dirección
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🚩 Founder / dueño de negocio

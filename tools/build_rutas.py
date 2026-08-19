@@ -25,7 +25,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from spec.partes import PARTES, por_numero  # noqa: E402
 from spec.roles import FAMILIAS, ROLES  # noqa: E402
 
-FECHA = "2026-08-18"
+FECHA = "2026-08-19"
 SALIDA = os.path.join(RAIZ, "rutas")
 
 _CACHE_CLASES = {}

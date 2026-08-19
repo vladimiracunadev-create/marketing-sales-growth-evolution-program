@@ -3,7 +3,7 @@ title: "Parte 03 — Investigación de mercados e inteligencia competitiva"
 type: part-index
 language: es
 part: 03
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 03 — Investigación de mercados e inteligencia competitiva

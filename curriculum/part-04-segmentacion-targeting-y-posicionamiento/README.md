@@ -3,7 +3,7 @@ title: "Parte 04 — Segmentación, targeting y posicionamiento"
 type: part-index
 language: es
 part: 04
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 04 — Segmentación, targeting y posicionamiento

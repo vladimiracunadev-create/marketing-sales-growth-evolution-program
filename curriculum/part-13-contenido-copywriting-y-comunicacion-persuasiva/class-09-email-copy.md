@@ -2,19 +2,19 @@
 title: "Copy de correo"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 13
 class: 09
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["handley", "sugarman", "godin", "chaffey"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 13.09 — Copy de correo
 
-**Parte 13 · Contenido, copywriting y comunicación persuasiva** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 13 · Contenido, copywriting y comunicación persuasiva** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

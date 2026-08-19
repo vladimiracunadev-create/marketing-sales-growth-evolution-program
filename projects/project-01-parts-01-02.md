@@ -4,7 +4,7 @@ type: project
 language: es
 parts: [01, 02]
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Proyecto 1 — Partes 01 y 02

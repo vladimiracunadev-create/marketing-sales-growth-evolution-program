@@ -2,19 +2,19 @@
 title: "ICE, RICE y priorización"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 19
 class: 10
 level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ellis-brown", "hubbard", "cagan", "provost"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 19.10 — ICE, RICE y priorización
 
-**Parte 19 · Growth marketing y growth engineering** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 19 · Growth marketing y growth engineering** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

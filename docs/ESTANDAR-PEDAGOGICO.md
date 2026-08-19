@@ -1,11 +1,11 @@
 ---
-title: "Estándar pedagógico clase-profunda-v3"
+title: "Estándar pedagógico clase-profunda-v1"
 type: standard
 language: es
 updated: 2026-08-18
 ---
 
-# Estándar pedagógico `clase-profunda-v3`
+# Estándar pedagógico `clase-profunda-v1`
 
 Especificación formal que toda clase del programa debe cumplir. Sirve para tres cosas: producir contenido
 nuevo, auditar contenido existente y detectar degradación con el tiempo.
@@ -17,7 +17,7 @@ Una clase cumple el estándar si y sólo si satisface **todos** estos requisitos
 | # | Requisito | Verificación automatizable |
 |---|---|---|
 | R1 | Extensión mínima de 2.500 palabras | `tools/validate_depth.py` |
-| R2 | Escrita íntegramente en español | `tests/test_idioma.py` |
+| R2 | Escrita íntegramente en español | `tests/test_contenido_publicado.py` |
 | R3 | Al menos 4 conceptos con definición operacional | Estructura de `spec` |
 | R4 | Al menos 3 señales con numerador, denominador y ventana | Estructura de `spec` |
 | R5 | Un método de al menos 5 pasos ordenados | Estructura de `spec` |
@@ -114,13 +114,12 @@ python -m pytest -q                   # pruebas completas
 Cualquier clase que falle un requisito debe corregirse en `curriculum/spec/` y regenerarse. **El Markdown no
 se edita a mano**: la fuente de verdad es la especificación.
 
-## 9. Historial del estándar
+## 9. Versión del estándar
 
-| Versión | Cambio principal |
-|---|---|
-| `clase-profunda-v1` | Estructura básica con conceptos y práctica |
-| `clase-profunda-v2` | Incorporación de lectura comparada y rúbrica |
-| `clase-profunda-v3` | Definiciones operacionales obligatorias, fichas de medición, frontera de aplicación explícita y bloque normativo chileno |
+`clase-profunda-v1` es la primera versión publicada de esta especificación y la que cumplen las 336 clases
+del programa. Cualquier cambio que altere los requisitos R1 a R13 exige una versión nueva, la regeneración
+completa del currículo y una entrada en el [changelog](../CHANGELOG.md): un estándar que cambia en silencio
+deja de ser auditable.
 
 ---
 

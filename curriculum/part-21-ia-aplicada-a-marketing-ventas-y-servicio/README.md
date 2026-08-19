@@ -3,7 +3,7 @@ title: "Parte 21 — IA aplicada a marketing, ventas y servicio"
 type: part-index
 language: es
 part: 21
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 21 — IA aplicada a marketing, ventas y servicio

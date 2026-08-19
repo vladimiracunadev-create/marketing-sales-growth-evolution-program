@@ -2,19 +2,19 @@
 title: "Investigación asistida por IA"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 21
 class: 03
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ng-mlyearning", "oneil", "hubbard", "provost"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 21.03 — Investigación asistida por IA
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

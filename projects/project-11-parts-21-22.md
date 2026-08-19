@@ -4,7 +4,7 @@ type: project
 language: es
 parts: [21, 22]
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Proyecto 11 — Partes 21 y 22

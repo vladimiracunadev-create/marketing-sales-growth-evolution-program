@@ -4,7 +4,7 @@ type: assessment
 language: es
 part: 24
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Evaluación — Parte 24: Empresa real, regulación y Capstone

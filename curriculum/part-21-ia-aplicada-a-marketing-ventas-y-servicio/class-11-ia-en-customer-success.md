@@ -2,19 +2,19 @@
 title: "IA en customer success"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 21
 class: 11
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["mehta", "dixon-effort", "provost", "nist-airmf"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 21.11 — IA en customer success
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

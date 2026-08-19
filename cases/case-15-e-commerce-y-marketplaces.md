@@ -3,7 +3,7 @@ title: "Caso 15 — E-commerce y marketplaces"
 type: case
 language: es
 part: 15
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 15 — E-commerce y marketplaces

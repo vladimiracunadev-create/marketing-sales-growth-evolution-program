@@ -2,19 +2,19 @@
 title: "Arquitectura de marca"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 06
 class: 07
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["aaker", "keller-brand", "sharp2", "kotler"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 06.07 — Arquitectura de marca
 
-**Parte 06 · Marca, branding y comunicación estratégica** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 06 · Marca, branding y comunicación estratégica** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

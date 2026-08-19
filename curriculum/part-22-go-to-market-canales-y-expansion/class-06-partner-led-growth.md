@@ -2,19 +2,19 @@
 title: "Crecimiento liderado por socios"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 22
 class: 06
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["moore", "weinberg-traction", "porter", "ross"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 22.06 — Crecimiento liderado por socios
 
-**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

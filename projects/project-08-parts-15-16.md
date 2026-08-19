@@ -4,7 +4,7 @@ type: project
 language: es
 parts: [15, 16]
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Proyecto 8 — Partes 15 y 16

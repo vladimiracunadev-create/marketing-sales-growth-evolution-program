@@ -3,7 +3,7 @@ title: "Parte 17 — Marketing automation y revenue operations"
 type: part-index
 language: es
 part: 17
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 17 — Marketing automation y revenue operations

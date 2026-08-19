@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: customer-success
 family: Retención
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🔁 Customer Success Manager

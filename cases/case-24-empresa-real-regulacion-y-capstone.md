@@ -3,7 +3,7 @@ title: "Caso 24 — Empresa real, regulación y Capstone"
 type: case
 language: es
 part: 24
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Caso 24 — Empresa real, regulación y Capstone

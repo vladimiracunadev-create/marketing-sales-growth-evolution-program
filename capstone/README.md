@@ -3,7 +3,7 @@ title: "Capstone — Empresa comercial completa"
 type: capstone
 language: es
 mastery_threshold: 80
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Capstone — Empresa comercial completa

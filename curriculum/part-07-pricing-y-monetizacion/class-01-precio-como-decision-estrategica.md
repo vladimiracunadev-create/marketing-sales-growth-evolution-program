@@ -2,19 +2,19 @@
 title: "El precio como decisión estratégica"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 07
 class: 01
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["simon", "nagle", "ramanujam", "smith-pricing"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 07.01 — El precio como decisión estratégica
 
-**Parte 07 · Pricing y monetización** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 07 · Pricing y monetización** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

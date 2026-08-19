@@ -2,19 +2,19 @@
 title: "Necesidades, deseos, demanda y valor"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 01
 class: 02
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["kotler", "christensen", "ariely", "nagle"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 01.02 — Necesidades, deseos, demanda y valor
 
-**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

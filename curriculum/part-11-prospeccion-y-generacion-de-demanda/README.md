@@ -3,7 +3,7 @@ title: "Parte 11 — Prospección y generación de demanda"
 type: part-index
 language: es
 part: 11
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Parte 11 — Prospección y generación de demanda

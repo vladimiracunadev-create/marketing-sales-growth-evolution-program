@@ -4,7 +4,7 @@ type: career-path
 language: es
 role: vp-sales
 family: Dirección
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # 🏅 VP de ventas / Gerente comercial

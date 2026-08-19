@@ -2,19 +2,19 @@
 title: "Marca y activos comerciales"
 type: class
 language: es
-standard: clase-profunda-v3
+standard: clase-profunda-v1
 part: 24
 class: 05
 level: Dirección y Capstone
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ries-trout", "wheeler", "handley", "keller-brand"]
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Clase 24.05 — Marca y activos comerciales
 
-**Parte 24 · Empresa real, regulación y Capstone** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v3`
+**Parte 24 · Empresa real, regulación y Capstone** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
 
 ## 🎯 Propósito
 

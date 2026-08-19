@@ -44,6 +44,13 @@ la misma obra—. Esta versión corrige eso y, con ello, reescribe el desarrollo
 - La práctica guiada pasa de una lista de seis pasos a una tabla con qué hacer, con qué material y
   **criterio de término por paso**.
 
+### Pruebas
+
+- Nuevo módulo [`tests/test_fundamentacion.py`](tests/test_fundamentacion.py) con 11 pruebas que hacen
+  exigibles R8 y R14: toda obra citada tiene aporte catalogado, todo anclaje apunta a un identificador
+  existente, ningún anclaje repite el lente general, ninguna pista de lectura cita páginas numeradas y
+  **ningún párrafo de desarrollo se reutiliza entre clases**. El total pasa de 59 a 70 pruebas.
+
 ### Documentación
 
 - El README principal publica la **bibliografía completa**: las 96 obras con autoría, edición, aporte y
@@ -57,6 +64,8 @@ la misma obra—. Esta versión corrige eso y, con ello, reescribe el desarrollo
 
 - El detector de anglicismos emparejaba mal los asteriscos del énfasis fuerte con los de la cursiva
   siguiente y dejaba títulos en inglés al descubierto, produciendo 99 falsos positivos.
+- Un párrafo del desarrollo de la clase 20.07 era una sola frase de 42 palabras; se reescribió al detectarlo
+  la nueva prueba de sustancia.
 - `tools/build_site.py` sólo escribía el índice de una carpeta cuando el archivo no existía. Al
   reconstruir el portal sobre un sitio ya generado, esos 85 índices conservaban el listado antiguo y
   ocultaban los archivos nuevos. Ahora se reescriben siempre.

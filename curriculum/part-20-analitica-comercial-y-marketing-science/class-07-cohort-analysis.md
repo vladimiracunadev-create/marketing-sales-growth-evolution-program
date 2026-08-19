@@ -90,7 +90,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Hito de antigüedad** se entiende aquí como **punto de comparación medido desde la incorporación y no desde la fecha**.
 
-El análisis por cohortes aplicado a la operación comercial responde preguntas que el agregado no puede: si los clientes nuevos se comportan mejor o peor que los anteriores, si una intervención cambió algo, si el deterioro observado es real o efecto de mezcla.
+El análisis por cohortes aplicado a la operación comercial responde preguntas que el agregado no puede: si los clientes nuevos se comportan mejor o peor que los anteriores, si una intervención cambió algo, si el deterioro observado es real o sólo efecto de mezcla. Ninguna de esas preguntas tiene respuesta en un promedio, porque el promedio mezcla grupos con historias distintas y presenta el resultado como si describiera a un cliente típico que no existe.
 
 **De dónde viene esta afirmación.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta la idea que sostiene este bloque: el análisis de cohortes como corrección al promedio que esconde la mezcla. Búscala en el capítulo sobre cohortes y segmentación. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «valor acumulado por cohorte» debería moverse cuando cambie **hito de antigüedad**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 

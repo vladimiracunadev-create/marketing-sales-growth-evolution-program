@@ -102,7 +102,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/revops` | 1 | sla.md |
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 1 | stp-canvas.md |
-| `tests` | 5 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_integridad.py, test_rutas.py |
+| `tests` | 6 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py, test_rutas.py |
 | `tools` | 13 | audit_fuentes.py, build_curriculum.py, build_docs.py, build_practica.py, build_readme_bibliografia.py, build_rutas.py… |
 
 ---

@@ -163,7 +163,9 @@ DESARROLLO = {
     "07": [
         "El análisis por cohortes aplicado a la operación comercial responde preguntas que el agregado no "
         "puede: si los clientes nuevos se comportan mejor o peor que los anteriores, si una intervención "
-        "cambió algo, si el deterioro observado es real o efecto de mezcla.",
+        "cambió algo, si el deterioro observado es real o sólo efecto de mezcla. Ninguna de esas preguntas "
+        "tiene respuesta en un promedio, porque el promedio mezcla grupos con historias distintas y presenta "
+        "el resultado como si describiera a un cliente típico que no existe.",
 
         "El efecto de mezcla es el fenómeno que más conclusiones falsas produce en analítica comercial: un "
         "indicador agregado puede mejorar mientras todos los grupos empeoran, si cambia la proporción entre "

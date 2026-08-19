@@ -27,9 +27,9 @@ updated: 2026-08-19
 | Conjuntos de datos | 5 | 5 | OK |
 | Obras en bibliografía | 96 | 90 | OK |
 
-**Palabras de contenido curricular:** 1.691.195
+**Palabras de contenido curricular:** 1.691.227
 
-**Páginas HTML generadas:** 631 · **Módulos de prueba:** 5 · **Plantillas:** 14
+**Páginas HTML generadas:** 631 · **Módulos de prueba:** 6 · **Plantillas:** 14
 
 ## Verificaciones automatizadas
 

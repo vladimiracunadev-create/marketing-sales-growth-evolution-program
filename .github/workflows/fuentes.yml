@@ -1,0 +1,41 @@
+name: Revalidación de fuentes
+
+# Esta comprobación usa red y por eso vive fuera del CI que bloquea. Un control
+# que depende de servicios externos falla por razones ajenas al repositorio, y
+# un rojo que aparece por causas ajenas se aprende a ignorar. Aquí se informa;
+# no se bloquea nada.
+
+on:
+  schedule:
+    # El primer día de cada mes, 06:00 UTC.
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revalidar:
+    name: Los localizadores siguen resolviendo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolver cada ISBN, DOI y URL del registro
+        # No bloquea: informa. Lo que dejó de resolver se corrige a mano.
+        run: python scripts/refresh_sources.py | tee revalidacion.txt
+
+      - name: Guardar el informe y la bitácora
+        uses: actions/upload-artifact@v4
+        with:
+          name: revalidacion-de-fuentes
+          path: |
+            revalidacion.txt
+            sources/verification-log.json
+          retention-days: 90

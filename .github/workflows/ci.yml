@@ -52,6 +52,9 @@ jobs:
       - name: Auditar la fundamentación bibliográfica
         run: python tools/audit_fuentes.py
 
+      - name: Verificar el registro de fuentes
+        run: python scripts/verify_sources.py
+
       - name: Verificar enlaces internos
         run: python tools/check_links.py
 
@@ -94,6 +97,7 @@ jobs:
           python tools/build_practica.py
           python tools/build_rutas.py
           python tools/build_docs.py
+          python tools/build_bibliography_json.py
           python tools/build_readme_bibliografia.py
 
       - name: Comprobar que no hay diferencias
@@ -105,6 +109,7 @@ jobs:
             echo "  python tools/build_practica.py"
             echo "  python tools/build_rutas.py"
             echo "  python tools/build_docs.py"
+            echo "  python tools/build_bibliography_json.py"
             echo "  python tools/build_readme_bibliografia.py"
             git status --porcelain
             git diff --stat
@@ -130,9 +135,15 @@ jobs:
           test "$labs" -eq 48   || { echo "::error::Se esperaban 48 laboratorios y hay $labs"; exit 1; }
           test "$rutas" -eq 17  || { echo "::error::Se esperaban 17 rutas y hay $rutas"; exit 1; }
           grep -q "336" README.md || { echo "::error::El README no declara las 336 clases"; exit 1; }
-          obras=$(grep -c "^| .* | \*.*\* | .* | .* | [0-9]* |$" README.md || true)
-          test "$obras" -eq 96 || { echo "::error::El README debe listar las 96 obras y lista $obras"; exit 1; }
           grep -q "$rutas" README.md || { echo "::error::El README no declara las rutas"; exit 1; }
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Contrastar las cifras de fuentes del README contra el registro
+        run: python scripts/verify_sources.py
           echo "Cifras declaradas coherentes con el contenido."
 
   markdown:

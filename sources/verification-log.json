@@ -340,10 +340,10 @@
       "skipped": true
     },
     "iso-31000": {
-      "error": "HTTP 403",
-      "http": 403,
+      "error": "entrada pendiente: no hay localizador que resolver",
       "last_check": "2026-08-19",
-      "resolved": false
+      "resolved": false,
+      "skipped": true
     },
     "kahneman": {
       "http": 200,
@@ -431,7 +431,8 @@
       "http": 200,
       "last_check": "2026-08-19",
       "last_ok": "2026-08-19",
-      "resolved": true
+      "resolved": true,
+      "unreachable": false
     },
     "lencioni": {
       "http": 200,
@@ -447,7 +448,8 @@
       "http": 200,
       "last_check": "2026-08-19",
       "last_ok": "2026-08-19",
-      "resolved": true
+      "resolved": true,
+      "unreachable": false
     },
     "malhotra": {
       "http": 200,
@@ -508,14 +510,16 @@
       "http": 200,
       "last_check": "2026-08-19",
       "last_ok": "2026-08-19",
-      "resolved": true
+      "resolved": true,
+      "unreachable": false
     },
     "nist-airmf": {
       "error": null,
       "http": 200,
       "last_check": "2026-08-19",
       "last_ok": "2026-08-19",
-      "resolved": true
+      "resolved": true,
+      "unreachable": false
     },
     "ogilvy": {
       "http": 200,
@@ -567,7 +571,8 @@
       "http": 200,
       "last_check": "2026-08-19",
       "last_ok": "2026-08-19",
-      "resolved": true
+      "resolved": true,
+      "unreachable": false
     },
     "portigal": {
       "http": 200,

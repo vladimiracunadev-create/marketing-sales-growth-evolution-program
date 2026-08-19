@@ -14,7 +14,10 @@ Qué hace aquí:
 * pide cada URL de norma o documentación oficial y registra el estado HTTP;
 * escribe `sources/verification-log.json` con la última fecha en que cada
   entrada resolvió bien;
-* informa de lo que dejó de resolver **sin borrarlo**.
+* informa de lo que dejó de resolver **sin borrarlo**, separando dos cosas que
+  no significan lo mismo: que el servidor conteste y diga que no (404, 410) es
+  información sobre la fuente; que no se pueda llegar al servidor es
+  información sobre la red de quien ejecuta.
 
 Nada se elimina nunca. Una fuente que hoy no resuelve puede haber cambiado de
 URL, estar caída o haberse retirado; las tres cosas se corrigen a mano y con
@@ -24,7 +27,7 @@ Uso:
     python scripts/refresh_sources.py
     python scripts/refresh_sources.py --solo book
     python scripts/refresh_sources.py --regenerar   # rehace el registro al terminar
-    python scripts/refresh_sources.py --estricto    # devuelve 1 si algo dejó de resolver
+    python scripts/refresh_sources.py --estricto    # devuelve 1 si alguna fuente fue rechazada
 """
 
 from __future__ import annotations
@@ -62,7 +65,16 @@ def hoy():
 
 
 def pedir(url, acepta_json=True):
-    """GET con reintentos. Devuelve (codigo, datos_o_texto, error)."""
+    """GET con reintentos. Devuelve (codigo, datos, error, transporte).
+
+    `transporte` distingue las dos formas de fallar, que no significan lo mismo:
+
+    * el servidor contestó y dijo que no (404, 410, 403) — eso es información
+      sobre la fuente y hay que atenderlo;
+    * no se pudo llegar al servidor (tiempo agotado, DNS, límite de tasa) — eso
+      es información sobre la red de quien ejecuta, y confundirlo con lo
+      anterior llena la bitácora de fuentes «caídas» que están perfectamente.
+    """
     ultimo = None
     for intento in range(REINTENTOS):
         try:
@@ -71,16 +83,16 @@ def pedir(url, acepta_json=True):
                 cuerpo = r.read()
                 if acepta_json:
                     try:
-                        return r.getcode(), json.loads(cuerpo.decode("utf-8")), None
+                        return r.getcode(), json.loads(cuerpo.decode("utf-8")), None, False
                     except ValueError:
-                        return r.getcode(), None, "respuesta no JSON"
-                return r.getcode(), None, None
+                        return r.getcode(), None, "respuesta no JSON", False
+                return r.getcode(), None, None, False
         except urllib.error.HTTPError as e:
-            return e.code, None, "HTTP {}".format(e.code)
+            return e.code, None, "HTTP {}".format(e.code), False
         except Exception as e:  # noqa: BLE001
             ultimo = "{}: {}".format(type(e).__name__, e)[:120]
             time.sleep(2.0 * (intento + 1))
-    return None, None, ultimo
+    return None, None, ultimo, True
 
 
 def normalizar(texto):
@@ -98,9 +110,11 @@ def coincide(esperado, observado):
 
 
 def comprobar_libro(e):
-    codigo, datos, error = pedir("https://openlibrary.org/isbn/{}.json".format(e["isbn13"]))
+    codigo, datos, error, transporte = pedir(
+        "https://openlibrary.org/isbn/{}.json".format(e["isbn13"]))
     if datos is None:
-        return {"resolved": False, "http": codigo, "error": error or "sin datos"}
+        return {"resolved": False, "http": codigo, "error": error or "sin datos",
+                "unreachable": transporte}
     titulo = datos.get("title", "")
     return {
         "resolved": True,
@@ -112,10 +126,11 @@ def comprobar_libro(e):
 
 
 def comprobar_articulo(e):
-    codigo, datos, error = pedir("https://api.crossref.org/works/{}".format(
+    codigo, datos, error, transporte = pedir("https://api.crossref.org/works/{}".format(
         urllib.parse.quote(e["doi"], safe="/")))
     if datos is None:
-        return {"resolved": False, "http": codigo, "error": error or "sin datos"}
+        return {"resolved": False, "http": codigo, "error": error or "sin datos",
+                "unreachable": transporte}
     m = datos.get("message", {})
     titulo = (m.get("title") or [""])[0]
     autores = ["{}, {}".format(a.get("family", ""), a.get("given", "")).strip(", ")
@@ -131,9 +146,10 @@ def comprobar_articulo(e):
 
 
 def comprobar_url(e):
-    codigo, _datos, error = pedir(e["locator"], acepta_json=False)
+    codigo, _datos, error, transporte = pedir(e["locator"], acepta_json=False)
     ok = codigo is not None and 200 <= codigo < 400
-    return {"resolved": ok, "http": codigo, "error": None if ok else (error or "HTTP {}".format(codigo))}
+    return {"resolved": ok, "http": codigo, "unreachable": (not ok) and transporte,
+            "error": None if ok else (error or "HTTP {}".format(codigo))}
 
 
 def comprobar(e):
@@ -159,7 +175,8 @@ def main():
     ap.add_argument("--regenerar", action="store_true",
                     help="Regenera sources/bibliography.json al terminar")
     ap.add_argument("--estricto", action="store_true",
-                    help="Devuelve 1 si alguna fuente dejó de resolver")
+                    help="Devuelve 1 si alguna fuente fue rechazada por su servidor. "
+                         "Lo que no respondió no cuenta: eso es la red, no la fuente")
     ap.add_argument("--hilos", type=int, default=6)
     args = ap.parse_args()
 
@@ -182,7 +199,14 @@ def main():
     with ThreadPoolExecutor(max_workers=args.hilos) as pool:
         for i, (ident, r) in enumerate(pool.map(comprobar, entradas), 1):
             resultados[ident] = r
-            marca = "ok " if r.get("resolved") else ("-- " if r.get("skipped") else "NO ")
+            if r.get("resolved"):
+                marca = "ok "
+            elif r.get("skipped"):
+                marca = "-- "
+            elif r.get("unreachable"):
+                marca = ".. "
+            else:
+                marca = "NO "
             detalle = r.get("observed_title") or r.get("error") or ""
             if r.get("resolved") and r.get("title_matches") is False:
                 marca = "?? "
@@ -202,6 +226,10 @@ def main():
             # No se borra nada: se conserva la última fecha en que sí resolvió.
             if anterior.get("last_ok"):
                 registro_entrada["last_ok"] = anterior["last_ok"]
+            if r.get("unreachable") and anterior.get("observed_title"):
+                # No se llegó al servidor: lo último que se observó de verdad
+                # sigue siendo lo último que se sabe de esta fuente.
+                registro_entrada["observed_title"] = anterior["observed_title"]
         bitacora["entries"][ident] = registro_entrada
 
     os.makedirs(os.path.dirname(BITACORA), exist_ok=True)
@@ -210,21 +238,29 @@ def main():
         fh.write("\n")
 
     fallos = sorted(k for k, r in resultados.items()
-                    if not r.get("resolved") and not r.get("skipped"))
+                    if not r.get("resolved") and not r.get("skipped")
+                    and not r.get("unreachable"))
+    inalcanzables = sorted(k for k, r in resultados.items() if r.get("unreachable"))
     dudosos = sorted(k for k, r in resultados.items() if r.get("title_matches") is False)
     saltados = sorted(k for k, r in resultados.items() if r.get("skipped"))
 
     print("")
     print("Resuelven:        {:>4}".format(sum(1 for r in resultados.values() if r.get("resolved"))))
-    print("No resuelven:     {:>4}".format(len(fallos)))
+    print("Rechazadas:       {:>4}".format(len(fallos)))
+    print("Sin respuesta:    {:>4}".format(len(inalcanzables)))
     print("Título dudoso:    {:>4}".format(len(dudosos)))
     print("Pendientes:       {:>4}".format(len(saltados)))
     print("Bitácora:         {}".format(os.path.relpath(BITACORA, RAIZ)))
 
     if fallos:
-        print("\nDejaron de resolver (NO se borran; se corrigen a mano):")
+        print("\nEl servidor contestó y dijo que no (NO se borran; se corrigen a mano):")
         for k in fallos:
             print("  - {}: {}".format(k, resultados[k].get("error")))
+    if inalcanzables:
+        print("\nNo se pudo llegar al servidor. Eso habla de la red de quien ejecuta, no de la")
+        print("fuente: no las des por caídas sin repetir la comprobación más tarde.")
+        for k in inalcanzables:
+            print("  - {}".format(k))
     if dudosos:
         print("\nResuelven pero el título observado no coincide (revisar el localizador):")
         for k in dudosos:

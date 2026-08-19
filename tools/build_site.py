@@ -441,26 +441,26 @@ def main():
                 procesar_markdown(origen, destino, profundidad, seccion=nombre_seccion,
                                   anterior=anterior, siguiente=siguiente, arriba=arriba, indice=indice)
                 paginas += 1
-            # índice de carpeta cuando no hay README
+            # Índice de carpeta. Se reescribe siempre: si sólo se generara cuando
+            # falta, una reconstrucción sobre un sitio existente conservaría el
+            # listado antiguo y ocultaría los archivos nuevos.
             rel_dir = os.path.relpath(actual, RAIZ).replace("\\", "/")
             destino_idx = os.path.join(SALIDA, rel_dir, "index.html")
-            if not os.path.exists(destino_idx):
-                enlaces = []
-                for d in dirs:
-                    enlaces.append('<a class="tarjeta" href="{0}/index.html"><strong>{0}</strong>'
-                                   '<span>Sección</span></a>'.format(d))
-                for f in archivos_md:
-                    titulo = _primer_h1(leer(os.path.join(actual, f))) or f[:-3]
-                    enlaces.append('<a class="tarjeta" href="{}.html"><strong>{}</strong>'
-                                   '<span>{}</span></a>'.format(f[:-3], html.escape(titulo), f))
-                if "README.md" in archivos_md:
-                    cuerpo = '<meta http-equiv="refresh" content="0; url=README.html">'
-                    escribir(destino_idx, plantilla(nombre_seccion, cuerpo, [], rel_dir.count("/") + 1))
-                else:
-                    cuerpo = "<h1>{}</h1><div class=\"tarjetas\">{}</div>".format(
-                        html.escape(nombre_seccion), "".join(enlaces))
-                    escribir(destino_idx, plantilla(nombre_seccion, cuerpo, [], rel_dir.count("/") + 1))
-                paginas += 1
+            enlaces = []
+            for d in dirs:
+                enlaces.append('<a class="tarjeta" href="{0}/index.html"><strong>{0}</strong>'
+                               '<span>Sección</span></a>'.format(d))
+            for f in archivos_md:
+                titulo = _primer_h1(leer(os.path.join(actual, f))) or f[:-3]
+                enlaces.append('<a class="tarjeta" href="{}.html"><strong>{}</strong>'
+                               '<span>{}</span></a>'.format(f[:-3], html.escape(titulo), f))
+            if "README.md" in archivos_md:
+                cuerpo = '<meta http-equiv="refresh" content="0; url=README.html">'
+            else:
+                cuerpo = "<h1>{}</h1><div class=\"tarjetas\">{}</div>".format(
+                    html.escape(nombre_seccion), "".join(enlaces))
+            escribir(destino_idx, plantilla(nombre_seccion, cuerpo, [], rel_dir.count("/") + 1))
+            paginas += 1
 
     # panel de progreso: se copia tal cual para que funcione dentro del sitio
     panel_origen = os.path.join(RAIZ, "apps", "learning-dashboard")

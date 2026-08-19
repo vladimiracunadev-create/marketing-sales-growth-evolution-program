@@ -57,6 +57,9 @@ la misma obra—. Esta versión corrige eso y, con ello, reescribe el desarrollo
 
 - El detector de anglicismos emparejaba mal los asteriscos del énfasis fuerte con los de la cursiva
   siguiente y dejaba títulos en inglés al descubierto, produciendo 99 falsos positivos.
+- `tools/build_site.py` sólo escribía el índice de una carpeta cuando el archivo no existía. Al
+  reconstruir el portal sobre un sitio ya generado, esos 85 índices conservaban el listado antiguo y
+  ocultaban los archivos nuevos. Ahora se reescriben siempre.
 
 ## [1.0.0] — 2026-08-19
 

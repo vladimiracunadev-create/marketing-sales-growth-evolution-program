@@ -2,19 +2,34 @@
 title: "Plan de adquisición"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 12
 class: 13
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["chaffey", "weinberg-traction", "croll-yoskovitz", "binet-field"]
+anchors: {"binet-field": "share-of-voice", "chaffey": "planificacion", "croll-yoskovitz": "linea-trazada", "weinberg-traction": "50-50"}
 updated: 2026-08-19
 ---
 
 # Clase 12.13 — Plan de adquisición
 
-**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 12.12 — *Omnicanalidad*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de desviación frente a supuestos para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El marco de planificación digital: situación, objetivos, estrategia, táctica, acción y control — Dave Chaffey y Fiona Ellis-Chadwick. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Supuesto de canal: mecanismo central
 
-**supuesto de canal** se entiende aquí como **estimación declarada de costo y conversión que sostiene la asignación**. Es la pieza desde la que se inicia el análisis de plan de adquisición: antes de «estimar costo por oportunidad y conversión por canal», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Supuesto de canal** se entiende aquí como **estimación declarada de costo y conversión que sostiene la asignación**.
 
-La lectura rectora de este bloque es Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Lente que aporta:** planificación digital integrada: canales, medición y gobierno. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **desviación frente a supuestos**; regístrala con periodo, unidad, población y línea base.
+Un plan de adquisición es un conjunto de apuestas con supuestos declarados, no un presupuesto repartido. Cada canal incluido debe llevar su supuesto de desempeño —costo por resultado esperado y volumen alcanzable— y la evidencia que lo sustenta. Cuando esos supuestos no están escritos, cualquier resultado se explica después y nadie aprende.
+
+**De dónde viene esta afirmación.** Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) aporta la idea que sostiene este bloque: el marco de planificación digital: situación, objetivos, estrategia, táctica, acción y control. Búscala en los capítulos sobre planificación de marketing digital. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «desviación frente a supuestos» debería moverse cuando cambie **supuesto de canal**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **capacidad de atención**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Capacidad de atención: frontera conceptual y error de clasificación
 
-**Definición operacional:** volumen de oportunidades que el equipo comercial puede trabajar con calidad. Su valor está en distinguirlo de **supuesto de canal**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** volumen de oportunidades que el equipo comercial puede trabajar con calidad. Su valor está en distinguirlo de **supuesto de canal**.
 
-Contrasta el problema con Gabriel Weinberg y Justin Mares — *Traction* (2015) —**lente:** diecinueve canales de tracción y el método bullseye de priorización—. Formula dos mini-casos: uno que satisface la definición de **capacidad de atención** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **utilización de la capacidad comercial** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La capacidad de atención es una restricción que se olvida en la planificación: un canal que genera más oportunidades de las que el equipo puede atender no produce ingreso adicional, produce oportunidades perdidas y frustración. El plan debe partir de la capacidad comercial disponible y no del presupuesto de medios.
+
+**Contraste bibliográfico.** Gabriel Weinberg y Justin Mares — *Traction* (2015) aporta aquí una distinción concreta: la regla de dedicar la mitad del esfuerzo a producto y la mitad a tracción (los capítulos iniciales sobre la regla 50/50). Formula dos mini-casos: uno que satisface la definición de **capacidad de atención** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «verificar la capacidad de atención del equipo», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Regla de reasignación: operacionalización y medición
 
-**regla de reasignación** significa **criterio que determina cuándo mover presupuesto entre canales**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Regla de reasignación** significa **criterio que determina cuándo mover presupuesto entre canales**.
+
+La regla de reasignación define de antemano qué se hace si un canal rinde por debajo del supuesto: en qué plazo se evalúa, qué umbral obliga a reducir y a dónde se traslada el presupuesto. Sin esa regla, la reasignación ocurre tarde y por reacción, casi siempre después de un trimestre completo de gasto ineficiente.
 
 Ficha de medición obligatoria para **desviación frente a supuestos**: `diferencia entre costo por oportunidad real y estimado, por canal`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) orienta este bloque —**lente:** una métrica que importa por etapa y por modelo de negocio—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) pone una condición sobre la medición: la línea trazada de antemano: qué valor haría considerar exitoso el experimento (los capítulos sobre definir el éxito). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Horizonte de maduración: trade-offs y efectos de segundo orden
 
-**Definición:** tiempo que necesita un canal antes de poder evaluarse. Este concepto obliga a abandonar la idea de que plan de adquisición tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «definir la regla de reasignación y su periodicidad», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** tiempo que necesita un canal antes de poder evaluarse.
 
-Les Binet y Peter Field — *The Long and the Short of It* (2013) —**lente:** equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **reasignaciones ejecutadas** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Concentrar el presupuesto en el canal que mejor rinde hoy maximiza el retorno inmediato y aumenta la dependencia y el riesgo de saturación: los canales tienen rendimientos decrecientes. Diversificar protege y reduce la eficiencia media. La proporción debe decidirse considerando la madurez del canal principal y su punto de saturación estimado.
+
+**Lo que aporta la fuente.** Les Binet y Peter Field — *The Long and the Short of It* (2013) aporta el criterio para pesar el intercambio: la relación entre participación de voz y crecimiento de participación de mercado (la sección sobre exceso de participación de voz). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **reasignaciones ejecutadas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **horizonte de maduración** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «revisar mensualmente contra los supuestos declarados», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Les Binet y Peter Field — *The Long and the Short of It* (2013) sirve para contrastar la recomendación final desde otro lente: equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo. La frontera de esta clase es explícita: Reasignar presupuesto demasiado rápido impide que los canales lentos maduren. La regla debe distinguir canales de respuesta inmediata de canales de construcción. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El horizonte de maduración varía mucho entre canales, y compararlos con el mismo plazo produce conclusiones falsas. Un canal de búsqueda orgánica evaluado a dos meses siempre parecerá peor que uno de publicidad pagada. El plan debe declarar el horizonte de evaluación de cada canal antes de empezar, no cuando llegue el momento de justificar.
+
+**Frontera declarada.** Reasignar presupuesto demasiado rápido impide que los canales lentos maduren. La regla debe distinguir canales de respuesta inmediata de canales de construcción. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Optimizar métricas de vanidad y desatender consentimiento, cookies y datos personales.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Gabriel Weinberg y Justin Mares — *Traction* (2015) | diecinueve canales de tracción y el método bullseye de priorización | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | una métrica que importa por etapa y por modelo de negocio | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Les Binet y Peter Field — *The Long and the Short of It* (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El marco de planificación digital: situación, objetivos, estrategia, táctica, acción y control | Los capítulos sobre planificación de marketing digital | ¿Qué debería observarse en **supuesto de canal** si aquí opera «el marco de planificación digital: situación, objetivos, estrategia, táctica, acción y control»? ¿Y qué observación lo desmentiría en este caso? |
+| Gabriel Weinberg y Justin Mares — *Traction* (2015) | La regla de dedicar la mitad del esfuerzo a producto y la mitad a tracción | Los capítulos iniciales sobre la regla 50/50 | ¿Qué debería observarse en **capacidad de atención** si aquí opera «la regla de dedicar la mitad del esfuerzo a producto y la mitad a tracción»? ¿Y qué observación lo desmentiría en este caso? |
+| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | La línea trazada de antemano: qué valor haría considerar exitoso el experimento | Los capítulos sobre definir el éxito | ¿Qué debería observarse en **regla de reasignación** si aquí opera «la línea trazada de antemano: qué valor haría considerar exitoso el experimento»? ¿Y qué observación lo desmentiría en este caso? |
+| Les Binet y Peter Field — *The Long and the Short of It* (2013) | La relación entre participación de voz y crecimiento de participación de mercado | La sección sobre exceso de participación de voz | ¿Qué debería observarse en **horizonte de maduración** si aquí opera «la relación entre participación de voz y crecimiento de participación de mercado»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **estimar costo por oportunidad y conversión por canal → verificar la capacidad de atención del equipo → asignar presupuesto con supuestos explícitos → definir la regla de reasignación y su periodicidad → revisar mensualmente contra los supuestos declarados** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **desviación frente a supuestos**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **estimar costo por oportunidad y conversión por canal → verificar la capacidad de atención del equipo → asignar presupuesto con supuestos explícitos → definir la regla de reasignación y su periodicidad → revisar mensualmente contra los supuestos declarados** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **desviación frente a supuestos**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Digital Marketing* y la de *Traction*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **desviación frente a supuestos** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Reasignar presupuesto demasiado rápido impide que los canales lentos maduren. La regla debe distinguir canales de respuesta inmediata de canales de construcción»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **regla de reasignación** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **desviación frente a supuestos**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Digital Marketing* y *The Long and the Short of It*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan de adquisición digita
 
 ## 📗 Fuentes y verificación
 
-- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Uso en esta clase:** planificación digital integrada: canales, medición y gobierno. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Gabriel Weinberg y Justin Mares — *Traction* (2015). **Uso en esta clase:** diecinueve canales de tracción y el método bullseye de priorización. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Uso en esta clase:** una métrica que importa por etapa y por modelo de negocio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Les Binet y Peter Field — *The Long and the Short of It* (2013). **Uso en esta clase:** equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) — **aporta a esta clase:** el marco de planificación digital: situación, objetivos, estrategia, táctica, acción y control. **Dónde buscarlo:** los capítulos sobre planificación de marketing digital. Registra edición y páginas consultadas en tu nota de lectura.
+- Gabriel Weinberg y Justin Mares — *Traction* (2015) — **aporta a esta clase:** la regla de dedicar la mitad del esfuerzo a producto y la mitad a tracción. **Dónde buscarlo:** los capítulos iniciales sobre la regla 50/50. Registra edición y páginas consultadas en tu nota de lectura.
+- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** la línea trazada de antemano: qué valor haría considerar exitoso el experimento. **Dónde buscarlo:** los capítulos sobre definir el éxito. Registra edición y páginas consultadas en tu nota de lectura.
+- Les Binet y Peter Field — *The Long and the Short of It* (2013) — **aporta a esta clase:** la relación entre participación de voz y crecimiento de participación de mercado. **Dónde buscarlo:** la sección sobre exceso de participación de voz. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

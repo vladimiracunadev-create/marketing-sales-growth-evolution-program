@@ -2,19 +2,34 @@
 title: "Capacidad comercial"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 16
 class: 09
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["roberge", "zoltners", "grove", "ross"]
+anchors: {"grove": "apalancamiento", "roberge": "contratacion-datos", "ross": "especializacion", "zoltners": "territorios"}
 updated: 2026-08-19
 ---
 
 # Clase 16.09 — Capacidad comercial
 
-**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 16 · CRM, pipeline y sales operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 16.08 — *Cuotas y territorios*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tiempo comercial efectivo para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El perfil de contratación derivado del desempeño observado en la propia empresa — Mark Roberge. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Capacidad por vendedor: mecanismo central
 
-**capacidad por vendedor** se entiende aquí como **número de oportunidades que una persona puede trabajar con calidad simultáneamente**. Es la pieza desde la que se inicia el análisis de capacidad comercial: antes de «medir el tiempo comercial efectivo del equipo», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Capacidad por vendedor** se entiende aquí como **número de oportunidades que una persona puede trabajar con calidad simultáneamente**.
 
-La lectura rectora de este bloque es Mark Roberge — *The Sales Acceleration Formula* (2015). **Lente que aporta:** contratación, formación, gestión y demanda comercial gobernadas por datos. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tiempo comercial efectivo**; regístrala con periodo, unidad, población y línea base.
+La capacidad comercial es una restricción física que casi nunca se calcula: cuántas oportunidades puede atender bien una persona en un periodo. Planificar sobre una capacidad inexistente produce pipelines saturados, oportunidades mal atendidas y la conclusión errónea de que el equipo no rinde.
+
+**De dónde viene esta afirmación.** Mark Roberge — *The Sales Acceleration Formula* (2015) aporta la idea que sostiene este bloque: el perfil de contratación derivado del desempeño observado en la propia empresa. Búscala en los capítulos sobre la fórmula de contratación. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tiempo comercial efectivo» debería moverse cuando cambie **capacidad por vendedor**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **tiempo comercial efectivo**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Tiempo comercial efectivo: frontera conceptual y error de clasificación
 
-**Definición operacional:** horas realmente disponibles para actividad de venta tras descontar tareas internas. Su valor está en distinguirlo de **capacidad por vendedor**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** horas realmente disponibles para actividad de venta tras descontar tareas internas. Su valor está en distinguirlo de **capacidad por vendedor**.
 
-Contrasta el problema con Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) —**lente:** diseño de cuotas, territorios e incentivos sin efectos perversos—. Formula dos mini-casos: uno que satisface la definición de **tiempo comercial efectivo** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **oportunidades activas por vendedor** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El tiempo comercial efectivo es la porción del tiempo que se dedica realmente a actividades con clientes, y suele ser mucho menor de lo que se supone. Medirlo durante dos semanas —aunque sea de forma aproximada— revela cuánto se va en tareas administrativas, reuniones internas y coordinación. Esa medición justifica inversiones en automatización mejor que cualquier argumento.
+
+**Contraste bibliográfico.** Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) aporta aquí una distinción concreta: el diseño de territorios y la equidad de oportunidad entre vendedores (los capítulos sobre alineación de territorios). Formula dos mini-casos: uno que satisface la definición de **tiempo comercial efectivo** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «estimar el esfuerzo por tipo de oportunidad», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Rampa de productividad: operacionalización y medición
 
-**rampa de productividad** significa **tiempo que tarda una incorporación en alcanzar desempeño pleno**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Rampa de productividad** significa **tiempo que tarda una incorporación en alcanzar desempeño pleno**.
+
+La rampa de productividad es el tiempo que tarda una persona nueva en alcanzar el desempeño esperado, y es un dato que debe conocerse para planificar contrataciones. Contratar tres meses antes de necesitar la capacidad no es previsión excesiva si la rampa es de cuatro meses: es la única forma de tener la capacidad cuando se necesita.
 
 Ficha de medición obligatoria para **tiempo comercial efectivo**: `horas de actividad comercial, sobre horas laborales totales, por vendedor`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Andrew S. Grove — *High Output Management* (1983) orienta este bloque —**lente:** output gerencial, indicadores adelantados y reuniones como herramienta de producción—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Andrew S. Grove — *High Output Management* (1983) pone una condición sobre la medición: el apalancamiento gerencial: qué actividades multiplican el output (los capítulos sobre apalancamiento). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Capacidad del sistema: trade-offs y efectos de segundo orden
 
-**Definición:** resultado agregado que la estructura actual puede producir. Este concepto obliga a abandonar la idea de que capacidad comercial tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «considerar la rampa antes de proyectar contrataciones», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** resultado agregado que la estructura actual puede producir.
 
-Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) —**lente:** especialización de roles comerciales y generación de pipeline predecible— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **duración de la rampa** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Aumentar la capacidad contratando produce resultado con retraso y compromete costo fijo inmediato. Aumentarla mejorando la eficiencia es más lento y no agrega costo estructural. La decisión debe considerar la rampa, la certeza de la demanda y la reversibilidad, porque revertir una contratación tiene costos humanos y económicos.
+
+**Lo que aporta la fuente.** Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) aporta el criterio para pesar el intercambio: la especialización de roles comerciales: prospección, cierre y gestión separados (los capítulos sobre especialización del equipo). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **duración de la rampa** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **capacidad del sistema** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «ajustar la generación de demanda a la capacidad», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) sirve para contrastar la recomendación final desde otro lente: especialización de roles comerciales y generación de pipeline predecible. La frontera de esta clase es explícita: La capacidad no es fija: depende del proceso, de las herramientas y del tipo de negocio. Mejorar el proceso puede aumentar la capacidad sin contratar. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La capacidad del sistema está limitada por el eslabón más restringido, que no siempre es ventas: puede ser implementación, soporte o producción. Aumentar la capacidad comercial cuando el cuello está aguas abajo produce ventas que la operación no puede cumplir, lo que es peor que no venderlas.
+
+**Frontera declarada.** La capacidad no es fija: depende del proceso, de las herramientas y del tipo de negocio. Mejorar el proceso puede aumentar la capacidad sin contratar. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Tomar decisiones de contratación y presupuesto sobre un pipeline que no representa la realidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Mark Roberge — *The Sales Acceleration Formula* (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Andrew S. Grove — *High Output Management* (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Mark Roberge — *The Sales Acceleration Formula* (2015) | El perfil de contratación derivado del desempeño observado en la propia empresa | Los capítulos sobre la fórmula de contratación | ¿Qué debería observarse en **capacidad por vendedor** si aquí opera «el perfil de contratación derivado del desempeño observado en la propia empresa»? ¿Y qué observación lo desmentiría en este caso? |
+| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) | El diseño de territorios y la equidad de oportunidad entre vendedores | Los capítulos sobre alineación de territorios | ¿Qué debería observarse en **tiempo comercial efectivo** si aquí opera «el diseño de territorios y la equidad de oportunidad entre vendedores»? ¿Y qué observación lo desmentiría en este caso? |
+| Andrew S. Grove — *High Output Management* (1983) | El apalancamiento gerencial: qué actividades multiplican el output | Los capítulos sobre apalancamiento | ¿Qué debería observarse en **rampa de productividad** si aquí opera «el apalancamiento gerencial: qué actividades multiplican el output»? ¿Y qué observación lo desmentiría en este caso? |
+| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | La especialización de roles comerciales: prospección, cierre y gestión separados | Los capítulos sobre especialización del equipo | ¿Qué debería observarse en **capacidad del sistema** si aquí opera «la especialización de roles comerciales: prospección, cierre y gestión separados»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **medir el tiempo comercial efectivo del equipo → estimar el esfuerzo por tipo de oportunidad → calcular la capacidad actual del sistema → considerar la rampa antes de proyectar contrataciones → ajustar la generación de demanda a la capacidad** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tiempo comercial efectivo**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **medir el tiempo comercial efectivo del equipo → estimar el esfuerzo por tipo de oportunidad → calcular la capacidad actual del sistema → considerar la rampa antes de proyectar contrataciones → ajustar la generación de demanda a la capacidad** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tiempo comercial efectivo**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Sales Acceleration Formula* y la de *The Complete Guide to Sales Force Incentive Compensation*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tiempo comercial efectivo** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La capacidad no es fija: depende del proceso, de las herramientas y del tipo de negocio. Mejorar el proceso puede aumentar la capacidad sin contratar»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **rampa de productividad** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tiempo comercial efectivo**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Sales Acceleration Formula* y *Predictable Revenue*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **diseño de sales operations
 
 ## 📗 Fuentes y verificación
 
-- Mark Roberge — *The Sales Acceleration Formula* (2015). **Uso en esta clase:** contratación, formación, gestión y demanda comercial gobernadas por datos. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006). **Uso en esta clase:** diseño de cuotas, territorios e incentivos sin efectos perversos. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Andrew S. Grove — *High Output Management* (1983). **Uso en esta clase:** output gerencial, indicadores adelantados y reuniones como herramienta de producción. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011). **Uso en esta clase:** especialización de roles comerciales y generación de pipeline predecible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Mark Roberge — *The Sales Acceleration Formula* (2015) — **aporta a esta clase:** el perfil de contratación derivado del desempeño observado en la propia empresa. **Dónde buscarlo:** los capítulos sobre la fórmula de contratación. Registra edición y páginas consultadas en tu nota de lectura.
+- Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) — **aporta a esta clase:** el diseño de territorios y la equidad de oportunidad entre vendedores. **Dónde buscarlo:** los capítulos sobre alineación de territorios. Registra edición y páginas consultadas en tu nota de lectura.
+- Andrew S. Grove — *High Output Management* (1983) — **aporta a esta clase:** el apalancamiento gerencial: qué actividades multiplican el output. **Dónde buscarlo:** los capítulos sobre apalancamiento. Registra edición y páginas consultadas en tu nota de lectura.
+- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) — **aporta a esta clase:** la especialización de roles comerciales: prospección, cierre y gestión separados. **Dónde buscarlo:** los capítulos sobre especialización del equipo. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

@@ -2,19 +2,34 @@
 title: "Personalización"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 21
 class: 05
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["thaler", "oneil", "nist-airmf", "cialdini"]
+anchors: {"cialdini": "reciprocidad", "nist-airmf": "contexto", "oneil": "proxy", "thaler": "arquitectura-decision"}
 updated: 2026-08-19
 ---
 
 # Clase 21.05 — Personalización
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 21.04 — *Generación de contenido con controles*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de efecto en conversión para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La arquitectura de la decisión: no existe presentación neutra de las opciones — Richard H. Thaler y Cass R. Sunstein. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Pertinencia percibida: mecanismo central
 
-**pertinencia percibida** se entiende aquí como **grado en que el cliente considera útil la adaptación del mensaje**. Es la pieza desde la que se inicia el análisis de personalización: antes de «identificar qué datos entregó el cliente conscientemente», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Pertinencia percibida** se entiende aquí como **grado en que el cliente considera útil la adaptación del mensaje**.
 
-La lectura rectora de este bloque es Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021). **Lente que aporta:** arquitectura de decisión y límites éticos de la influencia sobre la elección. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **efecto en conversión**; regístrala con periodo, unidad, población y línea base.
+La personalización mejora la pertinencia y cruza un umbral a partir del cual produce incomodidad. Ese umbral no depende de la tecnología sino de la expectativa: cuando el mensaje revela un conocimiento que la persona no recuerda haber entregado, la reacción es de invasión aunque el dato sea público.
+
+**De dónde viene esta afirmación.** Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) aporta la idea que sostiene este bloque: la arquitectura de la decisión: no existe presentación neutra de las opciones. Búscala en los capítulos sobre arquitectura de elección. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «efecto en conversión» debería moverse cuando cambie **pertinencia percibida**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **expectativa de privacidad**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Expectativa de privacidad: frontera conceptual y error de clasificación
 
-**Definición operacional:** supuesto del cliente sobre qué información tiene la empresa y para qué. Su valor está en distinguirlo de **pertinencia percibida**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** supuesto del cliente sobre qué información tiene la empresa y para qué. Su valor está en distinguirlo de **pertinencia percibida**.
 
-Contrasta el problema con Cathy O'Neil — *Weapons of Math Destruction* (2016) —**lente:** daños de los modelos opacos a escala y necesidad de auditoría—. Formula dos mini-casos: uno que satisface la definición de **expectativa de privacidad** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de baja tras personalización** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La expectativa de privacidad es el criterio operativo. Antes de usar un dato para personalizar, la pregunta es si la persona esperaría que se usara así. Cuando la respuesta es dudosa, la salida profesional es no usarlo o declarar explícitamente su origen, que suele desactivar la incomodidad.
+
+**Contraste bibliográfico.** Cathy O'Neil — *Weapons of Math Destruction* (2016) aporta aquí una distinción concreta: las variables sustitutas que codifican prejuicio sin nombrarlo (los capítulos sobre selección de variables). Formula dos mini-casos: uno que satisface la definición de **expectativa de privacidad** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «verificar la finalidad declarada al recogerlos», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Finalidad declarada: operacionalización y medición
 
-**finalidad declarada** significa **uso informado al momento de recoger el dato**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Finalidad declarada** significa **uso informado al momento de recoger el dato**.
+
+La finalidad declarada limita el uso: los datos recogidos para una finalidad no pueden usarse para otra sin nueva base de licitud. Esa restricción es normativa y también práctica, porque el uso fuera de la finalidad es exactamente lo que produce el efecto inquietante que destruye la confianza.
 
 Ficha de medición obligatoria para **efecto en conversión**: `diferencia de conversión entre versión personalizada y estándar`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-NIST — *AI Risk Management Framework 1.0* (2023) orienta este bloque —**lente:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** NIST — *AI Risk Management Framework 1.0* (2023) pone una condición sobre la medición: el riesgo evaluado en el contexto de uso y no en abstracto (la sección sobre mapeo del contexto). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Efecto inquietante: trade-offs y efectos de segundo orden
 
-**Definición:** reacción negativa ante una personalización que revela información inesperada. Este concepto obliga a abandonar la idea de que personalización tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «probar la reacción con un grupo pequeño», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** reacción negativa ante una personalización que revela información inesperada.
 
-Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) —**lente:** principios de influencia y su uso ético en contextos comerciales— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **consultas sobre uso de datos** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Personalizar más aumenta la relevancia y el costo de producción, la complejidad operativa y el riesgo. Personalizar menos es más simple y menos efectivo. La proporción razonable personaliza aquello que mejora claramente la experiencia y deja el resto estándar, en lugar de personalizar por capacidad técnica.
+
+**Lo que aporta la fuente.** Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) aporta el criterio para pesar el intercambio: la reciprocidad: el aporte previo genera disposición a corresponder (el capítulo sobre reciprocidad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **consultas sobre uso de datos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **efecto inquietante** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir efecto en conversión y en bajas», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) sirve para contrastar la recomendación final desde otro lente: principios de influencia y su uso ético en contextos comerciales. La frontera de esta clase es explícita: La normativa de datos personales exige finalidad determinada e información al titular. La personalización basada en inferencias no declaradas es especialmente riesgosa. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La arquitectura de la decisión —cómo se presentan las opciones— nunca es neutra, y la personalización la vuelve individual. Esa combinación exige un control ético explícito: si el destinatario conociera el mecanismo, ¿lo consideraría legítimo? Cuando la respuesta es no, la técnica está operando contra la persona a la que dice servir.
+
+**Frontera declarada.** La normativa de datos personales exige finalidad determinada e información al titular. La personalización basada en inferencias no declaradas es especialmente riesgosa. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) | arquitectura de decisión y límites éticos de la influencia sobre la elección | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Cathy O'Neil — *Weapons of Math Destruction* (2016) | daños de los modelos opacos a escala y necesidad de auditoría | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| NIST — *AI Risk Management Framework 1.0* (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | principios de influencia y su uso ético en contextos comerciales | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) | La arquitectura de la decisión: no existe presentación neutra de las opciones | Los capítulos sobre arquitectura de elección | ¿Qué debería observarse en **pertinencia percibida** si aquí opera «la arquitectura de la decisión: no existe presentación neutra de las opciones»? ¿Y qué observación lo desmentiría en este caso? |
+| Cathy O'Neil — *Weapons of Math Destruction* (2016) | Las variables sustitutas que codifican prejuicio sin nombrarlo | Los capítulos sobre selección de variables | ¿Qué debería observarse en **expectativa de privacidad** si aquí opera «las variables sustitutas que codifican prejuicio sin nombrarlo»? ¿Y qué observación lo desmentiría en este caso? |
+| NIST — *AI Risk Management Framework 1.0* (2023) | El riesgo evaluado en el contexto de uso y no en abstracto | La sección sobre mapeo del contexto | ¿Qué debería observarse en **finalidad declarada** si aquí opera «el riesgo evaluado en el contexto de uso y no en abstracto»? ¿Y qué observación lo desmentiría en este caso? |
+| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | La reciprocidad: el aporte previo genera disposición a corresponder | El capítulo sobre reciprocidad | ¿Qué debería observarse en **efecto inquietante** si aquí opera «la reciprocidad: el aporte previo genera disposición a corresponder»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **identificar qué datos entregó el cliente conscientemente → verificar la finalidad declarada al recogerlos → diseñar la personalización dentro de esa expectativa → probar la reacción con un grupo pequeño → medir efecto en conversión y en bajas** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **efecto en conversión**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **identificar qué datos entregó el cliente conscientemente → verificar la finalidad declarada al recogerlos → diseñar la personalización dentro de esa expectativa → probar la reacción con un grupo pequeño → medir efecto en conversión y en bajas** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **efecto en conversión**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Nudge: The Final Edition* y la de *Weapons of Math Destruction*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **efecto en conversión** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La normativa de datos personales exige finalidad determinada e información al titular. La personalización basada en inferencias no declaradas es especialmente riesgosa»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **finalidad declarada** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **efecto en conversión**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Nudge: The Final Edition* y *Influence: The Psychology of Persuasion, New and Expanded*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating model humano-IA c
 
 ## 📗 Fuentes y verificación
 
-- Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021). **Uso en esta clase:** arquitectura de decisión y límites éticos de la influencia sobre la elección. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Cathy O'Neil — *Weapons of Math Destruction* (2016). **Uso en esta clase:** daños de los modelos opacos a escala y necesidad de auditoría. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- NIST — *AI Risk Management Framework 1.0* (2023). **Uso en esta clase:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021). **Uso en esta clase:** principios de influencia y su uso ético en contextos comerciales. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) — **aporta a esta clase:** la arquitectura de la decisión: no existe presentación neutra de las opciones. **Dónde buscarlo:** los capítulos sobre arquitectura de elección. Registra edición y páginas consultadas en tu nota de lectura.
+- Cathy O'Neil — *Weapons of Math Destruction* (2016) — **aporta a esta clase:** las variables sustitutas que codifican prejuicio sin nombrarlo. **Dónde buscarlo:** los capítulos sobre selección de variables. Registra edición y páginas consultadas en tu nota de lectura.
+- NIST — *AI Risk Management Framework 1.0* (2023) — **aporta a esta clase:** el riesgo evaluado en el contexto de uso y no en abstracto. **Dónde buscarlo:** la sección sobre mapeo del contexto. Registra edición y páginas consultadas en tu nota de lectura.
+- Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) — **aporta a esta clase:** la reciprocidad: el aporte previo genera disposición a corresponder. **Dónde buscarlo:** el capítulo sobre reciprocidad. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

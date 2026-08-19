@@ -4,6 +4,60 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.1.0] — 2026-08-19
+
+Reescritura del contenido de las clases y de su fundamentación bibliográfica. La versión 1.0.0 citaba obras
+correctamente y declaraba el lente general de cada una; una auditoría propia mostró que ese lente era un
+atributo del **libro** y no de la clase —la misma frase servía para las cincuenta y seis clases que citaban
+la misma obra—. Esta versión corrige eso y, con ello, reescribe el desarrollo de las 336 clases.
+
+### Estándar
+
+- Nuevo estándar [`clase-profunda-v2`](docs/ESTANDAR-PEDAGOGICO.md), que sustituye a `clase-profunda-v1` y
+  añade cuatro requisitos: desarrollo redactado clase a clase (R14), anclaje bibliográfico por idea concreta
+  (R8 reformulado), bloque de entrada con prerrequisitos y criterio de término (R15), y criterios de
+  respuesta suficiente para cada pregunta de comprobación (R17).
+- Las clases pasan de 18 a **20 secciones obligatorias**.
+
+### Fundamentación bibliográfica
+
+- Nuevo catálogo [`curriculum/spec/aportes.py`](curriculum/spec/aportes.py) con **395 ideas concretas**
+  atribuidas a las 96 obras: tesis, marcos y distinciones identificables, cada una con la indicación de en
+  qué capítulo o sección buscarla. **No se citan números de página**, porque cambian entre ediciones.
+- Nuevo mapa [`curriculum/spec/anclajes.py`](curriculum/spec/anclajes.py) con **1.344 anclajes**: para cada
+  una de las 336 clases, qué idea de cada una de sus cuatro obras sostiene ese contenido.
+- Nuevo auditor [`tools/audit_fuentes.py`](tools/audit_fuentes.py), incorporado a la integración continua.
+  Rechaza obras citadas sin anclaje, identificadores inexistentes y anclajes idénticos al lente general.
+- El bloque de lectura comparada pasa de una tabla con la misma pregunta crítica en todas las filas a una
+  tabla con la idea anclada, dónde buscarla y una pregunta específica para el diagnóstico de esa clase.
+
+### Contenido de las clases
+
+- **1.680 párrafos de desarrollo redactados clase a clase** en 24 módulos
+  `curriculum/spec/desarrollo_pNN.py`. El generador se detiene si falta el texto de una clase: ninguna puede
+  publicarse con relleno de plantilla.
+- Extensión media por clase de 3.400 a **5.053 palabras**; total del currículo de 1.290.000 a **1.697.915**.
+- Nuevo bloque **🚦 Antes de empezar**: qué traer resuelto, con qué datos se trabaja, materiales, tiempo real
+  y cómo saber que la clase terminó.
+- Nuevo bloque **🗝️ Respuestas orientadoras**: qué debe contener una respuesta suficiente a cada pregunta de
+  comprobación, sin entregar la respuesta.
+- La práctica guiada pasa de una lista de seis pasos a una tabla con qué hacer, con qué material y
+  **criterio de término por paso**.
+
+### Documentación
+
+- El README principal publica la **bibliografía completa**: las 96 obras con autoría, edición, aporte y
+  número de clases que la citan, más las fuentes normativas oficiales con enlace. El bloque se genera con
+  [`tools/build_readme_bibliografia.py`](tools/build_readme_bibliografia.py) y la integración continua
+  verifica que liste exactamente 96 obras.
+- `docs/ESTANDAR-PEDAGOGICO.md` incorpora la sección de fundamentación bibliográfica con sus tres niveles
+  —cita, lente y anclaje— y las prohibiciones asociadas.
+
+### Corregido
+
+- El detector de anglicismos emparejaba mal los asteriscos del énfasis fuerte con los de la cursiva
+  siguiente y dejaba títulos en inglés al descubierto, produciendo 99 falsos positivos.
+
 ## [1.0.0] — 2026-08-19
 
 Primera versión pública del programa. Currículo completo, capa de práctica, documentación, rutas

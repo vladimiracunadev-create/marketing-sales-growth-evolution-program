@@ -2,19 +2,34 @@
 title: "Encaje problema-solución"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 05
 class: 03
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ries-lean", "fitzpatrick", "blank", "cagan"]
+anchors: {"blank": "customer-discovery", "cagan": "descubrimiento", "fitzpatrick": "compromiso", "ries-lean": "mvp"}
 updated: 2026-08-19
 ---
 
 # Clase 05.03 — Encaje problema-solución
 
-**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 05.02 — *Value Proposition Canvas*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de costo del problema declarado para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El producto mínimo viable como experimento y no como versión reducida — Eric Ries. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Problema verificado: mecanismo central
 
-**problema verificado** se entiende aquí como **dificultad documentada con frecuencia, costo y consecuencia para el cliente**. Es la pieza desde la que se inicia el análisis de encaje problema-solución: antes de «documentar el problema con frecuencia y costo», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Problema verificado** se entiende aquí como **dificultad documentada con frecuencia, costo y consecuencia para el cliente**.
 
-La lectura rectora de este bloque es Eric Ries — *The Lean Startup* (2011). **Lente que aporta:** construir-medir-aprender, MVP y decisión de perseverar o pivotar. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **costo del problema declarado**; regístrala con periodo, unidad, población y línea base.
+El encaje problema-solución es anterior al encaje producto-mercado y se confunde con él constantemente. El primero establece que existe un problema real y que tu enfoque lo alivia; el segundo, que existe un mercado dispuesto a pagar de forma repetible. Declarar el segundo cuando sólo tienes el primero produce contrataciones y gasto de adquisición que la operación no puede sostener.
+
+**De dónde viene esta afirmación.** Eric Ries — *The Lean Startup* (2011) aporta la idea que sostiene este bloque: el producto mínimo viable como experimento y no como versión reducida. Búscala en los capítulos sobre el MVP. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «costo del problema declarado» debería moverse cuando cambie **problema verificado**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **intensidad del dolor**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Intensidad del dolor: frontera conceptual y error de clasificación
 
-**Definición operacional:** magnitud del costo que el problema impone y urgencia con que se busca resolverlo. Su valor está en distinguirlo de **problema verificado**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** magnitud del costo que el problema impone y urgencia con que se busca resolverlo. Su valor está en distinguirlo de **problema verificado**.
 
-Contrasta el problema con Rob Fitzpatrick — *The Mom Test* (2013) —**lente:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado—. Formula dos mini-casos: uno que satisface la definición de **intensidad del dolor** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de compromiso previo** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La intensidad del dolor se estima con evidencia de conducta, no con escalas declaradas. Las señales válidas son concretas: el cliente ya gastó dinero intentando resolverlo, dedicó horas de alguien caro, construyó una solución interna precaria. Un problema que nadie intentó resolver es, casi siempre, un problema tolerado, y los problemas tolerados no financian empresas.
+
+**Contraste bibliográfico.** Rob Fitzpatrick — *The Mom Test* (2013) aporta aquí una distinción concreta: el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés (los capítulos sobre compromiso y avance). Formula dos mini-casos: uno que satisface la definición de **intensidad del dolor** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «estimar la intensidad del dolor en el segmento», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Alivio perceptible: operacionalización y medición
 
-**alivio perceptible** significa **reducción del problema que el cliente puede notar sin necesidad de un informe**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Alivio perceptible** significa **reducción del problema que el cliente puede notar sin necesidad de un informe**.
+
+El alivio perceptible se mide comparando el estado antes y después con la unidad que el cliente usa. Si el cliente mide en horas de trabajo semanal, la mejora se expresa en horas, no en porcentajes de eficiencia. La ficha registra la magnitud del alivio y el tiempo que tarda en notarse, porque un alivio real pero lento se percibe como ausencia de alivio.
 
 Ficha de medición obligatoria para **costo del problema declarado**: `monto o tiempo que el cliente estima perder por el problema, por periodo`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) orienta este bloque —**lente:** customer discovery y validación fuera del edificio como proceso reproducible—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) pone una condición sobre la medición: el descubrimiento de clientes como fase previa y separada de la validación (la parte dedicada al customer discovery). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Señal de compromiso: trade-offs y efectos de segundo orden
 
-**Definición:** acción costosa del cliente que confirma que el problema le importa. Este concepto obliga a abandonar la idea de que encaje problema-solución tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «buscar señales de compromiso antes de construir», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** acción costosa del cliente que confirma que el problema le importa.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) —**lente:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **alivio percibido tras piloto** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Buscar más evidencia antes de construir reduce el riesgo de construir lo equivocado y retrasa el aprendizaje que sólo se obtiene con algo funcionando. El equilibrio depende del costo de construir: cuando construir es barato, conviene construir para aprender; cuando es caro, conviene investigar más. Esa estimación debe hacerse explícita antes de decidir el siguiente paso.
+
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: el descubrimiento continuo separado de la entrega (la parte sobre descubrimiento de producto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **alivio percibido tras piloto** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **señal de compromiso** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «decidir avanzar, ajustar o abandonar con criterio previo», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) sirve para contrastar la recomendación final desde otro lente: descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. La frontera de esta clase es explícita: Un problema intenso para pocos puede no sostener un negocio. El encaje problema-solución no reemplaza el dimensionamiento del segmento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El encaje se establece para un segmento y un problema específicos. Un mismo producto puede tener encaje excelente en un segmento y ninguno en otro, y el promedio de ambos no significa nada. Cuando las señales de encaje son ambiguas, la primera hipótesis a revisar no es el producto sino si se está midiendo sobre una población mezclada.
+
+**Frontera declarada.** Un problema intenso para pocos puede no sostener un negocio. El encaje problema-solución no reemplaza el dimensionamiento del segmento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resultados que la operación no puede sostener y generar churn temprano.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Eric Ries — *The Lean Startup* (2011) | construir-medir-aprender, MVP y decisión de perseverar o pivotar | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Rob Fitzpatrick — *The Mom Test* (2013) | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) | customer discovery y validación fuera del edificio como proceso reproducible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Marty Cagan — *Inspired* (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Eric Ries — *The Lean Startup* (2011) | El producto mínimo viable como experimento y no como versión reducida | Los capítulos sobre el MVP | ¿Qué debería observarse en **problema verificado** si aquí opera «el producto mínimo viable como experimento y no como versión reducida»? ¿Y qué observación lo desmentiría en este caso? |
+| Rob Fitzpatrick — *The Mom Test* (2013) | El compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés | Los capítulos sobre compromiso y avance | ¿Qué debería observarse en **intensidad del dolor** si aquí opera «el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés»? ¿Y qué observación lo desmentiría en este caso? |
+| Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) | El descubrimiento de clientes como fase previa y separada de la validación | La parte dedicada al customer discovery | ¿Qué debería observarse en **alivio perceptible** si aquí opera «el descubrimiento de clientes como fase previa y separada de la validación»? ¿Y qué observación lo desmentiría en este caso? |
+| Marty Cagan — *Inspired* (2017, 2.ª ed.) | El descubrimiento continuo separado de la entrega | La parte sobre descubrimiento de producto | ¿Qué debería observarse en **señal de compromiso** si aquí opera «el descubrimiento continuo separado de la entrega»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **documentar el problema con frecuencia y costo → estimar la intensidad del dolor en el segmento → verificar que la solución produce alivio perceptible → buscar señales de compromiso antes de construir → decidir avanzar, ajustar o abandonar con criterio previo** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **costo del problema declarado**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **documentar el problema con frecuencia y costo → estimar la intensidad del dolor en el segmento → verificar que la solución produce alivio perceptible → buscar señales de compromiso antes de construir → decidir avanzar, ajustar o abandonar con criterio previo** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **costo del problema declarado**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Lean Startup* y la de *The Mom Test*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **costo del problema declarado** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un problema intenso para pocos puede no sostener un negocio. El encaje problema-solución no reemplaza el dimensionamiento del segmento»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **alivio perceptible** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **costo del problema declarado**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Lean Startup* y *Inspired*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **oferta lista para vender co
 
 ## 📗 Fuentes y verificación
 
-- Eric Ries — *The Lean Startup* (2011). **Uso en esta clase:** construir-medir-aprender, MVP y decisión de perseverar o pivotar. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Rob Fitzpatrick — *The Mom Test* (2013). **Uso en esta clase:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012). **Uso en esta clase:** customer discovery y validación fuera del edificio como proceso reproducible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Marty Cagan — *Inspired* (2017, 2.ª ed.). **Uso en esta clase:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Eric Ries — *The Lean Startup* (2011) — **aporta a esta clase:** el producto mínimo viable como experimento y no como versión reducida. **Dónde buscarlo:** los capítulos sobre el MVP. Registra edición y páginas consultadas en tu nota de lectura.
+- Rob Fitzpatrick — *The Mom Test* (2013) — **aporta a esta clase:** el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés. **Dónde buscarlo:** los capítulos sobre compromiso y avance. Registra edición y páginas consultadas en tu nota de lectura.
+- Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) — **aporta a esta clase:** el descubrimiento de clientes como fase previa y separada de la validación. **Dónde buscarlo:** la parte dedicada al customer discovery. Registra edición y páginas consultadas en tu nota de lectura.
+- Marty Cagan — *Inspired* (2017, 2.ª ed.) — **aporta a esta clase:** el descubrimiento continuo separado de la entrega. **Dónde buscarlo:** la parte sobre descubrimiento de producto. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

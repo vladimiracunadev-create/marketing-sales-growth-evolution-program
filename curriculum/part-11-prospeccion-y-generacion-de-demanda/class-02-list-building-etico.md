@@ -2,19 +2,34 @@
 title: "Construcción ética de listas"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 11
 class: 02
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["blount", "godin", "handley", "oneil"]
+anchors: {"blount": "cadencia", "godin": "permiso", "handley": "empatia", "oneil": "proxy"}
 updated: 2026-08-19
 ---
 
 # Clase 11.02 — Construcción ética de listas
 
-**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 11.01 — *Generación de demanda versus generación de leads*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de rebote para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La cadencia multicanal equilibrada en lugar de un solo canal saturado — Jeb Blount. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Base de licitud: mecanismo central
 
-**base de licitud** se entiende aquí como **fundamento jurídico que habilita el tratamiento de los datos personales**. Es la pieza desde la que se inicia el análisis de construcción ética de listas: antes de «definir el perfil objetivo antes de construir la lista», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Base de licitud** se entiende aquí como **fundamento jurídico que habilita el tratamiento de los datos personales**.
 
-La lectura rectora de este bloque es Jeb Blount — *Fanatical Prospecting* (2015). **Lente que aporta:** disciplina de prospección, cadencia y gestión del rechazo. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de rebote**; regístrala con periodo, unidad, población y línea base.
+Construir una lista de prospección tiene una dimensión técnica y una legal, y la segunda define los límites de la primera. La pregunta previa a cualquier campaña no es cómo obtener más contactos sino con qué base jurídica se tratarán esos datos. En Chile, la Ley 21.719 establece obligaciones concretas sobre licitud, finalidad y derechos del titular que hay que verificar en su texto vigente.
+
+**De dónde viene esta afirmación.** Jeb Blount — *Fanatical Prospecting* (2015) aporta la idea que sostiene este bloque: la cadencia multicanal equilibrada en lugar de un solo canal saturado. Búscala en los capítulos sobre metodología de prospección. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de rebote» debería moverse cuando cambie **base de licitud**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **dato verificado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Dato verificado: frontera conceptual y error de clasificación
 
-**Definición operacional:** información de contacto confirmada y vigente, con fuente registrada. Su valor está en distinguirlo de **base de licitud**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** información de contacto confirmada y vigente, con fuente registrada. Su valor está en distinguirlo de **base de licitud**.
 
-Contrasta el problema con Seth Godin — *This Is Marketing* (2018) —**lente:** marketing como servicio a un público mínimo viable y construcción de confianza—. Formula dos mini-casos: uno que satisface la definición de **dato verificado** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de reclamos por spam** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El dato verificado se distingue del dato comprado. Una lista adquirida a un tercero traslada un riesgo que no se conoce: no se sabe cómo se obtuvo ni si el titular consintió. Además de la exposición legal, la calidad suele ser baja y el daño a la reputación del dominio de correo es difícil de revertir.
+
+**Contraste bibliográfico.** Seth Godin — *This Is Marketing* (2018) aporta aquí una distinción concreta: el permiso como activo: el derecho a comunicarse con quien espera el mensaje (los capítulos sobre marketing de permiso). Formula dos mini-casos: uno que satisface la definición de **dato verificado** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «identificar la base de licitud del tratamiento», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Reputación de dominio: operacionalización y medición
 
-**reputación de dominio** significa **estado del remitente ante los proveedores de correo, afectado por rebotes y reclamos**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Reputación de dominio** significa **estado del remitente ante los proveedores de correo, afectado por rebotes y reclamos**.
+
+La reputación de dominio es un activo técnico que se mide con indicadores concretos: tasa de rebote, proporción de marcas como no deseado, tasa de entrega efectiva. Una campaña masiva sobre una lista de mala calidad puede deteriorarla en días y afectar durante meses la capacidad de comunicarse incluso con clientes vigentes.
 
 Ficha de medición obligatoria para **tasa de rebote**: `correos rebotados, sobre correos enviados, por campaña`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Ann Handley — *Everybody Writes* (2022, 2.ª ed.) orienta este bloque —**lente:** estándar editorial: claridad, utilidad y empatía en la escritura comercial—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Ann Handley — *Everybody Writes* (2022, 2.ª ed.) pone una condición sobre la medición: la escritura desde el problema del lector y en su vocabulario (los capítulos sobre empatía con el lector). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Derecho del titular: trade-offs y efectos de segundo orden
 
-**Definición:** facultad de la persona de acceder, rectificar, oponerse y solicitar la eliminación de sus datos. Este concepto obliga a abandonar la idea de que construcción ética de listas tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «habilitar mecanismos de oposición y eliminación», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** facultad de la persona de acceder, rectificar, oponerse y solicitar la eliminación de sus datos.
 
-Cathy O'Neil — *Weapons of Math Destruction* (2016) —**lente:** daños de los modelos opacos a escala y necesidad de auditoría— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **contactos con fuente documentada** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Una lista amplia aumenta el alcance y reduce la relevancia y el cumplimiento; una acotada permite personalización y verificación, con menor volumen. La decisión no es sólo de eficacia: el costo esperado de una infracción y el daño reputacional deben entrar en el cálculo, y rara vez lo hacen porque no aparecen en el tablero de campañas.
+
+**Lo que aporta la fuente.** Cathy O'Neil — *Weapons of Math Destruction* (2016) aporta el criterio para pesar el intercambio: las variables sustitutas que codifican prejuicio sin nombrarlo (los capítulos sobre selección de variables). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **contactos con fuente documentada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **derecho del titular** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «monitorear reputación de dominio y tasa de reclamos», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Cathy O'Neil — *Weapons of Math Destruction* (2016) sirve para contrastar la recomendación final desde otro lente: daños de los modelos opacos a escala y necesidad de auditoría. La frontera de esta clase es explícita: El cumplimiento formal no basta: una comunicación técnicamente lícita pero irrelevante destruye reputación comercial igual que una ilícita. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El derecho del titular a oponerse debe poder ejercerse en todos los canales y con efecto inmediato. Eso exige un mecanismo técnico que registre la oposición de forma centralizada, no una lista por campaña. Verificar que ese mecanismo existe y funciona antes de iniciar cualquier actividad de prospección es una obligación, no una buena práctica.
+
+**Frontera declarada.** El cumplimiento formal no basta: una comunicación técnicamente lícita pero irrelevante destruye reputación comercial igual que una ilícita. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Infringir normas de datos personales y consumo, y quemar el activo reputacional del dominio.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Jeb Blount — *Fanatical Prospecting* (2015) | disciplina de prospección, cadencia y gestión del rechazo | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Cathy O'Neil — *Weapons of Math Destruction* (2016) | daños de los modelos opacos a escala y necesidad de auditoría | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Jeb Blount — *Fanatical Prospecting* (2015) | La cadencia multicanal equilibrada en lugar de un solo canal saturado | Los capítulos sobre metodología de prospección | ¿Qué debería observarse en **base de licitud** si aquí opera «la cadencia multicanal equilibrada en lugar de un solo canal saturado»? ¿Y qué observación lo desmentiría en este caso? |
+| Seth Godin — *This Is Marketing* (2018) | El permiso como activo: el derecho a comunicarse con quien espera el mensaje | Los capítulos sobre marketing de permiso | ¿Qué debería observarse en **dato verificado** si aquí opera «el permiso como activo: el derecho a comunicarse con quien espera el mensaje»? ¿Y qué observación lo desmentiría en este caso? |
+| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | La escritura desde el problema del lector y en su vocabulario | Los capítulos sobre empatía con el lector | ¿Qué debería observarse en **reputación de dominio** si aquí opera «la escritura desde el problema del lector y en su vocabulario»? ¿Y qué observación lo desmentiría en este caso? |
+| Cathy O'Neil — *Weapons of Math Destruction* (2016) | Las variables sustitutas que codifican prejuicio sin nombrarlo | Los capítulos sobre selección de variables | ¿Qué debería observarse en **derecho del titular** si aquí opera «las variables sustitutas que codifican prejuicio sin nombrarlo»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir el perfil objetivo antes de construir la lista → identificar la base de licitud del tratamiento → verificar y documentar la fuente de cada contacto → habilitar mecanismos de oposición y eliminación → monitorear reputación de dominio y tasa de reclamos** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de rebote**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir el perfil objetivo antes de construir la lista → identificar la base de licitud del tratamiento → verificar y documentar la fuente de cada contacto → habilitar mecanismos de oposición y eliminación → monitorear reputación de dominio y tasa de reclamos** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de rebote**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Fanatical Prospecting* y la de *This Is Marketing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de rebote** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El cumplimiento formal no basta: una comunicación técnicamente lícita pero irrelevante destruye reputación comercial igual que una ilícita»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **reputación de dominio** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de rebote**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Fanatical Prospecting* y *Weapons of Math Destruction*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema de prospección con
 
 ## 📗 Fuentes y verificación
 
-- Jeb Blount — *Fanatical Prospecting* (2015). **Uso en esta clase:** disciplina de prospección, cadencia y gestión del rechazo. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Seth Godin — *This Is Marketing* (2018). **Uso en esta clase:** marketing como servicio a un público mínimo viable y construcción de confianza. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Ann Handley — *Everybody Writes* (2022, 2.ª ed.). **Uso en esta clase:** estándar editorial: claridad, utilidad y empatía en la escritura comercial. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Cathy O'Neil — *Weapons of Math Destruction* (2016). **Uso en esta clase:** daños de los modelos opacos a escala y necesidad de auditoría. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Jeb Blount — *Fanatical Prospecting* (2015) — **aporta a esta clase:** la cadencia multicanal equilibrada en lugar de un solo canal saturado. **Dónde buscarlo:** los capítulos sobre metodología de prospección. Registra edición y páginas consultadas en tu nota de lectura.
+- Seth Godin — *This Is Marketing* (2018) — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. Registra edición y páginas consultadas en tu nota de lectura.
+- Ann Handley — *Everybody Writes* (2022, 2.ª ed.) — **aporta a esta clase:** la escritura desde el problema del lector y en su vocabulario. **Dónde buscarlo:** los capítulos sobre empatía con el lector. Registra edición y páginas consultadas en tu nota de lectura.
+- Cathy O'Neil — *Weapons of Math Destruction* (2016) — **aporta a esta clase:** las variables sustitutas que codifican prejuicio sin nombrarlo. **Dónde buscarlo:** los capítulos sobre selección de variables. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

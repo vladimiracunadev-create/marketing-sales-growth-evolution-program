@@ -2,19 +2,34 @@
 title: "Medios pagados y subastas"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 14
 class: 01
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["geddes", "kaushik", "chaffey", "ogilvy"]
+anchors: {"chaffey": "modelo-canal", "geddes": "subasta", "kaushik": "so-what", "ogilvy": "investigacion"}
 updated: 2026-08-19
 ---
 
 # Clase 14.01 — Medios pagados y subastas
 
-**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | Ninguna clase previa dentro de esta parte. Si vienes de otra parte, ten a la vista su artefacto final; si empiezas el programa aquí, lee antes `docs/RUTA-DE-APRENDIZAJE.md`. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de costo por resultado para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La mecánica de la subasta: no gana quien más paga sino quien combina oferta y relevancia — Brad Geddes. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Subasta publicitaria: mecanismo central
 
-**subasta publicitaria** se entiende aquí como **mecanismo que asigna impresiones combinando oferta y calidad estimada**. Es la pieza desde la que se inicia el análisis de medios pagados y subastas: antes de «definir la unidad de resultado que se compra», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Subasta publicitaria** se entiende aquí como **mecanismo que asigna impresiones combinando oferta y calidad estimada**.
 
-La lectura rectora de este bloque es Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.). **Lente que aporta:** estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **costo por resultado**; regístrala con periodo, unidad, población y línea base.
+La publicidad digital se compra en subastas y esa mecánica define casi todo lo demás. No gana quien más paga sino quien combina oferta y relevancia estimada, porque la plataforma optimiza su propio ingreso por impresión. Entender eso cambia la estrategia: mejorar la relevancia reduce el costo sin gastar más, y es la palanca más rentable disponible.
+
+**De dónde viene esta afirmación.** Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) aporta la idea que sostiene este bloque: la mecánica de la subasta: no gana quien más paga sino quien combina oferta y relevancia. Búscala en los capítulos sobre funcionamiento de la subasta. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «costo por resultado» debería moverse cuando cambie **subasta publicitaria**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **relevancia estimada**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Relevancia estimada: frontera conceptual y error de clasificación
 
-**Definición operacional:** evaluación de la plataforma sobre la correspondencia entre anuncio y audiencia. Su valor está en distinguirlo de **subasta publicitaria**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** evaluación de la plataforma sobre la correspondencia entre anuncio y audiencia. Su valor está en distinguirlo de **subasta publicitaria**.
 
-Contrasta el problema con Avinash Kaushik — *Web Analytics 2.0* (2009) —**lente:** medición orientada a decisión, segmentación y crítica del dato de vanidad—. Formula dos mini-casos: uno que satisface la definición de **relevancia estimada** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **indicador de relevancia** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La relevancia estimada es una predicción de la plataforma sobre si el anuncio interesará a quien lo vea. Se construye con señales que la empresa controla parcialmente: correspondencia entre término, anuncio y página de destino; historial de interacción; calidad de la experiencia posterior. Mejorar esas señales es trabajo comercial, no configuración técnica.
+
+**Contraste bibliográfico.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta aquí una distinción concreta: la prueba del «¿y entonces qué?» aplicada tres veces a cada informe (los capítulos sobre informes accionables). Formula dos mini-casos: uno que satisface la definición de **relevancia estimada** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «medir el costo por resultado actual como línea base», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Costo por resultado: operacionalización y medición
 
-**costo por resultado** significa **gasto dividido por la unidad de resultado que se compra**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Costo por resultado** significa **gasto dividido por la unidad de resultado que se compra**.
+
+El costo por resultado es la métrica que ordena la evaluación, y exige definir qué cuenta como resultado. Optimizar por clics produce clics; optimizar por conversión produce conversiones de la calidad que el evento de conversión defina. Un evento de conversión mal definido —una visita a una página, por ejemplo— hace que toda la optimización trabaje hacia el lugar equivocado.
 
 Ficha de medición obligatoria para **costo por resultado**: `gasto del periodo dividido por unidades de resultado obtenidas`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) orienta este bloque —**lente:** planificación digital integrada: canales, medición y gobierno—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) pone una condición sobre la medición: el modelo de contribución de canal a la conversión (los capítulos sobre estrategia de canales). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Competencia por audiencia: trade-offs y efectos de segundo orden
 
-**Definición:** presión de precio provocada por otros anunciantes que buscan al mismo público. Este concepto obliga a abandonar la idea de que medios pagados y subastas tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «monitorear la competencia por la audiencia», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** presión de precio provocada por otros anunciantes que buscan al mismo público.
 
-David Ogilvy — *Ogilvy on Advertising* (1983) —**lente:** disciplina publicitaria basada en investigación, oferta clara y respeto por el lector— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tasa de impresiones perdidas** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Aumentar la oferta gana más subastas y sube el costo por resultado; reducirla protege la eficiencia y pierde volumen. La curva no es lineal: existe un punto a partir del cual cada unidad adicional de volumen cuesta desproporcionadamente. Encontrar ese punto con datos propios es más útil que cualquier referencia de industria.
+
+**Lo que aporta la fuente.** David Ogilvy — *Ogilvy on Advertising* (1983) aporta el criterio para pesar el intercambio: la publicidad basada en investigación previa y no en intuición creativa (los capítulos sobre cómo producir publicidad que venda). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de impresiones perdidas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **competencia por audiencia** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «fijar el costo máximo admisible según la economía unitaria», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-David Ogilvy — *Ogilvy on Advertising* (1983) sirve para contrastar la recomendación final desde otro lente: disciplina publicitaria basada en investigación, oferta clara y respeto por el lector. La frontera de esta clase es explícita: Las plataformas cambian sus mecánicas y su información. Construir un modelo detallado sobre supuestos de la subasta actual tiene fecha de vencimiento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La competencia por audiencia es dinámica y ajena: un competidor que aumenta su presupuesto encarece el tuyo sin que cambie nada en tu operación. Por eso los indicadores de costo deben interpretarse en contexto y no como medida directa de la gestión del equipo. Un alza de costo puede ser un cambio del mercado y no una falla de optimización.
+
+**Frontera declarada.** Las plataformas cambian sus mecánicas y su información. Construir un modelo detallado sobre supuestos de la subasta actual tiene fecha de vencimiento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Atribuirse demanda existente, inflar el retorno y decidir presupuesto sobre una ilusión.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Avinash Kaushik — *Web Analytics 2.0* (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| David Ogilvy — *Ogilvy on Advertising* (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) | La mecánica de la subasta: no gana quien más paga sino quien combina oferta y relevancia | Los capítulos sobre funcionamiento de la subasta | ¿Qué debería observarse en **subasta publicitaria** si aquí opera «la mecánica de la subasta: no gana quien más paga sino quien combina oferta y relevancia»? ¿Y qué observación lo desmentiría en este caso? |
+| Avinash Kaushik — *Web Analytics 2.0* (2009) | La prueba del «¿y entonces qué?» aplicada tres veces a cada informe | Los capítulos sobre informes accionables | ¿Qué debería observarse en **relevancia estimada** si aquí opera «la prueba del «¿y entonces qué?» aplicada tres veces a cada informe»? ¿Y qué observación lo desmentiría en este caso? |
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El modelo de contribución de canal a la conversión | Los capítulos sobre estrategia de canales | ¿Qué debería observarse en **costo por resultado** si aquí opera «el modelo de contribución de canal a la conversión»? ¿Y qué observación lo desmentiría en este caso? |
+| David Ogilvy — *Ogilvy on Advertising* (1983) | La publicidad basada en investigación previa y no en intuición creativa | Los capítulos sobre cómo producir publicidad que venda | ¿Qué debería observarse en **competencia por audiencia** si aquí opera «la publicidad basada en investigación previa y no en intuición creativa»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir la unidad de resultado que se compra → medir el costo por resultado actual como línea base → mejorar relevancia antes de aumentar la oferta → monitorear la competencia por la audiencia → fijar el costo máximo admisible según la economía unitaria** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **costo por resultado**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir la unidad de resultado que se compra → medir el costo por resultado actual como línea base → mejorar relevancia antes de aumentar la oferta → monitorear la competencia por la audiencia → fijar el costo máximo admisible según la economía unitaria** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **costo por resultado**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Advanced Google AdWords* y la de *Web Analytics 2.0*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **costo por resultado** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Las plataformas cambian sus mecánicas y su información. Construir un modelo detallado sobre supuestos de la subasta actual tiene fecha de vencimiento»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **costo por resultado** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **costo por resultado**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Advanced Google AdWords* y *Ogilvy on Advertising*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan de performance con est
 
 ## 📗 Fuentes y verificación
 
-- Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.). **Uso en esta clase:** estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Avinash Kaushik — *Web Analytics 2.0* (2009). **Uso en esta clase:** medición orientada a decisión, segmentación y crítica del dato de vanidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Uso en esta clase:** planificación digital integrada: canales, medición y gobierno. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- David Ogilvy — *Ogilvy on Advertising* (1983). **Uso en esta clase:** disciplina publicitaria basada en investigación, oferta clara y respeto por el lector. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) — **aporta a esta clase:** la mecánica de la subasta: no gana quien más paga sino quien combina oferta y relevancia. **Dónde buscarlo:** los capítulos sobre funcionamiento de la subasta. Registra edición y páginas consultadas en tu nota de lectura.
+- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** la prueba del «¿y entonces qué?» aplicada tres veces a cada informe. **Dónde buscarlo:** los capítulos sobre informes accionables. Registra edición y páginas consultadas en tu nota de lectura.
+- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) — **aporta a esta clase:** el modelo de contribución de canal a la conversión. **Dónde buscarlo:** los capítulos sobre estrategia de canales. Registra edición y páginas consultadas en tu nota de lectura.
+- David Ogilvy — *Ogilvy on Advertising* (1983) — **aporta a esta clase:** la publicidad basada en investigación previa y no en intuición creativa. **Dónde buscarlo:** los capítulos sobre cómo producir publicidad que venda. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

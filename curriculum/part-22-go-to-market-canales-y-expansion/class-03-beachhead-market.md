@@ -2,19 +2,34 @@
 title: "Beachhead market"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 22
 class: 03
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["moore", "rumelt", "godin", "porter-hbr"]
+anchors: {"godin": "publico-minimo", "moore": "referencias", "porter-hbr": "renuncia", "rumelt": "foco"}
 updated: 2026-08-19
 ---
 
 # Clase 22.03 — Beachhead market
 
-**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 22.02 — *Entrada a un mercado*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de participación en el segmento para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las referencias dentro del mismo segmento como mecanismo de adopción — Geoffrey A. Moore. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Cabeza de playa: mecanismo central
 
-**cabeza de playa** se entiende aquí como **segmento inicial elegido por su capacidad de generar dominancia y referencia**. Es la pieza desde la que se inicia el análisis de beachhead market: antes de «evaluar segmentos por dominancia alcanzable y no por tamaño», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Cabeza de playa** se entiende aquí como **segmento inicial elegido por su capacidad de generar dominancia y referencia**.
 
-La lectura rectora de este bloque es Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.). **Lente que aporta:** adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **participación en el segmento**; regístrala con periodo, unidad, población y línea base.
+La cabeza de playa es el segmento donde se puede alcanzar una posición dominante con los recursos disponibles. Su elección no busca el mercado más grande sino aquel donde la victoria es posible y desde el cual se puede expandir. Geoffrey Moore insistió en que la dominancia en un segmento pequeño vale más que la presencia marginal en uno grande.
+
+**De dónde viene esta afirmación.** Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) aporta la idea que sostiene este bloque: las referencias dentro del mismo segmento como mecanismo de adopción. Búscala en los capítulos sobre segmentación y referencias. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «participación en el segmento» debería moverse cuando cambie **cabeza de playa**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **masa crítica**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Masa crítica: frontera conceptual y error de clasificación
 
-**Definición operacional:** nivel de presencia que hace que la marca sea conocida dentro del segmento. Su valor está en distinguirlo de **cabeza de playa**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** nivel de presencia que hace que la marca sea conocida dentro del segmento. Su valor está en distinguirlo de **cabeza de playa**.
 
-Contrasta el problema con Richard Rumelt — *Good Strategy / Bad Strategy* (2011) —**lente:** diagnóstico, política rectora y acción coherente frente a la estrategia decorativa—. Formula dos mini-casos: uno que satisface la definición de **masa crítica** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **referencias internas** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La masa crítica es el punto a partir del cual las referencias circulan solas dentro del segmento. Alcanzarla exige concentración: clientes suficientes en el mismo círculo como para que hablen entre sí. Repartir los mismos clientes en cinco segmentos distintos impide que ese mecanismo se active en ninguno.
+
+**Contraste bibliográfico.** Richard Rumelt — *Good Strategy / Bad Strategy* (2011) aporta aquí una distinción concreta: la concentración de recursos en un punto donde produzcan efecto desproporcionado (los capítulos sobre foco y palanca). Formula dos mini-casos: uno que satisface la definición de **masa crítica** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «verificar la circulación interna de referencias», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Circulación de referencias: operacionalización y medición
 
-**circulación de referencias** significa **grado en que los actores del segmento se comunican entre sí**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Circulación de referencias** significa **grado en que los actores del segmento se comunican entre sí**.
+
+La circulación de referencias se puede observar: qué proporción de las oportunidades nuevas menciona a un cliente existente, y si esas menciones se concentran en un segmento. Ese indicador señala si la cabeza de playa está funcionando como tal o si sólo es una etiqueta aplicada a la cartera actual.
 
 Ficha de medición obligatoria para **participación en el segmento**: `clientes atendidos, sobre universo estimado del segmento`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Seth Godin — *This Is Marketing* (2018) orienta este bloque —**lente:** marketing como servicio a un público mínimo viable y construcción de confianza—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Seth Godin — *This Is Marketing* (2018) pone una condición sobre la medición: el público mínimo viable: servir a los pocos que sí quieren esto (los capítulos sobre el público mínimo viable). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Adyacencia: trade-offs y efectos de segundo orden
 
-**Definición:** segmento vecino accesible desde la posición conquistada. Este concepto obliga a abandonar la idea de que beachhead market tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «medir participación dentro del segmento», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** segmento vecino accesible desde la posición conquistada.
 
-Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) —**lente:** estrategia como sistema de actividades coherentes y elección explícita de qué no hacer— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **concentración de recursos** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Concentrarse en un segmento acelera la construcción de posición y renuncia a oportunidades atractivas fuera de él. Esa renuncia es la parte difícil y la que define si la estrategia existe: una cabeza de playa que no implica rechazar negocios no está restringiendo nada.
+
+**Lo que aporta la fuente.** Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) aporta el criterio para pesar el intercambio: la elección estratégica implica renunciar deliberadamente a opciones (la sección sobre trade-offs). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **concentración de recursos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **adyacencia** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «definir la condición que autoriza expandir a la adyacencia», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) sirve para contrastar la recomendación final desde otro lente: estrategia como sistema de actividades coherentes y elección explícita de qué no hacer. La frontera de esta clase es explícita: Un segmento demasiado pequeño puede no sostener la operación mientras se construye la posición. El tamaño mínimo importa aunque no sea el criterio principal. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La adyacencia debe evaluarse al elegir, no después. Un segmento excelente pero aislado —sin vecindad con otros que compartan problema, lenguaje o redes— puede ser un buen negocio y un mal punto de partida. La pregunta al elegir es hacia dónde se sale, no sólo dónde se entra.
+
+**Frontera declarada.** Un segmento demasiado pequeño puede no sostener la operación mientras se construye la posición. El tamaño mínimo importa aunque no sea el criterio principal. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Abrir frentes simultáneos sin capacidad, diluir foco y llegar tarde a todos.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Richard Rumelt — *Good Strategy / Bad Strategy* (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) | Las referencias dentro del mismo segmento como mecanismo de adopción | Los capítulos sobre segmentación y referencias | ¿Qué debería observarse en **cabeza de playa** si aquí opera «las referencias dentro del mismo segmento como mecanismo de adopción»? ¿Y qué observación lo desmentiría en este caso? |
+| Richard Rumelt — *Good Strategy / Bad Strategy* (2011) | La concentración de recursos en un punto donde produzcan efecto desproporcionado | Los capítulos sobre foco y palanca | ¿Qué debería observarse en **masa crítica** si aquí opera «la concentración de recursos en un punto donde produzcan efecto desproporcionado»? ¿Y qué observación lo desmentiría en este caso? |
+| Seth Godin — *This Is Marketing* (2018) | El público mínimo viable: servir a los pocos que sí quieren esto | Los capítulos sobre el público mínimo viable | ¿Qué debería observarse en **circulación de referencias** si aquí opera «el público mínimo viable: servir a los pocos que sí quieren esto»? ¿Y qué observación lo desmentiría en este caso? |
+| Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | La elección estratégica implica renunciar deliberadamente a opciones | La sección sobre trade-offs | ¿Qué debería observarse en **adyacencia** si aquí opera «la elección estratégica implica renunciar deliberadamente a opciones»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **evaluar segmentos por dominancia alcanzable y no por tamaño → verificar la circulación interna de referencias → concentrar recursos hasta alcanzar masa crítica → medir participación dentro del segmento → definir la condición que autoriza expandir a la adyacencia** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **participación en el segmento**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **evaluar segmentos por dominancia alcanzable y no por tamaño → verificar la circulación interna de referencias → concentrar recursos hasta alcanzar masa crítica → medir participación dentro del segmento → definir la condición que autoriza expandir a la adyacencia** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **participación en el segmento**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Crossing the Chasm* y la de *Good Strategy / Bad Strategy*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **participación en el segmento** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un segmento demasiado pequeño puede no sostener la operación mientras se construye la posición. El tamaño mínimo importa aunque no sea el criterio principal»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **circulación de referencias** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **participación en el segmento**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Crossing the Chasm* y *What Is Strategy? (Harvard Business Review)*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan GTM completo con beach
 
 ## 📗 Fuentes y verificación
 
-- Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.). **Uso en esta clase:** adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Richard Rumelt — *Good Strategy / Bad Strategy* (2011). **Uso en esta clase:** diagnóstico, política rectora y acción coherente frente a la estrategia decorativa. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Seth Godin — *This Is Marketing* (2018). **Uso en esta clase:** marketing como servicio a un público mínimo viable y construcción de confianza. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996). **Uso en esta clase:** estrategia como sistema de actividades coherentes y elección explícita de qué no hacer. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) — **aporta a esta clase:** las referencias dentro del mismo segmento como mecanismo de adopción. **Dónde buscarlo:** los capítulos sobre segmentación y referencias. Registra edición y páginas consultadas en tu nota de lectura.
+- Richard Rumelt — *Good Strategy / Bad Strategy* (2011) — **aporta a esta clase:** la concentración de recursos en un punto donde produzcan efecto desproporcionado. **Dónde buscarlo:** los capítulos sobre foco y palanca. Registra edición y páginas consultadas en tu nota de lectura.
+- Seth Godin — *This Is Marketing* (2018) — **aporta a esta clase:** el público mínimo viable: servir a los pocos que sí quieren esto. **Dónde buscarlo:** los capítulos sobre el público mínimo viable. Registra edición y páginas consultadas en tu nota de lectura.
+- Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) — **aporta a esta clase:** la elección estratégica implica renunciar deliberadamente a opciones. **Dónde buscarlo:** la sección sobre trade-offs. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

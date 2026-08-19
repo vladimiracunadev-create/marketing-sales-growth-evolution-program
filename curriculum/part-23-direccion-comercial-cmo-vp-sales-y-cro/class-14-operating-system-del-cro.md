@@ -2,19 +2,34 @@
 title: "Operating system del CRO"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 23
 class: 14
 level: Dirección y Capstone
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["grove", "doerr", "collins", "kaplan-norton"]
+anchors: {"collins": "erizo", "doerr": "seguimiento", "grove": "apalancamiento", "kaplan-norton": "mapa-estrategico"}
 updated: 2026-08-19
 ---
 
 # Clase 23.14 — Operating system del CRO
 
-**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 23.13 — *Reporte al directorio*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de decisiones tomadas sin escalamiento para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El apalancamiento gerencial: qué actividades multiplican el output — Andrew S. Grove. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Sistema de dirección: mecanismo central
 
-**sistema de dirección** se entiende aquí como **conjunto de estructuras, rutinas e indicadores que gobiernan la función de ingresos**. Es la pieza desde la que se inicia el análisis de operating system del CRO: antes de «consolidar estructura, roles y responsabilidades», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Sistema de dirección** se entiende aquí como **conjunto de estructuras, rutinas e indicadores que gobiernan la función de ingresos**.
 
-La lectura rectora de este bloque es Andrew S. Grove — *High Output Management* (1983). **Lente que aporta:** output gerencial, indicadores adelantados y reuniones como herramienta de producción. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **decisiones tomadas sin escalamiento**; regístrala con periodo, unidad, población y línea base.
+Un sistema de dirección comercial es el conjunto de rutinas, indicadores y decisiones que permite conducir el negocio sin depender de la intervención permanente de una persona. Su prueba es la independencia: qué sigue funcionando si quien dirige se ausenta durante un mes.
+
+**De dónde viene esta afirmación.** Andrew S. Grove — *High Output Management* (1983) aporta la idea que sostiene este bloque: el apalancamiento gerencial: qué actividades multiplican el output. Búscala en los capítulos sobre apalancamiento. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «decisiones tomadas sin escalamiento» debería moverse cuando cambie **sistema de dirección**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **independencia del sistema**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Independencia del sistema: frontera conceptual y error de clasificación
 
-**Definición operacional:** capacidad de operar sin intervención permanente de la dirección. Su valor está en distinguirlo de **sistema de dirección**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** capacidad de operar sin intervención permanente de la dirección. Su valor está en distinguirlo de **sistema de dirección**.
 
-Contrasta el problema con John Doerr — *Measure What Matters* (2018) —**lente:** OKR como sistema de foco, alineamiento y seguimiento—. Formula dos mini-casos: uno que satisface la definición de **independencia del sistema** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **detección temprana de desvíos** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El ritmo institucional —qué se revisa semanal, mensual y trimestralmente, con qué formato y con qué participantes— es la columna del sistema. Sin ritmo, la gestión ocurre por excepción y siempre tarde. Definirlo y sostenerlo aunque no haya novedades es lo que permite detectar los cambios pequeños antes de que se vuelvan grandes.
+
+**Contraste bibliográfico.** John Doerr — *Measure What Matters* (2018) aporta aquí una distinción concreta: el seguimiento con revisión y recalibración durante el ciclo (los capítulos sobre seguimiento y responsabilidad). Formula dos mini-casos: uno que satisface la definición de **independencia del sistema** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «documentar plan, presupuesto y objetivos», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Detección temprana: operacionalización y medición
 
-**detección temprana** significa **identificación de problemas antes de su efecto financiero**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Detección temprana** significa **identificación de problemas antes de su efecto financiero**.
+
+La detección temprana requiere indicadores adelantados y umbrales definidos: qué valor obliga a mirar con detalle. Sin umbrales, cada revisión discute todo o nada. Con ellos, la atención se dirige sola hacia donde hace falta, que es la función principal de un sistema de dirección.
 
 Ficha de medición obligatoria para **decisiones tomadas sin escalamiento**: `decisiones resueltas en el nivel correspondiente, sobre decisiones tomadas`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Jim Collins — *Good to Great* (2001) orienta este bloque —**lente:** disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Jim Collins — *Good to Great* (2001) pone una condición sobre la medición: el concepto del erizo: la intersección entre pasión, capacidad y motor económico (el capítulo sobre el concepto del erizo). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Ritmo institucional: trade-offs y efectos de segundo orden
 
-**Definición:** calendario de revisiones y decisiones que sostiene la operación. Este concepto obliga a abandonar la idea de que operating system del CRO tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «definir incentivos, desarrollo y gobierno», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** calendario de revisiones y decisiones que sostiene la operación.
 
-Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) —**lente:** traducción de la estrategia en indicadores causalmente conectados— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **continuidad ante ausencias** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un sistema más formal aporta consistencia y puede volverse burocrático en organizaciones pequeñas, donde consume más de lo que aporta. El criterio de formalización es la fricción: se formaliza lo que ya produce problemas de coordinación y se deja el resto en acuerdos simples.
+
+**Lo que aporta la fuente.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta el criterio para pesar el intercambio: el mapa estratégico que conecta causalmente objetivos entre perspectivas (los capítulos sobre relaciones causa-efecto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **continuidad ante ausencias** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **ritmo institucional** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «verificar la independencia con una prueba de ausencia», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) sirve para contrastar la recomendación final desde otro lente: traducción de la estrategia en indicadores causalmente conectados. La frontera de esta clase es explícita: Un sistema de dirección maduro no compensa una estrategia equivocada: ejecuta con disciplina una dirección que puede ser incorrecta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El sistema debe sobrevivir a las personas y por eso su documentación no es opcional. Definiciones, rutinas, umbrales y responsabilidades deben estar escritos y ser accesibles. Un sistema que sólo existe en la cabeza de quien lo diseñó no es un sistema: es un estilo de dirección, y desaparece con su autor.
+
+**Frontera declarada.** Un sistema de dirección maduro no compensa una estrategia equivocada: ejecuta con disciplina una dirección que puede ser incorrecta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Escalar un motor roto, generar rotación y destruir el margen mientras se «crece».** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Andrew S. Grove — *High Output Management* (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| John Doerr — *Measure What Matters* (2018) | OKR como sistema de foco, alineamiento y seguimiento | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | traducción de la estrategia en indicadores causalmente conectados | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Andrew S. Grove — *High Output Management* (1983) | El apalancamiento gerencial: qué actividades multiplican el output | Los capítulos sobre apalancamiento | ¿Qué debería observarse en **sistema de dirección** si aquí opera «el apalancamiento gerencial: qué actividades multiplican el output»? ¿Y qué observación lo desmentiría en este caso? |
+| John Doerr — *Measure What Matters* (2018) | El seguimiento con revisión y recalibración durante el ciclo | Los capítulos sobre seguimiento y responsabilidad | ¿Qué debería observarse en **independencia del sistema** si aquí opera «el seguimiento con revisión y recalibración durante el ciclo»? ¿Y qué observación lo desmentiría en este caso? |
+| Jim Collins — *Good to Great* (2001) | El concepto del erizo: la intersección entre pasión, capacidad y motor económico | El capítulo sobre el concepto del erizo | ¿Qué debería observarse en **detección temprana** si aquí opera «el concepto del erizo: la intersección entre pasión, capacidad y motor económico»? ¿Y qué observación lo desmentiría en este caso? |
+| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | El mapa estratégico que conecta causalmente objetivos entre perspectivas | Los capítulos sobre relaciones causa-efecto | ¿Qué debería observarse en **ritmo institucional** si aquí opera «el mapa estratégico que conecta causalmente objetivos entre perspectivas»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **consolidar estructura, roles y responsabilidades → documentar plan, presupuesto y objetivos → establecer el ritmo de gestión y sus reuniones → definir incentivos, desarrollo y gobierno → verificar la independencia con una prueba de ausencia** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **decisiones tomadas sin escalamiento**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **consolidar estructura, roles y responsabilidades → documentar plan, presupuesto y objetivos → establecer el ritmo de gestión y sus reuniones → definir incentivos, desarrollo y gobierno → verificar la independencia con una prueba de ausencia** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **decisiones tomadas sin escalamiento**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *High Output Management* y la de *Measure What Matters*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **decisiones tomadas sin escalamiento** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un sistema de dirección maduro no compensa una estrategia equivocada: ejecuta con disciplina una dirección que puede ser incorrecta»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **detección temprana** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **decisiones tomadas sin escalamiento**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *High Output Management* y *The Balanced Scorecard*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating system del CRO co
 
 ## 📗 Fuentes y verificación
 
-- Andrew S. Grove — *High Output Management* (1983). **Uso en esta clase:** output gerencial, indicadores adelantados y reuniones como herramienta de producción. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- John Doerr — *Measure What Matters* (2018). **Uso en esta clase:** OKR como sistema de foco, alineamiento y seguimiento. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Jim Collins — *Good to Great* (2001). **Uso en esta clase:** disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996). **Uso en esta clase:** traducción de la estrategia en indicadores causalmente conectados. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Andrew S. Grove — *High Output Management* (1983) — **aporta a esta clase:** el apalancamiento gerencial: qué actividades multiplican el output. **Dónde buscarlo:** los capítulos sobre apalancamiento. Registra edición y páginas consultadas en tu nota de lectura.
+- John Doerr — *Measure What Matters* (2018) — **aporta a esta clase:** el seguimiento con revisión y recalibración durante el ciclo. **Dónde buscarlo:** los capítulos sobre seguimiento y responsabilidad. Registra edición y páginas consultadas en tu nota de lectura.
+- Jim Collins — *Good to Great* (2001) — **aporta a esta clase:** el concepto del erizo: la intersección entre pasión, capacidad y motor económico. **Dónde buscarlo:** el capítulo sobre el concepto del erizo. Registra edición y páginas consultadas en tu nota de lectura.
+- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) — **aporta a esta clase:** el mapa estratégico que conecta causalmente objetivos entre perspectivas. **Dónde buscarlo:** los capítulos sobre relaciones causa-efecto. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

@@ -2,19 +2,34 @@
 title: "Evaluación y guardrails"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 21
 class: 12
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["nist-airmf", "ng-mlyearning", "kohavi", "iso-31000"]
+anchors: {"iso-31000": "proceso", "kohavi": "guardarrailes", "ng-mlyearning": "conjunto-evaluacion", "nist-airmf": "funciones"}
 updated: 2026-08-19
 ---
 
 # Clase 21.12 — Evaluación y guardrails
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 21.11 — *IA en customer success*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de desempeño en el conjunto de evaluación para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA — NIST. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Conjunto de evaluación: mecanismo central
 
-**conjunto de evaluación** se entiende aquí como **casos representativos con resultado esperado que permiten medir el desempeño**. Es la pieza desde la que se inicia el análisis de evaluación y guardrails: antes de «construir el conjunto de evaluación con casos reales», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Conjunto de evaluación** se entiende aquí como **casos representativos con resultado esperado que permiten medir el desempeño**.
 
-La lectura rectora de este bloque es NIST — *AI Risk Management Framework 1.0* (2023). **Lente que aporta:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **desempeño en el conjunto de evaluación**; regístrala con periodo, unidad, población y línea base.
+Evaluar un sistema de inteligencia artificial exige un conjunto de casos que represente el uso real y no el uso ideal. Un modelo que funciona bien con ejemplos limpios puede fallar con la información desordenada que existe en la operación. Construir ese conjunto de evaluación es trabajo previo al despliegue y no una verificación posterior.
+
+**De dónde viene esta afirmación.** NIST — *AI Risk Management Framework 1.0* (2023) aporta la idea que sostiene este bloque: las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA. Búscala en el núcleo del marco. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «desempeño en el conjunto de evaluación» debería moverse cuando cambie **conjunto de evaluación**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **guardarraíl**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Guardarraíl: frontera conceptual y error de clasificación
 
-**Definición operacional:** restricción que impide un comportamiento inaceptable del sistema. Su valor está en distinguirlo de **conjunto de evaluación**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** restricción que impide un comportamiento inaceptable del sistema. Su valor está en distinguirlo de **conjunto de evaluación**.
 
-Contrasta el problema con Andrew Ng — *Machine Learning Yearning* (2018) —**lente:** diagnóstico de sistemas de aprendizaje y priorización de mejoras—. Formula dos mini-casos: uno que satisface la definición de **guardarraíl** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **incidentes por guardarraíl activado** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El guardarraíl es una restricción que el sistema no debe cruzar aunque mejore su métrica principal: no prometer plazos, no mencionar precios, no afirmar sobre normativa, no procesar ciertos datos. Definir esos límites y verificarlos con casos de prueba específicos es más efectivo que confiar en instrucciones generales.
+
+**Contraste bibliográfico.** Andrew Ng — *Machine Learning Yearning* (2018) aporta aquí una distinción concreta: el conjunto de evaluación que representa la distribución real de uso (los capítulos sobre conjuntos de desarrollo y prueba). Formula dos mini-casos: uno que satisface la definición de **guardarraíl** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «definir el umbral de aceptación antes de probar», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Monitoreo posterior: operacionalización y medición
 
-**monitoreo posterior** significa **medición continua del desempeño tras el despliegue**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Monitoreo posterior** significa **medición continua del desempeño tras el despliegue**.
+
+El monitoreo posterior es indispensable porque el desempeño se degrada: cambian los datos de entrada, cambia el contexto, cambia el modelo subyacente si es de un tercero. Un sistema evaluado una vez al desplegarse y nunca más es un sistema cuya calidad actual nadie conoce.
 
 Ficha de medición obligatoria para **desempeño en el conjunto de evaluación**: `casos resueltos correctamente, sobre casos del conjunto`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) orienta este bloque —**lente:** diseño estadístico de experimentos, métricas guardrail y trampas de interpretación—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) pone una condición sobre la medición: las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema (los capítulos sobre métricas y guardarraíles). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Umbral de aceptación: trade-offs y efectos de segundo orden
 
-**Definición:** nivel de desempeño mínimo que autoriza el uso en producción. Este concepto obliga a abandonar la idea de que evaluación y guardrails tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «monitorear el desempeño en producción», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** nivel de desempeño mínimo que autoriza el uso en producción.
 
-ISO — *ISO 31000: Gestión del riesgo* (2018) —**lente:** vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **deriva de desempeño** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Evaluaciones más exhaustivas detectan más problemas y retrasan el despliegue. El equilibrio debe hacerse según la consecuencia del error: un asistente que redacta borradores internos admite una evaluación ligera; uno que se comunica con clientes, no. Esa gradación debe estar en la política y no decidirse caso a caso.
+
+**Lo que aporta la fuente.** ISO — *ISO 31000: Gestión del riesgo* (2018) aporta el criterio para pesar el intercambio: el proceso de gestión del riesgo: identificar, analizar, evaluar y tratar (la cláusula sobre el proceso). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **deriva de desempeño** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **umbral de aceptación** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «documentar incidentes y ajustar el sistema», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-ISO — *ISO 31000: Gestión del riesgo* (2018) sirve para contrastar la recomendación final desde otro lente: vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales. La frontera de esta clase es explícita: Ningún conjunto de evaluación cubre todos los casos posibles. Los guardarraíles y el monitoreo son necesarios precisamente porque la evaluación previa es incompleta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El marco de gestión de riesgos publicado por el NIST propone organizar el trabajo en cuatro funciones —mapear, medir, gestionar y gobernar— y esa estructura es útil precisamente porque separa la evaluación técnica de la responsabilidad organizativa. Adoptarla exige verificar su texto vigente y adaptarla al contexto, no aplicarla como plantilla.
+
+**Frontera declarada.** Ningún conjunto de evaluación cubre todos los casos posibles. Los guardarraíles y el monitoreo son necesarios precisamente porque la evaluación previa es incompleta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| NIST — *AI Risk Management Framework 1.0* (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Andrew Ng — *Machine Learning Yearning* (2018) | diagnóstico de sistemas de aprendizaje y priorización de mejoras | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| NIST — *AI Risk Management Framework 1.0* (2023) | Las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA | El núcleo del marco | ¿Qué debería observarse en **conjunto de evaluación** si aquí opera «las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA»? ¿Y qué observación lo desmentiría en este caso? |
+| Andrew Ng — *Machine Learning Yearning* (2018) | El conjunto de evaluación que representa la distribución real de uso | Los capítulos sobre conjuntos de desarrollo y prueba | ¿Qué debería observarse en **guardarraíl** si aquí opera «el conjunto de evaluación que representa la distribución real de uso»? ¿Y qué observación lo desmentiría en este caso? |
+| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | Las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema | Los capítulos sobre métricas y guardarraíles | ¿Qué debería observarse en **monitoreo posterior** si aquí opera «las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema»? ¿Y qué observación lo desmentiría en este caso? |
+| ISO — *ISO 31000: Gestión del riesgo* (2018) | El proceso de gestión del riesgo: identificar, analizar, evaluar y tratar | La cláusula sobre el proceso | ¿Qué debería observarse en **umbral de aceptación** si aquí opera «el proceso de gestión del riesgo: identificar, analizar, evaluar y tratar»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **construir el conjunto de evaluación con casos reales → definir el umbral de aceptación antes de probar → implementar guardarraíles sobre los riesgos identificados → monitorear el desempeño en producción → documentar incidentes y ajustar el sistema** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **desempeño en el conjunto de evaluación**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **construir el conjunto de evaluación con casos reales → definir el umbral de aceptación antes de probar → implementar guardarraíles sobre los riesgos identificados → monitorear el desempeño en producción → documentar incidentes y ajustar el sistema** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **desempeño en el conjunto de evaluación**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *AI Risk Management Framework 1.0* y la de *Machine Learning Yearning*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **desempeño en el conjunto de evaluación** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Ningún conjunto de evaluación cubre todos los casos posibles. Los guardarraíles y el monitoreo son necesarios precisamente porque la evaluación previa es incompleta»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **monitoreo posterior** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **desempeño en el conjunto de evaluación**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *AI Risk Management Framework 1.0* y *ISO 31000: Gestión del riesgo*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating model humano-IA c
 
 ## 📗 Fuentes y verificación
 
-- NIST — *AI Risk Management Framework 1.0* (2023). **Uso en esta clase:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Andrew Ng — *Machine Learning Yearning* (2018). **Uso en esta clase:** diagnóstico de sistemas de aprendizaje y priorización de mejoras. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020). **Uso en esta clase:** diseño estadístico de experimentos, métricas guardrail y trampas de interpretación. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- ISO — *ISO 31000: Gestión del riesgo* (2018). **Uso en esta clase:** vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- NIST — *AI Risk Management Framework 1.0* (2023) — **aporta a esta clase:** las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA. **Dónde buscarlo:** el núcleo del marco. Registra edición y páginas consultadas en tu nota de lectura.
+- Andrew Ng — *Machine Learning Yearning* (2018) — **aporta a esta clase:** el conjunto de evaluación que representa la distribución real de uso. **Dónde buscarlo:** los capítulos sobre conjuntos de desarrollo y prueba. Registra edición y páginas consultadas en tu nota de lectura.
+- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) — **aporta a esta clase:** las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema. **Dónde buscarlo:** los capítulos sobre métricas y guardarraíles. Registra edición y páginas consultadas en tu nota de lectura.
+- ISO — *ISO 31000: Gestión del riesgo* (2018) — **aporta a esta clase:** el proceso de gestión del riesgo: identificar, analizar, evaluar y tratar. **Dónde buscarlo:** la cláusula sobre el proceso. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

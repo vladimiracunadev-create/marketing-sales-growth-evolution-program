@@ -2,19 +2,34 @@
 title: "Titulares"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 13
 class: 06
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ogilvy", "sugarman", "handley", "kohavi"]
+anchors: {"handley": "edicion", "kohavi": "twyman", "ogilvy": "titular", "sugarman": "coherencia-promesa"}
 updated: 2026-08-19
 ---
 
 # Clase 13.06 — Titulares
 
-**Parte 13 · Contenido, copywriting y comunicación persuasiva** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 13 · Contenido, copywriting y comunicación persuasiva** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 13.05 — *Características versus beneficios*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de apertura o clic para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El titular como la parte que determina si el resto se lee — David Ogilvy. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Especificidad: mecanismo central
 
-**especificidad** se entiende aquí como **nivel de concreción que distingue el titular de una afirmación genérica**. Es la pieza desde la que se inicia el análisis de titulares: antes de «escribir al menos diez variantes antes de elegir», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Especificidad** se entiende aquí como **nivel de concreción que distingue el titular de una afirmación genérica**.
 
-La lectura rectora de este bloque es David Ogilvy — *Ogilvy on Advertising* (1983). **Lente que aporta:** disciplina publicitaria basada en investigación, oferta clara y respeto por el lector. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de apertura o clic**; regístrala con periodo, unidad, población y línea base.
+El titular decide si el resto se lee, y esa desproporción justifica dedicarle un tiempo que parece excesivo. David Ogilvy lo planteó con una estimación que sigue siendo útil como orientación: la mayor parte de los lectores no pasa del titular. Escribir veinte versiones y elegir una es una práctica razonable, no un exceso.
+
+**De dónde viene esta afirmación.** David Ogilvy — *Ogilvy on Advertising* (1983) aporta la idea que sostiene este bloque: el titular como la parte que determina si el resto se lee. Búscala en el capítulo sobre redacción de titulares. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de apertura o clic» debería moverse cuando cambie **especificidad**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **relevancia para el destinatario**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Relevancia para el destinatario: frontera conceptual y error de clasificación
 
-**Definición operacional:** conexión inmediata con un problema o interés del lector. Su valor está en distinguirlo de **especificidad**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** conexión inmediata con un problema o interés del lector. Su valor está en distinguirlo de **especificidad**.
 
-Contrasta el problema con Joseph Sugarman — *The Adweek Copywriting Handbook* (2007) —**lente:** mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa—. Formula dos mini-casos: uno que satisface la definición de **relevancia para el destinatario** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **permanencia tras el clic** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La especificidad supera casi siempre a la generalidad. Un titular con un número, una situación o un destinatario concreto informa qué hay dentro; uno abstracto obliga a apostar. La excepción son los contextos donde la curiosidad funciona mejor que la información, y esos son menos de los que el instinto sugiere.
+
+**Contraste bibliográfico.** Joseph Sugarman — *The Adweek Copywriting Handbook* (2007) aporta aquí una distinción concreta: la coherencia entre la promesa del titular y lo que entrega el cuerpo (los capítulos sobre encabezados). Formula dos mini-casos: uno que satisface la definición de **relevancia para el destinatario** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «verificar especificidad y relevancia de cada una», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Honestidad del titular: operacionalización y medición
 
-**honestidad del titular** significa **correspondencia entre lo prometido y lo que entrega el contenido**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Honestidad del titular** significa **correspondencia entre lo prometido y lo que entrega el contenido**.
+
+La honestidad del titular no es sólo un asunto ético: un titular que promete más de lo que el cuerpo entrega produce abandono inmediato y deteriora la disposición a abrir la próxima pieza. El costo del clic engañoso se paga en la métrica siguiente, y por eso optimizar aperturas sin mirar permanencia es un error de medición.
 
 Ficha de medición obligatoria para **tasa de apertura o clic**: `aperturas o clics, sobre impresiones entregadas, por variante`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Ann Handley — *Everybody Writes* (2022, 2.ª ed.) orienta este bloque —**lente:** estándar editorial: claridad, utilidad y empatía en la escritura comercial—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Ann Handley — *Everybody Writes* (2022, 2.ª ed.) pone una condición sobre la medición: la edición como eliminación: el primer borrador siempre sobra (los capítulos sobre proceso de escritura). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Costo del clickbait: trade-offs y efectos de segundo orden
 
-**Definición:** pérdida de confianza y de apertura futura por promesas incumplidas. Este concepto obliga a abandonar la idea de que titulares tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «probar dos variantes con muestra suficiente», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** pérdida de confianza y de apertura futura por promesas incumplidas.
 
-Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) —**lente:** diseño estadístico de experimentos, métricas guardrail y trampas de interpretación— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tasa de baja tras la apertura** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Titulares más llamativos obtienen más clics y atraen a lectores menos calificados; los más descriptivos filtran y reducen el volumen. La elección debe hacerse según qué se mide después: si el objetivo es conversación comercial, el titular descriptivo casi siempre gana aunque pierda en la métrica intermedia.
+
+**Lo que aporta la fuente.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) aporta el criterio para pesar el intercambio: la ley de Twyman: un resultado sorprendentemente bueno suele ser un error de medición (los capítulos sobre interpretación de resultados). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de baja tras la apertura** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **costo del clickbait** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir apertura y también permanencia en el contenido», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) sirve para contrastar la recomendación final desde otro lente: diseño estadístico de experimentos, métricas guardrail y trampas de interpretación. La frontera de esta clase es explícita: El titular más eficaz para la apertura puede ser el peor para la conversión. La evaluación debe considerar el resultado final y no la métrica intermedia. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Probar titulares es útil y está sujeto a las mismas condiciones que cualquier experimento: muestra suficiente, criterio previo y una advertencia particular. Un resultado sorprendentemente bueno debe revisarse antes de celebrarse, porque en pruebas de titular los errores de configuración y las diferencias de audiencia son frecuentes.
+
+**Frontera declarada.** El titular más eficaz para la apertura puede ser el peor para la conversión. La evaluación debe considerar el resultado final y no la métrica intermedia. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar afirmaciones no verificables o promesas comerciales que infrinjan la ley del consumidor.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| David Ogilvy — *Ogilvy on Advertising* (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Joseph Sugarman — *The Adweek Copywriting Handbook* (2007) | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| David Ogilvy — *Ogilvy on Advertising* (1983) | El titular como la parte que determina si el resto se lee | El capítulo sobre redacción de titulares | ¿Qué debería observarse en **especificidad** si aquí opera «el titular como la parte que determina si el resto se lee»? ¿Y qué observación lo desmentiría en este caso? |
+| Joseph Sugarman — *The Adweek Copywriting Handbook* (2007) | La coherencia entre la promesa del titular y lo que entrega el cuerpo | Los capítulos sobre encabezados | ¿Qué debería observarse en **relevancia para el destinatario** si aquí opera «la coherencia entre la promesa del titular y lo que entrega el cuerpo»? ¿Y qué observación lo desmentiría en este caso? |
+| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | La edición como eliminación: el primer borrador siempre sobra | Los capítulos sobre proceso de escritura | ¿Qué debería observarse en **honestidad del titular** si aquí opera «la edición como eliminación: el primer borrador siempre sobra»? ¿Y qué observación lo desmentiría en este caso? |
+| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | La ley de Twyman: un resultado sorprendentemente bueno suele ser un error de medición | Los capítulos sobre interpretación de resultados | ¿Qué debería observarse en **costo del clickbait** si aquí opera «la ley de Twyman: un resultado sorprendentemente bueno suele ser un error de medición»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **escribir al menos diez variantes antes de elegir → verificar especificidad y relevancia de cada una → descartar las que prometen más de lo que el contenido entrega → probar dos variantes con muestra suficiente → medir apertura y también permanencia en el contenido** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de apertura o clic**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **escribir al menos diez variantes antes de elegir → verificar especificidad y relevancia de cada una → descartar las que prometen más de lo que el contenido entrega → probar dos variantes con muestra suficiente → medir apertura y también permanencia en el contenido** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de apertura o clic**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Ogilvy on Advertising* y la de *The Adweek Copywriting Handbook*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de apertura o clic** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El titular más eficaz para la apertura puede ser el peor para la conversión. La evaluación debe considerar el resultado final y no la métrica intermedia»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **honestidad del titular** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de apertura o clic**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Ogilvy on Advertising* y *Trustworthy Online Controlled Experiments*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema editorial con pilar
 
 ## 📗 Fuentes y verificación
 
-- David Ogilvy — *Ogilvy on Advertising* (1983). **Uso en esta clase:** disciplina publicitaria basada en investigación, oferta clara y respeto por el lector. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Joseph Sugarman — *The Adweek Copywriting Handbook* (2007). **Uso en esta clase:** mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Ann Handley — *Everybody Writes* (2022, 2.ª ed.). **Uso en esta clase:** estándar editorial: claridad, utilidad y empatía en la escritura comercial. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020). **Uso en esta clase:** diseño estadístico de experimentos, métricas guardrail y trampas de interpretación. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- David Ogilvy — *Ogilvy on Advertising* (1983) — **aporta a esta clase:** el titular como la parte que determina si el resto se lee. **Dónde buscarlo:** el capítulo sobre redacción de titulares. Registra edición y páginas consultadas en tu nota de lectura.
+- Joseph Sugarman — *The Adweek Copywriting Handbook* (2007) — **aporta a esta clase:** la coherencia entre la promesa del titular y lo que entrega el cuerpo. **Dónde buscarlo:** los capítulos sobre encabezados. Registra edición y páginas consultadas en tu nota de lectura.
+- Ann Handley — *Everybody Writes* (2022, 2.ª ed.) — **aporta a esta clase:** la edición como eliminación: el primer borrador siempre sobra. **Dónde buscarlo:** los capítulos sobre proceso de escritura. Registra edición y páginas consultadas en tu nota de lectura.
+- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) — **aporta a esta clase:** la ley de Twyman: un resultado sorprendentemente bueno suele ser un error de medición. **Dónde buscarlo:** los capítulos sobre interpretación de resultados. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

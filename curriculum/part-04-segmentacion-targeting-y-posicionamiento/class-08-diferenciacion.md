@@ -2,19 +2,34 @@
 title: "Diferenciación"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 04
 class: 08
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["porter-hbr", "ries-trout", "sharp2", "aaker"]
+anchors: {"aaker": "equity", "porter-hbr": "encaje", "ries-trout": "primero", "sharp2": "activos-distintivos"}
 updated: 2026-08-19
 ---
 
 # Clase 04.08 — Diferenciación
 
-**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 04.07 — *Estrategias de nicho*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de menciones espontáneas de la diferencia para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El encaje entre actividades como fuente de ventaja difícil de imitar — Michael E. Porter. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Diferencia valorada: mecanismo central
 
-**diferencia valorada** se entiende aquí como **atributo que el cliente considera relevante para su decisión**. Es la pieza desde la que se inicia el análisis de diferenciación: antes de «listar las diferencias reales de la oferta», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Diferencia valorada** se entiende aquí como **atributo que el cliente considera relevante para su decisión**.
 
-La lectura rectora de este bloque es Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996). **Lente que aporta:** estrategia como sistema de actividades coherentes y elección explícita de qué no hacer. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **menciones espontáneas de la diferencia**; regístrala con periodo, unidad, población y línea base.
+Diferenciarse no consiste en ser distinto sino en ser distinto en algo que el cliente valora, percibe y no puede obtener fácilmente en otra parte. Las tres condiciones son necesarias: una diferencia valorada pero imperceptible no opera; una perceptible pero no valorada es ruido; una valorada y perceptible pero fácil de copiar dura un trimestre.
+
+**De dónde viene esta afirmación.** Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) aporta la idea que sostiene este bloque: el encaje entre actividades como fuente de ventaja difícil de imitar. Búscala en la sección sobre el encaje de actividades. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «menciones espontáneas de la diferencia» debería moverse cuando cambie **diferencia valorada**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **diferencia perceptible**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Diferencia perceptible: frontera conceptual y error de clasificación
 
-**Definición operacional:** atributo que el cliente puede verificar antes de comprar. Su valor está en distinguirlo de **diferencia valorada**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** atributo que el cliente puede verificar antes de comprar. Su valor está en distinguirlo de **diferencia valorada**.
 
-Contrasta el problema con Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) —**lente:** posicionamiento como lugar en la mente del cliente y no como declaración interna—. Formula dos mini-casos: uno que satisface la definición de **diferencia perceptible** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **prima de precio sostenida** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La diferencia defendible se sostiene en algo estructural: un encaje entre actividades difícil de replicar, un activo acumulado, una relación exclusiva, un costo que otros no pueden alcanzar. Una funcionalidad no es defendible por sí sola. Michael Porter insistía en que la ventaja durable no está en hacer una cosa mejor sino en el sistema de actividades que se refuerzan entre sí.
+
+**Contraste bibliográfico.** Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) aporta aquí una distinción concreta: la ventaja de ser primero en una categoría frente a ser mejor en una existente (los capítulos sobre liderazgo de categoría). Formula dos mini-casos: uno que satisface la definición de **diferencia perceptible** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «verificar cuáles el cliente valora con evidencia», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Diferencia defendible: operacionalización y medición
 
-**diferencia defendible** significa **atributo cuya imitación exige tiempo, inversión o capacidades que el competidor no tiene**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Diferencia defendible** significa **atributo cuya imitación exige tiempo, inversión o capacidades que el competidor no tiene**.
+
+La percepción de la diferencia se mide preguntando, no suponiendo. El procedimiento es mostrar a clientes del perfil una descripción de tu oferta y una de la del competidor, sin marcas, y pedirles que señalen diferencias. Cuando no encuentran ninguna —resultado frecuente— la conclusión no es que el cliente no entiende, sino que la diferencia no está comunicada o no existe.
 
 Ficha de medición obligatoria para **menciones espontáneas de la diferencia**: `clientes que citan el atributo como razón de elección, sobre clientes ganados`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) orienta este bloque —**lente:** activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) pone una condición sobre la medición: los activos distintivos de marca y su medición por asociación única (el capítulo sobre construcción y medición de activos distintivos). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Señal de calidad: trade-offs y efectos de segundo orden
 
-**Definición:** evidencia observable que comunica una diferencia difícil de verificar directamente. Este concepto obliga a abandonar la idea de que diferenciación tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «estimar el tiempo de imitación de cada una», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** evidencia observable que comunica una diferencia difícil de verificar directamente.
 
-David A. Aaker — *Building Strong Brands* (1996) —**lente:** brand equity, identidad de marca y arquitectura de portafolio— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tiempo de imitación observado** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Sostener una diferencia exige renunciar a atender bien lo que está fuera de ella. Una empresa que quiere ser la más rápida y la más completa y la más barata no es ninguna de las tres, porque las actividades que sostienen cada una se estorban. La decisión de diferenciación es, sobre todo, una lista de lo que no se hará.
+
+**Lo que aporta la fuente.** David A. Aaker — *Building Strong Brands* (1996) aporta el criterio para pesar el intercambio: los componentes del valor de marca: notoriedad, asociaciones, calidad percibida y lealtad (los capítulos sobre activos de marca). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo de imitación observado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **señal de calidad** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «diseñar señales para las diferencias no perceptibles», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-David A. Aaker — *Building Strong Brands* (1996) sirve para contrastar la recomendación final desde otro lente: brand equity, identidad de marca y arquitectura de portafolio. La frontera de esta clase es explícita: Una diferencia defendible hoy puede dejar de serlo con un cambio tecnológico. La revisión debe ser periódica y no un ejercicio de una sola vez. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La diferenciación pierde relevancia cuando la categoría madura y los atributos que la sostenían pasan a ser tabla de entrada. Lo que fue diferencia hace tres años puede ser hoy requisito mínimo. Por eso el análisis exige fecha y revisión: una propuesta de diferenciación sin fecha de revisión envejece sin que nadie lo note hasta que la conversión cae.
+
+**Frontera declarada.** Una diferencia defendible hoy puede dejar de serlo con un cambio tecnológico. La revisión debe ser periódica y no un ejercicio de una sola vez. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Segmentar con variables decorativas que no cambian oferta, canal ni mensaje.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) | posicionamiento como lugar en la mente del cliente y no como declaración interna | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| David A. Aaker — *Building Strong Brands* (1996) | brand equity, identidad de marca y arquitectura de portafolio | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | El encaje entre actividades como fuente de ventaja difícil de imitar | La sección sobre el encaje de actividades | ¿Qué debería observarse en **diferencia valorada** si aquí opera «el encaje entre actividades como fuente de ventaja difícil de imitar»? ¿Y qué observación lo desmentiría en este caso? |
+| Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) | La ventaja de ser primero en una categoría frente a ser mejor en una existente | Los capítulos sobre liderazgo de categoría | ¿Qué debería observarse en **diferencia perceptible** si aquí opera «la ventaja de ser primero en una categoría frente a ser mejor en una existente»? ¿Y qué observación lo desmentiría en este caso? |
+| Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) | Los activos distintivos de marca y su medición por asociación única | El capítulo sobre construcción y medición de activos distintivos | ¿Qué debería observarse en **diferencia defendible** si aquí opera «los activos distintivos de marca y su medición por asociación única»? ¿Y qué observación lo desmentiría en este caso? |
+| David A. Aaker — *Building Strong Brands* (1996) | Los componentes del valor de marca: notoriedad, asociaciones, calidad percibida y lealtad | Los capítulos sobre activos de marca | ¿Qué debería observarse en **señal de calidad** si aquí opera «los componentes del valor de marca: notoriedad, asociaciones, calidad percibida y lealtad»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **listar las diferencias reales de la oferta → verificar cuáles el cliente valora con evidencia → evaluar si son perceptibles antes de comprar → estimar el tiempo de imitación de cada una → diseñar señales para las diferencias no perceptibles** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **menciones espontáneas de la diferencia**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **listar las diferencias reales de la oferta → verificar cuáles el cliente valora con evidencia → evaluar si son perceptibles antes de comprar → estimar el tiempo de imitación de cada una → diseñar señales para las diferencias no perceptibles** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **menciones espontáneas de la diferencia**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *What Is Strategy? (Harvard Business Review)* y la de *Positioning: The Battle for Your Mind*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **menciones espontáneas de la diferencia** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Una diferencia defendible hoy puede dejar de serlo con un cambio tecnológico. La revisión debe ser periódica y no un ejercicio de una sola vez»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **diferencia defendible** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **menciones espontáneas de la diferencia**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *What Is Strategy? (Harvard Business Review)* y *Building Strong Brands*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **arquitectura STP con criter
 
 ## 📗 Fuentes y verificación
 
-- Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996). **Uso en esta clase:** estrategia como sistema de actividades coherentes y elección explícita de qué no hacer. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada). **Uso en esta clase:** posicionamiento como lugar en la mente del cliente y no como declaración interna. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015). **Uso en esta clase:** activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- David A. Aaker — *Building Strong Brands* (1996). **Uso en esta clase:** brand equity, identidad de marca y arquitectura de portafolio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) — **aporta a esta clase:** el encaje entre actividades como fuente de ventaja difícil de imitar. **Dónde buscarlo:** la sección sobre el encaje de actividades. Registra edición y páginas consultadas en tu nota de lectura.
+- Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) — **aporta a esta clase:** la ventaja de ser primero en una categoría frente a ser mejor en una existente. **Dónde buscarlo:** los capítulos sobre liderazgo de categoría. Registra edición y páginas consultadas en tu nota de lectura.
+- Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) — **aporta a esta clase:** los activos distintivos de marca y su medición por asociación única. **Dónde buscarlo:** el capítulo sobre construcción y medición de activos distintivos. Registra edición y páginas consultadas en tu nota de lectura.
+- David A. Aaker — *Building Strong Brands* (1996) — **aporta a esta clase:** los componentes del valor de marca: notoriedad, asociaciones, calidad percibida y lealtad. **Dónde buscarlo:** los capítulos sobre activos de marca. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

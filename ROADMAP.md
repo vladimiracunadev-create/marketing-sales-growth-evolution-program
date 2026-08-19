@@ -4,7 +4,7 @@ Plan de evolución del programa. Cada versión declara qué agrega y qué proble
 
 ## v1.0 — Programa completo (publicado, 2026-08-19)
 
-24 partes y 336 clases bajo el estándar `clase-profunda-v1`, capa de práctica con 48 laboratorios y 24
+24 partes y 336 clases bajo el estándar `clase-profunda-v2`, capa de práctica con 48 laboratorios y 24
 evaluaciones, 17 rutas profesionales, documentación completa, portal HTML e integración continua.
 
 Ver [CHANGELOG.md](CHANGELOG.md) para el detalle.

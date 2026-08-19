@@ -70,25 +70,27 @@ Capstone.
 
 ## 3. Estructura de una clase
 
-Todas las clases siguen el estándar `clase-profunda-v1`. La secuencia no es arbitraria: reproduce el orden en
+Todas las clases siguen el estándar `clase-profunda-v2`. La secuencia no es arbitraria: reproduce el orden en
 que una persona construye criterio.
 
 | Bloque | Función pedagógica |
 |---|---|
+| Antes de empezar | Declara prerrequisitos, materiales, tiempo real y criterio de término |
 | Propósito | Sitúa el problema antes que la definición |
 | Resultados de aprendizaje | Declara el desempeño observable esperado |
 | Agenda | Distribuye el tiempo entre recuperación, lectura, medición y decisión |
 | Conceptos centrales | Entrega definiciones operacionales y su prueba de comprensión |
 | Modelo mental | Presenta el método como secuencia con su frontera |
-| Desarrollo | Construye el mecanismo, la distinción, la medición, el trade-off y el gobierno |
-| Lectura comparada | Obliga a contrastar fuentes y encontrar tensiones reales |
+| Desarrollo | Construye el mecanismo, la distinción, la medición, el intercambio y el gobierno, con prosa escrita para esa clase |
+| Lectura comparada | Declara qué idea de cada obra sostiene la clase, dónde buscarla y qué pregunta le hace |
 | Ejemplo trabajado | Aplica el método paso a paso sobre el caso persistente |
 | Comparación y límites | Explicita cuándo cada camino es preferible y qué arriesga |
 | Escalamiento por rol | Muestra cómo cambia la responsabilidad al subir de nivel |
 | Caso ejecutivo | Exige una decisión con alternativas y gobierno |
-| Práctica guiada | Estructura el trabajo individual |
+| Práctica guiada | Estructura el trabajo individual con criterio de término por paso |
 | Errores frecuentes | Anticipa fallas típicas con su corrección |
 | Preguntas de comprobación | Fuerza recuperación activa |
+| Respuestas orientadoras | Indica qué debe contener una respuesta suficiente, sin darla |
 | Contexto chileno | Traduce la normativa a requisitos de diseño |
 | Entregable | Define la evidencia que se produce |
 | Evaluación | Publica la rúbrica antes del trabajo |

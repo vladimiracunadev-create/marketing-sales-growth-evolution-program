@@ -2,19 +2,34 @@
 title: "Google Ads: arquitectura conceptual"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 14
 class: 05
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["geddes", "kaushik", "chaffey", "enge-seo"]
+anchors: {"chaffey": "modelo-canal", "enge-seo": "intencion", "geddes": "estructura-cuenta", "kaushik": "segmentacion"}
 updated: 2026-08-19
 ---
 
 # Clase 14.05 — Google Ads: arquitectura conceptual
 
-**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 14 · Publicidad y performance marketing** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 14.04 — *Creatividades*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de costo por oportunidad por intención para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La estructura de cuenta por intención como condición del control presupuestario — Brad Geddes. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Estructura por intención: mecanismo central
 
-**estructura por intención** se entiende aquí como **organización de campañas según lo que busca el usuario y no según el producto**. Es la pieza desde la que se inicia el análisis de google Ads: arquitectura conceptual: antes de «clasificar términos por intención», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Estructura por intención** se entiende aquí como **organización de campañas según lo que busca el usuario y no según el producto**.
 
-La lectura rectora de este bloque es Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.). **Lente que aporta:** estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **costo por oportunidad por intención**; regístrala con periodo, unidad, población y línea base.
+La arquitectura de una cuenta de búsqueda determina qué se puede controlar. Agrupar por intención permite asignar presupuesto y ofertas según el valor esperado; agrupar por producto o por conveniencia administrativa obliga a promediar rendimientos distintos. La estructura se decide una vez y condiciona la gestión durante años.
+
+**De dónde viene esta afirmación.** Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) aporta la idea que sostiene este bloque: la estructura de cuenta por intención como condición del control presupuestario. Búscala en los capítulos sobre organización de campañas. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «costo por oportunidad por intención» debería moverse cuando cambie **estructura por intención**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **tipo de coincidencia**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Tipo de coincidencia: frontera conceptual y error de clasificación
 
-**Definición operacional:** regla que define qué tan cerca debe estar la búsqueda del término configurado. Su valor está en distinguirlo de **estructura por intención**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** regla que define qué tan cerca debe estar la búsqueda del término configurado. Su valor está en distinguirlo de **estructura por intención**.
 
-Contrasta el problema con Avinash Kaushik — *Web Analytics 2.0* (2009) —**lente:** medición orientada a decisión, segmentación y crítica del dato de vanidad—. Formula dos mini-casos: uno que satisface la definición de **tipo de coincidencia** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **proporción de gasto en términos no deseados** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El tipo de coincidencia define qué consultas activan cada término, y su uso ha cambiado con las modificaciones de las plataformas. Lo que se mantiene es el principio: cuanto más amplia la coincidencia, mayor el alcance y menor el control. La revisión de consultas reales es lo que permite gestionar esa apertura sin perder eficiencia.
+
+**Contraste bibliográfico.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta aquí una distinción concreta: la segmentación como condición para que un promedio signifique algo (el capítulo sobre segmentación de datos). Formula dos mini-casos: uno que satisface la definición de **tipo de coincidencia** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «estructurar campañas y grupos según esa clasificación», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Correspondencia anuncio-página: operacionalización y medición
 
-**correspondencia anuncio-página** significa **coherencia entre lo que promete el anuncio y lo que muestra el destino**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Correspondencia anuncio-página** significa **coherencia entre lo que promete el anuncio y lo que muestra el destino**.
+
+La correspondencia entre anuncio y página de destino afecta tanto a la conversión como al costo, porque la plataforma la considera en su estimación de calidad. Una campaña con anuncios específicos que llevan a una página genérica desperdicia esa correspondencia y paga más por cada clic sin que nadie lo note.
 
 Ficha de medición obligatoria para **costo por oportunidad por intención**: `gasto dividido por oportunidades calificadas, por grupo de intención`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) orienta este bloque —**lente:** planificación digital integrada: canales, medición y gobierno—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) pone una condición sobre la medición: el modelo de contribución de canal a la conversión (los capítulos sobre estrategia de canales). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Control presupuestario: trade-offs y efectos de segundo orden
 
-**Definición:** capacidad de asignar y limitar gasto por intención. Este concepto obliga a abandonar la idea de que google Ads: arquitectura conceptual tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «vincular cada grupo a una página coherente», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** capacidad de asignar y limitar gasto por intención.
 
-Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) —**lente:** arquitectura, contenido y autoridad como sistema de búsqueda orgánica— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **correspondencia auditada** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Cuentas más granulares permiten control fino y fragmentan el volumen, con lo que cada grupo tiene menos datos para optimizar y las plataformas automatizadas rinden peor. La tendencia actual favorece estructuras más consolidadas, pero esa recomendación depende del volumen: con poco tráfico, la fragmentación es especialmente dañina.
+
+**Lo que aporta la fuente.** Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) aporta el criterio para pesar el intercambio: la intención de búsqueda como criterio de priorización por encima del volumen (los capítulos sobre investigación de palabras clave). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **correspondencia auditada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **control presupuestario** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «revisar el informe de términos semanalmente», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) sirve para contrastar la recomendación final desde otro lente: arquitectura, contenido y autoridad como sistema de búsqueda orgánica. La frontera de esta clase es explícita: Las plataformas avanzan hacia automatización que reduce el control estructural. La arquitectura sigue importando, pero su forma cambia y debe revisarse. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Las plataformas cambian sus reglas de coincidencia, sus opciones de puja y sus métricas con frecuencia. Una estructura optimizada para las condiciones de hace dos años puede estar trabajando en contra hoy. Revisar la arquitectura periódicamente, y no sólo las campañas, es parte del mantenimiento.
+
+**Frontera declarada.** Las plataformas avanzan hacia automatización que reduce el control estructural. La arquitectura sigue importando, pero su forma cambia y debe revisarse. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Atribuirse demanda existente, inflar el retorno y decidir presupuesto sobre una ilusión.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Avinash Kaushik — *Web Analytics 2.0* (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) | La estructura de cuenta por intención como condición del control presupuestario | Los capítulos sobre organización de campañas | ¿Qué debería observarse en **estructura por intención** si aquí opera «la estructura de cuenta por intención como condición del control presupuestario»? ¿Y qué observación lo desmentiría en este caso? |
+| Avinash Kaushik — *Web Analytics 2.0* (2009) | La segmentación como condición para que un promedio signifique algo | El capítulo sobre segmentación de datos | ¿Qué debería observarse en **tipo de coincidencia** si aquí opera «la segmentación como condición para que un promedio signifique algo»? ¿Y qué observación lo desmentiría en este caso? |
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El modelo de contribución de canal a la conversión | Los capítulos sobre estrategia de canales | ¿Qué debería observarse en **correspondencia anuncio-página** si aquí opera «el modelo de contribución de canal a la conversión»? ¿Y qué observación lo desmentiría en este caso? |
+| Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) | La intención de búsqueda como criterio de priorización por encima del volumen | Los capítulos sobre investigación de palabras clave | ¿Qué debería observarse en **control presupuestario** si aquí opera «la intención de búsqueda como criterio de priorización por encima del volumen»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **clasificar términos por intención → estructurar campañas y grupos según esa clasificación → definir tipos de coincidencia y exclusiones → vincular cada grupo a una página coherente → revisar el informe de términos semanalmente** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **costo por oportunidad por intención**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **clasificar términos por intención → estructurar campañas y grupos según esa clasificación → definir tipos de coincidencia y exclusiones → vincular cada grupo a una página coherente → revisar el informe de términos semanalmente** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **costo por oportunidad por intención**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Advanced Google AdWords* y la de *Web Analytics 2.0*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **costo por oportunidad por intención** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Las plataformas avanzan hacia automatización que reduce el control estructural. La arquitectura sigue importando, pero su forma cambia y debe revisarse»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **correspondencia anuncio-página** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **costo por oportunidad por intención**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Advanced Google AdWords* y *The Art of SEO*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan de performance con est
 
 ## 📗 Fuentes y verificación
 
-- Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.). **Uso en esta clase:** estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Avinash Kaushik — *Web Analytics 2.0* (2009). **Uso en esta clase:** medición orientada a decisión, segmentación y crítica del dato de vanidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Uso en esta clase:** planificación digital integrada: canales, medición y gobierno. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.). **Uso en esta clase:** arquitectura, contenido y autoridad como sistema de búsqueda orgánica. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) — **aporta a esta clase:** la estructura de cuenta por intención como condición del control presupuestario. **Dónde buscarlo:** los capítulos sobre organización de campañas. Registra edición y páginas consultadas en tu nota de lectura.
+- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** la segmentación como condición para que un promedio signifique algo. **Dónde buscarlo:** el capítulo sobre segmentación de datos. Registra edición y páginas consultadas en tu nota de lectura.
+- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) — **aporta a esta clase:** el modelo de contribución de canal a la conversión. **Dónde buscarlo:** los capítulos sobre estrategia de canales. Registra edición y páginas consultadas en tu nota de lectura.
+- Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) — **aporta a esta clase:** la intención de búsqueda como criterio de priorización por encima del volumen. **Dónde buscarlo:** los capítulos sobre investigación de palabras clave. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

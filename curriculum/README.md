@@ -7,7 +7,7 @@ updated: 2026-08-19
 
 # Currículo
 
-24 partes, 336 clases y un caso persistente. Cada clase sigue el estándar `clase-profunda-v1`: conceptos con definición operacional, método, medición, caso, límites, evaluación y fuentes verificables.
+24 partes, 336 clases y un caso persistente. Cada clase sigue el estándar `clase-profunda-v2`: conceptos con definición operacional, método, medición, caso, límites, evaluación y fuentes verificables.
 
 ## Caso persistente
 

@@ -2,19 +2,34 @@
 title: "Prospección"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 08
 class: 02
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["blount", "weinberg-sales", "ross", "bertuzzi"]
+anchors: {"bertuzzi": "especializacion-sdr", "blount": "disciplina", "ross": "cold-calling-2", "weinberg-sales": "lista-objetivo"}
 updated: 2026-08-19
 ---
 
 # Clase 08.02 — Prospección
 
-**Parte 08 · Fundamentos profesionales de ventas** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 08 · Fundamentos profesionales de ventas** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 08.01 — *Proceso comercial reproducible*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de intentos de contacto por semana para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La disciplina de actividad sostenida frente al ciclo de abundancia y sequía — Jeb Blount. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Actividad de prospección: mecanismo central
 
-**actividad de prospección** se entiende aquí como **número de intentos de contacto de calidad realizados en un periodo**. Es la pieza desde la que se inicia el análisis de prospección: antes de «construir la lista objetivo desde el perfil de cliente ideal», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Actividad de prospección** se entiende aquí como **número de intentos de contacto de calidad realizados en un periodo**.
 
-La lectura rectora de este bloque es Jeb Blount — *Fanatical Prospecting* (2015). **Lente que aporta:** disciplina de prospección, cadencia y gestión del rechazo. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **intentos de contacto por semana**; regístrala con periodo, unidad, población y línea base.
+La prospección es la actividad que menos se hace y más determina el resultado, porque su efecto llega con retraso. Jeb Blount lo formuló como una ley práctica: el pipeline de dentro de noventa días se construye con la actividad de hoy, y por eso la sequía siempre sorprende a quien dejó de prospectar cuando estaba ocupado cerrando.
+
+**De dónde viene esta afirmación.** Jeb Blount — *Fanatical Prospecting* (2015) aporta la idea que sostiene este bloque: la disciplina de actividad sostenida frente al ciclo de abundancia y sequía. Búscala en los capítulos sobre la ley del pipeline. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «intentos de contacto por semana» debería moverse cuando cambie **actividad de prospección**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **lista objetivo**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Lista objetivo: frontera conceptual y error de clasificación
 
-**Definición operacional:** conjunto acotado de organizaciones que cumplen el perfil de cliente ideal. Su valor está en distinguirlo de **actividad de prospección**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** conjunto acotado de organizaciones que cumplen el perfil de cliente ideal. Su valor está en distinguirlo de **actividad de prospección**.
 
-Contrasta el problema con Mike Weinberg — *New Sales. Simplified.* (2012) —**lente:** proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida—. Formula dos mini-casos: uno que satisface la definición de **lista objetivo** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de conversación obtenida** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La lista objetivo se distingue del universo por un criterio explícito de pertenencia. Prospectar sobre todo el mercado disponible produce actividad dispersa y mensajes genéricos; trabajar una lista acotada permite investigación previa y relevancia. El tamaño razonable de la lista depende de la capacidad de contacto real, no del tamaño del mercado.
+
+**Contraste bibliográfico.** Mike Weinberg — *New Sales. Simplified.* (2012) aporta aquí una distinción concreta: la lista objetivo acotada y trabajada, en lugar del universo completo (los capítulos sobre selección de cuentas objetivo). Formula dos mini-casos: uno que satisface la definición de **lista objetivo** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «definir el volumen de actividad semanal necesario», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Retardo del pipeline: operacionalización y medición
 
-**retardo del pipeline** significa **desfase entre la actividad de prospección y su efecto en oportunidades cerradas**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Retardo del pipeline** significa **desfase entre la actividad de prospección y su efecto en oportunidades cerradas**.
+
+La relevancia del mensaje se puede medir con la tasa de respuesta positiva sobre contactos efectivos, segmentada por segmento y por canal. Esa cifra suele ser baja y su valor está en la comparación entre variantes, no en el nivel. Registrarla exige definir qué cuenta como respuesta positiva, y esa definición debe ser la misma para todo el equipo.
 
 Ficha de medición obligatoria para **intentos de contacto por semana**: `contactos de calidad realizados, por vendedor y por semana`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) orienta este bloque —**lente:** especialización de roles comerciales y generación de pipeline predecible—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) pone una condición sobre la medición: la prospección por referencia interna en lugar de la llamada en frío clásica (los capítulos sobre el método de prospección). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Relevancia del mensaje: trade-offs y efectos de segundo orden
 
-**Definición:** grado en que el contacto demuestra conocimiento del problema específico del destinatario. Este concepto obliga a abandonar la idea de que prospección tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «sostener la cadencia aunque el pipeline esté lleno», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** grado en que el contacto demuestra conocimiento del problema específico del destinatario.
 
-Trish Bertuzzi — *The Sales Development Playbook* (2016) —**lente:** estructura, especialización y métricas del equipo de desarrollo de ventas— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **retardo observado** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Prospectar más aumenta el pipeline y consume el tiempo que se dedicaría a avanzar las oportunidades abiertas. La solución de bloques de tiempo protegidos existe porque el conflicto es real y no se resuelve con voluntad. Sin bloques, la prospección siempre pierde frente a lo urgente, y la sequía aparece un trimestre después.
+
+**Lo que aporta la fuente.** Trish Bertuzzi — *The Sales Development Playbook* (2016) aporta el criterio para pesar el intercambio: la separación entre respuesta a demanda entrante y prospección saliente (los capítulos sobre especialización). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **retardo observado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **relevancia del mensaje** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir el retardo real entre actividad y cierre», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Trish Bertuzzi — *The Sales Development Playbook* (2016) sirve para contrastar la recomendación final desde otro lente: estructura, especialización y métricas del equipo de desarrollo de ventas. La frontera de esta clase es explícita: Volumen sin calidad de lista produce ruido y daña la reputación del dominio. La disciplina de actividad supone que la lista ya fue filtrada por perfil. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Toda actividad de prospección con datos de personas está sujeta a la normativa de datos personales y de comunicaciones comerciales. En Chile, la Ley 21.719 establece obligaciones sobre licitud, finalidad y derechos del titular. Ninguna técnica de este material autoriza a contactar sin base legal; verificar el marco vigente es un paso previo obligatorio.
+
+**Frontera declarada.** Volumen sin calidad de lista produce ruido y daña la reputación del dominio. La disciplina de actividad supone que la lista ya fue filtrada por perfil. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Presionar por cierre sin diagnóstico y vender a clientes que no pueden obtener valor.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Jeb Blount — *Fanatical Prospecting* (2015) | disciplina de prospección, cadencia y gestión del rechazo | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Mike Weinberg — *New Sales. Simplified.* (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Trish Bertuzzi — *The Sales Development Playbook* (2016) | estructura, especialización y métricas del equipo de desarrollo de ventas | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Jeb Blount — *Fanatical Prospecting* (2015) | La disciplina de actividad sostenida frente al ciclo de abundancia y sequía | Los capítulos sobre la ley del pipeline | ¿Qué debería observarse en **actividad de prospección** si aquí opera «la disciplina de actividad sostenida frente al ciclo de abundancia y sequía»? ¿Y qué observación lo desmentiría en este caso? |
+| Mike Weinberg — *New Sales. Simplified.* (2012) | La lista objetivo acotada y trabajada, en lugar del universo completo | Los capítulos sobre selección de cuentas objetivo | ¿Qué debería observarse en **lista objetivo** si aquí opera «la lista objetivo acotada y trabajada, en lugar del universo completo»? ¿Y qué observación lo desmentiría en este caso? |
+| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | La prospección por referencia interna en lugar de la llamada en frío clásica | Los capítulos sobre el método de prospección | ¿Qué debería observarse en **retardo del pipeline** si aquí opera «la prospección por referencia interna en lugar de la llamada en frío clásica»? ¿Y qué observación lo desmentiría en este caso? |
+| Trish Bertuzzi — *The Sales Development Playbook* (2016) | La separación entre respuesta a demanda entrante y prospección saliente | Los capítulos sobre especialización | ¿Qué debería observarse en **relevancia del mensaje** si aquí opera «la separación entre respuesta a demanda entrante y prospección saliente»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **construir la lista objetivo desde el perfil de cliente ideal → definir el volumen de actividad semanal necesario → personalizar el mensaje con evidencia del problema → sostener la cadencia aunque el pipeline esté lleno → medir el retardo real entre actividad y cierre** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **intentos de contacto por semana**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **construir la lista objetivo desde el perfil de cliente ideal → definir el volumen de actividad semanal necesario → personalizar el mensaje con evidencia del problema → sostener la cadencia aunque el pipeline esté lleno → medir el retardo real entre actividad y cierre** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **intentos de contacto por semana**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Fanatical Prospecting* y la de *New Sales. Simplified.*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **intentos de contacto por semana** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Volumen sin calidad de lista produce ruido y daña la reputación del dominio. La disciplina de actividad supone que la lista ya fue filtrada por perfil»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **retardo del pipeline** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **intentos de contacto por semana**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Fanatical Prospecting* y *The Sales Development Playbook*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **playbook comercial con etap
 
 ## 📗 Fuentes y verificación
 
-- Jeb Blount — *Fanatical Prospecting* (2015). **Uso en esta clase:** disciplina de prospección, cadencia y gestión del rechazo. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Mike Weinberg — *New Sales. Simplified.* (2012). **Uso en esta clase:** proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011). **Uso en esta clase:** especialización de roles comerciales y generación de pipeline predecible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Trish Bertuzzi — *The Sales Development Playbook* (2016). **Uso en esta clase:** estructura, especialización y métricas del equipo de desarrollo de ventas. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Jeb Blount — *Fanatical Prospecting* (2015) — **aporta a esta clase:** la disciplina de actividad sostenida frente al ciclo de abundancia y sequía. **Dónde buscarlo:** los capítulos sobre la ley del pipeline. Registra edición y páginas consultadas en tu nota de lectura.
+- Mike Weinberg — *New Sales. Simplified.* (2012) — **aporta a esta clase:** la lista objetivo acotada y trabajada, en lugar del universo completo. **Dónde buscarlo:** los capítulos sobre selección de cuentas objetivo. Registra edición y páginas consultadas en tu nota de lectura.
+- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) — **aporta a esta clase:** la prospección por referencia interna en lugar de la llamada en frío clásica. **Dónde buscarlo:** los capítulos sobre el método de prospección. Registra edición y páginas consultadas en tu nota de lectura.
+- Trish Bertuzzi — *The Sales Development Playbook* (2016) — **aporta a esta clase:** la separación entre respuesta a demanda entrante y prospección saliente. **Dónde buscarlo:** los capítulos sobre especialización. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

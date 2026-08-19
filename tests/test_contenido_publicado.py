@@ -2,7 +2,7 @@
 """Pruebas del contenido publicado.
 
 Verifican que el Markdown generado corresponda a la especificación, cumpla el
-estándar `clase-profunda-v1` y esté escrito en español.
+estándar `clase-profunda-v2` y esté escrito en español.
 """
 
 from __future__ import annotations
@@ -11,6 +11,7 @@ import os
 import re
 
 SECCIONES_CLASE = [
+    "## 🚦 Antes de empezar",
     "## 🎯 Propósito",
     "## 📚 Resultados de aprendizaje",
     "## 🧭 Agenda sugerida",
@@ -25,6 +26,7 @@ SECCIONES_CLASE = [
     "## 🧪 Práctica guiada",
     "## ⚠️ Errores frecuentes",
     "## ❓ Preguntas de comprobación",
+    "## 🗝️ Respuestas orientadoras",
     "## 🇨🇱 Contexto chileno y cumplimiento",
     "## 📥 Entregable",
     "## ✅ Evaluación de la clase",
@@ -41,7 +43,8 @@ def leer(ruta):
 
 
 def solo_prosa(texto):
-    sin = re.sub(r"\*[^*\n]+\*", " ", texto)
+    sin = re.sub(r"\*\*[^*\n]+\*\*", " ", texto)
+    sin = re.sub(r"\*[^*\n]+\*", " ", sin)
     sin = re.sub(r"`[^`\n]+`", " ", sin)
     sin = re.sub(r"^sources:.*$", " ", sin, flags=re.M)
     return sin
@@ -94,7 +97,7 @@ def test_clases_declaran_metadatos(raiz, partes):
         texto = leer(ruta)
         assert texto.startswith("---\n")
         assert "language: es" in texto
-        assert "standard: clase-profunda-v1" in texto
+        assert "standard: clase-profunda-v2" in texto
         assert "mastery_threshold: 80" in texto
         assert "part: {}".format(parte["num"]) in texto
 

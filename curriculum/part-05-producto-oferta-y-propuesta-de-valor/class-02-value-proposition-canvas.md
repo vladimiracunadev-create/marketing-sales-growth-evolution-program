@@ -2,19 +2,34 @@
 title: "Value Proposition Canvas"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 05
 class: 02
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["osterwalder-vpd", "christensen", "fitzpatrick", "cagan"]
+anchors: {"cagan": "riesgos", "christensen": "job", "fitzpatrick": "mom-test", "osterwalder-vpd": "perfil"}
 updated: 2026-08-19
 ---
 
 # Clase 05.02 — Value Proposition Canvas
 
-**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 05.01 — *Producto, servicio y solución*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de proporción de elementos con evidencia para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El perfil del cliente en tareas, dolores y ganancias observadas — Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Perfil del cliente: mecanismo central
 
-**perfil del cliente** se entiende aquí como **descripción de tareas, dolores y ganancias observadas y no supuestas**. Es la pieza desde la que se inicia el análisis de value Proposition Canvas: antes de «completar el perfil del cliente sólo con evidencia», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Perfil del cliente** se entiende aquí como **descripción de tareas, dolores y ganancias observadas y no supuestas**.
 
-La lectura rectora de este bloque es Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014). **Lente que aporta:** encaje entre perfil del cliente y mapa de valor; prueba de propuestas antes de construir. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **proporción de elementos con evidencia**; regístrala con periodo, unidad, población y línea base.
+El lienzo de propuesta de valor funciona sólo si se llena con evidencia. La mitad del cliente —tareas, dolores y ganancias— debe provenir de conversaciones reales, no de una sesión interna. Un lienzo completado desde la sala de reuniones documenta lo que el equipo cree, y su principal riesgo es que se ve idéntico a uno construido con investigación.
+
+**De dónde viene esta afirmación.** Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014) aporta la idea que sostiene este bloque: el perfil del cliente en tareas, dolores y ganancias observadas. Búscala en la sección sobre el perfil del cliente. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «proporción de elementos con evidencia» debería moverse cuando cambie **perfil del cliente**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **aliviador de dolor**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Aliviador de dolor: frontera conceptual y error de clasificación
 
-**Definición operacional:** elemento de la oferta que reduce un dolor específico y documentado. Su valor está en distinguirlo de **perfil del cliente**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** elemento de la oferta que reduce un dolor específico y documentado. Su valor está en distinguirlo de **perfil del cliente**.
 
-Contrasta el problema con Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) —**lente:** Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación—. Formula dos mini-casos: uno que satisface la definición de **aliviador de dolor** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **dolores atendidos por la oferta** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El aliviador de dolor se distingue de la funcionalidad por su vínculo explícito: cada aliviador debe apuntar a un dolor concreto del perfil. Cuando una funcionalidad no puede conectarse con ningún dolor levantado, la conclusión razonable no es inventar el dolor sino registrar que esa funcionalidad no está respaldada por la investigación disponible.
+
+**Contraste bibliográfico.** Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) aporta aquí una distinción concreta: el trabajo que el cliente contrata: el progreso que intenta lograr en una circunstancia (los capítulos sobre la teoría del trabajo por hacer). Formula dos mini-casos: uno que satisface la definición de **aliviador de dolor** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «mapear la oferta actual sin idealizarla», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Encaje problema-solución: operacionalización y medición
 
-**encaje problema-solución** significa **correspondencia verificada entre lo que la oferta hace y lo que el cliente necesita**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Encaje problema-solución** significa **correspondencia verificada entre lo que la oferta hace y lo que el cliente necesita**.
+
+El encaje problema-solución se verifica, no se declara. La verificación mínima consiste en mostrar el mapa de valor a clientes del perfil y preguntar cuáles de los aliviadores les parecen relevantes y cuáles indiferentes. La proporción de indiferencia es el dato útil: si supera la mitad, el encaje todavía no existe por más que el lienzo se vea completo.
 
 Ficha de medición obligatoria para **proporción de elementos con evidencia**: `elementos del canvas con fuente registrada, sobre elementos totales`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Rob Fitzpatrick — *The Mom Test* (2013) orienta este bloque —**lente:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Rob Fitzpatrick — *The Mom Test* (2013) pone una condición sobre la medición: preguntar por comportamiento pasado y hechos concretos en lugar de opiniones sobre el futuro (el capítulo que enuncia la regla). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Supuesto no verificado: trade-offs y efectos de segundo orden
 
-**Definición:** elemento del canvas sin evidencia asociada, marcado como pendiente de validar. Este concepto obliga a abandonar la idea de que value Proposition Canvas tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «marcar los supuestos sin evidencia», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** elemento del canvas sin evidencia asociada, marcado como pendiente de validar.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) —**lente:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **supuestos validados por trimestre** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un lienzo detallado captura matices y toma semanas; uno rápido orienta y omite. El error caro no es elegir mal la profundidad sino no marcar los supuestos: cada elemento del lienzo debería llevar una marca que indique si proviene de evidencia o de hipótesis. Con esa marca, un lienzo rápido es útil; sin ella, uno detallado es peligroso.
+
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **supuestos validados por trimestre** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **supuesto no verificado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «diseñar la validación de los tres supuestos más caros», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) sirve para contrastar la recomendación final desde otro lente: descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. La frontera de esta clase es explícita: El canvas ordena el pensamiento pero no valida nada por sí mismo. Un canvas perfecto puede describir una propuesta que nadie comprará. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El lienzo describe un encaje en un momento. No prueba que exista mercado, ni que el cliente pagará, ni que podrás alcanzarlo. Es una herramienta de diseño de la oferta, y confundir su completitud con validación comercial es el error que explica muchos productos bien diseñados que nadie compró.
+
+**Frontera declarada.** El canvas ordena el pensamiento pero no valida nada por sí mismo. Un canvas perfecto puede describir una propuesta que nadie comprará. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resultados que la operación no puede sostener y generar churn temprano.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014) | encaje entre perfil del cliente y mapa de valor; prueba de propuestas antes de construir | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) | Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Rob Fitzpatrick — *The Mom Test* (2013) | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Marty Cagan — *Inspired* (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014) | El perfil del cliente en tareas, dolores y ganancias observadas | La sección sobre el perfil del cliente | ¿Qué debería observarse en **perfil del cliente** si aquí opera «el perfil del cliente en tareas, dolores y ganancias observadas»? ¿Y qué observación lo desmentiría en este caso? |
+| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) | El trabajo que el cliente contrata: el progreso que intenta lograr en una circunstancia | Los capítulos sobre la teoría del trabajo por hacer | ¿Qué debería observarse en **aliviador de dolor** si aquí opera «el trabajo que el cliente contrata: el progreso que intenta lograr en una circunstancia»? ¿Y qué observación lo desmentiría en este caso? |
+| Rob Fitzpatrick — *The Mom Test* (2013) | Preguntar por comportamiento pasado y hechos concretos en lugar de opiniones sobre el futuro | El capítulo que enuncia la regla | ¿Qué debería observarse en **encaje problema-solución** si aquí opera «preguntar por comportamiento pasado y hechos concretos en lugar de opiniones sobre el futuro»? ¿Y qué observación lo desmentiría en este caso? |
+| Marty Cagan — *Inspired* (2017, 2.ª ed.) | Los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad | Los capítulos sobre riesgos del descubrimiento | ¿Qué debería observarse en **supuesto no verificado** si aquí opera «los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **completar el perfil del cliente sólo con evidencia → mapear la oferta actual sin idealizarla → trazar la correspondencia entre ambas mitades → marcar los supuestos sin evidencia → diseñar la validación de los tres supuestos más caros** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **proporción de elementos con evidencia**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **completar el perfil del cliente sólo con evidencia → mapear la oferta actual sin idealizarla → trazar la correspondencia entre ambas mitades → marcar los supuestos sin evidencia → diseñar la validación de los tres supuestos más caros** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **proporción de elementos con evidencia**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Value Proposition Design* y la de *Competing Against Luck*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **proporción de elementos con evidencia** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El canvas ordena el pensamiento pero no valida nada por sí mismo. Un canvas perfecto puede describir una propuesta que nadie comprará»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **encaje problema-solución** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **proporción de elementos con evidencia**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Value Proposition Design* y *Inspired*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **oferta lista para vender co
 
 ## 📗 Fuentes y verificación
 
-- Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014). **Uso en esta clase:** encaje entre perfil del cliente y mapa de valor; prueba de propuestas antes de construir. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016). **Uso en esta clase:** Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Rob Fitzpatrick — *The Mom Test* (2013). **Uso en esta clase:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Marty Cagan — *Inspired* (2017, 2.ª ed.). **Uso en esta clase:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith — *Value Proposition Design* (2014) — **aporta a esta clase:** el perfil del cliente en tareas, dolores y ganancias observadas. **Dónde buscarlo:** la sección sobre el perfil del cliente. Registra edición y páginas consultadas en tu nota de lectura.
+- Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) — **aporta a esta clase:** el trabajo que el cliente contrata: el progreso que intenta lograr en una circunstancia. **Dónde buscarlo:** los capítulos sobre la teoría del trabajo por hacer. Registra edición y páginas consultadas en tu nota de lectura.
+- Rob Fitzpatrick — *The Mom Test* (2013) — **aporta a esta clase:** preguntar por comportamiento pasado y hechos concretos en lugar de opiniones sobre el futuro. **Dónde buscarlo:** el capítulo que enuncia la regla. Registra edición y páginas consultadas en tu nota de lectura.
+- Marty Cagan — *Inspired* (2017, 2.ª ed.) — **aporta a esta clase:** los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad. **Dónde buscarlo:** los capítulos sobre riesgos del descubrimiento. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

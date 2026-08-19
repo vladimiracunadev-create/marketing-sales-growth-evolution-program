@@ -2,19 +2,34 @@
 title: "Jobs to Be Done"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 02
 class: 03
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["christensen", "ulwick", "fitzpatrick", "cagan"]
+anchors: {"cagan": "riesgos", "christensen": "dimensiones", "fitzpatrick": "compromiso", "ulwick": "mapa-job"}
 updated: 2026-08-19
 ---
 
 # Clase 02.03 — Jobs to Be Done
 
-**Parte 02 · Cliente y comportamiento del consumidor** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 02 · Cliente y comportamiento del consumidor** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 02.02 — *Problemas, necesidades y resultados deseados*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de frecuencia de disparadores por tipo para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las dimensiones funcional, social y emocional de un mismo trabajo — Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Job funcional: mecanismo central
 
-**job funcional** se entiende aquí como **tarea concreta que el cliente busca completar en una circunstancia específica**. Es la pieza desde la que se inicia el análisis de jobs to Be Done: antes de «reconstruir la línea de tiempo de una compra reciente», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Job funcional** se entiende aquí como **tarea concreta que el cliente busca completar en una circunstancia específica**.
 
-La lectura rectora de este bloque es Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016). **Lente que aporta:** Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **frecuencia de disparadores por tipo**; regístrala con periodo, unidad, población y línea base.
+El trabajo por hacer se define por la circunstancia, no por la persona. La misma jefa de operaciones contrata soluciones distintas el lunes por la mañana, cuando debe reorganizar rutas tras una falla, y el viernes por la tarde, cuando prepara el informe mensual. Segmentar por su cargo mezcla ambas situaciones; segmentar por circunstancia las separa y revela que compiten productos que en un catálogo jamás aparecerían juntos.
+
+**De dónde viene esta afirmación.** Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) aporta la idea que sostiene este bloque: las dimensiones funcional, social y emocional de un mismo trabajo. Búscala en el capítulo sobre la complejidad del trabajo. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «frecuencia de disparadores por tipo» debería moverse cuando cambie **job funcional**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **dimensión social y emocional**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Dimensión social y emocional: frontera conceptual y error de clasificación
 
-**Definición operacional:** cómo quiere sentirse y ser percibido el cliente al resolver ese trabajo. Su valor está en distinguirlo de **job funcional**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** cómo quiere sentirse y ser percibido el cliente al resolver ese trabajo. Su valor está en distinguirlo de **job funcional**.
 
-Contrasta el problema con Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016) —**lente:** outcome-driven innovation: resultados deseados medibles y priorización por oportunidad—. Formula dos mini-casos: uno que satisface la definición de **dimensión social y emocional** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de abandono por ansiedad declarada** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+Las dimensiones social y emocional del trabajo suelen decidir cuando la funcional está empatada. Entre dos sistemas equivalentes, se elige el que no obliga a admitir frente al equipo que el proceso anterior —diseñado por quien decide— estaba mal. Ignorar esa dimensión lleva a insistir con comparaciones técnicas ante una objeción que nunca fue técnica, y a perder sin entender por qué.
+
+**Contraste bibliográfico.** Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016) aporta aquí una distinción concreta: el mapa del trabajo por etapas, desde la definición hasta la conclusión (el capítulo sobre el mapeo del trabajo). Formula dos mini-casos: uno que satisface la definición de **dimensión social y emocional** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «identificar el evento disparador y la circunstancia», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Fuerzas de progreso: operacionalización y medición
 
-**fuerzas de progreso** significa **empuje del problema y atracción de la nueva solución que impulsan el cambio**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Fuerzas de progreso** significa **empuje del problema y atracción de la nueva solución que impulsan el cambio**.
+
+Las fuerzas de progreso y de resistencia se levantan con preguntas sobre hechos, no sobre intenciones. Empuja el dolor de la situación actual; atrae la promesa de la nueva solución; frena la ansiedad ante lo desconocido y el apego a lo que ya funciona. La ficha registra, para cada oportunidad, al menos una fuerza de cada tipo con la cita textual del cliente que la respalda. Sin cita textual, es interpretación del vendedor.
 
 Ficha de medición obligatoria para **frecuencia de disparadores por tipo**: `eventos disparadores identificados por categoría, sobre entrevistas de compra realizadas`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Rob Fitzpatrick — *The Mom Test* (2013) orienta este bloque —**lente:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Rob Fitzpatrick — *The Mom Test* (2013) pone una condición sobre la medición: el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés (los capítulos sobre compromiso y avance). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Fuerzas de resistencia: trade-offs y efectos de segundo orden
 
-**Definición:** ansiedad ante lo nuevo y hábito con lo actual que frenan el cambio. Este concepto obliga a abandonar la idea de que jobs to Be Done tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «mapear las cuatro fuerzas de progreso y resistencia», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** ansiedad ante lo nuevo y hábito con lo actual que frenan el cambio.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) —**lente:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tiempo desde disparador hasta búsqueda** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Diseñar para un trabajo específico produce un producto que gana con claridad en ese contexto y pierde en los demás. Esa concentración es una apuesta, no una virtud automática: si el trabajo elegido es poco frecuente o lo ejecuta poca gente, el mercado resultante puede ser demasiado pequeño para sostener la operación. La decisión exige estimar frecuencia y volumen antes de comprometer el roadmap.
+
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo desde disparador hasta búsqueda** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **fuerzas de resistencia** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «diseñar la intervención que reduce ansiedad o hábito», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Marty Cagan — *Inspired* (2017, 2.ª ed.) sirve para contrastar la recomendación final desde otro lente: descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. La frontera de esta clase es explícita: JTBD no reemplaza la segmentación operativa ni el dimensionamiento de mercado: explica por qué alguien compra, no cuántos como él existen ni cómo alcanzarlos con un presupuesto dado. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La teoría del trabajo por hacer explica bien por qué la gente contrata algo y explica mal cuánto estará dispuesta a pagar y con qué velocidad decidirá. Es una herramienta de descubrimiento, no de proyección comercial. Usar una entrevista de trabajo por hacer para estimar demanda es exceder el alcance del método y produce pronósticos que no resisten el primer trimestre.
+
+**Frontera declarada.** JTBD no reemplaza la segmentación operativa ni el dimensionamiento de mercado: explica por qué alguien compra, no cuántos como él existen ni cómo alcanzarlos con un presupuesto dado. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Construir personas ficticias sin datos y usarlas para justificar decisiones caras.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) | Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016) | outcome-driven innovation: resultados deseados medibles y priorización por oportunidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Rob Fitzpatrick — *The Mom Test* (2013) | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Marty Cagan — *Inspired* (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) | Las dimensiones funcional, social y emocional de un mismo trabajo | El capítulo sobre la complejidad del trabajo | ¿Qué debería observarse en **job funcional** si aquí opera «las dimensiones funcional, social y emocional de un mismo trabajo»? ¿Y qué observación lo desmentiría en este caso? |
+| Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016) | El mapa del trabajo por etapas, desde la definición hasta la conclusión | El capítulo sobre el mapeo del trabajo | ¿Qué debería observarse en **dimensión social y emocional** si aquí opera «el mapa del trabajo por etapas, desde la definición hasta la conclusión»? ¿Y qué observación lo desmentiría en este caso? |
+| Rob Fitzpatrick — *The Mom Test* (2013) | El compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés | Los capítulos sobre compromiso y avance | ¿Qué debería observarse en **fuerzas de progreso** si aquí opera «el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés»? ¿Y qué observación lo desmentiría en este caso? |
+| Marty Cagan — *Inspired* (2017, 2.ª ed.) | Los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad | Los capítulos sobre riesgos del descubrimiento | ¿Qué debería observarse en **fuerzas de resistencia** si aquí opera «los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **reconstruir la línea de tiempo de una compra reciente → identificar el evento disparador y la circunstancia → nombrar el trabajo funcional, social y emocional → mapear las cuatro fuerzas de progreso y resistencia → diseñar la intervención que reduce ansiedad o hábito** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **frecuencia de disparadores por tipo**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **reconstruir la línea de tiempo de una compra reciente → identificar el evento disparador y la circunstancia → nombrar el trabajo funcional, social y emocional → mapear las cuatro fuerzas de progreso y resistencia → diseñar la intervención que reduce ansiedad o hábito** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **frecuencia de disparadores por tipo**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Competing Against Luck* y la de *Jobs to Be Done: Theory to Practice*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **frecuencia de disparadores por tipo** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «JTBD no reemplaza la segmentación operativa ni el dimensionamiento de mercado: explica por qué alguien compra, no cuántos como él existen ni cómo alcanzarlos con un presupuesto dado»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **fuerzas de progreso** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **frecuencia de disparadores por tipo**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Competing Against Luck* y *Inspired*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **expediente de cliente con I
 
 ## 📗 Fuentes y verificación
 
-- Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016). **Uso en esta clase:** Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016). **Uso en esta clase:** outcome-driven innovation: resultados deseados medibles y priorización por oportunidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Rob Fitzpatrick — *The Mom Test* (2013). **Uso en esta clase:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Marty Cagan — *Inspired* (2017, 2.ª ed.). **Uso en esta clase:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — *Competing Against Luck* (2016) — **aporta a esta clase:** las dimensiones funcional, social y emocional de un mismo trabajo. **Dónde buscarlo:** el capítulo sobre la complejidad del trabajo. Registra edición y páginas consultadas en tu nota de lectura.
+- Anthony W. Ulwick — *Jobs to Be Done: Theory to Practice* (2016) — **aporta a esta clase:** el mapa del trabajo por etapas, desde la definición hasta la conclusión. **Dónde buscarlo:** el capítulo sobre el mapeo del trabajo. Registra edición y páginas consultadas en tu nota de lectura.
+- Rob Fitzpatrick — *The Mom Test* (2013) — **aporta a esta clase:** el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés. **Dónde buscarlo:** los capítulos sobre compromiso y avance. Registra edición y páginas consultadas en tu nota de lectura.
+- Marty Cagan — *Inspired* (2017, 2.ª ed.) — **aporta a esta clase:** los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad. **Dónde buscarlo:** los capítulos sobre riesgos del descubrimiento. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

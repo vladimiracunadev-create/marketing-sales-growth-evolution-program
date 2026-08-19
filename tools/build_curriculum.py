@@ -4,7 +4,7 @@
 Lee `curriculum/spec/` y escribe:
 
 * `curriculum/part-XX-*/README.md`         índice y contrato de la parte
-* `curriculum/part-XX-*/class-YY-*.md`     clase completa (estándar clase-profunda-v1)
+* `curriculum/part-XX-*/class-YY-*.md`     clase completa (estándar clase-profunda-v2)
 * `curriculum/curriculum.json`             índice legible por máquina (sitio, apps, tests)
 
 Uso:
@@ -27,10 +27,12 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 
 from spec import bibliografia as bib  # noqa: E402
+from spec.anclajes import ANCLAJES  # noqa: E402
+from spec.aportes import APORTES  # noqa: E402
 from spec.partes import EMPRESA, PARTES  # noqa: E402
 
 FECHA = "2026-08-19"
-VERSION_ESTANDAR = "clase-profunda-v1"
+VERSION_ESTANDAR = "clase-profunda-v2"
 
 
 # --------------------------------------------------------------------------
@@ -49,8 +51,22 @@ def escribir(ruta, contenido):
 
 
 def leer_specs(num):
+    """Carga las clases de una parte y les adjunta su desarrollo escrito.
+
+    El desarrollo vive en `spec/desarrollo_pNN.py` porque es texto redactado
+    clase a clase, no una plantilla: separarlo del resto de la especificación
+    permite revisarlo y corregirlo como se corrige un manuscrito.
+    """
     modulo = importlib.import_module("spec.clases_p{}".format(num))
-    return modulo.CLASES
+    desarrollo = importlib.import_module("spec.desarrollo_p{}".format(num)).DESARROLLO
+    clases = modulo.CLASES
+    for clase in clases:
+        parrafos = desarrollo.get(clase["n"])
+        if not parrafos or len(parrafos) < 5:
+            raise SystemExit(
+                "Falta el desarrollo escrito de la clase {}.{}".format(num, clase["n"]))
+        clase["desarrollo"] = parrafos
+    return clases
 
 
 def enum_es(items):
@@ -81,6 +97,31 @@ def comillas(texto):
 
 
 # --------------------------------------------------------------------------
+# anclaje bibliográfico
+# --------------------------------------------------------------------------
+
+def anclas(parte, clase):
+    """Devuelve [(clave, idea, dónde buscarla)] en el orden en que la clase cita.
+
+    El anclaje es obligatorio: si falta, el generador se detiene en lugar de
+    escribir una clase que cita obras sin declarar qué idea de cada una la
+    sostiene.
+    """
+    ref = "{}.{}".format(parte["num"], clase["n"])
+    mapa = ANCLAJES.get(ref)
+    if not mapa:
+        raise SystemExit("Falta anclaje bibliográfico para la clase {}".format(ref))
+    salida = []
+    for clave in clase["libros"]:
+        ident = mapa.get(clave)
+        if ident is None:
+            raise SystemExit("La clase {} cita {} sin anclar una idea".format(ref, clave))
+        idea, donde = APORTES[clave][ident]
+        salida.append((clave, idea, donde))
+    return salida
+
+
+# --------------------------------------------------------------------------
 # bloques de la clase
 # --------------------------------------------------------------------------
 
@@ -104,6 +145,7 @@ CIERRES_DESARROLLO = [
 
 
 def front_matter(parte, clase):
+    ref = "{}.{}".format(parte["num"], clase["n"])
     return "\n".join([
         "---",
         'title: "{}"'.format(clase["titulo"].replace('"', "'")),
@@ -116,8 +158,45 @@ def front_matter(parte, clase):
         "mastery_threshold: 80",
         "estimated_minutes: 150",
         "sources: {}".format(json.dumps(clase["libros"], ensure_ascii=False)),
+        "anchors: {}".format(json.dumps(ANCLAJES[ref], ensure_ascii=False, sort_keys=True)),
         "updated: {}".format(FECHA),
         "---",
+        "",
+    ])
+
+
+def bloque_antes(parte, clases, idx):
+    """Indicaciones de entrada: qué hace falta antes de leer y cómo trabajar."""
+    clase = clases[idx]
+    anterior = clases[idx - 1] if idx > 0 else None
+    if anterior:
+        previo = "La clase {}.{} — *{}*, cuyo entregable se reutiliza aquí.".format(
+            parte["num"], anterior["n"], anterior["titulo"])
+    else:
+        previo = ("Ninguna clase previa dentro de esta parte. Si vienes de otra parte, ten a la vista su "
+                  "artefacto final; si empiezas el programa aquí, lee antes `docs/RUTA-DE-APRENDIZAJE.md`.")
+    obras = anclas(parte, clase)
+    return "\n".join([
+        "## 🚦 Antes de empezar",
+        "",
+        "| Requisito | Detalle |",
+        "|---|---|",
+        "| **Qué debes traer resuelto** | {} |".format(previo),
+        "| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos "
+        "una serie histórica de {} para calcular la línea base. |".format(clase["senales"][0][0]),
+        "| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura "
+        "comparada (basta el índice y los capítulos indicados). |",
+        "| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |",
+        "| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas "
+        "de comprobación sin volver al texto. |",
+        "",
+        "**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica "
+        "qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que "
+        "salir de él. No avances de sección sin escribir algo; este material está diseñado para producir "
+        "decisiones documentadas, no notas de lectura.",
+        "",
+        "**La idea que ordena la sesión.** {} — {}. Todo lo demás en esta clase existe para poner esa idea a "
+        "prueba contra un caso concreto.".format(cap(obras[0][1]), bib.autor(obras[0][0])),
         "",
     ])
 
@@ -232,25 +311,28 @@ ROLES_BLOQUE = [
 
 def bloque_desarrollo(parte, clase, i):
     conceptos = clase["conceptos"]
-    libros = clase["libros"]
     senales = clase["senales"]
     metodo = clase["metodo"]
+    obras = anclas(parte, clase)
+    # Texto escrito para esta clase en particular. El andamiaje es común; el
+    # argumento no. Sin él la clase no se genera.
+    d = clase["desarrollo"]
     lineas = ["## 📖 Desarrollo", ""]
 
     # 1. mecanismo central
     t0, d0 = conceptos[0]
-    l0 = libros[0]
+    l0, idea0, donde0 = obras[0]
     lineas += [
         "### 1. {}: {}".format(cap(t0), ROLES_BLOQUE[0]),
         "",
-        "**{}** se entiende aquí como **{}**. Es la pieza desde la que se inicia el análisis de {}: antes de "
-        "«{}», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería "
-        "observarse si no lo está.".format(t0, sin_punto(d0), minus(clase["titulo"]), metodo[0]),
+        "**{}** se entiende aquí como **{}**.".format(cap(t0), sin_punto(d0)),
         "",
-        "La lectura rectora de este bloque es {}. **Lente que aporta:** {}. Úsala sin convertirla en dogma: escribe una "
-        "proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una "
-        "consecuencia práctica. La evidencia mínima es **{}**; regístrala con periodo, unidad, población y "
-        "línea base.".format(bib.cita(l0), bib.lente(l0), senales[0][0]),
+        d[0],
+        "",
+        "**De dónde viene esta afirmación.** {} aporta la idea que sostiene este bloque: {}. Búscala en {}. "
+        "Aplicada a esta clase, esa idea predice algo verificable: si es correcta, {} debería moverse cuando "
+        "cambie **{}**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que "
+        "montar antes de recomendar nada.".format(bib.cita(l0), idea0, donde0, comillas(senales[0][0]), t0),
         "",
         "Relaciona el mecanismo con **{}**. Si ambos se mueven juntos no concluyas causalidad: nombra una "
         "tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis "
@@ -260,20 +342,19 @@ def bloque_desarrollo(parte, clase, i):
 
     # 2. frontera conceptual
     t1, d1 = conceptos[1]
-    l1 = libros[1 % len(libros)]
+    l1, idea1, donde1 = obras[1 % len(obras)]
     lineas += [
         "### 2. {}: {}".format(cap(t1), ROLES_BLOQUE[1]),
         "",
-        "**Definición operacional:** {}. Su valor está en distinguirlo de **{}**. En una decisión real, "
-        "clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, "
-        "se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera "
-        "una preferencia.".format(sin_punto(d1), t0),
+        "**Definición operacional:** {}. Su valor está en distinguirlo de **{}**.".format(sin_punto(d1), t0),
         "",
-        "Contrasta el problema con {} —**lente:** {}—. Formula dos mini-casos: uno que satisface la definición "
-        "de **{}** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; "
-        "**{}** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es "
-        "directamente medible.".format(bib.cita(l1), bib.lente(l1), t1,
-                                       senales[min(1, len(senales) - 1)][0]),
+        d[1],
+        "",
+        "**Contraste bibliográfico.** {} aporta aquí una distinción concreta: {} ({}). Formula dos mini-casos: uno que satisface la "
+        "definición de **{}** y otro que sólo se le parece en la superficie; después decide cuál de los dos "
+        "describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es "
+        "tuya y tienes que sostenerla con evidencia del caso, no con la cita.".format(
+            bib.cita(l1), idea1, donde1, t1),
         "",
         "Antes de pasar a «{}», registra explícitamente qué decisión sería errónea si esta frontera se ignora. "
         "Esa frase convierte el vocabulario en criterio de gestión.".format(metodo[1]),
@@ -282,42 +363,40 @@ def bloque_desarrollo(parte, clase, i):
 
     # 3. operacionalización
     t2, d2 = conceptos[2 % len(conceptos)]
-    l2 = libros[2 % len(libros)]
+    l2, idea2, donde2 = obras[2 % len(obras)]
     s0, sd0 = senales[0]
     lineas += [
         "### 3. {}: {}".format(cap(t2), ROLES_BLOQUE[2]),
         "",
-        "**{}** significa **{}**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con "
-        "qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto "
-        "suficiente para no confundir una mejora local con una mejora del sistema.".format(t2, sin_punto(d2)),
+        "**{}** significa **{}**.".format(cap(t2), sin_punto(d2)),
+        "",
+        d[2],
         "",
         "Ficha de medición obligatoria para **{}**: `{}`. Registra además fuente del dato, frecuencia, "
         "responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la "
         "salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la "
         "incertidumbre.".format(s0, sd0),
         "",
-        "{} orienta este bloque —**lente:** {}—. Pregúntate si el indicador es adelantado o rezagado y si puede ser "
-        "manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en "
-        "que reemplaza al fenómeno, deja de servir.".format(bib.cita(l2), bib.lente(l2)),
+        "**Control de lectura.** {} pone una condición sobre la medición: {} ({}). Contrasta tu ficha con ella: si la métrica que "
+        "acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de "
+        "usarla para decidir.".format(bib.cita(l2), idea2, donde2),
         "",
     ]
 
     # 4. trade-offs
     t3, d3 = conceptos[3 % len(conceptos)]
-    l3 = libros[3 % len(libros)]
+    l3, idea3, donde3 = obras[3 % len(obras)]
     lineas += [
         "### 4. {}: {}".format(cap(t3), ROLES_BLOQUE[3]),
         "",
-        "**Definición:** {}. Este concepto obliga a abandonar la idea de que {} tiene una solución gratuita. "
-        "Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o "
-        "tolerancia al riesgo. Por eso, antes de «{}», se comparan al menos dos alternativas plausibles y se "
-        "explicita qué se sacrifica en cada una.".format(
-            sin_punto(d3), minus(clase["titulo"]), metodo[min(3, len(metodo) - 1)]),
+        "**Definición:** {}.".format(sin_punto(d3)),
         "",
-        "{} —**lente:** {}— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / "
-        "stakeholder afectado / señal temprana`. La evidencia **{}** ayuda a detectar si el trade-off está "
-        "ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del "
-        "indicador principal.".format(bib.cita(l3), bib.lente(l3), senales[-1][0]),
+        d[3],
+        "",
+        "**Lo que aporta la fuente.** {} aporta el criterio para pesar el intercambio: {} ({}). Úsalo para construir una matriz `beneficio "
+        "esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **{}** ayuda a detectar "
+        "si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos "
+        "laterales fuera del indicador principal.".format(bib.cita(l3), idea3, donde3, senales[-1][0]),
         "",
         "Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres "
         "mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a "
@@ -326,7 +405,6 @@ def bloque_desarrollo(parte, clase, i):
     ]
 
     # 5. gobernanza
-    l4 = libros[-1]
     lineas += [
         "### 5. Gobernanza, límites y responsabilidad",
         "",
@@ -335,9 +413,12 @@ def bloque_desarrollo(parte, clase, i):
         "una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la "
         "información disponible en ese momento.".format(metodo[-1]),
         "",
-        "{} sirve para contrastar la recomendación final desde otro lente: {}. La frontera de esta clase es "
-        "explícita: {} Conviértela en una regla operativa con el formato `si ocurre X → no aplicar "
-        "automáticamente → consultar, escalar o revalidar`.".format(bib.cita(l4), bib.lente(l4), clase["limite"]),
+        d[4] if len(d) > 4 else
+        "La frontera de esta clase no es una advertencia decorativa: delimita el rango de casos donde el "
+        "método rinde y fuera del cual produce falsa confianza.",
+        "",
+        "**Frontera declarada.** {} Conviértela en una regla operativa con el formato `si ocurre X → no "
+        "aplicar automáticamente → consultar, escalar o revalidar`.".format(clase["limite"]),
         "",
         "Esta parte vigila además un riesgo que es obligatorio declarar: **{}** Se documenta en el entregable "
         "con su mitigación y su responsable; no se resuelve en la conversación.".format(parte["riesgo"]),
@@ -361,15 +442,27 @@ def bloque_desarrollo(parte, clase, i):
     return "\n".join(lineas)
 
 
-def bloque_lectura(clase):
+def bloque_lectura(parte, clase):
+    """Lectura dirigida: qué idea buscar en cada obra y qué pregunta le hace a esta clase."""
+    obras = anclas(parte, clase)
+    conceptos = [c[0] for c in clase["conceptos"]]
     lineas = ["## 📚 Lectura comparada", "",
-              "Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe "
-              "una discrepancia real entre al menos dos fuentes.", "",
-              "| Fuente | Lente que aporta | Pregunta crítica |", "|---|---|---|"]
-    for clave in clase["libros"]:
-        lineas.append("| {} | {} | ¿Qué supuesto de esta clase ayuda a desafiar? |".format(
-            bib.cita(clave), bib.lente(clave)))
+              "No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta "
+              "clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura "
+              "termina cuando puedes responder esa pregunta con evidencia del caso.", "",
+              "| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |",
+              "|---|---|---|---|"]
+    for k, (clave, idea, donde) in enumerate(obras):
+        concepto = conceptos[k % len(conceptos)]
+        pregunta = ("¿Qué debería observarse en **{}** si aquí opera {}? ¿Y qué observación lo "
+                    "desmentiría en este caso?".format(concepto, comillas(idea)))
+        lineas.append("| {} | {} | {} | {} |".format(bib.cita(clave), cap(idea), cap(donde), pregunta))
     lineas += ["",
+               "**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan "
+               "recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué "
+               "condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que "
+               "leíste buscando confirmación.",
+               "",
                "La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué "
                "tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta "
                "cambiarías después del contraste.", ""]
@@ -459,19 +552,48 @@ def bloque_caso_ejecutivo(clase):
     ])
 
 
-def bloque_practica(clase):
-    return "\n".join([
-        "## 🧪 Práctica guiada",
-        "",
-        "1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.",
-        "2. Ejecuta la secuencia **{}** y adjunta evidencia en cada transición.".format(" → ".join(clase["metodo"])),
-        "3. Construye la ficha de medición de **{}**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.".format(
-            clase["senales"][0][0]),
-        "4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.",
-        "5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.",
-        "6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.",
-        "",
-    ])
+def bloque_practica(parte, clase):
+    """Práctica con instrucción explícita y criterio de término por paso."""
+    obras = anclas(parte, clase)
+    s0 = clase["senales"][0][0]
+    pasos = [
+        ("Reconstruir los hechos",
+         "Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado.",
+         "El caso y nada más",
+         "Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo."),
+        ("Ejecutar el método",
+         "Recorre la secuencia **{}** y adjunta la evidencia usada en cada transición.".format(" → ".join(clase["metodo"])),
+         "La tabla del paso 1",
+         "Cada paso deja un artefacto revisable y una alternativa descartada con su razón."),
+        ("Operacionalizar la señal",
+         "Construye la ficha de medición de **{}**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría.".format(s0),
+         "Fuentes de datos reales o el diseño de captura",
+         "Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado."),
+        ("Atacar tu propia respuesta",
+         "Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses.",
+         "Tu borrador de recomendación",
+         "Puedes nombrar el dato concreto que te haría cambiar de opinión."),
+        ("Contrastar con la fuente",
+         "Lee la idea anclada de *{}* y la de *{}*, y registra una coincidencia y una tensión con tu diagnóstico.".format(
+             bib.obra(obras[0][0]), bib.obra(obras[1 % len(obras)][0])),
+         "La tabla de lectura comparada",
+         "La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué."),
+        ("Subir de nivel",
+         "Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad.",
+         "El brief completo",
+         "El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa."),
+    ]
+    lineas = ["## 🧪 Práctica guiada", "",
+              "Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la "
+              "última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.", "",
+              "| # | Paso | Qué haces | Con qué | Criterio de término |", "|---:|---|---|---|---|"]
+    for k, (titulo, que, con, criterio) in enumerate(pasos, start=1):
+        lineas.append("| {} | **{}** | {} | {} | {} |".format(k, titulo, que, con, criterio))
+    lineas += ["",
+               "**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de "
+               "conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema "
+               "está ahí y no en el paso que estabas ejecutando.", ""]
+    return "\n".join(lineas)
 
 
 def bloque_errores(clase):
@@ -504,6 +626,44 @@ def bloque_preguntas(clase):
         "6. ¿Qué decisión equivocada se produciría si se ignora este límite: {}?".format(comillas(clase["limite"])),
         "",
     ])
+
+
+def bloque_respuestas(parte, clase):
+    """Qué debe contener una respuesta suficiente. No entrega la respuesta: entrega el criterio."""
+    c = [x[0] for x in clase["conceptos"]]
+    s = clase["senales"]
+    obras = anclas(parte, clase)
+    filas = [
+        ("1",
+         "Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo "
+         "funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida."),
+        ("2",
+         "Dos observaciones concretas: una que confirmaría **{}** y otra que te obligaría a abandonarlo. Una "
+         "respuesta sin condición de refutación no es suficiente.".format(c[2 % len(c)])),
+        ("3",
+         "El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. "
+         "«Faltan datos» no cuenta como respuesta."),
+        ("4",
+         "Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo "
+         "movimiento de **{}**.".format(s[0][0])),
+        ("5",
+         "Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta "
+         "correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *{}* y "
+         "*{}*.".format(bib.obra(obras[0][0]), bib.obra(obras[-1][0]))),
+        ("6",
+         "Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. "
+         "Un límite que no produce una decisión distinta no está operando como límite."),
+    ]
+    lineas = ["## 🗝️ Respuestas orientadoras", "",
+              "No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta "
+              "suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.", "",
+              "| Pregunta | Una respuesta suficiente contiene |", "|:--:|---|"]
+    lineas += ["| {} | {} |".format(n, texto) for n, texto in filas]
+    lineas += ["",
+               "Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el "
+               "desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más "
+               "adelante, decisiones que nadie puede auditar.", ""]
+    return "\n".join(lineas)
 
 
 def bloque_chile(parte, clase):
@@ -559,11 +719,13 @@ def bloque_evaluacion(clase):
     ])
 
 
-def bloque_fuentes(clase):
-    lineas = ["## 📗 Fuentes y verificación", ""]
-    for clave in clase["libros"]:
-        lineas.append("- {}. **Uso en esta clase:** {}. Lectura selectiva: índice y capítulos pertinentes; "
-                      "registra edición y páginas consultadas.".format(bib.cita(clave), bib.lente(clave)))
+def bloque_fuentes(parte, clase):
+    lineas = ["## 📗 Fuentes y verificación", "",
+              "Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa "
+              "idea, la cita está mal puesta y corresponde reportarlo como error del material.", ""]
+    for clave, idea, donde in anclas(parte, clase):
+        lineas.append("- {} — **aporta a esta clase:** {}. **Dónde buscarlo:** {}. Registra edición y páginas "
+                      "consultadas en tu nota de lectura.".format(bib.cita(clave), idea, donde))
     lineas.append("")
     lineas.append("**Estándar pedagógico del programa:** " + "; ".join(
         bib.cita(k) for k in bib.NUCLEO_PEDAGOGICO) + ".")
@@ -600,24 +762,26 @@ def render_clase(parte, clases, idx):
         "# Clase {}.{} — {}\n".format(parte["num"], clase["n"], clase["titulo"]),
         "**Parte {} · {}** · Nivel: {} · Duración sugerida: 150 minutos · Estándar: `{}`\n".format(
             parte["num"], parte["titulo"], parte["nivel"], VERSION_ESTANDAR),
+        bloque_antes(parte, clases, idx),
         bloque_proposito(parte, clase, i),
         bloque_resultados(parte, clase),
         bloque_agenda(clase),
         bloque_conceptos(clase, i),
         bloque_modelo_mental(clase),
         bloque_desarrollo(parte, clase, i),
-        bloque_lectura(clase),
+        bloque_lectura(parte, clase),
         bloque_ejemplo(clase),
         bloque_comparacion(clase),
         bloque_escalamiento(parte, clase),
         bloque_caso_ejecutivo(clase),
-        bloque_practica(clase),
+        bloque_practica(parte, clase),
         bloque_errores(clase),
         bloque_preguntas(clase),
+        bloque_respuestas(parte, clase),
         bloque_chile(parte, clase),
         bloque_entregable(parte, clase),
         bloque_evaluacion(clase),
-        bloque_fuentes(clase),
+        bloque_fuentes(parte, clase),
         navegacion(parte, clases, idx),
     ]
     return "\n".join(partes_doc)

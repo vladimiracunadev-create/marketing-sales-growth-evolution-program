@@ -2,19 +2,34 @@
 title: "Nurturing"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 17
 class: 05
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["handley", "godin", "diorio", "chaffey"]
+anchors: {"chaffey": "modelo-canal", "diorio": "friccion", "godin": "permiso", "handley": "utilidad"}
 updated: 2026-08-19
 ---
 
 # Clase 17.05 — Nurturing
 
-**Parte 17 · Marketing automation y revenue operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 17 · Marketing automation y revenue operations** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 17.04 — *Enrutamiento de leads*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de avance de etapa para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La utilidad para el lector como criterio por encima de la elegancia del autor — Ann Handley. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Secuencia de maduración: mecanismo central
 
-**secuencia de maduración** se entiende aquí como **serie de comunicaciones diseñada para acompañar la evolución del contacto**. Es la pieza desde la que se inicia el análisis de nurturing: antes de «definir las preguntas del contacto en cada etapa», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Secuencia de maduración** se entiende aquí como **serie de comunicaciones diseñada para acompañar la evolución del contacto**.
 
-La lectura rectora de este bloque es Ann Handley — *Everybody Writes* (2022, 2.ª ed.). **Lente que aporta:** estándar editorial: claridad, utilidad y empatía en la escritura comercial. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de avance de etapa**; regístrala con periodo, unidad, población y línea base.
+El acompañamiento por contenido busca sostener la relación con quien todavía no está listo para comprar. Funciona cuando cada envío aporta algo utilizable; se vuelve contraproducente cuando consiste en recordar la existencia de la empresa. La diferencia se refleja en la evolución de las bajas y de la interacción a lo largo de la secuencia.
+
+**De dónde viene esta afirmación.** Ann Handley — *Everybody Writes* (2022, 2.ª ed.) aporta la idea que sostiene este bloque: la utilidad para el lector como criterio por encima de la elegancia del autor. Búscala en la parte sobre reglas de escritura. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de avance de etapa» debería moverse cuando cambie **secuencia de maduración**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **pertinencia por etapa**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Pertinencia por etapa: frontera conceptual y error de clasificación
 
-**Definición operacional:** correspondencia entre el contenido y el momento del contacto. Su valor está en distinguirlo de **secuencia de maduración**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** correspondencia entre el contenido y el momento del contacto. Su valor está en distinguirlo de **secuencia de maduración**.
 
-Contrasta el problema con Seth Godin — *This Is Marketing* (2018) —**lente:** marketing como servicio a un público mínimo viable y construcción de confianza—. Formula dos mini-casos: uno que satisface la definición de **pertinencia por etapa** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tasa de baja por secuencia** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La pertinencia por etapa exige que el contenido corresponda al momento del destinatario. Enviar material de comparación de proveedores a quien recién descubre el problema es tan inútil como enviar contenido introductorio a quien ya está evaluando alternativas. Esa correspondencia es lo que distingue una secuencia diseñada de una lista de envíos.
+
+**Contraste bibliográfico.** Seth Godin — *This Is Marketing* (2018) aporta aquí una distinción concreta: el permiso como activo: el derecho a comunicarse con quien espera el mensaje (los capítulos sobre marketing de permiso). Formula dos mini-casos: uno que satisface la definición de **pertinencia por etapa** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «asignar contenido pertinente a cada una», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Avance de etapa: operacionalización y medición
 
-**avance de etapa** significa **movimiento del contacto hacia un estado más cercano a la compra**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Avance de etapa** significa **movimiento del contacto hacia un estado más cercano a la compra**.
+
+El avance de etapa es la métrica que evalúa la secuencia: qué proporción de quienes entran progresa a la etapa siguiente en un plazo definido. Medir sólo aperturas y clics evalúa el correo, no el programa. Y cuando el avance es cercano a cero, el problema suele estar en la audiencia y no en el contenido.
 
 Ficha de medición obligatoria para **tasa de avance de etapa**: `contactos que avanzan, sobre contactos en la secuencia`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) orienta este bloque —**lente:** integración de datos, procesos y equipos que producen ingreso como un solo sistema—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) pone una condición sobre la medición: la fricción en los traspasos entre áreas como pérdida medible de ingreso (los capítulos sobre procesos de ingreso). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Fatiga de comunicación: trade-offs y efectos de segundo orden
 
-**Definición:** pérdida de atención por exceso o repetición de mensajes. Este concepto obliga a abandonar la idea de que nurturing tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «medir avance de etapa y no sólo apertura», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** pérdida de atención por exceso o repetición de mensajes.
 
-Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) —**lente:** planificación digital integrada: canales, medición y gobierno— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tiempo hasta avance** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Secuencias más largas mantienen presencia y aumentan la fatiga; más cortas respetan y pueden perder a quien necesitaba más tiempo. La duración debe corresponder al ciclo de compra observado y no a la cantidad de contenido disponible, que es lo que suele determinarla.
+
+**Lo que aporta la fuente.** Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) aporta el criterio para pesar el intercambio: el modelo de contribución de canal a la conversión (los capítulos sobre estrategia de canales). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo hasta avance** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **fatiga de comunicación** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «retirar de la secuencia a quien avanza o pide salir», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) sirve para contrastar la recomendación final desde otro lente: planificación digital integrada: canales, medición y gobierno. La frontera de esta clase es explícita: Ninguna secuencia crea urgencia donde no hay problema. El nurturing acompaña la maduración; no la produce. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La comunicación debe corresponder a la finalidad para la que la persona entregó sus datos. Usar una suscripción a contenido técnico para enviar promociones excede esa finalidad y, además de deteriorar la relación, puede constituir un incumplimiento normativo. La revisión del marco vigente es previa al diseño de la secuencia.
+
+**Frontera declarada.** Ninguna secuencia crea urgencia donde no hay problema. El nurturing acompaña la maduración; no la produce. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Automatizar comunicaciones sin base de licitud ni control de calidad y multiplicar el daño.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | La utilidad para el lector como criterio por encima de la elegancia del autor | La parte sobre reglas de escritura | ¿Qué debería observarse en **secuencia de maduración** si aquí opera «la utilidad para el lector como criterio por encima de la elegancia del autor»? ¿Y qué observación lo desmentiría en este caso? |
+| Seth Godin — *This Is Marketing* (2018) | El permiso como activo: el derecho a comunicarse con quien espera el mensaje | Los capítulos sobre marketing de permiso | ¿Qué debería observarse en **pertinencia por etapa** si aquí opera «el permiso como activo: el derecho a comunicarse con quien espera el mensaje»? ¿Y qué observación lo desmentiría en este caso? |
+| Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) | La fricción en los traspasos entre áreas como pérdida medible de ingreso | Los capítulos sobre procesos de ingreso | ¿Qué debería observarse en **avance de etapa** si aquí opera «la fricción en los traspasos entre áreas como pérdida medible de ingreso»? ¿Y qué observación lo desmentiría en este caso? |
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El modelo de contribución de canal a la conversión | Los capítulos sobre estrategia de canales | ¿Qué debería observarse en **fatiga de comunicación** si aquí opera «el modelo de contribución de canal a la conversión»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir las preguntas del contacto en cada etapa → asignar contenido pertinente a cada una → establecer el ritmo y el criterio de salida → medir avance de etapa y no sólo apertura → retirar de la secuencia a quien avanza o pide salir** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de avance de etapa**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir las preguntas del contacto en cada etapa → asignar contenido pertinente a cada una → establecer el ritmo y el criterio de salida → medir avance de etapa y no sólo apertura → retirar de la secuencia a quien avanza o pide salir** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de avance de etapa**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Everybody Writes* y la de *This Is Marketing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de avance de etapa** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Ninguna secuencia crea urgencia donde no hay problema. El nurturing acompaña la maduración; no la produce»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **avance de etapa** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de avance de etapa**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Everybody Writes* y *Digital Marketing*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating model de RevOps c
 
 ## 📗 Fuentes y verificación
 
-- Ann Handley — *Everybody Writes* (2022, 2.ª ed.). **Uso en esta clase:** estándar editorial: claridad, utilidad y empatía en la escritura comercial. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Seth Godin — *This Is Marketing* (2018). **Uso en esta clase:** marketing como servicio a un público mínimo viable y construcción de confianza. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022). **Uso en esta clase:** integración de datos, procesos y equipos que producen ingreso como un solo sistema. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Uso en esta clase:** planificación digital integrada: canales, medición y gobierno. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Ann Handley — *Everybody Writes* (2022, 2.ª ed.) — **aporta a esta clase:** la utilidad para el lector como criterio por encima de la elegancia del autor. **Dónde buscarlo:** la parte sobre reglas de escritura. Registra edición y páginas consultadas en tu nota de lectura.
+- Seth Godin — *This Is Marketing* (2018) — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. Registra edición y páginas consultadas en tu nota de lectura.
+- Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) — **aporta a esta clase:** la fricción en los traspasos entre áreas como pérdida medible de ingreso. **Dónde buscarlo:** los capítulos sobre procesos de ingreso. Registra edición y páginas consultadas en tu nota de lectura.
+- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) — **aporta a esta clase:** el modelo de contribución de canal a la conversión. **Dónde buscarlo:** los capítulos sobre estrategia de canales. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

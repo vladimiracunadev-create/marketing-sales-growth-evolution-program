@@ -2,19 +2,34 @@
 title: "Auditoría de marketing digital"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 12
 class: 14
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["chaffey", "kaushik", "laja", "enge-seo"]
+anchors: {"chaffey": "gobierno-digital", "enge-seo": "arquitectura", "kaushik": "10-90", "laja": "falsos-positivos"}
 updated: 2026-08-19
 ---
 
 # Clase 12.14 — Auditoría de marketing digital
 
-**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 12 · Marketing digital y adquisición** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 12.13 — *Plan de adquisición*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de hallazgos priorizados con estimación para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El gobierno de la operación digital: capacidades, procesos y medición — Dave Chaffey y Fiona Ellis-Chadwick. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Inventario de activos digitales: mecanismo central
 
-**inventario de activos digitales** se entiende aquí como **registro de sitios, listas, cuentas y contenidos con su estado y responsable**. Es la pieza desde la que se inicia el análisis de auditoría de marketing digital: antes de «inventariar activos, accesos y responsables», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Inventario de activos digitales** se entiende aquí como **registro de sitios, listas, cuentas y contenidos con su estado y responsable**.
 
-La lectura rectora de este bloque es Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Lente que aporta:** planificación digital integrada: canales, medición y gobierno. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **hallazgos priorizados con estimación**; regístrala con periodo, unidad, población y línea base.
+Una auditoría digital es un inventario con juicio: qué activos existen, en qué estado están, qué riesgos presentan y qué oportunidades hay. Su valor está en la priorización, no en la exhaustividad: un informe con ochenta hallazgos sin ordenar produce parálisis, y uno con los diez que importan produce un plan.
+
+**De dónde viene esta afirmación.** Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) aporta la idea que sostiene este bloque: el gobierno de la operación digital: capacidades, procesos y medición. Búscala en los capítulos sobre transformación y capacidades. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «hallazgos priorizados con estimación» debería moverse cuando cambie **inventario de activos digitales**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **hallazgo priorizado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Hallazgo priorizado: frontera conceptual y error de clasificación
 
-**Definición operacional:** problema detectado con estimación de efecto y de costo de corrección. Su valor está en distinguirlo de **inventario de activos digitales**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** problema detectado con estimación de efecto y de costo de corrección. Su valor está en distinguirlo de **inventario de activos digitales**.
 
-Contrasta el problema con Avinash Kaushik — *Web Analytics 2.0* (2009) —**lente:** medición orientada a decisión, segmentación y crítica del dato de vanidad—. Formula dos mini-casos: uno que satisface la definición de **hallazgo priorizado** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **activos sin responsable** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El inventario de activos digitales debe incluir lo que nadie recuerda: dominios antiguos, cuentas sin uso, formularios que siguen recibiendo datos, píxeles instalados por campañas terminadas. Esos elementos suelen concentrar los riesgos de privacidad y de seguridad, precisamente porque nadie los supervisa.
+
+**Contraste bibliográfico.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta aquí una distinción concreta: la regla 10/90: invertir en el analista, no en la herramienta (el capítulo sobre la regla 10/90). Formula dos mini-casos: uno que satisface la definición de **hallazgo priorizado** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «auditar medición, conversión y economía por canal», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Cumplimiento de privacidad: operacionalización y medición
 
-**cumplimiento de privacidad** significa **conformidad de cookies, consentimiento y tratamiento con la normativa vigente**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Cumplimiento de privacidad** significa **conformidad de cookies, consentimiento y tratamiento con la normativa vigente**.
+
+El hallazgo priorizado combina impacto potencial y esfuerzo de corrección, y debe llevar responsable propuesto. Un hallazgo sin dueño no se corrige. La auditoría que entrega una lista sin asignación tiene una tasa de implementación cercana a cero, por más correcta que sea técnicamente.
 
 Ficha de medición obligatoria para **hallazgos priorizados con estimación**: `hallazgos con efecto y costo estimados, sobre hallazgos totales`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) orienta este bloque —**lente:** método CRO basado en investigación previa al test y validez estadística—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) pone una condición sobre la medición: la tasa de resultados que no se replican y sus causas (las guías sobre errores frecuentes en experimentación). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Economía por canal: trade-offs y efectos de segundo orden
 
-**Definición:** costo por oportunidad y margen atribuible de cada canal. Este concepto obliga a abandonar la idea de que auditoría de marketing digital tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «priorizar hallazgos por efecto y costo», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** costo por oportunidad y margen atribuible de cada canal.
 
-Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) —**lente:** arquitectura, contenido y autoridad como sistema de búsqueda orgánica— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **brechas de cumplimiento** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Una auditoría exhaustiva detecta más y consume semanas durante las cuales el entorno cambia. Una acotada entrega rápido y deja zonas sin revisar. La decisión razonable define el alcance por riesgo: revisar primero lo que puede producir un incumplimiento o una pérdida significativa, y dejar documentado lo que quedó fuera.
+
+**Lo que aporta la fuente.** Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) aporta el criterio para pesar el intercambio: la arquitectura del sitio y su efecto sobre rastreo e indexación (los capítulos sobre SEO técnico). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **brechas de cumplimiento** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **economía por canal** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «entregar plan de corrección con responsables y fechas», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) sirve para contrastar la recomendación final desde otro lente: arquitectura, contenido y autoridad como sistema de búsqueda orgánica. La frontera de esta clase es explícita: Una auditoría refleja un momento. Sin responsables y fechas, los hallazgos se repiten idénticos en la auditoría siguiente. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La revisión de cumplimiento de privacidad forma parte de la auditoría y no es opcional: consentimiento de cookies, finalidades declaradas, transferencias a terceros y plazos de conservación. Este material entrega la estructura de revisión; la verificación contra la norma vigente y su interpretación corresponde a asesoría especializada.
+
+**Frontera declarada.** Una auditoría refleja un momento. Sin responsables y fechas, los hallazgos se repiten idénticos en la auditoría siguiente. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Optimizar métricas de vanidad y desatender consentimiento, cookies y datos personales.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Avinash Kaushik — *Web Analytics 2.0* (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) | método CRO basado en investigación previa al test y validez estadística | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El gobierno de la operación digital: capacidades, procesos y medición | Los capítulos sobre transformación y capacidades | ¿Qué debería observarse en **inventario de activos digitales** si aquí opera «el gobierno de la operación digital: capacidades, procesos y medición»? ¿Y qué observación lo desmentiría en este caso? |
+| Avinash Kaushik — *Web Analytics 2.0* (2009) | La regla 10/90: invertir en el analista, no en la herramienta | El capítulo sobre la regla 10/90 | ¿Qué debería observarse en **hallazgo priorizado** si aquí opera «la regla 10/90: invertir en el analista, no en la herramienta»? ¿Y qué observación lo desmentiría en este caso? |
+| Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) | La tasa de resultados que no se replican y sus causas | Las guías sobre errores frecuentes en experimentación | ¿Qué debería observarse en **cumplimiento de privacidad** si aquí opera «la tasa de resultados que no se replican y sus causas»? ¿Y qué observación lo desmentiría en este caso? |
+| Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) | La arquitectura del sitio y su efecto sobre rastreo e indexación | Los capítulos sobre SEO técnico | ¿Qué debería observarse en **economía por canal** si aquí opera «la arquitectura del sitio y su efecto sobre rastreo e indexación»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **inventariar activos, accesos y responsables → auditar medición, conversión y economía por canal → revisar cumplimiento de privacidad y consentimiento → priorizar hallazgos por efecto y costo → entregar plan de corrección con responsables y fechas** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **hallazgos priorizados con estimación**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **inventariar activos, accesos y responsables → auditar medición, conversión y economía por canal → revisar cumplimiento de privacidad y consentimiento → priorizar hallazgos por efecto y costo → entregar plan de corrección con responsables y fechas** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **hallazgos priorizados con estimación**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Digital Marketing* y la de *Web Analytics 2.0*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **hallazgos priorizados con estimación** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Una auditoría refleja un momento. Sin responsables y fechas, los hallazgos se repiten idénticos en la auditoría siguiente»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **cumplimiento de privacidad** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **hallazgos priorizados con estimación**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Digital Marketing* y *The Art of SEO*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan de adquisición digita
 
 ## 📗 Fuentes y verificación
 
-- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.). **Uso en esta clase:** planificación digital integrada: canales, medición y gobierno. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Avinash Kaushik — *Web Analytics 2.0* (2009). **Uso en esta clase:** medición orientada a decisión, segmentación y crítica del dato de vanidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024). **Uso en esta clase:** método CRO basado en investigación previa al test y validez estadística. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.). **Uso en esta clase:** arquitectura, contenido y autoridad como sistema de búsqueda orgánica. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) — **aporta a esta clase:** el gobierno de la operación digital: capacidades, procesos y medición. **Dónde buscarlo:** los capítulos sobre transformación y capacidades. Registra edición y páginas consultadas en tu nota de lectura.
+- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** la regla 10/90: invertir en el analista, no en la herramienta. **Dónde buscarlo:** el capítulo sobre la regla 10/90. Registra edición y páginas consultadas en tu nota de lectura.
+- Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) — **aporta a esta clase:** la tasa de resultados que no se replican y sus causas. **Dónde buscarlo:** las guías sobre errores frecuentes en experimentación. Registra edición y páginas consultadas en tu nota de lectura.
+- Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) — **aporta a esta clase:** la arquitectura del sitio y su efecto sobre rastreo e indexación. **Dónde buscarlo:** los capítulos sobre SEO técnico. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

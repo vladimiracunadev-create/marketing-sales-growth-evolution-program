@@ -2,19 +2,34 @@
 title: "El precio como decisión estratégica"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 07
 class: 01
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["simon", "nagle", "ramanujam", "smith-pricing"]
+anchors: {"nagle": "politica", "ramanujam": "precio-primero", "simon": "palanca-precio", "smith-pricing": "estructura"}
 updated: 2026-08-19
 ---
 
 # Clase 07.01 — El precio como decisión estratégica
 
-**Parte 07 · Pricing y monetización** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 07 · Pricing y monetización** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | Ninguna clase previa dentro de esta parte. Si vienes de otra parte, ten a la vista su artefacto final; si empiezas el programa aquí, lee antes `docs/RUTA-DE-APRENDIZAJE.md`. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de precio efectivo promedio para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El precio como la palanca de utilidad más rápida frente a volumen y costo — Hermann Simon. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Apalancamiento del precio: mecanismo central
 
-**apalancamiento del precio** se entiende aquí como **efecto de una variación de precio sobre la utilidad, comparado con volumen y costo**. Es la pieza desde la que se inicia el análisis de el precio como decisión estratégica: antes de «calcular el efecto de ±5 % de precio sobre la utilidad», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Apalancamiento del precio** se entiende aquí como **efecto de una variación de precio sobre la utilidad, comparado con volumen y costo**.
 
-La lectura rectora de este bloque es Hermann Simon — *Confessions of the Pricing Man* (2015). **Lente que aporta:** el precio como la palanca de utilidad más rápida y su relación con el valor percibido. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **precio efectivo promedio**; regístrala con periodo, unidad, población y línea base.
+El precio es la única decisión comercial que actúa directamente sobre el margen sin pasar por el costo. Un punto porcentual de mejora en el precio realizado suele tener más efecto sobre la utilidad que un punto de volumen o de costo, porque llega íntegro al resultado. Esa asimetría explica por qué Hermann Simon insiste en que el precio es la palanca más rápida y, sin embargo, la que menos atención directiva recibe.
+
+**De dónde viene esta afirmación.** Hermann Simon — *Confessions of the Pricing Man* (2015) aporta la idea que sostiene este bloque: el precio como la palanca de utilidad más rápida frente a volumen y costo. Búscala en los capítulos sobre el poder del precio. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «precio efectivo promedio» debería moverse cuando cambie **apalancamiento del precio**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **política de precios**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Política de precios: frontera conceptual y error de clasificación
 
-**Definición operacional:** conjunto de reglas escritas sobre listas, descuentos, excepciones y autoridad. Su valor está en distinguirlo de **apalancamiento del precio**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** conjunto de reglas escritas sobre listas, descuentos, excepciones y autoridad. Su valor está en distinguirlo de **apalancamiento del precio**.
 
-Contrasta el problema con Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) —**lente:** pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos—. Formula dos mini-casos: uno que satisface la definición de **política de precios** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **elasticidad observada** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+Una política de precios es distinta de una lista de precios: la lista dice cuánto cuesta cada cosa, la política dice quién puede modificarla, bajo qué condiciones y con qué contrapartida. Sin política, cada negociación empieza de cero y el precio realizado depende del carácter del vendedor. Con política, la excepción existe pero deja registro y tiene dueño.
+
+**Contraste bibliográfico.** Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) aporta aquí una distinción concreta: la política de precios como sistema de reglas que evita negociar cada caso (el capítulo sobre política y disciplina de precios). Formula dos mini-casos: uno que satisface la definición de **política de precios** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «documentar la política vigente y sus excepciones reales», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Métrica de cobro: operacionalización y medición
 
-**métrica de cobro** significa **unidad sobre la que se cobra: usuario, local, transacción, volumen o resultado**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Métrica de cobro** significa **unidad sobre la que se cobra: usuario, local, transacción, volumen o resultado**.
+
+La métrica de cobro —por usuario, por transacción, por volumen, por resultado— determina cómo crece el ingreso con el uso del cliente y suele decidirse por conveniencia técnica. La regla útil es elegir la unidad que más se parece al valor que el cliente percibe: si el beneficio crece con los envíos gestionados, cobrar por usuario desconecta el precio del valor y produce fricción en cada renovación.
 
 Ficha de medición obligatoria para **precio efectivo promedio**: `ingreso del periodo dividido por unidades vendidas, comparado con el precio de lista`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) orienta este bloque —**lente:** diseñar el producto alrededor del precio: disposición a pagar antes de construir—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) pone una condición sobre la medición: la conversación de precio antes de construir el producto (los capítulos iniciales sobre el proceso invertido). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Disposición a pagar: trade-offs y efectos de segundo orden
 
-**Definición:** monto máximo que un cliente pagaría antes de elegir otra alternativa. Este concepto obliga a abandonar la idea de que el precio como decisión estratégica tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «estimar disposición a pagar con evidencia», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** monto máximo que un cliente pagaría antes de elegir otra alternativa.
 
-Tim J. Smith — *Pricing Strategy* (2011) —**lente:** segmentación de precios, price fences y decisiones de estructura— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **dispersión de descuentos** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Subir precio mejora el margen unitario y expone volumen; bajarlo compra participación y compromete la caja que financia el servicio. Lo que casi nunca se calcula es el punto de indiferencia: cuánto volumen se puede perder con un alza determinada antes de quedar igual. Ese cálculo es aritmética simple y cambia por completo la percepción del riesgo de subir.
+
+**Lo que aporta la fuente.** Tim J. Smith — *Pricing Strategy* (2011) aporta el criterio para pesar el intercambio: la estructura de precios como decisión separada del nivel de precio (los capítulos sobre arquitectura de precios). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **dispersión de descuentos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **disposición a pagar** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «definir la decisión de precio y su responsable», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Tim J. Smith — *Pricing Strategy* (2011) sirve para contrastar la recomendación final desde otro lente: segmentación de precios, price fences y decisiones de estructura. La frontera de esta clase es explícita: El apalancamiento del precio supone que el volumen no cae de forma proporcional. En categorías muy elásticas o con competidores capaces de sostener pérdidas, ese supuesto puede fallar. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Las decisiones de precio operan dentro de un marco legal que no es negociable: prohibición de acuerdos con competidores, obligación de informar el precio total y restricciones sobre publicidad de descuentos. En Chile intervienen la Ley 19.496 y la normativa de libre competencia. Este material entrega criterio económico; la verificación normativa antes de aplicar es obligatoria.
+
+**Frontera declarada.** El apalancamiento del precio supone que el volumen no cae de forma proporcional. En categorías muy elásticas o con competidores capaces de sostener pérdidas, ese supuesto puede fallar. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Erosionar precio con descuentos tácticos y perder capacidad de subir precios después.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Hermann Simon — *Confessions of the Pricing Man* (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | diseñar el producto alrededor del precio: disposición a pagar antes de construir | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Tim J. Smith — *Pricing Strategy* (2011) | segmentación de precios, price fences y decisiones de estructura | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Hermann Simon — *Confessions of the Pricing Man* (2015) | El precio como la palanca de utilidad más rápida frente a volumen y costo | Los capítulos sobre el poder del precio | ¿Qué debería observarse en **apalancamiento del precio** si aquí opera «el precio como la palanca de utilidad más rápida frente a volumen y costo»? ¿Y qué observación lo desmentiría en este caso? |
+| Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) | La política de precios como sistema de reglas que evita negociar cada caso | El capítulo sobre política y disciplina de precios | ¿Qué debería observarse en **política de precios** si aquí opera «la política de precios como sistema de reglas que evita negociar cada caso»? ¿Y qué observación lo desmentiría en este caso? |
+| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | La conversación de precio antes de construir el producto | Los capítulos iniciales sobre el proceso invertido | ¿Qué debería observarse en **métrica de cobro** si aquí opera «la conversación de precio antes de construir el producto»? ¿Y qué observación lo desmentiría en este caso? |
+| Tim J. Smith — *Pricing Strategy* (2011) | La estructura de precios como decisión separada del nivel de precio | Los capítulos sobre arquitectura de precios | ¿Qué debería observarse en **disposición a pagar** si aquí opera «la estructura de precios como decisión separada del nivel de precio»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **calcular el efecto de ±5 % de precio sobre la utilidad → documentar la política vigente y sus excepciones reales → verificar si la métrica de cobro sigue al valor entregado → estimar disposición a pagar con evidencia → definir la decisión de precio y su responsable** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **precio efectivo promedio**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **calcular el efecto de ±5 % de precio sobre la utilidad → documentar la política vigente y sus excepciones reales → verificar si la métrica de cobro sigue al valor entregado → estimar disposición a pagar con evidencia → definir la decisión de precio y su responsable** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **precio efectivo promedio**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Confessions of the Pricing Man* y la de *The Strategy and Tactics of Pricing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **precio efectivo promedio** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El apalancamiento del precio supone que el volumen no cae de forma proporcional. En categorías muy elásticas o con competidores capaces de sostener pérdidas, ese supuesto puede fallar»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **métrica de cobro** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **precio efectivo promedio**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Confessions of the Pricing Man* y *Pricing Strategy*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **arquitectura de monetizaci�
 
 ## 📗 Fuentes y verificación
 
-- Hermann Simon — *Confessions of the Pricing Man* (2015). **Uso en esta clase:** el precio como la palanca de utilidad más rápida y su relación con el valor percibido. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.). **Uso en esta clase:** pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016). **Uso en esta clase:** diseñar el producto alrededor del precio: disposición a pagar antes de construir. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Tim J. Smith — *Pricing Strategy* (2011). **Uso en esta clase:** segmentación de precios, price fences y decisiones de estructura. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Hermann Simon — *Confessions of the Pricing Man* (2015) — **aporta a esta clase:** el precio como la palanca de utilidad más rápida frente a volumen y costo. **Dónde buscarlo:** los capítulos sobre el poder del precio. Registra edición y páginas consultadas en tu nota de lectura.
+- Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) — **aporta a esta clase:** la política de precios como sistema de reglas que evita negociar cada caso. **Dónde buscarlo:** el capítulo sobre política y disciplina de precios. Registra edición y páginas consultadas en tu nota de lectura.
+- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) — **aporta a esta clase:** la conversación de precio antes de construir el producto. **Dónde buscarlo:** los capítulos iniciales sobre el proceso invertido. Registra edición y páginas consultadas en tu nota de lectura.
+- Tim J. Smith — *Pricing Strategy* (2011) — **aporta a esta clase:** la estructura de precios como decisión separada del nivel de precio. **Dónde buscarlo:** los capítulos sobre arquitectura de precios. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

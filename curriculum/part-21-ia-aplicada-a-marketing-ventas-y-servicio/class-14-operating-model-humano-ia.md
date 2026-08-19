@@ -2,19 +2,34 @@
 title: "Operating model humano-IA"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 21
 class: 14
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["nist-airmf", "iso-31000", "russell-norvig", "diorio"]
+anchors: {"diorio": "sistema-ingresos", "iso-31000": "principios", "nist-airmf": "funciones", "russell-norvig": "medida-desempeno"}
 updated: 2026-08-19
 ---
 
 # Clase 21.14 — Operating model humano-IA
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 21.13 — *Privacidad y propiedad intelectual*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de casos de uso documentados para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA — NIST. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Modelo operativo humano-IA: mecanismo central
 
-**modelo operativo humano-IA** se entiende aquí como **distribución documentada de tareas entre personas y sistemas**. Es la pieza desde la que se inicia el análisis de operating model humano-IA: antes de «clasificar tareas en asistidas, automatizadas y humanas», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Modelo operativo humano-IA** se entiende aquí como **distribución documentada de tareas entre personas y sistemas**.
 
-La lectura rectora de este bloque es NIST — *AI Risk Management Framework 1.0* (2023). **Lente que aporta:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **casos de uso documentados**; regístrala con periodo, unidad, población y línea base.
+Un modelo operativo humano-máquina define qué hace cada uno, dónde está la frontera y cómo se escala cuando algo sale mal. Sin esa definición, la frontera se establece por costumbre y termina donde la herramienta permite llegar, que no es un criterio de gestión.
+
+**De dónde viene esta afirmación.** NIST — *AI Risk Management Framework 1.0* (2023) aporta la idea que sostiene este bloque: las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA. Búscala en el núcleo del marco. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «casos de uso documentados» debería moverse cuando cambie **modelo operativo humano-IA**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **rendición de cuentas**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Rendición de cuentas: frontera conceptual y error de clasificación
 
-**Definición operacional:** capacidad de explicar qué ocurrió, con qué datos y bajo qué responsabilidad. Su valor está en distinguirlo de **modelo operativo humano-IA**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** capacidad de explicar qué ocurrió, con qué datos y bajo qué responsabilidad. Su valor está en distinguirlo de **modelo operativo humano-IA**.
 
-Contrasta el problema con ISO — *ISO 31000: Gestión del riesgo* (2018) —**lente:** vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales—. Formula dos mini-casos: uno que satisface la definición de **rendición de cuentas** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **incidentes registrados y corregidos** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La rendición de cuentas debe ser nominal: por cada proceso asistido, una persona responde por el resultado. Esa asignación no puede diluirse en el área ni en el sistema. Cuando ocurre un incidente, la existencia de un responsable identificado es la diferencia entre corregir y buscar culpables.
+
+**Contraste bibliográfico.** ISO — *ISO 31000: Gestión del riesgo* (2018) aporta aquí una distinción concreta: los principios: integrado, estructurado, adaptado y basado en la mejor información disponible (la cláusula sobre principios). Formula dos mini-casos: uno que satisface la definición de **rendición de cuentas** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «documentar evaluación y guardarraíles por caso de uso», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Registro de incidentes: operacionalización y medición
 
-**registro de incidentes** significa **documentación de fallas, su causa y su corrección**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Registro de incidentes** significa **documentación de fallas, su causa y su corrección**.
+
+El registro de incidentes es la memoria del sistema: qué falló, con qué consecuencia, qué se hizo. Su valor aparece con el tiempo, cuando permite ver patrones y distinguir un error puntual de una falla estructural. Empezarlo desde el primer despliegue cuesta poco; reconstruirlo después es imposible.
 
 Ficha de medición obligatoria para **casos de uso documentados**: `usos con evaluación, guardarraíl y responsable, sobre usos activos`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) orienta este bloque —**lente:** marco formal de agentes, entornos y medidas de desempeño—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) pone una condición sobre la medición: la medida de desempeño como definición previa a cualquier evaluación (el capítulo sobre racionalidad). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Revisión periódica: trade-offs y efectos de segundo orden
 
-**Definición:** evaluación programada del modelo completo y sus resultados. Este concepto obliga a abandonar la idea de que operating model humano-IA tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «instalar el registro de incidentes», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** evaluación programada del modelo completo y sus resultados.
 
-Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) —**lente:** integración de datos, procesos y equipos que producen ingreso como un solo sistema— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tiempo de rendición de cuentas** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un modelo con más control humano reduce el riesgo y el beneficio de productividad; uno con más autonomía multiplica ambos. La gradación debe corresponder a la consecuencia del error y a la reversibilidad, y debe revisarse a medida que se acumula evidencia sobre el desempeño real.
+
+**Lo que aporta la fuente.** Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) aporta el criterio para pesar el intercambio: el ingreso como resultado de un sistema integrado y no de tres áreas separadas (los capítulos introductorios sobre revenue operations). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo de rendición de cuentas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **revisión periódica** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «revisar el modelo completo cada semestre», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) sirve para contrastar la recomendación final desde otro lente: integración de datos, procesos y equipos que producen ingreso como un solo sistema. La frontera de esta clase es explícita: Un modelo operativo maduro exige capacidad dedicada. En equipos pequeños conviene menos casos de uso bien gobernados que muchos sin control. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La revisión periódica del modelo operativo es necesaria porque la tecnología, la normativa y las capacidades cambian con rapidez. Un modelo definido hace un año puede estar restringiendo usos ya seguros o permitiendo otros que dejaron de serlo. Fijar una frecuencia de revisión y un responsable es parte del diseño.
+
+**Frontera declarada.** Un modelo operativo maduro exige capacidad dedicada. En equipos pequeños conviene menos casos de uso bien gobernados que muchos sin control. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| NIST — *AI Risk Management Framework 1.0* (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) | marco formal de agentes, entornos y medidas de desempeño | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| NIST — *AI Risk Management Framework 1.0* (2023) | Las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA | El núcleo del marco | ¿Qué debería observarse en **modelo operativo humano-IA** si aquí opera «las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA»? ¿Y qué observación lo desmentiría en este caso? |
+| ISO — *ISO 31000: Gestión del riesgo* (2018) | Los principios: integrado, estructurado, adaptado y basado en la mejor información disponible | La cláusula sobre principios | ¿Qué debería observarse en **rendición de cuentas** si aquí opera «los principios: integrado, estructurado, adaptado y basado en la mejor información disponible»? ¿Y qué observación lo desmentiría en este caso? |
+| Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) | La medida de desempeño como definición previa a cualquier evaluación | El capítulo sobre racionalidad | ¿Qué debería observarse en **registro de incidentes** si aquí opera «la medida de desempeño como definición previa a cualquier evaluación»? ¿Y qué observación lo desmentiría en este caso? |
+| Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) | El ingreso como resultado de un sistema integrado y no de tres áreas separadas | Los capítulos introductorios sobre revenue operations | ¿Qué debería observarse en **revisión periódica** si aquí opera «el ingreso como resultado de un sistema integrado y no de tres áreas separadas»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **clasificar tareas en asistidas, automatizadas y humanas → documentar evaluación y guardarraíles por caso de uso → asignar responsable por cada sistema activo → instalar el registro de incidentes → revisar el modelo completo cada semestre** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **casos de uso documentados**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **clasificar tareas en asistidas, automatizadas y humanas → documentar evaluación y guardarraíles por caso de uso → asignar responsable por cada sistema activo → instalar el registro de incidentes → revisar el modelo completo cada semestre** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **casos de uso documentados**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *AI Risk Management Framework 1.0* y la de *ISO 31000: Gestión del riesgo*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **casos de uso documentados** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un modelo operativo maduro exige capacidad dedicada. En equipos pequeños conviene menos casos de uso bien gobernados que muchos sin control»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **registro de incidentes** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **casos de uso documentados**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *AI Risk Management Framework 1.0* y *Revenue Operations*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating model humano-IA c
 
 ## 📗 Fuentes y verificación
 
-- NIST — *AI Risk Management Framework 1.0* (2023). **Uso en esta clase:** gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- ISO — *ISO 31000: Gestión del riesgo* (2018). **Uso en esta clase:** vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.). **Uso en esta clase:** marco formal de agentes, entornos y medidas de desempeño. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022). **Uso en esta clase:** integración de datos, procesos y equipos que producen ingreso como un solo sistema. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- NIST — *AI Risk Management Framework 1.0* (2023) — **aporta a esta clase:** las cuatro funciones: mapear, medir, gestionar y gobernar el riesgo de IA. **Dónde buscarlo:** el núcleo del marco. Registra edición y páginas consultadas en tu nota de lectura.
+- ISO — *ISO 31000: Gestión del riesgo* (2018) — **aporta a esta clase:** los principios: integrado, estructurado, adaptado y basado en la mejor información disponible. **Dónde buscarlo:** la cláusula sobre principios. Registra edición y páginas consultadas en tu nota de lectura.
+- Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) — **aporta a esta clase:** la medida de desempeño como definición previa a cualquier evaluación. **Dónde buscarlo:** el capítulo sobre racionalidad. Registra edición y páginas consultadas en tu nota de lectura.
+- Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) — **aporta a esta clase:** el ingreso como resultado de un sistema integrado y no de tres áreas separadas. **Dónde buscarlo:** los capítulos introductorios sobre revenue operations. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

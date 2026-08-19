@@ -27,6 +27,7 @@ from spec import bibliografia as bib  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
 
 SECCIONES_CLASE = [
+    "## 🚦 Antes de empezar",
     "## 🎯 Propósito",
     "## 📚 Resultados de aprendizaje",
     "## 🧭 Agenda sugerida",
@@ -41,6 +42,7 @@ SECCIONES_CLASE = [
     "## 🧪 Práctica guiada",
     "## ⚠️ Errores frecuentes",
     "## ❓ Preguntas de comprobación",
+    "## 🗝️ Respuestas orientadoras",
     "## 🇨🇱 Contexto chileno y cumplimiento",
     "## 📥 Entregable",
     "## ✅ Evaluación de la clase",
@@ -95,7 +97,10 @@ def leer(ruta):
 def _solo_prosa(texto):
     """Elimina títulos de obra en cursiva, código y metadatos antes de buscar
     anglicismos: las obras citadas conservan su título original en inglés."""
-    sin = re.sub(r"\*[^*\n]+\*", " ", texto)
+    # El énfasis fuerte se retira primero: si no, sus dos asteriscos se emparejan
+    # con los de la cursiva siguiente y dejan el título en inglés al descubierto.
+    sin = re.sub(r"\*\*[^*\n]+\*\*", " ", texto)
+    sin = re.sub(r"\*[^*\n]+\*", " ", sin)
     sin = re.sub(r"`[^`\n]+`", " ", sin)
     sin = re.sub(r"^sources:.*$", " ", sin, flags=re.M)
     sin = re.sub(r"^---$.*?^---$", " ", sin, flags=re.M | re.S)

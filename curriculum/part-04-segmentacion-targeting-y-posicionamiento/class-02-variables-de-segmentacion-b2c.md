@@ -2,19 +2,34 @@
 title: "Variables de segmentación B2C"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 04
 class: 02
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["sharp", "solomon", "kotler", "fader"]
+anchors: {"fader": "rfm", "kotler": "stp", "sharp": "penetracion", "solomon": "identidad"}
 updated: 2026-08-19
 ---
 
 # Clase 04.02 — Variables de segmentación B2C
 
-**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 04 · Segmentación, targeting y posicionamiento** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 04.01 — *Segmentación útil versus decorativa*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de penetración por segmento para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La ley de doble riesgo: las marcas pequeñas tienen menos compradores y además compran menos — Byron Sharp. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Variable demográfica: mecanismo central
 
-**variable demográfica** se entiende aquí como **característica objetiva de la persona como edad, ingreso, ocupación o composición del hogar**. Es la pieza desde la que se inicia el análisis de variables de segmentación B2C: antes de «definir la decisión que la segmentación debe informar», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Variable demográfica** se entiende aquí como **característica objetiva de la persona como edad, ingreso, ocupación o composición del hogar**.
 
-La lectura rectora de este bloque es Byron Sharp — *How Brands Grow* (2010). **Lente que aporta:** evidencia empírica sobre penetración, disponibilidad mental y física y crecimiento de marcas. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **penetración por segmento**; regístrala con periodo, unidad, población y línea base.
+En consumo masivo, la evidencia acumulada por Byron Sharp incomoda a la práctica habitual: las marcas grandes lo son porque tienen más compradores, no porque tengan compradores más leales. Eso invierte la prioridad de la segmentación B2C: antes de refinar el mensaje para un nicho, la pregunta es si la marca está disponible mental y físicamente para el conjunto amplio de compradores de la categoría.
+
+**De dónde viene esta afirmación.** Byron Sharp — *How Brands Grow* (2010) aporta la idea que sostiene este bloque: la ley de doble riesgo: las marcas pequeñas tienen menos compradores y además compran menos. Búscala en los capítulos sobre las leyes empíricas del crecimiento de marcas. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «penetración por segmento» debería moverse cuando cambie **variable demográfica**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **variable psicográfica**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Variable psicográfica: frontera conceptual y error de clasificación
 
-**Definición operacional:** valores, actitudes e intereses declarados que se asocian a preferencias. Su valor está en distinguirlo de **variable demográfica**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** valores, actitudes e intereses declarados que se asocian a preferencias. Su valor está en distinguirlo de **variable demográfica**.
 
-Contrasta el problema con Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) —**lente:** marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión—. Formula dos mini-casos: uno que satisface la definición de **variable psicográfica** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **frecuencia de compra** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+Las variables psicográficas describen actitudes y valores; las conductuales describen lo que la persona hizo. Las primeras son atractivas para construir relatos y débiles para predecir compra; las segundas son menos vistosas y predicen mejor. La combinación razonable usa la conducta para definir el segmento y la psicografía para redactar el mensaje, nunca al revés.
+
+**Contraste bibliográfico.** Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) aporta aquí una distinción concreta: el consumo como expresión de identidad y pertenencia (los capítulos sobre el yo y el consumo). Formula dos mini-casos: uno que satisface la definición de **variable psicográfica** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «priorizar variables conductuales por su disponibilidad y poder predictivo», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Variable conductual: operacionalización y medición
 
-**variable conductual** significa **acción registrada de compra o uso, como frecuencia, recencia o categoría comprada**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Variable conductual** significa **acción registrada de compra o uso, como frecuencia, recencia o categoría comprada**.
+
+La penetración —proporción de compradores de la categoría que compraron tu marca en un periodo— es la métrica que ordena este análisis, y exige un denominador que muchas empresas no tienen: el universo de compradores de la categoría. Cuando no existe, se aproxima con una fuente sectorial declarando su origen, y se usa para tendencia y no para nivel absoluto.
 
 Ficha de medición obligatoria para **penetración por segmento**: `compradores del segmento en el periodo, sobre población estimada del segmento`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) orienta este bloque —**lente:** estructura canónica del marketing: análisis, STP, mezcla comercial y gestión de la demanda—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) pone una condición sobre la medición: la secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial (los capítulos sobre identificación de segmentos y posicionamiento de marca). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Penetración: trade-offs y efectos de segundo orden
 
-**Definición:** proporción de la población objetivo que compró la categoría o la marca en un periodo. Este concepto obliga a abandonar la idea de que variables de segmentación B2C tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «verificar tamaño y alcanzabilidad de cada grupo», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** proporción de la población objetivo que compró la categoría o la marca en un periodo.
 
-Peter Fader — *Customer Centricity* (2020, 2.ª ed.) —**lente:** valor heterogéneo del cliente y asignación de recursos por valor esperado— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **elasticidad de respuesta** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Concentrarse en un segmento demográfico estrecho simplifica la comunicación y renuncia a compradores ocasionales que, sumados, suelen aportar la mayor parte del volumen. La decisión no es ideológica: en categorías de compra frecuente conviene el alcance amplio; en categorías de alta implicación y ticket alto, la concentración rinde. Lo que no funciona es aplicar la receta de una a la otra.
+
+**Lo que aporta la fuente.** Peter Fader — *Customer Centricity* (2020, 2.ª ed.) aporta el criterio para pesar el intercambio: recencia, frecuencia y valor como base de segmentación conductual (los capítulos sobre segmentación por comportamiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **elasticidad de respuesta** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **penetración** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir si el tratamiento diferenciado produce efecto», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Peter Fader — *Customer Centricity* (2020, 2.ª ed.) sirve para contrastar la recomendación final desde otro lente: valor heterogéneo del cliente y asignación de recursos por valor esperado. La frontera de esta clase es explícita: Los datos demográficos y de comportamiento son datos personales: su tratamiento requiere base legal, finalidad declarada y medidas de seguridad conforme a la normativa vigente en Chile. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Las regularidades de consumo masivo se establecieron en categorías con muchos compradores y compra repetida. Trasladarlas sin más a un servicio profesional con veinte clientes al año es forzar el marco. La regla del programa es declarar el tipo de categoría antes de aplicar cualquiera de estas leyes empíricas.
+
+**Frontera declarada.** Los datos demográficos y de comportamiento son datos personales: su tratamiento requiere base legal, finalidad declarada y medidas de seguridad conforme a la normativa vigente en Chile. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Segmentar con variables decorativas que no cambian oferta, canal ni mensaje.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Byron Sharp — *How Brands Grow* (2010) | evidencia empírica sobre penetración, disponibilidad mental y física y crecimiento de marcas | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) | estructura canónica del marketing: análisis, STP, mezcla comercial y gestión de la demanda | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Byron Sharp — *How Brands Grow* (2010) | La ley de doble riesgo: las marcas pequeñas tienen menos compradores y además compran menos | Los capítulos sobre las leyes empíricas del crecimiento de marcas | ¿Qué debería observarse en **variable demográfica** si aquí opera «la ley de doble riesgo: las marcas pequeñas tienen menos compradores y además compran menos»? ¿Y qué observación lo desmentiría en este caso? |
+| Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | El consumo como expresión de identidad y pertenencia | Los capítulos sobre el yo y el consumo | ¿Qué debería observarse en **variable psicográfica** si aquí opera «el consumo como expresión de identidad y pertenencia»? ¿Y qué observación lo desmentiría en este caso? |
+| Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) | La secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial | Los capítulos sobre identificación de segmentos y posicionamiento de marca | ¿Qué debería observarse en **variable conductual** si aquí opera «la secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial»? ¿Y qué observación lo desmentiría en este caso? |
+| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | Recencia, frecuencia y valor como base de segmentación conductual | Los capítulos sobre segmentación por comportamiento | ¿Qué debería observarse en **penetración** si aquí opera «recencia, frecuencia y valor como base de segmentación conductual»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir la decisión que la segmentación debe informar → priorizar variables conductuales por su disponibilidad y poder predictivo → complementar con demográficas sólo si mejoran la predicción → verificar tamaño y alcanzabilidad de cada grupo → medir si el tratamiento diferenciado produce efecto** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **penetración por segmento**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir la decisión que la segmentación debe informar → priorizar variables conductuales por su disponibilidad y poder predictivo → complementar con demográficas sólo si mejoran la predicción → verificar tamaño y alcanzabilidad de cada grupo → medir si el tratamiento diferenciado produce efecto** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **penetración por segmento**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *How Brands Grow* y la de *Consumer Behavior: Buying, Having, and Being*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **penetración por segmento** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Los datos demográficos y de comportamiento son datos personales: su tratamiento requiere base legal, finalidad declarada y medidas de seguridad conforme a la normativa vigente en Chile»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **variable conductual** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **penetración por segmento**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *How Brands Grow* y *Customer Centricity*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **arquitectura STP con criter
 
 ## 📗 Fuentes y verificación
 
-- Byron Sharp — *How Brands Grow* (2010). **Uso en esta clase:** evidencia empírica sobre penetración, disponibilidad mental y física y crecimiento de marcas. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.). **Uso en esta clase:** marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.). **Uso en esta clase:** estructura canónica del marketing: análisis, STP, mezcla comercial y gestión de la demanda. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Peter Fader — *Customer Centricity* (2020, 2.ª ed.). **Uso en esta clase:** valor heterogéneo del cliente y asignación de recursos por valor esperado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Byron Sharp — *How Brands Grow* (2010) — **aporta a esta clase:** la ley de doble riesgo: las marcas pequeñas tienen menos compradores y además compran menos. **Dónde buscarlo:** los capítulos sobre las leyes empíricas del crecimiento de marcas. Registra edición y páginas consultadas en tu nota de lectura.
+- Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) — **aporta a esta clase:** el consumo como expresión de identidad y pertenencia. **Dónde buscarlo:** los capítulos sobre el yo y el consumo. Registra edición y páginas consultadas en tu nota de lectura.
+- Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) — **aporta a esta clase:** la secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial. **Dónde buscarlo:** los capítulos sobre identificación de segmentos y posicionamiento de marca. Registra edición y páginas consultadas en tu nota de lectura.
+- Peter Fader — *Customer Centricity* (2020, 2.ª ed.) — **aporta a esta clase:** recencia, frecuencia y valor como base de segmentación conductual. **Dónde buscarlo:** los capítulos sobre segmentación por comportamiento. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

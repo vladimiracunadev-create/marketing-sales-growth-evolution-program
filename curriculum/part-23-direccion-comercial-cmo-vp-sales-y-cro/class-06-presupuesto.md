@@ -2,19 +2,34 @@
 title: "Presupuesto comercial"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 23
 class: 06
 level: Dirección y Capstone
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["grove", "doerr", "kaplan-norton", "croll-yoskovitz"]
+anchors: {"croll-yoskovitz": "linea-trazada", "doerr": "foco", "grove": "apalancamiento", "kaplan-norton": "traduccion"}
 updated: 2026-08-19
 ---
 
 # Clase 23.06 — Presupuesto comercial
 
-**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 23.05 — *Compensación e incentivos*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de desviación presupuestaria para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El apalancamiento gerencial: qué actividades multiplican el output — Andrew S. Grove. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Supuesto presupuestario: mecanismo central
 
-**supuesto presupuestario** se entiende aquí como **estimación declarada que sostiene cada línea del presupuesto**. Es la pieza desde la que se inicia el análisis de presupuesto comercial: antes de «derivar el presupuesto de la meta y de los supuestos», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Supuesto presupuestario** se entiende aquí como **estimación declarada que sostiene cada línea del presupuesto**.
 
-La lectura rectora de este bloque es Andrew S. Grove — *High Output Management* (1983). **Lente que aporta:** output gerencial, indicadores adelantados y reuniones como herramienta de producción. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **desviación presupuestaria**; regístrala con periodo, unidad, población y línea base.
+Un presupuesto comercial es un conjunto de supuestos convertidos en compromisos de gasto. Su calidad depende de que esos supuestos estén explícitos: qué tasa de conversión, qué productividad por vendedor, qué costo por oportunidad. Un presupuesto sin supuestos visibles no se puede revisar cuando la realidad difiere.
+
+**De dónde viene esta afirmación.** Andrew S. Grove — *High Output Management* (1983) aporta la idea que sostiene este bloque: el apalancamiento gerencial: qué actividades multiplican el output. Búscala en los capítulos sobre apalancamiento. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «desviación presupuestaria» debería moverse cuando cambie **supuesto presupuestario**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **presupuesto base cero**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Presupuesto base cero: frontera conceptual y error de clasificación
 
-**Definición operacional:** construcción desde la necesidad y no desde el histórico. Su valor está en distinguirlo de **supuesto presupuestario**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** construcción desde la necesidad y no desde el histórico. Su valor está en distinguirlo de **supuesto presupuestario**.
 
-Contrasta el problema con John Doerr — *Measure What Matters* (2018) —**lente:** OKR como sistema de foco, alineamiento y seguimiento—. Formula dos mini-casos: uno que satisface la definición de **presupuesto base cero** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **supuestos verificados** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El supuesto presupuestario debe llevar su fuente y su nivel de confianza. Los que provienen del histórico propio son más sólidos que los que provienen de una aspiración. Marcar esa diferencia permite, a mitad de año, saber qué parte de la desviación era previsible.
+
+**Contraste bibliográfico.** John Doerr — *Measure What Matters* (2018) aporta aquí una distinción concreta: el foco: pocos objetivos, con lo descartado explícito (los capítulos sobre comprometerse con prioridades). Formula dos mini-casos: uno que satisface la definición de **presupuesto base cero** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «declarar cada supuesto y su fuente», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Flexibilidad presupuestaria: operacionalización y medición
 
-**flexibilidad presupuestaria** significa **capacidad de reasignar durante el periodo según resultados**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Flexibilidad presupuestaria** significa **capacidad de reasignar durante el periodo según resultados**.
+
+La flexibilidad presupuestaria debe diseñarse: qué proporción del gasto se puede reasignar durante el periodo, quién lo autoriza y con qué criterio. Un presupuesto totalmente rígido obliga a gastar mal para no perder la partida; uno totalmente flexible pierde la función de disciplina.
 
 Ficha de medición obligatoria para **desviación presupuestaria**: `diferencia entre gasto planificado y ejecutado, por línea`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) orienta este bloque —**lente:** traducción de la estrategia en indicadores causalmente conectados—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) pone una condición sobre la medición: la traducción de la estrategia en indicadores que la organización puede ejecutar (los capítulos sobre implantación). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Desviación explicada: trade-offs y efectos de segundo orden
 
-**Definición:** diferencia entre lo planificado y lo ejecutado con su causa identificada. Este concepto obliga a abandonar la idea de que presupuesto comercial tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «medir la desviación y explicarla», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** diferencia entre lo planificado y lo ejecutado con su causa identificada.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) —**lente:** una métrica que importa por etapa y por modelo de negocio— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **reasignaciones ejecutadas** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un presupuesto ajustado obliga a priorizar y puede impedir aprovechar oportunidades; uno holgado permite reaccionar y reduce la disciplina. La práctica razonable reserva una proporción explícita para oportunidades no previstas, en lugar de dejar holgura oculta en cada partida, que es lo que ocurre por defecto.
+
+**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: la línea trazada de antemano: qué valor haría considerar exitoso el experimento (los capítulos sobre definir el éxito). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **reasignaciones ejecutadas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **desviación explicada** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «usar el aprendizaje para el ciclo siguiente», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) sirve para contrastar la recomendación final desde otro lente: una métrica que importa por etapa y por modelo de negocio. La frontera de esta clase es explícita: Un presupuesto demasiado rígido impide aprovechar oportunidades. La flexibilidad debe estar definida en reglas, no en excepciones informales. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La desviación explicada es más valiosa que la desviación evitada: un presupuesto que se cumple exactamente puede indicar que se gastó por cumplir. Lo que la dirección debería exigir es que cada desviación relevante tenga explicación y decisión asociada, no que no existan desviaciones.
+
+**Frontera declarada.** Un presupuesto demasiado rígido impide aprovechar oportunidades. La flexibilidad debe estar definida en reglas, no en excepciones informales. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Escalar un motor roto, generar rotación y destruir el margen mientras se «crece».** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Andrew S. Grove — *High Output Management* (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| John Doerr — *Measure What Matters* (2018) | OKR como sistema de foco, alineamiento y seguimiento | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | traducción de la estrategia en indicadores causalmente conectados | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | una métrica que importa por etapa y por modelo de negocio | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Andrew S. Grove — *High Output Management* (1983) | El apalancamiento gerencial: qué actividades multiplican el output | Los capítulos sobre apalancamiento | ¿Qué debería observarse en **supuesto presupuestario** si aquí opera «el apalancamiento gerencial: qué actividades multiplican el output»? ¿Y qué observación lo desmentiría en este caso? |
+| John Doerr — *Measure What Matters* (2018) | El foco: pocos objetivos, con lo descartado explícito | Los capítulos sobre comprometerse con prioridades | ¿Qué debería observarse en **presupuesto base cero** si aquí opera «el foco: pocos objetivos, con lo descartado explícito»? ¿Y qué observación lo desmentiría en este caso? |
+| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | La traducción de la estrategia en indicadores que la organización puede ejecutar | Los capítulos sobre implantación | ¿Qué debería observarse en **flexibilidad presupuestaria** si aquí opera «la traducción de la estrategia en indicadores que la organización puede ejecutar»? ¿Y qué observación lo desmentiría en este caso? |
+| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | La línea trazada de antemano: qué valor haría considerar exitoso el experimento | Los capítulos sobre definir el éxito | ¿Qué debería observarse en **desviación explicada** si aquí opera «la línea trazada de antemano: qué valor haría considerar exitoso el experimento»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **derivar el presupuesto de la meta y de los supuestos → declarar cada supuesto y su fuente → definir reglas de reasignación durante el periodo → medir la desviación y explicarla → usar el aprendizaje para el ciclo siguiente** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **desviación presupuestaria**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **derivar el presupuesto de la meta y de los supuestos → declarar cada supuesto y su fuente → definir reglas de reasignación durante el periodo → medir la desviación y explicarla → usar el aprendizaje para el ciclo siguiente** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **desviación presupuestaria**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *High Output Management* y la de *Measure What Matters*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **desviación presupuestaria** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un presupuesto demasiado rígido impide aprovechar oportunidades. La flexibilidad debe estar definida en reglas, no en excepciones informales»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **flexibilidad presupuestaria** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **desviación presupuestaria**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *High Output Management* y *Lean Analytics*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **operating system del CRO co
 
 ## 📗 Fuentes y verificación
 
-- Andrew S. Grove — *High Output Management* (1983). **Uso en esta clase:** output gerencial, indicadores adelantados y reuniones como herramienta de producción. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- John Doerr — *Measure What Matters* (2018). **Uso en esta clase:** OKR como sistema de foco, alineamiento y seguimiento. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996). **Uso en esta clase:** traducción de la estrategia en indicadores causalmente conectados. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Uso en esta clase:** una métrica que importa por etapa y por modelo de negocio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Andrew S. Grove — *High Output Management* (1983) — **aporta a esta clase:** el apalancamiento gerencial: qué actividades multiplican el output. **Dónde buscarlo:** los capítulos sobre apalancamiento. Registra edición y páginas consultadas en tu nota de lectura.
+- John Doerr — *Measure What Matters* (2018) — **aporta a esta clase:** el foco: pocos objetivos, con lo descartado explícito. **Dónde buscarlo:** los capítulos sobre comprometerse con prioridades. Registra edición y páginas consultadas en tu nota de lectura.
+- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) — **aporta a esta clase:** la traducción de la estrategia en indicadores que la organización puede ejecutar. **Dónde buscarlo:** los capítulos sobre implantación. Registra edición y páginas consultadas en tu nota de lectura.
+- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** la línea trazada de antemano: qué valor haría considerar exitoso el experimento. **Dónde buscarlo:** los capítulos sobre definir el éxito. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

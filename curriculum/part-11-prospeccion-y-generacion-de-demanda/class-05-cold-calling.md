@@ -2,19 +2,34 @@
 title: "Llamada en frío"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 11
 class: 05
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["blount", "weinberg-sales", "bertuzzi", "ross"]
+anchors: {"bertuzzi": "especializacion-sdr", "blount": "rechazo", "ross": "cold-calling-2", "weinberg-sales": "relato-comercial"}
 updated: 2026-08-19
 ---
 
 # Clase 11.05 — Llamada en frío
 
-**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 11.04 — *Correo en frío*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de contactabilidad para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La gestión emocional del rechazo como habilidad entrenable — Jeb Blount. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Apertura en una frase: mecanismo central
 
-**apertura en una frase** se entiende aquí como **declaración breve del motivo de la llamada que justifica continuar**. Es la pieza desde la que se inicia el análisis de llamada en frío: antes de «verificar que el segmento responde llamadas», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Apertura en una frase** se entiende aquí como **declaración breve del motivo de la llamada que justifica continuar**.
 
-La lectura rectora de este bloque es Jeb Blount — *Fanatical Prospecting* (2015). **Lente que aporta:** disciplina de prospección, cadencia y gestión del rechazo. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de contactabilidad**; regístrala con periodo, unidad, población y línea base.
+La llamada en frío sigue funcionando en contextos específicos y ha dejado de funcionar en otros, y esa distinción importa más que la discusión general sobre si está muerta. Funciona donde el interlocutor atiende su teléfono y donde el problema es urgente; falla donde el filtro es efectivo y donde el canal no es el habitual de esa persona.
+
+**De dónde viene esta afirmación.** Jeb Blount — *Fanatical Prospecting* (2015) aporta la idea que sostiene este bloque: la gestión emocional del rechazo como habilidad entrenable. Búscala en los capítulos sobre resiliencia en prospección. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de contactabilidad» debería moverse cuando cambie **apertura en una frase**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **permiso explícito**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Permiso explícito: frontera conceptual y error de clasificación
 
-**Definición operacional:** confirmación del destinatario de que puede conversar en ese momento. Su valor está en distinguirlo de **apertura en una frase**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** confirmación del destinatario de que puede conversar en ese momento. Su valor está en distinguirlo de **apertura en una frase**.
 
-Contrasta el problema con Mike Weinberg — *New Sales. Simplified.* (2012) —**lente:** proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida—. Formula dos mini-casos: uno que satisface la definición de **permiso explícito** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **conversaciones por reunión agendada** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La apertura en una frase es la restricción real: se dispone de pocos segundos para dar una razón válida. Esa frase debe contener quién eres, por qué llamas a esa persona en particular y qué pides. Improvisarla garantiza divagación; prepararla y practicarla es lo que distingue a un equipo entrenado.
+
+**Contraste bibliográfico.** Mike Weinberg — *New Sales. Simplified.* (2012) aporta aquí una distinción concreta: el relato comercial construido desde los problemas del cliente, no desde la empresa (los capítulos sobre la historia de ventas). Formula dos mini-casos: uno que satisface la definición de **permiso explícito** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «preparar apertura, señal y pregunta de calificación», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Calificación en llamada: operacionalización y medición
 
-**calificación en llamada** significa **verificación rápida de perfil, problema y momento**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Calificación en llamada** significa **verificación rápida de perfil, problema y momento**.
+
+El permiso explícito —preguntar si es buen momento— parece una cortesía y es un mecanismo: obtiene un compromiso pequeño que aumenta la disposición a continuar, y evita conversaciones con alguien que no puede atender. Su efecto se puede medir comparando duración media y tasa de avance con y sin la pregunta.
 
 Ficha de medición obligatoria para **tasa de contactabilidad**: `llamadas con conversación efectiva, sobre llamadas realizadas, por franja horaria`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Trish Bertuzzi — *The Sales Development Playbook* (2016) orienta este bloque —**lente:** estructura, especialización y métricas del equipo de desarrollo de ventas—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Trish Bertuzzi — *The Sales Development Playbook* (2016) pone una condición sobre la medición: la separación entre respuesta a demanda entrante y prospección saliente (los capítulos sobre especialización). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Gestión del rechazo: trade-offs y efectos de segundo orden
 
-**Definición:** capacidad de sostener la actividad ante una tasa alta de respuestas negativas. Este concepto obliga a abandonar la idea de que llamada en frío tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «calificar en la llamada y registrar el resultado», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** capacidad de sostener la actividad ante una tasa alta de respuestas negativas.
 
-Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) —**lente:** especialización de roles comerciales y generación de pipeline predecible— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tasa de calificación en llamada** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Llamar más aumenta el número de conversaciones y desgasta al equipo y a la lista. El rechazo repetido tiene un costo emocional real que explica la mayor parte del abandono de la actividad, y que ninguna técnica elimina. Gestionarlo con expectativas realistas de tasa de contacto es responsabilidad de la jefatura, no del vendedor.
+
+**Lo que aporta la fuente.** Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) aporta el criterio para pesar el intercambio: la prospección por referencia interna en lugar de la llamada en frío clásica (los capítulos sobre el método de prospección). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de calificación en llamada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **gestión del rechazo** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir contactabilidad y ajustar horarios», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) sirve para contrastar la recomendación final desde otro lente: especialización de roles comerciales y generación de pipeline predecible. La frontera de esta clase es explícita: La llamada comercial no solicitada está regulada y puede ser percibida como intrusiva. Debe respetarse la solicitud de no contacto y registrarse. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El contacto telefónico con fines comerciales está sujeto a restricciones normativas y a registros de oposición. Verificar el marco aplicable y respetar las exclusiones no es opcional. Y hay contextos —sector público en proceso de licitación— donde el contacto directo puede estar expresamente limitado por el procedimiento.
+
+**Frontera declarada.** La llamada comercial no solicitada está regulada y puede ser percibida como intrusiva. Debe respetarse la solicitud de no contacto y registrarse. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Infringir normas de datos personales y consumo, y quemar el activo reputacional del dominio.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Jeb Blount — *Fanatical Prospecting* (2015) | disciplina de prospección, cadencia y gestión del rechazo | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Mike Weinberg — *New Sales. Simplified.* (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Trish Bertuzzi — *The Sales Development Playbook* (2016) | estructura, especialización y métricas del equipo de desarrollo de ventas | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Jeb Blount — *Fanatical Prospecting* (2015) | La gestión emocional del rechazo como habilidad entrenable | Los capítulos sobre resiliencia en prospección | ¿Qué debería observarse en **apertura en una frase** si aquí opera «la gestión emocional del rechazo como habilidad entrenable»? ¿Y qué observación lo desmentiría en este caso? |
+| Mike Weinberg — *New Sales. Simplified.* (2012) | El relato comercial construido desde los problemas del cliente, no desde la empresa | Los capítulos sobre la historia de ventas | ¿Qué debería observarse en **permiso explícito** si aquí opera «el relato comercial construido desde los problemas del cliente, no desde la empresa»? ¿Y qué observación lo desmentiría en este caso? |
+| Trish Bertuzzi — *The Sales Development Playbook* (2016) | La separación entre respuesta a demanda entrante y prospección saliente | Los capítulos sobre especialización | ¿Qué debería observarse en **calificación en llamada** si aquí opera «la separación entre respuesta a demanda entrante y prospección saliente»? ¿Y qué observación lo desmentiría en este caso? |
+| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | La prospección por referencia interna en lugar de la llamada en frío clásica | Los capítulos sobre el método de prospección | ¿Qué debería observarse en **gestión del rechazo** si aquí opera «la prospección por referencia interna en lugar de la llamada en frío clásica»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **verificar que el segmento responde llamadas → preparar apertura, señal y pregunta de calificación → pedir permiso explícito antes de continuar → calificar en la llamada y registrar el resultado → medir contactabilidad y ajustar horarios** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de contactabilidad**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **verificar que el segmento responde llamadas → preparar apertura, señal y pregunta de calificación → pedir permiso explícito antes de continuar → calificar en la llamada y registrar el resultado → medir contactabilidad y ajustar horarios** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de contactabilidad**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Fanatical Prospecting* y la de *New Sales. Simplified.*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de contactabilidad** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La llamada comercial no solicitada está regulada y puede ser percibida como intrusiva. Debe respetarse la solicitud de no contacto y registrarse»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **calificación en llamada** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de contactabilidad**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Fanatical Prospecting* y *Predictable Revenue*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema de prospección con
 
 ## 📗 Fuentes y verificación
 
-- Jeb Blount — *Fanatical Prospecting* (2015). **Uso en esta clase:** disciplina de prospección, cadencia y gestión del rechazo. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Mike Weinberg — *New Sales. Simplified.* (2012). **Uso en esta clase:** proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Trish Bertuzzi — *The Sales Development Playbook* (2016). **Uso en esta clase:** estructura, especialización y métricas del equipo de desarrollo de ventas. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011). **Uso en esta clase:** especialización de roles comerciales y generación de pipeline predecible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Jeb Blount — *Fanatical Prospecting* (2015) — **aporta a esta clase:** la gestión emocional del rechazo como habilidad entrenable. **Dónde buscarlo:** los capítulos sobre resiliencia en prospección. Registra edición y páginas consultadas en tu nota de lectura.
+- Mike Weinberg — *New Sales. Simplified.* (2012) — **aporta a esta clase:** el relato comercial construido desde los problemas del cliente, no desde la empresa. **Dónde buscarlo:** los capítulos sobre la historia de ventas. Registra edición y páginas consultadas en tu nota de lectura.
+- Trish Bertuzzi — *The Sales Development Playbook* (2016) — **aporta a esta clase:** la separación entre respuesta a demanda entrante y prospección saliente. **Dónde buscarlo:** los capítulos sobre especialización. Registra edición y páginas consultadas en tu nota de lectura.
+- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) — **aporta a esta clase:** la prospección por referencia interna en lugar de la llamada en frío clásica. **Dónde buscarlo:** los capítulos sobre el método de prospección. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

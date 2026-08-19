@@ -43,7 +43,7 @@ python -m pytest -q
 ## Estándar de contenido
 
 Toda contribución de contenido debe cumplir el estándar
-[`clase-profunda-v1`](docs/ESTANDAR-PEDAGOGICO.md):
+[`clase-profunda-v2`](docs/ESTANDAR-PEDAGOGICO.md):
 
 - **Definición operacional.** Un concepto entra sólo si dos personas independientes pueden clasificar el
   mismo caso de la misma forma con esa definición.

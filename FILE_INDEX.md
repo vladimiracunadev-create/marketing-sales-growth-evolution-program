@@ -50,7 +50,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/part-22-go-to-market-canales-y-expansion` | 15 | README.md, class-01-que-es-una-estrategia-gtm.md, class-02-market-entry.md, class-03-beachhead-market.md, class-04-sales-led-growth.md, class-05-product-led-growth.md… |
 | `curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro` | 15 | README.md, class-01-diseno-de-la-organizacion-comercial.md, class-02-roles-y-responsabilidades.md, class-03-contratacion.md, class-04-onboarding-de-equipos.md, class-05-compensacion-e-incentivos.md… |
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
-| `curriculum/spec` | 29 | __init__.py, bibliografia.py, clases_p01.py, clases_p02.py, clases_p03.py, clases_p04.py… |
+| `curriculum/spec` | 55 | __init__.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py, clases_p02.py… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
 | `docs` | 20 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
 | `evidence` | 2 | .gitkeep, README.md |
@@ -103,7 +103,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 1 | stp-canvas.md |
 | `tests` | 5 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_integridad.py, test_rutas.py |
-| `tools` | 11 | build_curriculum.py, build_docs.py, build_practica.py, build_rutas.py, build_site.py, build_status.py… |
+| `tools` | 13 | audit_fuentes.py, build_curriculum.py, build_docs.py, build_practica.py, build_readme_bibliografia.py, build_rutas.py… |
 
 ---
 

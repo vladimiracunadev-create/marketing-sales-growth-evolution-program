@@ -2,19 +2,34 @@
 title: "Métricas de go-to-market"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 22
 class: 13
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["croll-yoskovitz", "ross", "bush-plg", "kaplan-norton"]
+anchors: {"bush-plg": "ocasion-upgrade", "croll-yoskovitz": "una-metrica", "kaplan-norton": "indicadores-causales", "ross": "pipeline-predecible"}
 updated: 2026-08-19
 ---
 
 # Clase 22.13 — Métricas de go-to-market
 
-**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 22.12 — *Internacionalización*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de eficiencia del crecimiento para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La métrica que importa ahora: una sola, según etapa y modelo de negocio — Alistair Croll y Benjamin Yoskovitz. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Eficiencia del crecimiento: mecanismo central
 
-**eficiencia del crecimiento** se entiende aquí como **relación entre el ingreso incremental y el gasto necesario para producirlo**. Es la pieza desde la que se inicia el análisis de métricas de go-to-market: antes de «definir las métricas por movimiento y por canal», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Eficiencia del crecimiento** se entiende aquí como **relación entre el ingreso incremental y el gasto necesario para producirlo**.
 
-La lectura rectora de este bloque es Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Lente que aporta:** una métrica que importa por etapa y por modelo de negocio. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **eficiencia del crecimiento**; regístrala con periodo, unidad, población y línea base.
+Las métricas de entrada al mercado deben medir eficiencia y no sólo volumen: cuánto cuesta crecer, cuánto tarda y qué proporción del crecimiento se retiene. Un crecimiento rápido con mala eficiencia es un problema que aparece después, cuando el capital que lo financiaba se agota.
+
+**De dónde viene esta afirmación.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta la idea que sostiene este bloque: la métrica que importa ahora: una sola, según etapa y modelo de negocio. Búscala en los capítulos sobre la métrica única. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «eficiencia del crecimiento» debería moverse cuando cambie **eficiencia del crecimiento**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **productividad por movimiento**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Productividad por movimiento: frontera conceptual y error de clasificación
 
-**Definición operacional:** resultado obtenido por unidad de capacidad en cada movimiento comercial. Su valor está en distinguirlo de **eficiencia del crecimiento**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** resultado obtenido por unidad de capacidad en cada movimiento comercial. Su valor está en distinguirlo de **eficiencia del crecimiento**.
 
-Contrasta el problema con Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) —**lente:** especialización de roles comerciales y generación de pipeline predecible—. Formula dos mini-casos: uno que satisface la definición de **productividad por movimiento** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **periodo de recuperación por movimiento** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La eficiencia del crecimiento relaciona el ingreso nuevo con el gasto que lo produjo, incluyendo todos los costos comerciales. Es la métrica que resume si el motor funciona. Su valor está en la comparación en el tiempo y entre movimientos comerciales, no en un umbral absoluto.
+
+**Contraste bibliográfico.** Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) aporta aquí una distinción concreta: el pipeline predecible derivado de una relación medida entre actividad y resultado (los capítulos sobre generación predecible). Formula dos mini-casos: uno que satisface la definición de **productividad por movimiento** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «medir eficiencia además de crecimiento», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Contribución por canal: operacionalización y medición
 
-**contribución por canal** significa **margen que aporta cada canal después de sus costos**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Contribución por canal** significa **margen que aporta cada canal después de sus costos**.
+
+La productividad por movimiento —cuánto ingreso genera cada tipo de canal por unidad de recurso— permite decidir dónde invertir el próximo peso. Ese análisis exige imputar correctamente los costos, y ahí es donde la mayoría de los cálculos se vuelve discutible. Declarar la imputación es parte del análisis.
 
 Ficha de medición obligatoria para **eficiencia del crecimiento**: `ingreso incremental del periodo, sobre gasto comercial incremental`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Wes Bush — *Product-Led Growth* (2019) orienta este bloque —**lente:** el producto como principal vehículo de adquisición, activación y expansión—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Wes Bush — *Product-Led Growth* (2019) pone una condición sobre la medición: el gatillo de conversión construido alrededor del valor y no del tiempo (los capítulos sobre conversión a plan pagado). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Velocidad de escalamiento: trade-offs y efectos de segundo orden
 
-**Definición:** rapidez con que el movimiento puede aumentar su producción. Este concepto obliga a abandonar la idea de que métricas de go-to-market tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «identificar dónde la eficiencia se deteriora al escalar», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** rapidez con que el movimiento puede aumentar su producción.
 
-Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) —**lente:** traducción de la estrategia en indicadores causalmente conectados— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **deterioro de eficiencia al escalar** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Optimizar la eficiencia puede frenar el crecimiento en un momento donde la velocidad importa más que el margen; priorizar el crecimiento puede construir una operación que no se sostiene. La decisión depende de la etapa y de la disponibilidad de capital, y debe declararse explícitamente en lugar de oscilar entre ambos objetivos.
+
+**Lo que aporta la fuente.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta el criterio para pesar el intercambio: los inductores de actuación frente a los indicadores de resultado (los capítulos sobre tipos de indicador). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **deterioro de eficiencia al escalar** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **velocidad de escalamiento** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «ajustar la asignación según el resultado», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) sirve para contrastar la recomendación final desde otro lente: traducción de la estrategia en indicadores causalmente conectados. La frontera de esta clase es explícita: En etapas tempranas puede ser racional sacrificar eficiencia para ganar posición. Lo que no es racional es hacerlo sin declararlo ni medirlo. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Las métricas de entrada al mercado son indicadores agregados y su movimiento puede deberse a cambios de mezcla. Un aumento de eficiencia por mayor proporción de negocios pequeños y rápidos no significa mejora del sistema. Toda lectura debe acompañarse de la evolución de la composición.
+
+**Frontera declarada.** En etapas tempranas puede ser racional sacrificar eficiencia para ganar posición. Lo que no es racional es hacerlo sin declararlo ni medirlo. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Abrir frentes simultáneos sin capacidad, diluir foco y llegar tarde a todos.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | una métrica que importa por etapa y por modelo de negocio | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Wes Bush — *Product-Led Growth* (2019) | el producto como principal vehículo de adquisición, activación y expansión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | traducción de la estrategia en indicadores causalmente conectados | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | La métrica que importa ahora: una sola, según etapa y modelo de negocio | Los capítulos sobre la métrica única | ¿Qué debería observarse en **eficiencia del crecimiento** si aquí opera «la métrica que importa ahora: una sola, según etapa y modelo de negocio»? ¿Y qué observación lo desmentiría en este caso? |
+| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | El pipeline predecible derivado de una relación medida entre actividad y resultado | Los capítulos sobre generación predecible | ¿Qué debería observarse en **productividad por movimiento** si aquí opera «el pipeline predecible derivado de una relación medida entre actividad y resultado»? ¿Y qué observación lo desmentiría en este caso? |
+| Wes Bush — *Product-Led Growth* (2019) | El gatillo de conversión construido alrededor del valor y no del tiempo | Los capítulos sobre conversión a plan pagado | ¿Qué debería observarse en **contribución por canal** si aquí opera «el gatillo de conversión construido alrededor del valor y no del tiempo»? ¿Y qué observación lo desmentiría en este caso? |
+| Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | Los inductores de actuación frente a los indicadores de resultado | Los capítulos sobre tipos de indicador | ¿Qué debería observarse en **velocidad de escalamiento** si aquí opera «los inductores de actuación frente a los indicadores de resultado»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir las métricas por movimiento y por canal → medir eficiencia además de crecimiento → comparar la eficiencia entre movimientos → identificar dónde la eficiencia se deteriora al escalar → ajustar la asignación según el resultado** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **eficiencia del crecimiento**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir las métricas por movimiento y por canal → medir eficiencia además de crecimiento → comparar la eficiencia entre movimientos → identificar dónde la eficiencia se deteriora al escalar → ajustar la asignación según el resultado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **eficiencia del crecimiento**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Lean Analytics* y la de *Predictable Revenue*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **eficiencia del crecimiento** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «En etapas tempranas puede ser racional sacrificar eficiencia para ganar posición. Lo que no es racional es hacerlo sin declararlo ni medirlo»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **contribución por canal** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **eficiencia del crecimiento**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Lean Analytics* y *The Balanced Scorecard*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan GTM completo con beach
 
 ## 📗 Fuentes y verificación
 
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Uso en esta clase:** una métrica que importa por etapa y por modelo de negocio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011). **Uso en esta clase:** especialización de roles comerciales y generación de pipeline predecible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Wes Bush — *Product-Led Growth* (2019). **Uso en esta clase:** el producto como principal vehículo de adquisición, activación y expansión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996). **Uso en esta clase:** traducción de la estrategia en indicadores causalmente conectados. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** la métrica que importa ahora: una sola, según etapa y modelo de negocio. **Dónde buscarlo:** los capítulos sobre la métrica única. Registra edición y páginas consultadas en tu nota de lectura.
+- Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) — **aporta a esta clase:** el pipeline predecible derivado de una relación medida entre actividad y resultado. **Dónde buscarlo:** los capítulos sobre generación predecible. Registra edición y páginas consultadas en tu nota de lectura.
+- Wes Bush — *Product-Led Growth* (2019) — **aporta a esta clase:** el gatillo de conversión construido alrededor del valor y no del tiempo. **Dónde buscarlo:** los capítulos sobre conversión a plan pagado. Registra edición y páginas consultadas en tu nota de lectura.
+- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) — **aporta a esta clase:** los inductores de actuación frente a los indicadores de resultado. **Dónde buscarlo:** los capítulos sobre tipos de indicador. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

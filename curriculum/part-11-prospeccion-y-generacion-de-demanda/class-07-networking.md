@@ -2,19 +2,34 @@
 title: "Networking"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 11
 class: 07
 level: Venta
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["cialdini", "godin", "blount", "collins"]
+anchors: {"blount": "bloques", "cialdini": "reciprocidad", "collins": "personas-primero", "godin": "cambio"}
 updated: 2026-08-19
 ---
 
 # Clase 11.07 — Networking
 
-**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 11 · Prospección y generación de demanda** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 11.06 — *LinkedIn y social selling*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de oportunidades originadas por red para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La reciprocidad: el aporte previo genera disposición a corresponder — Robert B. Cialdini. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Reciprocidad: mecanismo central
 
-**reciprocidad** se entiende aquí como **principio por el cual el aporte previo genera disposición a corresponder**. Es la pieza desde la que se inicia el análisis de networking: antes de «identificar los espacios donde participa el segmento», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Reciprocidad** se entiende aquí como **principio por el cual el aporte previo genera disposición a corresponder**.
 
-La lectura rectora de este bloque es Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021). **Lente que aporta:** principios de influencia y su uso ético en contextos comerciales. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **oportunidades originadas por red**; regístrala con periodo, unidad, población y línea base.
+El trabajo en red produce oportunidades que ningún otro canal produce, y su lógica es distinta: no es prospección disfrazada. Quien asiste a un encuentro gremial buscando vender se nota y se aísla; quien aporta información útil construye una posición que rinde durante años. La diferencia está en el horizonte, no en la técnica.
+
+**De dónde viene esta afirmación.** Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) aporta la idea que sostiene este bloque: la reciprocidad: el aporte previo genera disposición a corresponder. Búscala en el capítulo sobre reciprocidad. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «oportunidades originadas por red» debería moverse cuando cambie **reciprocidad**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **densidad de red gremial**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Densidad de red gremial: frontera conceptual y error de clasificación
 
-**Definición operacional:** grado en que los actores de un rubro se conocen entre sí. Su valor está en distinguirlo de **reciprocidad**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** grado en que los actores de un rubro se conocen entre sí. Su valor está en distinguirlo de **reciprocidad**.
 
-Contrasta el problema con Seth Godin — *This Is Marketing* (2018) —**lente:** marketing como servicio a un público mínimo viable y construcción de confianza—. Formula dos mini-casos: uno que satisface la definición de **densidad de red gremial** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **cumplimiento de compromisos informales** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La reciprocidad opera con una condición que se olvida: el aporte debe ser genuino y sin petición inmediata asociada. Un favor entregado con la factura implícita se percibe como transacción y no genera obligación moral. Robert Cialdini documentó el mecanismo; su uso instrumental y evidente lo anula.
+
+**Contraste bibliográfico.** Seth Godin — *This Is Marketing* (2018) aporta aquí una distinción concreta: el marketing como oferta de un cambio que alguien busca, no como difusión (los capítulos iniciales sobre qué es el marketing). Formula dos mini-casos: uno que satisface la definición de **densidad de red gremial** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «definir qué aporte concreto se puede entregar», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Seguimiento de compromisos: operacionalización y medición
 
-**seguimiento de compromisos** significa **cumplimiento de lo prometido en conversaciones informales**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Seguimiento de compromisos** significa **cumplimiento de lo prometido en conversaciones informales**.
+
+La densidad de red gremial se puede medir de forma sencilla: número de personas del sector con las que existe contacto real en los últimos doce meses, y proporción de ellas que respondería a una consulta. Ese segundo dato, aunque estimado, distingue una red efectiva de una lista de contactos.
 
 Ficha de medición obligatoria para **oportunidades originadas por red**: `oportunidades calificadas atribuidas a relaciones, sobre oportunidades totales`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Jeb Blount — *Fanatical Prospecting* (2015) orienta este bloque —**lente:** disciplina de prospección, cadencia y gestión del rechazo—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Jeb Blount — *Fanatical Prospecting* (2015) pone una condición sobre la medición: los bloques de tiempo protegidos como mecanismo, no como intención (los capítulos sobre gestión del tiempo). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Capital relacional: trade-offs y efectos de segundo orden
 
-**Definición:** valor acumulado de relaciones que facilitan acceso y confianza. Este concepto obliga a abandonar la idea de que networking tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «registrar y cumplir los compromisos adquiridos», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** valor acumulado de relaciones que facilitan acceso y confianza.
 
-Jim Collins — *Good to Great* (2001) —**lente:** disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **participación en instancias del gremio** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Invertir tiempo en construir red produce resultados difusos y difíciles de atribuir, lo que la hace vulnerable al recorte cuando hay presión por resultados inmediatos. Sostenerla exige asumir que su retorno es de mediano plazo y protegerla con una asignación de tiempo explícita, igual que la prospección.
+
+**Lo que aporta la fuente.** Jim Collins — *Good to Great* (2001) aporta el criterio para pesar el intercambio: primero quién y después qué: las personas correctas antes que la dirección (el capítulo sobre primero quién). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **participación en instancias del gremio** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **capital relacional** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir oportunidades originadas por la red», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Jim Collins — *Good to Great* (2001) sirve para contrastar la recomendación final desde otro lente: disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial. La frontera de esta clase es explícita: En asociaciones gremiales hay límites de libre competencia: intercambiar información sensible de precios o clientes entre competidores puede constituir una infracción grave. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El capital relacional es de la persona antes que de la empresa, y esa realidad debe reconocerse en el diseño organizativo. Cuando alguien se va, se lleva parte de la red. Las empresas que lo niegan terminan con relaciones no documentadas y sin continuidad; las que lo reconocen construyen mecanismos para que la relación institucional también exista.
+
+**Frontera declarada.** En asociaciones gremiales hay límites de libre competencia: intercambiar información sensible de precios o clientes entre competidores puede constituir una infracción grave. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Infringir normas de datos personales y consumo, y quemar el activo reputacional del dominio.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | principios de influencia y su uso ético en contextos comerciales | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Jeb Blount — *Fanatical Prospecting* (2015) | disciplina de prospección, cadencia y gestión del rechazo | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | La reciprocidad: el aporte previo genera disposición a corresponder | El capítulo sobre reciprocidad | ¿Qué debería observarse en **reciprocidad** si aquí opera «la reciprocidad: el aporte previo genera disposición a corresponder»? ¿Y qué observación lo desmentiría en este caso? |
+| Seth Godin — *This Is Marketing* (2018) | El marketing como oferta de un cambio que alguien busca, no como difusión | Los capítulos iniciales sobre qué es el marketing | ¿Qué debería observarse en **densidad de red gremial** si aquí opera «el marketing como oferta de un cambio que alguien busca, no como difusión»? ¿Y qué observación lo desmentiría en este caso? |
+| Jeb Blount — *Fanatical Prospecting* (2015) | Los bloques de tiempo protegidos como mecanismo, no como intención | Los capítulos sobre gestión del tiempo | ¿Qué debería observarse en **seguimiento de compromisos** si aquí opera «los bloques de tiempo protegidos como mecanismo, no como intención»? ¿Y qué observación lo desmentiría en este caso? |
+| Jim Collins — *Good to Great* (2001) | Primero quién y después qué: las personas correctas antes que la dirección | El capítulo sobre primero quién | ¿Qué debería observarse en **capital relacional** si aquí opera «primero quién y después qué: las personas correctas antes que la dirección»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **identificar los espacios donde participa el segmento → definir qué aporte concreto se puede entregar → participar con regularidad y no sólo cuando se necesita → registrar y cumplir los compromisos adquiridos → medir oportunidades originadas por la red** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **oportunidades originadas por red**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **identificar los espacios donde participa el segmento → definir qué aporte concreto se puede entregar → participar con regularidad y no sólo cuando se necesita → registrar y cumplir los compromisos adquiridos → medir oportunidades originadas por la red** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **oportunidades originadas por red**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Influence: The Psychology of Persuasion, New and Expanded* y la de *This Is Marketing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **oportunidades originadas por red** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «En asociaciones gremiales hay límites de libre competencia: intercambiar información sensible de precios o clientes entre competidores puede constituir una infracción grave»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **seguimiento de compromisos** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **oportunidades originadas por red**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Influence: The Psychology of Persuasion, New and Expanded* y *Good to Great*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema de prospección con
 
 ## 📗 Fuentes y verificación
 
-- Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021). **Uso en esta clase:** principios de influencia y su uso ético en contextos comerciales. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Seth Godin — *This Is Marketing* (2018). **Uso en esta clase:** marketing como servicio a un público mínimo viable y construcción de confianza. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Jeb Blount — *Fanatical Prospecting* (2015). **Uso en esta clase:** disciplina de prospección, cadencia y gestión del rechazo. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Jim Collins — *Good to Great* (2001). **Uso en esta clase:** disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) — **aporta a esta clase:** la reciprocidad: el aporte previo genera disposición a corresponder. **Dónde buscarlo:** el capítulo sobre reciprocidad. Registra edición y páginas consultadas en tu nota de lectura.
+- Seth Godin — *This Is Marketing* (2018) — **aporta a esta clase:** el marketing como oferta de un cambio que alguien busca, no como difusión. **Dónde buscarlo:** los capítulos iniciales sobre qué es el marketing. Registra edición y páginas consultadas en tu nota de lectura.
+- Jeb Blount — *Fanatical Prospecting* (2015) — **aporta a esta clase:** los bloques de tiempo protegidos como mecanismo, no como intención. **Dónde buscarlo:** los capítulos sobre gestión del tiempo. Registra edición y páginas consultadas en tu nota de lectura.
+- Jim Collins — *Good to Great* (2001) — **aporta a esta clase:** primero quién y después qué: las personas correctas antes que la dirección. **Dónde buscarlo:** el capítulo sobre primero quién. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

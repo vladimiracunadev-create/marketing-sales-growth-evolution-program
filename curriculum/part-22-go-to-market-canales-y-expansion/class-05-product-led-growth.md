@@ -2,19 +2,34 @@
 title: "Crecimiento liderado por producto"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 22
 class: 05
 level: IA y expansión
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["bush-plg", "cagan", "ellis-brown", "croll-yoskovitz"]
+anchors: {"bush-plg": "moment-value", "cagan": "resultado-output", "croll-yoskovitz": "modelos", "ellis-brown": "must-have"}
 updated: 2026-08-19
 ---
 
 # Clase 22.05 — Crecimiento liderado por producto
 
-**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 22 · Go-to-market, canales y expansión** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 22.04 — *Crecimiento liderado por ventas*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de conversión autoservicio para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El momento de valor y su distancia respecto del registro — Wes Bush. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Adopción autónoma: mecanismo central
 
-**adopción autónoma** se entiende aquí como **capacidad del usuario de contratar y obtener valor sin asistencia**. Es la pieza desde la que se inicia el análisis de crecimiento liderado por producto: antes de «verificar que el producto permite adopción autónoma», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Adopción autónoma** se entiende aquí como **capacidad del usuario de contratar y obtener valor sin asistencia**.
 
-La lectura rectora de este bloque es Wes Bush — *Product-Led Growth* (2019). **Lente que aporta:** el producto como principal vehículo de adquisición, activación y expansión. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **conversión autoservicio**; regístrala con periodo, unidad, población y línea base.
+El crecimiento liderado por producto traslada la adquisición y la activación al propio producto. Su condición es que el usuario pueda llegar solo al valor, y esa condición es del producto y del caso de uso, no de la voluntad de la empresa. Verificarla con usuarios reales es previo a reorganizar la operación alrededor del modelo.
+
+**De dónde viene esta afirmación.** Wes Bush — *Product-Led Growth* (2019) aporta la idea que sostiene este bloque: el momento de valor y su distancia respecto del registro. Búscala en los capítulos sobre tiempo hasta el valor. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «conversión autoservicio» debería moverse cuando cambie **adopción autónoma**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **expansión por uso**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Expansión por uso: frontera conceptual y error de clasificación
 
-**Definición operacional:** aumento de ingreso derivado del crecimiento natural del uso. Su valor está en distinguirlo de **adopción autónoma**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** aumento de ingreso derivado del crecimiento natural del uso. Su valor está en distinguirlo de **adopción autónoma**.
 
-Contrasta el problema con Marty Cagan — *Inspired* (2017, 2.ª ed.) —**lente:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad—. Formula dos mini-casos: uno que satisface la definición de **expansión por uso** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **costo de servir por usuario** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El momento de valor y su distancia respecto del registro son las variables centrales. Cuanto mayor la distancia, más usuarios se pierden en el camino y menos viable es el autoservicio. Medir esa distancia y trabajar deliberadamente en acortarla es el trabajo principal de este modelo.
+
+**Contraste bibliográfico.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta aquí una distinción concreta: la orientación a resultado en lugar de a entrega de funcionalidades (los capítulos sobre equipos de producto). Formula dos mini-casos: uno que satisface la definición de **expansión por uso** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «medir el tiempo hasta el valor sin asistencia», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Costo de servir en autoservicio: operacionalización y medición
 
-**costo de servir en autoservicio** significa **gasto de producto y soporte por usuario del modelo**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Costo de servir en autoservicio** significa **gasto de producto y soporte por usuario del modelo**.
+
+La expansión por uso es el mecanismo de monetización característico: el cliente crece dentro del producto y el ingreso lo sigue. Requiere que la métrica de cobro corresponda al valor y que los límites se alcancen de forma natural. Cuando el límite es artificial, produce frustración en lugar de conversión.
 
 Ficha de medición obligatoria para **conversión autoservicio**: `cuentas que pagan sin intervención, sobre cuentas registradas`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Sean Ellis y Morgan Brown — *Hacking Growth* (2017) orienta este bloque —**lente:** equipo multifuncional, ciclo de experimentación y aha moment—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Sean Ellis y Morgan Brown — *Hacking Growth* (2017) pone una condición sobre la medición: la prueba de imprescindibilidad antes de acelerar la adquisición (los capítulos sobre encaje producto-mercado). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Condición de viabilidad: trade-offs y efectos de segundo orden
 
-**Definición:** requisitos que hacen posible el modelo en un producto concreto. Este concepto obliga a abandonar la idea de que crecimiento liderado por producto tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «calcular el costo de servir en autoservicio», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** requisitos que hacen posible el modelo en un producto concreto.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) —**lente:** una métrica que importa por etapa y por modelo de negocio— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **expansión por uso** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+El autoservicio reduce el costo de adquisición y limita el ticket alcanzable, además de dificultar la venta a organizaciones que exigen proceso formal. La mayoría de las empresas termina combinando modelos, y esa combinación exige definir dónde está la frontera antes de que los equipos la disputen caso a caso.
+
+**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: los seis modelos de negocio y las métricas que cambian entre ellos (la parte sobre modelos de negocio). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **expansión por uso** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **condición de viabilidad** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «evaluar la economía completa antes de escalar», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) sirve para contrastar la recomendación final desde otro lente: una métrica que importa por etapa y por modelo de negocio. La frontera de esta clase es explícita: El modelo traslada costo de ventas a producto y soporte. La economía total puede no mejorar si el producto exige inversión constante para sostener la autonomía. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El modelo exige inversión sostenida en producto para sostener la adquisición, y esa inversión compite con las funcionalidades que piden los clientes actuales. Reconocer ese conflicto y asignarle capacidad explícita es lo que impide que el mecanismo de crecimiento se degrade silenciosamente mientras el equipo atiende solicitudes.
+
+**Frontera declarada.** El modelo traslada costo de ventas a producto y soporte. La economía total puede no mejorar si el producto exige inversión constante para sostener la autonomía. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Abrir frentes simultáneos sin capacidad, diluir foco y llegar tarde a todos.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Wes Bush — *Product-Led Growth* (2019) | el producto como principal vehículo de adquisición, activación y expansión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Marty Cagan — *Inspired* (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Sean Ellis y Morgan Brown — *Hacking Growth* (2017) | equipo multifuncional, ciclo de experimentación y aha moment | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | una métrica que importa por etapa y por modelo de negocio | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Wes Bush — *Product-Led Growth* (2019) | El momento de valor y su distancia respecto del registro | Los capítulos sobre tiempo hasta el valor | ¿Qué debería observarse en **adopción autónoma** si aquí opera «el momento de valor y su distancia respecto del registro»? ¿Y qué observación lo desmentiría en este caso? |
+| Marty Cagan — *Inspired* (2017, 2.ª ed.) | La orientación a resultado en lugar de a entrega de funcionalidades | Los capítulos sobre equipos de producto | ¿Qué debería observarse en **expansión por uso** si aquí opera «la orientación a resultado en lugar de a entrega de funcionalidades»? ¿Y qué observación lo desmentiría en este caso? |
+| Sean Ellis y Morgan Brown — *Hacking Growth* (2017) | La prueba de imprescindibilidad antes de acelerar la adquisición | Los capítulos sobre encaje producto-mercado | ¿Qué debería observarse en **costo de servir en autoservicio** si aquí opera «la prueba de imprescindibilidad antes de acelerar la adquisición»? ¿Y qué observación lo desmentiría en este caso? |
+| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | Los seis modelos de negocio y las métricas que cambian entre ellos | La parte sobre modelos de negocio | ¿Qué debería observarse en **condición de viabilidad** si aquí opera «los seis modelos de negocio y las métricas que cambian entre ellos»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **verificar que el producto permite adopción autónoma → medir el tiempo hasta el valor sin asistencia → definir los gatillos de conversión y de expansión → calcular el costo de servir en autoservicio → evaluar la economía completa antes de escalar** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **conversión autoservicio**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **verificar que el producto permite adopción autónoma → medir el tiempo hasta el valor sin asistencia → definir los gatillos de conversión y de expansión → calcular el costo de servir en autoservicio → evaluar la economía completa antes de escalar** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **conversión autoservicio**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Product-Led Growth* y la de *Inspired*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **conversión autoservicio** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El modelo traslada costo de ventas a producto y soporte. La economía total puede no mejorar si el producto exige inversión constante para sostener la autonomía»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **costo de servir en autoservicio** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **conversión autoservicio**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Product-Led Growth* y *Lean Analytics*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **plan GTM completo con beach
 
 ## 📗 Fuentes y verificación
 
-- Wes Bush — *Product-Led Growth* (2019). **Uso en esta clase:** el producto como principal vehículo de adquisición, activación y expansión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Marty Cagan — *Inspired* (2017, 2.ª ed.). **Uso en esta clase:** descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Sean Ellis y Morgan Brown — *Hacking Growth* (2017). **Uso en esta clase:** equipo multifuncional, ciclo de experimentación y aha moment. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Uso en esta clase:** una métrica que importa por etapa y por modelo de negocio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Wes Bush — *Product-Led Growth* (2019) — **aporta a esta clase:** el momento de valor y su distancia respecto del registro. **Dónde buscarlo:** los capítulos sobre tiempo hasta el valor. Registra edición y páginas consultadas en tu nota de lectura.
+- Marty Cagan — *Inspired* (2017, 2.ª ed.) — **aporta a esta clase:** la orientación a resultado en lugar de a entrega de funcionalidades. **Dónde buscarlo:** los capítulos sobre equipos de producto. Registra edición y páginas consultadas en tu nota de lectura.
+- Sean Ellis y Morgan Brown — *Hacking Growth* (2017) — **aporta a esta clase:** la prueba de imprescindibilidad antes de acelerar la adquisición. **Dónde buscarlo:** los capítulos sobre encaje producto-mercado. Registra edición y páginas consultadas en tu nota de lectura.
+- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** los seis modelos de negocio y las métricas que cambian entre ellos. **Dónde buscarlo:** la parte sobre modelos de negocio. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

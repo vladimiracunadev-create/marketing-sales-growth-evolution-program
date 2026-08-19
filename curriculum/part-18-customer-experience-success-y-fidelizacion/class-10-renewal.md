@@ -2,19 +2,34 @@
 title: "Renovación"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 18
 class: 10
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["mehta", "reichheld", "fader-ltv", "dixon-effort"]
+anchors: {"dixon-effort": "resolucion-siguiente", "fader-ltv": "ltv-modelo", "mehta": "expansion", "reichheld": "cierre-circuito"}
 updated: 2026-08-19
 ---
 
 # Clase 18.10 — Renovación
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 18.09 — *Análisis de cohortes*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de renovación para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La expansión condicionada al resultado inicial acreditado — Nick Mehta, Dan Steinman y Lincoln Murphy. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Ciclo de renovación: mecanismo central
 
-**ciclo de renovación** se entiende aquí como **secuencia de actividades que precede al vencimiento del contrato**. Es la pieza desde la que se inicia el análisis de renovación: antes de «iniciar el ciclo con anticipación suficiente», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Ciclo de renovación** se entiende aquí como **secuencia de actividades que precede al vencimiento del contrato**.
 
-La lectura rectora de este bloque es Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016). **Lente que aporta:** disciplina operativa de éxito de cliente: salud, renovación y expansión. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de renovación**; regístrala con periodo, unidad, población y línea base.
+La renovación no es un trámite administrativo: es el momento en que el cliente decide si el valor recibido justificó el gasto. Tratarla como una gestión de fin de contrato produce conversaciones apresuradas sobre precio; tratarla como la conclusión de un ciclo de resultado produce conversaciones sobre valor.
+
+**De dónde viene esta afirmación.** Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) aporta la idea que sostiene este bloque: la expansión condicionada al resultado inicial acreditado. Búscala en los capítulos sobre crecimiento en la base instalada. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de renovación» debería moverse cuando cambie **ciclo de renovación**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **evidencia de resultado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Evidencia de resultado: frontera conceptual y error de clasificación
 
-**Definición operacional:** documentación del beneficio obtenido durante el periodo. Su valor está en distinguirlo de **ciclo de renovación**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** documentación del beneficio obtenido durante el periodo. Su valor está en distinguirlo de **ciclo de renovación**.
 
-Contrasta el problema con Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) —**lente:** lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS—. Formula dos mini-casos: uno que satisface la definición de **evidencia de resultado** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **anticipación del ciclo** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La evidencia de resultado debe estar disponible antes de la conversación de renovación y construirse durante todo el periodo, no reunirse la semana anterior. Un informe con lo que el cliente logró, medido con el indicador que él mismo definió, cambia por completo el tono de la negociación.
+
+**Contraste bibliográfico.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta aquí una distinción concreta: el cierre del circuito con quien respondió como parte del sistema (los capítulos sobre el proceso de retroalimentación). Formula dos mini-casos: uno que satisface la definición de **evidencia de resultado** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «documentar la evidencia del resultado obtenido», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Riesgo de renovación: operacionalización y medición
 
-**riesgo de renovación** significa **probabilidad estimada de no continuidad, detectada con anticipación**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Riesgo de renovación** significa **probabilidad estimada de no continuidad, detectada con anticipación**.
+
+El riesgo de renovación se anticipa con indicadores observables meses antes: caída de uso, cambio del interlocutor principal, tickets sin resolver, ausencia de respuesta a las comunicaciones. Monitorearlos permite intervenir con tiempo; descubrirlo en el mes de la renovación deja sin margen de acción.
 
 Ficha de medición obligatoria para **tasa de renovación**: `contratos renovados, sobre contratos con vencimiento en el periodo`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) orienta este bloque —**lente:** modelos de valor de vida del cliente y decisiones de inversión por cohorte—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) pone una condición sobre la medición: el valor de vida como proyección con supuestos declarados y no como cifra única (los capítulos sobre cálculo del valor de vida). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Renovación automática informada: trade-offs y efectos de segundo orden
 
-**Definición:** continuidad sujeta al deber de informar y a la facilidad de cancelar. Este concepto obliga a abandonar la idea de que renovación tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «sostener la conversación de valor antes del vencimiento», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** continuidad sujeta al deber de informar y a la facilidad de cancelar.
 
-Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) —**lente:** reducción del esfuerzo del cliente como motor de lealtad frente al deleite— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **renovaciones con evidencia de resultado** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un ciclo de renovación anticipado permite resolver problemas con tiempo y puede abrir una renegociación que el cliente no había considerado. Uno tardío evita ese riesgo y deja sin margen ante una objeción. La práctica habitual —empezar noventa días antes en contratos anuales— equilibra ambas consideraciones.
+
+**Lo que aporta la fuente.** Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) aporta el criterio para pesar el intercambio: la resolución del siguiente problema previsible en el mismo contacto (los capítulos sobre resolución anticipada). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **renovaciones con evidencia de resultado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **renovación automática informada** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «cumplir el deber de información sobre la renovación», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) sirve para contrastar la recomendación final desde otro lente: reducción del esfuerzo del cliente como motor de lealtad frente al deleite. La frontera de esta clase es explícita: La renovación automática es legítima si se informa con claridad y la cancelación es simple. Dificultar la baja para retener produce reclamos y sanciones. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La renovación automática debe informarse de forma efectiva y con antelación suficiente, y sus condiciones están reguladas en relaciones de consumo. Un aviso que cumple formalmente y que el cliente no ve genera reclamos y desconfianza. La verificación del marco vigente y del diseño real del aviso es previa a su implementación.
+
+**Frontera declarada.** La renovación automática es legítima si se informa con claridad y la cancelación es simple. Dificultar la baja para retener produce reclamos y sanciones. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Retener con castigos contractuales en lugar de valor entregado y dañar reputación.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) | modelos de valor de vida del cliente y decisiones de inversión por cohorte | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) | La expansión condicionada al resultado inicial acreditado | Los capítulos sobre crecimiento en la base instalada | ¿Qué debería observarse en **ciclo de renovación** si aquí opera «la expansión condicionada al resultado inicial acreditado»? ¿Y qué observación lo desmentiría en este caso? |
+| Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) | El cierre del circuito con quien respondió como parte del sistema | Los capítulos sobre el proceso de retroalimentación | ¿Qué debería observarse en **evidencia de resultado** si aquí opera «el cierre del circuito con quien respondió como parte del sistema»? ¿Y qué observación lo desmentiría en este caso? |
+| Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) | El valor de vida como proyección con supuestos declarados y no como cifra única | Los capítulos sobre cálculo del valor de vida | ¿Qué debería observarse en **riesgo de renovación** si aquí opera «el valor de vida como proyección con supuestos declarados y no como cifra única»? ¿Y qué observación lo desmentiría en este caso? |
+| Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | La resolución del siguiente problema previsible en el mismo contacto | Los capítulos sobre resolución anticipada | ¿Qué debería observarse en **renovación automática informada** si aquí opera «la resolución del siguiente problema previsible en el mismo contacto»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **iniciar el ciclo con anticipación suficiente → documentar la evidencia del resultado obtenido → detectar y trabajar los riesgos identificados → sostener la conversación de valor antes del vencimiento → cumplir el deber de información sobre la renovación** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de renovación**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **iniciar el ciclo con anticipación suficiente → documentar la evidencia del resultado obtenido → detectar y trabajar los riesgos identificados → sostener la conversación de valor antes del vencimiento → cumplir el deber de información sobre la renovación** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de renovación**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Customer Success* y la de *Winning on Purpose*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de renovación** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La renovación automática es legítima si se informa con claridad y la cancelación es simple. Dificultar la baja para retener produce reclamos y sanciones»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **riesgo de renovación** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de renovación**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Customer Success* y *The Effortless Experience*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema de retención y exp
 
 ## 📗 Fuentes y verificación
 
-- Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016). **Uso en esta clase:** disciplina operativa de éxito de cliente: salud, renovación y expansión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021). **Uso en esta clase:** lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018). **Uso en esta clase:** modelos de valor de vida del cliente y decisiones de inversión por cohorte. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013). **Uso en esta clase:** reducción del esfuerzo del cliente como motor de lealtad frente al deleite. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) — **aporta a esta clase:** la expansión condicionada al resultado inicial acreditado. **Dónde buscarlo:** los capítulos sobre crecimiento en la base instalada. Registra edición y páginas consultadas en tu nota de lectura.
+- Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) — **aporta a esta clase:** el cierre del circuito con quien respondió como parte del sistema. **Dónde buscarlo:** los capítulos sobre el proceso de retroalimentación. Registra edición y páginas consultadas en tu nota de lectura.
+- Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) — **aporta a esta clase:** el valor de vida como proyección con supuestos declarados y no como cifra única. **Dónde buscarlo:** los capítulos sobre cálculo del valor de vida. Registra edición y páginas consultadas en tu nota de lectura.
+- Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) — **aporta a esta clase:** la resolución del siguiente problema previsible en el mismo contacto. **Dónde buscarlo:** los capítulos sobre resolución anticipada. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

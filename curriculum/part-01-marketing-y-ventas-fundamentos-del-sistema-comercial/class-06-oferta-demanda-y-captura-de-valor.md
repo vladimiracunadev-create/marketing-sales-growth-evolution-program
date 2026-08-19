@@ -2,19 +2,34 @@
 title: "Oferta, demanda y captura de valor"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 01
 class: 06
 level: Fundamentos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["porter", "nagle", "simon", "ramanujam"]
+anchors: {"nagle": "valor-diferencial", "porter": "excedente", "ramanujam": "precio-primero", "simon": "palanca-precio"}
 updated: 2026-08-19
 ---
 
 # Clase 01.06 — Oferta, demanda y captura de valor
 
-**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Nivel: Fundamentos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 01.05 — *Funnel, flywheel y ciclo de compra*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de margen de contribución por cliente para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La distribución del excedente entre proveedores, competidores y compradores — Michael E. Porter. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Valor creado: mecanismo central
 
-**valor creado** se entiende aquí como **diferencia entre la disposición a pagar del cliente y el costo de proveer el servicio**. Es la pieza desde la que se inicia el análisis de oferta, demanda y captura de valor: antes de «estimar disposición a pagar del segmento con evidencia y no con intuición», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Valor creado** se entiende aquí como **diferencia entre la disposición a pagar del cliente y el costo de proveer el servicio**.
 
-La lectura rectora de este bloque es Michael E. Porter — *Competitive Strategy* (1980). **Lente que aporta:** estructura de industria, fuerzas competitivas y elección de una posición defendible. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **margen de contribución por cliente**; regístrala con periodo, unidad, población y línea base.
+Crear valor y capturarlo son operaciones distintas y una empresa puede ser excelente en la primera y pésima en la segunda. El valor creado es todo el beneficio que la solución produce para el cliente; el capturado es la fracción que llega al precio. Entre ambos está el excedente que el cliente conserva y que explica por qué compra. Una empresa que captura casi todo el valor creado no tiene clientes leales: tiene clientes que se van apenas aparece una alternativa razonable.
+
+**De dónde viene esta afirmación.** Michael E. Porter — *Competitive Strategy* (1980) aporta la idea que sostiene este bloque: la distribución del excedente entre proveedores, competidores y compradores. Búscala en los capítulos sobre poder de negociación. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «margen de contribución por cliente» debería moverse cuando cambie **valor creado**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **valor capturado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Valor capturado: frontera conceptual y error de clasificación
 
-**Definición operacional:** parte del valor creado que se convierte en margen para la empresa. Su valor está en distinguirlo de **valor creado**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** parte del valor creado que se convierte en margen para la empresa. Su valor está en distinguirlo de **valor creado**.
 
-Contrasta el problema con Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) —**lente:** pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos—. Formula dos mini-casos: uno que satisface la definición de **valor capturado** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **brecha entre precio de lista y precio efectivo** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El poder de negociación no depende del tamaño sino de la disponibilidad de alternativas y del costo de cambiarse. Un proveedor pequeño con una tecnología difícil de sustituir negocia mejor que uno grande y reemplazable. Confundir poder con volumen lleva a conceder descuentos ante clientes que hacen ruido pero no tienen a dónde ir, y a defender precio ante clientes que sí tienen alternativas reales. La pregunta correcta antes de cada negociación es qué pasaría mañana si esta conversación terminara sin acuerdo.
+
+**Contraste bibliográfico.** Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) aporta aquí una distinción concreta: el valor económico: precio de referencia de la alternativa más el valor diferencial cuantificado (el capítulo sobre estimación del valor económico). Formula dos mini-casos: uno que satisface la definición de **valor capturado** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «calcular el costo de servir completo, incluida la posventa», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Poder de negociación: operacionalización y medición
 
-**poder de negociación** significa **capacidad de una parte de imponer condiciones por la escasez de alternativas de la otra**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Poder de negociación** significa **capacidad de una parte de imponer condiciones por la escasez de alternativas de la otra**.
+
+Cuantificar el valor creado exige una línea base que el cliente reconozca como suya. No sirve una cifra de estudio sectorial: sirve el número que su propia operación produce hoy, medido en su sistema. La ficha registra la variable, el valor actual, la fuente dentro del cliente y el periodo. Cuando ese dato no existe, la salida honesta es construir el cálculo con el cliente y dejar constancia de que es una estimación conjunta, no un beneficio prometido.
 
 Ficha de medición obligatoria para **margen de contribución por cliente**: `ingreso menos costos variables de servir, incluida atención y comisiones, por cliente y por mes`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Hermann Simon — *Confessions of the Pricing Man* (2015) orienta este bloque —**lente:** el precio como la palanca de utilidad más rápida y su relación con el valor percibido—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Hermann Simon — *Confessions of the Pricing Man* (2015) pone una condición sobre la medición: el precio como la palanca de utilidad más rápida frente a volumen y costo (los capítulos sobre el poder del precio). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Excedente del cliente: trade-offs y efectos de segundo orden
 
-**Definición:** diferencia entre lo que el cliente habría pagado y lo que efectivamente pagó. Este concepto obliga a abandonar la idea de que oferta, demanda y captura de valor tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «evaluar qué cambio en la oferta modifica la disposición a pagar», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** diferencia entre lo que el cliente habría pagado y lo que efectivamente pagó.
 
-Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) —**lente:** diseñar el producto alrededor del precio: disposición a pagar antes de construir— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **costo de servir por segmento** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Subir el precio captura más valor por unidad y reduce el excedente del cliente, con lo que aumenta su sensibilidad a las alternativas y su disposición a escuchar a la competencia. Bajarlo hace lo contrario y compromete la caja que financia el servicio. La decisión no se resuelve buscando el punto óptimo teórico, sino declarando qué se está comprando con esa renuncia: participación, margen o tiempo para probar una hipótesis.
+
+**Lo que aporta la fuente.** Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) aporta el criterio para pesar el intercambio: la conversación de precio antes de construir el producto (los capítulos iniciales sobre el proceso invertido). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **costo de servir por segmento** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **excedente del cliente** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «elegir una palanca de captura y medir su efecto en margen y volumen», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) sirve para contrastar la recomendación final desde otro lente: diseñar el producto alrededor del precio: disposición a pagar antes de construir. La frontera de esta clase es explícita: Maximizar la captura a corto plazo puede destruir la relación. En mercados pequeños y conectados como el chileno, un cliente que siente haber sido exprimido no vuelve y además lo comenta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+El análisis de creación y captura supone que el valor es estimable, y hay decisiones donde no lo es con la precisión que el modelo sugiere. En servicios donde el resultado depende de la ejecución del propio cliente, atribuir el beneficio completo a la herramienta es un error que se paga en la renovación. El material exige, en esos casos, declarar el supuesto de atribución antes de usar la cifra en una propuesta.
+
+**Frontera declarada.** Maximizar la captura a corto plazo puede destruir la relación. En mercados pequeños y conectados como el chileno, un cliente que siente haber sido exprimido no vuelve y además lo comenta. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir actividad con resultado y comprometer presupuesto antes de tener un diagnóstico.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Michael E. Porter — *Competitive Strategy* (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Hermann Simon — *Confessions of the Pricing Man* (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | diseñar el producto alrededor del precio: disposición a pagar antes de construir | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Michael E. Porter — *Competitive Strategy* (1980) | La distribución del excedente entre proveedores, competidores y compradores | Los capítulos sobre poder de negociación | ¿Qué debería observarse en **valor creado** si aquí opera «la distribución del excedente entre proveedores, competidores y compradores»? ¿Y qué observación lo desmentiría en este caso? |
+| Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) | El valor económico: precio de referencia de la alternativa más el valor diferencial cuantificado | El capítulo sobre estimación del valor económico | ¿Qué debería observarse en **valor capturado** si aquí opera «el valor económico: precio de referencia de la alternativa más el valor diferencial cuantificado»? ¿Y qué observación lo desmentiría en este caso? |
+| Hermann Simon — *Confessions of the Pricing Man* (2015) | El precio como la palanca de utilidad más rápida frente a volumen y costo | Los capítulos sobre el poder del precio | ¿Qué debería observarse en **poder de negociación** si aquí opera «el precio como la palanca de utilidad más rápida frente a volumen y costo»? ¿Y qué observación lo desmentiría en este caso? |
+| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | La conversación de precio antes de construir el producto | Los capítulos iniciales sobre el proceso invertido | ¿Qué debería observarse en **excedente del cliente** si aquí opera «la conversación de precio antes de construir el producto»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **estimar disposición a pagar del segmento con evidencia y no con intuición → calcular el costo de servir completo, incluida la posventa → identificar quién más se lleva parte del excedente en la cadena → evaluar qué cambio en la oferta modifica la disposición a pagar → elegir una palanca de captura y medir su efecto en margen y volumen** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **margen de contribución por cliente**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **estimar disposición a pagar del segmento con evidencia y no con intuición → calcular el costo de servir completo, incluida la posventa → identificar quién más se lleva parte del excedente en la cadena → evaluar qué cambio en la oferta modifica la disposición a pagar → elegir una palanca de captura y medir su efecto en margen y volumen** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **margen de contribución por cliente**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Competitive Strategy* y la de *The Strategy and Tactics of Pricing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **margen de contribución por cliente** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Maximizar la captura a corto plazo puede destruir la relación. En mercados pequeños y conectados como el chileno, un cliente que siente haber sido exprimido no vuelve y además lo comenta»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **poder de negociación** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **margen de contribución por cliente**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Competitive Strategy* y *Monetizing Innovation*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **mapa del sistema comercial 
 
 ## 📗 Fuentes y verificación
 
-- Michael E. Porter — *Competitive Strategy* (1980). **Uso en esta clase:** estructura de industria, fuerzas competitivas y elección de una posición defendible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.). **Uso en esta clase:** pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Hermann Simon — *Confessions of the Pricing Man* (2015). **Uso en esta clase:** el precio como la palanca de utilidad más rápida y su relación con el valor percibido. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016). **Uso en esta clase:** diseñar el producto alrededor del precio: disposición a pagar antes de construir. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Michael E. Porter — *Competitive Strategy* (1980) — **aporta a esta clase:** la distribución del excedente entre proveedores, competidores y compradores. **Dónde buscarlo:** los capítulos sobre poder de negociación. Registra edición y páginas consultadas en tu nota de lectura.
+- Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing* (2018, 6.ª ed.) — **aporta a esta clase:** el valor económico: precio de referencia de la alternativa más el valor diferencial cuantificado. **Dónde buscarlo:** el capítulo sobre estimación del valor económico. Registra edición y páginas consultadas en tu nota de lectura.
+- Hermann Simon — *Confessions of the Pricing Man* (2015) — **aporta a esta clase:** el precio como la palanca de utilidad más rápida frente a volumen y costo. **Dónde buscarlo:** los capítulos sobre el poder del precio. Registra edición y páginas consultadas en tu nota de lectura.
+- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) — **aporta a esta clase:** la conversación de precio antes de construir el producto. **Dónde buscarlo:** los capítulos iniciales sobre el proceso invertido. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

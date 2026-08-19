@@ -2,19 +2,34 @@
 title: "Prueba de concepto comercial"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 05
 class: 13
 level: Oferta comercial
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["ramanujam", "blank", "ries-lean", "fitzpatrick"]
+anchors: {"blank": "customer-discovery", "fitzpatrick": "compromiso", "ramanujam": "disposicion-pagar", "ries-lean": "construir-medir"}
 updated: 2026-08-19
 ---
 
 # Clase 05.13 — Prueba de concepto comercial
 
-**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 05 · Producto, oferta y propuesta de valor** · Nivel: Oferta comercial · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 05.12 — *Voice of Customer*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de aceptación con precio real para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las técnicas de conversación sobre disposición a pagar con clientes reales — Madhavan Ramanujam y Georg Tacke. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Prueba con precio real: mecanismo central
 
-**prueba con precio real** se entiende aquí como **presentación de la oferta con su precio efectivo para observar decisión genuina**. Es la pieza desde la que se inicia el análisis de prueba de concepto comercial: antes de «definir la hipótesis comercial a probar», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Prueba con precio real** se entiende aquí como **presentación de la oferta con su precio efectivo para observar decisión genuina**.
 
-La lectura rectora de este bloque es Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016). **Lente que aporta:** diseñar el producto alrededor del precio: disposición a pagar antes de construir. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de aceptación con precio real**; regístrala con periodo, unidad, población y línea base.
+Una prueba de concepto comercial es distinta de una prueba técnica: no verifica que el producto funcione sino que alguien lo compre en condiciones reales. La condición que la vuelve informativa es el precio: sin precio real, la respuesta del cliente mide simpatía. Con precio real, mide disposición, que es lo único que predice ingreso.
+
+**De dónde viene esta afirmación.** Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) aporta la idea que sostiene este bloque: las técnicas de conversación sobre disposición a pagar con clientes reales. Búscala en el capítulo sobre cómo preguntar por el precio. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de aceptación con precio real» debería moverse cuando cambie **prueba con precio real**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **compromiso condicionado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Compromiso condicionado: frontera conceptual y error de clasificación
 
-**Definición operacional:** acuerdo de compra sujeto a la entrega de una condición futura verificable. Su valor está en distinguirlo de **prueba con precio real**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** acuerdo de compra sujeto a la entrega de una condición futura verificable. Su valor está en distinguirlo de **prueba con precio real**.
 
-Contrasta el problema con Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) —**lente:** customer discovery y validación fuera del edificio como proceso reproducible—. Formula dos mini-casos: uno que satisface la definición de **compromiso condicionado** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tiempo de decisión** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El compromiso condicionado es la forma habitual de esta prueba en B2B: el cliente firma una intención con condiciones —si se entrega en tal plazo, con tal alcance—. Su valor está en las condiciones, porque revelan qué importa de verdad. Una carta de intención sin condiciones es una cortesía, no una señal.
+
+**Contraste bibliográfico.** Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) aporta aquí una distinción concreta: el descubrimiento de clientes como fase previa y separada de la validación (la parte dedicada al customer discovery). Formula dos mini-casos: uno que satisface la definición de **compromiso condicionado** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «preparar propuesta y precio reales», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Aprendizaje de objeciones: operacionalización y medición
 
-**aprendizaje de objeciones** significa **registro estructurado de las razones de no avanzar en la prueba**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Aprendizaje de objeciones** significa **registro estructurado de las razones de no avanzar en la prueba**.
+
+El aprendizaje de objeciones es el subproducto más valioso y el que menos se registra. Cada conversación de esta prueba produce razones de no compra que, sistematizadas, indican qué falta en la oferta. Registrarlas con la palabra del cliente y no con la interpretación del vendedor es lo que las hace utilizables después.
 
 Ficha de medición obligatoria para **tasa de aceptación con precio real**: `aceptaciones, sobre propuestas presentadas en la prueba`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Eric Ries — *The Lean Startup* (2011) orienta este bloque —**lente:** construir-medir-aprender, MVP y decisión de perseverar o pivotar—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Eric Ries — *The Lean Startup* (2011) pone una condición sobre la medición: el ciclo construir-medir-aprender y la minimización del tiempo total del ciclo (la parte sobre el motor de crecimiento). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Transparencia del estado: trade-offs y efectos de segundo orden
 
-**Definición:** declaración explícita de qué existe y qué está por construirse. Este concepto obliga a abandonar la idea de que prueba de concepto comercial tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «registrar decisiones, objeciones y tiempos», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** declaración explícita de qué existe y qué está por construirse.
 
-Rob Fitzpatrick — *The Mom Test* (2013) —**lente:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **objeciones por categoría** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Probar con precio real puede quemar la oportunidad con clientes que habrían comprado más adelante, cuando el producto estuviera listo. Probar sin precio no informa. La solución intermedia —precio real con condiciones de pionero, declaradas como tales— conserva la señal y la relación, siempre que las condiciones especiales se respeten después.
+
+**Lo que aporta la fuente.** Rob Fitzpatrick — *The Mom Test* (2013) aporta el criterio para pesar el intercambio: el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés (los capítulos sobre compromiso y avance). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **objeciones por categoría** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **transparencia del estado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «decidir avanzar o abandonar con criterio previo», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Rob Fitzpatrick — *The Mom Test* (2013) sirve para contrastar la recomendación final desde otro lente: entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado. La frontera de esta clase es explícita: Vender lo que no existe sin declararlo es engaño. La prueba exige transparencia sobre el estado y condiciones claras de devolución si no se cumple lo acordado. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+La transparencia sobre el estado del producto es una obligación, no una opción táctica. Vender como existente algo que está en desarrollo genera un incumplimiento contractual y, en operaciones con consumidores, puede constituir publicidad engañosa. El material comercial de una prueba debe declarar qué existe hoy y qué está comprometido para cuándo.
+
+**Frontera declarada.** Vender lo que no existe sin declararlo es engaño. La prueba exige transparencia sobre el estado y condiciones claras de devolución si no se cumple lo acordado. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resultados que la operación no puede sostener y generar churn temprano.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | diseñar el producto alrededor del precio: disposición a pagar antes de construir | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) | customer discovery y validación fuera del edificio como proceso reproducible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Eric Ries — *The Lean Startup* (2011) | construir-medir-aprender, MVP y decisión de perseverar o pivotar | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Rob Fitzpatrick — *The Mom Test* (2013) | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) | Las técnicas de conversación sobre disposición a pagar con clientes reales | El capítulo sobre cómo preguntar por el precio | ¿Qué debería observarse en **prueba con precio real** si aquí opera «las técnicas de conversación sobre disposición a pagar con clientes reales»? ¿Y qué observación lo desmentiría en este caso? |
+| Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) | El descubrimiento de clientes como fase previa y separada de la validación | La parte dedicada al customer discovery | ¿Qué debería observarse en **compromiso condicionado** si aquí opera «el descubrimiento de clientes como fase previa y separada de la validación»? ¿Y qué observación lo desmentiría en este caso? |
+| Eric Ries — *The Lean Startup* (2011) | El ciclo construir-medir-aprender y la minimización del tiempo total del ciclo | La parte sobre el motor de crecimiento | ¿Qué debería observarse en **aprendizaje de objeciones** si aquí opera «el ciclo construir-medir-aprender y la minimización del tiempo total del ciclo»? ¿Y qué observación lo desmentiría en este caso? |
+| Rob Fitzpatrick — *The Mom Test* (2013) | El compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés | Los capítulos sobre compromiso y avance | ¿Qué debería observarse en **transparencia del estado** si aquí opera «el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir la hipótesis comercial a probar → preparar propuesta y precio reales → ejecutar con un grupo acotado y declarar el estado del producto → registrar decisiones, objeciones y tiempos → decidir avanzar o abandonar con criterio previo** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de aceptación con precio real**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir la hipótesis comercial a probar → preparar propuesta y precio reales → ejecutar con un grupo acotado y declarar el estado del producto → registrar decisiones, objeciones y tiempos → decidir avanzar o abandonar con criterio previo** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de aceptación con precio real**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Monetizing Innovation* y la de *The Startup Owner's Manual*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de aceptación con precio real** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Vender lo que no existe sin declararlo es engaño. La prueba exige transparencia sobre el estado y condiciones claras de devolución si no se cumple lo acordado»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **aprendizaje de objeciones** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de aceptación con precio real**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Monetizing Innovation* y *The Mom Test*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **oferta lista para vender co
 
 ## 📗 Fuentes y verificación
 
-- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016). **Uso en esta clase:** diseñar el producto alrededor del precio: disposición a pagar antes de construir. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012). **Uso en esta clase:** customer discovery y validación fuera del edificio como proceso reproducible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Eric Ries — *The Lean Startup* (2011). **Uso en esta clase:** construir-medir-aprender, MVP y decisión de perseverar o pivotar. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Rob Fitzpatrick — *The Mom Test* (2013). **Uso en esta clase:** entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Madhavan Ramanujam y Georg Tacke — *Monetizing Innovation* (2016) — **aporta a esta clase:** las técnicas de conversación sobre disposición a pagar con clientes reales. **Dónde buscarlo:** el capítulo sobre cómo preguntar por el precio. Registra edición y páginas consultadas en tu nota de lectura.
+- Steve Blank y Bob Dorf — *The Startup Owner's Manual* (2012) — **aporta a esta clase:** el descubrimiento de clientes como fase previa y separada de la validación. **Dónde buscarlo:** la parte dedicada al customer discovery. Registra edición y páginas consultadas en tu nota de lectura.
+- Eric Ries — *The Lean Startup* (2011) — **aporta a esta clase:** el ciclo construir-medir-aprender y la minimización del tiempo total del ciclo. **Dónde buscarlo:** la parte sobre el motor de crecimiento. Registra edición y páginas consultadas en tu nota de lectura.
+- Rob Fitzpatrick — *The Mom Test* (2013) — **aporta a esta clase:** el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés. **Dónde buscarlo:** los capítulos sobre compromiso y avance. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

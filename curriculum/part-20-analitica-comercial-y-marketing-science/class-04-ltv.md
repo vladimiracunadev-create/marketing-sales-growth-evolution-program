@@ -2,19 +2,34 @@
 title: "Valor de vida del cliente"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 20
 class: 04
 level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["fader-ltv", "fader", "provost", "croll-yoskovitz"]
+anchors: {"croll-yoskovitz": "cohortes", "fader": "heterogeneidad", "fader-ltv": "ltv-modelo", "provost": "sobreajuste"}
 updated: 2026-08-19
 ---
 
 # Clase 20.04 — Valor de vida del cliente
 
-**Parte 20 · Analítica comercial y marketing science** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 20 · Analítica comercial y marketing science** · Nivel: Crecimiento y analítica · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 20.03 — *Costo de adquisición de cliente*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de valor de vida por segmento para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** El valor de vida como proyección con supuestos declarados y no como cifra única — Peter Fader y Sarah Toms. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Margen de contribución del cliente: mecanismo central
 
-**margen de contribución del cliente** se entiende aquí como **ingreso menos costos variables de servirlo, por periodo**. Es la pieza desde la que se inicia el análisis de valor de vida del cliente: antes de «calcular el margen de contribución con costos completos», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Margen de contribución del cliente** se entiende aquí como **ingreso menos costos variables de servirlo, por periodo**.
 
-La lectura rectora de este bloque es Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018). **Lente que aporta:** modelos de valor de vida del cliente y decisiones de inversión por cohorte. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **valor de vida por segmento**; regístrala con periodo, unidad, población y línea base.
+El valor de vida del cliente es una proyección y no un dato. Se construye con supuestos sobre margen, permanencia y comportamiento futuro, y su precisión depende por completo de la calidad de esos supuestos. Presentarlo como una cifra exacta oculta que es un modelo, y los modelos se discuten por sus supuestos.
+
+**De dónde viene esta afirmación.** Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) aporta la idea que sostiene este bloque: el valor de vida como proyección con supuestos declarados y no como cifra única. Búscala en los capítulos sobre cálculo del valor de vida. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «valor de vida por segmento» debería moverse cuando cambie **margen de contribución del cliente**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **permanencia esperada**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Permanencia esperada: frontera conceptual y error de clasificación
 
-**Definición operacional:** duración estimada de la relación, derivada de curvas de retención. Su valor está en distinguirlo de **margen de contribución del cliente**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** duración estimada de la relación, derivada de curvas de retención. Su valor está en distinguirlo de **margen de contribución del cliente**.
 
-Contrasta el problema con Peter Fader — *Customer Centricity* (2020, 2.ª ed.) —**lente:** valor heterogéneo del cliente y asignación de recursos por valor esperado—. Formula dos mini-casos: uno que satisface la definición de **permanencia esperada** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **dispersión dentro del segmento** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La heterogeneidad es el punto que Peter Fader ha insistido en subrayar: los clientes no valen lo mismo y el promedio describe a pocos. Un valor de vida medio calculado sobre una base con distribución muy dispersa induce decisiones equivocadas, porque lleva a tratar igual a clientes cuyo valor difiere en un orden de magnitud.
+
+**Contraste bibliográfico.** Peter Fader — *Customer Centricity* (2020, 2.ª ed.) aporta aquí una distinción concreta: la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual (los capítulos sobre centricidad en el cliente). Formula dos mini-casos: uno que satisface la definición de **permanencia esperada** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «estimar permanencia desde curvas de retención por cohorte», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Heterogeneidad: operacionalización y medición
 
-**heterogeneidad** significa **diferencia sustantiva de valor entre clientes del mismo segmento aparente**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Heterogeneidad** significa **diferencia sustantiva de valor entre clientes del mismo segmento aparente**.
+
+La permanencia esperada es el supuesto más frágil y debe estimarse con datos de cohortes y no con una tasa de baja promedio invertida. Ese atajo —dividir uno entre la tasa de baja— supone una tasa constante que casi nunca se cumple, porque el riesgo de baja es mayor al principio y disminuye después.
 
 Ficha de medición obligatoria para **valor de vida por segmento**: `margen acumulado esperado, por segmento y cohorte`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Foster Provost y Tom Fawcett — *Data Science for Business* (2013) orienta este bloque —**lente:** pensamiento analítico: formulación del problema, evaluación y valor esperado—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) pone una condición sobre la medición: el sobreajuste y la validación fuera de muestra (los capítulos sobre sobreajuste). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Tasa de descuento: trade-offs y efectos de segundo orden
 
-**Definición:** ajuste que refleja el valor temporal del dinero en la proyección. Este concepto obliga a abandonar la idea de que valor de vida del cliente tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «aplicar tasa de descuento y declarar supuestos», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** ajuste que refleja el valor temporal del dinero en la proyección.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) —**lente:** una métrica que importa por etapa y por modelo de negocio— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **sensibilidad a la retención** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Un modelo más elaborado captura mejor la heterogeneidad y es más difícil de explicar y de mantener. Uno simple se comunica y sobreestima o subestima según el caso. La decisión debe considerar para qué se usará: para decidir cuánto invertir en adquisición basta un modelo grueso con rango; para priorizar cuentas individuales hace falta más.
+
+**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: el análisis de cohortes como corrección al promedio que esconde la mezcla (el capítulo sobre cohortes y segmentación). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **sensibilidad a la retención** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **tasa de descuento** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «presentar el resultado como rango y no como cifra única», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) sirve para contrastar la recomendación final desde otro lente: una métrica que importa por etapa y por modelo de negocio. La frontera de esta clase es explícita: Con cohortes jóvenes, la proyección tiene error alto. Presentarla como cifra única induce decisiones de inversión sobre una precisión inexistente. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Todo cálculo de valor de vida debe declarar sus supuestos y su sensibilidad. Un cambio pequeño en la permanencia esperada modifica el resultado de forma considerable, y esa fragilidad es la información más importante que el análisis puede entregar. Sin ella, la cifra se usa como si fuera un hecho.
+
+**Frontera declarada.** Con cohortes jóvenes, la proyección tiene error alto. Presentarla como cifra única induce decisiones de inversión sobre una precisión inexistente. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Escalar inversión sobre una economía unitaria que no resiste una revisión financiera.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) | modelos de valor de vida del cliente y decisiones de inversión por cohorte | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | una métrica que importa por etapa y por modelo de negocio | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) | El valor de vida como proyección con supuestos declarados y no como cifra única | Los capítulos sobre cálculo del valor de vida | ¿Qué debería observarse en **margen de contribución del cliente** si aquí opera «el valor de vida como proyección con supuestos declarados y no como cifra única»? ¿Y qué observación lo desmentiría en este caso? |
+| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | La heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual | Los capítulos sobre centricidad en el cliente | ¿Qué debería observarse en **permanencia esperada** si aquí opera «la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual»? ¿Y qué observación lo desmentiría en este caso? |
+| Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | El sobreajuste y la validación fuera de muestra | Los capítulos sobre sobreajuste | ¿Qué debería observarse en **heterogeneidad** si aquí opera «el sobreajuste y la validación fuera de muestra»? ¿Y qué observación lo desmentiría en este caso? |
+| Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | El análisis de cohortes como corrección al promedio que esconde la mezcla | El capítulo sobre cohortes y segmentación | ¿Qué debería observarse en **tasa de descuento** si aquí opera «el análisis de cohortes como corrección al promedio que esconde la mezcla»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **calcular el margen de contribución con costos completos → estimar permanencia desde curvas de retención por cohorte → incorporar expansión y contracción observadas → aplicar tasa de descuento y declarar supuestos → presentar el resultado como rango y no como cifra única** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **valor de vida por segmento**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **calcular el margen de contribución con costos completos → estimar permanencia desde curvas de retención por cohorte → incorporar expansión y contracción observadas → aplicar tasa de descuento y declarar supuestos → presentar el resultado como rango y no como cifra única** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **valor de vida por segmento**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Customer Centricity Playbook* y la de *Customer Centricity*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **valor de vida por segmento** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Con cohortes jóvenes, la proyección tiene error alto. Presentarla como cifra única induce decisiones de inversión sobre una precisión inexistente»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **heterogeneidad** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **valor de vida por segmento**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Customer Centricity Playbook* y *Lean Analytics*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **caso analítico integral co
 
 ## 📗 Fuentes y verificación
 
-- Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018). **Uso en esta clase:** modelos de valor de vida del cliente y decisiones de inversión por cohorte. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Peter Fader — *Customer Centricity* (2020, 2.ª ed.). **Uso en esta clase:** valor heterogéneo del cliente y asignación de recursos por valor esperado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Foster Provost y Tom Fawcett — *Data Science for Business* (2013). **Uso en esta clase:** pensamiento analítico: formulación del problema, evaluación y valor esperado. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013). **Uso en esta clase:** una métrica que importa por etapa y por modelo de negocio. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) — **aporta a esta clase:** el valor de vida como proyección con supuestos declarados y no como cifra única. **Dónde buscarlo:** los capítulos sobre cálculo del valor de vida. Registra edición y páginas consultadas en tu nota de lectura.
+- Peter Fader — *Customer Centricity* (2020, 2.ª ed.) — **aporta a esta clase:** la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual. **Dónde buscarlo:** los capítulos sobre centricidad en el cliente. Registra edición y páginas consultadas en tu nota de lectura.
+- Foster Provost y Tom Fawcett — *Data Science for Business* (2013) — **aporta a esta clase:** el sobreajuste y la validación fuera de muestra. **Dónde buscarlo:** los capítulos sobre sobreajuste. Registra edición y páginas consultadas en tu nota de lectura.
+- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** el análisis de cohortes como corrección al promedio que esconde la mezcla. **Dónde buscarlo:** el capítulo sobre cohortes y segmentación. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

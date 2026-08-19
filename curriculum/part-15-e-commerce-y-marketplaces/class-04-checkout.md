@@ -2,19 +2,34 @@
 title: "Checkout"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 15
 class: 04
 level: Adquisición
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["krug", "laja", "eisenberg", "flint"]
+anchors: {"eisenberg": "friccion-formulario", "flint": "recompra", "krug": "escaneo", "laja": "investigacion-previa"}
 updated: 2026-08-19
 ---
 
 # Clase 15.04 — Checkout
 
-**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 15 · E-commerce y marketplaces** · Nivel: Adquisición · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 15.03 — *Página de producto*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de tasa de abandono por paso para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** Las personas escanean, no leen: satisfacen en lugar de optimizar — Steve Krug. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Abandono de checkout: mecanismo central
 
-**abandono de checkout** se entiende aquí como **sesiones que inician el proceso de pago y no lo completan**. Es la pieza desde la que se inicia el análisis de checkout: antes de «medir el abandono por paso del checkout», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Abandono de checkout** se entiende aquí como **sesiones que inician el proceso de pago y no lo completan**.
 
-La lectura rectora de este bloque es Steve Krug — *Don't Make Me Think, Revisited* (2014). **Lente que aporta:** usabilidad, claridad y pruebas baratas con usuarios reales. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **tasa de abandono por paso**; regístrala con periodo, unidad, población y línea base.
+El proceso de pago es donde se pierde la mayor proporción de intención de compra ya formada. Quien llegó ahí quería comprar, de modo que cada punto de abandono es una pérdida directa y evitable. Por esa razón es el lugar del sitio con mayor retorno por unidad de esfuerzo de optimización.
+
+**De dónde viene esta afirmación.** Steve Krug — *Don't Make Me Think, Revisited* (2014) aporta la idea que sostiene este bloque: las personas escanean, no leen: satisfacen en lugar de optimizar. Búscala en el capítulo sobre cómo usamos realmente la web. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «tasa de abandono por paso» debería moverse cuando cambie **abandono de checkout**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **costo sorpresa**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Costo sorpresa: frontera conceptual y error de clasificación
 
-**Definición operacional:** cargo revelado al final que altera la decisión ya tomada. Su valor está en distinguirlo de **abandono de checkout**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** cargo revelado al final que altera la decisión ya tomada. Su valor está en distinguirlo de **abandono de checkout**.
 
-Contrasta el problema con Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) —**lente:** método CRO basado en investigación previa al test y validez estadística—. Formula dos mini-casos: uno que satisface la definición de **costo sorpresa** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **tiempo de finalización** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+El costo sorpresa es la causa más documentada de abandono: un cargo por despacho o un impuesto que aparece en el último paso rompe la expectativa construida. La solución no es ocultarlo mejor sino mostrarlo antes. Un cliente que conoce el costo total desde el principio y avanza es un cliente que ya lo aceptó.
+
+**Contraste bibliográfico.** Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) aporta aquí una distinción concreta: la investigación previa al test: sin diagnóstico, el experimento es una apuesta (el método de investigación de conversión). Formula dos mini-casos: uno que satisface la definición de **costo sorpresa** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «revelar todos los costos antes de iniciar el proceso», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Fricción de registro: operacionalización y medición
 
-**fricción de registro** significa **obligación de crear cuenta antes de poder pagar**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Fricción de registro** significa **obligación de crear cuenta antes de poder pagar**.
+
+La fricción de registro obligatorio es un obstáculo cuyo costo suele superar su beneficio. Ofrecer compra como invitado y proponer la creación de cuenta después de la compra conserva ambas cosas. Medir la diferencia es sencillo y en la mayoría de los casos favorece claramente la opción sin registro previo.
 
 Ficha de medición obligatoria para **tasa de abandono por paso**: `abandonos, sobre entradas a cada paso del checkout`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) orienta este bloque —**lente:** optimización de conversión con hipótesis, escenarios y persuasión medible—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) pone una condición sobre la medición: la fricción del formulario y su efecto medible sobre el abandono (los capítulos sobre puntos de conversión). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Señal de seguridad: trade-offs y efectos de segundo orden
 
-**Definición:** elemento que reduce la desconfianza en el momento del pago. Este concepto obliga a abandonar la idea de que checkout tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «ofrecer compra sin registro obligatorio», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** elemento que reduce la desconfianza en el momento del pago.
 
-Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) —**lente:** diagnóstico de comportamiento de compra multicanal y migración de clientes— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **tasa de error en pagos** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Menos pasos aceleran y pueden generar inseguridad si la información se pide toda junta sin contexto. Más pasos permiten guiar y aumentan las oportunidades de abandono. Lo que la evidencia sostiene con claridad es que cada campo innecesario cuesta, de modo que la revisión debería empezar por eliminar campos antes que por reorganizar pasos.
+
+**Lo que aporta la fuente.** Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) aporta el criterio para pesar el intercambio: los patrones de recompra que distinguen un negocio de compra única de uno recurrente (los capítulos sobre ciclos de compra). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de error en pagos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **señal de seguridad** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «probar el flujo en dispositivos reales del segmento», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) sirve para contrastar la recomendación final desde otro lente: diagnóstico de comportamiento de compra multicanal y migración de clientes. La frontera de esta clase es explícita: Reducir fricción no puede comprometer la verificación necesaria para prevenir fraude. El equilibrio se define con datos de contracargos, no por defecto. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Las señales de seguridad importan en el momento del pago y deben ser reales: certificados vigentes, medios de pago reconocidos, información de contacto verificable. Mostrar sellos sin respaldo es contraproducente si el cliente los verifica, y la información sobre tratamiento de datos de pago debe corresponder a lo que efectivamente ocurre.
+
+**Frontera declarada.** Reducir fricción no puede comprometer la verificación necesaria para prevenir fraude. El equilibrio se define con datos de contracargos, no por defecto. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Incumplir derecho de retracto, garantía legal y reglas de información al consumidor.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Steve Krug — *Don't Make Me Think, Revisited* (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) | método CRO basado en investigación previa al test y validez estadística | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) | diagnóstico de comportamiento de compra multicanal y migración de clientes | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Steve Krug — *Don't Make Me Think, Revisited* (2014) | Las personas escanean, no leen: satisfacen en lugar de optimizar | El capítulo sobre cómo usamos realmente la web | ¿Qué debería observarse en **abandono de checkout** si aquí opera «las personas escanean, no leen: satisfacen en lugar de optimizar»? ¿Y qué observación lo desmentiría en este caso? |
+| Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) | La investigación previa al test: sin diagnóstico, el experimento es una apuesta | El método de investigación de conversión | ¿Qué debería observarse en **costo sorpresa** si aquí opera «la investigación previa al test: sin diagnóstico, el experimento es una apuesta»? ¿Y qué observación lo desmentiría en este caso? |
+| Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) | La fricción del formulario y su efecto medible sobre el abandono | Los capítulos sobre puntos de conversión | ¿Qué debería observarse en **fricción de registro** si aquí opera «la fricción del formulario y su efecto medible sobre el abandono»? ¿Y qué observación lo desmentiría en este caso? |
+| Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) | Los patrones de recompra que distinguen un negocio de compra única de uno recurrente | Los capítulos sobre ciclos de compra | ¿Qué debería observarse en **señal de seguridad** si aquí opera «los patrones de recompra que distinguen un negocio de compra única de uno recurrente»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **medir el abandono por paso del checkout → revelar todos los costos antes de iniciar el proceso → eliminar campos y pasos no indispensables → ofrecer compra sin registro obligatorio → probar el flujo en dispositivos reales del segmento** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **tasa de abandono por paso**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **medir el abandono por paso del checkout → revelar todos los costos antes de iniciar el proceso → eliminar campos y pasos no indispensables → ofrecer compra sin registro obligatorio → probar el flujo en dispositivos reales del segmento** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **tasa de abandono por paso**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Don't Make Me Think, Revisited* y la de *Conversion Optimization Playbooks (CXL)*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **tasa de abandono por paso** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Reducir fricción no puede comprometer la verificación necesaria para prevenir fraude. El equilibrio se define con datos de contracargos, no por defecto»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **fricción de registro** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **tasa de abandono por paso**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Don't Make Me Think, Revisited* y *Hillstrom's Multichannel Forensics*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **simulación de tienda renta
 
 ## 📗 Fuentes y verificación
 
-- Steve Krug — *Don't Make Me Think, Revisited* (2014). **Uso en esta clase:** usabilidad, claridad y pruebas baratas con usuarios reales. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024). **Uso en esta clase:** método CRO basado en investigación previa al test y validez estadística. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005). **Uso en esta clase:** optimización de conversión con hipótesis, escenarios y persuasión medible. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007). **Uso en esta clase:** diagnóstico de comportamiento de compra multicanal y migración de clientes. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Steve Krug — *Don't Make Me Think, Revisited* (2014) — **aporta a esta clase:** las personas escanean, no leen: satisfacen en lugar de optimizar. **Dónde buscarlo:** el capítulo sobre cómo usamos realmente la web. Registra edición y páginas consultadas en tu nota de lectura.
+- Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) — **aporta a esta clase:** la investigación previa al test: sin diagnóstico, el experimento es una apuesta. **Dónde buscarlo:** el método de investigación de conversión. Registra edición y páginas consultadas en tu nota de lectura.
+- Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) — **aporta a esta clase:** la fricción del formulario y su efecto medible sobre el abandono. **Dónde buscarlo:** los capítulos sobre puntos de conversión. Registra edición y páginas consultadas en tu nota de lectura.
+- Kevin Hillstrom — *Hillstrom's Multichannel Forensics* (2007) — **aporta a esta clase:** los patrones de recompra que distinguen un negocio de compra única de uno recurrente. **Dónde buscarlo:** los capítulos sobre ciclos de compra. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

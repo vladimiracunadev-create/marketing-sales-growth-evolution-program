@@ -2,19 +2,34 @@
 title: "Voice of Customer continuo"
 type: class
 language: es
-standard: clase-profunda-v1
+standard: clase-profunda-v2
 part: 18
 class: 13
 level: Operación de ingresos
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["portigal", "mehta", "dixon-effort", "reichheld"]
+anchors: {"dixon-effort": "lenguaje", "mehta": "salud", "portigal": "conducir", "reichheld": "cierre-circuito"}
 updated: 2026-08-19
 ---
 
 # Clase 18.13 — Voice of Customer continuo
 
-**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v1`
+**Parte 18 · Customer experience, success y fidelización** · Nivel: Operación de ingresos · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+
+## 🚦 Antes de empezar
+
+| Requisito | Detalle |
+|---|---|
+| **Qué debes traer resuelto** | La clase 18.12 — *Advocacy y referidos*, cuyo entregable se reutiliza aquí. |
+| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de cobertura de entrevistas de baja para calcular la línea base. |
+| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
+| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
+| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+
+**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+
+**La idea que ordena la sesión.** La conducción de la entrevista: silencio, repregunta y renuncia a completar la respuesta — Steve Portigal. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -73,33 +88,41 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 ### 1. Captura continua: mecanismo central
 
-**captura continua** se entiende aquí como **recolección permanente de la voz del cliente en múltiples puntos**. Es la pieza desde la que se inicia el análisis de voice of Customer continuo: antes de «definir los puntos de captura y su periodicidad», hay que poder señalar qué cambia en la operación si el concepto está presente y qué debería observarse si no lo está.
+**Captura continua** se entiende aquí como **recolección permanente de la voz del cliente en múltiples puntos**.
 
-La lectura rectora de este bloque es Steve Portigal — *Interviewing Users* (2023, 2.ª ed.). **Lente que aporta:** conducción de entrevistas, escucha activa y traducción de observación en decisión. Úsala sin convertirla en dogma: escribe una proposición de la obra que apoye tu diagnóstico, una condición del caso que la limite y una consecuencia práctica. La evidencia mínima es **cobertura de entrevistas de baja**; regístrala con periodo, unidad, población y línea base.
+La voz del cliente continua se distingue de la encuesta periódica en que captura en el momento de la experiencia y no en el aniversario del contrato. Esa proximidad temporal mejora la calidad de la información y permite actuar antes. Su desafío es el volumen: capturar continuamente exige capacidad de procesar continuamente.
+
+**De dónde viene esta afirmación.** Steve Portigal — *Interviewing Users* (2023, 2.ª ed.) aporta la idea que sostiene este bloque: la conducción de la entrevista: silencio, repregunta y renuncia a completar la respuesta. Búscala en los capítulos sobre técnica de entrevista. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «cobertura de entrevistas de baja» debería moverse cuando cambie **captura continua**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **entrevista de baja**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
 ### 2. Entrevista de baja: frontera conceptual y error de clasificación
 
-**Definición operacional:** conversación estructurada con quien se va, para identificar causa raíz. Su valor está en distinguirlo de **captura continua**. En una decisión real, clasificar mal una situación cambia la intervención: se asigna presupuesto donde faltaba diagnóstico, se mide un resultado cuando había que observar un proceso, o se trata una restricción como si fuera una preferencia.
+**Definición operacional:** conversación estructurada con quien se va, para identificar causa raíz. Su valor está en distinguirlo de **captura continua**.
 
-Contrasta el problema con Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) —**lente:** disciplina operativa de éxito de cliente: salud, renovación y expansión—. Formula dos mini-casos: uno que satisface la definición de **entrevista de baja** y otro que sólo se le parece en la superficie. Después pregunta qué señal los distingue; **hallazgos con acción asignada** es candidata, pero debe combinarse con evidencia cualitativa cuando el fenómeno no es directamente medible.
+La entrevista de baja es la fuente de información más valiosa y la más desaprovechada. Debe hacerla alguien que no era responsable de la cuenta, con un guion que busque hechos y no justificaciones, y poco después de la decisión. Sistematizarla durante un año produce un diagnóstico que ninguna encuesta iguala.
+
+**Contraste bibliográfico.** Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) aporta aquí una distinción concreta: el puntaje de salud construido con uso, resultado y relación, validado contra bajas (los capítulos sobre health score). Formula dos mini-casos: uno que satisface la definición de **entrevista de baja** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «estructurar la entrevista de baja y ejecutarla siempre», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Enrutamiento a decisión: operacionalización y medición
 
-**enrutamiento a decisión** significa **mecanismo que lleva el hallazgo a quien puede modificar el producto o el proceso**. El problema ya no es definirlo sino medirlo: qué contar, en qué ventana, con qué denominador, contra qué línea base y con qué segmentación. Una métrica útil conserva contexto suficiente para no confundir una mejora local con una mejora del sistema.
+**Enrutamiento a decisión** significa **mecanismo que lleva el hallazgo a quien puede modificar el producto o el proceso**.
+
+El enrutamiento a decisión es lo que impide que la voz del cliente se convierta en un archivo: cada tema recurrente debe llegar a quien puede actuar sobre él, con evidencia de frecuencia e impacto. Sin ese circuito, el equipo que captura pierde motivación y la calidad de la captura se degrada.
 
 Ficha de medición obligatoria para **cobertura de entrevistas de baja**: `bajas con entrevista realizada, sobre bajas totales`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) orienta este bloque —**lente:** reducción del esfuerzo del cliente como motor de lealtad frente al deleite—. Pregúntate si el indicador es adelantado o rezagado y si puede ser manipulado por quienes son evaluados con él. La medición debe informar una decisión; en el momento en que reemplaza al fenómeno, deja de servir.
+**Control de lectura.** Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) pone una condición sobre la medición: el lenguaje del agente como palanca sobre la percepción de esfuerzo (los capítulos sobre ingeniería del lenguaje). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Sesgo de quienes hablan: trade-offs y efectos de segundo orden
 
-**Definición:** sobrerrepresentación de opiniones intensas en los canales abiertos. Este concepto obliga a abandonar la idea de que voice of Customer continuo tiene una solución gratuita. Toda intervención consume caja, tiempo, atención del equipo, capacidad de la operación, reputación o tolerancia al riesgo. Por eso, antes de «enrutar a responsables con capacidad de actuar», se comparan al menos dos alternativas plausibles y se explicita qué se sacrifica en cada una.
+**Definición:** sobrerrepresentación de opiniones intensas en los canales abiertos.
 
-Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) —**lente:** lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS— sirve para construir una matriz `beneficio esperado / costo / reversibilidad / stakeholder afectado / señal temprana`. La evidencia **cambios implementados por voz de cliente** ayuda a detectar si el trade-off está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+Capturar más entrega mejor información y crea la obligación de responder. Preguntar sin actuar es peor que no preguntar, porque comunica que la opinión no importa. Antes de ampliar la captura hay que verificar la capacidad de procesamiento y de respuesta, no después.
+
+**Lo que aporta la fuente.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta el criterio para pesar el intercambio: el cierre del circuito con quien respondió como parte del sistema (los capítulos sobre el proceso de retroalimentación). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cambios implementados por voz de cliente** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **sesgo de quienes hablan** y otro de un supuesto del caso que nunca fue validado.
 
@@ -107,7 +130,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «cerrar el circuito y medir el efecto de los cambios», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) sirve para contrastar la recomendación final desde otro lente: lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS. La frontera de esta clase es explícita: Quien se fue puede no querer conversar y quien responde puede racionalizar. La entrevista aporta hipótesis, que deben contrastarse con datos de comportamiento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+Quienes hablan no representan a la base. Los muy satisfechos y los muy molestos están sobrerrepresentados; la mayoría silenciosa, ausente. Ese sesgo debe declararse en toda conclusión, y las decisiones que dependen del volumen relativo de comentarios deben contrastarse con datos de conducta.
+
+**Frontera declarada.** Quien se fue puede no querer conversar y quien responde puede racionalizar. La entrevista aporta hipótesis, que deben contrastarse con datos de comportamiento. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Retener con castigos contractuales en lugar de valor entregado y dañar reputación.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
@@ -119,14 +144,16 @@ Esa disciplina permite que una revisión posterior distinga una mala decisión d
 
 ## 📚 Lectura comparada
 
-Las obras no cumplen el mismo papel. Esta tabla indica qué lente buscar; después de leer, escribe una discrepancia real entre al menos dos fuentes.
+No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
 
-| Fuente | Lente que aporta | Pregunta crítica |
-|---|---|---|
-| Steve Portigal — *Interviewing Users* (2023, 2.ª ed.) | conducción de entrevistas, escucha activa y traducción de observación en decisión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | ¿Qué supuesto de esta clase ayuda a desafiar? |
-| Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | ¿Qué supuesto de esta clase ayuda a desafiar? |
+| Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
+|---|---|---|---|
+| Steve Portigal — *Interviewing Users* (2023, 2.ª ed.) | La conducción de la entrevista: silencio, repregunta y renuncia a completar la respuesta | Los capítulos sobre técnica de entrevista | ¿Qué debería observarse en **captura continua** si aquí opera «la conducción de la entrevista: silencio, repregunta y renuncia a completar la respuesta»? ¿Y qué observación lo desmentiría en este caso? |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) | El puntaje de salud construido con uso, resultado y relación, validado contra bajas | Los capítulos sobre health score | ¿Qué debería observarse en **entrevista de baja** si aquí opera «el puntaje de salud construido con uso, resultado y relación, validado contra bajas»? ¿Y qué observación lo desmentiría en este caso? |
+| Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | El lenguaje del agente como palanca sobre la percepción de esfuerzo | Los capítulos sobre ingeniería del lenguaje | ¿Qué debería observarse en **enrutamiento a decisión** si aquí opera «el lenguaje del agente como palanca sobre la percepción de esfuerzo»? ¿Y qué observación lo desmentiría en este caso? |
+| Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) | El cierre del circuito con quien respondió como parte del sistema | Los capítulos sobre el proceso de retroalimentación | ¿Qué debería observarse en **sesgo de quienes hablan** si aquí opera «el cierre del circuito con quien respondió como parte del sistema»? ¿Y qué observación lo desmentiría en este caso? |
+
+**Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
 La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectura debe indicar qué tesis modifica tu diagnóstico, qué evidencia del caso la tensiona y qué decisión concreta cambiarías después del contraste.
 
@@ -177,12 +204,18 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 
 ## 🧪 Práctica guiada
 
-1. Reconstruye el caso con una tabla `hecho / inferencia / supuesto / decisión`.
-2. Ejecuta la secuencia **definir los puntos de captura y su periodicidad → estructurar la entrevista de baja y ejecutarla siempre → clasificar los hallazgos con taxonomía estable → enrutar a responsables con capacidad de actuar → cerrar el circuito y medir el efecto de los cambios** y adjunta evidencia en cada transición.
-3. Construye la ficha de medición de **cobertura de entrevistas de baja**; si el dato no existe, diseña cómo obtenerlo y cuánto costaría.
-4. Escribe una alternativa que contradiga tu preferencia inicial y hazle un *pre-mortem*.
-5. Lee dos referencias de la tabla, registra una coincidencia y una tensión, y corrige el brief si corresponde.
-6. Repite la decisión desde el rol de dirección: indica qué cambia al aumentar alcance e irreversibilidad.
+Cada paso indica qué hacer, con qué material y cómo saber que está terminado. No avances si la última columna todavía no se cumple: los pasos siguientes suponen el anterior resuelto.
+
+| # | Paso | Qué haces | Con qué | Criterio de término |
+|---:|---|---|---|---|
+| 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir los puntos de captura y su periodicidad → estructurar la entrevista de baja y ejecutarla siempre → clasificar los hallazgos con taxonomía estable → enrutar a responsables con capacidad de actuar → cerrar el circuito y medir el efecto de los cambios** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **cobertura de entrevistas de baja**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
+| 5 | **Contrastar con la fuente** | Lee la idea anclada de *Interviewing Users* y la de *Customer Success*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
+| 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
+
+**Si te atascas.** El bloqueo más común no es de método sino de definición: vuelve a la tabla de conceptos y comprueba que puedes clasificar un caso límite sin dudar. Si dudas, el problema está ahí y no en el paso que estabas ejecutando.
 
 ## ⚠️ Errores frecuentes
 
@@ -202,6 +235,21 @@ Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis
 4. ¿Por qué **cobertura de entrevistas de baja** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Quien se fue puede no querer conversar y quien responde puede racionalizar. La entrevista aporta hipótesis, que deben contrastarse con datos de comportamiento»?
+
+## 🗝️ Respuestas orientadoras
+
+No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** una respuesta suficiente. Úsalo para autoevaluarte antes de entregar y para corregir a un par.
+
+| Pregunta | Una respuesta suficiente contiene |
+|:--:|---|
+| 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
+| 2 | Dos observaciones concretas: una que confirmaría **enrutamiento a decisión** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
+| 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **cobertura de entrevistas de baja**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Interviewing Users* y *Winning on Purpose*. |
+| 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
+
+Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
@@ -237,10 +285,12 @@ Este entregable alimenta el artefacto de la parte: **sistema de retención y exp
 
 ## 📗 Fuentes y verificación
 
-- Steve Portigal — *Interviewing Users* (2023, 2.ª ed.). **Uso en esta clase:** conducción de entrevistas, escucha activa y traducción de observación en decisión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016). **Uso en esta clase:** disciplina operativa de éxito de cliente: salud, renovación y expansión. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013). **Uso en esta clase:** reducción del esfuerzo del cliente como motor de lealtad frente al deleite. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
-- Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021). **Uso en esta clase:** lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS. Lectura selectiva: índice y capítulos pertinentes; registra edición y páginas consultadas.
+Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+
+- Steve Portigal — *Interviewing Users* (2023, 2.ª ed.) — **aporta a esta clase:** la conducción de la entrevista: silencio, repregunta y renuncia a completar la respuesta. **Dónde buscarlo:** los capítulos sobre técnica de entrevista. Registra edición y páginas consultadas en tu nota de lectura.
+- Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) — **aporta a esta clase:** el puntaje de salud construido con uso, resultado y relación, validado contra bajas. **Dónde buscarlo:** los capítulos sobre health score. Registra edición y páginas consultadas en tu nota de lectura.
+- Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) — **aporta a esta clase:** el lenguaje del agente como palanca sobre la percepción de esfuerzo. **Dónde buscarlo:** los capítulos sobre ingeniería del lenguaje. Registra edición y páginas consultadas en tu nota de lectura.
+- Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) — **aporta a esta clase:** el cierre del circuito con quien respondió como parte del sistema. **Dónde buscarlo:** los capítulos sobre el proceso de retroalimentación. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 

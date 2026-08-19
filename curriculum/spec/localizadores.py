@@ -900,3 +900,40 @@ LOCALIZADORES = {
     },
 
 }
+
+
+def localizador(clave):
+    """Dirección donde se resuelve la obra, o None si sigue pendiente.
+
+    Es la misma función para todos los generadores: el registro JSON, la
+    bibliografía del README, la de cada parte y la de cada clase. Si la forma
+    canónica cambiara, cambia en un solo sitio.
+    """
+    datos = LOCALIZADORES[clave]
+    if datos.get("estado", "verificada") != "verificada":
+        return None
+    if datos["tipo"] == "book" and datos.get("isbn13"):
+        return "https://openlibrary.org/isbn/{}".format(datos["isbn13"])
+    if datos["tipo"] == "paper" and datos.get("doi"):
+        return "https://doi.org/{}".format(datos["doi"])
+    return datos.get("url") or None
+
+
+def etiqueta(clave):
+    """Qué se enseña como localizador: el ISBN, el DOI o «fuente primaria»."""
+    datos = LOCALIZADORES[clave]
+    if datos.get("isbn13"):
+        return "ISBN {}".format(datos["isbn13"])
+    if datos.get("doi"):
+        return "DOI {}".format(datos["doi"])
+    return "fuente primaria"
+
+
+def enlace(clave, texto):
+    """`texto` enlazado a su localizador; sin enlace si la obra está pendiente.
+
+    Una obra pendiente no se disfraza de obra localizada: se muestra tal cual,
+    y quien lea sabe que ahí falta algo.
+    """
+    url = localizador(clave)
+    return "[{}]({})".format(texto, url) if url else texto

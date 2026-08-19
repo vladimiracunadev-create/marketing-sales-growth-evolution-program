@@ -29,7 +29,19 @@ sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 from spec import bibliografia as bib  # noqa: E402
 from spec.anclajes import ANCLAJES  # noqa: E402
 from spec.aportes import APORTES  # noqa: E402
+from spec.localizadores import enlace, etiqueta  # noqa: E402
 from spec.partes import EMPRESA, PARTES  # noqa: E402
+
+
+def cita_localizada(clave):
+    """Cita con el título enlazado a su localizador y el ISBN a la vista.
+
+    Que la obra esté nombrada no basta para comprobarla: hace falta poder ir a
+    buscarla sin salir a adivinar la edición.
+    """
+    autor, obra, edicion, _lente, _cat = bib.LIBROS[clave]
+    return "{} — {} ({}) · {}".format(
+        autor, enlace(clave, "*{}*".format(obra)), edicion, etiqueta(clave))
 
 FECHA = "2026-08-19"
 VERSION_ESTANDAR = "clase-profunda-v2"
@@ -166,37 +178,49 @@ def front_matter(parte, clase):
 
 
 def bloque_antes(parte, clases, idx):
-    """Indicaciones de entrada: qué hace falta antes de leer y cómo trabajar."""
+    """Entrada a la clase, en prosa.
+
+    Esto era una ficha de cinco filas. Una tabla de requisitos al abrir una
+    clase no enseña nada: obliga a leer campos sueltos antes de saber de qué
+    trata la sesión, y lo que un estudiante necesita al empezar no son casillas
+    sino una explicación de dónde está parado y por qué esta clase viene ahora.
+    """
     clase = clases[idx]
     anterior = clases[idx - 1] if idx > 0 else None
     if anterior:
-        previo = "La clase {}.{} — *{}*, cuyo entregable se reutiliza aquí.".format(
-            parte["num"], anterior["n"], anterior["titulo"])
+        previo = ("Vienes de la clase {}.{}, *{}*: ten a mano su entregable, porque esta sesión "
+                  "lo retoma y lo lleva más lejos.".format(
+                      parte["num"], anterior["n"], anterior["titulo"]))
     else:
-        previo = ("Ninguna clase previa dentro de esta parte. Si vienes de otra parte, ten a la vista su "
-                  "artefacto final; si empiezas el programa aquí, lee antes `docs/RUTA-DE-APRENDIZAJE.md`.")
+        previo = ("Esta es la primera clase de la parte, así que no arrastras entregables de las "
+                  "anteriores. Si llegas desde otra parte, ten a la vista su artefacto final; si "
+                  "el programa empieza aquí para ti, lee antes "
+                  "[la ruta de aprendizaje](../../docs/RUTA-DE-APRENDIZAJE.md).")
     obras = anclas(parte, clase)
     return "\n".join([
         "## 🚦 Antes de empezar",
         "",
-        "| Requisito | Detalle |",
-        "|---|---|",
-        "| **Qué debes traer resuelto** | {} |".format(previo),
-        "| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos "
-        "una serie histórica de {} para calcular la línea base. |".format(clase["senales"][0][0]),
-        "| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura "
-        "comparada (basta el índice y los capítulos indicados). |",
-        "| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |",
-        "| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas "
-        "de comprobación sin volver al texto. |",
+        previo,
         "",
-        "**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica "
-        "qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que "
-        "salir de él. No avances de sección sin escribir algo; este material está diseñado para producir "
+        "Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo "
+        "mínimo que necesitas es una serie histórica de {} con la que calcular una línea base: sin "
+        "ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten "
+        "también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el "
+        "índice y los capítulos que se indican al pie.".format(clase["senales"][0][0]),
+        "",
+        "Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que "
+        "terminaste cuando exista el entregable y puedas responder las seis preguntas de "
+        "comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que "
+        "produjiste es un documento, no un criterio.",
+        "",
+        "Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe salir de "
+        "cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que "
+        "producir. No avances de sección sin escribir algo: este material está hecho para dejar "
         "decisiones documentadas, no notas de lectura.",
         "",
-        "**La idea que ordena la sesión.** {} — {}. Todo lo demás en esta clase existe para poner esa idea a "
-        "prueba contra un caso concreto.".format(cap(obras[0][1]), bib.autor(obras[0][0])),
+        "**La idea que ordena la sesión.** {} — {}. Todo lo demás en esta clase existe para poner "
+        "esa idea a prueba contra un caso concreto.".format(
+            cap(obras[0][1]), bib.autor(obras[0][0])),
         "",
     ])
 
@@ -721,14 +745,18 @@ def bloque_evaluacion(clase):
 
 def bloque_fuentes(parte, clase):
     lineas = ["## 📗 Fuentes y verificación", "",
-              "Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa "
-              "idea, la cita está mal puesta y corresponde reportarlo como error del material.", ""]
+              "Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la "
+              "idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se "
+              "resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y "
+              "corresponde reportarlo como error del material.", ""]
     for clave, idea, donde in anclas(parte, clase):
         lineas.append("- {} — **aporta a esta clase:** {}. **Dónde buscarlo:** {}. Registra edición y páginas "
-                      "consultadas en tu nota de lectura.".format(bib.cita(clave), idea, donde))
+                      "consultadas en tu nota de lectura.".format(cita_localizada(clave), idea, donde))
     lineas.append("")
     lineas.append("**Estándar pedagógico del programa:** " + "; ".join(
-        bib.cita(k) for k in bib.NUCLEO_PEDAGOGICO) + ".")
+        "{} — {} ({})".format(bib.autor(k), enlace(k, "*{}*".format(bib.obra(k))),
+                              bib.LIBROS[k][2])
+        for k in bib.NUCLEO_PEDAGOGICO) + ".")
     lineas += [
         "",
         "> **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier "
@@ -736,10 +764,10 @@ def bloque_fuentes(parte, clase):
         "en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es "
         "original y no reproduce capítulos protegidos por derechos de autor.",
         "",
-        "> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente "
-        "primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el "
-        "título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la "
-        "que declara el registro.",
+        "> **Sobre la edición.** No busques estas obras sólo por el título: distintas ediciones cambian "
+        "capítulos y ejemplos, y los anclajes de arriba están hechos sobre la que declara el "
+        "[registro de fuentes](../../sources/bibliography.json). La bibliografía completa de la parte, con "
+        "todas sus obras, está en su [índice](README.md).",
         "",
     ]
     return "\n".join(lineas)
@@ -765,8 +793,8 @@ def render_clase(parte, clases, idx):
     partes_doc = [
         front_matter(parte, clase),
         "# Clase {}.{} — {}\n".format(parte["num"], clase["n"], clase["titulo"]),
-        "**Parte {} · {}** · Nivel: {} · Duración sugerida: 150 minutos · Estándar: `{}`\n".format(
-            parte["num"], parte["titulo"], parte["nivel"], VERSION_ESTANDAR),
+        "Clase {} de {} de la parte [{} — {}](README.md), de nivel {}. Dura unos 150 minutos.\n".format(
+            int(clase["n"]), len(clases), parte["num"], parte["titulo"], parte["nivel"]),
         bloque_antes(parte, clases, idx),
         bloque_proposito(parte, clase, i),
         bloque_resultados(parte, clase),
@@ -796,8 +824,52 @@ def render_clase(parte, clases, idx):
 # README de la parte
 # --------------------------------------------------------------------------
 
+def vecinas(parte):
+    """La parte anterior y la siguiente, para situar ésta en el recorrido."""
+    indice = [p["num"] for p in PARTES].index(parte["num"])
+    previa = PARTES[indice - 1] if indice > 0 else None
+    proxima = PARTES[indice + 1] if indice < len(PARTES) - 1 else None
+    return previa, proxima
+
+
+def obras_de_la_parte(clases):
+    """Obras que aparecen en las clases de la parte, de la más usada a la menos.
+
+    Se cuentan clases, no citas, e incluye el núcleo pedagógico, que aparece al
+    pie de todas: el lector tiene que ver la lista completa de lo que sostiene
+    la parte, no sólo lo que se citó de forma explícita.
+    """
+    veces = {}
+    for clase in clases:
+        for clave in set(list(clase["libros"]) + list(bib.NUCLEO_PEDAGOGICO)):
+            veces[clave] = veces.get(clave, 0) + 1
+    return sorted(veces.items(), key=lambda kv: (-kv[1], bib.obra(kv[0])))
+
+
 def render_readme(parte, clases):
+    """Índice de la parte, escrito para leerse.
+
+    Antes esto era una sucesión de encabezados con listas y tablas debajo.
+    Quien llega a una parte necesita entender qué se estudia aquí, por qué
+    aparece en este punto del programa y sobre qué obras se apoya lo que va a
+    leer; nada de eso cabe en una tabla de metadatos.
+    """
     num = parte["num"]
+    previa, proxima = vecinas(parte)
+    horas = len(clases) * 25 // 10
+
+    if previa:
+        de_donde = ("Llegas desde la parte {}, *{}*, y lo que allí quedó resuelto se da por sabido "
+                    "aquí.".format(previa["num"], previa["titulo"]))
+    else:
+        de_donde = ("Es la primera parte del programa: no supone nada previo salvo la disposición a "
+                    "escribir lo que se decide.")
+    if proxima:
+        a_donde = ("Lo que produzcas aquí es material de entrada para la parte {}, *{}*."
+                   .format(proxima["num"], proxima["titulo"]))
+    else:
+        a_donde = "Es la última parte: aquí se cierra el programa y se defiende el Capstone."
+
     lineas = [
         "---",
         'title: "Parte {} — {}"'.format(num, parte["titulo"]),
@@ -809,61 +881,91 @@ def render_readme(parte, clases):
         "",
         "# Parte {} — {}".format(num, parte["titulo"]),
         "",
-        "**Nivel:** {} · **Clases:** {} · **Carga estimada:** {} horas de estudio dirigido".format(
-            parte["nivel"], len(clases), len(clases) * 25 // 10),
+        "Esta parte trabaja el nivel **{}** del programa y su propósito es que llegues a poder "
+        "**{}**. {} {}".format(parte["nivel"], parte["resultado"], de_donde, a_donde),
         "",
-        "## Resultado de la parte",
+        "Son {} clases, alrededor de {} horas de estudio dirigido, y todas empujan hacia la misma "
+        "pregunta:".format(len(clases), horas),
         "",
-        "Al terminar esta parte debes poder **{}**.".format(parte["resultado"]),
+        "> **{}**".format(parte["pregunta"]),
         "",
-        "> **Pregunta rectora:** {}".format(parte["pregunta"]),
+        "Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un "
+        "artefacto en la mano —{}— y no con una opinión.".format(parte["artefacto"]),
         "",
-        "## Caso de la parte",
+        "## Sobre qué caso vas a trabajar",
         "",
         parte["caso"],
         "",
-        "El caso persistente del programa es **{}**: {}".format(EMPRESA["nombre"], EMPRESA["descripcion"]),
+        "Todo el programa ocurre en la misma empresa, **{}**: {} Trabajar siempre sobre el mismo "
+        "caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen "
+        "entre sí.".format(EMPRESA["nombre"], EMPRESA["descripcion"]),
         "",
-        "## Competencias que desarrolla",
+        "## Qué vas a saber hacer",
         "",
-    ]
-    lineas += ["- {}".format(c) for c in parte["competencias"]]
-    lineas += [
+        "Las competencias que se desarrollan aquí son {}. Con ellas la parte habilita para el "
+        "trabajo de {}, que es donde estas decisiones se toman de verdad.".format(
+            enum_es(["**{}**".format(c) for c in parte["competencias"]]),
+            enum_es(parte["roles"])),
         "",
-        "**Roles a los que habilita:** {}.".format(enum_es(parte["roles"])),
+        "## Cómo avanza la parte, clase a clase",
         "",
-        "## Clases",
+        "Las clases van en orden y cada una supone la anterior. Esta es la secuencia y los "
+        "conceptos que introduce cada sesión:",
         "",
-        "| # | Clase | Conceptos centrales |",
+        "| # | Clase | Conceptos que introduce |",
         "|---|---|---|",
     ]
     for clase in clases:
         conceptos = ", ".join(c[0] for c in clase["conceptos"][:3])
         lineas.append("| {} | [{}](class-{}-{}.md) | {} |".format(
             clase["n"], clase["titulo"], clase["n"], clase["slug"], conceptos))
+
     lineas += [
         "",
-        "## Práctica y evaluación",
+        "## Dónde se practica y cómo se evalúa",
         "",
-        "| Recurso | Ruta |",
-        "|---|---|",
-        "| Laboratorios | [`labs/part-{}/`](../../labs/part-{}/) |".format(num, num),
-        "| Evaluación de la parte | [`assessments/part-{}-assessment.md`](../../assessments/part-{}-assessment.md) |".format(num, num),
-        "| Caso extendido | [`cases/case-{}-*.md`](../../cases/) |".format(num),
-        "| Plantillas | [`templates/`](../../templates/) |",
+        "Leer la parte no la acredita. Los [laboratorios](../../labs/part-{}/) te hacen ejecutar el "
+        "método sobre el caso; la [evaluación de la parte](../../assessments/part-{}-assessment.md) "
+        "comprueba que puedes sostener las decisiones sin el material delante; el "
+        "[caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, "
+        "y en [`templates/`](../../templates/) están los formatos que se usan para producir el "
+        "artefacto. El resultado que va a tu portafolio es **{}**.".format(
+            num, num, parte["artefacto"]),
         "",
-        "**Artefacto de portafolio:** {}.".format(parte["artefacto"]),
+        "## Qué puede salir mal",
         "",
-        "## Riesgo a vigilar",
+        "{} Antes de llevar cualquier recomendación de esta parte a una operación real, revisa el "
+        "[mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) y las "
+        "[reglas sobre datos personales](../../docs/DATOS-PERSONALES-Y-ETICA.md): la norma vigente "
+        "manda sobre el material pedagógico.".format(parte["riesgo"]),
         "",
-        "{} Revisa `docs/MAPA-REGULATORIO-CHILE.md` y `docs/DATOS-PERSONALES-Y-ETICA.md` antes de llevar "
-        "cualquier recomendación a una operación real.".format(parte["riesgo"]),
+        "## Bibliografía de la parte",
         "",
-        "## Bibliografía rectora de la parte",
+        "Nada de lo que se afirma en estas {} clases es invención del programa. Estas son las obras "
+        "que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El "
+        "título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están "
+        "hechos los anclajes.".format(len(clases)),
         "",
+        "| Obra | Qué aporta | Clases | Localizador |",
+        "|---|---|---:|---|",
     ]
-    lineas += ["- {} — {}.".format(bib.cita(k), bib.lente(k)) for k in parte["libros"]]
+    for clave, veces in obras_de_la_parte(clases):
+        autor, obra, edicion, lente, _cat = bib.LIBROS[clave]
+        lineas.append("| {} — {} ({}) | {} | {} | {} |".format(
+            autor, enlace(clave, "*{}*".format(obra)), edicion, lente, veces,
+            etiqueta(clave)))
+
+    rectoras = [k for k in parte["libros"]]
     lineas += [
+        "",
+        "De todas ellas, las que ordenan el criterio de esta parte son {}. Si sólo puedes leer una, "
+        "empieza por {}.".format(
+            enum_es(["{} (*{}*)".format(bib.autor(k), bib.obra(k)) for k in rectoras]),
+            "{} — *{}*".format(bib.autor(rectoras[0]), bib.obra(rectoras[0]))),
+        "",
+        "La bibliografía completa del programa, con el uso de cada obra clase a clase, está en "
+        "[`docs/BIBLIOGRAFIA.md`](../../docs/BIBLIOGRAFIA.md); el registro con los localizadores "
+        "comprobables, en [`sources/bibliography.json`](../../sources/bibliography.json).",
         "",
         "---",
         "",

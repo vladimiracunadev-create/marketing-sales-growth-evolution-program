@@ -15,19 +15,17 @@ updated: 2026-08-19
 
 # Clase 21.13 — Privacidad y propiedad intelectual
 
-**Parte 21 · IA aplicada a marketing, ventas y servicio** · Nivel: IA y expansión · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+Clase 13 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.
 
 ## 🚦 Antes de empezar
 
-| Requisito | Detalle |
-|---|---|
-| **Qué debes traer resuelto** | La clase 21.12 — *Evaluación y guardrails*, cuyo entregable se reutiliza aquí. |
-| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de casos de uso con base legal documentada para calcular la línea base. |
-| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
-| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
-| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+Vienes de la clase 21.12, *Evaluación y guardrails*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
-**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de casos de uso con base legal documentada con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
+
+Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que terminaste cuando exista el entregable y puedas responder las seis preguntas de comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que produjiste es un documento, no un criterio.
+
+Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe salir de cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que producir. No avances de sección sin escribir algo: este material está hecho para dejar decisiones documentadas, no notas de lectura.
 
 **La idea que ordena la sesión.** La función de gobierno como condición transversal a las demás — NIST. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
@@ -285,18 +283,18 @@ Este entregable alimenta el artefacto de la parte: **operating model humano-IA c
 
 ## 📗 Fuentes y verificación
 
-Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
 
-- NIST — *AI Risk Management Framework 1.0* (2023) — **aporta a esta clase:** la función de gobierno como condición transversal a las demás. **Dónde buscarlo:** la sección sobre la función gobernar. Registra edición y páginas consultadas en tu nota de lectura.
-- Cathy O'Neil — *Weapons of Math Destruction* (2016) — **aporta a esta clase:** la exigencia de auditabilidad en modelos que afectan a personas. **Dónde buscarlo:** el capítulo final sobre desarme. Registra edición y páginas consultadas en tu nota de lectura.
-- ISO — *ISO 31000: Gestión del riesgo* (2018) — **aporta a esta clase:** el riesgo residual aceptado de forma explícita y documentada. **Dónde buscarlo:** la cláusula sobre tratamiento del riesgo. Registra edición y páginas consultadas en tu nota de lectura.
-- Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach* (2021, 4.ª ed.) — **aporta a esta clase:** la caracterización del entorno: observable, determinista, episódico y sus consecuencias. **Dónde buscarlo:** el capítulo sobre propiedades del entorno. Registra edición y páginas consultadas en tu nota de lectura.
+- NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) · DOI 10.6028/NIST.AI.100-1 — **aporta a esta clase:** la función de gobierno como condición transversal a las demás. **Dónde buscarlo:** la sección sobre la función gobernar. Registra edición y páginas consultadas en tu nota de lectura.
+- Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) · ISBN 9780141985428 — **aporta a esta clase:** la exigencia de auditabilidad en modelos que afectan a personas. **Dónde buscarlo:** el capítulo final sobre desarme. Registra edición y páginas consultadas en tu nota de lectura.
+- ISO — *ISO 31000: Gestión del riesgo* (2018) · fuente primaria — **aporta a esta clase:** el riesgo residual aceptado de forma explícita y documentada. **Dónde buscarlo:** la cláusula sobre tratamiento del riesgo. Registra edición y páginas consultadas en tu nota de lectura.
+- Stuart Russell y Peter Norvig — [*Artificial Intelligence: A Modern Approach*](https://openlibrary.org/isbn/9780136958420) (2021, 4.ª ed.) · ISBN 9780136958420 — **aporta a esta clase:** la caracterización del entorno: observable, determinista, episódico y sus consecuencias. **Dónde buscarlo:** el capítulo sobre propiedades del entorno. Registra edición y páginas consultadas en tu nota de lectura.
 
-**Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
+**Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
 
-> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
+> **Sobre la edición.** No busques estas obras sólo por el título: distintas ediciones cambian capítulos y ejemplos, y los anclajes de arriba están hechos sobre la que declara el [registro de fuentes](../../sources/bibliography.json). La bibliografía completa de la parte, con todas sus obras, está en su [índice](README.md).
 
 ---
 

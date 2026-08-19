@@ -15,19 +15,17 @@ updated: 2026-08-19
 
 # Clase 24.07 — Campaña de adquisición
 
-**Parte 24 · Empresa real, regulación y Capstone** · Nivel: Dirección y Capstone · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+Clase 7 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.
 
 ## 🚦 Antes de empezar
 
-| Requisito | Detalle |
-|---|---|
-| **Qué debes traer resuelto** | La clase 24.06 — *Go-to-market del Capstone*, cuyo entregable se reutiliza aquí. |
-| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de costo por oportunidad estimado para calcular la línea base. |
-| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
-| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
-| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+Vienes de la clase 24.06, *Go-to-market del Capstone*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
-**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de costo por oportunidad estimado con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
+
+Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que terminaste cuando exista el entregable y puedas responder las seis preguntas de comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que produjiste es un documento, no un criterio.
+
+Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe salir de cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que producir. No avances de sección sin escribir algo: este material está hecho para dejar decisiones documentadas, no notas de lectura.
 
 **La idea que ordena la sesión.** La estructura de cuenta por intención como condición del control presupuestario — Brad Geddes. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
@@ -285,18 +283,18 @@ Este entregable alimenta el artefacto de la parte: **Capstone completo: empresa,
 
 ## 📗 Fuentes y verificación
 
-Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
 
-- Brad Geddes — *Advanced Google AdWords* (2014, 3.ª ed.) — **aporta a esta clase:** la estructura de cuenta por intención como condición del control presupuestario. **Dónde buscarlo:** los capítulos sobre organización de campañas. Registra edición y páginas consultadas en tu nota de lectura.
-- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** el plan de medición que va de la decisión a la métrica y no al revés. **Dónde buscarlo:** los capítulos sobre estrategia de medición. Registra edición y páginas consultadas en tu nota de lectura.
-- Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) — **aporta a esta clase:** la investigación previa al test: sin diagnóstico, el experimento es una apuesta. **Dónde buscarlo:** el método de investigación de conversión. Registra edición y páginas consultadas en tu nota de lectura.
-- Ann Handley — *Everybody Writes* (2022, 2.ª ed.) — **aporta a esta clase:** la utilidad para el lector como criterio por encima de la elegancia del autor. **Dónde buscarlo:** la parte sobre reglas de escritura. Registra edición y páginas consultadas en tu nota de lectura.
+- Brad Geddes — [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) (2014, 3.ª ed.) · ISBN 9781118819647 — **aporta a esta clase:** la estructura de cuenta por intención como condición del control presupuestario. **Dónde buscarlo:** los capítulos sobre organización de campañas. Registra edición y páginas consultadas en tu nota de lectura.
+- Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) · ISBN 9780470596425 — **aporta a esta clase:** el plan de medición que va de la decisión a la métrica y no al revés. **Dónde buscarlo:** los capítulos sobre estrategia de medición. Registra edición y páginas consultadas en tu nota de lectura.
+- Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) · fuente primaria — **aporta a esta clase:** la investigación previa al test: sin diagnóstico, el experimento es una apuesta. **Dónde buscarlo:** el método de investigación de conversión. Registra edición y páginas consultadas en tu nota de lectura.
+- Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) · ISBN 9781119854319 — **aporta a esta clase:** la utilidad para el lector como criterio por encima de la elegancia del autor. **Dónde buscarlo:** la parte sobre reglas de escritura. Registra edición y páginas consultadas en tu nota de lectura.
 
-**Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
+**Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
 
-> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
+> **Sobre la edición.** No busques estas obras sólo por el título: distintas ediciones cambian capítulos y ejemplos, y los anclajes de arriba están hechos sobre la que declara el [registro de fuentes](../../sources/bibliography.json). La bibliografía completa de la parte, con todas sus obras, está en su [índice](README.md).
 
 ---
 

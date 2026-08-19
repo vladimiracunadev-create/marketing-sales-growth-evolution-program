@@ -8,31 +8,29 @@ updated: 2026-08-19
 
 # Parte 18 — Customer experience, success y fidelización
 
-**Nivel:** Operación de ingresos · **Clases:** 14 · **Carga estimada:** 35 horas de estudio dirigido
+Esta parte trabaja el nivel **Operación de ingresos** del programa y su propósito es que llegues a poder **sostener y expandir el ingreso existente con un sistema de valor entregado**. Llegas desde la parte 17, *Marketing automation y revenue operations*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 19, *Growth marketing y growth engineering*.
 
-## Resultado de la parte
+Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia la misma pregunta:
 
-Al terminar esta parte debes poder **sostener y expandir el ingreso existente con un sistema de valor entregado**.
+> **¿En qué momento el cliente obtiene valor y qué lo hace quedarse o irse?**
 
-> **Pregunta rectora:** ¿En qué momento el cliente obtiene valor y qué lo hace quedarse o irse?
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —sistema de retención y expansión con onboarding, health score, renovación y advocacy— y no con una opinión.
 
-## Caso de la parte
+## Sobre qué caso vas a trabajar
 
 Ruta Andina pierde 3,4 % de cuentas al mes. El 61 % de las bajas nunca completó la carga inicial de datos y jamás usó el módulo de pagos.
 
-El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.
+Todo el programa ocurre en la misma empresa, **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público. Trabajar siempre sobre el mismo caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen entre sí.
 
-## Competencias que desarrolla
+## Qué vas a saber hacer
 
-- diseño de onboarding
-- gestión de salud de cuenta
-- análisis de cohortes
+Las competencias que se desarrollan aquí son **diseño de onboarding**, **gestión de salud de cuenta** y **análisis de cohortes**. Con ellas la parte habilita para el trabajo de Customer success manager, Account manager y Head of CS, que es donde estas decisiones se toman de verdad.
 
-**Roles a los que habilita:** Customer success manager, Account manager y Head of CS.
+## Cómo avanza la parte, clase a clase
 
-## Clases
+Las clases van en orden y cada una supone la anterior. Esta es la secuencia y los conceptos que introduce cada sesión:
 
-| # | Clase | Conceptos centrales |
+| # | Clase | Conceptos que introduce |
 |---|---|---|
 | 01 | [Experiencia de cliente](class-01-experiencia-de-cliente.md) | experiencia acumulada, esfuerzo del cliente, interacción no diseñada |
 | 02 | [Onboarding](class-02-onboarding.md) | primer resultado, hito de activación, carga cognitiva |
@@ -49,29 +47,45 @@ El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que ven
 | 13 | [Voice of Customer continuo](class-13-voice-of-customer-continuo.md) | captura continua, entrevista de baja, enrutamiento a decisión |
 | 14 | [Sistema de retención y expansión](class-14-sistema-de-retencion-y-expansion.md) | sistema de retención, capacidad predictiva, responsabilidad por cartera |
 
-## Práctica y evaluación
+## Dónde se practica y cómo se evalúa
 
-| Recurso | Ruta |
-|---|---|
-| Laboratorios | [`labs/part-18/`](../../labs/part-18/) |
-| Evaluación de la parte | [`assessments/part-18-assessment.md`](../../assessments/part-18-assessment.md) |
-| Caso extendido | [`cases/case-18-*.md`](../../cases/) |
-| Plantillas | [`templates/`](../../templates/) |
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-18/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-18-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **sistema de retención y expansión con onboarding, health score, renovación y advocacy**.
 
-**Artefacto de portafolio:** sistema de retención y expansión con onboarding, health score, renovación y advocacy.
+## Qué puede salir mal
 
-## Riesgo a vigilar
+Retener con castigos contractuales en lugar de valor entregado y dañar reputación. Antes de llevar cualquier recomendación de esta parte a una operación real, revisa el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) y las [reglas sobre datos personales](../../docs/DATOS-PERSONALES-Y-ETICA.md): la norma vigente manda sobre el material pedagógico.
 
-Retener con castigos contractuales en lugar de valor entregado y dañar reputación. Revisa `docs/MAPA-REGULATORIO-CHILE.md` y `docs/DATOS-PERSONALES-Y-ETICA.md` antes de llevar cualquier recomendación a una operación real.
+## Bibliografía de la parte
 
-## Bibliografía rectora de la parte
+Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
 
-- Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) — disciplina operativa de éxito de cliente: salud, renovación y expansión.
-- Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) — reducción del esfuerzo del cliente como motor de lealtad frente al deleite.
-- Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) — lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS.
-- Peter Fader — *Customer Centricity* (2020, 2.ª ed.) — valor heterogéneo del cliente y asignación de recursos por valor esperado.
-- Samuel Hulick — *The Elements of User Onboarding* (2014) — diseño del primer valor percibido y reducción del time-to-value.
-- Peter Fader y Sarah Toms — *The Customer Centricity Playbook* (2018) — modelos de valor de vida del cliente y decisiones de inversión por cohorte.
+| Obra | Qué aporta | Clases | Localizador |
+|---|---|---:|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 13 | ISBN 9781119168294 |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 9 | ISBN 9781647821784 |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 7 | ISBN 9781449335670 |
+| Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 6 | ISBN 9780241003305 |
+| Peter Fader — [*Customer Centricity*](https://openlibrary.org/isbn/9781613631447) (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | 5 | ISBN 9781613631447 |
+| Peter Fader y Sarah Toms — [*The Customer Centricity Playbook*](https://openlibrary.org/isbn/9781613630914) (2018) | modelos de valor de vida del cliente y decisiones de inversión por cohorte | 3 | ISBN 9781613630914 |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 2 | ISBN 9781449374280 |
+| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 2 | ISBN 9781119387541 |
+| Samuel Hulick — *The Elements of User Onboarding* (2014) | diseño del primer valor percibido y reducción del time-to-value | 2 | fuente primaria |
+| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 1 | ISBN 9780321965516 |
+| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 1 | ISBN 9780451497215 |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 |
+| Steve Portigal — [*Interviewing Users*](https://openlibrary.org/isbn/9781959029823) (2023, 2.ª ed.) | conducción de entrevistas, escucha activa y traducción de observación en decisión | 1 | ISBN 9781959029823 |
+| Naresh K. Malhotra — [*Marketing Research: An Applied Orientation*](https://openlibrary.org/isbn/9781292265636) (2019, 7.ª ed.) | diseño de investigación, muestreo, medición y análisis con rigor metodológico | 1 | ISBN 9781292265636 |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 1 | ISBN 9780525540830 |
+| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 1 | ISBN 9780470596425 |
+
+De todas ellas, las que ordenan el criterio de esta parte son Nick Mehta, Dan Steinman y Lincoln Murphy (*Customer Success*), Matthew Dixon, Nick Toman y Rick DeLisi (*The Effortless Experience*), Fred Reichheld, Darci Darnell y Maureen Burns (*Winning on Purpose*), Peter Fader (*Customer Centricity*), Samuel Hulick (*The Elements of User Onboarding*) y Peter Fader y Sarah Toms (*The Customer Centricity Playbook*). Si sólo puedes leer una, empieza por Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success*.
+
+La bibliografía completa del programa, con el uso de cada obra clase a clase, está en [`docs/BIBLIOGRAFIA.md`](../../docs/BIBLIOGRAFIA.md); el registro con los localizadores comprobables, en [`sources/bibliography.json`](../../sources/bibliography.json).
 
 ---
 

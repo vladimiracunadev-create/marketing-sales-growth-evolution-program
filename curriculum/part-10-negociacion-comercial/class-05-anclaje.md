@@ -15,19 +15,17 @@ updated: 2026-08-19
 
 # Clase 10.05 — Anclaje
 
-**Parte 10 · Negociación comercial** · Nivel: Venta · Duración sugerida: 150 minutos · Estándar: `clase-profunda-v2`
+Clase 5 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.
 
 ## 🚦 Antes de empezar
 
-| Requisito | Detalle |
-|---|---|
-| **Qué debes traer resuelto** | La clase 10.04 — *ZOPA*, cuyo entregable se reutiliza aquí. |
-| **Con qué datos trabajarás** | Los del caso de la clase; si usas datos propios, necesitas al menos una serie histórica de diferencia entre ancla y cierre para calcular la línea base. |
-| **Materiales** | Una planilla o cuaderno para la ficha de medición, y las obras de la lectura comparada (basta el índice y los capítulos indicados). |
-| **Tiempo mínimo real** | 150 minutos de trabajo dirigido más 60 de lectura selectiva. |
-| **Cómo sabrás que terminaste** | Existe el entregable de la clase y respondes las seis preguntas de comprobación sin volver al texto. |
+Vienes de la clase 10.04, *ZOPA*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
-**Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
+Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de diferencia entre ancla y cierre con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
+
+Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que terminaste cuando exista el entregable y puedas responder las seis preguntas de comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que produjiste es un documento, no un criterio.
+
+Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe salir de cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que producir. No avances de sección sin escribir algo: este material está hecho para dejar decisiones documentadas, no notas de lectura.
 
 **La idea que ordena la sesión.** La preparación analítica con rango, alternativas y criterios antes de sentarse — Deepak Malhotra y Max H. Bazerman. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
@@ -285,18 +283,18 @@ Este entregable alimenta el artefacto de la parte: **carpeta de negociación con
 
 ## 📗 Fuentes y verificación
 
-Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
 
-- Deepak Malhotra y Max H. Bazerman — *Negotiation Genius* (2007) — **aporta a esta clase:** la preparación analítica con rango, alternativas y criterios antes de sentarse. **Dónde buscarlo:** los capítulos sobre preparación. Registra edición y páginas consultadas en tu nota de lectura.
-- Daniel Kahneman — *Thinking, Fast and Slow* (2011) — **aporta a esta clase:** el anclaje y ajuste insuficiente: la primera cifra contamina el juicio posterior. **Dónde buscarlo:** el capítulo sobre anclaje. Registra edición y páginas consultadas en tu nota de lectura.
-- Chris Voss y Tahl Raz — *Never Split the Difference* (2016) — **aporta a esta clase:** las preguntas calibradas que trasladan el problema al otro lado. **Dónde buscarlo:** el capítulo sobre preguntas calibradas. Registra edición y páginas consultadas en tu nota de lectura.
-- Dan Ariely — *Predictably Irrational* (2008) — **aporta a esta clase:** las anclas arbitrarias y su persistencia en decisiones posteriores. **Dónde buscarlo:** el capítulo sobre la coherencia arbitraria. Registra edición y páginas consultadas en tu nota de lectura.
+- Deepak Malhotra y Max H. Bazerman — [*Negotiation Genius*](https://openlibrary.org/isbn/9780553804881) (2007) · ISBN 9780553804881 — **aporta a esta clase:** la preparación analítica con rango, alternativas y criterios antes de sentarse. **Dónde buscarlo:** los capítulos sobre preparación. Registra edición y páginas consultadas en tu nota de lectura.
+- Daniel Kahneman — [*Thinking, Fast and Slow*](https://openlibrary.org/isbn/9780141918921) (2011) · ISBN 9780141918921 — **aporta a esta clase:** el anclaje y ajuste insuficiente: la primera cifra contamina el juicio posterior. **Dónde buscarlo:** el capítulo sobre anclaje. Registra edición y páginas consultadas en tu nota de lectura.
+- Chris Voss y Tahl Raz — [*Never Split the Difference*](https://openlibrary.org/isbn/9781473535169) (2016) · ISBN 9781473535169 — **aporta a esta clase:** las preguntas calibradas que trasladan el problema al otro lado. **Dónde buscarlo:** el capítulo sobre preguntas calibradas. Registra edición y páginas consultadas en tu nota de lectura.
+- Dan Ariely — [*Predictably Irrational*](https://openlibrary.org/isbn/9780061353239) (2008) · ISBN 9780061353239 — **aporta a esta clase:** las anclas arbitrarias y su persistencia en decisiones posteriores. **Dónde buscarlo:** el capítulo sobre la coherencia arbitraria. Registra edición y páginas consultadas en tu nota de lectura.
 
-**Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
+**Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
 
-> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
+> **Sobre la edición.** No busques estas obras sólo por el título: distintas ediciones cambian capítulos y ejemplos, y los anclajes de arriba están hechos sobre la que declara el [registro de fuentes](../../sources/bibliography.json). La bibliografía completa de la parte, con todas sus obras, está en su [índice](README.md).
 
 ---
 

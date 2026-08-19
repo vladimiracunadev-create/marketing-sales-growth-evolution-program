@@ -8,31 +8,29 @@ updated: 2026-08-19
 
 # Parte 08 — Fundamentos profesionales de ventas
 
-**Nivel:** Venta · **Clases:** 14 · **Carga estimada:** 35 horas de estudio dirigido
+Esta parte trabaja el nivel **Venta** del programa y su propósito es que llegues a poder **ejecutar un proceso comercial reproducible que no dependa del talento individual**. Llegas desde la parte 07, *Pricing y monetización*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 09, *Venta consultiva y B2B compleja*.
 
-## Resultado de la parte
+Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia la misma pregunta:
 
-Al terminar esta parte debes poder **ejecutar un proceso comercial reproducible que no dependa del talento individual**.
+> **¿Qué debe ocurrir en cada etapa para que la siguiente sea probable y no accidental?**
 
-> **Pregunta rectora:** ¿Qué debe ocurrir en cada etapa para que la siguiente sea probable y no accidental?
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —playbook comercial con etapas, criterios de salida, guiones y materiales— y no con una opinión.
 
-## Caso de la parte
+## Sobre qué caso vas a trabajar
 
 En Ruta Andina dos vendedores cierran el 70 % del negocio y nadie sabe explicar qué hacen distinto. Cuando uno sale de vacaciones, el pipeline se detiene.
 
-El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.
+Todo el programa ocurre en la misma empresa, **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público. Trabajar siempre sobre el mismo caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen entre sí.
 
-## Competencias que desarrolla
+## Qué vas a saber hacer
 
-- proceso comercial
-- discovery estructurado
-- manejo de objeciones
+Las competencias que se desarrollan aquí son **proceso comercial**, **discovery estructurado** y **manejo de objeciones**. Con ellas la parte habilita para el trabajo de Ejecutivo comercial, SDR y Jefe de ventas, que es donde estas decisiones se toman de verdad.
 
-**Roles a los que habilita:** Ejecutivo comercial, SDR y Jefe de ventas.
+## Cómo avanza la parte, clase a clase
 
-## Clases
+Las clases van en orden y cada una supone la anterior. Esta es la secuencia y los conceptos que introduce cada sesión:
 
-| # | Clase | Conceptos centrales |
+| # | Clase | Conceptos que introduce |
 |---|---|---|
 | 01 | [Proceso comercial reproducible](class-01-proceso-comercial-reproducible.md) | etapa comercial, criterio de salida, playbook |
 | 02 | [Prospección](class-02-prospeccion.md) | actividad de prospección, lista objetivo, retardo del pipeline |
@@ -49,29 +47,52 @@ El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que ven
 | 13 | [Disciplina de CRM](class-13-disciplina-crm.md) | campo crítico, higiene de datos, valor devuelto al usuario |
 | 14 | [Playbook comercial básico](class-14-playbook-comercial-basico.md) | playbook operativo, guion de discovery, biblioteca de objeciones |
 
-## Práctica y evaluación
+## Dónde se practica y cómo se evalúa
 
-| Recurso | Ruta |
-|---|---|
-| Laboratorios | [`labs/part-08/`](../../labs/part-08/) |
-| Evaluación de la parte | [`assessments/part-08-assessment.md`](../../assessments/part-08-assessment.md) |
-| Caso extendido | [`cases/case-08-*.md`](../../cases/) |
-| Plantillas | [`templates/`](../../templates/) |
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-08/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-08-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **playbook comercial con etapas, criterios de salida, guiones y materiales**.
 
-**Artefacto de portafolio:** playbook comercial con etapas, criterios de salida, guiones y materiales.
+## Qué puede salir mal
 
-## Riesgo a vigilar
+Presionar por cierre sin diagnóstico y vender a clientes que no pueden obtener valor. Antes de llevar cualquier recomendación de esta parte a una operación real, revisa el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) y las [reglas sobre datos personales](../../docs/DATOS-PERSONALES-Y-ETICA.md): la norma vigente manda sobre el material pedagógico.
 
-Presionar por cierre sin diagnóstico y vender a clientes que no pueden obtener valor. Revisa `docs/MAPA-REGULATORIO-CHILE.md` y `docs/DATOS-PERSONALES-Y-ETICA.md` antes de llevar cualquier recomendación a una operación real.
+## Bibliografía de la parte
 
-## Bibliografía rectora de la parte
+Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
 
-- Mike Weinberg — *New Sales. Simplified.* (2012) — proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida.
-- Neil Rackham — *SPIN Selling* (1988) — investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio.
-- Jeb Blount — *Fanatical Prospecting* (2015) — disciplina de prospección, cadencia y gestión del rechazo.
-- Keenan — *Gap Selling* (2018) — vender la brecha entre estado actual y estado futuro con diagnóstico riguroso.
-- Mark Roberge — *The Sales Acceleration Formula* (2015) — contratación, formación, gestión y demanda comercial gobernadas por datos.
-- Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) — principios de influencia y su uso ético en contextos comerciales.
+| Obra | Qué aporta | Clases | Localizador |
+|---|---|---:|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
+| Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 7 | ISBN 9780070511132 |
+| Keenan — [*Gap Selling*](https://openlibrary.org/isbn/9781732891005) (2018) | vender la brecha entre estado actual y estado futuro con diagnóstico riguroso | 6 | ISBN 9781732891005 |
+| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 6 | ISBN 9781119047018 |
+| Mike Weinberg — [*New Sales. Simplified.*](https://openlibrary.org/isbn/9780814431788) (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | 4 | ISBN 9780814431788 |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 3 | ISBN 9780062937650 |
+| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 3 | ISBN 9780984380213 |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 2 | ISBN 9781119854319 |
+| Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | disciplina de prospección, cadencia y gestión del rechazo | 2 | ISBN 9781119176305 |
+| Roger Fisher, William Ury y Bruce Patton — [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) (2011, 3.ª ed.) | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 2 | ISBN 9781101539545 |
+| Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 2 | ISBN 9780394532349 |
+| Chris Voss y Tahl Raz — [*Never Split the Difference*](https://openlibrary.org/isbn/9781473535169) (2016) | empatía táctica, etiquetado y preguntas calibradas bajo presión | 2 | ISBN 9781473535169 |
+| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 2 | ISBN 9781119871132 |
+| Matthew Dixon y Brent Adamson — [*The Challenger Sale*](https://openlibrary.org/isbn/9781591844358) (2011) | enseñar, adaptar y tomar el control; el insight comercial como diferenciador | 2 | ISBN 9781591844358 |
+| Trish Bertuzzi — [*The Sales Development Playbook*](https://openlibrary.org/isbn/9780692622032) (2016) | estructura, especialización y métricas del equipo de desarrollo de ventas | 2 | ISBN 9780692622032 |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 1 | ISBN 9781449374280 |
+| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 1 | ISBN 9780321965516 |
+| Chip Heath y Dan Heath — [*Made to Stick*](https://openlibrary.org/isbn/9781400064281) (2007) | ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción | 1 | ISBN 9781400064281 |
+| Brent Adamson y Matthew Dixon — [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 1 | ISBN 9780241196564 |
+| Samuel Hulick — *The Elements of User Onboarding* (2014) | diseño del primer valor percibido y reducción del time-to-value | 1 | fuente primaria |
+| Rob Fitzpatrick — [*The Mom Test*](https://openlibrary.org/isbn/9781492180746) (2013) | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | 1 | ISBN 9781492180746 |
+| Robert B. Miller y Stephen E. Heiman — [*The New Strategic Selling*](https://openlibrary.org/isbn/9780446695190) (2005) | mapa de influencias, roles de compra y análisis de posición en cuentas complejas | 1 | ISBN 9780446695190 |
+| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 1 | ISBN 9781138737501 |
+
+De todas ellas, las que ordenan el criterio de esta parte son Mike Weinberg (*New Sales. Simplified.*), Neil Rackham (*SPIN Selling*), Jeb Blount (*Fanatical Prospecting*), Keenan (*Gap Selling*), Mark Roberge (*The Sales Acceleration Formula*) y Robert B. Cialdini (*Influence: The Psychology of Persuasion, New and Expanded*). Si sólo puedes leer una, empieza por Mike Weinberg — *New Sales. Simplified.*.
+
+La bibliografía completa del programa, con el uso de cada obra clase a clase, está en [`docs/BIBLIOGRAFIA.md`](../../docs/BIBLIOGRAFIA.md); el registro con los localizadores comprobables, en [`sources/bibliography.json`](../../sources/bibliography.json).
 
 ---
 

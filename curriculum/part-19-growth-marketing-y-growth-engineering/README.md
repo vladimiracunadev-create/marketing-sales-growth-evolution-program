@@ -8,31 +8,29 @@ updated: 2026-08-19
 
 # Parte 19 — Growth marketing y growth engineering
 
-**Nivel:** Crecimiento y analítica · **Clases:** 14 · **Carga estimada:** 35 horas de estudio dirigido
+Esta parte trabaja el nivel **Crecimiento y analítica** del programa y su propósito es que llegues a poder **instalar un motor de experimentación que produzca aprendizaje acumulativo**. Llegas desde la parte 18, *Customer experience, success y fidelización*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 20, *Analítica comercial y marketing science*.
 
-## Resultado de la parte
+Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia la misma pregunta:
 
-Al terminar esta parte debes poder **instalar un motor de experimentación que produzca aprendizaje acumulativo**.
+> **¿Qué bucle hace que el crecimiento se retroalimente en lugar de depender del gasto?**
 
-> **Pregunta rectora:** ¿Qué bucle hace que el crecimiento se retroalimente en lugar de depender del gasto?
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —growth model con North Star, bucles, backlog priorizado y resultados de experimentos— y no con una opinión.
 
-## Caso de la parte
+## Sobre qué caso vas a trabajar
 
 Ruta Andina hace 12 «experimentos» al mes y no puede nombrar un solo aprendizaje que haya cambiado el producto o el canal.
 
-El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.
+Todo el programa ocurre en la misma empresa, **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público. Trabajar siempre sobre el mismo caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen entre sí.
 
-## Competencias que desarrolla
+## Qué vas a saber hacer
 
-- diseño de bucles de crecimiento
-- priorización de experimentos
-- activación y retención
+Las competencias que se desarrollan aquí son **diseño de bucles de crecimiento**, **priorización de experimentos** y **activación y retención**. Con ellas la parte habilita para el trabajo de Growth manager, Growth engineer y Head of Growth, que es donde estas decisiones se toman de verdad.
 
-**Roles a los que habilita:** Growth manager, Growth engineer y Head of Growth.
+## Cómo avanza la parte, clase a clase
 
-## Clases
+Las clases van en orden y cada una supone la anterior. Esta es la secuencia y los conceptos que introduce cada sesión:
 
-| # | Clase | Conceptos centrales |
+| # | Clase | Conceptos que introduce |
 |---|---|---|
 | 01 | [Qué es growth](class-01-que-es-growth.md) | equipo multifuncional, ciclo de experimentación, alcance de intervención |
 | 02 | [North Star Metric](class-02-north-star-metric.md) | métrica estrella, métrica de entrada, correlación con ingreso |
@@ -49,29 +47,49 @@ El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que ven
 | 13 | [Product-led growth](class-13-product-led-growth.md) | autoservicio, valor perceptible sin ayuda, expansión por uso |
 | 14 | [Growth model completo](class-14-growth-model-completo.md) | modelo de crecimiento, palanca, sensibilidad del modelo |
 
-## Práctica y evaluación
+## Dónde se practica y cómo se evalúa
 
-| Recurso | Ruta |
-|---|---|
-| Laboratorios | [`labs/part-19/`](../../labs/part-19/) |
-| Evaluación de la parte | [`assessments/part-19-assessment.md`](../../assessments/part-19-assessment.md) |
-| Caso extendido | [`cases/case-19-*.md`](../../cases/) |
-| Plantillas | [`templates/`](../../templates/) |
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-19/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-19-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **growth model con North Star, bucles, backlog priorizado y resultados de experimentos**.
 
-**Artefacto de portafolio:** growth model con North Star, bucles, backlog priorizado y resultados de experimentos.
+## Qué puede salir mal
 
-## Riesgo a vigilar
+Declarar victorias con muestras insuficientes y optimizar métricas locales que dañan el sistema. Antes de llevar cualquier recomendación de esta parte a una operación real, revisa el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) y las [reglas sobre datos personales](../../docs/DATOS-PERSONALES-Y-ETICA.md): la norma vigente manda sobre el material pedagógico.
 
-Declarar victorias con muestras insuficientes y optimizar métricas locales que dañan el sistema. Revisa `docs/MAPA-REGULATORIO-CHILE.md` y `docs/DATOS-PERSONALES-Y-ETICA.md` antes de llevar cualquier recomendación a una operación real.
+## Bibliografía de la parte
 
-## Bibliografía rectora de la parte
+Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
 
-- Sean Ellis y Morgan Brown — *Hacking Growth* (2017) — equipo multifuncional, ciclo de experimentación y aha moment.
-- Wes Bush — *Product-Led Growth* (2019) — el producto como principal vehículo de adquisición, activación y expansión.
-- Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — una métrica que importa por etapa y por modelo de negocio.
-- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) — diseño estadístico de experimentos, métricas guardrail y trampas de interpretación.
-- Eric Ries — *The Lean Startup* (2011) — construir-medir-aprender, MVP y decisión de perseverar o pivotar.
-- Marty Cagan — *Inspired* (2017, 2.ª ed.) — descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad.
+| Obra | Qué aporta | Clases | Localizador |
+|---|---|---:|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
+| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 13 | ISBN 9780451497215 |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 8 | ISBN 9781449335670 |
+| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 5 | ISBN 9781119387541 |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 5 | ISBN 9781108601375 |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 4 | ISBN 9781449374280 |
+| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 4 | ISBN 9781777119317 |
+| Eric Ries — [*The Lean Startup*](https://openlibrary.org/isbn/9780670921607) (2011) | construir-medir-aprender, MVP y decisión de perseverar o pivotar | 2 | ISBN 9780670921607 |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 2 | ISBN 9780525540830 |
+| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 |
+| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 1 | fuente primaria |
+| Peter Fader — [*Customer Centricity*](https://openlibrary.org/isbn/9781613631447) (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | 1 | ISBN 9781613631447 |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
+| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 1 | ISBN 9781118836446 |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 |
+| John Doerr — [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) (2018) | OKR como sistema de foco, alineamiento y seguimiento | 1 | ISBN 9780525536222 |
+| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 1 | ISBN 9780875846514 |
+| Samuel Hulick — *The Elements of User Onboarding* (2014) | diseño del primer valor percibido y reducción del time-to-value | 1 | fuente primaria |
+| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 |
+| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 1 | ISBN 9780470596425 |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 |
+
+De todas ellas, las que ordenan el criterio de esta parte son Sean Ellis y Morgan Brown (*Hacking Growth*), Wes Bush (*Product-Led Growth*), Alistair Croll y Benjamin Yoskovitz (*Lean Analytics*), Ron Kohavi, Diane Tang y Ya Xu (*Trustworthy Online Controlled Experiments*), Eric Ries (*The Lean Startup*) y Marty Cagan (*Inspired*). Si sólo puedes leer una, empieza por Sean Ellis y Morgan Brown — *Hacking Growth*.
+
+La bibliografía completa del programa, con el uso de cada obra clase a clase, está en [`docs/BIBLIOGRAFIA.md`](../../docs/BIBLIOGRAFIA.md); el registro con los localizadores comprobables, en [`sources/bibliography.json`](../../sources/bibliography.json).
 
 ---
 

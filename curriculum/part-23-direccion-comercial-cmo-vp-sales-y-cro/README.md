@@ -8,31 +8,29 @@ updated: 2026-08-19
 
 # Parte 23 — Dirección comercial: CMO, VP Sales y CRO
 
-**Nivel:** Dirección y Capstone · **Clases:** 14 · **Carga estimada:** 35 horas de estudio dirigido
+Esta parte trabaja el nivel **Dirección y Capstone** del programa y su propósito es que llegues a poder **dirigir la función de ingresos: personas, sistema, números y gobierno**. Llegas desde la parte 22, *Go-to-market, canales y expansión*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 24, *Empresa real, regulación y Capstone*.
 
-## Resultado de la parte
+Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia la misma pregunta:
 
-Al terminar esta parte debes poder **dirigir la función de ingresos: personas, sistema, números y gobierno**.
+> **¿Qué debe existir para que el resultado no dependa de que yo esté en cada reunión?**
 
-> **Pregunta rectora:** ¿Qué debe existir para que el resultado no dependa de que yo esté en cada reunión?
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio— y no con una opinión.
 
-## Caso de la parte
+## Sobre qué caso vas a trabajar
 
 El directorio pide duplicar ingresos en 18 meses. La propuesta inicial del equipo es contratar seis vendedores más sin cambiar proceso ni oferta.
 
-El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.
+Todo el programa ocurre en la misma empresa, **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público. Trabajar siempre sobre el mismo caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen entre sí.
 
-## Competencias que desarrolla
+## Qué vas a saber hacer
 
-- diseño organizacional comercial
-- gestión por indicadores
-- gobierno y cultura
+Las competencias que se desarrollan aquí son **diseño organizacional comercial**, **gestión por indicadores** y **gobierno y cultura**. Con ellas la parte habilita para el trabajo de CMO, VP Sales, CRO y Gerente comercial, que es donde estas decisiones se toman de verdad.
 
-**Roles a los que habilita:** CMO, VP Sales, CRO y Gerente comercial.
+## Cómo avanza la parte, clase a clase
 
-## Clases
+Las clases van en orden y cada una supone la anterior. Esta es la secuencia y los conceptos que introduce cada sesión:
 
-| # | Clase | Conceptos centrales |
+| # | Clase | Conceptos que introduce |
 |---|---|---|
 | 01 | [Diseño de la organización comercial](class-01-diseno-de-la-organizacion-comercial.md) | especialización, frontera organizacional, responsabilidad por resultado |
 | 02 | [Roles y responsabilidades](class-02-roles-y-responsabilidades.md) | resultado del rol, derecho de decisión, interfaz de coordinación |
@@ -49,29 +47,42 @@ El caso persistente del programa es **Ruta Andina SpA**: Empresa chilena que ven
 | 13 | [Reporte al directorio](class-13-board-reporting.md) | resultado frente a plan, causa del desvío, decisión que requiere aprobación |
 | 14 | [Operating system del CRO](class-14-operating-system-del-cro.md) | sistema de dirección, independencia del sistema, detección temprana |
 
-## Práctica y evaluación
+## Dónde se practica y cómo se evalúa
 
-| Recurso | Ruta |
-|---|---|
-| Laboratorios | [`labs/part-23/`](../../labs/part-23/) |
-| Evaluación de la parte | [`assessments/part-23-assessment.md`](../../assessments/part-23-assessment.md) |
-| Caso extendido | [`cases/case-23-*.md`](../../cases/) |
-| Plantillas | [`templates/`](../../templates/) |
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-23/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-23-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio**.
 
-**Artefacto de portafolio:** operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio.
+## Qué puede salir mal
 
-## Riesgo a vigilar
+Escalar un motor roto, generar rotación y destruir el margen mientras se «crece». Antes de llevar cualquier recomendación de esta parte a una operación real, revisa el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) y las [reglas sobre datos personales](../../docs/DATOS-PERSONALES-Y-ETICA.md): la norma vigente manda sobre el material pedagógico.
 
-Escalar un motor roto, generar rotación y destruir el margen mientras se «crece». Revisa `docs/MAPA-REGULATORIO-CHILE.md` y `docs/DATOS-PERSONALES-Y-ETICA.md` antes de llevar cualquier recomendación a una operación real.
+## Bibliografía de la parte
 
-## Bibliografía rectora de la parte
+Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
 
-- Andrew S. Grove — *High Output Management* (1983) — output gerencial, indicadores adelantados y reuniones como herramienta de producción.
-- John Doerr — *Measure What Matters* (2018) — OKR como sistema de foco, alineamiento y seguimiento.
-- Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) — diseño de cuotas, territorios e incentivos sin efectos perversos.
-- Jim Collins — *Good to Great* (2001) — disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial.
-- Patrick Lencioni — *The Five Dysfunctions of a Team* (2002) — confianza, conflicto productivo, compromiso, accountability y resultados.
-- Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) — traducción de la estrategia en indicadores causalmente conectados.
+| Obra | Qué aporta | Clases | Localizador |
+|---|---|---:|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
+| Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 12 | ISBN 9780394532349 |
+| Jim Collins — [*Good to Great*](https://openlibrary.org/isbn/9780066620992) (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 8 | ISBN 9780066620992 |
+| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 7 | ISBN 9781119047018 |
+| John Doerr — [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) (2018) | OKR como sistema de foco, alineamiento y seguimiento | 5 | ISBN 9780525536222 |
+| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 5 | ISBN 9780875846514 |
+| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 5 | ISBN 9780814473245 |
+| Patrick Lencioni — [*The Five Dysfunctions of a Team*](https://openlibrary.org/isbn/9780787960759) (2002) | confianza, conflicto productivo, compromiso, accountability y resultados | 5 | ISBN 9780787960759 |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 1 | ISBN 9781449335670 |
+| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 1 | ISBN 9780984380213 |
+| Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 1 | ISBN 9780070511132 |
+| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 |
+| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 1 | ISBN 9780141985428 |
+
+De todas ellas, las que ordenan el criterio de esta parte son Andrew S. Grove (*High Output Management*), John Doerr (*Measure What Matters*), Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer (*The Complete Guide to Sales Force Incentive Compensation*), Jim Collins (*Good to Great*), Patrick Lencioni (*The Five Dysfunctions of a Team*) y Robert S. Kaplan y David P. Norton (*The Balanced Scorecard*). Si sólo puedes leer una, empieza por Andrew S. Grove — *High Output Management*.
+
+La bibliografía completa del programa, con el uso de cada obra clase a clase, está en [`docs/BIBLIOGRAFIA.md`](../../docs/BIBLIOGRAFIA.md); el registro con los localizadores comprobables, en [`sources/bibliography.json`](../../sources/bibliography.json).
 
 ---
 

@@ -36,7 +36,7 @@ la misma obra—. Esta versión corrige eso y, con ello, reescribe el desarrollo
 - **1.680 párrafos de desarrollo redactados clase a clase** en 24 módulos
   `curriculum/spec/desarrollo_pNN.py`. El generador se detiene si falta el texto de una clase: ninguna puede
   publicarse con relleno de plantilla.
-- Extensión media por clase de 3.400 a **5.053 palabras**; total del currículo de 1.290.000 a **1.697.915**.
+- Extensión media por clase de 3.400 a **5.033 palabras**; total del currículo de 1.290.000 a **1.691.227**.
 - Nuevo bloque **🚦 Antes de empezar**: qué traer resuelto, con qué datos se trabaja, materiales, tiempo real
   y cómo saber que la clase terminó.
 - Nuevo bloque **🗝️ Respuestas orientadoras**: qué debe contener una respuesta suficiente a cada pregunta de

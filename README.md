@@ -72,7 +72,7 @@ es un documento de 4.800 a 5.600 palabras, **redactado clase a clase** —no gen
 
 | Superficie | Cobertura |
 |---|---|
-| 📚 Currículo | 336/336 clases en 24 partes · 1.697.000 palabras · estándar `clase-profunda-v2` |
+| 📚 Currículo | 336/336 clases en 24 partes · 1.691.000 palabras · estándar `clase-profunda-v2` |
 | 🧩 Conceptos | 1.344 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
 | 📐 Medición | 1.008 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
 | 📖 Bibliografía | 96 obras · 395 ideas catalogadas · **1.344 anclajes** clase a clase, auditados |

@@ -145,6 +145,35 @@ def test_el_registro_publicado_es_el_que_produce_el_generador(raiz, tmp_path):
         "Ejecuta python tools/build_bibliography_json.py")
 
 
+def test_toda_norma_nombrada_enlaza_su_texto(raiz, partes):
+    """Nombrar una ley y no enlazarla obliga al lector a fiarse.
+
+    Son las únicas fuentes del programa que se leen completas y gratis: si una
+    clase las menciona, tiene que llevar a su texto oficial.
+    """
+    from spec import normas
+
+    fallos = []
+    for parte in partes:
+        base = os.path.join(raiz, "curriculum", parte["slug"])
+        for archivo in sorted(os.listdir(base)):
+            if not archivo.startswith("class-"):
+                continue
+            with open(os.path.join(base, archivo), encoding="utf-8") as fh:
+                texto = fh.read()
+            for clave, datos in normas.NORMAS.items():
+                if datos["numero"] in texto and normas.url(clave) not in texto:
+                    fallos.append("{}/{}: {}".format(parte["slug"], archivo, datos["numero"]))
+    assert not fallos, fallos[:5]
+
+
+def test_el_acceso_de_cada_obra_esta_declarado(entradas):
+    """Quien abre la bibliografía tiene derecho a saber qué puede leer gratis."""
+    validos = {"abierta", "restringida", "de-pago", "comercial"}
+    for e in entradas:
+        assert e["access"] in validos, (e["id"], e.get("access"))
+
+
 def test_el_verificador_da_verde(raiz):
     proceso = subprocess.run(
         [sys.executable, os.path.join(raiz, "scripts", "verify_sources.py")],

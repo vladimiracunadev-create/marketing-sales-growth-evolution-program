@@ -32,7 +32,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 from spec import bibliografia as bib  # noqa: E402
-from spec.localizadores import LOCALIZADORES, POLITICA, VERIFICADO_EN  # noqa: E402
+from spec.localizadores import LOCALIZADORES, POLITICA, VERIFICADO_EN, acceso  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
 
 DESTINO = os.path.join(RAIZ, "sources", "bibliography.json")
@@ -101,6 +101,9 @@ def entrada(clave, rutas, log):
         "category": categoria,
         "contribution": lente,
         "cited_as": autor_texto,
+        # Qué cuesta llegar a la obra. Decirlo aquí evita que alguien descubra
+        # a los tres clics que la fuente está detrás de un pago.
+        "access": acceso(clave),
     }
     if datos.get("isbn13"):
         e["isbn13"] = datos["isbn13"]

@@ -37,7 +37,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from spec import bibliografia as bib  # noqa: E402
 from spec.anclajes import ANCLAJES  # noqa: E402
 from spec.aportes import APORTES  # noqa: E402
-from spec.localizadores import enlace, etiqueta  # noqa: E402
+from spec.localizadores import acceso, acceso_legible, enlace, etiqueta  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
 
 INICIO = "<!-- BIBLIOGRAFIA:INICIO -->"
@@ -129,6 +129,30 @@ def uso_por_obra():
     return Counter({k: len(v) for k, v in clases_de.items()})
 
 
+def frase_acceso():
+    """Cuántas obras se pueden leer gratis y cuántas no. Sin adornos.
+
+    Un lector que abre la bibliografía y descubre a los tres clics que todo
+    está detrás de un pago tiene derecho a saberlo antes.
+    """
+    cuenta = Counter(acceso(k) for k in bib.LIBROS)
+    partes = []
+    if cuenta["abierta"]:
+        partes.append("**{}** se pueden leer completas y gratis en su fuente".format(
+            cuenta["abierta"]))
+    if cuenta["restringida"]:
+        partes.append("**{}** están publicadas por su editor pero con acceso limitado o de "
+                      "pago".format(cuenta["restringida"]))
+    if cuenta["de-pago"]:
+        partes.append("**{}** es una norma que hay que comprar al organismo emisor".format(
+            cuenta["de-pago"]))
+    if cuenta["comercial"]:
+        partes.append("y **{}** son libros comerciales: se compran o se piden en "
+                      "biblioteca".format(cuenta["comercial"]))
+    return ("De las {} obras, {}. El programa no distribuye ninguna: las cita, las contrasta y "
+            "enseña a usarlas de forma selectiva.".format(len(bib.LIBROS), "; ".join(partes)))
+
+
 def cifras(datos):
     entradas = datos["entries"]
     return {
@@ -150,19 +174,32 @@ def bloque():
     lineas = [
         INICIO,
         "",
-        "## 📚 Bibliografía: en qué se apoya lo que el programa afirma",
+        "## 📚 Bibliografía: qué está comprobado y qué es atribución",
         "",
-        "Ninguna afirmación de estas 336 clases es invención del programa. Cada una se apoya en "
-        "obras identificables, y aquí están todas: **{} obras**, con lo que aporta cada una, en "
-        "cuántas clases se cita y **el enlace donde se resuelve su edición exacta**. Si algo del "
-        "material te parece discutible, esta lista es por dónde se comprueba.".format(
-            c["entradas del registro"]),
+        "Estas son las **{} obras** sobre las que se apoya el programa. Antes de la lista conviene "
+        "separar dos cosas que las bibliografías suelen mezclar, porque de esa mezcla salen las "
+        "citas que nadie puede comprobar.".format(c["entradas del registro"]),
         "",
-        "Citar no basta, así que el programa va un paso más allá: de estas obras se catalogaron "
-        "**{} ideas concretas**, y cada una de las 336 clases declara **cuál** de ellas sostiene "
-        "cada una de sus cuatro citas —**{} anclajes**— y en qué capítulo buscarla. Eso es lo que "
-        "distingue una fuente que sostiene el texto de una que sólo lo decora.".format(
-            total_aportes, total_anclajes),
+        "**Comprobado:** que cada obra existe y cuál es exactamente la edición. Los {} localizadores "
+        "resuelven contra el catálogo de OpenLibrary, contra doi.org o contra el sitio del organismo "
+        "emisor, y se revalidan periódicamente. Eso es un hecho verificable y cualquiera puede "
+        "repetir la comprobación.".format(c["obras con localizador verificado"]),
+        "",
+        "**Atribución del programa:** que la idea que cada clase señala esté en el capítulo que "
+        "indica. De estas obras se catalogaron **{} ideas**, y las 336 clases declaran cuál de ellas "
+        "sostiene cada una de sus citas —**{} anclajes**—. Esa atribución es la lectura que el "
+        "programa hace de cada obra; **no está cotejada frase por frase contra el texto**, y se "
+        "declara con este detalle justamente para que se pueda contrastar. Si abres una obra y la "
+        "idea no está donde se dice, la cita está mal puesta y corresponde reportarlo como error del "
+        "material. En los términos del [estándar de evidencia](docs/ESTANDAR-DE-EVIDENCIA.md) del "
+        "propio programa: el localizador es un hecho verificado; la atribución, una inferencia "
+        "declarada.".format(total_aportes, total_anclajes),
+        "",
+        "**Qué cuesta comprobarlo.** {}".format(frase_acceso()),
+        "",
+        "La excepción son las normas chilenas, que sí se pueden leer completas y gratis: cada clase "
+        "enlaza el texto oficial en Ley Chile, con el título tal como lo publica la Biblioteca del "
+        "Congreso Nacional. Ahí no hay nada que creer.",
         "",
         INICIO_CIFRAS,
         "",
@@ -207,14 +244,14 @@ def bloque():
         lineas += [
             "### {}".format(titulo_cat),
             "",
-            "| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |",
-            "|---|---|---|---|---:|---|",
+            "| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador | Acceso |",
+            "|---|---|---|---|---:|---|---|",
         ]
         for k in obras:
             autor, obra, edicion, lente, _cat = bib.LIBROS[k]
-            lineas.append("| {} | {} | {} | {} | {} | {} |".format(
+            lineas.append("| {} | {} | {} | {} | {} | {} | {} |".format(
                 autor, enlace(k, "*{}*".format(obra)), edicion, lente,
-                veces.get(k, 0), etiqueta(k)))
+                veces.get(k, 0), etiqueta(k), acceso_legible(k)))
         lineas.append("")
 
     faltan = sorted(set(bib.LIBROS) - vistos)

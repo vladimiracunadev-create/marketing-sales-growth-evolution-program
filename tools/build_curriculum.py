@@ -27,9 +27,10 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 
 from spec import bibliografia as bib  # noqa: E402
+from spec import normas  # noqa: E402
 from spec.anclajes import ANCLAJES  # noqa: E402
 from spec.aportes import APORTES  # noqa: E402
-from spec.localizadores import enlace, etiqueta  # noqa: E402
+from spec.localizadores import acceso_legible, enlace, etiqueta  # noqa: E402
 from spec.partes import EMPRESA, PARTES  # noqa: E402
 
 
@@ -691,16 +692,33 @@ def bloque_respuestas(parte, clase):
 
 
 def bloque_chile(parte, clase):
+    """Cumplimiento chileno, con el texto de cada norma enlazado.
+
+    Antes esta sección nombraba las leyes y remitía a documentos internos del
+    repositorio. Nombrar una ley y no enlazarla obliga al lector a fiarse: es
+    justo lo contrario de lo que la sección pide. Estas normas son además las
+    únicas fuentes del programa que se pueden leer completas y gratis, así que
+    aquí no hay nada que creer, hay un texto al que ir.
+    """
     return "\n".join([
         "## 🇨🇱 Contexto chileno y cumplimiento",
         "",
         "Riesgo asociado a esta parte: **{}** Antes de ejecutar cualquier recomendación de esta clase en una "
-        "operación real, revisa el mapa regulatorio del repositorio y valida la norma en su fuente primaria "
-        "vigente.".format(parte["riesgo"]),
+        "operación real, comprueba la norma en su texto vigente. Los enlaces van al texto completo publicado "
+        "por la Biblioteca del Congreso Nacional; son gratuitos y no hace falta creerle a este "
+        "material.".format(parte["riesgo"]),
         "",
-        "- Consumo y comercio: `docs/MAPA-REGULATORIO-CHILE.md` (Ley 19.496 y reglamento de comercio electrónico).",
-        "- Datos personales: `docs/DATOS-PERSONALES-Y-ETICA.md` (Ley 21.719 y régimen vigente).",
-        "- Fuentes oficiales con fecha de consulta: `docs/FUENTES-OFICIALES.md`.",
+        "- **Consumo y comercio.** {}, y su reglamento de comercio electrónico, {}.".format(
+            normas.cita("ley-19496"), normas.cita("decreto-6-2021")),
+        "- **Datos personales.** {}, que sustituye progresivamente a {}.".format(
+            normas.cita("ley-21719"), normas.cita("ley-19628")),
+        "- **Derecho a retracto.** {}.".format(normas.cita("decreto-52-2024")),
+        "",
+        "Dentro del repositorio, el "
+        "[mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) ordena qué norma aplica a cada decisión "
+        "comercial, [datos personales y ética](../../docs/DATOS-PERSONALES-Y-ETICA.md) desarrolla el "
+        "tratamiento de datos y [fuentes oficiales](../../docs/FUENTES-OFICIALES.md) lista los organismos con "
+        "su fecha de consulta. Ninguno de esos documentos reemplaza al texto legal.",
         "",
         "La regla del programa es simple: **la fuente oficial manda sobre el material pedagógico**. Si la norma "
         "cambió después de la fecha de esta clase, gana la norma.",
@@ -745,13 +763,22 @@ def bloque_evaluacion(clase):
 
 def bloque_fuentes(parte, clase):
     lineas = ["## 📗 Fuentes y verificación", "",
-              "Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la "
-              "idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se "
-              "resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y "
-              "corresponde reportarlo como error del material.", ""]
+              "Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.",
+              "",
+              "**Lo que está comprobado.** Que cada obra existe y cuál es exactamente la edición: el enlace "
+              "resuelve su ISBN contra el catálogo de OpenLibrary, y eso se revalida periódicamente. Las "
+              "normas chilenas citadas más arriba enlazan su texto completo y gratuito.",
+              "",
+              "**Lo que es atribución del programa.** Que la idea señalada esté en el capítulo que se indica. "
+              "Eso es la lectura que este material hace de cada obra, no una cita textual cotejada frase por "
+              "frase, y se declara así de explícito para que puedas contrastarlo: si abres la obra y no "
+              "encuentras la idea donde se dice, la cita está mal puesta y **corresponde reportarlo como error "
+              "del material**. No se citan números de página porque cambian entre ediciones.",
+              ""]
     for clave, idea, donde in anclas(parte, clase):
-        lineas.append("- {} — **aporta a esta clase:** {}. **Dónde buscarlo:** {}. Registra edición y páginas "
-                      "consultadas en tu nota de lectura.".format(cita_localizada(clave), idea, donde))
+        lineas.append("- {} — **aporta a esta clase:** {}. **Dónde buscarlo:** {}. **Acceso:** {}. Registra "
+                      "edición y páginas consultadas en tu nota de lectura.".format(
+                          cita_localizada(clave), idea, donde, acceso_legible(clave)))
     lineas.append("")
     lineas.append("**Estándar pedagógico del programa:** " + "; ".join(
         "{} — {} ({})".format(bib.autor(k), enlace(k, "*{}*".format(bib.obra(k))),
@@ -941,19 +968,20 @@ def render_readme(parte, clases):
         "",
         "## Bibliografía de la parte",
         "",
-        "Nada de lo que se afirma en estas {} clases es invención del programa. Estas son las obras "
-        "que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El "
-        "título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están "
-        "hechos los anclajes.".format(len(clases)),
+        "Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en "
+        "cuántas de sus {} clases aparece. Está comprobado que cada obra existe y cuál es la "
+        "edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo "
+        "que indica cada clase es la lectura del programa y está para que la contrastes. La "
+        "columna «Acceso» dice de antemano qué puedes leer sin pagar.".format(len(clases)),
         "",
-        "| Obra | Qué aporta | Clases | Localizador |",
-        "|---|---|---:|---|",
+        "| Obra | Qué aporta | Clases | Localizador | Acceso |",
+        "|---|---|---:|---|---|",
     ]
     for clave, veces in obras_de_la_parte(clases):
         autor, obra, edicion, lente, _cat = bib.LIBROS[clave]
-        lineas.append("| {} — {} ({}) | {} | {} | {} |".format(
+        lineas.append("| {} — {} ({}) | {} | {} | {} | {} |".format(
             autor, enlace(clave, "*{}*".format(obra)), edicion, lente, veces,
-            etiqueta(clave)))
+            etiqueta(clave), acceso_legible(clave)))
 
     rectoras = [k for k in parte["libros"]]
     lineas += [

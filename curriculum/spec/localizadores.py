@@ -36,10 +36,20 @@ Claves de cada entrada:
 ``url``          normas y documentación oficial
 ``autoridad``    editorial u organismo que responde por la fuente
 ``consultado``   fecha de la última comprobación de una URL
-``comprobacion`` "manual" si el sitio rechaza clientes automatizados
+``acceso``       abierta | restringida | de-pago | comercial (ver abajo)
 ``nota``         qué hay que saber al usar esta entrada
 ``estado``       verificada | pendiente
 ===============  ==========================================================
+
+Sobre ``acceso``: decir dónde está una obra no sirve de nada si además hay que
+pagar por ella y el lector se entera al llegar. Se declara para que cualquiera
+sepa, antes de hacer clic, qué puede comprobar hoy y sin gastar:
+
+* ``abierta``      texto completo gratuito en la propia dirección.
+* ``restringida``  el editor la publica, pero limita o cobra el acceso.
+* ``de-pago``      hay que comprarla en el organismo emisor (normas ISO).
+* ``comercial``    libro: se compra o se pide en biblioteca. Es el caso por
+                   defecto y el de la enorme mayoría del catálogo.
 
 La revalidación en red la hace `scripts/refresh_sources.py`, que escribe
 `sources/verification-log.json` y nunca bloquea el CI.
@@ -52,11 +62,19 @@ from __future__ import annotations
 VERIFICADO_EN = "2026-08-19"
 
 POLITICA = (
-    "Toda afirmación del programa se apoya en una entrada de este registro. "
-    "Ninguna entrada se acepta sin localizador verificable: ISBN-13 con dígito "
-    "de control válido para libros, DOI para artículos, y URL de la fuente "
-    "primaria con fecha de consulta para normas y documentación oficial. Lo que "
-    "no resuelve se marca como pendiente; no se borra ni se rellena."
+    "Este registro acredita UNA cosa: que cada obra citada existe y cuál es la "
+    "edición exacta a la que se refiere el programa. Ninguna entrada se acepta "
+    "sin localizador verificable —ISBN-13 con dígito de control válido para "
+    "libros, DOI para artículos, URL de la fuente primaria con fecha de consulta "
+    "para normas y documentación oficial—, y lo que no resuelve se marca como "
+    "pendiente en lugar de rellenarse. "
+    "Lo que este registro NO acredita: que la idea que el programa atribuye a "
+    "cada obra esté donde se dice. Esa atribución es la lectura del programa, no "
+    "una cita textual comprobada frase por frase, y por eso cada clase declara "
+    "qué idea concreta usa y en qué capítulo buscarla: para que quien tenga la "
+    "obra pueda contrastarlo y reportar el error si no coincide. En los términos "
+    "del propio estándar de evidencia del programa, el localizador es un hecho "
+    "verificado y la atribución es una inferencia declarada."
 )
 
 LOCALIZADORES = {
@@ -292,6 +310,7 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
     "levitt": {
+        "acceso": "restringida",
         "tipo": "reference",
         "autores": ["Levitt, Theodore"],
         "publicado": "1960",
@@ -448,6 +467,7 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
     "laja": {
+        "acceso": "restringida",
         "tipo": "reference",
         "autores": ["Laja, Peep"],
         "publicado": "2024",
@@ -679,6 +699,7 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
     "porter-hbr": {
+        "acceso": "restringida",
         "tipo": "reference",
         "autores": ["Porter, Michael E."],
         "publicado": "1996",
@@ -804,6 +825,7 @@ LOCALIZADORES = {
 
     # --- Ética y consecuencias -----------------------------------------------
     "iso-31000": {
+        "acceso": "de-pago",
         "tipo": "standard",
         "autores": ["International Organization for Standardization"],
         "publicado": "2018",
@@ -861,6 +883,7 @@ LOCALIZADORES = {
 
     # --- Inteligencia artificial y riesgo ------------------------------------
     "ng-mlyearning": {
+        "acceso": "abierta",
         "tipo": "reference",
         "autores": ["Ng, Andrew"],
         "publicado": "2018",
@@ -871,6 +894,7 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
     "nist-airmf": {
+        "acceso": "abierta",
         "tipo": "standard",
         "autores": ["National Institute of Standards and Technology"],
         "publicado": "2023",
@@ -917,6 +941,23 @@ def localizador(clave):
     if datos["tipo"] == "paper" and datos.get("doi"):
         return "https://doi.org/{}".format(datos["doi"])
     return datos.get("url") or None
+
+
+ACCESO_LEGIBLE = {
+    "abierta": "gratis",
+    "restringida": "acceso limitado",
+    "de-pago": "de pago",
+    "comercial": "comprar o biblioteca",
+}
+
+
+def acceso(clave):
+    """Qué cuesta llegar a esta obra. Los libros son comerciales por defecto."""
+    return LOCALIZADORES[clave].get("acceso", "comercial")
+
+
+def acceso_legible(clave):
+    return ACCESO_LEGIBLE[acceso(clave)]
 
 
 def etiqueta(clave):

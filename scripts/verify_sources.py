@@ -7,7 +7,7 @@ a buscar? Citar un título no basta. Una obra sin localizador es una obra que el
 lector tiene que encontrar por su cuenta, y una bibliografía que sólo vive en la
 portada es una bibliografía que nadie puede comprobar.
 
-Este verificador no usa red. Comprueba diez cosas:
+Este verificador no usa red. Comprueba once cosas:
 
   1. El registro parsea y cumple el esquema declarado.
   2. Todo libro tiene ISBN-13 con dígito de control válido.
@@ -18,7 +18,8 @@ Este verificador no usa red. Comprueba diez cosas:
   7. Las rutas declaradas en `used_in` existen en el disco.
   8. Ningún bloque de fuentes se repite entre clases.
   9. Cada cita de cada clase declara qué idea concreta sostiene.
- 10. Las cifras que muestra el README coinciden con el recuento del registro.
+ 10. Toda norma nombrada en una clase enlaza su texto oficial.
+ 11. Las cifras que muestra el README coinciden con el recuento del registro.
 
 Lo que este verificador NO hace: pedir nada por red. Si la red entra en el CI,
 el CI se vuelve inestable y se acaba ignorando. La comprobación en red vive en
@@ -293,11 +294,22 @@ def verificar_clases(informe, detalle):
     huellas = {}
     sin_bloque = []
     sin_uso_declarado = []
+    norma_sin_texto = []
+    from spec import normas as spec_normas
+
     for ruta in clases:
         with open(ruta, encoding="utf-8") as fh:
             texto = fh.read()
         bloque = bloque_de_fuentes(texto)
         rel = os.path.relpath(ruta, RAIZ).replace(os.sep, "/")
+
+        # Una norma nombrada y no enlazada obliga al lector a fiarse. Estas son
+        # las únicas fuentes del programa que se leen gratis y completas: si la
+        # clase las menciona, tiene que llevar a su texto.
+        for clave, datos in spec_normas.NORMAS.items():
+            if datos["numero"] in texto and spec_normas.url(clave) not in texto:
+                norma_sin_texto.append((rel, datos["numero"]))
+
         if not bloque:
             sin_bloque.append(rel)
             continue
@@ -313,6 +325,8 @@ def verificar_clases(informe, detalle):
         informe.error("{}: no tiene bloque de fuentes".format(rel))
     for rel in sorted(set(sin_uso_declarado)):
         informe.error("{}: una cita no declara qué aporta a esta clase".format(rel))
+    for rel, numero in sorted(set(norma_sin_texto)):
+        informe.error("{}: nombra {} sin enlazar su texto oficial".format(rel, numero))
 
     repetidos = {h: v for h, v in huellas.items() if len(v) > 1}
     for _h, grupo in sorted(repetidos.items(), key=lambda kv: kv[1][0]):

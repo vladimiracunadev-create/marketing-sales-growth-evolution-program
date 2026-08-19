@@ -216,16 +216,25 @@ def build_bibliografia(datos):
         "3. Se exige contrastar al menos dos fuentes y registrar una tensión real entre ellas.",
         "4. Toda norma, tarifa o política viva citada en una obra debe revalidarse en su fuente oficial.",
         "",
-        "## Dónde se resuelve cada obra",
+        "## Qué está comprobado y qué es atribución",
         "",
-        "Cada obra de esta lista tiene una entrada en "
+        "**Comprobado:** que cada obra existe y cuál es la edición. Cada una tiene entrada en "
         "[`sources/bibliography.json`](../sources/bibliography.json) con un localizador que se puede "
-        "seguir: **ISBN-13** para libros, **DOI** para artículos y **URL de la fuente primaria** para "
-        "normas y documentación oficial. La columna «Dónde» enlaza ese localizador. Cuando dice "
-        "«pendiente», es que todavía no se pudo comprobar y así queda declarado: un hueco declarado es "
-        "información, uno rellenado por intuición es una invención con formato de bibliografía.",
+        "seguir —**ISBN-13** para libros, **DOI** para artículos, **URL de la fuente primaria** para "
+        "normas y documentación oficial— y la columna «Dónde» lo enlaza. Cuando dice «pendiente», es "
+        "que no se pudo comprobar y así queda declarado: un hueco declarado es información, uno "
+        "rellenado por intuición es una invención con formato de bibliografía. Comprobable con "
+        "`python scripts/verify_sources.py`.",
         "",
-        "Comprobable con `python scripts/verify_sources.py`.",
+        "**Atribución:** que la idea que cada clase señala esté en el capítulo que indica. Eso es la "
+        "lectura que el programa hace de cada obra y **no está cotejada frase por frase contra el "
+        "texto**. Se declara con ese detalle para que se pueda contrastar: si abres la obra y la idea "
+        "no está donde se dice, corresponde reportarlo como error del material. En los términos del "
+        "[estándar de evidencia](ESTANDAR-DE-EVIDENCIA.md) del propio programa, el localizador es un "
+        "hecho verificado y la atribución una inferencia declarada.",
+        "",
+        "Las normas chilenas son la excepción: se leen completas y gratis, y cada clase enlaza su "
+        "texto oficial en Ley Chile.",
         "",
     ]
     for cat, titulo in CATEGORIAS:

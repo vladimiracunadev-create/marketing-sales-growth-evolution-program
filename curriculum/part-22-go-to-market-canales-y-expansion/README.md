@@ -57,34 +57,34 @@ Abrir frentes simultáneos sin capacidad, diluir foco y llegar tarde a todos. An
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Geoffrey A. Moore — [*Crossing the Chasm*](https://openlibrary.org/isbn/9780062293008) (2014, 3.ª ed.) | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | 12 | ISBN 9780062293008 |
-| Richard Rumelt — [*Good Strategy / Bad Strategy*](https://openlibrary.org/isbn/9781846684807) (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 7 | ISBN 9781846684807 |
-| Michael E. Porter — [*Competitive Strategy*](https://openlibrary.org/isbn/9780029253601) (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | 6 | ISBN 9780029253601 |
-| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 5 | ISBN 9780984380213 |
-| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 3 | ISBN 9781119387541 |
-| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 3 | ISBN 9781449335670 |
-| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 3 | ISBN 9781777119317 |
-| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 3 | ISBN 9780241242551 |
-| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 2 | ISBN 9781119047018 |
-| Steve Blank y Bob Dorf — [*The Startup Owner's Manual*](https://openlibrary.org/isbn/9780984999385) (2012) | customer discovery y validación fuera del edificio como proceso reproducible | 2 | ISBN 9780984999385 |
-| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 2 | ISBN 9781138737501 |
-| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — [*Competing Against Luck*](https://openlibrary.org/isbn/9780062435613) (2016) | Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación | 1 | ISBN 9780062435613 |
-| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 1 | ISBN 9781119854319 |
-| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 1 | ISBN 9780451497215 |
-| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 1 | fuente primaria |
-| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 1 | ISBN 9780875846514 |
-| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 1 | ISBN 9780814473245 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 1 | ISBN 9780525540830 |
-| Michael E. Porter — [*What Is Strategy? (Harvard Business Review)*](https://hbr.org/1996/11/what-is-strategy) (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | 1 | fuente primaria |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Geoffrey A. Moore — [*Crossing the Chasm*](https://openlibrary.org/isbn/9780062293008) (2014, 3.ª ed.) | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | 12 | ISBN 9780062293008 | comprar o biblioteca |
+| Richard Rumelt — [*Good Strategy / Bad Strategy*](https://openlibrary.org/isbn/9781846684807) (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 7 | ISBN 9781846684807 | comprar o biblioteca |
+| Michael E. Porter — [*Competitive Strategy*](https://openlibrary.org/isbn/9780029253601) (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | 6 | ISBN 9780029253601 | comprar o biblioteca |
+| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 5 | ISBN 9780984380213 | comprar o biblioteca |
+| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 3 | ISBN 9781119387541 | comprar o biblioteca |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 3 | ISBN 9781449335670 | comprar o biblioteca |
+| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 3 | ISBN 9781777119317 | comprar o biblioteca |
+| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 3 | ISBN 9780241242551 | comprar o biblioteca |
+| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 2 | ISBN 9781119047018 | comprar o biblioteca |
+| Steve Blank y Bob Dorf — [*The Startup Owner's Manual*](https://openlibrary.org/isbn/9780984999385) (2012) | customer discovery y validación fuera del edificio como proceso reproducible | 2 | ISBN 9780984999385 | comprar o biblioteca |
+| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 2 | ISBN 9781138737501 | comprar o biblioteca |
+| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan — [*Competing Against Luck*](https://openlibrary.org/isbn/9780062435613) (2016) | Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación | 1 | ISBN 9780062435613 | comprar o biblioteca |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 1 | ISBN 9781119854319 | comprar o biblioteca |
+| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 1 | ISBN 9780451497215 | comprar o biblioteca |
+| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 1 | fuente primaria | de pago |
+| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 1 | ISBN 9780875846514 | comprar o biblioteca |
+| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 1 | ISBN 9780814473245 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 1 | ISBN 9780525540830 | comprar o biblioteca |
+| Michael E. Porter — [*What Is Strategy? (Harvard Business Review)*](https://hbr.org/1996/11/what-is-strategy) (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | 1 | fuente primaria | acceso limitado |
 
 De todas ellas, las que ordenan el criterio de esta parte son Geoffrey A. Moore (*Crossing the Chasm*), Gabriel Weinberg y Justin Mares (*Traction*), Wes Bush (*Product-Led Growth*), Aaron Ross y Marylou Tyler (*Predictable Revenue*), Michael E. Porter (*What Is Strategy? (Harvard Business Review)*) y Richard Rumelt (*Good Strategy / Bad Strategy*). Si sólo puedes leer una, empieza por Geoffrey A. Moore — *Crossing the Chasm*.
 

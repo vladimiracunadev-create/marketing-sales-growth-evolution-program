@@ -57,27 +57,27 @@ Ceder margen y condiciones bajo presión de cierre de trimestre y crear preceden
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Deepak Malhotra y Max H. Bazerman — [*Negotiation Genius*](https://openlibrary.org/isbn/9780553804881) (2007) | preparación analítica, ZOPA, valor creado frente a valor reclamado y ética negociadora | 14 | ISBN 9780553804881 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Roger Fisher, William Ury y Bruce Patton — [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) (2011, 3.ª ed.) | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 12 | ISBN 9781101539545 |
-| G. Richard Shell — [*Bargaining for Advantage*](https://openlibrary.org/isbn/9780143036975) (2006) | estilos de negociación, autoridad y estándares de legitimidad | 9 | ISBN 9780143036975 |
-| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 6 | ISBN 9781138737501 |
-| William Ury — [*Getting Past No*](https://openlibrary.org/isbn/9780553903645) (2007) | manejo de tácticas duras, reencuadre y construcción de puentes | 4 | ISBN 9780553903645 |
-| Chris Voss y Tahl Raz — [*Never Split the Difference*](https://openlibrary.org/isbn/9781473535169) (2016) | empatía táctica, etiquetado y preguntas calibradas bajo presión | 3 | ISBN 9781473535169 |
-| Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 2 | ISBN 9780394532349 |
-| Hermann Simon — [*Confessions of the Pricing Man*](https://openlibrary.org/isbn/9783319204000) (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | 1 | ISBN 9783319204000 |
-| Michael R. Solomon — [*Consumer Behavior: Buying, Having, and Being*](https://openlibrary.org/isbn/9781292318103) (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 1 | ISBN 9781292318103 |
-| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 1 | fuente primaria |
-| Dan Ariely — [*Predictably Irrational*](https://openlibrary.org/isbn/9780061353239) (2008) | efectos de anclaje, gratuidad y comparación en la percepción de valor | 1 | ISBN 9780061353239 |
-| Daniel Kahneman — [*Thinking, Fast and Slow*](https://openlibrary.org/isbn/9780141918921) (2011) | sistemas 1 y 2, heurísticas y sesgos aplicables a decisiones de compra y de gestión | 1 | ISBN 9780141918921 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Deepak Malhotra y Max H. Bazerman — [*Negotiation Genius*](https://openlibrary.org/isbn/9780553804881) (2007) | preparación analítica, ZOPA, valor creado frente a valor reclamado y ética negociadora | 14 | ISBN 9780553804881 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Roger Fisher, William Ury y Bruce Patton — [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) (2011, 3.ª ed.) | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 12 | ISBN 9781101539545 | comprar o biblioteca |
+| G. Richard Shell — [*Bargaining for Advantage*](https://openlibrary.org/isbn/9780143036975) (2006) | estilos de negociación, autoridad y estándares de legitimidad | 9 | ISBN 9780143036975 | comprar o biblioteca |
+| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 6 | ISBN 9781138737501 | comprar o biblioteca |
+| William Ury — [*Getting Past No*](https://openlibrary.org/isbn/9780553903645) (2007) | manejo de tácticas duras, reencuadre y construcción de puentes | 4 | ISBN 9780553903645 | comprar o biblioteca |
+| Chris Voss y Tahl Raz — [*Never Split the Difference*](https://openlibrary.org/isbn/9781473535169) (2016) | empatía táctica, etiquetado y preguntas calibradas bajo presión | 3 | ISBN 9781473535169 | comprar o biblioteca |
+| Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 2 | ISBN 9780394532349 | comprar o biblioteca |
+| Hermann Simon — [*Confessions of the Pricing Man*](https://openlibrary.org/isbn/9783319204000) (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | 1 | ISBN 9783319204000 | comprar o biblioteca |
+| Michael R. Solomon — [*Consumer Behavior: Buying, Having, and Being*](https://openlibrary.org/isbn/9781292318103) (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 1 | ISBN 9781292318103 | comprar o biblioteca |
+| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 1 | fuente primaria | de pago |
+| Dan Ariely — [*Predictably Irrational*](https://openlibrary.org/isbn/9780061353239) (2008) | efectos de anclaje, gratuidad y comparación en la percepción de valor | 1 | ISBN 9780061353239 | comprar o biblioteca |
+| Daniel Kahneman — [*Thinking, Fast and Slow*](https://openlibrary.org/isbn/9780141918921) (2011) | sistemas 1 y 2, heurísticas y sesgos aplicables a decisiones de compra y de gestión | 1 | ISBN 9780141918921 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Roger Fisher, William Ury y Bruce Patton (*Getting to Yes*), Deepak Malhotra y Max H. Bazerman (*Negotiation Genius*), Chris Voss y Tahl Raz (*Never Split the Difference*), William Ury (*Getting Past No*), G. Richard Shell (*Bargaining for Advantage*) y Thomas T. Nagle y Georg Müller (*The Strategy and Tactics of Pricing*). Si sólo puedes leer una, empieza por Roger Fisher, William Ury y Bruce Patton — *Getting to Yes*.
 

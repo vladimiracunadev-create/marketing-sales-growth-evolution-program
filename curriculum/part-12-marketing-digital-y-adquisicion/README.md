@@ -57,36 +57,36 @@ Optimizar métricas de vanidad y desatender consentimiento, cookies y datos pers
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 9 | ISBN 9781292400990 |
-| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 7 | ISBN 9780470596425 |
-| Bryan Eisenberg y Jeffrey Eisenberg — [*Call to Action*](https://openlibrary.org/isbn/9781932226393) (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | 4 | ISBN 9781932226393 |
-| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 4 | fuente primaria |
-| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 3 | ISBN 9780321965516 |
-| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 3 | ISBN 9781119854319 |
-| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 3 | ISBN 9780852941348 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 3 | ISBN 9780525540830 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 3 | ISBN 9781108601375 |
-| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 2 | ISBN 9781264257546 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 2 | ISBN 9781449374280 |
-| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 2 | ISBN 9781449335670 |
-| Eric Enge, Stephan Spencer y Jessie Stricchiola — [*The Art of SEO*](https://openlibrary.org/isbn/9781098102616) (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 2 | ISBN 9781098102616 |
-| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 |
-| Brad Geddes — [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | 1 | ISBN 9781118819647 |
-| Kevin Hillstrom — [*Hillstrom's Multichannel Forensics*](https://openlibrary.org/isbn/9780977148950) (2007) | diagnóstico de comportamiento de compra multicanal y migración de clientes | 1 | ISBN 9780977148950 |
-| Gary Vaynerchuk — [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) (2013) | secuencia de aporte de valor antes de la petición comercial en canales sociales | 1 | ISBN 9780062273079 |
-| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 1 | ISBN 9781119871132 |
-| Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 1 | ISBN 9780241003305 |
-| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 |
-| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 9 | ISBN 9781292400990 | comprar o biblioteca |
+| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 7 | ISBN 9780470596425 | comprar o biblioteca |
+| Bryan Eisenberg y Jeffrey Eisenberg — [*Call to Action*](https://openlibrary.org/isbn/9781932226393) (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | 4 | ISBN 9781932226393 | comprar o biblioteca |
+| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 4 | fuente primaria | acceso limitado |
+| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 3 | ISBN 9780321965516 | comprar o biblioteca |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 3 | ISBN 9781119854319 | comprar o biblioteca |
+| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 3 | ISBN 9780852941348 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 3 | ISBN 9780525540830 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 3 | ISBN 9781108601375 | comprar o biblioteca |
+| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 2 | ISBN 9781264257546 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 2 | ISBN 9781449374280 | comprar o biblioteca |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 2 | ISBN 9781449335670 | comprar o biblioteca |
+| Eric Enge, Stephan Spencer y Jessie Stricchiola — [*The Art of SEO*](https://openlibrary.org/isbn/9781098102616) (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 2 | ISBN 9781098102616 | comprar o biblioteca |
+| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 | comprar o biblioteca |
+| Brad Geddes — [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | 1 | ISBN 9781118819647 | comprar o biblioteca |
+| Kevin Hillstrom — [*Hillstrom's Multichannel Forensics*](https://openlibrary.org/isbn/9780977148950) (2007) | diagnóstico de comportamiento de compra multicanal y migración de clientes | 1 | ISBN 9780977148950 | comprar o biblioteca |
+| Gary Vaynerchuk — [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) (2013) | secuencia de aporte de valor antes de la petición comercial en canales sociales | 1 | ISBN 9780062273079 | comprar o biblioteca |
+| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 1 | ISBN 9781119871132 | comprar o biblioteca |
+| Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 1 | ISBN 9780241003305 | comprar o biblioteca |
+| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 | comprar o biblioteca |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Dave Chaffey y Fiona Ellis-Chadwick (*Digital Marketing*), Eric Enge, Stephan Spencer y Jessie Stricchiola (*The Art of SEO*), Avinash Kaushik (*Web Analytics 2.0*), Steve Krug (*Don't Make Me Think, Revisited*), Bryan Eisenberg y Jeffrey Eisenberg (*Call to Action*) y Peep Laja y el equipo de CXL (*Conversion Optimization Playbooks (CXL)*). Si sólo puedes leer una, empieza por Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing*.
 

@@ -57,29 +57,29 @@ Atribuirse demanda existente, inflar el retorno y decidir presupuesto sobre una 
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 13 | ISBN 9780470596425 |
-| Brad Geddes — [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | 11 | ISBN 9781118819647 |
-| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 8 | ISBN 9781292400990 |
-| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 4 | ISBN 9780852941348 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 3 | ISBN 9781449374280 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 3 | ISBN 9781108601375 |
-| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 3 | ISBN 9780945320531 |
-| Jenni Romaniuk y Byron Sharp — [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) (2015) | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | 2 | ISBN 9780195596267 |
-| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 2 | ISBN 9781449335670 |
-| David Ogilvy — [*Ogilvy on Advertising*](https://openlibrary.org/isbn/9780517550755) (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | 2 | ISBN 9780517550755 |
-| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 2 | ISBN 9780141985428 |
-| NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | 1 | DOI 10.6028/NIST.AI.100-1 |
-| Eric Enge, Stephan Spencer y Jessie Stricchiola — [*The Art of SEO*](https://openlibrary.org/isbn/9781098102616) (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 1 | ISBN 9781098102616 |
-| Brent Adamson y Matthew Dixon — [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 1 | ISBN 9780241196564 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 13 | ISBN 9780470596425 | comprar o biblioteca |
+| Brad Geddes — [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) (2014, 3.ª ed.) | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | 11 | ISBN 9781118819647 | comprar o biblioteca |
+| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 8 | ISBN 9781292400990 | comprar o biblioteca |
+| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 4 | ISBN 9780852941348 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 3 | ISBN 9781449374280 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 3 | ISBN 9781108601375 | comprar o biblioteca |
+| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 3 | ISBN 9780945320531 | comprar o biblioteca |
+| Jenni Romaniuk y Byron Sharp — [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) (2015) | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | 2 | ISBN 9780195596267 | comprar o biblioteca |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 2 | ISBN 9781449335670 | comprar o biblioteca |
+| David Ogilvy — [*Ogilvy on Advertising*](https://openlibrary.org/isbn/9780517550755) (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | 2 | ISBN 9780517550755 | comprar o biblioteca |
+| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 2 | ISBN 9780141985428 | comprar o biblioteca |
+| NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | 1 | DOI 10.6028/NIST.AI.100-1 | gratis |
+| Eric Enge, Stephan Spencer y Jessie Stricchiola — [*The Art of SEO*](https://openlibrary.org/isbn/9781098102616) (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 1 | ISBN 9781098102616 | comprar o biblioteca |
+| Brent Adamson y Matthew Dixon — [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 1 | ISBN 9780241196564 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Brad Geddes (*Advanced Google AdWords*), Avinash Kaushik (*Web Analytics 2.0*), Les Binet y Peter Field (*The Long and the Short of It*), David Ogilvy (*Ogilvy on Advertising*), Ron Kohavi, Diane Tang y Ya Xu (*Trustworthy Online Controlled Experiments*) y Dave Chaffey y Fiona Ellis-Chadwick (*Digital Marketing*). Si sólo puedes leer una, empieza por Brad Geddes — *Advanced Google AdWords*.
 

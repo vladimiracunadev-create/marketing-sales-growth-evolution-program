@@ -57,33 +57,33 @@ Publicar afirmaciones no verificables o promesas comerciales que infrinjan la le
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 11 | ISBN 9781119854319 |
-| Joseph Sugarman — [*The Adweek Copywriting Handbook*](https://openlibrary.org/isbn/9780470051245) (2007) | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | 6 | ISBN 9780470051245 |
-| Chip Heath y Dan Heath — [*Made to Stick*](https://openlibrary.org/isbn/9781400064281) (2007) | ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción | 5 | ISBN 9781400064281 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 5 | ISBN 9780525540830 |
-| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 4 | ISBN 9780062937650 |
-| David Ogilvy — [*Ogilvy on Advertising*](https://openlibrary.org/isbn/9780517550755) (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | 4 | ISBN 9780517550755 |
-| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 3 | ISBN 9781264257546 |
-| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 3 | fuente primaria |
-| Bryan Eisenberg y Jeffrey Eisenberg — [*Call to Action*](https://openlibrary.org/isbn/9781932226393) (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | 2 | ISBN 9781932226393 |
-| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 2 | ISBN 9780321965516 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 2 | ISBN 9781108601375 |
-| Alina Wheeler y Rob Meyerson — [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 1 | ISBN 9781119984825 |
-| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 1 | ISBN 9781292400990 |
-| Jenni Romaniuk y Byron Sharp — [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) (2015) | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | 1 | ISBN 9780195596267 |
-| Kevin Lane Keller y Vanitha Swaminathan — [*Strategic Brand Management*](https://openlibrary.org/isbn/9780134892498) (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 1 | ISBN 9780134892498 |
-| Brent Adamson y Matthew Dixon — [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 1 | ISBN 9780241196564 |
-| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 1 | ISBN 9780852941348 |
-| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 11 | ISBN 9781119854319 | comprar o biblioteca |
+| Joseph Sugarman — [*The Adweek Copywriting Handbook*](https://openlibrary.org/isbn/9780470051245) (2007) | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | 6 | ISBN 9780470051245 | comprar o biblioteca |
+| Chip Heath y Dan Heath — [*Made to Stick*](https://openlibrary.org/isbn/9781400064281) (2007) | ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción | 5 | ISBN 9781400064281 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 5 | ISBN 9780525540830 | comprar o biblioteca |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 4 | ISBN 9780062937650 | comprar o biblioteca |
+| David Ogilvy — [*Ogilvy on Advertising*](https://openlibrary.org/isbn/9780517550755) (1983) | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | 4 | ISBN 9780517550755 | comprar o biblioteca |
+| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 3 | ISBN 9781264257546 | comprar o biblioteca |
+| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 3 | fuente primaria | acceso limitado |
+| Bryan Eisenberg y Jeffrey Eisenberg — [*Call to Action*](https://openlibrary.org/isbn/9781932226393) (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | 2 | ISBN 9781932226393 | comprar o biblioteca |
+| Steve Krug — [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 2 | ISBN 9780321965516 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 2 | ISBN 9781108601375 | comprar o biblioteca |
+| Alina Wheeler y Rob Meyerson — [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 1 | ISBN 9781119984825 | comprar o biblioteca |
+| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 1 | ISBN 9781292400990 | comprar o biblioteca |
+| Jenni Romaniuk y Byron Sharp — [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) (2015) | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | 1 | ISBN 9780195596267 | comprar o biblioteca |
+| Kevin Lane Keller y Vanitha Swaminathan — [*Strategic Brand Management*](https://openlibrary.org/isbn/9780134892498) (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 1 | ISBN 9780134892498 | comprar o biblioteca |
+| Brent Adamson y Matthew Dixon — [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 1 | ISBN 9780241196564 | comprar o biblioteca |
+| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 1 | ISBN 9780852941348 | comprar o biblioteca |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Ann Handley (*Everybody Writes*), Joseph Sugarman (*The Adweek Copywriting Handbook*), Chip Heath y Dan Heath (*Made to Stick*), David Ogilvy (*Ogilvy on Advertising*), Joe Pulizzi (*Content Inc.*) y Robert B. Cialdini (*Influence: The Psychology of Persuasion, New and Expanded*). Si sólo puedes leer una, empieza por Ann Handley — *Everybody Writes*.
 

@@ -57,35 +57,35 @@ Infringir normas de datos personales y consumo, y quemar el activo reputacional 
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | disciplina de prospección, cadencia y gestión del rechazo | 9 | ISBN 9781119176305 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 7 | ISBN 9780525540830 |
-| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 6 | ISBN 9780984380213 |
-| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 5 | ISBN 9781119854319 |
-| Trish Bertuzzi — [*The Sales Development Playbook*](https://openlibrary.org/isbn/9780692622032) (2016) | estructura, especialización y métricas del equipo de desarrollo de ventas | 5 | ISBN 9780692622032 |
-| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 4 | ISBN 9781292400990 |
-| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 3 | ISBN 9781119047018 |
-| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 2 | ISBN 9780062937650 |
-| Mike Weinberg — [*New Sales. Simplified.*](https://openlibrary.org/isbn/9780814431788) (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | 2 | ISBN 9780814431788 |
-| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 2 | ISBN 9781119871132 |
-| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 |
-| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 1 | ISBN 9781264257546 |
-| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 1 | ISBN 9781449374280 |
-| Jim Collins — [*Good to Great*](https://openlibrary.org/isbn/9780066620992) (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 1 | ISBN 9780066620992 |
-| Gary Vaynerchuk — [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) (2013) | secuencia de aporte de valor antes de la petición comercial en canales sociales | 1 | ISBN 9780062273079 |
-| Joseph Sugarman — [*The Adweek Copywriting Handbook*](https://openlibrary.org/isbn/9780470051245) (2007) | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | 1 | ISBN 9780470051245 |
-| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 1 | ISBN 9780852941348 |
-| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 1 | ISBN 9780141985428 |
-| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | disciplina de prospección, cadencia y gestión del rechazo | 9 | ISBN 9781119176305 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 7 | ISBN 9780525540830 | comprar o biblioteca |
+| Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 6 | ISBN 9780984380213 | comprar o biblioteca |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 5 | ISBN 9781119854319 | comprar o biblioteca |
+| Trish Bertuzzi — [*The Sales Development Playbook*](https://openlibrary.org/isbn/9780692622032) (2016) | estructura, especialización y métricas del equipo de desarrollo de ventas | 5 | ISBN 9780692622032 | comprar o biblioteca |
+| Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 4 | ISBN 9781292400990 | comprar o biblioteca |
+| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 3 | ISBN 9781119047018 | comprar o biblioteca |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 2 | ISBN 9780062937650 | comprar o biblioteca |
+| Mike Weinberg — [*New Sales. Simplified.*](https://openlibrary.org/isbn/9780814431788) (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | 2 | ISBN 9780814431788 | comprar o biblioteca |
+| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 2 | ISBN 9781119871132 | comprar o biblioteca |
+| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 | comprar o biblioteca |
+| Joe Pulizzi — [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) (2021, 2.ª ed.) | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 1 | ISBN 9781264257546 | comprar o biblioteca |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 1 | ISBN 9781449374280 | comprar o biblioteca |
+| Jim Collins — [*Good to Great*](https://openlibrary.org/isbn/9780066620992) (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 1 | ISBN 9780066620992 | comprar o biblioteca |
+| Gary Vaynerchuk — [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) (2013) | secuencia de aporte de valor antes de la petición comercial en canales sociales | 1 | ISBN 9780062273079 | comprar o biblioteca |
+| Joseph Sugarman — [*The Adweek Copywriting Handbook*](https://openlibrary.org/isbn/9780470051245) (2007) | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | 1 | ISBN 9780470051245 | comprar o biblioteca |
+| Les Binet y Peter Field — [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 1 | ISBN 9780852941348 | comprar o biblioteca |
+| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 1 | ISBN 9780141985428 | comprar o biblioteca |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Jeb Blount (*Fanatical Prospecting*), Aaron Ross y Marylou Tyler (*Predictable Revenue*), Trish Bertuzzi (*The Sales Development Playbook*), Gabriel Weinberg y Justin Mares (*Traction*), Seth Godin (*This Is Marketing*) y Ann Handley (*Everybody Writes*). Si sólo puedes leer una, empieza por Jeb Blount — *Fanatical Prospecting*.
 

@@ -4,6 +4,39 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.4.0] — 2026-08-19
+
+Una bibliografía puede estar completa, enlazada y verificada y seguir afirmando algo que no se comprobó. El
+localizador demuestra que el libro existe y cuál es su edición; **no demuestra que lo que dice la clase esté
+en ese libro**. El README anterior mezclaba las dos cosas y llegaba a escribir «ninguna afirmación de estas
+336 clases es invención del programa», una frase que este repositorio no puede respaldar: de las 96 obras,
+90 son libros comerciales que el material no ha cotejado frase por frase. Esta versión separa lo comprobado
+de lo atribuido y añade fuentes que sí se pueden comprobar sin pagar.
+
+### Lo comprobado y lo atribuido, separados
+
+- El README, cada índice de parte, cada clase y `docs/BIBLIOGRAFIA.md` distinguen ahora dos capas: **lo
+  comprobado** —la obra existe, ésta es la edición, el localizador resuelve— y **la atribución del
+  programa** —que la idea señalada esté en el capítulo que se indica—, declarada como lectura del material
+  y no como cita cotejada. En los términos del propio
+  [estándar de evidencia](docs/ESTANDAR-DE-EVIDENCIA.md): hecho verificado frente a inferencia declarada.
+- Retirada la afirmación «ninguna afirmación es invención del programa» del README y la equivalente de la
+  política del registro.
+- Cada obra declara ahora su **acceso**: de las 96, **2** se leen completas y gratis, **3** tienen acceso
+  restringido por su editor, **1** es una norma de pago y **90** son libros comerciales. Aparece en el
+  README, en cada parte, en cada clase y en `sources/bibliography.json`.
+
+### Fuentes que sí se pueden comprobar
+
+- Las 336 clases nombraban la Ley 19.496 y la Ley 21.719 y **ninguna enlazaba su texto**: cero enlaces a
+  `bcn.cl` en todo el currículo. Ahora cada clase enlaza el texto oficial y gratuito de las cinco normas que
+  cita.
+- Nuevo módulo [`curriculum/spec/normas.py`](curriculum/spec/normas.py) con esas cinco normas. El título de
+  cada una no está escrito de memoria: es el que devuelve el servicio de metadatos de la Biblioteca del
+  Congreso Nacional, contrastado el 19 de agosto de 2026.
+- `scripts/verify_sources.py` gana una comprobación: **una clase que nombre una norma sin enlazar su texto
+  hace fallar el CI**. Dos pruebas nuevas; el repositorio pasa de 81 a **83 pruebas**.
+
 ## [1.3.0] — 2026-08-19
 
 La versión 1.2.0 dejó cada obra con un localizador comprobable, pero lo hizo sacando la bibliografía del

@@ -57,31 +57,31 @@ Erosionar precio con descuentos tácticos y perder capacidad de subir precios de
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 11 | ISBN 9781138737501 |
-| Hermann Simon — [*Confessions of the Pricing Man*](https://openlibrary.org/isbn/9783319204000) (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | 9 | ISBN 9783319204000 |
-| Madhavan Ramanujam y Georg Tacke — [*Monetizing Innovation*](https://openlibrary.org/isbn/9781119240877) (2016) | diseñar el producto alrededor del precio: disposición a pagar antes de construir | 8 | ISBN 9781119240877 |
-| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 5 | ISBN 9781449335670 |
-| Tim J. Smith — [*Pricing Strategy*](https://openlibrary.org/isbn/9781111571290) (2011) | segmentación de precios, price fences y decisiones de estructura | 5 | ISBN 9781111571290 |
-| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 4 | ISBN 9781118836446 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 2 | ISBN 9781449374280 |
-| Naresh K. Malhotra — [*Marketing Research: An Applied Orientation*](https://openlibrary.org/isbn/9781292265636) (2019, 7.ª ed.) | diseño de investigación, muestreo, medición y análisis con rigor metodológico | 2 | ISBN 9781292265636 |
-| Peter Fader y Sarah Toms — [*The Customer Centricity Playbook*](https://openlibrary.org/isbn/9781613630914) (2018) | modelos de valor de vida del cliente y decisiones de inversión por cohorte | 2 | ISBN 9781613630914 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 2 | ISBN 9781108601375 |
-| Michael E. Porter — [*Competitive Strategy*](https://openlibrary.org/isbn/9780029253601) (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | 1 | ISBN 9780029253601 |
-| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
-| Roger Fisher, William Ury y Bruce Patton — [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) (2011, 3.ª ed.) | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 1 | ISBN 9781101539545 |
-| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 1 | ISBN 9780451497215 |
-| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 1 | ISBN 9781777119317 |
-| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 1 | ISBN 9780814473245 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 11 | ISBN 9781138737501 | comprar o biblioteca |
+| Hermann Simon — [*Confessions of the Pricing Man*](https://openlibrary.org/isbn/9783319204000) (2015) | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | 9 | ISBN 9783319204000 | comprar o biblioteca |
+| Madhavan Ramanujam y Georg Tacke — [*Monetizing Innovation*](https://openlibrary.org/isbn/9781119240877) (2016) | diseñar el producto alrededor del precio: disposición a pagar antes de construir | 8 | ISBN 9781119240877 | comprar o biblioteca |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 5 | ISBN 9781449335670 | comprar o biblioteca |
+| Tim J. Smith — [*Pricing Strategy*](https://openlibrary.org/isbn/9781111571290) (2011) | segmentación de precios, price fences y decisiones de estructura | 5 | ISBN 9781111571290 | comprar o biblioteca |
+| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 4 | ISBN 9781118836446 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 2 | ISBN 9781449374280 | comprar o biblioteca |
+| Naresh K. Malhotra — [*Marketing Research: An Applied Orientation*](https://openlibrary.org/isbn/9781292265636) (2019, 7.ª ed.) | diseño de investigación, muestreo, medición y análisis con rigor metodológico | 2 | ISBN 9781292265636 | comprar o biblioteca |
+| Peter Fader y Sarah Toms — [*The Customer Centricity Playbook*](https://openlibrary.org/isbn/9781613630914) (2018) | modelos de valor de vida del cliente y decisiones de inversión por cohorte | 2 | ISBN 9781613630914 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 2 | ISBN 9781108601375 | comprar o biblioteca |
+| Michael E. Porter — [*Competitive Strategy*](https://openlibrary.org/isbn/9780029253601) (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | 1 | ISBN 9780029253601 | comprar o biblioteca |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 | comprar o biblioteca |
+| Roger Fisher, William Ury y Bruce Patton — [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) (2011, 3.ª ed.) | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 1 | ISBN 9781101539545 | comprar o biblioteca |
+| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 1 | ISBN 9780451497215 | comprar o biblioteca |
+| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 1 | ISBN 9781777119317 | comprar o biblioteca |
+| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 1 | ISBN 9780814473245 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Thomas T. Nagle y Georg Müller (*The Strategy and Tactics of Pricing*), Hermann Simon (*Confessions of the Pricing Man*), Madhavan Ramanujam y Georg Tacke (*Monetizing Innovation*), Tim J. Smith (*Pricing Strategy*), Dan Ariely (*Predictably Irrational*) y Alistair Croll y Benjamin Yoskovitz (*Lean Analytics*). Si sólo puedes leer una, empieza por Thomas T. Nagle y Georg Müller — *The Strategy and Tactics of Pricing*.
 

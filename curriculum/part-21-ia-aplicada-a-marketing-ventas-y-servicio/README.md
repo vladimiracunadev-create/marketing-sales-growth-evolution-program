@@ -57,33 +57,33 @@ Publicar contenido incorrecto a escala, tratar datos personales sin base legal y
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | 13 | DOI 10.6028/NIST.AI.100-1 |
-| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 7 | ISBN 9780141985428 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 6 | ISBN 9781449374280 |
-| Andrew Ng — [*Machine Learning Yearning*](https://info.deeplearning.ai/machine-learning-yearning-book) (2018) | diagnóstico de sistemas de aprendizaje y priorización de mejoras | 6 | fuente primaria |
-| Stuart Russell y Peter Norvig — [*Artificial Intelligence: A Modern Approach*](https://openlibrary.org/isbn/9780136958420) (2021, 4.ª ed.) | marco formal de agentes, entornos y medidas de desempeño | 5 | ISBN 9780136958420 |
-| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 4 | fuente primaria |
-| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 2 | ISBN 9781119854319 |
-| Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 2 | ISBN 9780070511132 |
-| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 2 | ISBN 9781119047018 |
-| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
-| Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | disciplina de prospección, cadencia y gestión del rechazo | 1 | ISBN 9781119176305 |
-| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 1 | ISBN 9781118836446 |
-| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 |
-| Richard H. Thaler y Cass R. Sunstein — [*Nudge: The Final Edition*](https://openlibrary.org/isbn/9780143137009) (2021) | arquitectura de decisión y límites éticos de la influencia sobre la elección | 1 | ISBN 9780143137009 |
-| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 1 | ISBN 9781119871132 |
-| Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 1 | ISBN 9780241003305 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 1 | ISBN 9780525540830 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 1 | ISBN 9781108601375 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | 13 | DOI 10.6028/NIST.AI.100-1 | gratis |
+| Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 7 | ISBN 9780141985428 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 6 | ISBN 9781449374280 | comprar o biblioteca |
+| Andrew Ng — [*Machine Learning Yearning*](https://info.deeplearning.ai/machine-learning-yearning-book) (2018) | diagnóstico de sistemas de aprendizaje y priorización de mejoras | 6 | fuente primaria | gratis |
+| Stuart Russell y Peter Norvig — [*Artificial Intelligence: A Modern Approach*](https://openlibrary.org/isbn/9780136958420) (2021, 4.ª ed.) | marco formal de agentes, entornos y medidas de desempeño | 5 | ISBN 9780136958420 | comprar o biblioteca |
+| ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 4 | fuente primaria | de pago |
+| Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 2 | ISBN 9781119854319 | comprar o biblioteca |
+| Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 2 | ISBN 9780070511132 | comprar o biblioteca |
+| Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | contratación, formación, gestión y demanda comercial gobernadas por datos | 2 | ISBN 9781119047018 | comprar o biblioteca |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 | comprar o biblioteca |
+| Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | disciplina de prospección, cadencia y gestión del rechazo | 1 | ISBN 9781119176305 | comprar o biblioteca |
+| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 1 | ISBN 9781118836446 | comprar o biblioteca |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 | comprar o biblioteca |
+| Richard H. Thaler y Cass R. Sunstein — [*Nudge: The Final Edition*](https://openlibrary.org/isbn/9780143137009) (2021) | arquitectura de decisión y límites éticos de la influencia sobre la elección | 1 | ISBN 9780143137009 | comprar o biblioteca |
+| Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 1 | ISBN 9781119871132 | comprar o biblioteca |
+| Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 1 | ISBN 9780241003305 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 1 | ISBN 9780525540830 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 1 | ISBN 9781108601375 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Stuart Russell y Peter Norvig (*Artificial Intelligence: A Modern Approach*), Andrew Ng (*Machine Learning Yearning*), NIST (*AI Risk Management Framework 1.0*), Cathy O'Neil (*Weapons of Math Destruction*), Foster Provost y Tom Fawcett (*Data Science for Business*) y Ron Kohavi, Diane Tang y Ya Xu (*Trustworthy Online Controlled Experiments*). Si sólo puedes leer una, empieza por Stuart Russell y Peter Norvig — *Artificial Intelligence: A Modern Approach*.
 

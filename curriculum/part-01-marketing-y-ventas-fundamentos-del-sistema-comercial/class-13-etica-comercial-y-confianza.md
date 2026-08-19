@@ -251,11 +251,13 @@ Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente
 
 ## 🇨🇱 Contexto chileno y cumplimiento
 
-Riesgo asociado a esta parte: **Confundir actividad con resultado y comprometer presupuesto antes de tener un diagnóstico.** Antes de ejecutar cualquier recomendación de esta clase en una operación real, revisa el mapa regulatorio del repositorio y valida la norma en su fuente primaria vigente.
+Riesgo asociado a esta parte: **Confundir actividad con resultado y comprometer presupuesto antes de tener un diagnóstico.** Antes de ejecutar cualquier recomendación de esta clase en una operación real, comprueba la norma en su texto vigente. Los enlaces van al texto completo publicado por la Biblioteca del Congreso Nacional; son gratuitos y no hace falta creerle a este material.
 
-- Consumo y comercio: `docs/MAPA-REGULATORIO-CHILE.md` (Ley 19.496 y reglamento de comercio electrónico).
-- Datos personales: `docs/DATOS-PERSONALES-Y-ETICA.md` (Ley 21.719 y régimen vigente).
-- Fuentes oficiales con fecha de consulta: `docs/FUENTES-OFICIALES.md`.
+- **Consumo y comercio.** [Ley 19.496](https://www.bcn.cl/leychile/navegar?idNorma=61438) — *Establece normas sobre protección de los derechos de los consumidores* (Ministerio de Economía, Fomento y Reconstrucción), y su reglamento de comercio electrónico, [Decreto 6/2021](https://www.bcn.cl/leychile/navegar?idNorma=1165504) — *Aprueba reglamento de comercio electrónico* (Ministerio de Economía, Fomento y Turismo).
+- **Datos personales.** [Ley 21.719](https://www.bcn.cl/leychile/navegar?idNorma=1209272) — *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales* (Ministerio Secretaría General de la Presidencia), que sustituye progresivamente a [Ley 19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) — *Sobre protección de la vida privada* (Ministerio Secretaría General de la Presidencia).
+- **Derecho a retracto.** [Decreto 52/2024](https://www.bcn.cl/leychile/navegar?idNorma=1206144) — *Aprueba reglamento que regula la forma y condiciones en que los proveedores deberán comunicar la exclusión del derecho a retracto y los bienes en que excepcionalmente y por su naturaleza procederá tal exclusión* (Ministerio de Economía, Fomento y Turismo).
+
+Dentro del repositorio, el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) ordena qué norma aplica a cada decisión comercial, [datos personales y ética](../../docs/DATOS-PERSONALES-Y-ETICA.md) desarrolla el tratamiento de datos y [fuentes oficiales](../../docs/FUENTES-OFICIALES.md) lista los organismos con su fecha de consulta. Ninguno de esos documentos reemplaza al texto legal.
 
 La regla del programa es simple: **la fuente oficial manda sobre el material pedagógico**. Si la norma cambió después de la fecha de esta clase, gana la norma.
 
@@ -283,12 +285,16 @@ Este entregable alimenta el artefacto de la parte: **mapa del sistema comercial 
 
 ## 📗 Fuentes y verificación
 
-Estas son las obras sobre las que se apoya lo que acabas de leer. Cada una aparece con la idea concreta que aporta a esta clase, dónde buscarla dentro del libro y el enlace donde se resuelve la edición exacta. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
+Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 
-- Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) · ISBN 9780062937650 — **aporta a esta clase:** la escasez como amplificador del valor percibido y su límite ético. **Dónde buscarlo:** el capítulo sobre escasez. Registra edición y páginas consultadas en tu nota de lectura.
-- Richard H. Thaler y Cass R. Sunstein — [*Nudge: The Final Edition*](https://openlibrary.org/isbn/9780143137009) (2021) · ISBN 9780143137009 — **aporta a esta clase:** la fricción deliberada que dificulta lo que conviene al usuario y beneficia a quien la diseña. **Dónde buscarlo:** la discusión sobre sludge en la edición final. Registra edición y páginas consultadas en tu nota de lectura.
-- Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) · ISBN 9780141985428 — **aporta a esta clase:** las tres condiciones que convierten un modelo en dañino: opacidad, escala y daño. **Dónde buscarlo:** los capítulos introductorios que definen el concepto. Registra edición y páginas consultadas en tu nota de lectura.
-- Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. Registra edición y páginas consultadas en tu nota de lectura.
+**Lo que está comprobado.** Que cada obra existe y cuál es exactamente la edición: el enlace resuelve su ISBN contra el catálogo de OpenLibrary, y eso se revalida periódicamente. Las normas chilenas citadas más arriba enlazan su texto completo y gratuito.
+
+**Lo que es atribución del programa.** Que la idea señalada esté en el capítulo que se indica. Eso es la lectura que este material hace de cada obra, no una cita textual cotejada frase por frase, y se declara así de explícito para que puedas contrastarlo: si abres la obra y no encuentras la idea donde se dice, la cita está mal puesta y **corresponde reportarlo como error del material**. No se citan números de página porque cambian entre ediciones.
+
+- Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) · ISBN 9780062937650 — **aporta a esta clase:** la escasez como amplificador del valor percibido y su límite ético. **Dónde buscarlo:** el capítulo sobre escasez. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Richard H. Thaler y Cass R. Sunstein — [*Nudge: The Final Edition*](https://openlibrary.org/isbn/9780143137009) (2021) · ISBN 9780143137009 — **aporta a esta clase:** la fricción deliberada que dificulta lo que conviene al usuario y beneficia a quien la diseña. **Dónde buscarlo:** la discusión sobre sludge en la edición final. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) · ISBN 9780141985428 — **aporta a esta clase:** las tres condiciones que convierten un modelo en dañino: opacidad, escala y daño. **Dónde buscarlo:** los capítulos introductorios que definen el concepto. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

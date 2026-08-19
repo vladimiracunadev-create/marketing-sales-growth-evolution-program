@@ -57,35 +57,35 @@ Declarar victorias con muestras insuficientes y optimizar métricas locales que 
 
 ## Bibliografía de la parte
 
-Nada de lo que se afirma en estas 14 clases es invención del programa. Estas son las obras que lo sostienen, con lo que aporta cada una y en cuántas clases de la parte se cita. El título enlaza a su localizador: ahí se resuelve la edición exacta sobre la que están hechos los anclajes.
+Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una y en cuántas de sus 14 clases aparece. Está comprobado que cada obra existe y cuál es la edición —el título enlaza a su localizador—; que la idea atribuida esté en el capítulo que indica cada clase es la lectura del programa y está para que la contrastes. La columna «Acceso» dice de antemano qué puedes leer sin pagar.
 
-| Obra | Qué aporta | Clases | Localizador |
-|---|---|---:|---|
-| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 |
-| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 |
-| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 |
-| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 |
-| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 13 | ISBN 9780451497215 |
-| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 8 | ISBN 9781449335670 |
-| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 5 | ISBN 9781119387541 |
-| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 5 | ISBN 9781108601375 |
-| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 4 | ISBN 9781449374280 |
-| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 4 | ISBN 9781777119317 |
-| Eric Ries — [*The Lean Startup*](https://openlibrary.org/isbn/9780670921607) (2011) | construir-medir-aprender, MVP y decisión de perseverar o pivotar | 2 | ISBN 9780670921607 |
-| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 2 | ISBN 9780525540830 |
-| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 |
-| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 1 | fuente primaria |
-| Peter Fader — [*Customer Centricity*](https://openlibrary.org/isbn/9781613631447) (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | 1 | ISBN 9781613631447 |
-| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 |
-| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 1 | ISBN 9781118836446 |
-| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 |
-| John Doerr — [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) (2018) | OKR como sistema de foco, alineamiento y seguimiento | 1 | ISBN 9780525536222 |
-| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 1 | ISBN 9780875846514 |
-| Samuel Hulick — *The Elements of User Onboarding* (2014) | diseño del primer valor percibido y reducción del time-to-value | 1 | fuente primaria |
-| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 |
-| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 1 | ISBN 9780470596425 |
-| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 |
+| Obra | Qué aporta | Clases | Localizador | Acceso |
+|---|---|---:|---|---|
+| Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 14 | ISBN 9780470484104 | comprar o biblioteca |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014) | recuperación espaciada, intercalado y dificultad deseable | 14 | ISBN 9780674419377 | comprar o biblioteca |
+| Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 14 | ISBN 9781473513143 | comprar o biblioteca |
+| William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 14 | ISBN 9781633696150 | comprar o biblioteca |
+| Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 14 | ISBN 9781416600350 | comprar o biblioteca |
+| Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | equipo multifuncional, ciclo de experimentación y aha moment | 13 | ISBN 9780451497215 | comprar o biblioteca |
+| Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 8 | ISBN 9781449335670 | comprar o biblioteca |
+| Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 5 | ISBN 9781119387541 | comprar o biblioteca |
+| Ron Kohavi, Diane Tang y Ya Xu — [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) (2020) | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 5 | ISBN 9781108601375 | comprar o biblioteca |
+| Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | pensamiento analítico: formulación del problema, evaluación y valor esperado | 4 | ISBN 9781449374280 | comprar o biblioteca |
+| Wes Bush — [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) (2019) | el producto como principal vehículo de adquisición, activación y expansión | 4 | ISBN 9781777119317 | comprar o biblioteca |
+| Eric Ries — [*The Lean Startup*](https://openlibrary.org/isbn/9780670921607) (2011) | construir-medir-aprender, MVP y decisión de perseverar o pivotar | 2 | ISBN 9780670921607 | comprar o biblioteca |
+| Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 2 | ISBN 9780525540830 | comprar o biblioteca |
+| Gabriel Weinberg y Justin Mares — [*Traction*](https://openlibrary.org/isbn/9780241242551) (2015) | diecinueve canales de tracción y el método bullseye de priorización | 2 | ISBN 9780241242551 | comprar o biblioteca |
+| Peep Laja y el equipo de CXL — [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) (2024) | método CRO basado en investigación previa al test y validez estadística | 1 | fuente primaria | acceso limitado |
+| Peter Fader — [*Customer Centricity*](https://openlibrary.org/isbn/9781613631447) (2020, 2.ª ed.) | valor heterogéneo del cliente y asignación de recursos por valor esperado | 1 | ISBN 9781613631447 | comprar o biblioteca |
+| Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | disciplina operativa de éxito de cliente: salud, renovación y expansión | 1 | ISBN 9781119168294 | comprar o biblioteca |
+| Douglas W. Hubbard — [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) (2014, 3.ª ed.) | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 1 | ISBN 9781118836446 | comprar o biblioteca |
+| Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | principios de influencia y su uso ético en contextos comerciales | 1 | ISBN 9780062937650 | comprar o biblioteca |
+| John Doerr — [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) (2018) | OKR como sistema de foco, alineamiento y seguimiento | 1 | ISBN 9780525536222 | comprar o biblioteca |
+| Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) | traducción de la estrategia en indicadores causalmente conectados | 1 | ISBN 9780875846514 | comprar o biblioteca |
+| Samuel Hulick — *The Elements of User Onboarding* (2014) | diseño del primer valor percibido y reducción del time-to-value | 1 | fuente primaria | comprar o biblioteca |
+| Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 | comprar o biblioteca |
+| Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | medición orientada a decisión, segmentación y crítica del dato de vanidad | 1 | ISBN 9780470596425 | comprar o biblioteca |
+| Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 1 | ISBN 9781647821784 | comprar o biblioteca |
 
 De todas ellas, las que ordenan el criterio de esta parte son Sean Ellis y Morgan Brown (*Hacking Growth*), Wes Bush (*Product-Led Growth*), Alistair Croll y Benjamin Yoskovitz (*Lean Analytics*), Ron Kohavi, Diane Tang y Ya Xu (*Trustworthy Online Controlled Experiments*), Eric Ries (*The Lean Startup*) y Marty Cagan (*Inspired*). Si sólo puedes leer una, empieza por Sean Ellis y Morgan Brown — *Hacking Growth*.
 

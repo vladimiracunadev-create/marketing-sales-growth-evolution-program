@@ -19,6 +19,7 @@ Sin dependencias externas.
 from __future__ import annotations
 
 import importlib
+import json
 import os
 import subprocess
 import sys
@@ -174,7 +175,23 @@ def build_formulas(datos):
     return "\n".join(lineas)
 
 
+def localizadores_publicados():
+    """Localizador de cada obra, tomado del registro generado.
+
+    La bibliografía sin localizador obliga a cada lector a repetir la búsqueda
+    de la edición correcta. Aquí se enlaza lo que el registro ya resolvió; lo
+    que sigue pendiente se dice, no se disimula.
+    """
+    ruta = os.path.join(RAIZ, "sources", "bibliography.json")
+    if not os.path.exists(ruta):
+        return {}
+    with open(ruta, encoding="utf-8") as fh:
+        registro = json.load(fh)
+    return {e["id"]: e for e in registro["entries"]}
+
+
 def build_bibliografia(datos):
+    registro = localizadores_publicados()
     usos = defaultdict(list)
     for parte, cls in datos:
         for c in cls:
@@ -195,16 +212,35 @@ def build_bibliografia(datos):
         "3. Se exige contrastar al menos dos fuentes y registrar una tensión real entre ellas.",
         "4. Toda norma, tarifa o política viva citada en una obra debe revalidarse en su fuente oficial.",
         "",
+        "## Dónde se resuelve cada obra",
+        "",
+        "Cada obra de esta lista tiene una entrada en "
+        "[`sources/bibliography.json`](../sources/bibliography.json) con un localizador que se puede "
+        "seguir: **ISBN-13** para libros, **DOI** para artículos y **URL de la fuente primaria** para "
+        "normas y documentación oficial. La columna «Dónde» enlaza ese localizador. Cuando dice "
+        "«pendiente», es que todavía no se pudo comprobar y así queda declarado: un hueco declarado es "
+        "información, uno rellenado por intuición es una invención con formato de bibliografía.",
+        "",
+        "Comprobable con `python scripts/verify_sources.py`.",
+        "",
     ]
     for cat, titulo in CATEGORIAS:
         items = [(k, v) for k, v in bib.LIBROS.items() if v[4] == cat]
         if not items:
             continue
-        lineas += ["## {}".format(titulo), "", "| Obra | Lente que aporta | Clases que la usan |", "|---|---|---|"]
+        lineas += ["## {}".format(titulo), "",
+                   "| Obra | Lente que aporta | Clases que la usan | Dónde |", "|---|---|---|---|"]
         for clave, (autor, obra, edicion, lente, _c) in sorted(items, key=lambda x: x[1][1]):
             refs = usos.get(clave, [])
             resumen = "{} clases".format(len(refs)) if len(refs) > 4 else (", ".join(refs) if refs else "—")
-            lineas.append("| {} — *{}* ({}) | {} | {} |".format(autor, obra, edicion, lente, resumen))
+            e = registro.get(clave) or {}
+            if e.get("locator"):
+                etiqueta = e.get("isbn13") or e.get("doi") or "fuente primaria"
+                donde = "[{}]({})".format(etiqueta, e["locator"])
+            else:
+                donde = "pendiente"
+            lineas.append("| {} — *{}* ({}) | {} | {} | {} |".format(
+                autor, obra, edicion, lente, resumen, donde))
         lineas.append("")
     lineas += [
         "## Fuentes vivas",

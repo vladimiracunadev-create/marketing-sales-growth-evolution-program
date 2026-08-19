@@ -17,7 +17,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `(raíz)` | 18 | .editorconfig, .gitattributes, .gitignore, .markdownlint-cli2.jsonc, CHANGELOG.md, CODE_OF_CONDUCT.md… |
 | `.github` | 1 | PULL_REQUEST_TEMPLATE.md |
 | `.github/ISSUE_TEMPLATE` | 4 | accesibilidad.md, config.yml, error-de-contenido.md, error-normativo.md |
-| `.github/workflows` | 4 | ci.yml, codeql.yml, pages.yml, security.yml |
+| `.github/workflows` | 5 | ci.yml, codeql.yml, fuentes.yml, pages.yml, security.yml |
 | `ai` | 1 | GUARDRAILS.md |
 | `ai/agents` | 3 | market-research.agent.md, revenue-coach.agent.md, sales-analyst.agent.md |
 | `ai/prompts` | 4 | MASTER-PROMPT.md, campaign-review.md, customer-research.md, deal-review.md |
@@ -50,7 +50,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/part-22-go-to-market-canales-y-expansion` | 15 | README.md, class-01-que-es-una-estrategia-gtm.md, class-02-market-entry.md, class-03-beachhead-market.md, class-04-sales-led-growth.md, class-05-product-led-growth.md… |
 | `curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro` | 15 | README.md, class-01-diseno-de-la-organizacion-comercial.md, class-02-roles-y-responsabilidades.md, class-03-contratacion.md, class-04-onboarding-de-equipos.md, class-05-compensacion-e-incentivos.md… |
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
-| `curriculum/spec` | 55 | __init__.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py, clases_p02.py… |
+| `curriculum/spec` | 56 | __init__.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py, clases_p02.py… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
 | `docs` | 20 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
 | `evidence` | 2 | .gitkeep, README.md |
@@ -81,9 +81,10 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `notebooks` | 9 | 01-funnel-metrics.ipynb, 02-campaign-economics.ipynb, 03-customer-retention.ipynb, 04-ecommerce-unit-economics.ipynb, 05-ab-testing.ipynb, 06-sales-velocity.ipynb… |
 | `projects` | 12 | project-01-parts-01-02.md, project-02-parts-03-04.md, project-03-parts-05-06.md, project-04-parts-07-08.md, project-05-parts-09-10.md, project-06-parts-11-12.md… |
 | `rutas` | 18 | README.md, analista-de-marketing.md, brand-manager.md, cmo.md, content-manager.md, cro.md… |
-| `scripts` | 2 | check_repository.py, progress.py |
+| `scripts` | 6 | check_repository.py, progress.py, refresh-sources, refresh_sources.py, verify-sources, verify_sources.py |
 | `simulations` | 1 | README.md |
 | `simulations/state` | 1 | initial-state.json |
+| `sources` | 2 | bibliography.json, verification-log.json |
 | `templates/analytics` | 1 | metric-dictionary.csv |
 | `templates/content` | 1 | editorial-calendar.csv |
 | `templates/crm` | 1 | pipeline-definition.md |
@@ -102,8 +103,8 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/revops` | 1 | sla.md |
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 1 | stp-canvas.md |
-| `tests` | 6 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py, test_rutas.py |
-| `tools` | 13 | audit_fuentes.py, build_curriculum.py, build_docs.py, build_practica.py, build_readme_bibliografia.py, build_rutas.py… |
+| `tests` | 7 | conftest.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py, test_registro_fuentes.py… |
+| `tools` | 14 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_practica.py, build_readme_bibliografia.py… |
 
 ---
 

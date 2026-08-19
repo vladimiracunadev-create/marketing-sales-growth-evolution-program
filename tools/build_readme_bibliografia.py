@@ -1,15 +1,20 @@
 # -*- coding: utf-8 -*-
-"""Escribe la bibliografía completa dentro del README principal.
+"""Escribe en el README el resumen del registro de fuentes.
 
-El README declara que el programa se basa en obras identificables. Esa
-declaración sólo vale si las obras están a la vista y si la lista no puede
-desincronizarse de lo que las clases citan realmente. Por eso el bloque no se
-escribe a mano: se genera desde `curriculum/spec/` y se inserta entre marcas.
+El README ya no lleva la bibliografía completa. Noventa y seis filas en la
+portada eran una lista que nadie podía comprobar: sin ISBN, sin DOI y sin una
+sola dirección resoluble, la declaración valía lo que valiera la confianza en
+quien la escribió. Las obras viven ahora en `sources/bibliography.json`, donde
+cada una tiene un localizador que se puede seguir, y el README hace lo único
+que le corresponde: enlazar el registro, publicar sus cifras y decir qué obra
+manda en cada parte.
+
+Las cifras **no se escriben a mano**. Se toman del registro y
+`scripts/verify_sources.py` falla si el README publica otras.
 
 Marcas en README.md:
-    <!-- BIBLIOGRAFIA:INICIO -->
-    ... contenido generado ...
-    <!-- BIBLIOGRAFIA:FIN -->
+    <!-- BIBLIOGRAFIA:INICIO -->   ... bloque completo ...        <!-- BIBLIOGRAFIA:FIN -->
+    <!-- REGISTRO-FUENTES:INICIO --> ... tabla de cifras ...      <!-- REGISTRO-FUENTES:FIN -->
 
 Uso:
     python tools/build_readme_bibliografia.py
@@ -18,6 +23,7 @@ Uso:
 from __future__ import annotations
 
 import importlib
+import json
 import os
 import sys
 from collections import Counter, defaultdict
@@ -35,34 +41,10 @@ from spec.partes import PARTES  # noqa: E402
 
 INICIO = "<!-- BIBLIOGRAFIA:INICIO -->"
 FIN = "<!-- BIBLIOGRAFIA:FIN -->"
+INICIO_CIFRAS = "<!-- REGISTRO-FUENTES:INICIO -->"
+FIN_CIFRAS = "<!-- REGISTRO-FUENTES:FIN -->"
 
-# Nombre legible de cada categoría de la bibliografía y el orden de presentación.
-CATEGORIAS = [
-    ("marketing", "Marketing"),
-    ("estrategia", "Estrategia y competencia"),
-    ("cliente", "Cliente y trabajo por resolver"),
-    ("investigacion", "Investigación de mercados"),
-    ("comportamiento", "Comportamiento y decisión"),
-    ("marca", "Marca"),
-    ("comunicacion", "Comunicación e identidad"),
-    ("contenido", "Contenido y copywriting"),
-    ("publicidad", "Publicidad"),
-    ("precio", "Precio y monetización"),
-    ("oferta", "Oferta y producto"),
-    ("producto", "Gestión de producto"),
-    ("ventas", "Ventas"),
-    ("negociacion", "Negociación"),
-    ("digital", "Marketing digital y conversión"),
-    ("ecommerce", "Comercio digital"),
-    ("growth", "Crecimiento y experimentación"),
-    ("retencion", "Retención y éxito de cliente"),
-    ("revops", "Operaciones de ingresos"),
-    ("analitica", "Analítica y medición"),
-    ("ia", "Inteligencia artificial y riesgo"),
-    ("etica", "Ética y consecuencias"),
-    ("direccion", "Dirección y organización"),
-    ("pedagogia", "Pedagogía del programa"),
-]
+REGISTRO = os.path.join(RAIZ, "sources", "bibliography.json")
 
 # Fuentes oficiales verificables. No son bibliografía: son normas y organismos
 # cuyo texto vigente manda sobre cualquier material pedagógico.
@@ -84,77 +66,131 @@ OFICIALES = [
 ]
 
 
-def uso_por_obra():
-    """Cuenta en cuántas clases se cita cada obra y en qué partes."""
-    veces = Counter()
-    partes_de = defaultdict(set)
+def registro():
+    if not os.path.exists(REGISTRO):
+        raise SystemExit(
+            "Falta sources/bibliography.json. Ejecuta primero:\n"
+            "  python tools/build_bibliography_json.py")
+    with open(REGISTRO, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def uso_por_parte():
+    """Cuántas clases de cada parte citan cada obra."""
+    por_parte = defaultdict(Counter)
     for parte in PARTES:
         modulo = importlib.import_module("spec.clases_p{}".format(parte["num"]))
         for clase in modulo.CLASES:
             for clave in clase["libros"]:
-                veces[clave] += 1
-                partes_de[clave].add(parte["num"])
-    return veces, partes_de
+                por_parte[parte["num"]][clave] += 1
+    return por_parte
+
+
+def rectora(conteo):
+    """La obra que más veces sostiene las clases de una parte.
+
+    Empate resuelto por orden alfabético de la clave: la elección tiene que ser
+    la misma en cada ejecución o el README deja de ser reproducible.
+    """
+    return sorted(conteo.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+
+
+# Orden de lectura del bloque de cifras: del total a lo que falta.
+ORDEN_CIFRAS = [
+    "entradas del registro",
+    "obras con localizador verificado",
+    "libros con ISBN-13",
+    "entradas pendientes",
+]
+
+
+def cifras(datos):
+    entradas = datos["entries"]
+    return {
+        "entradas del registro": len(entradas),
+        "obras con localizador verificado": sum(
+            1 for e in entradas if e.get("status") == "verificada"),
+        "entradas pendientes": sum(1 for e in entradas if e.get("status") == "pendiente"),
+        "libros con ISBN-13": sum(1 for e in entradas if e.get("isbn13")),
+    }
 
 
 def bloque():
-    veces, partes_de = uso_por_obra()
+    datos = registro()
+    por_id = {e["id"]: e for e in datos["entries"]}
+    por_parte = uso_por_parte()
     total_anclajes = sum(len(v) for v in ANCLAJES.values())
     total_aportes = sum(len(v) for v in APORTES.values())
+    c = cifras(datos)
 
     lineas = [
         INICIO,
         "",
         "<details>",
-        "<summary><b>📚 Base bibliográfica — las {} obras que sostienen el programa, "
-        "con su uso clase a clase</b></summary>".format(len(bib.LIBROS)),
+        "<summary><b>📚 Fundamentación — {} obras, cada una con un localizador que se puede "
+        "seguir</b></summary>".format(c["entradas del registro"]),
         "",
         "<br>",
         "",
-        "El programa usa estas obras para ordenar conceptos y profundidad; **toda la redacción es original y "
-        "no reproduce sus textos**. Citar no basta: de cada obra se catalogaron **{} ideas concretas** "
-        "y cada una de las 336 clases declara **cuál** de ellas sostiene cada una de sus cuatro citas "
-        "—**{} anclajes**— y en qué capítulo buscarla.".format(total_aportes, total_anclajes),
+        "El programa usa estas obras para ordenar conceptos y profundidad; **toda la redacción es "
+        "original y no reproduce sus textos**. Citar no basta: de cada obra se catalogaron "
+        "**{} ideas concretas** y cada una de las 336 clases declara **cuál** de ellas sostiene "
+        "cada una de sus cuatro citas —**{} anclajes**— y en qué capítulo buscarla.".format(
+            total_aportes, total_anclajes),
+        "",
+        "Tampoco basta con anclar. Una obra nombrada sin localizador obliga al lector a salir a "
+        "buscarla por su cuenta y le impide comprobar que es **esa** edición y no otra parecida. "
+        "Por eso las obras no viven en esta portada: viven en "
+        "[`sources/bibliography.json`](sources/bibliography.json), con ISBN-13, DOI o URL de la "
+        "fuente primaria según lo que corresponda.",
+        "",
+        INICIO_CIFRAS,
+        "",
+        "| Estado del registro de fuentes | Valor |",
+        "|---|---:|",
+    ]
+    for etiqueta in ORDEN_CIFRAS:
+        lineas.append("| {} | **{}** |".format(etiqueta, c[etiqueta]))
+    lineas += [
+        "",
+        "Última revalidación contra openlibrary.org y las fuentes oficiales: "
+        "**{}**.".format(datos["verified_on"]),
+        "",
+        FIN_CIFRAS,
         "",
         "> [!NOTE]",
-        "> Nunca se citan números de página: cambian entre ediciones y el programa no puede garantizarlas. "
-        "El anclaje indica el capítulo o la sección **por su nombre dentro de la obra**.",
+        "> Estas cifras las produce `python scripts/verify_sources.py`, que falla si el README "
+        "declara otras. No se escriben a mano.",
         "",
-        "La columna «Clases» indica en cuántas de las 336 se cita la obra. "
-        "Verificable con `python tools/audit_fuentes.py`.",
+        "> [!NOTE]",
+        "> Nunca se citan números de página: cambian entre ediciones y el programa no puede "
+        "garantizarlas. El anclaje indica el capítulo o la sección **por su nombre dentro de la "
+        "obra**.",
         "",
+        "#### La obra que manda en cada parte",
+        "",
+        "De las dos a cuatro obras que cita cada clase, esta es la que más veces sostiene el "
+        "temario de la parte. El título enlaza a su localizador; el registro completo trae las "
+        "{} obras con su uso clase a clase.".format(c["entradas del registro"]),
+        "",
+        "| # | Parte | Obra rectora | Clases de la parte que la citan |",
+        "|---:|---|---|---:|",
     ]
-
-    vistos = set()
-    for clave_cat, titulo_cat in CATEGORIAS:
-        obras = sorted(
-            (k for k, v in bib.LIBROS.items() if v[4] == clave_cat),
-            key=lambda k: (-veces.get(k, 0), bib.LIBROS[k][0]),
-        )
-        if not obras:
-            continue
-        vistos.update(obras)
-        lineas += [
-            "#### {}".format(titulo_cat),
-            "",
-            "| Autoría | Obra | Edición | Qué aporta al programa | Clases |",
-            "|---|---|---|---|---:|",
-        ]
-        for k in obras:
-            autor, obra, edicion, lente, _cat = bib.LIBROS[k]
-            lineas.append("| {} | *{}* | {} | {} | {} |".format(
-                autor, obra, edicion, lente, veces.get(k, 0)))
-        lineas.append("")
-
-    faltan = sorted(set(bib.LIBROS) - vistos)
-    if faltan:
-        raise SystemExit("Categorías sin mapear en CATEGORIAS: {}".format(faltan))
+    for parte in PARTES:
+        clave, n = rectora(por_parte[parte["num"]])
+        e = por_id[clave]
+        autor, obra, edicion, _lente, _cat = bib.LIBROS[clave]
+        titulo = "[*{}*]({})".format(obra, e["locator"]) if e.get("locator") else "*{}*".format(obra)
+        lineas.append("| {} | {} | {} — {} ({}) | {} |".format(
+            parte["num"], parte["titulo"], autor, titulo, edicion, n))
 
     lineas += [
+        "",
         "#### Fuentes oficiales y normativas",
         "",
-        "La bibliografía ordena el criterio; **la norma vigente manda sobre el material pedagógico**. "
-        "Toda regla, tarifa o requisito mencionado en una clase debe comprobarse aquí antes de aplicarse.",
+        "La bibliografía ordena el criterio; **la norma vigente manda sobre el material "
+        "pedagógico**. Toda regla, tarifa o requisito mencionado en una clase debe comprobarse "
+        "aquí antes de aplicarse.",
         "",
         "| Fuente | Enlace |",
         "|---|---|",
@@ -163,13 +199,16 @@ def bloque():
         lineas.append("| {} | <{}> |".format(nombre, url))
     lineas += [
         "",
-        "Listado completo con fecha de consulta en [`docs/FUENTES-OFICIALES.md`](docs/FUENTES-OFICIALES.md) "
-        "y mapa regulatorio en [`docs/MAPA-REGULATORIO-CHILE.md`](docs/MAPA-REGULATORIO-CHILE.md).",
+        "Listado completo con fecha de consulta en "
+        "[`docs/FUENTES-OFICIALES.md`](docs/FUENTES-OFICIALES.md) y mapa regulatorio en "
+        "[`docs/MAPA-REGULATORIO-CHILE.md`](docs/MAPA-REGULATORIO-CHILE.md).",
         "",
         "**Núcleo pedagógico.** El diseño instruccional del programa se apoya además en {}.".format(
             "; ".join(bib.cita(k) for k in bib.NUCLEO_PEDAGOGICO)),
         "",
+        "[Registro de fuentes con localizadores](sources/bibliography.json) · "
         "[Bibliografía completa con el uso de cada obra por clase](docs/BIBLIOGRAFIA.md) · "
+        "[Verificador del registro](scripts/verify_sources.py) · "
         "[Auditoría de fundamentación](tools/audit_fuentes.py)",
         "",
         "</details>",
@@ -186,8 +225,8 @@ def main():
 
     if INICIO not in texto or FIN not in texto:
         raise SystemExit(
-            "README.md no tiene las marcas {} / {}. Añádelas donde deba ir la bibliografía.".format(
-                INICIO, FIN))
+            "README.md no tiene las marcas {} / {}. Añádelas donde deba ir la "
+            "bibliografía.".format(INICIO, FIN))
 
     antes = texto.split(INICIO)[0]
     despues = texto.split(FIN, 1)[1]
@@ -196,8 +235,12 @@ def main():
     with open(ruta, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(nuevo)
 
-    print("README.md: bibliografía de {} obras insertada ({} anclajes declarados)".format(
-        len(bib.LIBROS), sum(len(v) for v in ANCLAJES.values())))
+    datos = registro()
+    c = cifras(datos)
+    print("README.md: resumen del registro insertado ({} entradas, {} verificadas, "
+          "{} pendientes)".format(c["entradas del registro"],
+                                  c["obras con localizador verificado"],
+                                  c["entradas pendientes"]))
     return 0
 
 

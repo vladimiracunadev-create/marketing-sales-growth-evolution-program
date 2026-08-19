@@ -4,6 +4,56 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.2.0] — 2026-08-19
+
+Trazabilidad de las fuentes. La versión 1.1.0 ancló cada cita a una idea concreta de la obra, pero las 96
+obras seguían viviendo en el README, sin un solo localizador: ni un ISBN, ni un DOI, ni una dirección. Quien
+quisiera comprobar una cita tenía que buscar la obra por su cuenta y adivinar si daba con la edición que el
+programa usó. Esta versión cierra ese hueco.
+
+### Registro de fuentes
+
+- Nuevo registro [`sources/bibliography.json`](sources/bibliography.json) con las **96 obras**, cada una con
+  autoría normalizada, año, editorial u organismo responsable, uso clase a clase y **localizador resoluble**:
+  ISBN-13 para libros, DOI para artículos y URL de la fuente primaria para normas y documentación oficial.
+- Nuevo módulo [`curriculum/spec/localizadores.py`](curriculum/spec/localizadores.py): el localizador vive en
+  la especificación, separado del lente pedagógico, y el registro se genera con
+  [`tools/build_bibliography_json.py`](tools/build_bibliography_json.py). El JSON es contenido generado; el
+  `used_in` de cada obra se cuenta recorriendo las 336 clases, no se declara.
+- **89 libros con ISBN-13** comprobado uno a uno contra `openlibrary.org`: los 89 resuelven y el título
+  devuelto coincide con el declarado.
+- **Dos entradas quedan `pendiente`, declaradas y no rellenadas**: *The Elements of User Onboarding*
+  (Hulick), sin ISBN-13 localizable, e *ISO 31000:2018*, cuya ficha de catálogo no se puede confirmar desde
+  fuera porque `iso.org` responde 403 tanto a rutas válidas como a rutas inexistentes. La dirección que se
+  tenía queda en `proposed_locator`: marcar no es borrar.
+
+### Verificación
+
+- Nuevo verificador [`scripts/verify_sources.py`](scripts/verify_sources.py) —con envoltorio
+  `scripts/verify-sources`—, **offline y determinista**, incorporado al CI. Comprueba el esquema, el dígito
+  de control de cada ISBN-13, la forma canónica de cada localizador, que toda obra citada tenga entrada, que
+  ninguna entrada sobre, que ningún bloque de fuentes se repita entre clases y que **las cifras del README
+  coincidan con el recuento del registro**.
+- Nuevo revalidador [`scripts/refresh_sources.py`](scripts/refresh_sources.py) —con envoltorio
+  `scripts/refresh-sources`—, **en red y sin bloquear**, programado en
+  [`fuentes.yml`](.github/workflows/fuentes.yml). Resuelve cada ISBN contra `openlibrary.org` y cada DOI
+  contra `api.crossref.org`, compara títulos, escribe `sources/verification-log.json` e informa de lo que
+  dejó de resolver **sin borrarlo**. La red no entra en el CI que bloquea: un rojo por causas ajenas se
+  aprende a ignorar.
+- Once pruebas nuevas en [`tests/test_registro_fuentes.py`](tests/test_registro_fuentes.py); el repositorio
+  pasa de 70 a **81 pruebas**.
+
+### Contenido
+
+- El README ya no lleva las 96 filas de la bibliografía. Publica las cifras del registro —producidas por el
+  verificador, no escritas a mano—, enlaza el registro y muestra **la obra que manda en cada una de las 24
+  partes**. La lista completa, ahora con la columna «Dónde», vive en
+  [`docs/BIBLIOGRAFIA.md`](docs/BIBLIOGRAFIA.md).
+- Cada clase remite al registro para localizar sus obras.
+- Dos pares de clases —`12.11` con `20.08` y `18.09` con `20.07`— declaraban el mismo aparato bibliográfico
+  palabra por palabra. Cuando la clase aplicada declara la misma idea que la introductoria, ninguna de las
+  dos está declarando su propio uso: se repartieron los anclajes según lo que cada una hace de la obra.
+
 ## [1.1.0] — 2026-08-19
 
 Reescritura del contenido de las clases y de su fundamentación bibliográfica. La versión 1.0.0 citaba obras

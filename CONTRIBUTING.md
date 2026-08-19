@@ -97,9 +97,39 @@ Para proponer una obra nueva:
 
 - debe aportar un **lente** distinto al de las obras ya citadas;
 - debe indicarse en qué clases se usaría y para qué;
-- se agrega en `curriculum/spec/bibliografia.py` con autoría, obra, edición de referencia, lente y categoría.
+- se agrega en `curriculum/spec/bibliografia.py` con autoría, obra, edición de referencia, lente y categoría;
+- se agrega **además** en `curriculum/spec/localizadores.py` con su localizador.
 
 No se aceptan obras citadas por prestigio si no cambian el análisis de alguna clase.
+
+### El localizador no es opcional
+
+Una obra nombrada sin localizador obliga a cada lector a salir a buscarla y le impide comprobar que es **esa**
+edición y no otra parecida. Se admiten exactamente tres formas:
+
+| Tipo | Localizador | Forma canónica |
+|---|---|---|
+| `book` | ISBN-13 con dígito de control válido | `https://openlibrary.org/isbn/{isbn13}` |
+| `paper` | DOI | `https://doi.org/{doi}` |
+| `standard`, `reference` | URL https de la fuente primaria, con `consultado` | la propia dirección |
+
+Reglas que el verificador hace cumplir:
+
+1. **No se inventa.** El ISBN se copia de un registro real, no se reconstruye de memoria ni se convierte
+   desde un ISBN-10 sin comprobar que resuelve. Si no resuelve, la entrada va con
+   `"estado": "pendiente"` y una nota que dice qué falta.
+2. **No se borra.** Una fuente que deja de resolver se marca y se corrige; no se elimina para que el
+   recuento quede redondo.
+3. **No se escriben cifras a mano.** El README publica las que cuenta `scripts/verify_sources.py`.
+
+Después de tocar cualquiera de los dos archivos:
+
+```bash
+python tools/build_bibliography_json.py     # regenera sources/bibliography.json
+python tools/build_readme_bibliografia.py   # actualiza las cifras del README
+python scripts/verify_sources.py            # gate offline; tiene que dar verde
+python scripts/refresh_sources.py           # opcional: resuelve los localizadores contra la red
+```
 
 ## Datos
 

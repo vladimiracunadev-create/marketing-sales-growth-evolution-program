@@ -143,7 +143,9 @@ jobs:
           python-version: "3.12"
 
       - name: Contrastar las cifras de fuentes del README contra el registro
-        run: python scripts/verify_sources.py
+        run: |
+          set -e
+          python scripts/verify_sources.py
           echo "Cifras declaradas coherentes con el contenido."
 
   markdown:

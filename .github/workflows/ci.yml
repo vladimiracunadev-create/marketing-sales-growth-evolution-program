@@ -15,17 +15,28 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  validar:
-    name: Estructura, profundidad y pruebas
-    runs-on: ubuntu-latest
+  validadores:
+    name: Validadores y pruebas · ${{ matrix.os }} · Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+        include:
+          - os: macos-latest
+            python: "3.12"
+          - os: windows-latest
+            python: "3.12"
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Preparar Python
+      - name: Preparar Python ${{ matrix.python }}
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python }}
+          cache: pip
 
       - name: Instalar dependencias de prueba
         run: |
@@ -44,6 +55,24 @@ jobs:
       - name: Ejecutar pruebas
         run: python -m pytest -q
 
+  sitio:
+    name: El portal se construye y valida
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Construir el portal
+        run: python tools/build_site.py --limpiar
+
+      - name: Validar el artefacto del portal
+        run: python tools/validate_site.py
+
   reproducibilidad:
     name: El contenido generado está al día
     runs-on: ubuntu-latest
@@ -60,21 +89,44 @@ jobs:
         run: |
           python tools/build_curriculum.py
           python tools/build_practica.py
+          python tools/build_rutas.py
           python tools/build_docs.py
 
       - name: Comprobar que no hay diferencias
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "El contenido publicado no coincide con la especificación."
+            echo "::error::El contenido publicado no coincide con la especificación."
             echo "Ejecuta los generadores y vuelve a confirmar los cambios:"
             echo "  python tools/build_curriculum.py"
             echo "  python tools/build_practica.py"
+            echo "  python tools/build_rutas.py"
             echo "  python tools/build_docs.py"
             git status --porcelain
             git diff --stat
             exit 1
           fi
           echo "El contenido generado está sincronizado con la especificación."
+
+  coherencia:
+    name: Las cifras declaradas coinciden con el repositorio
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Contrastar README y manifiesto contra archivos reales
+        run: |
+          set -e
+          clases=$(find curriculum -name 'class-*.md' | wc -l)
+          labs=$(find labs -name '*.md' | wc -l)
+          rutas=$(find rutas -name '*.md' -not -name 'README.md' | wc -l)
+          echo "clases=$clases labs=$labs rutas=$rutas"
+          test "$clases" -eq 336 || { echo "::error::Se esperaban 336 clases y hay $clases"; exit 1; }
+          test "$labs" -eq 48   || { echo "::error::Se esperaban 48 laboratorios y hay $labs"; exit 1; }
+          test "$rutas" -eq 17  || { echo "::error::Se esperaban 17 rutas y hay $rutas"; exit 1; }
+          grep -q "336" README.md || { echo "::error::El README no declara las 336 clases"; exit 1; }
+          grep -q "$rutas" README.md || { echo "::error::El README no declara las rutas"; exit 1; }
+          echo "Cifras declaradas coherentes con el contenido."
 
   markdown:
     name: Estilo de Markdown

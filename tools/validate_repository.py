@@ -115,7 +115,7 @@ def validar_estructura(rep):
         else:
             rep.error("Falta documento: docs/{}".format(nombre))
 
-    for carpeta in ["curriculum", "labs", "assessments", "cases", "projects", "capstone",
+    for carpeta in ["curriculum", "rutas", "labs", "assessments", "cases", "projects", "capstone",
                     "datasets", "notebooks", "templates", "simulations", "ai", "tools", "tests"]:
         if os.path.isdir(os.path.join(RAIZ, carpeta)):
             rep.ok()
@@ -240,6 +240,40 @@ def validar_practica(rep):
             rep.error("Falta {}".format(archivo))
 
 
+def validar_rutas(rep):
+    """Cada rol declarado debe tener su página y sus enlaces deben resolver."""
+    from spec.roles import ROLES
+
+    base = os.path.join(RAIZ, "rutas")
+    if not os.path.isdir(base):
+        rep.error("Falta el directorio rutas/")
+        return
+    if not os.path.isfile(os.path.join(base, "README.md")):
+        rep.error("Falta rutas/README.md")
+
+    secciones = ["## 🧭 Qué es y por qué importa", "## 🗓️ Un día en el puesto",
+                 "## 🧠 Qué necesitas saber", "## 📚 Tu ruta en el programa",
+                 "## 📥 Artefactos que acreditan este rol",
+                 "## 📈 Progresión de carrera y rangos",
+                 "## ⚠️ Mitos y errores comunes", "## ⚖️ Nota de honestidad"]
+
+    for rol in ROLES:
+        ruta = os.path.join(base, "{}.md".format(rol["slug"]))
+        if not os.path.isfile(ruta):
+            rep.error("Falta la página de rol: rutas/{}.md".format(rol["slug"]))
+            continue
+        texto = leer(ruta)
+        for seccion in secciones:
+            if seccion in texto:
+                rep.ok()
+            else:
+                rep.error("rutas/{}.md: falta «{}»".format(rol["slug"], seccion))
+        if len(texto.split()) < 900:
+            rep.error("rutas/{}.md: {} palabras (mínimo 900)".format(rol["slug"], len(texto.split())))
+        else:
+            rep.ok()
+
+
 def validar_bibliografia(rep):
     for clave, valor in bib.LIBROS.items():
         if len(valor) != 5:
@@ -264,6 +298,7 @@ def main():
     validar_estructura(rep)
     validar_clases(rep, args.verboso)
     validar_practica(rep)
+    validar_rutas(rep)
     validar_bibliografia(rep)
 
     print("Comprobaciones superadas: {}".format(rep.comprobaciones))

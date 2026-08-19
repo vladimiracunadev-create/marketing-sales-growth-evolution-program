@@ -12,9 +12,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   higiene:
-    name: Datos, secretos y dependencias
+    name: Dependencias, secretos y datos
     runs-on: ubuntu-latest
     steps:
       - name: Descargar repositorio
@@ -27,50 +31,60 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Verificar que no hay dependencias externas en los generadores
+      - name: Los generadores no usan dependencias externas
         run: |
           set -e
-          prohibidos="requests|pandas|numpy|markdown|jinja2|flask|django|boto3|openai|anthropic"
+          prohibidos="requests|pandas|numpy|markdown|jinja2|flask|django|boto3|openai|anthropic|bs4|lxml"
           if grep -REn "^\s*(import|from)\s+($prohibidos)\b" tools/; then
-            echo "Los generadores deben usar solo la biblioteca estandar."
+            echo "::error::Los generadores deben usar solo la biblioteca estandar."
             exit 1
           fi
           echo "Generadores sin dependencias externas."
 
-      - name: Verificar que el sitio no carga recursos de terceros
+      - name: El portal no carga recursos de terceros
         run: |
           set -e
           python tools/build_site.py --limpiar >/dev/null
-          if grep -REn 'src="https?://|href="https?://[^"]*\.(css|js)' site/assets site/index.html; then
-            echo "El sitio no debe cargar recursos externos."
-            exit 1
-          fi
-          echo "Sitio autocontenido."
+          python tools/validate_site.py
 
       - name: Buscar posibles secretos
         run: |
           set -e
-          patron='(AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|ghp_[A-Za-z0-9]{36}|sk-[A-Za-z0-9]{32,})'
+          patron='(AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|ghp_[A-Za-z0-9]{36}|sk-[A-Za-z0-9]{32,}|xox[baprs]-[A-Za-z0-9-]{10,})'
           if grep -REn "$patron" --exclude-dir=.git --exclude-dir=site .; then
-            echo "Posible secreto en el repositorio."
+            echo "::error::Posible secreto en el repositorio."
             exit 1
           fi
           echo "Sin secretos detectados."
 
-      - name: Verificar que los datos son sintéticos
+      - name: Los conjuntos de datos son sintéticos
         run: |
           set -e
           if grep -REn '[0-9]{7,8}-[0-9kK]\b' datasets/ 2>/dev/null; then
-            echo "Posible identificador personal chileno en datasets/."
+            echo "::error::Posible identificador personal chileno en datasets/."
+            exit 1
+          fi
+          if grep -REin '(@gmail|@hotmail|@outlook|@yahoo)\.' datasets/ 2>/dev/null; then
+            echo "::error::Posible correo personal real en datasets/."
             exit 1
           fi
           echo "Datos sin identificadores personales."
 
-      - name: Comprobar declaración de licencia
+      - name: Licencia y avisos presentes
         run: |
-          test -f LICENSE
-          grep -q "MIT" LICENSE
-          echo "Licencia presente."
+          set -e
+          test -f LICENSE && grep -q "MIT" LICENSE
+          grep -q "no asesoría legal" README.md
+          grep -q "datos sintéticos" README.md || grep -q "sintéticos" README.md
+          echo "Licencia y avisos de alcance presentes."
+
+      - name: Permisos de los workflows
+        run: |
+          set -e
+          for f in .github/workflows/*.yml; do
+            grep -q "permissions:" "$f" || { echo "::error::$f sin bloque permissions"; exit 1; }
+          done
+          echo "Todos los workflows declaran permisos explícitos."
 
   enlaces-externos:
     name: Enlaces externos
@@ -89,5 +103,5 @@ jobs:
             --accept 200,206,301,302,403,429
             --exclude-path site
             --exclude-path curriculum
-            "*.md" "docs/*.md"
+            "*.md" "docs/*.md" "rutas/*.md"
           fail: false

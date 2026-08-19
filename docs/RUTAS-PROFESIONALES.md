@@ -2,178 +2,82 @@
 title: "Rutas profesionales"
 type: career-paths
 language: es
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Rutas profesionales
 
-Qué roles existen en la función comercial, qué se espera de cada uno y qué partes del programa los preparan.
+> **Las guías completas de cada rol viven en [`rutas/`](../rutas/README.md).** Este documento explica cómo
+> están construidas, qué contienen y cómo elegir la tuya. Si ya sabes a qué puesto apuntas, ve directo al
+> [índice de rutas](../rutas/README.md).
 
-> **Advertencia.** Este programa no certifica ni garantiza empleo. Lo que acredita es evidencia de trabajo:
-> los artefactos producidos son la credencial y deben poder defenderse ante preguntas técnicas.
+## Por qué existen las rutas
 
-## 1. Mapa general de roles
+El programa tiene 336 clases. Recorrerlo completo construye criterio comercial de punta a punta, pero no
+todo el mundo necesita todo a la vez: alguien que entra a un rol de desarrollo de ventas necesita otra
+secuencia que alguien que dirige marketing.
 
-```mermaid
-flowchart LR
-    A[Analista / SDR / Ejecutivo junior] --> B[Especialista<br/>marketing · ventas · growth]
-    B --> C[Jefatura de equipo]
-    C --> D[Gerencia funcional<br/>CMO · VP Sales · Head of Growth]
-    D --> E[Dirección de ingresos<br/>CRO]
-    B --> F[Founder / dueño]
-    F --> E
-```
+Cada ruta responde cinco preguntas:
 
-## 2. Roles de entrada
+1. **¿Qué es realmente este puesto?** Cómo es un día de trabajo, no la descripción del aviso.
+2. **¿Qué hay que saber?** Conocimiento del oficio, herramientas y habilidades no técnicas.
+3. **¿Qué partes del programa lo preparan y en qué orden?**
+4. **¿Qué artefactos lo acreditan?** Lo que conviene llevar a una postulación.
+5. **¿Cómo progresa y qué mitos lo rodean?**
 
-### Analista comercial o de marketing
+## Las 17 rutas
 
-**Qué se espera:** producir evidencia confiable, documentar método y declarar límites del dato.
-
-**Partes clave:** 01, 02, 03, 20.
-
-**Artefactos que lo acreditan:** informe de oportunidad de mercado, árbol de métricas, caso analítico
-integral.
-
-**Pregunta típica de entrevista:** «Este número bajó 12 % este mes. ¿Qué haces?» — La respuesta esperada
-empieza por verificar si la variación está dentro del rango normal.
-
-### SDR / BDR (desarrollo de ventas)
-
-**Qué se espera:** originar conversaciones calificadas con disciplina de actividad y mensajes pertinentes.
-
-**Partes clave:** 02, 08, 11, 16.
-
-**Artefactos:** sistema de prospección repetible, secuencias multicanal, criterios de calificación.
-
-**Pregunta típica:** «¿Cuántos intentos hacen falta para una reunión en tu segmento?» — Se espera un número
-con su fuente, no una impresión.
-
-### Ejecutivo comercial junior
-
-**Qué se espera:** ejecutar el proceso comercial completo sin depender de acompañamiento constante.
-
-**Partes clave:** 08, 09, 10, 16.
-
-**Artefactos:** playbook comercial, deal review, carpeta de negociación.
-
-## 3. Roles de especialista
-
-### Marketing manager
-
-**Partes clave:** 01, 02, 04, 06, 12, 13, 14, 20.
-
-**Artefactos:** arquitectura STP, brand book mínimo viable, plan de adquisición, auditoría digital.
-
-**Lo que distingue a un buen candidato:** puede explicar qué parte de su resultado es incremental y qué parte
-habría ocurrido igual.
-
-### Product marketing
-
-**Partes clave:** 02, 03, 04, 05, 22.
-
-**Artefactos:** expediente de cliente, oferta lista para vender, declaración de posicionamiento probada.
-
-### Growth manager
-
-**Partes clave:** 12, 15, 18, 19, 20, 21.
-
-**Artefactos:** growth model, backlog de experimentos, resultados con criterio previo.
-
-**Lo que distingue:** puede nombrar tres experimentos que refutaron su hipótesis y qué cambió después.
-
-### Account executive
-
-**Partes clave:** 08, 09, 10, 16.
-
-**Artefactos:** deal review con mapa de comité, plan mutuo, acuerdo documentado.
-
-### Customer success manager
-
-**Partes clave:** 05, 18, 20.
-
-**Artefactos:** sistema de retención y expansión, health score validado, ciclo de renovación.
-
-### Sales operations / RevOps
-
-**Partes clave:** 16, 17, 20, 23.
-
-**Artefactos:** diseño de sales operations, operating model de RevOps, modelo de datos de ingresos.
-
-**Lo que distingue:** puede explicar por qué dos áreas reportan cifras distintas y cómo se resuelve.
-
-### E-commerce manager
-
-**Partes clave:** 12, 13, 15, 20.
-
-**Artefactos:** simulación de tienda rentable, economía por pedido, plan postventa conforme a la normativa.
-
-## 4. Roles de jefatura y gerencia
-
-### Jefe de ventas
-
-**Partes clave:** 08–11, 16, 23.
-
-**Qué cambia respecto del rol anterior:** ya no responde por su propio resultado sino por el del equipo, y
-debe distinguir problemas de capacidad, de claridad y de territorio.
-
-### CMO / Head of Marketing
-
-**Partes clave:** 04, 06, 12–14, 20, 22, 23.
-
-**Qué se espera:** asignar presupuesto con criterio de eficiencia, sostener la construcción de marca frente a
-la presión de corto plazo y responder por el resultado ante el directorio.
-
-### VP Sales
-
-**Partes clave:** 09, 10, 16, 22, 23.
-
-**Qué se espera:** forecast confiable, diseño de cuotas y territorios, y un sistema que no dependa de dos
-vendedores estrella.
-
-### CRO (Chief Revenue Officer)
-
-**Partes clave:** todo el programa, con énfasis en 16–24.
-
-**Qué se espera:** dirigir marketing, ventas y éxito de cliente como un solo sistema, con un modelo de datos
-común y una economía unitaria verificada.
-
-**Artefacto:** operating system del CRO.
-
-## 5. Founder y dueño
-
-**Partes clave:** 01–08, 11, 12, 22, 24.
-
-**Qué cambia:** la pregunta no es sólo si funciona, sino si funciona sin depender del fundador y si preserva
-caja.
-
-**Artefacto:** Capstone completo con cumplimiento normativo verificado.
-
-## 6. Qué mira quien contrata
-
-Con independencia del rol, tres señales pesan más que el currículo:
-
-1. **Puede mostrar trabajo.** Un artefacto real supera a cualquier descripción de responsabilidades.
-2. **Distingue lo que sabe de lo que supone.** Quien declara sus límites genera más confianza que quien
-   afirma con seguridad uniforme.
-3. **Conecta su trabajo con el resultado del negocio.** «Aumenté el tráfico» vale menos que «reduje el costo
-   por oportunidad calificada de X a Y, y aquí está el cálculo».
-
-## 7. Cómo usar el portafolio en una postulación
-
-| Rol al que postulas | Artefactos a mostrar |
+| Familia | Roles |
 |---|---|
-| Analista | Informe de oportunidad de mercado, caso analítico |
-| Marketing manager | Arquitectura STP, plan de adquisición, auditoría digital |
-| Ejecutivo comercial | Playbook, deal review, carpeta de negociación |
-| Growth | Growth model, tres experimentos con criterio previo |
-| Customer success | Sistema de retención, health score validado |
-| RevOps | Modelo de datos, diseño de sales operations |
-| Dirección | Operating system del CRO, Capstone completo |
+| 📊 Analítica | [Analista de marketing y de ingresos](../rutas/analista-de-marketing.md) |
+| 🎯 Marketing | [Marketing manager](../rutas/marketing-manager.md) · [Product marketing](../rutas/product-marketing.md) · [Brand manager](../rutas/brand-manager.md) |
+| 🚀 Growth | [Growth manager](../rutas/growth-manager.md) |
+| 📈 Adquisición | [Performance marketer](../rutas/performance-marketer.md) · [Content manager](../rutas/content-manager.md) · [E-commerce manager](../rutas/ecommerce-manager.md) |
+| 🤝 Ventas | [SDR / BDR](../rutas/sdr-bdr.md) · [Ejecutivo comercial](../rutas/ejecutivo-comercial.md) |
+| 🔁 Retención | [Customer Success Manager](../rutas/customer-success.md) |
+| ⚙️ Operación de ingresos | [RevOps / Sales Operations](../rutas/revops.md) |
+| 👑 Dirección | [Head of GTM](../rutas/head-of-gtm.md) · [CMO](../rutas/cmo.md) · [VP de ventas](../rutas/vp-sales.md) · [CRO](../rutas/cro.md) · [Founder](../rutas/founder.md) |
 
-Documenta cada artefacto con: problema, método, decisiones tomadas y descartadas, resultado o aprendizaje.
+## Cómo elegir
+
+| Tu situación | Ruta sugerida |
+|---|---|
+| Entras al área comercial sin experiencia | [SDR / BDR](../rutas/sdr-bdr.md) o [Analista de marketing](../rutas/analista-de-marketing.md) |
+| Vienes de otra disciplina con perfil analítico | [Analista de marketing](../rutas/analista-de-marketing.md) → [RevOps](../rutas/revops.md) |
+| Vienes de atención al cliente | [Customer Success](../rutas/customer-success.md) |
+| Vienes de diseño o comunicación | [Content manager](../rutas/content-manager.md) → [Brand manager](../rutas/brand-manager.md) |
+| Ya vendes y quieres profesionalizar | [Ejecutivo comercial](../rutas/ejecutivo-comercial.md) |
+| Ya diriges un equipo comercial | [VP de ventas](../rutas/vp-sales.md) → [CRO](../rutas/cro.md) |
+| Tienes o vas a tener un negocio propio | [Founder](../rutas/founder.md) |
+
+## Qué acredita el programa y qué no
+
+> El programa **no certifica ni garantiza empleo**. Lo que acredita es evidencia de trabajo: los artefactos
+> producidos son la credencial y deben poder defenderse ante preguntas técnicas.
+
+Tres señales pesan más que el currículo, con independencia del rol:
+
+1. **Puedes mostrar trabajo.** Un artefacto real supera a cualquier descripción de responsabilidades.
+2. **Distingues lo que sabes de lo que supones.** Declarar los límites del propio análisis genera más
+   confianza que afirmar con seguridad uniforme.
+3. **Conectas tu trabajo con el resultado del negocio.** «Aumenté el tráfico» vale menos que «reduje el
+   costo por oportunidad calificada de X a Y, y aquí está el cálculo».
+
+## Sobre los rangos salariales
+
+Cada ruta incluye rangos **orientativos** para Chile, LATAM, España y contratación remota en dólares. Varían
+mucho por sector, tamaño de empresa, industria y experiencia: son referencia de mercado, no promesa. Úsalos
+para calibrar una conversación, no para fijar una expectativa.
+
+## Documentos relacionados
+
+| Documento | Contenido |
+|---|---|
+| [Índice de rutas](../rutas/README.md) | Las 17 guías completas |
+| [Ruta de aprendizaje](RUTA-DE-APRENDIZAJE.md) | Recorridos por objetivo y criterios de avance |
+| [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) | Competencias, roles y artefactos por parte · generado |
+| [Estándar de evidencia](ESTANDAR-DE-EVIDENCIA.md) | Cómo documentar cada artefacto del portafolio |
 
 ---
 
-[⬅ Documentación](README.md) · [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) ·
-[Ruta de aprendizaje](RUTA-DE-APRENDIZAJE.md)
+[⬅ Documentación](README.md) · [Rutas por rol](../rutas/README.md) · [Programa](../README.md)

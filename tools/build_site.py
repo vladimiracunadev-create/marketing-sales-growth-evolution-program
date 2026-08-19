@@ -30,7 +30,7 @@ SALIDA = os.path.join(RAIZ, "site")
 FECHA = "2026-08-18"
 TITULO = "Marketing, Sales & Growth Evolution Program"
 
-DIRECTORIOS = ["curriculum", "labs", "assessments", "cases", "projects", "capstone", "docs",
+DIRECTORIOS = ["curriculum", "rutas", "labs", "assessments", "cases", "projects", "capstone", "docs",
                "datasets", "notebooks", "templates", "simulations", "ai", "apps"]
 
 RAIZ_DOCS = ["README.md", "SYLLABUS.md", "MANIFEST.md", "FILE_INDEX.md", "STATUS.md", "ROADMAP.md",
@@ -38,6 +38,7 @@ RAIZ_DOCS = ["README.md", "SYLLABUS.md", "MANIFEST.md", "FILE_INDEX.md", "STATUS
 
 SECCIONES = [
     ("curriculum", "Currículo"),
+    ("rutas", "Rutas por rol"),
     ("labs", "Laboratorios"),
     ("assessments", "Evaluaciones"),
     ("cases", "Casos"),
@@ -484,6 +485,7 @@ def main():
         '<span>{}</span></a>'.format(slug, nombre, descripcion)
         for slug, nombre, descripcion in [
             ("curriculum", "Currículo", "24 partes y 336 clases con definiciones operacionales"),
+            ("rutas", "Rutas por rol", "17 guías de carrera con artefactos y progresión"),
             ("labs", "Laboratorios", "48 laboratorios con rúbrica de 100 puntos"),
             ("assessments", "Evaluaciones", "24 evaluaciones de cuatro bloques ponderados"),
             ("cases", "Casos", "24 casos extendidos con complicación"),

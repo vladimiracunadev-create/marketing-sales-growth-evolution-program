@@ -10,7 +10,7 @@ updated: 2026-08-18
 
 # Estado del repositorio
 
-**Versión:** 2.0.0 · **Actualizado:** 2026-08-18
+**Versión:** 2.1.0 · **Actualizado:** 2026-08-18
 
 ## Inventario frente a metas
 
@@ -29,7 +29,7 @@ updated: 2026-08-18
 
 **Palabras de contenido curricular:** 1.298.431
 
-**Páginas HTML generadas:** 612 · **Módulos de prueba:** 4 · **Plantillas:** 14
+**Páginas HTML generadas:** 631 · **Módulos de prueba:** 5 · **Plantillas:** 14
 
 ## Verificaciones automatizadas
 

@@ -4,6 +4,39 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio de estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [2.1.0] — 2026-08-19
+
+Presentación, orientación profesional y refuerzo de la integración continua.
+
+### Agregado
+
+- **17 rutas profesionales con página propia** en [`rutas/`](rutas/README.md), generadas desde
+  `curriculum/spec/roles.py`. Cada guía describe qué es el puesto, cómo es un día real, qué hay que saber,
+  qué partes del programa lo preparan, qué artefactos lo acreditan, cómo progresa la carrera, qué rangos
+  salariales orientativos tiene y qué mitos lo rodean: analista de marketing, marketing manager, product
+  marketing, growth, SDR/BDR, ejecutivo comercial, customer success, RevOps, performance marketer, content
+  manager, e-commerce manager, brand manager, head of GTM, CMO, VP de ventas, CRO y founder.
+- `tools/build_rutas.py` y `tools/validate_site.py`.
+- Flujo `codeql.yml` de análisis estático sobre las herramientas.
+- Verificación del **sitio ya publicado** en `pages.yml`: comprueba ocho rutas clave en producción con
+  reintentos, y falla si alguna no responde.
+- Trabajo de **coherencia de cifras** en `ci.yml`: contrasta el README y el manifiesto contra los archivos
+  reales del repositorio.
+- Trabajo de **construcción y validación del portal** en `ci.yml`.
+- 13 pruebas nuevas para las rutas profesionales (59 en total).
+
+### Cambiado
+
+- **README principal rediseñado**: cabecera centrada con insignias de los cuatro flujos, enlaces rápidos,
+  aviso de cumplimiento, tabla de estado verificable, diagrama de los ocho niveles, tabla completa de las
+  24 partes con su artefacto, estado del caso persistente, tabla de rutas por rol, sección de calidad y CI,
+  bibliografía colapsable, comparación de qué es y qué no es, límites honestos y programas hermanos.
+- `ci.yml` ejecuta ahora una matriz de Python 3.9 a 3.13 en Linux, más macOS y Windows.
+- `security.yml` verifica además que todos los flujos declaren permisos explícitos y que los conjuntos de
+  datos no contengan correos personales.
+- `docs/RUTAS-PROFESIONALES.md` pasa a ser la guía de selección y remite a las páginas por rol.
+- El portal incorpora la sección de rutas y el panel de progreso (632 páginas).
+
 ## [2.0.0] — 2026-08-18
 
 Reconstrucción completa del programa sobre el estándar `clase-profunda-v3`.
@@ -67,5 +100,6 @@ Reconstrucción completa del programa sobre el estándar `clase-profunda-v3`.
 - Mapa regulatorio chileno y registro de fuentes oficiales.
 - Panel de seguimiento local sin dependencias.
 
+[2.1.0]: https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/releases/tag/v2.1.0
 [2.0.0]: https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/releases/tag/v2.0.0
 [1.0.0]: https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/releases/tag/v1.0.0

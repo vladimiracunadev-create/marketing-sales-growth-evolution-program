@@ -15,6 +15,7 @@ updated: 2026-08-18
 | Documento | Para qué sirve |
 |---|---|
 | [Ruta de aprendizaje](RUTA-DE-APRENDIZAJE.md) | Cómo recorrer el programa según tu punto de partida |
+| [Rutas por rol](../rutas/README.md) | 17 guías de carrera con día a día, artefactos y progresión |
 | [Syllabus](../SYLLABUS.md) | Programa completo en una página · **generado** |
 | [Metodología](METODOLOGIA.md) | Por qué el programa está construido así |
 | [Preguntas frecuentes](PREGUNTAS-FRECUENTES.md) | Dudas habituales sobre alcance, uso y límites |
@@ -58,7 +59,8 @@ updated: 2026-08-18
 
 | Documento | Contenido |
 |---|---|
-| [Rutas profesionales](RUTAS-PROFESIONALES.md) | Roles, expectativas y artefactos que los acreditan |
+| [Rutas profesionales](RUTAS-PROFESIONALES.md) | Cómo elegir una ruta y qué acredita el programa |
+| [Guías por rol](../rutas/README.md) | Las 17 guías completas, una por puesto |
 
 ## Documentos en la raíz del repositorio
 

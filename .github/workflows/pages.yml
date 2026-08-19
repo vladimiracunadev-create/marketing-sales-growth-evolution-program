@@ -1,4 +1,4 @@
-name: Publicar sitio del programa
+name: Publicar portal del programa
 
 on:
   push:
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   construir:
-    name: Construir sitio HTML
+    name: Construir y validar el portal
     runs-on: ubuntu-latest
     steps:
       - name: Descargar repositorio
@@ -27,20 +27,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generar el sitio
+      - name: Generar el portal
         run: python tools/build_site.py --limpiar
 
-      - name: Verificar que el sitio se generó
+      - name: Validar el artefacto antes de publicar
+        run: python tools/validate_site.py
+
+      - name: Resumen de la construcción
         run: |
           paginas=$(find site -name '*.html' | wc -l)
-          echo "Páginas generadas: $paginas"
-          if [ "$paginas" -lt 500 ]; then
-            echo "El sitio tiene menos páginas de las esperadas."
-            exit 1
-          fi
-          test -f site/index.html
-          test -f site/search-index.json
-          test -f site/assets/estilo.css
+          peso=$(du -sh site | cut -f1)
+          entradas=$(python -c "import json;print(len(json.load(open('site/search-index.json',encoding='utf-8'))))")
+          {
+            echo "### Portal construido"
+            echo ""
+            echo "| Métrica | Valor |"
+            echo "|---|---:|"
+            echo "| Páginas HTML | $paginas |"
+            echo "| Entradas en el buscador | $entradas |"
+            echo "| Peso total | $peso |"
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
@@ -61,3 +67,39 @@ jobs:
       - name: Desplegar
         id: despliegue
         uses: actions/deploy-pages@v4
+
+  verificar:
+    name: Comprobar el sitio ya publicado
+    needs: publicar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verificar páginas clave en producción
+        run: |
+          set -e
+          base="https://vladimiracunadev-create.github.io/marketing-sales-growth-evolution-program"
+          rutas=(
+            "/"
+            "/curriculum/index.html"
+            "/rutas/index.html"
+            "/rutas/ejecutivo-comercial.html"
+            "/curriculum/part-07-pricing-y-monetizacion/class-04-value-based-pricing.html"
+            "/apps/learning-dashboard/index.html"
+            "/search-index.json"
+            "/assets/estilo.css"
+          )
+          fallos=0
+          for r in "${rutas[@]}"; do
+            for intento in 1 2 3 4 5; do
+              codigo=$(curl -s -o /dev/null -w "%{http_code}" --max-time 25 "$base$r" || echo 000)
+              if [ "$codigo" = "200" ]; then break; fi
+              sleep 12
+            done
+            if [ "$codigo" = "200" ]; then
+              echo "OK   $codigo  $r"
+            else
+              echo "::error::$codigo en $r"
+              fallos=$((fallos+1))
+            fi
+          done
+          if [ "$fallos" -gt 0 ]; then exit 1; fi
+          echo "El sitio publicado responde correctamente en todas las rutas clave."

@@ -157,27 +157,6 @@ CIERRES_DESARROLLO = [
 ]
 
 
-def front_matter(parte, clase):
-    ref = "{}.{}".format(parte["num"], clase["n"])
-    return "\n".join([
-        "---",
-        'title: "{}"'.format(clase["titulo"].replace('"', "'")),
-        "type: class",
-        "language: es",
-        "standard: {}".format(VERSION_ESTANDAR),
-        "part: {}".format(parte["num"]),
-        "class: {}".format(clase["n"]),
-        "level: {}".format(parte["nivel"]),
-        "mastery_threshold: 80",
-        "estimated_minutes: 150",
-        "sources: {}".format(json.dumps(clase["libros"], ensure_ascii=False)),
-        "anchors: {}".format(json.dumps(ANCLAJES[ref], ensure_ascii=False, sort_keys=True)),
-        "updated: {}".format(FECHA),
-        "---",
-        "",
-    ])
-
-
 def bloque_antes(parte, clases, idx):
     """Entrada a la clase, en prosa.
 
@@ -818,7 +797,6 @@ def render_clase(parte, clases, idx):
     clase = clases[idx]
     i = int(clase["n"])
     partes_doc = [
-        front_matter(parte, clase),
         "# Clase {}.{} — {}\n".format(parte["num"], clase["n"], clase["titulo"]),
         "Clase {} de {} de la parte [{} — {}](README.md), de nivel {}. Dura unos 150 minutos.\n".format(
             int(clase["n"]), len(clases), parte["num"], parte["titulo"], parte["nivel"]),
@@ -898,14 +876,6 @@ def render_readme(parte, clases):
         a_donde = "Es la última parte: aquí se cierra el programa y se defiende el Capstone."
 
     lineas = [
-        "---",
-        'title: "Parte {} — {}"'.format(num, parte["titulo"]),
-        "type: part-index",
-        "language: es",
-        "part: {}".format(num),
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Parte {} — {}".format(num, parte["titulo"]),
         "",
         "Esta parte trabaja el nivel **{}** del programa y su propósito es que llegues a poder "
@@ -1005,13 +975,6 @@ def render_readme(parte, clases):
 
 def render_indice_curriculo(datos):
     lineas = [
-        "---",
-        'title: "Currículo — 24 partes y 336 clases"',
-        "type: curriculum-index",
-        "language: es",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Currículo",
         "",
         "24 partes, {} clases y un caso persistente. Cada clase sigue el estándar `{}`: conceptos con "
@@ -1103,13 +1066,23 @@ def main():
             "artefacto": parte["artefacto"],
             "roles": parte["roles"],
             "libros": parte["libros"],
+            # Los metadatos que antes iban en el front matter de cada clase
+            # viven aquí. Es su sitio: una tabla de campos técnicos encima del
+            # título no le sirve a quien lee, y aquí sí la puede leer una
+            # máquina sin ensuciar el documento.
             "clases": [{
                 "n": c["n"],
                 "slug": c["slug"],
                 "titulo": c["titulo"],
+                "nivel": parte["nivel"],
+                "estandar": VERSION_ESTANDAR,
+                "idioma": "es",
+                "umbral_aprobacion": 80,
+                "minutos_estimados": 150,
                 "conceptos": [t for t, _ in c["conceptos"]],
                 "senales": [s for s, _ in c["senales"]],
                 "libros": c["libros"],
+                "anclajes": ANCLAJES["{}.{}".format(parte["num"], c["n"])],
                 "ruta": "curriculum/{}/class-{}-{}.md".format(parte["slug"], c["n"], c["slug"]),
             } for c in clases],
         })

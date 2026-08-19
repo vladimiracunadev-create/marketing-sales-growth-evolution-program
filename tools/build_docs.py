@@ -72,15 +72,15 @@ def clases(num):
 
 
 def cabecera(titulo, tipo):
+    """Aviso de documento generado.
+
+    Ya no lleva front matter YAML. GitHub lo pinta como una tabla de metadatos
+    justo encima del título, donde el lector espera el contenido y no la ficha
+    técnica del archivo. Lo que de ahí servía para algo —el índice legible por
+    máquina— vive en `curriculum/curriculum.json`, que es su sitio.
+    """
+    del titulo, tipo  # se conservan en la firma por compatibilidad de llamadas
     return [
-        "---",
-        'title: "{}"'.format(titulo),
-        "type: {}".format(tipo),
-        "language: es",
-        "generated: true",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "> Documento generado por `tools/build_docs.py`. No editar a mano: los cambios se pierden en la "
         "siguiente generación. La fuente de verdad está en `curriculum/spec/`.",
         "",

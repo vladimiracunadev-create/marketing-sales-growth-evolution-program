@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import importlib
+import json
 import os
 import re
 import sys
@@ -25,6 +26,9 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
+
+# Estandar pedagogico vigente. Debe coincidir con el que declara el generador.
+VERSION_ESTANDAR = "clase-profunda-v2"
 
 SECCIONES_CLASE = [
     "## 🚦 Antes de empezar",
@@ -171,25 +175,42 @@ def validar_clases(rep, verboso=False):
                 else:
                     rep.error("{}: falta la sección «{}»".format(rel, seccion))
 
-            if "language: es" not in texto:
-                rep.error("{}: no declara idioma español".format(rel))
-            else:
-                rep.ok()
-
             prosa = _solo_prosa(texto)
             for termino in ANGLICISMOS_PROHIBIDOS:
                 if termino in prosa:
                     rep.error("{}: contiene texto en inglés «{}»".format(rel, termino.strip()))
 
-            for clave in re.findall(r'sources: \[(.*?)\]', texto):
-                for libro in re.findall(r'"([^"]+)"', clave):
+    # Los metadatos de cada clase —idioma, estándar, umbral, obras citadas— ya
+    # no viven en un front matter encima del título, donde GitHub los pintaba
+    # como una tabla que no le decía nada al lector. Viven en el índice legible
+    # por máquina, y es ahí donde se comprueban.
+    ruta_indice = os.path.join(RAIZ, "curriculum", "curriculum.json")
+    if not os.path.isfile(ruta_indice):
+        rep.error("Falta curriculum/curriculum.json")
+    else:
+        with open(ruta_indice, encoding="utf-8") as fh:
+            indice = json.load(fh)
+        for parte in indice["partes"]:
+            for c in parte["clases"]:
+                ref = "{}.{}".format(parte["num"], c["n"])
+                if c.get("idioma") != "es":
+                    rep.error("{}: el índice no declara idioma español".format(ref))
+                else:
+                    rep.ok()
+                if c.get("umbral_aprobacion") != 80:
+                    rep.error("{}: el índice no declara umbral de aprobación".format(ref))
+                else:
+                    rep.ok()
+                if c.get("estandar") != VERSION_ESTANDAR:
+                    rep.error("{}: el índice no declara el estándar {}".format(
+                        ref, VERSION_ESTANDAR))
+                else:
+                    rep.ok()
+                for libro in c.get("libros", []):
                     if libro not in bib.LIBROS:
-                        rep.error("{}: bibliografía inexistente «{}»".format(rel, libro))
+                        rep.error("{}: bibliografía inexistente «{}»".format(ref, libro))
                     else:
                         rep.ok()
-
-            if "mastery_threshold: 80" not in texto:
-                rep.error("{}: no declara umbral de aprobación".format(rel))
 
     if verboso:
         print("Clases verificadas: {}".format(total))

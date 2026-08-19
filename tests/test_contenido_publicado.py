@@ -92,14 +92,44 @@ def test_clases_en_espanol(raiz, partes):
                 os.path.basename(ruta), marcador.strip())
 
 
-def test_clases_declaran_metadatos(raiz, partes):
-    for parte, ruta in rutas_de_clase(raiz, partes):
+def test_las_clases_empiezan_por_su_titulo(raiz, partes):
+    """Ningún documento abre con una ficha de metadatos.
+
+    El front matter YAML se retiró porque GitHub lo pinta como una tabla justo
+    encima del título: ocupa el lugar donde el lector busca el contenido y no
+    le dice nada. Lo primero de una clase es su título.
+    """
+    for _parte, ruta in rutas_de_clase(raiz, partes):
         texto = leer(ruta)
-        assert texto.startswith("---\n")
-        assert "language: es" in texto
-        assert "standard: clase-profunda-v2" in texto
-        assert "mastery_threshold: 80" in texto
-        assert "part: {}".format(parte["num"]) in texto
+        assert not texto.startswith("---"), "{}: abre con front matter".format(
+            os.path.basename(ruta))
+        assert texto.startswith("# Clase "), os.path.basename(ruta)
+
+
+def test_los_metadatos_de_clase_viven_en_el_indice(raiz, partes):
+    """Lo que el front matter declaraba sigue disponible, en su sitio.
+
+    Quitar la ficha del documento no puede significar perder el dato: vive en
+    `curriculum/curriculum.json`, que es donde una máquina lo lee sin ensuciar
+    lo que lee una persona.
+    """
+    import json
+
+    with open(os.path.join(raiz, "curriculum", "curriculum.json"), encoding="utf-8") as fh:
+        indice = json.load(fh)
+
+    total = 0
+    for parte in indice["partes"]:
+        for c in parte["clases"]:
+            total += 1
+            assert c["idioma"] == "es"
+            assert c["estandar"] == "clase-profunda-v2"
+            assert c["umbral_aprobacion"] == 80
+            assert c["minutos_estimados"] == 150
+            assert c["libros"], "{}.{} sin obras".format(parte["num"], c["n"])
+            assert set(c["anclajes"]) == set(c["libros"])
+            assert os.path.isfile(os.path.join(raiz, c["ruta"].replace("/", os.sep)))
+    assert total == 336
 
 
 def test_conceptos_de_la_especificacion_aparecen_en_la_clase(raiz, clases_por_parte, partes):

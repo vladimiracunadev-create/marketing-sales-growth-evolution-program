@@ -61,17 +61,6 @@ def render_lab(parte, cls, n_lab, anclas):
     principal, secundaria = anclas
     senales = principal["senales"] + secundaria["senales"]
     lineas = [
-        "---",
-        'title: "Lab {}.{} — {}"'.format(num, n_lab, principal["titulo"]),
-        "type: lab",
-        "language: es",
-        "part: {}".format(num),
-        "lab: {}".format(n_lab),
-        "mastery_threshold: 80",
-        "estimated_minutes: 240",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Lab {}.{} — {}".format(num, n_lab, principal["titulo"]),
         "",
         "**Parte {} · {}** · Duración estimada: 4 horas · Aprobación: 80/100",
@@ -187,15 +176,6 @@ def render_assessment(parte, cls):
     num = parte["num"]
     conceptos = [c["conceptos"][0] for c in cls]
     lineas = [
-        "---",
-        'title: "Evaluación — Parte {}: {}"'.format(num, parte["titulo"]),
-        "type: assessment",
-        "language: es",
-        "part: {}".format(num),
-        "mastery_threshold: 80",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Evaluación — Parte {}: {}".format(num, parte["titulo"]),
         "",
         "Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una "
@@ -284,14 +264,6 @@ def render_case(parte, cls):
     num = parte["num"]
     principal = cls[13]
     lineas = [
-        "---",
-        'title: "Caso {} — {}"'.format(num, parte["titulo"]),
-        "type: case",
-        "language: es",
-        "part: {}".format(num),
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Caso {} — {}".format(num, parte["titulo"]),
         "",
         "## Contexto",
@@ -370,15 +342,6 @@ def render_case(parte, cls):
 
 def render_project(n, p1, p2):
     lineas = [
-        "---",
-        'title: "Proyecto {} — Partes {} y {}"'.format(n, p1["num"], p2["num"]),
-        "type: project",
-        "language: es",
-        "parts: [{}, {}]".format(p1["num"], p2["num"]),
-        "mastery_threshold: 80",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Proyecto {} — Partes {} y {}".format(n, p1["num"], p2["num"]),
         "",
         "**Partes integradas:** {} y {}.".format(p1["titulo"], p2["titulo"]),
@@ -443,14 +406,6 @@ def render_project(n, p1, p2):
 
 def render_capstone(cls24):
     lineas = [
-        "---",
-        'title: "Capstone — Empresa comercial completa"',
-        "type: capstone",
-        "language: es",
-        "mastery_threshold: 80",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Capstone — Empresa comercial completa",
         "",
         "El Capstone integra las 24 partes del programa en una operación comercial defendible ante un panel "
@@ -526,13 +481,6 @@ def render_capstone(cls24):
 
 def render_checklist(cls24):
     lineas = [
-        "---",
-        'title: "Checklist del Capstone"',
-        "type: checklist",
-        "language: es",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "# Checklist del Capstone",
         "",
         "Marca cada elemento sólo cuando exista evidencia verificable en el repositorio de entrega.",

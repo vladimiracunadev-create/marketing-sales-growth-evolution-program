@@ -103,14 +103,6 @@ def main():
     ]
 
     lineas = [
-        "---",
-        'title: "Estado del repositorio"',
-        "type: status",
-        "language: es",
-        "generated: true",
-        "updated: {}".format(FECHA),
-        "---",
-        "",
         "> Documento generado por `tools/build_status.py`. Los números provienen de contar archivos reales.",
         "",
         "# Estado del repositorio",

@@ -66,15 +66,6 @@ def render_rol(rol):
     p = []
     a = p.append
 
-    a("---")
-    a('title: "Ruta profesional — {}"'.format(rol["titulo"]))
-    a("type: career-path")
-    a("language: es")
-    a("role: {}".format(rol["slug"]))
-    a("family: {}".format(rol["familia"]))
-    a("updated: {}".format(FECHA))
-    a("---")
-    a("")
     a("# {} {}".format(rol["emoji"], rol["titulo"]))
     a("")
     a("> {}".format(rol["resumen"]))
@@ -201,13 +192,6 @@ def render_indice():
     p = []
     a = p.append
 
-    a("---")
-    a('title: "Rutas profesionales por rol"')
-    a("type: career-index")
-    a("language: es")
-    a("updated: {}".format(FECHA))
-    a("---")
-    a("")
     a("# 🧭 Rutas profesionales por rol")
     a("")
     a("El programa tiene **336 clases**; no todas son para todos a la vez. Estas {} rutas ordenan el "

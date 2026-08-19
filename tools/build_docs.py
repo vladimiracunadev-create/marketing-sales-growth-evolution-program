@@ -387,8 +387,12 @@ def _archivos_versionados():
     las mismas exclusiones.
     """
     try:
-        salida = subprocess.run(["git", "ls-files"], cwd=RAIZ, capture_output=True,
-                                text=True, timeout=120)
+        # `--cached --others --exclude-standard` incluye lo versionado y lo que
+        # aún no se ha confirmado pero sí se publicará, y excluye lo ignorado.
+        # Así el índice es idéntico antes y después del commit, que es lo que
+        # verifica el trabajo de reproducibilidad en integración continua.
+        salida = subprocess.run(["git", "ls-files", "--cached", "--others", "--exclude-standard"],
+                                cwd=RAIZ, capture_output=True, text=True, timeout=120)
         if salida.returncode == 0 and salida.stdout.strip():
             return sorted(l.strip() for l in salida.stdout.splitlines() if l.strip())
     except Exception:  # noqa: BLE001

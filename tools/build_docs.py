@@ -192,11 +192,15 @@ def localizadores_publicados():
 
 def build_bibliografia(datos):
     registro = localizadores_publicados()
+    # Se cuentan clases, no citas: el núcleo pedagógico aparece al pie de todas
+    # y no puede sumar dos veces la clase que además lo cita de forma explícita.
     usos = defaultdict(list)
     for parte, cls in datos:
         for c in cls:
-            for clave in c["libros"]:
-                usos[clave].append("{}.{}".format(parte["num"], c["n"]))
+            ref = "{}.{}".format(parte["num"], c["n"])
+            for clave in set(list(c["libros"]) + list(bib.NUCLEO_PEDAGOGICO)):
+                usos[clave].append(ref)
+    usos = {k: sorted(set(v)) for k, v in usos.items()}
     lineas = cabecera("Bibliografía maestra", "bibliography")
     lineas += [
         "# Bibliografía",

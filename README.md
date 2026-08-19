@@ -11,7 +11,7 @@
 [![Security](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/codeql.yml)
 
-[![Version](https://img.shields.io/badge/versión-1.2.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/versión-1.3.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](curriculum/README.md)
 [![Contenido](https://img.shields.io/badge/contenido-1,29M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
 [![Rutas](https://img.shields.io/badge/rutas%20por%20rol-17-0b5c8a?style=for-the-badge)](rutas/README.md)
@@ -312,14 +312,11 @@ taller intensivo de dos días y programa completo de doce meses.
 
 <!-- BIBLIOGRAFIA:INICIO -->
 
-<details>
-<summary><b>📚 Fundamentación — 96 obras, cada una con un localizador que se puede seguir</b></summary>
+## 📚 Bibliografía: en qué se apoya lo que el programa afirma
 
-<br>
+Ninguna afirmación de estas 336 clases es invención del programa. Cada una se apoya en obras identificables, y aquí están todas: **96 obras**, con lo que aporta cada una, en cuántas clases se cita y **el enlace donde se resuelve su edición exacta**. Si algo del material te parece discutible, esta lista es por dónde se comprueba.
 
-El programa usa estas obras para ordenar conceptos y profundidad; **toda la redacción es original y no reproduce sus textos**. Citar no basta: de cada obra se catalogaron **395 ideas concretas** y cada una de las 336 clases declara **cuál** de ellas sostiene cada una de sus cuatro citas —**1344 anclajes**— y en qué capítulo buscarla.
-
-Tampoco basta con anclar. Una obra nombrada sin localizador obliga al lector a salir a buscarla por su cuenta y le impide comprobar que es **esa** edición y no otra parecida. Por eso las obras no viven en esta portada: viven en [`sources/bibliography.json`](sources/bibliography.json), con ISBN-13, DOI o URL de la fuente primaria según lo que corresponda.
+Citar no basta, así que el programa va un paso más allá: de estas obras se catalogaron **395 ideas concretas**, y cada una de las 336 clases declara **cuál** de ellas sostiene cada una de sus cuatro citas —**1344 anclajes**— y en qué capítulo buscarla. Eso es lo que distingue una fuente que sostiene el texto de una que sólo lo decora.
 
 <!-- REGISTRO-FUENTES:INICIO -->
 
@@ -335,43 +332,230 @@ Tampoco basta con anclar. Una obra nombrada sin localizador obliga al lector a s
 <!-- REGISTRO-FUENTES:FIN -->
 
 > [!NOTE]
-> Estas cifras las produce `python scripts/verify_sources.py`, que falla si el README declara otras. No se escriben a mano.
+> Estas cifras las produce `python scripts/verify_sources.py`, que falla si el README declara otras. No se escriben a mano. El registro completo, con el uso de cada obra clase a clase, está en [`sources/bibliography.json`](sources/bibliography.json).
 
 > [!NOTE]
-> Nunca se citan números de página: cambian entre ediciones y el programa no puede garantizarlas. El anclaje indica el capítulo o la sección **por su nombre dentro de la obra**.
+> Nunca se citan números de página: cambian entre ediciones y el programa no puede garantizarlas. El anclaje indica el capítulo o la sección **por su nombre dentro de la obra**. Por la misma razón cada obra enlaza a su localizador: para que no tengas que adivinar de qué edición se está hablando.
 
-#### La obra que manda en cada parte
+El programa **no distribuye** ninguna de estas obras: las cita, las contrasta y enseña a usarlas de forma selectiva. Toda la redacción es original y no reproduce sus textos. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
 
-De las dos a cuatro obras que cita cada clase, esta es la que más veces sostiene el temario de la parte. El título enlaza a su localizador; el registro completo trae las 96 obras con su uso clase a clase.
+### Marketing
 
-| # | Parte | Obra rectora | Clases de la parte que la citan |
-|---:|---|---|---:|
-| 01 | Marketing y ventas: fundamentos del sistema comercial | Philip Kotler, Kevin Lane Keller y Alexander Chernev — [*Marketing Management*](https://openlibrary.org/isbn/9780136708643) (2021, 16.ª ed.) | 7 |
-| 02 | Cliente y comportamiento del consumidor | Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) | 4 |
-| 03 | Investigación de mercados e inteligencia competitiva | Naresh K. Malhotra — [*Marketing Research: An Applied Orientation*](https://openlibrary.org/isbn/9781292265636) (2019, 7.ª ed.) | 9 |
-| 04 | Segmentación, targeting y posicionamiento | Philip Kotler, Kevin Lane Keller y Alexander Chernev — [*Marketing Management*](https://openlibrary.org/isbn/9780136708643) (2021, 16.ª ed.) | 6 |
-| 05 | Producto, oferta y propuesta de valor | Marty Cagan — [*Inspired*](https://openlibrary.org/isbn/9781119387541) (2017, 2.ª ed.) | 8 |
-| 06 | Marca, branding y comunicación estratégica | David A. Aaker — [*Building Strong Brands*](https://openlibrary.org/isbn/9780029001516) (1996) | 7 |
-| 07 | Pricing y monetización | Thomas T. Nagle y Georg Müller — [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) (2018, 6.ª ed.) | 11 |
-| 08 | Fundamentos profesionales de ventas | Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | 7 |
-| 09 | Venta consultiva y B2B compleja | Robert B. Miller y Stephen E. Heiman — [*The New Strategic Selling*](https://openlibrary.org/isbn/9780446695190) (2005) | 9 |
-| 10 | Negociación comercial | Deepak Malhotra y Max H. Bazerman — [*Negotiation Genius*](https://openlibrary.org/isbn/9780553804881) (2007) | 14 |
-| 11 | Prospección y generación de demanda | Jeb Blount — [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) (2015) | 9 |
-| 12 | Marketing digital y adquisición | Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) | 9 |
-| 13 | Contenido, copywriting y comunicación persuasiva | Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) | 11 |
-| 14 | Publicidad y performance marketing | Avinash Kaushik — [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) (2009) | 13 |
-| 15 | E-commerce y marketplaces | Kevin Hillstrom — [*Hillstrom's Multichannel Forensics*](https://openlibrary.org/isbn/9780977148950) (2007) | 12 |
-| 16 | CRM, pipeline y sales operations | Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) | 13 |
-| 17 | Marketing automation y revenue operations | Stephen G. Diorio y Chris K. Hummel — [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) (2022) | 14 |
-| 18 | Customer experience, success y fidelización | Nick Mehta, Dan Steinman y Lincoln Murphy — [*Customer Success*](https://openlibrary.org/isbn/9781119168294) (2016) | 13 |
-| 19 | Growth marketing y growth engineering | Sean Ellis y Morgan Brown — [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) (2017) | 13 |
-| 20 | Analítica comercial y marketing science | Foster Provost y Tom Fawcett — [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) (2013) | 13 |
-| 21 | IA aplicada a marketing, ventas y servicio | NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023) | 13 |
-| 22 | Go-to-market, canales y expansión | Geoffrey A. Moore — [*Crossing the Chasm*](https://openlibrary.org/isbn/9780062293008) (2014, 3.ª ed.) | 12 |
-| 23 | Dirección comercial: CMO, VP Sales y CRO | Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) | 12 |
-| 24 | Empresa real, regulación y Capstone | Richard Rumelt — [*Good Strategy / Bad Strategy*](https://openlibrary.org/isbn/9781846684807) (2011) | 4 |
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Seth Godin | [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) | 2018 | marketing como servicio a un público mínimo viable y construcción de confianza | 30 | ISBN 9780525540830 |
+| Philip Kotler, Kevin Lane Keller y Alexander Chernev | [*Marketing Management*](https://openlibrary.org/isbn/9780136708643) | 2021, 16.ª ed. | estructura canónica del marketing: análisis, STP, mezcla comercial y gestión de la demanda | 21 | ISBN 9780136708643 |
+| Les Binet y Peter Field | [*The Long and the Short of It*](https://openlibrary.org/isbn/9780852941348) | 2013 | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 14 | ISBN 9780852941348 |
+| Al Ries y Jack Trout | [*Positioning: The Battle for Your Mind*](https://openlibrary.org/isbn/9780071359160) | 2001, ed. revisada | posicionamiento como lugar en la mente del cliente y no como declaración interna | 11 | ISBN 9780071359160 |
+| Jenni Romaniuk y Byron Sharp | [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) | 2015 | activos distintivos de marca, alcance y aplicación de las leyes empíricas a mercados emergentes | 10 | ISBN 9780195596267 |
+| Byron Sharp | [*How Brands Grow*](https://openlibrary.org/isbn/9780195573565) | 2010 | evidencia empírica sobre penetración, disponibilidad mental y física y crecimiento de marcas | 7 | ISBN 9780195573565 |
+| Theodore Levitt | [*Marketing Myopia (Harvard Business Review)*](https://hbr.org/2004/07/marketing-myopia) | 1960 | definir el negocio por el trabajo del cliente y no por el producto que se fabrica | 1 | fuente primaria |
 
-#### Fuentes oficiales y normativas
+### Estrategia y competencia
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Geoffrey A. Moore | [*Crossing the Chasm*](https://openlibrary.org/isbn/9780062293008) | 2014, 3.ª ed. | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | 25 | ISBN 9780062293008 |
+| Richard Rumelt | [*Good Strategy / Bad Strategy*](https://openlibrary.org/isbn/9781846684807) | 2011 | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 21 | ISBN 9781846684807 |
+| Michael E. Porter | [*Competitive Strategy*](https://openlibrary.org/isbn/9780029253601) | 1980 | estructura de industria, fuerzas competitivas y elección de una posición defendible | 18 | ISBN 9780029253601 |
+| Michael E. Porter | [*What Is Strategy? (Harvard Business Review)*](https://hbr.org/1996/11/what-is-strategy) | 1996 | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | 6 | fuente primaria |
+| W. Chan Kim y Renée Mauborgne | [*Blue Ocean Strategy*](https://openlibrary.org/isbn/9781625274496) | 2015, ed. ampliada | reconstrucción de las fronteras del mercado y curva de valor | 3 | ISBN 9781625274496 |
+| Alexander Osterwalder e Yves Pigneur | [*Business Model Generation*](https://openlibrary.org/isbn/9780470876411) | 2010 | modelo de negocio como sistema de nueve bloques interdependientes | 2 | ISBN 9780470876411 |
+| Peter F. Drucker | [*The Practice of Management*](https://openlibrary.org/isbn/9780060110956) | 1954 | el propósito de una empresa es crear un cliente; marketing e innovación como funciones centrales | 1 | ISBN 9780060110956 |
+
+### Cliente y trabajo por resolver
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Clayton M. Christensen, Taddy Hall, Karen Dillon y David S. Duncan | [*Competing Against Luck*](https://openlibrary.org/isbn/9780062435613) | 2016 | Jobs to Be Done: el progreso que el cliente intenta lograr y el circuito de contratación | 8 | ISBN 9780062435613 |
+| Anthony W. Ulwick | [*Jobs to Be Done: Theory to Practice*](https://openlibrary.org/isbn/9780990576747) | 2016 | outcome-driven innovation: resultados deseados medibles y priorización por oportunidad | 2 | ISBN 9780990576747 |
+
+### Investigación de mercados
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Naresh K. Malhotra | [*Marketing Research: An Applied Orientation*](https://openlibrary.org/isbn/9781292265636) | 2019, 7.ª ed. | diseño de investigación, muestreo, medición y análisis con rigor metodológico | 15 | ISBN 9781292265636 |
+| Rob Fitzpatrick | [*The Mom Test*](https://openlibrary.org/isbn/9781492180746) | 2013 | entrevistas que producen datos y no cortesía; preguntar por comportamiento pasado | 15 | ISBN 9781492180746 |
+| Steve Blank y Bob Dorf | [*The Startup Owner's Manual*](https://openlibrary.org/isbn/9780984999385) | 2012 | customer discovery y validación fuera del edificio como proceso reproducible | 9 | ISBN 9780984999385 |
+| Steve Portigal | [*Interviewing Users*](https://openlibrary.org/isbn/9781959029823) | 2023, 2.ª ed. | conducción de entrevistas, escucha activa y traducción de observación en decisión | 6 | ISBN 9781959029823 |
+
+### Comportamiento y decisión
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Robert B. Cialdini | [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) | 2021 | principios de influencia y su uso ético en contextos comerciales | 22 | ISBN 9780062937650 |
+| Michael R. Solomon | [*Consumer Behavior: Buying, Having, and Being*](https://openlibrary.org/isbn/9781292318103) | 2019, 13.ª ed. | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 7 | ISBN 9781292318103 |
+| Dan Ariely | [*Predictably Irrational*](https://openlibrary.org/isbn/9780061353239) | 2008 | efectos de anclaje, gratuidad y comparación en la percepción de valor | 4 | ISBN 9780061353239 |
+| Richard H. Thaler y Cass R. Sunstein | [*Nudge: The Final Edition*](https://openlibrary.org/isbn/9780143137009) | 2021 | arquitectura de decisión y límites éticos de la influencia sobre la elección | 4 | ISBN 9780143137009 |
+| Daniel Kahneman | [*Thinking, Fast and Slow*](https://openlibrary.org/isbn/9780141918921) | 2011 | sistemas 1 y 2, heurísticas y sesgos aplicables a decisiones de compra y de gestión | 2 | ISBN 9780141918921 |
+
+### Marca
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Kevin Lane Keller y Vanitha Swaminathan | [*Strategic Brand Management*](https://openlibrary.org/isbn/9780134892498) | 2019, 5.ª ed. | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 13 | ISBN 9780134892498 |
+| David A. Aaker | [*Building Strong Brands*](https://openlibrary.org/isbn/9780029001516) | 1996 | brand equity, identidad de marca y arquitectura de portafolio | 12 | ISBN 9780029001516 |
+| Alina Wheeler y Rob Meyerson | [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) | 2024, 6.ª ed. | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 7 | ISBN 9781119984825 |
+
+### Comunicación e identidad
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Chip Heath y Dan Heath | [*Made to Stick*](https://openlibrary.org/isbn/9781400064281) | 2007 | ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción | 12 | ISBN 9781400064281 |
+
+### Contenido y copywriting
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Ann Handley | [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) | 2022, 2.ª ed. | estándar editorial: claridad, utilidad y empatía en la escritura comercial | 31 | ISBN 9781119854319 |
+| Joseph Sugarman | [*The Adweek Copywriting Handbook*](https://openlibrary.org/isbn/9780470051245) | 2007 | mecánica del copy persuasivo: ritmo, curiosidad y coherencia de la promesa | 10 | ISBN 9780470051245 |
+| Joe Pulizzi | [*Content Inc.*](https://openlibrary.org/isbn/9781264257546) | 2021, 2.ª ed. | construcción de audiencia propia antes de monetizar y modelo editorial sostenido | 6 | ISBN 9781264257546 |
+
+### Publicidad
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Brad Geddes | [*Advanced Google AdWords*](https://openlibrary.org/isbn/9781118819647) | 2014, 3.ª ed. | estructura de cuentas, subastas, calidad y control del gasto en búsqueda pagada | 13 | ISBN 9781118819647 |
+| David Ogilvy | [*Ogilvy on Advertising*](https://openlibrary.org/isbn/9780517550755) | 1983 | disciplina publicitaria basada en investigación, oferta clara y respeto por el lector | 6 | ISBN 9780517550755 |
+
+### Precio y monetización
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Thomas T. Nagle y Georg Müller | [*The Strategy and Tactics of Pricing*](https://openlibrary.org/isbn/9781138737501) | 2018, 6.ª ed. | pricing basado en valor, estructura de precios, métrica de cobro y política de descuentos | 30 | ISBN 9781138737501 |
+| Madhavan Ramanujam y Georg Tacke | [*Monetizing Innovation*](https://openlibrary.org/isbn/9781119240877) | 2016 | diseñar el producto alrededor del precio: disposición a pagar antes de construir | 16 | ISBN 9781119240877 |
+| Hermann Simon | [*Confessions of the Pricing Man*](https://openlibrary.org/isbn/9783319204000) | 2015 | el precio como la palanca de utilidad más rápida y su relación con el valor percibido | 14 | ISBN 9783319204000 |
+| Tim J. Smith | [*Pricing Strategy*](https://openlibrary.org/isbn/9781111571290) | 2011 | segmentación de precios, price fences y decisiones de estructura | 6 | ISBN 9781111571290 |
+
+### Oferta y producto
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Alexander Osterwalder, Yves Pigneur, Greg Bernarda y Alan Smith | [*Value Proposition Design*](https://openlibrary.org/isbn/9781118968055) | 2014 | encaje entre perfil del cliente y mapa de valor; prueba de propuestas antes de construir | 6 | ISBN 9781118968055 |
+
+### Gestión de producto
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Marty Cagan | [*Inspired*](https://openlibrary.org/isbn/9781119387541) | 2017, 2.ª ed. | descubrimiento de producto y riesgos de valor, usabilidad, viabilidad y factibilidad | 20 | ISBN 9781119387541 |
+| Samuel Hulick | *The Elements of User Onboarding* | 2014 | diseño del primer valor percibido y reducción del time-to-value | 6 | fuente primaria |
+
+### Ventas
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Mark Roberge | [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) | 2015 | contratación, formación, gestión y demanda comercial gobernadas por datos | 51 | ISBN 9781119047018 |
+| Aaron Ross y Marylou Tyler | [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) | 2011 | especialización de roles comerciales y generación de pipeline predecible | 24 | ISBN 9780984380213 |
+| Neil Rackham | [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) | 1988 | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 24 | ISBN 9780070511132 |
+| Robert B. Miller y Stephen E. Heiman | [*The New Strategic Selling*](https://openlibrary.org/isbn/9780446695190) | 2005 | mapa de influencias, roles de compra y análisis de posición en cuentas complejas | 17 | ISBN 9780446695190 |
+| Jeb Blount | [*Fanatical Prospecting*](https://openlibrary.org/isbn/9781119176305) | 2015 | disciplina de prospección, cadencia y gestión del rechazo | 15 | ISBN 9781119176305 |
+| Keenan | [*Gap Selling*](https://openlibrary.org/isbn/9781732891005) | 2018 | vender la brecha entre estado actual y estado futuro con diagnóstico riguroso | 14 | ISBN 9781732891005 |
+| Brent Adamson y Matthew Dixon | [*The Challenger Customer*](https://openlibrary.org/isbn/9780241196564) | 2015 | comité de compra, mobilizer y construcción de consenso interno del cliente | 12 | ISBN 9780241196564 |
+| Mike Weinberg | [*New Sales. Simplified.*](https://openlibrary.org/isbn/9780814431788) | 2012 | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | 8 | ISBN 9780814431788 |
+| Trish Bertuzzi | [*The Sales Development Playbook*](https://openlibrary.org/isbn/9780692622032) | 2016 | estructura, especialización y métricas del equipo de desarrollo de ventas | 8 | ISBN 9780692622032 |
+| Matthew Dixon y Brent Adamson | [*The Challenger Sale*](https://openlibrary.org/isbn/9781591844358) | 2011 | enseñar, adaptar y tomar el control; el insight comercial como diferenciador | 7 | ISBN 9781591844358 |
+| Gary Vaynerchuk | [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) | 2013 | secuencia de aporte de valor antes de la petición comercial en canales sociales | 2 | ISBN 9780062273079 |
+
+### Negociación
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Deepak Malhotra y Max H. Bazerman | [*Negotiation Genius*](https://openlibrary.org/isbn/9780553804881) | 2007 | preparación analítica, ZOPA, valor creado frente a valor reclamado y ética negociadora | 16 | ISBN 9780553804881 |
+| Roger Fisher, William Ury y Bruce Patton | [*Getting to Yes*](https://openlibrary.org/isbn/9781101539545) | 2011, 3.ª ed. | negociación por principios: intereses, opciones, criterios objetivos y BATNA | 16 | ISBN 9781101539545 |
+| G. Richard Shell | [*Bargaining for Advantage*](https://openlibrary.org/isbn/9780143036975) | 2006 | estilos de negociación, autoridad y estándares de legitimidad | 14 | ISBN 9780143036975 |
+| Chris Voss y Tahl Raz | [*Never Split the Difference*](https://openlibrary.org/isbn/9781473535169) | 2016 | empatía táctica, etiquetado y preguntas calibradas bajo presión | 5 | ISBN 9781473535169 |
+| William Ury | [*Getting Past No*](https://openlibrary.org/isbn/9780553903645) | 2007 | manejo de tácticas duras, reencuadre y construcción de puentes | 4 | ISBN 9780553903645 |
+
+### Marketing digital y conversión
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Dave Chaffey y Fiona Ellis-Chadwick | [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) | 2022, 8.ª ed. | planificación digital integrada: canales, medición y gobierno | 32 | ISBN 9781292400990 |
+| Peep Laja y el equipo de CXL | [*Conversion Optimization Playbooks (CXL)*](https://cxl.com/institute/) | 2024 | método CRO basado en investigación previa al test y validez estadística | 16 | fuente primaria |
+| Steve Krug | [*Don't Make Me Think, Revisited*](https://openlibrary.org/isbn/9780321965516) | 2014 | usabilidad, claridad y pruebas baratas con usuarios reales | 16 | ISBN 9780321965516 |
+| Bryan Eisenberg y Jeffrey Eisenberg | [*Call to Action*](https://openlibrary.org/isbn/9781932226393) | 2005 | optimización de conversión con hipótesis, escenarios y persuasión medible | 11 | ISBN 9781932226393 |
+| Eric Enge, Stephan Spencer y Jessie Stricchiola | [*The Art of SEO*](https://openlibrary.org/isbn/9781098102616) | 2023, 4.ª ed. | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 3 | ISBN 9781098102616 |
+
+### Comercio digital
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Kevin Hillstrom | [*Hillstrom's Multichannel Forensics*](https://openlibrary.org/isbn/9780977148950) | 2007 | diagnóstico de comportamiento de compra multicanal y migración de clientes | 16 | ISBN 9780977148950 |
+
+### Crecimiento y experimentación
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Sean Ellis y Morgan Brown | [*Hacking Growth*](https://openlibrary.org/isbn/9780451497215) | 2017 | equipo multifuncional, ciclo de experimentación y aha moment | 18 | ISBN 9780451497215 |
+| Gabriel Weinberg y Justin Mares | [*Traction*](https://openlibrary.org/isbn/9780241242551) | 2015 | diecinueve canales de tracción y el método bullseye de priorización | 10 | ISBN 9780241242551 |
+| Wes Bush | [*Product-Led Growth*](https://openlibrary.org/isbn/9781777119317) | 2019 | el producto como principal vehículo de adquisición, activación y expansión | 9 | ISBN 9781777119317 |
+| Eric Ries | [*The Lean Startup*](https://openlibrary.org/isbn/9780670921607) | 2011 | construir-medir-aprender, MVP y decisión de perseverar o pivotar | 8 | ISBN 9780670921607 |
+
+### Retención y éxito de cliente
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Nick Mehta, Dan Steinman y Lincoln Murphy | [*Customer Success*](https://openlibrary.org/isbn/9781119168294) | 2016 | disciplina operativa de éxito de cliente: salud, renovación y expansión | 26 | ISBN 9781119168294 |
+| Peter Fader | [*Customer Centricity*](https://openlibrary.org/isbn/9781613631447) | 2020, 2.ª ed. | valor heterogéneo del cliente y asignación de recursos por valor esperado | 19 | ISBN 9781613631447 |
+| Matthew Dixon, Nick Toman y Rick DeLisi | [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) | 2013 | reducción del esfuerzo del cliente como motor de lealtad frente al deleite | 18 | ISBN 9780241003305 |
+| Fred Reichheld, Darci Darnell y Maureen Burns | [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) | 2021 | lealtad, economía del cliente ganado y usos correctos e incorrectos del NPS | 16 | ISBN 9781647821784 |
+| Peter Fader y Sarah Toms | [*The Customer Centricity Playbook*](https://openlibrary.org/isbn/9781613630914) | 2018 | modelos de valor de vida del cliente y decisiones de inversión por cohorte | 10 | ISBN 9781613630914 |
+
+### Operaciones de ingresos
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Stephen G. Diorio y Chris K. Hummel | [*Revenue Operations*](https://openlibrary.org/isbn/9781119871132) | 2022 | integración de datos, procesos y equipos que producen ingreso como un solo sistema | 29 | ISBN 9781119871132 |
+
+### Analítica y medición
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Foster Provost y Tom Fawcett | [*Data Science for Business*](https://openlibrary.org/isbn/9781449374280) | 2013 | pensamiento analítico: formulación del problema, evaluación y valor esperado | 56 | ISBN 9781449374280 |
+| Alistair Croll y Benjamin Yoskovitz | [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) | 2013 | una métrica que importa por etapa y por modelo de negocio | 53 | ISBN 9781449335670 |
+| Avinash Kaushik | [*Web Analytics 2.0*](https://openlibrary.org/isbn/9780470596425) | 2009 | medición orientada a decisión, segmentación y crítica del dato de vanidad | 38 | ISBN 9780470596425 |
+| Ron Kohavi, Diane Tang y Ya Xu | [*Trustworthy Online Controlled Experiments*](https://openlibrary.org/isbn/9781108601375) | 2020 | diseño estadístico de experimentos, métricas guardrail y trampas de interpretación | 27 | ISBN 9781108601375 |
+| Douglas W. Hubbard | [*How to Measure Anything*](https://openlibrary.org/isbn/9781118836446) | 2014, 3.ª ed. | medir lo que parece inmedible: valor de la información y reducción de incertidumbre | 19 | ISBN 9781118836446 |
+| Donald J. Wheeler | [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) | 2000 | distinguir variación común de variación especial antes de reaccionar a un KPI | 14 | ISBN 9780945320531 |
+
+### Inteligencia artificial y riesgo
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| NIST | [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) | 2023 | gobernanza de riesgo de IA: mapear, medir, gestionar y gobernar | 21 | DOI 10.6028/NIST.AI.100-1 |
+| Andrew Ng | [*Machine Learning Yearning*](https://info.deeplearning.ai/machine-learning-yearning-book) | 2018 | diagnóstico de sistemas de aprendizaje y priorización de mejoras | 6 | fuente primaria |
+| Stuart Russell y Peter Norvig | [*Artificial Intelligence: A Modern Approach*](https://openlibrary.org/isbn/9780136958420) | 2021, 4.ª ed. | marco formal de agentes, entornos y medidas de desempeño | 5 | ISBN 9780136958420 |
+
+### Ética y consecuencias
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Cathy O'Neil | [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) | 2016 | daños de los modelos opacos a escala y necesidad de auditoría | 16 | ISBN 9780141985428 |
+| ISO | *ISO 31000: Gestión del riesgo* | 2018 | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 8 | fuente primaria |
+
+### Dirección y organización
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Andrew S. Grove | [*High Output Management*](https://openlibrary.org/isbn/9780394532349) | 1983 | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 41 | ISBN 9780394532349 |
+| Robert S. Kaplan y David P. Norton | [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) | 1996 | traducción de la estrategia en indicadores causalmente conectados | 15 | ISBN 9780875846514 |
+| Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer | [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) | 2006 | diseño de cuotas, territorios e incentivos sin efectos perversos | 12 | ISBN 9780814473245 |
+| Jim Collins | [*Good to Great*](https://openlibrary.org/isbn/9780066620992) | 2001 | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 12 | ISBN 9780066620992 |
+| John Doerr | [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) | 2018 | OKR como sistema de foco, alineamiento y seguimiento | 9 | ISBN 9780525536222 |
+| Patrick Lencioni | [*The Five Dysfunctions of a Team*](https://openlibrary.org/isbn/9780787960759) | 2002 | confianza, conflicto productivo, compromiso, accountability y resultados | 8 | ISBN 9780787960759 |
+| Simon Sinek | [*Start With Why*](https://openlibrary.org/isbn/9781591844518) | 2009 | propósito como articulador del relato interno y externo | 1 | ISBN 9781591844518 |
+
+### Pedagogía del programa
+
+| Autoría | Obra | Edición | Qué aporta al programa | Clases | Localizador |
+|---|---|---|---|---:|---|
+| Anders Ericsson y Robert Pool | [*Peak*](https://openlibrary.org/isbn/9781473513143) | 2016 | práctica deliberada con criterios explícitos y retroalimentación inmediata | 336 | ISBN 9781473513143 |
+| Grant Wiggins y Jay McTighe | [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) | 2005, 2.ª ed. | diseño inverso desde el desempeño observable | 336 | ISBN 9781416600350 |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel | [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) | 2014 | recuperación espaciada, intercalado y dificultad deseable | 336 | ISBN 9780674419377 |
+| Susan A. Ambrose et al. | [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) | 2010 | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 336 | ISBN 9780470484104 |
+| William Ellet | [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) | 2018, ed. revisada | análisis de casos: problema, decisión, evidencia y recomendación | 336 | ISBN 9781633696150 |
+
+### Fuentes oficiales y normativas
 
 La bibliografía ordena el criterio; **la norma vigente manda sobre el material pedagógico**. Toda regla, tarifa o requisito mencionado en una clase debe comprobarse aquí antes de aplicarse.
 
@@ -387,11 +571,11 @@ La bibliografía ordena el criterio; **la norma vigente manda sobre el material 
 
 Listado completo con fecha de consulta en [`docs/FUENTES-OFICIALES.md`](docs/FUENTES-OFICIALES.md) y mapa regulatorio en [`docs/MAPA-REGULATORIO-CHILE.md`](docs/MAPA-REGULATORIO-CHILE.md).
 
-**Núcleo pedagógico.** El diseño instruccional del programa se apoya además en Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
+### Dónde encontrar esto mismo, más cerca del contenido
 
-[Registro de fuentes con localizadores](sources/bibliography.json) · [Bibliografía completa con el uso de cada obra por clase](docs/BIBLIOGRAFIA.md) · [Verificador del registro](scripts/verify_sources.py) · [Auditoría de fundamentación](tools/audit_fuentes.py)
+Cada una de las 24 partes abre con su propia bibliografía: las obras que sostienen esa parte, cuántas de sus clases citan cada una y el mismo enlace al localizador. Y cada clase cierra declarando, obra por obra, **qué idea concreta** de ella sostiene lo que acabas de leer y en qué capítulo buscarla. La lista completa por categorías, con el uso clase a clase, está también en [`docs/BIBLIOGRAFIA.md`](docs/BIBLIOGRAFIA.md).
 
-</details>
+**Núcleo pedagógico.** El diseño instruccional del programa —no su contenido comercial— se apoya en Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 
 <!-- BIBLIOGRAFIA:FIN -->
 

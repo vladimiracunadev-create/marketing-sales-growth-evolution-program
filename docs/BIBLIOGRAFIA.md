@@ -235,11 +235,11 @@ Comprobable con `python scripts/verify_sources.py`.
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
-| Susan A. Ambrose et al. — *How Learning Works* (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 23.04, 24.14 | [9780470484104](https://openlibrary.org/isbn/9780470484104) |
-| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014) | recuperación espaciada, intercalado y dificultad deseable | — | [9780674419377](https://openlibrary.org/isbn/9780674419377) |
-| Anders Ericsson y Robert Pool — *Peak* (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 23.04, 23.10, 24.14 | [9781473513143](https://openlibrary.org/isbn/9781473513143) |
-| William Ellet — *The Case Study Handbook* (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 11 clases | [9781633696150](https://openlibrary.org/isbn/9781633696150) |
-| Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 24.14 | [9781416600350](https://openlibrary.org/isbn/9781416600350) |
+| Susan A. Ambrose et al. — *How Learning Works* (2010) | principios de aprendizaje: conocimiento previo, práctica y retroalimentación | 336 clases | [9780470484104](https://openlibrary.org/isbn/9780470484104) |
+| Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014) | recuperación espaciada, intercalado y dificultad deseable | 336 clases | [9780674419377](https://openlibrary.org/isbn/9780674419377) |
+| Anders Ericsson y Robert Pool — *Peak* (2016) | práctica deliberada con criterios explícitos y retroalimentación inmediata | 336 clases | [9781473513143](https://openlibrary.org/isbn/9781473513143) |
+| William Ellet — *The Case Study Handbook* (2018, ed. revisada) | análisis de casos: problema, decisión, evidencia y recomendación | 336 clases | [9781633696150](https://openlibrary.org/isbn/9781633696150) |
+| Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.) | diseño inverso desde el desempeño observable | 336 clases | [9781416600350](https://openlibrary.org/isbn/9781416600350) |
 
 ## Fuentes vivas
 

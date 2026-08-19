@@ -4,6 +4,38 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.3.0] — 2026-08-19
+
+La versión 1.2.0 dejó cada obra con un localizador comprobable, pero lo hizo sacando la bibliografía del
+README y dejándola en un JSON. El efecto práctico fue el contrario del buscado: quien abría el repositorio ya
+no veía en ninguna parte de qué libros salía el contenido. Un registro que nadie encuentra no es una fuente,
+es un archivo. Esta versión pone la bibliografía a la vista en los tres sitios donde alguien la busca y
+reescribe en prosa lo que se había convertido en fichas.
+
+### La bibliografía, visible
+
+- El README vuelve a mostrar **las 96 obras**, ahora agrupadas por categoría y con lo que faltaba en la
+  versión original: **el enlace donde se resuelve cada edición** y en cuántas de las 336 clases se cita. Ya
+  no está plegada dentro de un `<details>` que había que descubrir.
+- **Cada una de las 24 partes** abre su índice con su propia bibliografía: las obras que sostienen esa parte,
+  cuántas de sus clases citan cada una y el mismo enlace al localizador.
+- **Cada clase** enlaza ahora el título de cada obra que cita y muestra su ISBN junto a la idea concreta que
+  esa obra aporta.
+- Corregido un recuento que declaraba hasta 347 clases sobre 336: las obras del núcleo pedagógico sumaban dos
+  veces las clases que además las citaban de forma explícita. Se cuentan clases, no citas.
+
+### Fuera las fichas, dentro la prosa
+
+- **Se elimina la tabla de requisitos que abría las 336 clases.** Una ficha de cinco filas al empezar no
+  enseña nada: obliga a leer casillas antes de saber de qué trata la sesión. Lo que decía —de dónde vienes,
+  con qué datos vas a trabajar, cuánto dura, cómo sabrás que terminaste— se dice ahora en prosa, y explica
+  además *por qué* importa cada cosa.
+- La línea de metadatos bajo el título de cada clase pasa a ser una frase que sitúa la sesión dentro de su
+  parte y enlaza al índice.
+- **Los 24 índices de parte se reescriben.** Eran encabezados con listas debajo; ahora explican qué se
+  estudia en la parte, de qué parte vienes, hacia cuál va lo que produzcas, sobre qué caso se trabaja, qué
+  vas a saber hacer, dónde se practica y qué puede salir mal.
+
 ## [1.2.0] — 2026-08-19
 
 Trazabilidad de las fuentes. La versión 1.1.0 ancló cada cita a una idea concreta de la obra, pero las 96

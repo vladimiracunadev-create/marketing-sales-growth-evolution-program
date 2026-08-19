@@ -9,7 +9,7 @@ level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["kaushik", "kohavi", "provost", "binet-field"]
-anchors: {"binet-field": "corto-largo", "kaushik": "multiplicidad", "kohavi": "metricas-sustitutas", "provost": "asociacion-causalidad"}
+anchors: {"binet-field": "corto-largo", "kaushik": "plan-medicion", "kohavi": "confianza", "provost": "asociacion-causalidad"}
 updated: 2026-08-19
 ---
 
@@ -29,7 +29,7 @@ updated: 2026-08-19
 
 **Cómo trabajar esta clase.** Lee el propósito y la agenda antes que el desarrollo: la agenda indica qué producir en cada tramo, y el desarrollo se entiende mejor cuando ya sabes qué artefacto tiene que salir de él. No avances de sección sin escribir algo; este material está diseñado para producir decisiones documentadas, no notas de lectura.
 
-**La idea que ordena la sesión.** La multiplicidad: combinar clics, resultados, experiencia y competencia — Avinash Kaushik. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
+**La idea que ordena la sesión.** El plan de medición que va de la decisión a la métrica y no al revés — Avinash Kaushik. Todo lo demás en esta clase existe para poner esa idea a prueba contra un caso concreto.
 
 ## 🎯 Propósito
 
@@ -92,7 +92,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 Los modelos de atribución reparten el crédito de una conversión entre los contactos que la precedieron. Ninguno es verdadero: son convenciones con supuestos distintos. Elegir uno es aceptar un sesgo determinado, y lo profesional es declararlo en lugar de presentar el resultado como un hecho.
 
-**De dónde viene esta afirmación.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta la idea que sostiene este bloque: la multiplicidad: combinar clics, resultados, experiencia y competencia. Búscala en los capítulos sobre analítica multicanal. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «variación de crédito entre modelos» debería moverse cuando cambie **modelo basado en reglas**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
+**De dónde viene esta afirmación.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta la idea que sostiene este bloque: el plan de medición que va de la decisión a la métrica y no al revés. Búscala en los capítulos sobre estrategia de medición. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «variación de crédito entre modelos» debería moverse cuando cambie **modelo basado en reglas**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **modelo basado en datos**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
@@ -102,7 +102,7 @@ Relaciona el mecanismo con **modelo basado en datos**. Si ambos se mueven juntos
 
 Los modelos basados en reglas —último clic, primero, lineal, con decaimiento— son transparentes y arbitrarios. Los basados en datos son menos arbitrarios y opacos, y requieren volumen suficiente para entrenarse. La elección debe considerar quién usará el resultado: un modelo que nadie puede explicar no sostiene una decisión de presupuesto.
 
-**Contraste bibliográfico.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) aporta aquí una distinción concreta: los riesgos de optimizar una métrica sustituta en lugar del resultado (los capítulos sobre selección de métricas). Formula dos mini-casos: uno que satisface la definición de **modelo basado en datos** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
+**Contraste bibliográfico.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) aporta aquí una distinción concreta: las condiciones que hacen confiable un experimento en línea (los capítulos sobre experimentos confiables). Formula dos mini-casos: uno que satisface la definición de **modelo basado en datos** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «comparar la lectura bajo al menos dos modelos», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
@@ -148,8 +148,8 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 
 | Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
 |---|---|---|---|
-| Avinash Kaushik — *Web Analytics 2.0* (2009) | La multiplicidad: combinar clics, resultados, experiencia y competencia | Los capítulos sobre analítica multicanal | ¿Qué debería observarse en **modelo basado en reglas** si aquí opera «la multiplicidad: combinar clics, resultados, experiencia y competencia»? ¿Y qué observación lo desmentiría en este caso? |
-| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | Los riesgos de optimizar una métrica sustituta en lugar del resultado | Los capítulos sobre selección de métricas | ¿Qué debería observarse en **modelo basado en datos** si aquí opera «los riesgos de optimizar una métrica sustituta en lugar del resultado»? ¿Y qué observación lo desmentiría en este caso? |
+| Avinash Kaushik — *Web Analytics 2.0* (2009) | El plan de medición que va de la decisión a la métrica y no al revés | Los capítulos sobre estrategia de medición | ¿Qué debería observarse en **modelo basado en reglas** si aquí opera «el plan de medición que va de la decisión a la métrica y no al revés»? ¿Y qué observación lo desmentiría en este caso? |
+| Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) | Las condiciones que hacen confiable un experimento en línea | Los capítulos sobre experimentos confiables | ¿Qué debería observarse en **modelo basado en datos** si aquí opera «las condiciones que hacen confiable un experimento en línea»? ¿Y qué observación lo desmentiría en este caso? |
 | Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | La distinción entre correlación observada y causalidad y qué exige cada una | Los capítulos sobre inferencia y sesgo | ¿Qué debería observarse en **ventana de contacto** si aquí opera «la distinción entre correlación observada y causalidad y qué exige cada una»? ¿Y qué observación lo desmentiría en este caso? |
 | Les Binet y Peter Field — *The Long and the Short of It* (2013) | Los efectos de corto plazo decaen; los de marca se acumulan y bajan la elasticidad de precio | Los capítulos sobre curvas de respuesta en el tiempo | ¿Qué debería observarse en **límite causal** si aquí opera «los efectos de corto plazo decaen; los de marca se acumulan y bajan la elasticidad de precio»? ¿Y qué observación lo desmentiría en este caso? |
 
@@ -287,14 +287,16 @@ Este entregable alimenta el artefacto de la parte: **caso analítico integral co
 
 Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
 
-- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** la multiplicidad: combinar clics, resultados, experiencia y competencia. **Dónde buscarlo:** los capítulos sobre analítica multicanal. Registra edición y páginas consultadas en tu nota de lectura.
-- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) — **aporta a esta clase:** los riesgos de optimizar una métrica sustituta en lugar del resultado. **Dónde buscarlo:** los capítulos sobre selección de métricas. Registra edición y páginas consultadas en tu nota de lectura.
+- Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** el plan de medición que va de la decisión a la métrica y no al revés. **Dónde buscarlo:** los capítulos sobre estrategia de medición. Registra edición y páginas consultadas en tu nota de lectura.
+- Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) — **aporta a esta clase:** las condiciones que hacen confiable un experimento en línea. **Dónde buscarlo:** los capítulos sobre experimentos confiables. Registra edición y páginas consultadas en tu nota de lectura.
 - Foster Provost y Tom Fawcett — *Data Science for Business* (2013) — **aporta a esta clase:** la distinción entre correlación observada y causalidad y qué exige cada una. **Dónde buscarlo:** los capítulos sobre inferencia y sesgo. Registra edición y páginas consultadas en tu nota de lectura.
 - Les Binet y Peter Field — *The Long and the Short of It* (2013) — **aporta a esta clase:** los efectos de corto plazo decaen; los de marca se acumulan y bajan la elasticidad de precio. **Dónde buscarlo:** los capítulos sobre curvas de respuesta en el tiempo. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
+
+> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
 
 ---
 

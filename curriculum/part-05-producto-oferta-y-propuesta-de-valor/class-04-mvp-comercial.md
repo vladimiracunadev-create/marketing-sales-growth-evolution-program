@@ -296,6 +296,8 @@ Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no en
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
 
+> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
+
 ---
 
 ← [Clase 03 · Encaje problema-solución](class-03-problema-solucion.md) · [Índice de la parte](README.md) · [Clase 05 · Product-market fit](class-05-product-market-fit.md) →

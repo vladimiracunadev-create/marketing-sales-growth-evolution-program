@@ -9,7 +9,7 @@ level: Crecimiento y analítica
 mastery_threshold: 80
 estimated_minutes: 150
 sources: ["croll-yoskovitz", "fader", "provost", "kaushik"]
-anchors: {"croll-yoskovitz": "cohortes", "fader": "rfm", "kaushik": "segmentacion", "provost": "asociacion-causalidad"}
+anchors: {"croll-yoskovitz": "cohortes", "fader": "heterogeneidad", "kaushik": "segmentacion", "provost": "evaluacion"}
 updated: 2026-08-19
 ---
 
@@ -102,7 +102,7 @@ Relaciona el mecanismo con **efecto de mezcla**. Si ambos se mueven juntos no co
 
 El efecto de mezcla es el fenómeno que más conclusiones falsas produce en analítica comercial: un indicador agregado puede mejorar mientras todos los grupos empeoran, si cambia la proporción entre grupos. Detectarlo requiere descomponer siempre por cohorte antes de concluir sobre una tendencia.
 
-**Contraste bibliográfico.** Peter Fader — *Customer Centricity* (2020, 2.ª ed.) aporta aquí una distinción concreta: recencia, frecuencia y valor como base de segmentación conductual (los capítulos sobre segmentación por comportamiento). Formula dos mini-casos: uno que satisface la definición de **efecto de mezcla** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
+**Contraste bibliográfico.** Peter Fader — *Customer Centricity* (2020, 2.ª ed.) aporta aquí una distinción concreta: la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual (los capítulos sobre centricidad en el cliente). Formula dos mini-casos: uno que satisface la definición de **efecto de mezcla** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
 Antes de pasar a «construir la matriz de cohortes con datos propios», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
@@ -114,7 +114,7 @@ El hito de antigüedad es la unidad de comparación correcta: comparar todas las
 
 Ficha de medición obligatoria para **valor acumulado por cohorte**: `margen acumulado por cliente, por cohorte y hito`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
-**Control de lectura.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) pone una condición sobre la medición: la distinción entre correlación observada y causalidad y qué exige cada una (los capítulos sobre inferencia y sesgo). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
+**Control de lectura.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) pone una condición sobre la medición: la evaluación contra una línea base y no contra la nada (los capítulos sobre evaluación de modelos). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
 ### 4. Maduración: trade-offs y efectos de segundo orden
 
@@ -149,8 +149,8 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Obra | Idea que sostiene esta clase | Dónde buscarla | Pregunta que le hace a tu diagnóstico |
 |---|---|---|---|
 | Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | El análisis de cohortes como corrección al promedio que esconde la mezcla | El capítulo sobre cohortes y segmentación | ¿Qué debería observarse en **hito de antigüedad** si aquí opera «el análisis de cohortes como corrección al promedio que esconde la mezcla»? ¿Y qué observación lo desmentiría en este caso? |
-| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | Recencia, frecuencia y valor como base de segmentación conductual | Los capítulos sobre segmentación por comportamiento | ¿Qué debería observarse en **efecto de mezcla** si aquí opera «recencia, frecuencia y valor como base de segmentación conductual»? ¿Y qué observación lo desmentiría en este caso? |
-| Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | La distinción entre correlación observada y causalidad y qué exige cada una | Los capítulos sobre inferencia y sesgo | ¿Qué debería observarse en **cohorte de comportamiento** si aquí opera «la distinción entre correlación observada y causalidad y qué exige cada una»? ¿Y qué observación lo desmentiría en este caso? |
+| Peter Fader — *Customer Centricity* (2020, 2.ª ed.) | La heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual | Los capítulos sobre centricidad en el cliente | ¿Qué debería observarse en **efecto de mezcla** si aquí opera «la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual»? ¿Y qué observación lo desmentiría en este caso? |
+| Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | La evaluación contra una línea base y no contra la nada | Los capítulos sobre evaluación de modelos | ¿Qué debería observarse en **cohorte de comportamiento** si aquí opera «la evaluación contra una línea base y no contra la nada»? ¿Y qué observación lo desmentiría en este caso? |
 | Avinash Kaushik — *Web Analytics 2.0* (2009) | La segmentación como condición para que un promedio signifique algo | El capítulo sobre segmentación de datos | ¿Qué debería observarse en **maduración** si aquí opera «la segmentación como condición para que un promedio signifique algo»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
@@ -288,13 +288,15 @@ Este entregable alimenta el artefacto de la parte: **caso analítico integral co
 Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no encuentras esa idea, la cita está mal puesta y corresponde reportarlo como error del material.
 
 - Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) — **aporta a esta clase:** el análisis de cohortes como corrección al promedio que esconde la mezcla. **Dónde buscarlo:** el capítulo sobre cohortes y segmentación. Registra edición y páginas consultadas en tu nota de lectura.
-- Peter Fader — *Customer Centricity* (2020, 2.ª ed.) — **aporta a esta clase:** recencia, frecuencia y valor como base de segmentación conductual. **Dónde buscarlo:** los capítulos sobre segmentación por comportamiento. Registra edición y páginas consultadas en tu nota de lectura.
-- Foster Provost y Tom Fawcett — *Data Science for Business* (2013) — **aporta a esta clase:** la distinción entre correlación observada y causalidad y qué exige cada una. **Dónde buscarlo:** los capítulos sobre inferencia y sesgo. Registra edición y páginas consultadas en tu nota de lectura.
+- Peter Fader — *Customer Centricity* (2020, 2.ª ed.) — **aporta a esta clase:** la heterogeneidad del valor del cliente: no todos valen lo mismo ni deben tratarse igual. **Dónde buscarlo:** los capítulos sobre centricidad en el cliente. Registra edición y páginas consultadas en tu nota de lectura.
+- Foster Provost y Tom Fawcett — *Data Science for Business* (2013) — **aporta a esta clase:** la evaluación contra una línea base y no contra la nada. **Dónde buscarlo:** los capítulos sobre evaluación de modelos. Registra edición y páginas consultadas en tu nota de lectura.
 - Avinash Kaushik — *Web Analytics 2.0* (2009) — **aporta a esta clase:** la segmentación como condición para que un promedio signifique algo. **Dónde buscarlo:** el capítulo sobre segmentación de datos. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — *How Learning Works* (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — *Make It Stick* (2014); Grant Wiggins y Jay McTighe — *Understanding by Design* (2005, 2.ª ed.); Anders Ericsson y Robert Pool — *Peak* (2016); William Ellet — *The Case Study Handbook* (2018, ed. revisada).
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
+
+> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
 
 ---
 

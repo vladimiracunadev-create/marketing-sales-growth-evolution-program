@@ -736,6 +736,11 @@ def bloque_fuentes(parte, clase):
         "en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es "
         "original y no reproduce capítulos protegidos por derechos de autor.",
         "",
+        "> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente "
+        "primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el "
+        "título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la "
+        "que declara el registro.",
+        "",
     ]
     return "\n".join(lineas)
 

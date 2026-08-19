@@ -296,6 +296,8 @@ Cada obra aparece con la idea concreta que aporta a esta clase. Si al leer no en
 
 > **Regla de fuentes.** Las obras anteriores estructuran las perspectivas de esta materia. Cualquier norma, impuesto, tarifa, política de plataforma o estándar vivo mencionado debe comprobarse nuevamente en su fuente primaria vigente antes de usarse en una operación real. El desarrollo de esta clase es original y no reproduce capítulos protegidos por derechos de autor.
 
+> **Dónde encontrar estas obras.** Cada una tiene su localizador —ISBN-13, DOI o dirección de la fuente primaria— en el [registro de fuentes](../../sources/bibliography.json). No busques la edición por el título: distintas ediciones cambian capítulos y ejemplos, y el anclaje de arriba está hecho sobre la que declara el registro.
+
 ---
 
 ← [Clase 09 · Términos y condiciones](class-09-terminos-y-condiciones.md) · [Índice de la parte](README.md) · [Clase 11 · Tácticas difíciles](class-11-tacticas-dificiles.md) →

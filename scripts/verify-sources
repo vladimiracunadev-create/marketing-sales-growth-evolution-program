@@ -1,0 +1,6 @@
+#!/bin/sh
+# Verificador del registro de fuentes: offline, determinista, bloquea el CI.
+# Envoltorio con el nombre canónico; la lógica vive en verify_sources.py para
+# que también se pueda invocar en Windows sin depender de un shell POSIX.
+set -e
+exec "${PYTHON:-python3}" "$(dirname "$0")/verify_sources.py" "$@"

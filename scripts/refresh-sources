@@ -1,0 +1,6 @@
+#!/bin/sh
+# Revalidación en red del registro de fuentes: manual o programada, NO bloquea.
+# Envoltorio con el nombre canónico; la lógica vive en refresh_sources.py para
+# que también se pueda invocar en Windows sin depender de un shell POSIX.
+set -e
+exec "${PYTHON:-python3}" "$(dirname "$0")/refresh_sources.py" "$@"

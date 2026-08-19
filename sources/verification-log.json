@@ -1,0 +1,854 @@
+{
+  "entries": {
+    "aaker": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1996",
+      "observed_title": "Building strong brands",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ambrose": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2010",
+      "observed_title": "How Learning Works",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ariely": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "February 19, 2008",
+      "observed_title": "Predictably Irrational",
+      "resolved": true,
+      "title_matches": true
+    },
+    "bertuzzi": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Sales Development Playbook",
+      "resolved": true,
+      "title_matches": true
+    },
+    "binet-field": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "",
+      "observed_title": "The Long and the Short of it",
+      "resolved": true,
+      "title_matches": true
+    },
+    "blank": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2012",
+      "observed_title": "Startup Owner's Manual",
+      "resolved": true,
+      "title_matches": true
+    },
+    "blount": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2015",
+      "observed_title": "Fanatical Prospecting",
+      "resolved": true,
+      "title_matches": true
+    },
+    "brown-mis": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "Make It Stick",
+      "resolved": true,
+      "title_matches": true
+    },
+    "bush-plg": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "May 01, 2019",
+      "observed_title": "Product-Led Growth",
+      "resolved": true,
+      "title_matches": true
+    },
+    "cagan": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2017",
+      "observed_title": "Inspired",
+      "resolved": true,
+      "title_matches": true
+    },
+    "chaffey": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2022",
+      "observed_title": "Digital Marketing",
+      "resolved": true,
+      "title_matches": true
+    },
+    "christensen": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Competing Against Luck",
+      "resolved": true,
+      "title_matches": true
+    },
+    "cialdini": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "May 04, 2021",
+      "observed_title": "Influence",
+      "resolved": true,
+      "title_matches": true
+    },
+    "collins": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2001",
+      "observed_title": "Good to Great",
+      "resolved": true,
+      "title_matches": true
+    },
+    "croll-yoskovitz": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2013",
+      "observed_title": "Lean Analytics",
+      "resolved": true,
+      "title_matches": true
+    },
+    "diorio": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2022",
+      "observed_title": "Revenue Operations",
+      "resolved": true,
+      "title_matches": true
+    },
+    "dixon-challenger": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "The challenger sale",
+      "resolved": true,
+      "title_matches": true
+    },
+    "dixon-customer": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2015",
+      "observed_title": "Challenger Customer",
+      "resolved": true,
+      "title_matches": true
+    },
+    "dixon-effort": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2013",
+      "observed_title": "The Effortless Experience",
+      "resolved": true,
+      "title_matches": true
+    },
+    "doerr": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "April 24, 2018",
+      "observed_title": "Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs",
+      "resolved": true,
+      "title_matches": true
+    },
+    "drucker": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1954-10-",
+      "observed_title": "The Practice of Management",
+      "resolved": true,
+      "title_matches": true
+    },
+    "eisenberg": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "May 9, 2005",
+      "observed_title": "Call to Action",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ellet": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Sep 18, 2018",
+      "observed_title": "The Case Study Handbook, Revised Edition",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ellis-brown": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2017",
+      "observed_title": "Hacking growth",
+      "resolved": true,
+      "title_matches": true
+    },
+    "enge-seo": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2022",
+      "observed_title": "Art of SEO",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ericsson": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Peak",
+      "resolved": true,
+      "title_matches": true
+    },
+    "fader": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2020",
+      "observed_title": "Customer Centricity",
+      "resolved": true,
+      "title_matches": true
+    },
+    "fader-ltv": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2018",
+      "observed_title": "Customer Centricity Playbook",
+      "resolved": true,
+      "title_matches": true
+    },
+    "fisher-ury": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "Getting to Yes",
+      "resolved": true,
+      "title_matches": true
+    },
+    "fitzpatrick": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "The mom test",
+      "resolved": true,
+      "title_matches": true
+    },
+    "flint": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "September 30, 2007",
+      "observed_title": "Hillstrom's Multichannel Forensics",
+      "resolved": true,
+      "title_matches": true
+    },
+    "geddes": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "Advanced Google Adwords",
+      "resolved": true,
+      "title_matches": true
+    },
+    "godin": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2018",
+      "observed_title": "This is marketing",
+      "resolved": true,
+      "title_matches": true
+    },
+    "grove": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1983",
+      "observed_title": "High Output Management",
+      "resolved": true,
+      "title_matches": true
+    },
+    "handley": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2022",
+      "observed_title": "Everybody Writes",
+      "resolved": true,
+      "title_matches": true
+    },
+    "heath": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "January 2, 2007",
+      "observed_title": "Made to Stick",
+      "resolved": true,
+      "title_matches": true
+    },
+    "hubbard": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "How to Measure Anything",
+      "resolved": true,
+      "title_matches": true
+    },
+    "hulick": {
+      "error": "entrada pendiente: no hay localizador que resolver",
+      "last_check": "2026-08-19",
+      "resolved": false,
+      "skipped": true
+    },
+    "iso-31000": {
+      "error": "HTTP 403",
+      "http": 403,
+      "last_check": "2026-08-19",
+      "resolved": false
+    },
+    "kahneman": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "Thinking, Fast and Slow",
+      "resolved": true,
+      "title_matches": true
+    },
+    "kaplan-norton": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1996",
+      "observed_title": "The balanced scorecard",
+      "resolved": true,
+      "title_matches": true
+    },
+    "kaushik": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2009",
+      "observed_title": "Web Analytics 2.0",
+      "resolved": true,
+      "title_matches": true
+    },
+    "keenan": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Dec 03, 2018",
+      "observed_title": "Gap Selling : Getting the Customer to Yes",
+      "resolved": true,
+      "title_matches": true
+    },
+    "keller-brand": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Jan 11, 2019",
+      "observed_title": "Strategic Brand Management",
+      "resolved": true,
+      "title_matches": true
+    },
+    "kim-mauborgne": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Jan 20, 2015",
+      "observed_title": "Blue Ocean Strategy, Expanded Edition: How to Create Uncontested Market Space and Make the Competition Irrelevant",
+      "resolved": true,
+      "title_matches": true
+    },
+    "kohavi": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2020",
+      "observed_title": "Trustworthy Online Controlled Experiments",
+      "resolved": true,
+      "title_matches": true
+    },
+    "kotler": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2021",
+      "observed_title": "Marketing Management",
+      "resolved": true,
+      "title_matches": true
+    },
+    "krug": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+      "resolved": true,
+      "title_matches": true
+    },
+    "laja": {
+      "error": null,
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "resolved": true
+    },
+    "lencioni": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2002",
+      "observed_title": "The Five Dysfunctions of a Team: A Leadership Fable",
+      "resolved": true,
+      "title_matches": true
+    },
+    "levitt": {
+      "error": null,
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "resolved": true
+    },
+    "malhotra": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Apr 18, 2019",
+      "observed_title": "Marketing Research",
+      "resolved": true,
+      "title_matches": true
+    },
+    "malhotra-neg": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "September 25, 2007",
+      "observed_title": "Negotiation Genius",
+      "resolved": true,
+      "title_matches": true
+    },
+    "mehta": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Customer Success",
+      "resolved": true,
+      "title_matches": true
+    },
+    "miller-heiman": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2005",
+      "observed_title": "The new strategic selling",
+      "resolved": true,
+      "title_matches": true
+    },
+    "moore": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "Crossing the Chasm, 3rd Edition",
+      "resolved": true,
+      "title_matches": true
+    },
+    "nagle": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2018",
+      "observed_title": "Strategy and Tactics of Pricing",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ng-mlyearning": {
+      "error": null,
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "resolved": true
+    },
+    "nist-airmf": {
+      "error": null,
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "resolved": true
+    },
+    "ogilvy": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1983",
+      "observed_title": "Ogilvy on advertising",
+      "resolved": true,
+      "title_matches": true
+    },
+    "oneil": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Weapons of Math Destruction",
+      "resolved": true,
+      "title_matches": true
+    },
+    "osterwalder-bmg": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "July 13, 2010",
+      "observed_title": "bUSINESS MODEL GENERATION ",
+      "resolved": true,
+      "title_matches": true
+    },
+    "osterwalder-vpd": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2014",
+      "observed_title": "Value proposition design",
+      "resolved": true,
+      "title_matches": true
+    },
+    "porter": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "",
+      "observed_title": "Competitive strategy",
+      "resolved": true,
+      "title_matches": true
+    },
+    "porter-hbr": {
+      "error": null,
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "resolved": true
+    },
+    "portigal": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2023",
+      "observed_title": "Interviewing Users",
+      "resolved": true,
+      "title_matches": true
+    },
+    "provost": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2013",
+      "observed_title": "Data Science for Business",
+      "resolved": true,
+      "title_matches": true
+    },
+    "pulizzi": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "May 24, 2021",
+      "observed_title": "Content Inc., Second Edition",
+      "resolved": true,
+      "title_matches": true
+    },
+    "rackham": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "1988",
+      "observed_title": "SPIN selling",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ramanujam": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Monetizing Innovation",
+      "resolved": true,
+      "title_matches": true
+    },
+    "reichheld": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2021",
+      "observed_title": "Winning on Purpose",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ries-lean": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "The Lean Startup",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ries-trout": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2001",
+      "observed_title": "Positioning",
+      "resolved": true,
+      "title_matches": true
+    },
+    "roberge": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2015",
+      "observed_title": "Sales Acceleration Formula",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ross": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2012",
+      "observed_title": "Predictable Revenue",
+      "resolved": true,
+      "title_matches": true
+    },
+    "rumelt": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "Good Strategy/Bad Strategy",
+      "resolved": true,
+      "title_matches": true
+    },
+    "russell-norvig": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2021",
+      "observed_title": "Artificial Intelligence",
+      "resolved": true,
+      "title_matches": true
+    },
+    "sharp": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2010",
+      "observed_title": "How Big Brands Grow What Marketers Dont Know",
+      "resolved": true,
+      "title_matches": true
+    },
+    "sharp2": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Nov 19, 2015",
+      "observed_title": "How Brands Grow : Part 2",
+      "resolved": true,
+      "title_matches": true
+    },
+    "shell": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2006",
+      "observed_title": "Bargaining for advantage",
+      "resolved": true,
+      "title_matches": true
+    },
+    "simon": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2015",
+      "observed_title": "Confessions of the Pricing Man",
+      "resolved": true,
+      "title_matches": true
+    },
+    "sinek": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2009",
+      "observed_title": "Start with Why",
+      "resolved": true,
+      "title_matches": true
+    },
+    "smith-pricing": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2011",
+      "observed_title": "Pricing Strategy",
+      "resolved": true,
+      "title_matches": true
+    },
+    "solomon": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Oct 10, 2019",
+      "observed_title": "Consumer Behavior",
+      "resolved": true,
+      "title_matches": true
+    },
+    "sugarman": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "December 11, 2006",
+      "observed_title": "The Adweek Copywriting Handbook",
+      "resolved": true,
+      "title_matches": true
+    },
+    "thaler": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Aug 03, 2021",
+      "observed_title": "Nudge",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ulwick": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "Sep 22, 2016",
+      "observed_title": "Jobs to be Done",
+      "resolved": true,
+      "title_matches": true
+    },
+    "ury": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2007",
+      "observed_title": "Getting Past No",
+      "resolved": true,
+      "title_matches": true
+    },
+    "vaynerchuk": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2013",
+      "observed_title": "Jab, Jab, Jab, Right Hook",
+      "resolved": true,
+      "title_matches": true
+    },
+    "voss": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2016",
+      "observed_title": "Never Split the Difference",
+      "resolved": true,
+      "title_matches": true
+    },
+    "weinberg-sales": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2012",
+      "observed_title": "New Sales. Simplified",
+      "resolved": true,
+      "title_matches": true
+    },
+    "weinberg-traction": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2015",
+      "observed_title": "Traction",
+      "resolved": true,
+      "title_matches": true
+    },
+    "wheeler": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2024",
+      "observed_title": "Designing Brand Identity",
+      "resolved": true,
+      "title_matches": true
+    },
+    "wheeler-dv": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "November 1999",
+      "observed_title": "Understanding Variation",
+      "resolved": true,
+      "title_matches": true
+    },
+    "wiggins": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "2005",
+      "observed_title": "Understanding by Design",
+      "resolved": true,
+      "title_matches": true
+    },
+    "zoltners": {
+      "http": 200,
+      "last_check": "2026-08-19",
+      "last_ok": "2026-08-19",
+      "observed_date": "August 2006",
+      "observed_title": "The Complete Guide to Sales Force Incentive Compensation",
+      "resolved": true,
+      "title_matches": true
+    }
+  },
+  "last_run": "2026-08-19",
+  "schema_version": 1
+}

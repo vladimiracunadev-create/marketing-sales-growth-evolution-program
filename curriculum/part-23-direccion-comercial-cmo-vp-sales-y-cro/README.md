@@ -1,11 +1,3 @@
----
-title: "Parte 23 — Dirección comercial: CMO, VP Sales y CRO"
-type: part-index
-language: es
-part: 23
-updated: 2026-08-19
----
-
 # Parte 23 — Dirección comercial: CMO, VP Sales y CRO
 
 Esta parte trabaja el nivel **Dirección y Capstone** del programa y su propósito es que llegues a poder **dirigir la función de ingresos: personas, sistema, números y gobierno**. Llegas desde la parte 22, *Go-to-market, canales y expansión*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 24, *Empresa real, regulación y Capstone*.

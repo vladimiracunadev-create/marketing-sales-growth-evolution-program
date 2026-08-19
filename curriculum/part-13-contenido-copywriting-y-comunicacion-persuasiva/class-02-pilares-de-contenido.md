@@ -1,18 +1,3 @@
----
-title: "Pilares de contenido"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 02
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["pulizzi", "godin", "handley", "keller-brand"]
-anchors: {"godin": "publico-minimo", "handley": "empatia", "keller-brand": "cbbe", "pulizzi": "nicho-contenido"}
-updated: 2026-08-19
----
-
 # Clase 13.02 — Pilares de contenido
 
 Clase 2 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

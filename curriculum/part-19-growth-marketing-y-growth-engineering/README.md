@@ -1,11 +1,3 @@
----
-title: "Parte 19 — Growth marketing y growth engineering"
-type: part-index
-language: es
-part: 19
-updated: 2026-08-19
----
-
 # Parte 19 — Growth marketing y growth engineering
 
 Esta parte trabaja el nivel **Crecimiento y analítica** del programa y su propósito es que llegues a poder **instalar un motor de experimentación que produzca aprendizaje acumulativo**. Llegas desde la parte 18, *Customer experience, success y fidelización*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 20, *Analítica comercial y marketing science*.

@@ -1,18 +1,3 @@
----
-title: "Inteligencia de conversaciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 10
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nist-airmf", "provost", "rackham", "roberge"]
-anchors: {"nist-airmf": "contexto", "provost": "asociacion-causalidad", "rackham": "implicacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 21.10 — Inteligencia de conversaciones
 
 Clase 10 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

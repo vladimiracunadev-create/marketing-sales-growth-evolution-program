@@ -1,14 +1,3 @@
----
-title: "Lab 12.2 — Analítica digital"
-type: lab
-language: es
-part: 12
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 12.2 — Analítica digital
 
 **Parte 12 · Marketing digital y adquisición** · Duración estimada: 4 horas · Aprobación: 80/100

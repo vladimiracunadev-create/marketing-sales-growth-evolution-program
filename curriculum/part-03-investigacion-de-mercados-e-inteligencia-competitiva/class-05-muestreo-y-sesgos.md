@@ -1,18 +1,3 @@
----
-title: "Muestreo y sesgos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 05
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra", "provost", "hubbard", "kohavi"]
-anchors: {"hubbard": "dilema-medicion", "kohavi": "confianza", "malhotra": "muestreo", "provost": "asociacion-causalidad"}
-updated: 2026-08-19
----
-
 # Clase 03.05 — Muestreo y sesgos
 
 Clase 5 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Prueba de posicionamiento"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 13
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["heath", "keller-brand", "kohavi", "malhotra"]
-anchors: {"heath": "maldicion-conocimiento", "keller-brand": "medicion", "kohavi": "confianza", "malhotra": "escalas"}
-updated: 2026-08-19
----
-
 # Clase 04.13 — Prueba de posicionamiento
 
 Clase 13 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

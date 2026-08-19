@@ -1,12 +1,3 @@
----
-title: "Proyecto 6 — Partes 11 y 12"
-type: project
-language: es
-parts: [11, 12]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 6 — Partes 11 y 12
 
 **Partes integradas:** Prospección y generación de demanda y Marketing digital y adquisición.

@@ -1,18 +1,3 @@
----
-title: "CTR, CPC y CPM"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 09
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "geddes", "croll-yoskovitz", "chaffey"]
-anchors: {"chaffey": "modelo-canal", "croll-yoskovitz": "una-metrica", "geddes": "subasta", "kaushik": "vanidad"}
-updated: 2026-08-19
----
-
 # Clase 14.09 — CTR, CPC y CPM
 
 Clase 9 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

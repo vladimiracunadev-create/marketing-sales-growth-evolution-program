@@ -1,18 +1,3 @@
----
-title: "Eventos y comunidades"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 09
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["godin", "weinberg-traction", "chaffey", "blount"]
-anchors: {"blount": "bloques", "chaffey": "modelo-canal", "godin": "publico-minimo", "weinberg-traction": "bullseye"}
-updated: 2026-08-19
----
-
 # Clase 11.09 — Eventos y comunidades
 
 Clase 9 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

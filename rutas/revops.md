@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — RevOps / Sales Operations"
-type: career-path
-language: es
-role: revops
-family: Operación de ingresos
-updated: 2026-08-19
----
-
 # ⚙️ RevOps / Sales Operations
 
 > Quien hace que marketing, ventas y éxito de cliente funcionen como un solo sistema. Su valor no está en producir más informes sino en que las decisiones dejen de discutirse sobre cifras que nadie puede reconciliar.

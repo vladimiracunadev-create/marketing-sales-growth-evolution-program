@@ -1,18 +1,3 @@
----
-title: "Lead scoring"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 03
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["provost", "roberge", "diorio", "oneil"]
-anchors: {"diorio": "modelo-datos", "oneil": "proxy", "provost": "evaluacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 17.03 — Lead scoring
 
 Clase 3 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

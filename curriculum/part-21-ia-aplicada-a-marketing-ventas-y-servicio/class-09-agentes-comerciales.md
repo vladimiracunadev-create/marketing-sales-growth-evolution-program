@@ -1,18 +1,3 @@
----
-title: "Agentes comerciales automatizados"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 09
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["russell-norvig", "nist-airmf", "iso-31000", "oneil"]
-anchors: {"iso-31000": "riesgo-residual", "nist-airmf": "gobernar", "oneil": "auditoria", "russell-norvig": "agente-racional"}
-updated: 2026-08-19
----
-
 # Clase 21.09 — Agentes comerciales automatizados
 
 Clase 9 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

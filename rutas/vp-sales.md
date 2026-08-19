@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — VP de ventas / Gerente comercial"
-type: career-path
-language: es
-role: vp-sales
-family: Dirección
-updated: 2026-08-19
----
-
 # 🏅 VP de ventas / Gerente comercial
 
 > Responde por el número del equipo, no por el propio. Su trabajo es que el resultado deje de depender de dos vendedores estrella y pase a depender de un sistema que otros puedan ejecutar.

@@ -1,11 +1,3 @@
----
-title: "Notas de discovery"
-type: template
-language: es
-part: "08, 09"
-updated: 2026-08-18
----
-
 # Notas de discovery
 
 **Cuenta:** · **Fecha:** · **Participantes:** · **Duración:**

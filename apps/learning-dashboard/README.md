@@ -1,10 +1,3 @@
----
-title: "Panel local de progreso"
-type: app
-language: es
-updated: 2026-08-18
----
-
 # Panel local de progreso
 
 Panel de seguimiento del programa que funciona en el navegador, sin dependencias, sin servidor y sin envío

@@ -1,18 +1,3 @@
----
-title: "Brand book mínimo viable"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 14
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["wheeler", "aaker", "handley", "sharp2"]
-anchors: {"aaker": "identidad", "handley": "estandar-editorial", "sharp2": "consistencia", "wheeler": "gobierno"}
-updated: 2026-08-19
----
-
 # Clase 06.14 — Brand book mínimo viable
 
 Clase 14 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

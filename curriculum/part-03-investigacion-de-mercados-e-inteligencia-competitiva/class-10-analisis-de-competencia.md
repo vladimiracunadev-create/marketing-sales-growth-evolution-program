@@ -1,18 +1,3 @@
----
-title: "Análisis de competencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 10
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["porter", "rumelt", "kim-mauborgne", "porter-hbr"]
-anchors: {"kim-mauborgne": "no-clientes", "porter": "competidor", "porter-hbr": "renuncia", "rumelt": "diagnostico"}
-updated: 2026-08-19
----
-
 # Clase 03.10 — Análisis de competencia
 
 Clase 10 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

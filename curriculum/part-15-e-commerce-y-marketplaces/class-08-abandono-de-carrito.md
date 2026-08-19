@@ -1,18 +1,3 @@
----
-title: "Abandono de carrito"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 08
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["laja", "kohavi", "flint", "chaffey"]
-anchors: {"chaffey": "omnicanal", "flint": "recompra", "kohavi": "guardarrailes", "laja": "falsos-positivos"}
-updated: 2026-08-19
----
-
 # Clase 15.08 — Abandono de carrito
 
 Clase 8 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

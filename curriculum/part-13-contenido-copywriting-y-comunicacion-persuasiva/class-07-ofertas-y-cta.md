@@ -1,18 +1,3 @@
----
-title: "Ofertas y llamados a la acción"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 07
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["eisenberg", "laja", "krug", "cialdini"]
-anchors: {"cialdini": "compromiso", "eisenberg": "escenarios", "krug": "no-pensar", "laja": "jerarquia-mensaje"}
-updated: 2026-08-19
----
-
 # Clase 13.07 — Ofertas y llamados a la acción
 
 Clase 7 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

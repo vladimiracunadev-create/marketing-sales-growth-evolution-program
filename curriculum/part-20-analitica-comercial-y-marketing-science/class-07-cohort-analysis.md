@@ -1,18 +1,3 @@
----
-title: "Análisis de cohortes aplicado"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 07
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "fader", "provost", "kaushik"]
-anchors: {"croll-yoskovitz": "cohortes", "fader": "heterogeneidad", "kaushik": "segmentacion", "provost": "evaluacion"}
-updated: 2026-08-19
----
-
 # Clase 20.07 — Análisis de cohortes aplicado
 
 Clase 7 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

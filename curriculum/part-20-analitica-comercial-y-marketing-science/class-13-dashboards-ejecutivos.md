@@ -1,18 +1,3 @@
----
-title: "Dashboards ejecutivos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 13
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaplan-norton", "wheeler-dv", "kaushik", "grove"]
-anchors: {"grove": "indicadores-adelantados", "kaplan-norton": "cuatro-perspectivas", "kaushik": "so-what", "wheeler-dv": "comparar-dos-puntos"}
-updated: 2026-08-19
----
-
 # Clase 20.13 — Dashboards ejecutivos
 
 Clase 13 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

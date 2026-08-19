@@ -1,18 +1,3 @@
----
-title: "Oferta y pricing del Capstone"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 04
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ramanujam", "nagle", "croll-yoskovitz", "simon"]
-anchors: {"croll-yoskovitz": "modelos", "nagle": "valor-diferencial", "ramanujam": "precio-primero", "simon": "palanca-precio"}
-updated: 2026-08-19
----
-
 # Clase 24.04 — Oferta y pricing del Capstone
 
 Clase 4 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

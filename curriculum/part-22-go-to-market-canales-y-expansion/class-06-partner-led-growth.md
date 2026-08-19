@@ -1,18 +1,3 @@
----
-title: "Crecimiento liderado por socios"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 06
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "weinberg-traction", "porter", "ross"]
-anchors: {"moore": "producto-completo", "porter": "excedente", "ross": "tipos-lead", "weinberg-traction": "canales"}
-updated: 2026-08-19
----
-
 # Clase 22.06 — Crecimiento liderado por socios
 
 Clase 6 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

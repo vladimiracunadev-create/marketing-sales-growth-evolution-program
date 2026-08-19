@@ -1,18 +1,3 @@
----
-title: "Presupuesto comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 06
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "doerr", "kaplan-norton", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "linea-trazada", "doerr": "foco", "grove": "apalancamiento", "kaplan-norton": "traduccion"}
-updated: 2026-08-19
----
-
 # Clase 23.06 — Presupuesto comercial
 
 Clase 6 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

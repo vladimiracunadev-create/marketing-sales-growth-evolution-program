@@ -1,18 +1,3 @@
----
-title: "Demostración de valor"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 06
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "dixon-challenger", "krug"]
-anchors: {"dixon-challenger": "insight-comercial", "keenan": "brecha", "krug": "no-pensar", "rackham": "necesidad-explicita"}
-updated: 2026-08-19
----
-
 # Clase 08.06 — Demostración de valor
 
 Clase 6 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

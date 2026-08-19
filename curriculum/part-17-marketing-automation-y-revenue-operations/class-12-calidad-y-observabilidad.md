@@ -1,18 +1,3 @@
----
-title: "Calidad y observabilidad"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 12
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "nist-airmf", "diorio", "wheeler-dv"]
-anchors: {"diorio": "friccion", "grove": "indicadores-adelantados", "nist-airmf": "caracteristicas", "wheeler-dv": "variacion-comun"}
-updated: 2026-08-19
----
-
 # Clase 17.12 — Calidad y observabilidad
 
 Clase 12 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Ética y cultura comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 12
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["lencioni", "collins", "cialdini", "oneil"]
-anchors: {"cialdini": "escasez", "collins": "disciplina", "lencioni": "confianza", "oneil": "armas"}
-updated: 2026-08-19
----
-
 # Clase 23.12 — Ética y cultura comercial
 
 Clase 12 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

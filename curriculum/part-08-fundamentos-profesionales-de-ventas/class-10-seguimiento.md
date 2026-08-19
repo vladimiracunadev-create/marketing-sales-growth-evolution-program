@@ -1,18 +1,3 @@
----
-title: "Seguimiento"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 10
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "weinberg-sales", "roberge", "ross"]
-anchors: {"blount": "cadencia", "roberge": "metricas-coaching", "ross": "pipeline-predecible", "weinberg-sales": "relato-comercial"}
-updated: 2026-08-19
----
-
 # Clase 08.10 — Seguimiento
 
 Clase 10 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

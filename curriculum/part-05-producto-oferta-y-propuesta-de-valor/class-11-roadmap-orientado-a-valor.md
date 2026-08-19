@@ -1,18 +1,3 @@
----
-title: "Roadmap orientado a valor"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 11
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["cagan", "ries-lean", "roberge", "doerr"]
-anchors: {"cagan": "roadmap", "doerr": "okr", "ries-lean": "aprendizaje-validado", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 05.11 — Roadmap orientado a valor
 
 Clase 11 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Secuencias multicanal"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 13
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "bertuzzi", "ross", "handley"]
-anchors: {"bertuzzi": "metricas-sdr", "blount": "cadencia", "handley": "edicion", "ross": "pipeline-predecible"}
-updated: 2026-08-19
----
-
 # Clase 11.13 — Secuencias multicanal
 
 Clase 13 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

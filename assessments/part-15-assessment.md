@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 15: E-commerce y marketplaces"
-type: assessment
-language: es
-part: 15
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 15: E-commerce y marketplaces
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

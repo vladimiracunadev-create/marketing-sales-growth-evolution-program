@@ -1,11 +1,3 @@
----
-title: "Caso 23 — Dirección comercial: CMO, VP Sales y CRO"
-type: case
-language: es
-part: 23
-updated: 2026-08-19
----
-
 # Caso 23 — Dirección comercial: CMO, VP Sales y CRO
 
 ## Contexto

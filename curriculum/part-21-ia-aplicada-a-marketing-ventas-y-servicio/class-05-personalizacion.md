@@ -1,18 +1,3 @@
----
-title: "Personalización"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 05
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["thaler", "oneil", "nist-airmf", "cialdini"]
-anchors: {"cialdini": "reciprocidad", "nist-airmf": "contexto", "oneil": "proxy", "thaler": "arquitectura-decision"}
-updated: 2026-08-19
----
-
 # Clase 21.05 — Personalización
 
 Clase 5 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

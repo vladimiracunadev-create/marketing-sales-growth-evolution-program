@@ -1,18 +1,3 @@
----
-title: "BANT y sus límites"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 06
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "ross", "roberge"]
-anchors: {"keenan": "diagnostico", "rackham": "necesidad-explicita", "roberge": "metricas-coaching", "ross": "tipos-lead"}
-updated: 2026-08-19
----
-
 # Clase 09.06 — BANT y sus límites
 
 Clase 6 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

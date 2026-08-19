@@ -1,11 +1,3 @@
----
-title: "Caso 18 — Customer experience, success y fidelización"
-type: case
-language: es
-part: 18
-updated: 2026-08-19
----
-
 # Caso 18 — Customer experience, success y fidelización
 
 ## Contexto

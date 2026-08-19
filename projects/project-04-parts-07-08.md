@@ -1,12 +1,3 @@
----
-title: "Proyecto 4 — Partes 07 y 08"
-type: project
-language: es
-parts: [07, 08]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 4 — Partes 07 y 08
 
 **Partes integradas:** Pricing y monetización y Fundamentos profesionales de ventas.

@@ -1,18 +1,3 @@
----
-title: "Landing pages"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 03
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["laja", "eisenberg", "krug", "kohavi"]
-anchors: {"eisenberg": "hipotesis-cro", "kohavi": "confianza", "krug": "escaneo", "laja": "jerarquia-mensaje"}
-updated: 2026-08-19
----
-
 # Clase 12.03 — Landing pages
 
 Clase 3 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

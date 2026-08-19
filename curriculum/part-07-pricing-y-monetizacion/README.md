@@ -1,11 +1,3 @@
----
-title: "Parte 07 — Pricing y monetización"
-type: part-index
-language: es
-part: 07
-updated: 2026-08-19
----
-
 # Parte 07 — Pricing y monetización
 
 Esta parte trabaja el nivel **Oferta comercial** del programa y su propósito es que llegues a poder **diseñar una arquitectura de precios que capture valor sin destruir demanda ni confianza**. Llegas desde la parte 06, *Marca, branding y comunicación estratégica*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 08, *Fundamentos profesionales de ventas*.

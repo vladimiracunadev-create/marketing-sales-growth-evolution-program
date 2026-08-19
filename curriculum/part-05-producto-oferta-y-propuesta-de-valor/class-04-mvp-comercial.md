@@ -1,18 +1,3 @@
----
-title: "MVP comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 04
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-lean", "cagan", "blank", "kohavi"]
-anchors: {"blank": "hipotesis", "cagan": "riesgos", "kohavi": "confianza", "ries-lean": "mvp"}
-updated: 2026-08-19
----
-
 # Clase 05.04 — MVP comercial
 
 Clase 4 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Llamada en frío"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 05
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "weinberg-sales", "bertuzzi", "ross"]
-anchors: {"bertuzzi": "especializacion-sdr", "blount": "rechazo", "ross": "cold-calling-2", "weinberg-sales": "relato-comercial"}
-updated: 2026-08-19
----
-
 # Clase 11.05 — Llamada en frío
 
 Clase 5 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

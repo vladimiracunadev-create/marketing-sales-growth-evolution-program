@@ -1,11 +1,3 @@
----
-title: "Revisión ejecutiva de ingresos"
-type: template
-language: es
-part: "23"
-updated: 2026-08-18
----
-
 # Revisión ejecutiva de ingresos
 
 **Periodo:** · **Preparado por:** · **Fecha:**

@@ -1,12 +1,3 @@
----
-title: "Proyecto 10 — Partes 19 y 20"
-type: project
-language: es
-parts: [19, 20]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 10 — Partes 19 y 20
 
 **Partes integradas:** Growth marketing y growth engineering y Analítica comercial y marketing science.

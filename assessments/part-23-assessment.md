@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 23: Dirección comercial: CMO, VP Sales y CRO"
-type: assessment
-language: es
-part: 23
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 23: Dirección comercial: CMO, VP Sales y CRO
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

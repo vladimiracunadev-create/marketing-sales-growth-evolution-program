@@ -1,18 +1,3 @@
----
-title: "Marketplaces"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 11
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["flint", "chaffey", "porter", "nagle"]
-anchors: {"chaffey": "modelo-canal", "flint": "valor-canal", "nagle": "cascada", "porter": "cinco-fuerzas"}
-updated: 2026-08-19
----
-
 # Clase 15.11 — Marketplaces
 
 Clase 11 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

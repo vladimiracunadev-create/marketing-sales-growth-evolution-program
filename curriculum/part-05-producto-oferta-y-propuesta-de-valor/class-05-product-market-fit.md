@@ -1,18 +1,3 @@
----
-title: "Product-market fit"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 05
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "croll-yoskovitz", "cagan", "ries-lean"]
-anchors: {"cagan": "descubrimiento", "croll-yoskovitz": "etapas", "ellis-brown": "must-have", "ries-lean": "contabilidad-innovacion"}
-updated: 2026-08-19
----
-
 # Clase 05.05 — Product-market fit
 
 Clase 5 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

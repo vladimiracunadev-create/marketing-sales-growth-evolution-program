@@ -1,18 +1,3 @@
----
-title: "Qué es una marca"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 01
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["sharp", "sharp2", "keller-brand", "aaker"]
-anchors: {"aaker": "equity", "keller-brand": "cbbe", "sharp": "disponibilidad", "sharp2": "estructuras-memoria"}
-updated: 2026-08-19
----
-
 # Clase 06.01 — Qué es una marca
 
 Clase 1 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

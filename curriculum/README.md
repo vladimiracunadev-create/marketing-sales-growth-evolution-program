@@ -1,10 +1,3 @@
----
-title: "Currículo — 24 partes y 336 clases"
-type: curriculum-index
-language: es
-updated: 2026-08-19
----
-
 # Currículo
 
 24 partes, 336 clases y un caso persistente. Cada clase sigue el estándar `clase-profunda-v2`: conceptos con definición operacional, método, medición, caso, límites, evaluación y fuentes verificables.

@@ -1,18 +1,3 @@
----
-title: "Buyer persona con evidencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 04
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fitzpatrick", "portigal", "solomon", "kotler"]
-anchors: {"fitzpatrick": "preguntas-malas", "kotler": "stp", "portigal": "sintesis", "solomon": "grupos-referencia"}
-updated: 2026-08-19
----
-
 # Clase 02.04 — Buyer persona con evidencia
 
 Clase 4 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

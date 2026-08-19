@@ -1,18 +1,3 @@
----
-title: "Métricas de go-to-market"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 13
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "ross", "bush-plg", "kaplan-norton"]
-anchors: {"bush-plg": "ocasion-upgrade", "croll-yoskovitz": "una-metrica", "kaplan-norton": "indicadores-causales", "ross": "pipeline-predecible"}
-updated: 2026-08-19
----
-
 # Clase 22.13 — Métricas de go-to-market
 
 Clase 13 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

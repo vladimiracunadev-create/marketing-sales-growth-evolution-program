@@ -1,18 +1,3 @@
----
-title: "Proceso comercial reproducible"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 01
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "weinberg-sales", "rackham", "grove"]
-anchors: {"grove": "output-gerencial", "rackham": "avance", "roberge": "proceso-comprador", "weinberg-sales": "proceso-nueva-venta"}
-updated: 2026-08-19
----
-
 # Clase 08.01 — Proceso comercial reproducible
 
 Clase 1 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

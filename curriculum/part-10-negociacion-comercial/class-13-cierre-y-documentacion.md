@@ -1,18 +1,3 @@
----
-title: "Cierre y documentación"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 13
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fisher-ury", "malhotra-neg", "grove", "ellet"]
-anchors: {"ellet": "argumento", "fisher-ury": "criterios-objetivos", "grove": "reuniones", "malhotra-neg": "etica"}
-updated: 2026-08-19
----
-
 # Clase 10.13 — Cierre y documentación
 
 Clase 13 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

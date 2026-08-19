@@ -1,18 +1,3 @@
----
-title: "Email marketing"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 06
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["handley", "chaffey", "kaushik", "godin"]
-anchors: {"chaffey": "medios-propios", "godin": "permiso", "handley": "utilidad", "kaushik": "segmentacion"}
-updated: 2026-08-19
----
-
 # Clase 12.06 — Email marketing
 
 Clase 6 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

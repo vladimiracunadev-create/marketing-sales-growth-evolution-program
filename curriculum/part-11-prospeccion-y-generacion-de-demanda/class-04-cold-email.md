@@ -1,18 +1,3 @@
----
-title: "Correo en frío"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 04
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "handley", "bertuzzi", "sugarman"]
-anchors: {"bertuzzi": "especializacion-sdr", "blount": "cadencia", "handley": "utilidad", "sugarman": "coherencia-promesa"}
-updated: 2026-08-19
----
-
 # Clase 11.04 — Correo en frío
 
 Clase 4 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

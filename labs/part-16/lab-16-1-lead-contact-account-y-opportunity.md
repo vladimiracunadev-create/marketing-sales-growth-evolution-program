@@ -1,14 +1,3 @@
----
-title: "Lab 16.1 — Lead, contacto, cuenta y oportunidad"
-type: lab
-language: es
-part: 16
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 16.1 — Lead, contacto, cuenta y oportunidad
 
 **Parte 16 · CRM, pipeline y sales operations** · Duración estimada: 4 horas · Aprobación: 80/100

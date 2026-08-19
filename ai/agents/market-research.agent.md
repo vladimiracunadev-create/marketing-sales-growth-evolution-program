@@ -1,10 +1,3 @@
----
-title: "Agente — investigación de mercado"
-type: agent-spec
-language: es
-updated: 2026-08-18
----
-
 # Agente — investigación de mercado
 
 ## Propósito

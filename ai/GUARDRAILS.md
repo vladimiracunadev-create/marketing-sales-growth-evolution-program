@@ -1,10 +1,3 @@
----
-title: "Guardarraíles de IA comercial"
-type: guardrails
-language: es
-updated: 2026-08-18
----
-
 # Guardarraíles de IA comercial
 
 Reglas operativas para usar sistemas de inteligencia artificial en marketing, ventas y servicio, dentro del

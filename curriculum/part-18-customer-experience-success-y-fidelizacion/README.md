@@ -1,11 +1,3 @@
----
-title: "Parte 18 — Customer experience, success y fidelización"
-type: part-index
-language: es
-part: 18
-updated: 2026-08-19
----
-
 # Parte 18 — Customer experience, success y fidelización
 
 Esta parte trabaja el nivel **Operación de ingresos** del programa y su propósito es que llegues a poder **sostener y expandir el ingreso existente con un sistema de valor entregado**. Llegas desde la parte 17, *Marketing automation y revenue operations*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 19, *Growth marketing y growth engineering*.

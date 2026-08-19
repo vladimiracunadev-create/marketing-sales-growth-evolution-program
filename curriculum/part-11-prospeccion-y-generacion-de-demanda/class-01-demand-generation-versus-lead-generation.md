@@ -1,18 +1,3 @@
----
-title: "Generación de demanda versus generación de leads"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 01
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["binet-field", "godin", "weinberg-traction", "chaffey"]
-anchors: {"binet-field": "60-40", "chaffey": "medios-propios", "godin": "permiso", "weinberg-traction": "canales"}
-updated: 2026-08-19
----
-
 # Clase 11.01 — Generación de demanda versus generación de leads
 
 Clase 1 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

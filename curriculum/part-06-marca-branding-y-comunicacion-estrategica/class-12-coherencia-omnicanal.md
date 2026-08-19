@@ -1,18 +1,3 @@
----
-title: "Coherencia omnicanal"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 12
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["chaffey", "flint", "krug", "kotler"]
-anchors: {"chaffey": "omnicanal", "flint": "migracion-clientes", "kotler": "canales", "krug": "no-pensar"}
-updated: 2026-08-19
----
-
 # Clase 06.12 — Coherencia omnicanal
 
 Clase 12 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

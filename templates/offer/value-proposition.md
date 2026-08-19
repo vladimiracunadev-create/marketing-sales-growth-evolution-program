@@ -1,11 +1,3 @@
----
-title: "Propuesta de valor"
-type: template
-language: es
-part: "05"
-updated: 2026-08-18
----
-
 # Propuesta de valor
 
 ## 1. Enunciado

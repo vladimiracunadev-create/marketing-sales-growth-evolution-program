@@ -1,18 +1,3 @@
----
-title: "Procurement y compras"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 12
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fisher-ury", "malhotra-neg", "nagle", "shell"]
-anchors: {"fisher-ury": "intereses", "malhotra-neg": "tacticas-dificiles", "nagle": "cascada", "shell": "autoridad"}
-updated: 2026-08-19
----
-
 # Clase 09.12 — Procurement y compras
 
 Clase 12 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

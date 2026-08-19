@@ -1,18 +1,3 @@
----
-title: "Preparación de una negociación"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 01
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra-neg", "fisher-ury", "shell", "voss"]
-anchors: {"fisher-ury": "intereses", "malhotra-neg": "preparacion", "shell": "estilos", "voss": "preguntas-calibradas"}
-updated: 2026-08-19
----
-
 # Clase 10.01 — Preparación de una negociación
 
 Clase 1 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

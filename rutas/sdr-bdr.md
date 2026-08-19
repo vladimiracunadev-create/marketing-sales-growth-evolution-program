@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — SDR / BDR — desarrollo de ventas"
-type: career-path
-language: es
-role: sdr-bdr
-family: Ventas
-updated: 2026-08-19
----
-
 # 📞 SDR / BDR — desarrollo de ventas
 
 > El puesto que origina las conversaciones que después alguien cierra. Es la puerta de entrada más frecuente a una carrera comercial y también el rol donde más gente se quema, porque se mide por actividad y se sostiene con disciplina frente al rechazo.

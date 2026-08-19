@@ -1,11 +1,3 @@
----
-title: "Guía de entrevista"
-type: template
-language: es
-part: "02, 03"
-updated: 2026-08-18
----
-
 # Guía de entrevista
 
 **Segmento:** · **Hipótesis a refutar:** · **Duración:** 30 minutos

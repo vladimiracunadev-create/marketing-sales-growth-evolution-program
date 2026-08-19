@@ -1,18 +1,3 @@
----
-title: "Diseño de encuestas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 04
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra", "hubbard", "provost", "kaushik"]
-anchors: {"hubbard": "calibracion", "kaushik": "plan-medicion", "malhotra": "cuestionario", "provost": "evaluacion"}
-updated: 2026-08-19
----
-
 # Clase 03.04 — Diseño de encuestas
 
 Clase 4 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

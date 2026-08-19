@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — CMO — dirección de marketing"
-type: career-path
-language: es
-role: cmo
-family: Dirección
-updated: 2026-08-19
----
-
 # 🏛️ CMO — dirección de marketing
 
 > Responde ante el directorio por la contribución del marketing al ingreso. Su trabajo más difícil no es elegir campañas: es sostener la construcción de marca frente a la presión trimestral y asignar presupuesto con criterio de eficiencia.

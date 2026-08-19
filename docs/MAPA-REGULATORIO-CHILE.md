@@ -1,11 +1,3 @@
----
-title: "Mapa regulatorio de Chile para operaciones comerciales"
-type: regulatory-map
-language: es
-review_date: 2026-08-18
-updated: 2026-08-18
----
-
 # Mapa regulatorio de Chile
 
 > **Advertencia previa.** Este documento es material educativo, no asesoría legal. La normativa cambia y las

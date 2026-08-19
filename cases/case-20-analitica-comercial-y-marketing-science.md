@@ -1,11 +1,3 @@
----
-title: "Caso 20 — Analítica comercial y marketing science"
-type: case
-language: es
-part: 20
-updated: 2026-08-19
----
-
 # Caso 20 — Analítica comercial y marketing science
 
 ## Contexto

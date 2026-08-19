@@ -1,11 +1,3 @@
----
-title: "Parte 09 — Venta consultiva y B2B compleja"
-type: part-index
-language: es
-part: 09
-updated: 2026-08-19
----
-
 # Parte 09 — Venta consultiva y B2B compleja
 
 Esta parte trabaja el nivel **Venta** del programa y su propósito es que llegues a poder **dirigir negocios con múltiples decisores, riesgo alto y ciclos largos**. Llegas desde la parte 08, *Fundamentos profesionales de ventas*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 10, *Negociación comercial*.

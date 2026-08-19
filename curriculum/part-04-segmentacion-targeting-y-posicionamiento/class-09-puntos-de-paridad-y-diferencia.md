@@ -1,18 +1,3 @@
----
-title: "Puntos de paridad y de diferencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 09
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["keller-brand", "kotler", "ries-trout", "sharp"]
-anchors: {"keller-brand": "paridad-diferencia", "kotler": "stp", "ries-trout": "escalera", "sharp": "diferenciacion"}
-updated: 2026-08-19
----
-
 # Clase 04.09 — Puntos de paridad y de diferencia
 
 Clase 9 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

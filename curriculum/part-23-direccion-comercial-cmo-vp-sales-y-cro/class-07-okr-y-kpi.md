@@ -1,18 +1,3 @@
----
-title: "OKR y KPI"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 07
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["doerr", "grove", "kaplan-norton", "collins"]
-anchors: {"collins": "disciplina", "doerr": "okr", "grove": "indicadores-adelantados", "kaplan-norton": "indicadores-causales"}
-updated: 2026-08-19
----
-
 # Clase 23.07 — OKR y KPI
 
 Clase 7 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

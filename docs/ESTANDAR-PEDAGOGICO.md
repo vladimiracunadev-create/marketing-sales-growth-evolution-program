@@ -1,10 +1,3 @@
----
-title: "Estándar pedagógico clase-profunda-v2"
-type: standard
-language: es
-updated: 2026-08-19
----
-
 # Estándar pedagógico `clase-profunda-v2`
 
 Especificación formal que toda clase del programa debe cumplir. Sirve para tres cosas: producir contenido

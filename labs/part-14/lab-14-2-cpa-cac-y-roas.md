@@ -1,14 +1,3 @@
----
-title: "Lab 14.2 — CPA, CAC y ROAS"
-type: lab
-language: es
-part: 14
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 14.2 — CPA, CAC y ROAS
 
 **Parte 14 · Publicidad y performance marketing** · Duración estimada: 4 horas · Aprobación: 80/100

@@ -1,14 +1,3 @@
----
-title: "Lab 21.2 — Inteligencia de conversaciones"
-type: lab
-language: es
-part: 21
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 21.2 — Inteligencia de conversaciones
 
 **Parte 21 · IA aplicada a marketing, ventas y servicio** · Duración estimada: 4 horas · Aprobación: 80/100

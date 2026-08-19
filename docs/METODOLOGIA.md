@@ -1,10 +1,3 @@
----
-title: "Metodología del programa"
-type: methodology
-language: es
-updated: 2026-08-18
----
-
 # Metodología
 
 Este documento explica **por qué** el programa está construido así. No es una declaración de intenciones:

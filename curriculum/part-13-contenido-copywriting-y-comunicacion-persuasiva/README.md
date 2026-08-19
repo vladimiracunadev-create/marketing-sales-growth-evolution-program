@@ -1,11 +1,3 @@
----
-title: "Parte 13 — Contenido, copywriting y comunicación persuasiva"
-type: part-index
-language: es
-part: 13
-updated: 2026-08-19
----
-
 # Parte 13 — Contenido, copywriting y comunicación persuasiva
 
 Esta parte trabaja el nivel **Adquisición** del programa y su propósito es que llegues a poder **producir mensajes que informen, muevan a la acción y resistan el escrutinio**. Llegas desde la parte 12, *Marketing digital y adquisición*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 14, *Publicidad y performance marketing*.

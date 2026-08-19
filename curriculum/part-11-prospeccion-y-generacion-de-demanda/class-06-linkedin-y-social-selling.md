@@ -1,18 +1,3 @@
----
-title: "LinkedIn y social selling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 06
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "godin", "handley", "vaynerchuk"]
-anchors: {"blount": "disciplina", "godin": "permiso", "handley": "empatia", "vaynerchuk": "aporte-antes"}
-updated: 2026-08-19
----
-
 # Clase 11.06 — LinkedIn y social selling
 
 Clase 6 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

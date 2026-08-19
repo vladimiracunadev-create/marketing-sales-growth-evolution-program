@@ -1,11 +1,3 @@
----
-title: "Parte 08 — Fundamentos profesionales de ventas"
-type: part-index
-language: es
-part: 08
-updated: 2026-08-19
----
-
 # Parte 08 — Fundamentos profesionales de ventas
 
 Esta parte trabaja el nivel **Venta** del programa y su propósito es que llegues a poder **ejecutar un proceso comercial reproducible que no dependa del talento individual**. Llegas desde la parte 07, *Pricing y monetización*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 09, *Venta consultiva y B2B compleja*.

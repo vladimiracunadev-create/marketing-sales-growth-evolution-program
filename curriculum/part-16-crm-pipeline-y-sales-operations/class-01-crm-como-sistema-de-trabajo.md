@@ -1,18 +1,3 @@
----
-title: "El CRM como sistema de trabajo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 01
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "diorio", "grove", "provost"]
-anchors: {"diorio": "modelo-datos", "grove": "apalancamiento", "provost": "formulacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 16.01 — El CRM como sistema de trabajo
 
 Clase 1 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

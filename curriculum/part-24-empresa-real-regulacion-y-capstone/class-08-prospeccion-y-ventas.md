@@ -1,18 +1,3 @@
----
-title: "Prospección y ventas del Capstone"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 08
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["weinberg-sales", "blount", "rackham", "ross"]
-anchors: {"blount": "disciplina", "rackham": "spin", "ross": "especializacion", "weinberg-sales": "lista-objetivo"}
-updated: 2026-08-19
----
-
 # Clase 24.08 — Prospección y ventas del Capstone
 
 Clase 8 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

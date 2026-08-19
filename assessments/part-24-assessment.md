@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 24: Empresa real, regulación y Capstone"
-type: assessment
-language: es
-part: 24
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 24: Empresa real, regulación y Capstone
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

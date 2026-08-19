@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Growth manager"
-type: career-path
-language: es
-role: growth-manager
-family: Growth
-updated: 2026-08-19
----
-
 # 🚀 Growth manager
 
 > El perfil que instala un motor de experimentación sobre todo el recorrido del cliente, incluido el producto. No es marketing con otro nombre: sin acceso a producto y a datos, el rol se degrada a optimización de campañas.

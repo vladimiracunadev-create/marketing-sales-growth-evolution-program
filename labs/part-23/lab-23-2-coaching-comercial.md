@@ -1,14 +1,3 @@
----
-title: "Lab 23.2 — Coaching comercial"
-type: lab
-language: es
-part: 23
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 23.2 — Coaching comercial
 
 **Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Duración estimada: 4 horas · Aprobación: 80/100

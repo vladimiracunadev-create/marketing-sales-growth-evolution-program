@@ -1,18 +1,3 @@
----
-title: "Storytelling comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 11
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["heath", "ellet", "handley", "ogilvy"]
-anchors: {"ellet": "evidencia-caso", "handley": "estandar-editorial", "heath": "credibilidad", "ogilvy": "investigacion"}
-updated: 2026-08-19
----
-
 # Clase 13.11 — Storytelling comercial
 
 Clase 11 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

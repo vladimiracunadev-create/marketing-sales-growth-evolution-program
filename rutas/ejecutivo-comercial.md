@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Ejecutivo comercial / Account Executive"
-type: career-path
-language: es
-role: ejecutivo-comercial
-family: Ventas
-updated: 2026-08-19
----
-
 # 🤝 Ejecutivo comercial / Account Executive
 
 > Quien conduce el negocio desde el diagnóstico hasta la firma. En venta compleja no gana quien mejor presenta, sino quien mejor diagnostica y quien logra que el comité interno del cliente llegue a un acuerdo.

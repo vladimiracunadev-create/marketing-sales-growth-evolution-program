@@ -1,18 +1,3 @@
----
-title: "Presentaciones comerciales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 07
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellet", "heath", "handley", "dixon-customer"]
-anchors: {"dixon-customer": "habilitar", "ellet": "argumento", "handley": "utilidad", "heath": "succes"}
-updated: 2026-08-19
----
-
 # Clase 08.07 — Presentaciones comerciales
 
 Clase 7 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

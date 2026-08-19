@@ -1,18 +1,3 @@
----
-title: "Bucles de referencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 07
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["reichheld", "ellis-brown", "cialdini", "godin"]
-anchors: {"cialdini": "reciprocidad", "ellis-brown": "ciclo", "godin": "permiso", "reichheld": "cliente-ganado"}
-updated: 2026-08-19
----
-
 # Clase 19.07 — Bucles de referencia
 
 Clase 7 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

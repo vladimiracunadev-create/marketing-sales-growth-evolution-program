@@ -1,11 +1,3 @@
----
-title: "Parte 12 — Marketing digital y adquisición"
-type: part-index
-language: es
-part: 12
-updated: 2026-08-19
----
-
 # Parte 12 — Marketing digital y adquisición
 
 Esta parte trabaja el nivel **Adquisición** del programa y su propósito es que llegues a poder **operar un sistema digital de adquisición medible de punta a punta**. Llegas desde la parte 11, *Prospección y generación de demanda*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 13, *Contenido, copywriting y comunicación persuasiva*.

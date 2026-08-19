@@ -1,18 +1,3 @@
----
-title: "Estrategia digital"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 01
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["chaffey", "binet-field", "kaushik", "weinberg-traction"]
-anchors: {"binet-field": "60-40", "chaffey": "planificacion", "kaushik": "plan-medicion", "weinberg-traction": "bullseye"}
-updated: 2026-08-19
----
-
 # Clase 12.01 — Estrategia digital
 
 Clase 1 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

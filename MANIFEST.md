@@ -1,11 +1,3 @@
----
-title: "Manifiesto del repositorio"
-type: manifest
-language: es
-generated: true
-updated: 2026-08-19
----
-
 > Documento generado por `tools/build_docs.py`. No editar a mano: los cambios se pierden en la siguiente generación. La fuente de verdad está en `curriculum/spec/`.
 
 # Manifiesto
@@ -16,7 +8,7 @@ Inventario cuantitativo verificable. Los números se calculan contando archivos 
 |---|---:|
 | Partes del currículo | 24 |
 | Clases | 336 |
-| Palabras en las clases | 1.812.565 |
+| Palabras en las clases | 1.799.438 |
 | Conceptos con definición operacional | 1344 |
 | Señales y métricas definidas | 1008 |
 | Obras en la bibliografía | 96 |

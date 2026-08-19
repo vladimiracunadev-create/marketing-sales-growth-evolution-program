@@ -1,18 +1,3 @@
----
-title: "Ingreso por expansión"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 11
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["mehta", "fader-ltv", "croll-yoskovitz", "reichheld"]
-anchors: {"croll-yoskovitz": "modelos", "fader-ltv": "inversion-diferencial", "mehta": "expansion", "reichheld": "cliente-ganado"}
-updated: 2026-08-19
----
-
 # Clase 18.11 — Ingreso por expansión
 
 Clase 11 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

@@ -1,14 +1,3 @@
----
-title: "Lab 01.2 — Ventas transaccionales y consultivas"
-type: lab
-language: es
-part: 01
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 01.2 — Ventas transaccionales y consultivas
 
 **Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Duración estimada: 4 horas · Aprobación: 80/100

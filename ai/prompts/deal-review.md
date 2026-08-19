@@ -1,10 +1,3 @@
----
-title: "Prompt — revisión de negocio"
-type: prompt
-language: es
-updated: 2026-08-18
----
-
 # Prompt — revisión de negocio
 
 Para someter una oportunidad comercial a preguntas incómodas antes de comprometerla en el forecast.

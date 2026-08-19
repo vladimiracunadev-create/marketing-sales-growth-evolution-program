@@ -1,18 +1,3 @@
----
-title: "Storytelling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 08
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["heath", "godin", "sugarman", "handley"]
-anchors: {"godin": "cambio", "handley": "empatia", "heath": "succes", "sugarman": "resbaladilla"}
-updated: 2026-08-19
----
-
 # Clase 06.08 — Storytelling
 
 Clase 8 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

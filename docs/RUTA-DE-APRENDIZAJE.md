@@ -1,10 +1,3 @@
----
-title: "Ruta de aprendizaje"
-type: learning-path
-language: es
-updated: 2026-08-18
----
-
 # Ruta de aprendizaje
 
 Cómo recorrer el programa según el punto de partida y el objetivo. La ruta completa es acumulativa: cada

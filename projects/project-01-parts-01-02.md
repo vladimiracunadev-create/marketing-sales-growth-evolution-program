@@ -1,12 +1,3 @@
----
-title: "Proyecto 1 — Partes 01 y 02"
-type: project
-language: es
-parts: [01, 02]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 1 — Partes 01 y 02
 
 **Partes integradas:** Marketing y ventas: fundamentos del sistema comercial y Cliente y comportamiento del consumidor.

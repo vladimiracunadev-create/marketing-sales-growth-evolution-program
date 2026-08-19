@@ -1,10 +1,3 @@
----
-title: "Plan de migración a capacitación"
-type: training-plan
-language: es
-updated: 2026-08-18
----
-
 # Plan de migración a capacitación
 
 Este repositorio está diseñado para funcionar en dos modos: **autoformación guiada** (leyendo el Markdown o

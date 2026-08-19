@@ -1,10 +1,3 @@
----
-title: "Documentación del programa"
-type: docs-index
-language: es
-updated: 2026-08-18
----
-
 # Documentación
 
 Índice completo de la documentación. Los documentos marcados como **generados** se producen desde

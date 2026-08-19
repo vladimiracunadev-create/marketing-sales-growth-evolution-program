@@ -1,10 +1,3 @@
----
-title: "Simulación persistente"
-type: simulation
-language: es
-updated: 2026-08-18
----
-
 # Simulación persistente — Ruta Andina SpA
 
 El programa completo trabaja sobre una empresa simulada. No es un ejemplo distinto por clase: es la misma

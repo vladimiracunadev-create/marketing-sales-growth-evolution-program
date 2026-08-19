@@ -1,10 +1,3 @@
----
-title: "Guía docente"
-type: instructor-guide
-language: es
-updated: 2026-08-18
----
-
 # Guía docente
 
 Cómo facilitar este programa sin bajar su estándar. Está escrita para quien va a dictar, no para quien va a

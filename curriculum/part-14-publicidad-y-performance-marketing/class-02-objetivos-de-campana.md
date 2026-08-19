@@ -1,18 +1,3 @@
----
-title: "Objetivos de campaña"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 02
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "kaushik", "chaffey", "provost"]
-anchors: {"chaffey": "planificacion", "geddes": "calidad", "kaushik": "plan-medicion", "provost": "formulacion"}
-updated: 2026-08-19
----
-
 # Clase 14.02 — Objetivos de campaña
 
 Clase 2 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

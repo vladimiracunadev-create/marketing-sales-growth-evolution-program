@@ -1,18 +1,3 @@
----
-title: "Síntesis: expediente de cliente accionable"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 14
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fitzpatrick", "osterwalder-vpd", "christensen", "roberge"]
-anchors: {"christensen": "circunstancia", "fitzpatrick": "compromiso", "osterwalder-vpd": "prueba", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 02.14 — Síntesis: expediente de cliente accionable
 
 Clase 14 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

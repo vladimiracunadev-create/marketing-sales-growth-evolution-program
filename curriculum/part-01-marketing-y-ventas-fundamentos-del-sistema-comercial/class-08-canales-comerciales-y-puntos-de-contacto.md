@@ -1,18 +1,3 @@
----
-title: "Canales comerciales y puntos de contacto"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 08
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "weinberg-traction", "chaffey", "flint"]
-anchors: {"chaffey": "medios-propios", "flint": "valor-canal", "kotler": "canales", "weinberg-traction": "bullseye"}
-updated: 2026-08-19
----
-
 # Clase 01.08 — Canales comerciales y puntos de contacto
 
 Clase 8 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

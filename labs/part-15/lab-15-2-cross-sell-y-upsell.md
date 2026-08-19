@@ -1,14 +1,3 @@
----
-title: "Lab 15.2 — Venta cruzada y venta incremental"
-type: lab
-language: es
-part: 15
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 15.2 — Venta cruzada y venta incremental
 
 **Parte 15 · E-commerce y marketplaces** · Duración estimada: 4 horas · Aprobación: 80/100

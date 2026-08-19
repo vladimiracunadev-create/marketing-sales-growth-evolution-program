@@ -1,18 +1,3 @@
----
-title: "Unidad de decisión en B2B"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 06
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-customer", "miller-heiman", "rackham", "dixon-challenger"]
-anchors: {"dixon-challenger": "adaptar", "dixon-customer": "consenso", "miller-heiman": "roles-compra", "rackham": "necesidad-explicita"}
-updated: 2026-08-19
----
-
 # Clase 02.06 — Unidad de decisión en B2B
 
 Clase 6 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Margen de contribución"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 06
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "provost", "nagle", "simon"]
-anchors: {"croll-yoskovitz": "modelos", "nagle": "costo-piso", "provost": "formulacion", "simon": "valor-percibido"}
-updated: 2026-08-19
----
-
 # Clase 20.06 — Margen de contribución
 
 Clase 6 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

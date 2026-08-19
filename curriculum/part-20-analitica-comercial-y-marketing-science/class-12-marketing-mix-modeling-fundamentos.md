@@ -1,18 +1,3 @@
----
-title: "Fundamentos de marketing mix modeling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 12
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["provost", "kohavi", "binet-field", "hubbard"]
-anchors: {"binet-field": "corto-largo", "hubbard": "medicion-definicion", "kohavi": "confianza", "provost": "asociacion-causalidad"}
-updated: 2026-08-19
----
-
 # Clase 20.12 — Fundamentos de marketing mix modeling
 
 Clase 12 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

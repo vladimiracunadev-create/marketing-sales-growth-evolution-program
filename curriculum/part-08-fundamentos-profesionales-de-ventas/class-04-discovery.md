@@ -1,18 +1,3 @@
----
-title: "Discovery"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 04
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "dixon-challenger", "fitzpatrick"]
-anchors: {"dixon-challenger": "ensenar", "fitzpatrick": "mom-test", "keenan": "diagnostico", "rackham": "implicacion"}
-updated: 2026-08-19
----
-
 # Clase 08.04 — Discovery
 
 Clase 4 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

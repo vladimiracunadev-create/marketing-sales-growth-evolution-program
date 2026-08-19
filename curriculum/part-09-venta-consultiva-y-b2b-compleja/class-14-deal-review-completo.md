@@ -1,18 +1,3 @@
----
-title: "Deal review completo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 14
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "roberge", "grove", "ellet"]
-anchors: {"ellet": "analisis-decision", "grove": "reuniones", "miller-heiman": "senal-alerta", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 09.14 — Deal review completo
 
 Clase 14 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

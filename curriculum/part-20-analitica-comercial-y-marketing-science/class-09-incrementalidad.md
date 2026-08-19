@@ -1,18 +1,3 @@
----
-title: "Incrementalidad"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 09
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kohavi", "provost", "kaushik", "binet-field"]
-anchors: {"binet-field": "metricas-sesgo", "kaushik": "so-what", "kohavi": "guardarrailes", "provost": "valor-esperado"}
-updated: 2026-08-19
----
-
 # Clase 20.09 — Incrementalidad
 
 Clase 9 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

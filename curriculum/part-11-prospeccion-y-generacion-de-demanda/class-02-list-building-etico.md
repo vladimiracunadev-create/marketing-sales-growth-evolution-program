@@ -1,18 +1,3 @@
----
-title: "Construcción ética de listas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 02
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "godin", "handley", "oneil"]
-anchors: {"blount": "cadencia", "godin": "permiso", "handley": "empatia", "oneil": "proxy"}
-updated: 2026-08-19
----
-
 # Clase 11.02 — Construcción ética de listas
 
 Clase 2 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

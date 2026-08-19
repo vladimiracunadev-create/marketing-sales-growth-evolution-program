@@ -1,18 +1,3 @@
----
-title: "Social listening y señales de mercado"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 11
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "godin", "chaffey", "solomon"]
-anchors: {"chaffey": "medios-propios", "godin": "publico-minimo", "kaushik": "multiplicidad", "solomon": "cultura"}
-updated: 2026-08-19
----
-
 # Clase 03.11 — Social listening y señales de mercado
 
 Clase 11 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

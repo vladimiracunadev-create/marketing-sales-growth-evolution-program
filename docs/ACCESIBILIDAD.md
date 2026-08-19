@@ -1,10 +1,3 @@
----
-title: "Accesibilidad y diseño inclusivo"
-type: accessibility
-language: es
-updated: 2026-08-18
----
-
 # Accesibilidad
 
 Compromisos de accesibilidad del material, decisiones tomadas y limitaciones conocidas.

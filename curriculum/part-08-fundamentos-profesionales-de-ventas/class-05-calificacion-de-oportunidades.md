@@ -1,18 +1,3 @@
----
-title: "Calificación de oportunidades"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 05
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "roberge", "keenan", "ross"]
-anchors: {"keenan": "impacto", "miller-heiman": "senal-alerta", "roberge": "metricas-coaching", "ross": "tipos-lead"}
-updated: 2026-08-19
----
-
 # Clase 08.05 — Calificación de oportunidades
 
 Clase 5 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

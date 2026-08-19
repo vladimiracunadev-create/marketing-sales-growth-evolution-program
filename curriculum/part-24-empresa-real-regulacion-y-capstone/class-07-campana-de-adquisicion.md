@@ -1,18 +1,3 @@
----
-title: "Campaña de adquisición"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 07
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "kaushik", "laja", "handley"]
-anchors: {"geddes": "estructura-cuenta", "handley": "utilidad", "kaushik": "plan-medicion", "laja": "investigacion-previa"}
-updated: 2026-08-19
----
-
 # Clase 24.07 — Campaña de adquisición
 
 Clase 7 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

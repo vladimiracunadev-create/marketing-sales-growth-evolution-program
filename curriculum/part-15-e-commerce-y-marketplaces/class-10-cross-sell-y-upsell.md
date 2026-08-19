@@ -1,18 +1,3 @@
----
-title: "Venta cruzada y venta incremental"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 10
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fader", "flint", "cialdini", "laja"]
-anchors: {"cialdini": "reciprocidad", "fader": "rfm", "flint": "migracion-clientes", "laja": "jerarquia-mensaje"}
-updated: 2026-08-19
----
-
 # Clase 15.10 — Venta cruzada y venta incremental
 
 Clase 10 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

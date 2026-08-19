@@ -1,11 +1,3 @@
----
-title: "Parte 11 — Prospección y generación de demanda"
-type: part-index
-language: es
-part: 11
-updated: 2026-08-19
----
-
 # Parte 11 — Prospección y generación de demanda
 
 Esta parte trabaja el nivel **Venta** del programa y su propósito es que llegues a poder **construir un sistema de originación de oportunidades repetible y legítimo**. Llegas desde la parte 10, *Negociación comercial*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 12, *Marketing digital y adquisición*.

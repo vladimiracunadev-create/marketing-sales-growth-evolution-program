@@ -1,18 +1,3 @@
----
-title: "Dashboard financiero-comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 11
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaplan-norton", "croll-yoskovitz", "provost", "kaushik"]
-anchors: {"croll-yoskovitz": "linea-trazada", "kaplan-norton": "cuatro-perspectivas", "kaushik": "so-what", "provost": "evaluacion"}
-updated: 2026-08-19
----
-
 # Clase 24.11 — Dashboard financiero-comercial
 
 Clase 11 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

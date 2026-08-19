@@ -1,18 +1,3 @@
----
-title: "Benchmarking competitivo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 09
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["porter", "porter-hbr", "kim-mauborgne", "ries-trout"]
-anchors: {"kim-mauborgne": "curva-valor", "porter": "grupos-estrategicos", "porter-hbr": "eficacia-vs-estrategia", "ries-trout": "escalera"}
-updated: 2026-08-19
----
-
 # Clase 03.09 — Benchmarking competitivo
 
 Clase 9 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

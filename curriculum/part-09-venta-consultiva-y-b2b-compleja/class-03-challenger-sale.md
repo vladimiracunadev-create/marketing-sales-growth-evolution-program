@@ -1,18 +1,3 @@
----
-title: "Challenger Sale"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 03
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-challenger", "dixon-customer", "rackham", "keenan"]
-anchors: {"dixon-challenger": "perfiles", "dixon-customer": "mobilizer", "keenan": "brecha", "rackham": "implicacion"}
-updated: 2026-08-19
----
-
 # Clase 09.03 — Challenger Sale
 
 Clase 3 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

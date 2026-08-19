@@ -1,18 +1,3 @@
----
-title: "Customer Success y expansión"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 11
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["mehta", "hulick", "fader", "dixon-effort"]
-anchors: {"dixon-effort": "esfuerzo", "fader": "heterogeneidad", "hulick": "primer-exito", "mehta": "resultado-cliente"}
-updated: 2026-08-19
----
-
 # Clase 01.11 — Customer Success y expansión
 
 Clase 11 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

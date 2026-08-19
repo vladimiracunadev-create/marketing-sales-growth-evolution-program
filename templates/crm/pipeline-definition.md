@@ -1,11 +1,3 @@
----
-title: "Definición de pipeline"
-type: template
-language: es
-part: "16"
-updated: 2026-08-18
----
-
 # Definición de pipeline
 
 ## Principio

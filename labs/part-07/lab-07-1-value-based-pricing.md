@@ -1,14 +1,3 @@
----
-title: "Lab 07.1 — Pricing basado en valor"
-type: lab
-language: es
-part: 07
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 07.1 — Pricing basado en valor
 
 **Parte 07 · Pricing y monetización** · Duración estimada: 4 horas · Aprobación: 80/100

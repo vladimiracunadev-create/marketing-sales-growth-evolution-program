@@ -1,18 +1,3 @@
----
-title: "Suscripción e ingreso recurrente"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 09
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "mehta", "ramanujam", "fader-ltv"]
-anchors: {"croll-yoskovitz": "modelos", "fader-ltv": "ltv-modelo", "mehta": "expansion", "ramanujam": "modelo-monetizacion"}
-updated: 2026-08-19
----
-
 # Clase 07.09 — Suscripción e ingreso recurrente
 
 Clase 9 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

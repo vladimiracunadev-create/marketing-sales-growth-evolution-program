@@ -1,18 +1,3 @@
----
-title: "Reporte al directorio"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 13
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "kaplan-norton", "collins", "doerr"]
-anchors: {"collins": "hechos-brutales", "doerr": "transparencia", "grove": "reuniones", "kaplan-norton": "cuatro-perspectivas"}
-updated: 2026-08-19
----
-
 # Clase 23.13 — Reporte al directorio
 
 Clase 13 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

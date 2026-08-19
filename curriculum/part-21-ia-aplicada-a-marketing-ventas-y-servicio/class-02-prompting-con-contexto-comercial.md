@@ -1,18 +1,3 @@
----
-title: "Prompting con contexto comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 02
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ng-mlyearning", "nist-airmf", "handley", "russell-norvig"]
-anchors: {"handley": "utilidad", "ng-mlyearning": "conjunto-evaluacion", "nist-airmf": "contexto", "russell-norvig": "medida-desempeno"}
-updated: 2026-08-19
----
-
 # Clase 21.02 — Prompting con contexto comercial
 
 Clase 2 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

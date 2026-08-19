@@ -1,18 +1,3 @@
----
-title: "Checkout"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 04
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["krug", "laja", "eisenberg", "flint"]
-anchors: {"eisenberg": "friccion-formulario", "flint": "recompra", "krug": "escaneo", "laja": "investigacion-previa"}
-updated: 2026-08-19
----
-
 # Clase 15.04 — Checkout
 
 Clase 4 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

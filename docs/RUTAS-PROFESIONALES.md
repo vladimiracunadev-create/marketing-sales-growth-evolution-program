@@ -1,10 +1,3 @@
----
-title: "Rutas profesionales"
-type: career-paths
-language: es
-updated: 2026-08-19
----
-
 # Rutas profesionales
 
 > **Las guías completas de cada rol viven en [`rutas/`](../rutas/README.md).** Este documento explica cómo

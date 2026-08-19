@@ -1,12 +1,3 @@
----
-title: "Proyecto 2 — Partes 03 y 04"
-type: project
-language: es
-parts: [03, 04]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 2 — Partes 03 y 04
 
 **Partes integradas:** Investigación de mercados e inteligencia competitiva y Segmentación, targeting y posicionamiento.

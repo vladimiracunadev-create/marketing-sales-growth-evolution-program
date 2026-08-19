@@ -1,18 +1,3 @@
----
-title: "Encaje problema-solución"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 03
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-lean", "fitzpatrick", "blank", "cagan"]
-anchors: {"blank": "customer-discovery", "cagan": "descubrimiento", "fitzpatrick": "compromiso", "ries-lean": "mvp"}
-updated: 2026-08-19
----
-
 # Clase 05.03 — Encaje problema-solución
 
 Clase 3 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

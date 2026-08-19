@@ -1,18 +1,3 @@
----
-title: "Modelo operativo de e-commerce"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 01
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["flint", "croll-yoskovitz", "chaffey", "fader"]
-anchors: {"chaffey": "planificacion", "croll-yoskovitz": "modelos", "fader": "heterogeneidad", "flint": "valor-canal"}
-updated: 2026-08-19
----
-
 # Clase 15.01 — Modelo operativo de e-commerce
 
 Clase 1 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

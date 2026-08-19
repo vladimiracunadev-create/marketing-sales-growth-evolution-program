@@ -1,18 +1,3 @@
----
-title: "Backlog de experimentos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 09
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "kohavi", "ries-lean", "cagan"]
-anchors: {"cagan": "riesgos", "ellis-brown": "backlog", "kohavi": "confianza", "ries-lean": "aprendizaje-validado"}
-updated: 2026-08-19
----
-
 # Clase 19.09 — Backlog de experimentos
 
 Clase 9 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

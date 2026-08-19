@@ -1,18 +1,3 @@
----
-title: "Pricing por competencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 03
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "porter", "simon", "smith-pricing"]
-anchors: {"nagle": "valor-diferencial", "porter": "cinco-fuerzas", "simon": "guerra-precios", "smith-pricing": "price-fences"}
-updated: 2026-08-19
----
-
 # Clase 07.03 — Pricing por competencia
 
 Clase 3 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

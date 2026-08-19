@@ -1,18 +1,3 @@
----
-title: "Operating system del CRO"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 14
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "doerr", "collins", "kaplan-norton"]
-anchors: {"collins": "erizo", "doerr": "seguimiento", "grove": "apalancamiento", "kaplan-norton": "mapa-estrategico"}
-updated: 2026-08-19
----
-
 # Clase 23.14 — Operating system del CRO
 
 Clase 14 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Sistema editorial completo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 14
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["handley", "pulizzi", "godin", "wheeler"]
-anchors: {"godin": "cambio", "handley": "estandar-editorial", "pulizzi": "consistencia", "wheeler": "gobierno"}
-updated: 2026-08-19
----
-
 # Clase 13.14 — Sistema editorial completo
 
 Clase 14 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

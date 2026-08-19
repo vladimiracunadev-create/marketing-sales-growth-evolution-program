@@ -1,18 +1,3 @@
----
-title: "North Star Metric"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 02
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "croll-yoskovitz", "doerr", "kaplan-norton"]
-anchors: {"croll-yoskovitz": "una-metrica", "doerr": "foco", "ellis-brown": "aha", "kaplan-norton": "indicadores-causales"}
-updated: 2026-08-19
----
-
 # Clase 19.02 — North Star Metric
 
 Clase 2 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

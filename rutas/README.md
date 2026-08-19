@@ -1,10 +1,3 @@
----
-title: "Rutas profesionales por rol"
-type: career-index
-language: es
-updated: 2026-08-19
----
-
 # 🧭 Rutas profesionales por rol
 
 El programa tiene **336 clases**; no todas son para todos a la vez. Estas 17 rutas ordenan el recorrido según el puesto al que apuntas: qué partes hacer, en qué orden, con qué laboratorios practicar y qué artefactos llevar a una postulación.

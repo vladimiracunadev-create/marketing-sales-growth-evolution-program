@@ -1,18 +1,3 @@
----
-title: "Brand equity"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 09
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["keller-brand", "aaker", "binet-field", "sharp"]
-anchors: {"aaker": "equity", "binet-field": "corto-largo", "keller-brand": "cbbe", "sharp": "disponibilidad"}
-updated: 2026-08-19
----
-
 # Clase 06.09 — Brand equity
 
 Clase 9 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

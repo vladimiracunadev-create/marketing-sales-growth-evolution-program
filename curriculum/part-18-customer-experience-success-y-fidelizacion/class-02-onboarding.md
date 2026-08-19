@@ -1,18 +1,3 @@
----
-title: "Onboarding"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 02
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["hulick", "mehta", "cagan", "dixon-effort"]
-anchors: {"cagan": "descubrimiento", "dixon-effort": "canal-preferido", "hulick": "primer-exito", "mehta": "leyes"}
-updated: 2026-08-19
----
-
 # Clase 18.02 — Onboarding
 
 Clase 2 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

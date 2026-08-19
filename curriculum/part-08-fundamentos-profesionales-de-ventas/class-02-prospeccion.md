@@ -1,18 +1,3 @@
----
-title: "Prospección"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 02
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blount", "weinberg-sales", "ross", "bertuzzi"]
-anchors: {"bertuzzi": "especializacion-sdr", "blount": "disciplina", "ross": "cold-calling-2", "weinberg-sales": "lista-objetivo"}
-updated: 2026-08-19
----
-
 # Clase 08.02 — Prospección
 
 Clase 2 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

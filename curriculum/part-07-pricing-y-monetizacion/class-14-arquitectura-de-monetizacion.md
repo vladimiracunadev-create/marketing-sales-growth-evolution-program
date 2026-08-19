@@ -1,18 +1,3 @@
----
-title: "Arquitectura de monetización"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 14
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "ramanujam", "simon", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "modelos", "nagle": "politica", "ramanujam": "modelo-monetizacion", "simon": "palanca-precio"}
-updated: 2026-08-19
----
-
 # Clase 07.14 — Arquitectura de monetización
 
 Clase 14 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

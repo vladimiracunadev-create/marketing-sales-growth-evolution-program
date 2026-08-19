@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — CRO — dirección de ingresos"
-type: career-path
-language: es
-role: cro
-family: Dirección
-updated: 2026-08-19
----
-
 # 👑 CRO — dirección de ingresos
 
 > Dirige marketing, ventas y éxito de cliente como un solo sistema. Es el cargo donde se hace visible que el ingreso no lo produce un área, sino la coherencia entre las tres.

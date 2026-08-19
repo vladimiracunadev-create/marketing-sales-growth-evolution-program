@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Head of Go-To-Market"
-type: career-path
-language: es
-role: head-of-gtm
-family: Dirección
-updated: 2026-08-19
----
-
 # 🗺️ Head of Go-To-Market
 
 > Quien decide cómo llega la oferta al mercado: qué segmento, qué movimiento comercial, qué canales y en qué secuencia. Su error más caro no es elegir mal un canal, sino abrir varios frentes con la capacidad de uno.

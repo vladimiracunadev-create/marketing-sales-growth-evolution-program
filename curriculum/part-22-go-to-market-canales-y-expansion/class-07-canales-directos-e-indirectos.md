@@ -1,18 +1,3 @@
----
-title: "Canales directos e indirectos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 07
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "porter", "nagle", "weinberg-traction"]
-anchors: {"moore": "ciclo-adopcion", "nagle": "segmentacion-precio", "porter": "grupos-estrategicos", "weinberg-traction": "bullseye"}
-updated: 2026-08-19
----
-
 # Clase 22.07 — Canales directos e indirectos
 
 Clase 7 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

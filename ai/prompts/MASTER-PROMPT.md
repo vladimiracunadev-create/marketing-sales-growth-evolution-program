@@ -1,10 +1,3 @@
----
-title: "Prompt maestro — copiloto comercial"
-type: prompt
-language: es
-updated: 2026-08-18
----
-
 # Prompt maestro — copiloto comercial
 
 Instrucción base para usar un asistente de IA como copiloto de razonamiento comercial. No sustituye el

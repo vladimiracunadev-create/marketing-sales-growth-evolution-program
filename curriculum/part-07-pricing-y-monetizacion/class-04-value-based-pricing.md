@@ -1,18 +1,3 @@
----
-title: "Pricing basado en valor"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 04
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "ramanujam", "simon", "hubbard"]
-anchors: {"hubbard": "medicion-definicion", "nagle": "valor-diferencial", "ramanujam": "disposicion-pagar", "simon": "valor-percibido"}
-updated: 2026-08-19
----
-
 # Clase 07.04 — Pricing basado en valor
 
 Clase 4 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

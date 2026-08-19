@@ -1,18 +1,3 @@
----
-title: "Automatización con propósito"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 01
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "grove", "nist-airmf", "roberge"]
-anchors: {"diorio": "friccion", "grove": "apalancamiento", "nist-airmf": "funciones", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 17.01 — Automatización con propósito
 
 Clase 1 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

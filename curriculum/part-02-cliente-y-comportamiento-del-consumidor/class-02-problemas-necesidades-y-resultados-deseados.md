@@ -1,18 +1,3 @@
----
-title: "Problemas, necesidades y resultados deseados"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 02
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ulwick", "christensen", "fitzpatrick", "osterwalder-vpd"]
-anchors: {"christensen": "job", "fitzpatrick": "mom-test", "osterwalder-vpd": "perfil", "ulwick": "resultados"}
-updated: 2026-08-19
----
-
 # Clase 02.02 — Problemas, necesidades y resultados deseados
 
 Clase 2 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

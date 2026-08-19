@@ -1,14 +1,3 @@
----
-title: "Lab 21.1 — Generación de contenido con controles"
-type: lab
-language: es
-part: 21
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 21.1 — Generación de contenido con controles
 
 **Parte 21 · IA aplicada a marketing, ventas y servicio** · Duración estimada: 4 horas · Aprobación: 80/100

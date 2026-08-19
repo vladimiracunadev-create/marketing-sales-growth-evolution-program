@@ -1,12 +1,3 @@
----
-title: "Proyecto 8 — Partes 15 y 16"
-type: project
-language: es
-parts: [15, 16]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 8 — Partes 15 y 16
 
 **Partes integradas:** E-commerce y marketplaces y CRM, pipeline y sales operations.

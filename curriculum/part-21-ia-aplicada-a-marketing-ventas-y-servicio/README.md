@@ -1,11 +1,3 @@
----
-title: "Parte 21 — IA aplicada a marketing, ventas y servicio"
-type: part-index
-language: es
-part: 21
-updated: 2026-08-19
----
-
 # Parte 21 — IA aplicada a marketing, ventas y servicio
 
 Esta parte trabaja el nivel **IA y expansión** del programa y su propósito es que llegues a poder **usar IA como capacidad operativa con evaluación, control y responsabilidad humana**. Llegas desde la parte 20, *Analítica comercial y marketing science*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 22, *Go-to-market, canales y expansión*.

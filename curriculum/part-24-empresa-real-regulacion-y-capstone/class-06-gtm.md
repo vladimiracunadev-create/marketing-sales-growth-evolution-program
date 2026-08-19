@@ -1,18 +1,3 @@
----
-title: "Go-to-market del Capstone"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 06
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "ross", "bush-plg", "rumelt"]
-anchors: {"bush-plg": "autoservicio", "moore": "producto-completo", "ross": "pipeline-predecible", "rumelt": "foco"}
-updated: 2026-08-19
----
-
 # Clase 24.06 — Go-to-market del Capstone
 
 Clase 6 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

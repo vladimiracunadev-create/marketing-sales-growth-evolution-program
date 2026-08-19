@@ -1,18 +1,3 @@
----
-title: "Disciplina de CRM"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 13
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "diorio", "grove", "provost"]
-anchors: {"diorio": "modelo-datos", "grove": "indicadores-adelantados", "provost": "formulacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 08.13 — Disciplina de CRM
 
 Clase 13 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

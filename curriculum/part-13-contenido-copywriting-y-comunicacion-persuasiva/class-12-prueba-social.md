@@ -1,18 +1,3 @@
----
-title: "Prueba social"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 12
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["cialdini", "sharp2", "godin", "reichheld"]
-anchors: {"cialdini": "prueba-social", "godin": "permiso", "reichheld": "nps-uso", "sharp2": "situaciones-compra"}
-updated: 2026-08-19
----
-
 # Clase 13.12 — Prueba social
 
 Clase 12 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

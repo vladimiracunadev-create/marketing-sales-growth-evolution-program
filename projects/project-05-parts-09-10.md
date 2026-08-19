@@ -1,12 +1,3 @@
----
-title: "Proyecto 5 — Partes 09 y 10"
-type: project
-language: es
-parts: [09, 10]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 5 — Partes 09 y 10
 
 **Partes integradas:** Venta consultiva y B2B compleja y Negociación comercial.

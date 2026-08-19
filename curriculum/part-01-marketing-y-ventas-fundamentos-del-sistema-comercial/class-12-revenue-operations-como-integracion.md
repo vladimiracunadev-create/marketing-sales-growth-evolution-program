@@ -1,18 +1,3 @@
----
-title: "Revenue Operations como integración"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 12
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "roberge", "grove", "provost"]
-anchors: {"diorio": "modelo-datos", "grove": "indicadores-adelantados", "provost": "formulacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 01.12 — Revenue Operations como integración
 
 Clase 12 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

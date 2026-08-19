@@ -1,18 +1,3 @@
----
-title: "Árbol de métricas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 01
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaplan-norton", "croll-yoskovitz", "provost", "kaushik"]
-anchors: {"croll-yoskovitz": "una-metrica", "kaplan-norton": "mapa-estrategico", "kaushik": "so-what", "provost": "formulacion"}
-updated: 2026-08-19
----
-
 # Clase 20.01 — Árbol de métricas
 
 Clase 1 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

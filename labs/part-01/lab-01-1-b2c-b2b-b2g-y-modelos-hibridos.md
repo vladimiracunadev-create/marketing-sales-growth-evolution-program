@@ -1,14 +1,3 @@
----
-title: "Lab 01.1 — B2C, B2B, B2G y modelos híbridos"
-type: lab
-language: es
-part: 01
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 01.1 — B2C, B2B, B2G y modelos híbridos
 
 **Parte 01 · Marketing y ventas: fundamentos del sistema comercial** · Duración estimada: 4 horas · Aprobación: 80/100

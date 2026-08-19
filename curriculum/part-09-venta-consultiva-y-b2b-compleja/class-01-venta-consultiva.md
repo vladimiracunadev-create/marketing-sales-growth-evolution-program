@@ -1,18 +1,3 @@
----
-title: "Venta consultiva"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 01
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "dixon-challenger", "miller-heiman"]
-anchors: {"dixon-challenger": "ensenar", "keenan": "diagnostico", "miller-heiman": "resultado-ganar", "rackham": "implicacion"}
-updated: 2026-08-19
----
-
 # Clase 09.01 — Venta consultiva
 
 Clase 1 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

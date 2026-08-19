@@ -1,10 +1,3 @@
----
-title: "Preguntas frecuentes"
-type: faq
-language: es
-updated: 2026-08-18
----
-
 # Preguntas frecuentes
 
 ## Sobre el programa

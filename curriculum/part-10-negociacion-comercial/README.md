@@ -1,11 +1,3 @@
----
-title: "Parte 10 — Negociación comercial"
-type: part-index
-language: es
-part: 10
-updated: 2026-08-19
----
-
 # Parte 10 — Negociación comercial
 
 Esta parte trabaja el nivel **Venta** del programa y su propósito es que llegues a poder **negociar acuerdos sostenibles protegiendo precio, alcance y relación**. Llegas desde la parte 09, *Venta consultiva y B2B compleja*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 11, *Prospección y generación de demanda*.

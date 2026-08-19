@@ -1,11 +1,3 @@
----
-title: "Caso 01 — Marketing y ventas: fundamentos del sistema comercial"
-type: case
-language: es
-part: 01
-updated: 2026-08-19
----
-
 # Caso 01 — Marketing y ventas: fundamentos del sistema comercial
 
 ## Contexto

@@ -1,18 +1,3 @@
----
-title: "Unit economics"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 12
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "fader-ltv", "provost", "hubbard"]
-anchors: {"croll-yoskovitz": "modelos", "fader-ltv": "ltv-modelo", "hubbard": "calibracion", "provost": "valor-esperado"}
-updated: 2026-08-19
----
-
 # Clase 07.12 — Unit economics
 
 Clase 12 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

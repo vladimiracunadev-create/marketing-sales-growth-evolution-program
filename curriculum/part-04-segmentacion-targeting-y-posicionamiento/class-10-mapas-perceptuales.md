@@ -1,18 +1,3 @@
----
-title: "Mapas perceptuales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 10
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-trout", "keller-brand", "malhotra", "aaker"]
-anchors: {"aaker": "posicion", "keller-brand": "medicion", "malhotra": "escalas", "ries-trout": "mente"}
-updated: 2026-08-19
----
-
 # Clase 04.10 — Mapas perceptuales
 
 Clase 10 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

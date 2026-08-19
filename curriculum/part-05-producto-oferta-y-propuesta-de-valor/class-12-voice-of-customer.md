@@ -1,18 +1,3 @@
----
-title: "Voice of Customer"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 12
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-effort", "mehta", "reichheld", "portigal"]
-anchors: {"dixon-effort": "lenguaje", "mehta": "salud", "portigal": "sintesis", "reichheld": "cierre-circuito"}
-updated: 2026-08-19
----
-
 # Clase 05.12 — Voice of Customer
 
 Clase 12 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

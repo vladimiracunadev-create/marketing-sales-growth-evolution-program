@@ -1,18 +1,3 @@
----
-title: "Solution Selling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 04
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["keenan", "rackham", "dixon-challenger", "cagan"]
-anchors: {"cagan": "riesgos", "dixon-challenger": "insight-comercial", "keenan": "brecha", "rackham": "necesidad-explicita"}
-updated: 2026-08-19
----
-
 # Clase 09.04 — Solution Selling
 
 Clase 4 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

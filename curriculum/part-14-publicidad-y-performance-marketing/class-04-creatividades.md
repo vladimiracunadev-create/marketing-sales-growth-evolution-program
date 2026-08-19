@@ -1,18 +1,3 @@
----
-title: "Creatividades"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 04
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ogilvy", "sharp2", "binet-field", "geddes"]
-anchors: {"binet-field": "corto-largo", "geddes": "calidad", "ogilvy": "titular", "sharp2": "activos-distintivos"}
-updated: 2026-08-19
----
-
 # Clase 14.04 — Creatividades
 
 Clase 4 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

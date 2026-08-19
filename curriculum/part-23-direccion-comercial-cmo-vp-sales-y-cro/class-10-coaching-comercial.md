@@ -1,18 +1,3 @@
----
-title: "Coaching comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 10
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ericsson", "roberge", "grove", "rackham"]
-anchors: {"ericsson": "practica-deliberada", "grove": "delegacion", "rackham": "spin", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 23.10 — Coaching comercial
 
 Clase 10 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

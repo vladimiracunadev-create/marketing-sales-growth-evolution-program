@@ -1,18 +1,3 @@
----
-title: "Nurturing"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 05
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["handley", "godin", "diorio", "chaffey"]
-anchors: {"chaffey": "modelo-canal", "diorio": "friccion", "godin": "permiso", "handley": "utilidad"}
-updated: 2026-08-19
----
-
 # Clase 17.05 — Nurturing
 
 Clase 5 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

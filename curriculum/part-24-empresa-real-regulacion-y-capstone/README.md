@@ -1,11 +1,3 @@
----
-title: "Parte 24 — Empresa real, regulación y Capstone"
-type: part-index
-language: es
-part: 24
-updated: 2026-08-19
----
-
 # Parte 24 — Empresa real, regulación y Capstone
 
 Esta parte trabaja el nivel **Dirección y Capstone** del programa y su propósito es que llegues a poder **integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena**. Llegas desde la parte 23, *Dirección comercial: CMO, VP Sales y CRO*, y lo que allí quedó resuelto se da por sabido aquí. Es la última parte: aquí se cierra el programa y se defiende el Capstone.

@@ -1,18 +1,3 @@
----
-title: "Presupuesto y ritmo de gasto"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 08
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "binet-field", "wheeler-dv", "geddes"]
-anchors: {"binet-field": "share-of-voice", "geddes": "estructura-cuenta", "kaushik": "so-what", "wheeler-dv": "comparar-dos-puntos"}
-updated: 2026-08-19
----
-
 # Clase 14.08 — Presupuesto y ritmo de gasto
 
 Clase 8 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

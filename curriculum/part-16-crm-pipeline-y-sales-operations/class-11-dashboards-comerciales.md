@@ -1,18 +1,3 @@
----
-title: "Dashboards comerciales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 11
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "grove", "kaplan-norton", "wheeler-dv"]
-anchors: {"grove": "indicadores-adelantados", "kaplan-norton": "indicadores-causales", "kaushik": "so-what", "wheeler-dv": "graficos-control"}
-updated: 2026-08-19
----
-
 # Clase 16.11 — Dashboards comerciales
 
 Clase 11 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

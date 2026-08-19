@@ -1,10 +1,3 @@
----
-title: "Evaluación y rúbricas"
-type: assessment-framework
-language: es
-updated: 2026-08-18
----
-
 # Evaluación y rúbricas
 
 Sistema de evaluación del programa: qué se mide, con qué instrumento, con qué peso y con qué criterio de

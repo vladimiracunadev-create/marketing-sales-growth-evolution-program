@@ -1,18 +1,3 @@
----
-title: "Reuniones operativas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 09
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "lencioni", "doerr", "collins"]
-anchors: {"collins": "hechos-brutales", "doerr": "seguimiento", "grove": "reuniones", "lencioni": "conflicto"}
-updated: 2026-08-19
----
-
 # Clase 23.09 — Reuniones operativas
 
 Clase 9 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Estrategias de nicho"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 07
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "godin", "porter", "kim-mauborgne"]
-anchors: {"godin": "publico-minimo", "kim-mauborgne": "no-clientes", "moore": "beachhead", "porter": "grupos-estrategicos"}
-updated: 2026-08-19
----
-
 # Clase 04.07 — Estrategias de nicho
 
 Clase 7 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

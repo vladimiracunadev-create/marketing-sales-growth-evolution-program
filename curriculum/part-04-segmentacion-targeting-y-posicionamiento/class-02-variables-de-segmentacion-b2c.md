@@ -1,18 +1,3 @@
----
-title: "Variables de segmentación B2C"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 02
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["sharp", "solomon", "kotler", "fader"]
-anchors: {"fader": "rfm", "kotler": "stp", "sharp": "penetracion", "solomon": "identidad"}
-updated: 2026-08-19
----
-
 # Clase 04.02 — Variables de segmentación B2C
 
 Clase 2 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

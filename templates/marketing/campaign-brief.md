@@ -1,11 +1,3 @@
----
-title: "Brief de campaña"
-type: template
-language: es
-part: "12, 13, 14"
-updated: 2026-08-18
----
-
 # Brief de campaña
 
 ## 1. Decisión que informa esta campaña

@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 03: Investigación de mercados e inteligencia competitiva"
-type: assessment
-language: es
-part: 03
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 03: Investigación de mercados e inteligencia competitiva
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

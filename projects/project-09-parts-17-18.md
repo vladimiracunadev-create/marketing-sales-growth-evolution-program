@@ -1,12 +1,3 @@
----
-title: "Proyecto 9 — Partes 17 y 18"
-type: project
-language: es
-parts: [17, 18]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 9 — Partes 17 y 18
 
 **Partes integradas:** Marketing automation y revenue operations y Customer experience, success y fidelización.

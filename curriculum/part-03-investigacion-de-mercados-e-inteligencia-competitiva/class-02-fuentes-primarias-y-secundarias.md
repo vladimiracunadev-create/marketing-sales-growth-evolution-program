@@ -1,18 +1,3 @@
----
-title: "Fuentes primarias y secundarias"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 02
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra", "hubbard", "provost", "porter"]
-anchors: {"hubbard": "medicion-definicion", "malhotra": "error-total", "porter": "senales", "provost": "evaluacion"}
-updated: 2026-08-19
----
-
 # Clase 03.02 — Fuentes primarias y secundarias
 
 Clase 2 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

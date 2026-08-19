@@ -1,18 +1,3 @@
----
-title: "Audiencias"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 03
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "kaushik", "chaffey", "oneil"]
-anchors: {"chaffey": "medios-propios", "geddes": "coincidencia", "kaushik": "segmentacion", "oneil": "proxy"}
-updated: 2026-08-19
----
-
 # Clase 14.03 — Audiencias
 
 Clase 3 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

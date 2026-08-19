@@ -1,18 +1,3 @@
----
-title: "Advocacy y referidos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 12
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["reichheld", "cialdini", "mehta", "godin"]
-anchors: {"cialdini": "reciprocidad", "godin": "permiso", "mehta": "leyes", "reichheld": "cliente-ganado"}
-updated: 2026-08-19
----
-
 # Clase 18.12 — Advocacy y referidos
 
 Clase 12 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

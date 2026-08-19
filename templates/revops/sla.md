@@ -1,11 +1,3 @@
----
-title: "Acuerdo de servicio entre marketing y ventas"
-type: template
-language: es
-part: "17"
-updated: 2026-08-18
----
-
 # Acuerdo de servicio entre marketing y ventas
 
 **Vigencia:** · **Firmado por:** · **Próxima revisión:**

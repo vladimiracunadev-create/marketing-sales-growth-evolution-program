@@ -1,18 +1,3 @@
----
-title: "Experimentación de precios"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 13
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kohavi", "nagle", "provost", "simon"]
-anchors: {"kohavi": "guardarrailes", "nagle": "politica", "provost": "evaluacion", "simon": "psicologia-precio"}
-updated: 2026-08-19
----
-
 # Clase 07.13 — Experimentación de precios
 
 Clase 13 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

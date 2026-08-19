@@ -1,18 +1,3 @@
----
-title: "Community marketing"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 08
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["godin", "pulizzi", "reichheld", "handley"]
-anchors: {"godin": "publico-minimo", "handley": "empatia", "pulizzi": "audiencia-primero", "reichheld": "proposito"}
-updated: 2026-08-19
----
-
 # Clase 12.08 — Community marketing
 
 Clase 8 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

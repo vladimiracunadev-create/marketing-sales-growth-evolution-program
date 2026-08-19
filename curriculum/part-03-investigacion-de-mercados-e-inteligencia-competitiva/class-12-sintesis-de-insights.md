@@ -1,18 +1,3 @@
----
-title: "Síntesis de insights"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 12
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellet", "provost", "rumelt", "hubbard"]
-anchors: {"ellet": "evidencia-caso", "hubbard": "valor-informacion", "provost": "formulacion", "rumelt": "diagnostico"}
-updated: 2026-08-19
----
-
 # Clase 03.12 — Síntesis de insights
 
 Clase 12 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

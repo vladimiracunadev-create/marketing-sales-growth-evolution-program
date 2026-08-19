@@ -1,18 +1,3 @@
----
-title: "Naming"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 04
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["wheeler", "ries-trout", "keller-brand", "heath"]
-anchors: {"heath": "succes", "keller-brand": "cbbe", "ries-trout": "nombre", "wheeler": "aplicabilidad"}
-updated: 2026-08-19
----
-
 # Clase 06.04 — Naming
 
 Clase 4 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

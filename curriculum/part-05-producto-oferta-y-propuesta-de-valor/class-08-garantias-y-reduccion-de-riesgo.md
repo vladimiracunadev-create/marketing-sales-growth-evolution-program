@@ -1,18 +1,3 @@
----
-title: "Garantías y reducción de riesgo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 08
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "cialdini", "dixon-effort", "ramanujam"]
-anchors: {"cialdini": "reciprocidad", "dixon-effort": "resolucion-siguiente", "nagle": "sensibilidad", "ramanujam": "modelo-monetizacion"}
-updated: 2026-08-19
----
-
 # Clase 05.08 — Garantías y reducción de riesgo
 
 Clase 8 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

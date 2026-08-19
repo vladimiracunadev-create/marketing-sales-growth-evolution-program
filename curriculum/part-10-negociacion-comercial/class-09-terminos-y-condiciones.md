@@ -1,18 +1,3 @@
----
-title: "Términos y condiciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 09
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fisher-ury", "malhotra-neg", "nagle", "iso-31000"]
-anchors: {"fisher-ury": "criterios-objetivos", "iso-31000": "riesgo-residual", "malhotra-neg": "etica", "nagle": "politica"}
-updated: 2026-08-19
----
-
 # Clase 10.09 — Términos y condiciones
 
 Clase 9 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

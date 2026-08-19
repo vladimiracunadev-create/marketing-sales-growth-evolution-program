@@ -1,18 +1,3 @@
----
-title: "Integraciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 09
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "provost", "grove", "nist-airmf"]
-anchors: {"diorio": "modelo-datos", "grove": "indicadores-adelantados", "nist-airmf": "gobernar", "provost": "fuga-datos"}
-updated: 2026-08-19
----
-
 # Clase 17.09 — Integraciones
 
 Clase 9 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

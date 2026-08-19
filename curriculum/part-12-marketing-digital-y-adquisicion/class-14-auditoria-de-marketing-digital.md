@@ -1,18 +1,3 @@
----
-title: "Auditoría de marketing digital"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 14
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["chaffey", "kaushik", "laja", "enge-seo"]
-anchors: {"chaffey": "gobierno-digital", "enge-seo": "arquitectura", "kaushik": "10-90", "laja": "falsos-positivos"}
-updated: 2026-08-19
----
-
 # Clase 12.14 — Auditoría de marketing digital
 
 Clase 14 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

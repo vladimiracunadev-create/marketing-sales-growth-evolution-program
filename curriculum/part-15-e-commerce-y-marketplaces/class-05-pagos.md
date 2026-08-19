@@ -1,18 +1,3 @@
----
-title: "Pagos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 05
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["flint", "chaffey", "croll-yoskovitz", "krug"]
-anchors: {"chaffey": "gobierno-digital", "croll-yoskovitz": "modelos", "flint": "valor-canal", "krug": "no-pensar"}
-updated: 2026-08-19
----
-
 # Clase 15.05 — Pagos
 
 Clase 5 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

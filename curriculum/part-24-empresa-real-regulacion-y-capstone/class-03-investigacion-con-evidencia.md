@@ -1,18 +1,3 @@
----
-title: "Investigación con evidencia"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 03
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fitzpatrick", "malhotra", "portigal", "hubbard"]
-anchors: {"fitzpatrick": "compromiso", "hubbard": "valor-informacion", "malhotra": "diseno-investigacion", "portigal": "conducir"}
-updated: 2026-08-19
----
-
 # Clase 24.03 — Investigación con evidencia
 
 Clase 3 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

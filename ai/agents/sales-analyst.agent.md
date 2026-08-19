@@ -1,10 +1,3 @@
----
-title: "Agente — analista comercial"
-type: agent-spec
-language: es
-updated: 2026-08-18
----
-
 # Agente — analista comercial
 
 ## Propósito

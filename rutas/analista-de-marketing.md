@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Analista de marketing y de ingresos"
-type: career-path
-language: es
-role: analista-de-marketing
-family: Analítica
-updated: 2026-08-19
----
-
 # 📊 Analista de marketing y de ingresos
 
 > El perfil que convierte datos comerciales dispersos en decisiones defendibles. No es quien hace gráficos: es quien determina si una cifra significa lo que el equipo cree que significa, y quien detiene una inversión de millones cuando la evidencia no la sostiene.

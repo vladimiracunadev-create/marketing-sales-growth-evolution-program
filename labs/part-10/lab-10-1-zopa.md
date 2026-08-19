@@ -1,14 +1,3 @@
----
-title: "Lab 10.1 — ZOPA"
-type: lab
-language: es
-part: 10
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 10.1 — ZOPA
 
 **Parte 10 · Negociación comercial** · Duración estimada: 4 horas · Aprobación: 80/100

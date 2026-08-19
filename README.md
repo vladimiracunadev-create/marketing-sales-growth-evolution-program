@@ -11,7 +11,7 @@
 [![Security](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/actions/workflows/codeql.yml)
 
-[![Version](https://img.shields.io/badge/versión-1.4.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/versión-1.5.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](curriculum/README.md)
 [![Contenido](https://img.shields.io/badge/contenido-1,29M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
 [![Rutas](https://img.shields.io/badge/rutas%20por%20rol-17-0b5c8a?style=for-the-badge)](rutas/README.md)
@@ -81,7 +81,7 @@ es un documento de 4.800 a 5.600 palabras, **redactado clase a clase** —no gen
 | 🧭 Rutas por rol | 17 guías de carrera con día a día, artefactos, progresión y rangos |
 | 🖥️ Portal | 632 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
 | 🇨🇱 Regulación | Consumo, comercio electrónico, datos personales, marcas, tributación y libre competencia |
-| 🔧 Calidad | 83 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
+| 🔧 Calidad | 84 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
 
 ## 🗺️ El recorrido en 8 niveles
 
@@ -296,7 +296,7 @@ python tools/validate_depth.py        # profundidad mínima por clase, lab, eval
 python tools/check_links.py           # enlaces internos
 python tools/validate_site.py         # artefacto del portal completo
 python scripts/verify_sources.py      # registro de fuentes: ISBN, DOI, cobertura y cifras del README
-python -m pytest -q                   # 83 pruebas
+python -m pytest -q                   # 84 pruebas
 ```
 
 ## 👩‍🏫 Para instructores

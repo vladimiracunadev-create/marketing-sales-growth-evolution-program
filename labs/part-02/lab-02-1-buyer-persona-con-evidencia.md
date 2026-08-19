@@ -1,14 +1,3 @@
----
-title: "Lab 02.1 — Buyer persona con evidencia"
-type: lab
-language: es
-part: 02
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 02.1 — Buyer persona con evidencia
 
 **Parte 02 · Cliente y comportamiento del consumidor** · Duración estimada: 4 horas · Aprobación: 80/100

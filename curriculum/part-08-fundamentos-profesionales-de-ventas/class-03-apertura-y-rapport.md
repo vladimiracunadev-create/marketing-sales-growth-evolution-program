@@ -1,18 +1,3 @@
----
-title: "Apertura y rapport"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 03
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "voss", "keenan", "cialdini"]
-anchors: {"cialdini": "reciprocidad", "keenan": "estado-actual", "rackham": "avance", "voss": "espejo"}
-updated: 2026-08-19
----
-
 # Clase 08.03 — Apertura y rapport
 
 Clase 3 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

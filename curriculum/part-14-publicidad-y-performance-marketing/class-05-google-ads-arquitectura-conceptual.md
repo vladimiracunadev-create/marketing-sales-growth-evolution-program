@@ -1,18 +1,3 @@
----
-title: "Google Ads: arquitectura conceptual"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 05
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "kaushik", "chaffey", "enge-seo"]
-anchors: {"chaffey": "modelo-canal", "enge-seo": "intencion", "geddes": "estructura-cuenta", "kaushik": "segmentacion"}
-updated: 2026-08-19
----
-
 # Clase 14.05 — Google Ads: arquitectura conceptual
 
 Clase 5 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,11 +1,3 @@
----
-title: "Parte 04 — Segmentación, targeting y posicionamiento"
-type: part-index
-language: es
-part: 04
-updated: 2026-08-19
----
-
 # Parte 04 — Segmentación, targeting y posicionamiento
 
 Esta parte trabaja el nivel **Fundamentos** del programa y su propósito es que llegues a poder **elegir a quién servir y ocupar un lugar defendible en la mente del cliente**. Llegas desde la parte 03, *Investigación de mercados e inteligencia competitiva*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 05, *Producto, oferta y propuesta de valor*.

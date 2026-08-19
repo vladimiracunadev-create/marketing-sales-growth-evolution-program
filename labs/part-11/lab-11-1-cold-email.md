@@ -1,14 +1,3 @@
----
-title: "Lab 11.1 — Correo en frío"
-type: lab
-language: es
-part: 11
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 11.1 — Correo en frío
 
 **Parte 11 · Prospección y generación de demanda** · Duración estimada: 4 horas · Aprobación: 80/100

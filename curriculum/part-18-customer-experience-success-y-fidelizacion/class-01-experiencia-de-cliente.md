@@ -1,18 +1,3 @@
----
-title: "Experiencia de cliente"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 01
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-effort", "reichheld", "krug", "mehta"]
-anchors: {"dixon-effort": "esfuerzo", "krug": "no-pensar", "mehta": "resultado-cliente", "reichheld": "proposito"}
-updated: 2026-08-19
----
-
 # Clase 18.01 — Experiencia de cliente
 
 Clase 1 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

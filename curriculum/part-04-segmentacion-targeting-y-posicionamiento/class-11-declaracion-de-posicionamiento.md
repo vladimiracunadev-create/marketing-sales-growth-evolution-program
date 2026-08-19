@@ -1,18 +1,3 @@
----
-title: "Declaración de posicionamiento"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 11
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-trout", "keller-brand", "kotler", "aaker"]
-anchors: {"aaker": "identidad", "keller-brand": "cbbe", "kotler": "stp", "ries-trout": "mente"}
-updated: 2026-08-19
----
-
 # Clase 04.11 — Declaración de posicionamiento
 
 Clase 11 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

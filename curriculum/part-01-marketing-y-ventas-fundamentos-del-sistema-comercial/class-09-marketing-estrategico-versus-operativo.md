@@ -1,18 +1,3 @@
----
-title: "Marketing estratégico versus operativo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 09
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rumelt", "porter-hbr", "kotler", "doerr"]
-anchors: {"doerr": "foco", "kotler": "mezcla", "porter-hbr": "eficacia-vs-estrategia", "rumelt": "nucleo"}
-updated: 2026-08-19
----
-
 # Clase 01.09 — Marketing estratégico versus operativo
 
 Clase 9 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

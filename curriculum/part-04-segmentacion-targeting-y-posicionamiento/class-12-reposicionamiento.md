@@ -1,18 +1,3 @@
----
-title: "Reposicionamiento"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 12
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-trout", "aaker", "keller-brand", "rumelt"]
-anchors: {"aaker": "arquitectura", "keller-brand": "resonancia", "ries-trout": "reposicionar", "rumelt": "diagnostico"}
-updated: 2026-08-19
----
-
 # Clase 04.12 — Reposicionamiento
 
 Clase 12 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

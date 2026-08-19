@@ -1,18 +1,3 @@
----
-title: "Negociación de precio"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 07
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "malhotra-neg", "fisher-ury", "simon"]
-anchors: {"fisher-ury": "criterios-objetivos", "malhotra-neg": "zopa", "nagle": "cascada", "simon": "guerra-precios"}
-updated: 2026-08-19
----
-
 # Clase 10.07 — Negociación de precio
 
 Clase 7 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

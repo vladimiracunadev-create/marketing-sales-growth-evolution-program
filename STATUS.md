@@ -1,16 +1,8 @@
----
-title: "Estado del repositorio"
-type: status
-language: es
-generated: true
-updated: 2026-08-19
----
-
 > Documento generado por `tools/build_status.py`. Los números provienen de contar archivos reales.
 
 # Estado del repositorio
 
-**Versión:** 1.4.0 · **Actualizado:** 2026-08-19
+**Versión:** 1.5.0 · **Actualizado:** 2026-08-19
 
 ## Inventario frente a metas
 
@@ -27,7 +19,7 @@ updated: 2026-08-19
 | Conjuntos de datos | 5 | 5 | OK |
 | Obras en bibliografía | 96 | 90 | OK |
 
-**Palabras de contenido curricular:** 1.812.565
+**Palabras de contenido curricular:** 1.799.438
 
 **Páginas HTML generadas:** 631 · **Módulos de prueba:** 7 · **Plantillas:** 14
 

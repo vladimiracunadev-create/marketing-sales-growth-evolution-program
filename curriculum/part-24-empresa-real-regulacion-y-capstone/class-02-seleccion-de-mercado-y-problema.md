@@ -1,18 +1,3 @@
----
-title: "Selección de mercado y problema"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 02
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["blank", "christensen", "moore", "fitzpatrick"]
-anchors: {"blank": "customer-discovery", "christensen": "job", "fitzpatrick": "mom-test", "moore": "beachhead"}
-updated: 2026-08-19
----
-
 # Clase 24.02 — Selección de mercado y problema
 
 Clase 2 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

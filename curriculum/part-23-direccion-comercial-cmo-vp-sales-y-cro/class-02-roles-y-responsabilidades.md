@@ -1,18 +1,3 @@
----
-title: "Roles y responsabilidades"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 02
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "lencioni", "zoltners", "roberge"]
-anchors: {"grove": "delegacion", "lencioni": "accountability", "roberge": "formacion", "zoltners": "incentivos"}
-updated: 2026-08-19
----
-
 # Clase 23.02 — Roles y responsabilidades
 
 Clase 2 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

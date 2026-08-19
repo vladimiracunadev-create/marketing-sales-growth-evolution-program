@@ -1,11 +1,3 @@
----
-title: "Secuencia de prospección multicanal"
-type: template
-language: es
-part: "11"
-updated: 2026-08-18
----
-
 # Secuencia de prospección multicanal
 
 **Segmento:** · **Señal que activa la secuencia:** · **Responsable:** · **Vigencia:**

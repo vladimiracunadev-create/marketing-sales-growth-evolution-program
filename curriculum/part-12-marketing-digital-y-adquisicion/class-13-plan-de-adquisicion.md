@@ -1,18 +1,3 @@
----
-title: "Plan de adquisición"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 13
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["chaffey", "weinberg-traction", "croll-yoskovitz", "binet-field"]
-anchors: {"binet-field": "share-of-voice", "chaffey": "planificacion", "croll-yoskovitz": "linea-trazada", "weinberg-traction": "50-50"}
-updated: 2026-08-19
----
-
 # Clase 12.13 — Plan de adquisición
 
 Clase 13 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Periodo de recuperación"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 05
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "fader-ltv", "provost", "simon"]
-anchors: {"croll-yoskovitz": "linea-trazada", "fader-ltv": "inversion-diferencial", "provost": "valor-esperado", "simon": "palanca-precio"}
-updated: 2026-08-19
----
-
 # Clase 20.05 — Periodo de recuperación
 
 Clase 5 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

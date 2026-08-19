@@ -1,18 +1,3 @@
----
-title: "Actividades comerciales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 06
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "roberge", "blount", "zoltners"]
-anchors: {"blount": "disciplina", "grove": "indicadores-adelantados", "roberge": "metricas-coaching", "zoltners": "incentivos"}
-updated: 2026-08-19
----
-
 # Clase 16.06 — Actividades comerciales
 
 Clase 6 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

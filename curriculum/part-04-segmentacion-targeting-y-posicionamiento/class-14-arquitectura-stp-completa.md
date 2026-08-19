@@ -1,18 +1,3 @@
----
-title: "Arquitectura STP completa"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 14
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "rumelt", "ries-trout", "moore"]
-anchors: {"kotler": "stp", "moore": "referencias", "ries-trout": "nombre", "rumelt": "nucleo"}
-updated: 2026-08-19
----
-
 # Clase 04.14 — Arquitectura STP completa
 
 Clase 14 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

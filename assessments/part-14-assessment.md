@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 14: Publicidad y performance marketing"
-type: assessment
-language: es
-part: 14
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 14: Publicidad y performance marketing
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

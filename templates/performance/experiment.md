@@ -1,11 +1,3 @@
----
-title: "Ficha de experimento"
-type: template
-language: es
-part: "19, 20"
-updated: 2026-08-18
----
-
 # Ficha de experimento
 
 **Nombre:** · **Responsable:** · **Fecha de inicio:** · **Fecha de término prevista:**

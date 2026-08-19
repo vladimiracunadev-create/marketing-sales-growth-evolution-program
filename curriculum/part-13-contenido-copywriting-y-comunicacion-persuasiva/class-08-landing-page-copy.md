@@ -1,18 +1,3 @@
----
-title: "Copy de landing page"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 08
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["laja", "eisenberg", "handley", "krug"]
-anchors: {"eisenberg": "friccion-formulario", "handley": "empatia", "krug": "escaneo", "laja": "jerarquia-mensaje"}
-updated: 2026-08-19
----
-
 # Clase 13.08 — Copy de landing page
 
 Clase 8 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

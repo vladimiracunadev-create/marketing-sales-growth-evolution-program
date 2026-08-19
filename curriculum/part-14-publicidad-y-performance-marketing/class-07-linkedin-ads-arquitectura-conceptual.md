@@ -1,18 +1,3 @@
----
-title: "LinkedIn Ads: arquitectura conceptual"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 07
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "chaffey", "dixon-customer", "kaushik"]
-anchors: {"chaffey": "modelo-canal", "dixon-customer": "consenso", "geddes": "coincidencia", "kaushik": "vanidad"}
-updated: 2026-08-19
----
-
 # Clase 14.07 — LinkedIn Ads: arquitectura conceptual
 
 Clase 7 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

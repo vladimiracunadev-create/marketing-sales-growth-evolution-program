@@ -1,18 +1,3 @@
----
-title: "Captura de leads entrantes"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 11
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "ross", "chaffey", "diorio"]
-anchors: {"chaffey": "planificacion", "diorio": "friccion", "roberge": "demanda", "ross": "especializacion"}
-updated: 2026-08-19
----
-
 # Clase 11.11 — Captura de leads entrantes
 
 Clase 11 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

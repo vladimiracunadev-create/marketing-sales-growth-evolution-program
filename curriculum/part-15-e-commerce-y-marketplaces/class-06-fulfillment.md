@@ -1,18 +1,3 @@
----
-title: "Fulfillment"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 06
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-effort", "flint", "chaffey", "grove"]
-anchors: {"chaffey": "omnicanal", "dixon-effort": "resolucion-siguiente", "flint": "recompra", "grove": "indicadores-adelantados"}
-updated: 2026-08-19
----
-
 # Clase 15.06 — Fulfillment
 
 Clase 6 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

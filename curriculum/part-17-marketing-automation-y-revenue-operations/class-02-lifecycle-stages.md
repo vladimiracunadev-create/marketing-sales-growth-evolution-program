@@ -1,18 +1,3 @@
----
-title: "Etapas de ciclo de vida"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 02
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "roberge", "croll-yoskovitz", "provost"]
-anchors: {"croll-yoskovitz": "etapas", "diorio": "definiciones", "provost": "formulacion", "roberge": "demanda"}
-updated: 2026-08-19
----
-
 # Clase 17.02 — Etapas de ciclo de vida
 
 Clase 2 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

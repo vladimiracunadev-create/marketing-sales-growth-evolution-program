@@ -1,18 +1,3 @@
----
-title: "Privacidad y propiedad intelectual"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 13
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nist-airmf", "oneil", "iso-31000", "russell-norvig"]
-anchors: {"iso-31000": "riesgo-residual", "nist-airmf": "gobernar", "oneil": "auditoria", "russell-norvig": "entorno"}
-updated: 2026-08-19
----
-
 # Clase 21.13 — Privacidad y propiedad intelectual
 
 Clase 13 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Forecast ejecutivo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 08
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "roberge", "wheeler-dv", "kaplan-norton"]
-anchors: {"grove": "output-gerencial", "kaplan-norton": "traduccion", "roberge": "metricas-coaching", "wheeler-dv": "graficos-control"}
-updated: 2026-08-19
----
-
 # Clase 23.08 — Forecast ejecutivo
 
 Clase 8 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

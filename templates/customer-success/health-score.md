@@ -1,11 +1,3 @@
----
-title: "Puntaje de salud de cuenta"
-type: template
-language: es
-part: "18"
-updated: 2026-08-18
----
-
 # Puntaje de salud de cuenta
 
 ## 1. Construcción

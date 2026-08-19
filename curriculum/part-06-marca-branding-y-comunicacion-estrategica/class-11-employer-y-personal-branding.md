@@ -1,18 +1,3 @@
----
-title: "Employer branding y marca personal"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 11
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["godin", "handley", "collins", "lencioni"]
-anchors: {"collins": "personas-primero", "godin": "publico-minimo", "handley": "utilidad", "lencioni": "confianza"}
-updated: 2026-08-19
----
-
 # Clase 06.11 — Employer branding y marca personal
 
 Clase 11 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

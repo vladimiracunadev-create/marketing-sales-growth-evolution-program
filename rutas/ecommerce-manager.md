@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — E-commerce manager"
-type: career-path
-language: es
-role: ecommerce-manager
-family: Adquisición
-updated: 2026-08-19
----
-
 # 🛒 E-commerce manager
 
 > Responsable de una operación de venta digital completa: catálogo, conversión, pagos, cumplimiento logístico, postventa y —sobre todo— de que cada pedido deje margen después de comisión, despacho y devolución.

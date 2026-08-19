@@ -1,18 +1,3 @@
----
-title: "Elasticidad y sensibilidad al precio"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 06
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "kohavi", "simon", "smith-pricing"]
-anchors: {"kohavi": "efecto-minimo", "nagle": "sensibilidad", "simon": "psicologia-precio", "smith-pricing": "price-fences"}
-updated: 2026-08-19
----
-
 # Clase 07.06 — Elasticidad y sensibilidad al precio
 
 Clase 6 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

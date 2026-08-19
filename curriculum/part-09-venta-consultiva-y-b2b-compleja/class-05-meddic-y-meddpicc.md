@@ -1,18 +1,3 @@
----
-title: "MEDDIC y MEDDPICC"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 05
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "roberge", "dixon-customer", "rackham"]
-anchors: {"dixon-customer": "consenso", "miller-heiman": "roles-compra", "rackham": "avance", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 09.05 — MEDDIC y MEDDPICC
 
 Clase 5 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

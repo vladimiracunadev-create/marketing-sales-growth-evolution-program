@@ -1,18 +1,3 @@
----
-title: "Investigación cualitativa"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 06
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["portigal", "fitzpatrick", "malhotra", "christensen"]
-anchors: {"christensen": "circunstancia", "fitzpatrick": "elogios", "malhotra": "diseno-investigacion", "portigal": "sintesis"}
-updated: 2026-08-19
----
-
 # Clase 03.06 — Investigación cualitativa
 
 Clase 6 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,11 +1,3 @@
----
-title: "Parte 15 — E-commerce y marketplaces"
-type: part-index
-language: es
-part: 15
-updated: 2026-08-19
----
-
 # Parte 15 — E-commerce y marketplaces
 
 Esta parte trabaja el nivel **Adquisición** del programa y su propósito es que llegues a poder **operar una tienda y un canal de marketplace con economía verificable**. Llegas desde la parte 14, *Publicidad y performance marketing*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 16, *CRM, pipeline y sales operations*.

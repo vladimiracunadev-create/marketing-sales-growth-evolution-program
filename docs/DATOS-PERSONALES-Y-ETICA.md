@@ -1,11 +1,3 @@
----
-title: "Datos personales y ética comercial"
-type: ethics
-language: es
-review_date: 2026-08-18
-updated: 2026-08-18
----
-
 # Datos personales y ética comercial
 
 Material educativo, no asesoría legal. Verifica la norma vigente en su fuente oficial antes de aplicar

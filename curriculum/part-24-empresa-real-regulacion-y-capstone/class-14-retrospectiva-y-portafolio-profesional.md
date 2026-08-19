@@ -1,18 +1,3 @@
----
-title: "Retrospectiva y portafolio profesional"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 14
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellet", "ericsson", "ambrose", "wiggins"]
-anchors: {"ambrose": "motivacion", "ellet": "evidencia-caso", "ericsson": "representaciones", "wiggins": "diseno-inverso"}
-updated: 2026-08-19
----
-
 # Clase 24.14 — Retrospectiva y portafolio profesional
 
 Clase 14 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

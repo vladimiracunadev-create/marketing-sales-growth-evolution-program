@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 02: Cliente y comportamiento del consumidor"
-type: assessment
-language: es
-part: 02
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 02: Cliente y comportamiento del consumidor
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

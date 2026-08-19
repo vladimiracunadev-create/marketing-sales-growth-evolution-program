@@ -1,14 +1,3 @@
----
-title: "Lab 23.1 — Onboarding de equipos comerciales"
-type: lab
-language: es
-part: 23
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 23.1 — Onboarding de equipos comerciales
 
 **Parte 23 · Dirección comercial: CMO, VP Sales y CRO** · Duración estimada: 4 horas · Aprobación: 80/100

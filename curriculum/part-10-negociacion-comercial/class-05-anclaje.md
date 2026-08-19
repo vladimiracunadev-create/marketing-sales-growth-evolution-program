@@ -1,18 +1,3 @@
----
-title: "Anclaje"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 05
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra-neg", "kahneman", "voss", "ariely"]
-anchors: {"ariely": "precio-ancla", "kahneman": "anclaje", "malhotra-neg": "preparacion", "voss": "preguntas-calibradas"}
-updated: 2026-08-19
----
-
 # Clase 10.05 — Anclaje
 
 Clase 5 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

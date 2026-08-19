@@ -1,10 +1,3 @@
----
-title: "Notebooks de analítica comercial"
-type: notebooks
-language: es
-updated: 2026-08-18
----
-
 # Notebooks
 
 Ocho notebooks que reproducen los cálculos centrales del programa sobre los datos sintéticos. Están pensados

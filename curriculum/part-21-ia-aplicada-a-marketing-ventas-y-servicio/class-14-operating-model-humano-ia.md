@@ -1,18 +1,3 @@
----
-title: "Operating model humano-IA"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 14
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nist-airmf", "iso-31000", "russell-norvig", "diorio"]
-anchors: {"diorio": "sistema-ingresos", "iso-31000": "principios", "nist-airmf": "funciones", "russell-norvig": "medida-desempeno"}
-updated: 2026-08-19
----
-
 # Clase 21.14 — Operating model humano-IA
 
 Clase 14 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

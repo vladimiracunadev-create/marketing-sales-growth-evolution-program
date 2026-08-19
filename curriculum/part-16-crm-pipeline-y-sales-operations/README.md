@@ -1,11 +1,3 @@
----
-title: "Parte 16 — CRM, pipeline y sales operations"
-type: part-index
-language: es
-part: 16
-updated: 2026-08-19
----
-
 # Parte 16 — CRM, pipeline y sales operations
 
 Esta parte trabaja el nivel **Operación de ingresos** del programa y su propósito es que llegues a poder **convertir el CRM en un sistema de trabajo y de verdad operacional**. Llegas desde la parte 15, *E-commerce y marketplaces*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 17, *Marketing automation y revenue operations*.

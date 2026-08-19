@@ -1,18 +1,3 @@
----
-title: "Embudo de ingresos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 10
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "croll-yoskovitz", "mehta", "kaplan-norton"]
-anchors: {"croll-yoskovitz": "etapas", "diorio": "sistema-ingresos", "kaplan-norton": "mapa-estrategico", "mehta": "expansion"}
-updated: 2026-08-19
----
-
 # Clase 17.10 — Embudo de ingresos
 
 Clase 10 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

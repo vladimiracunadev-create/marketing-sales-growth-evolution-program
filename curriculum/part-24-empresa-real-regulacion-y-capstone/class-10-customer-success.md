@@ -1,18 +1,3 @@
----
-title: "Customer Success del Capstone"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 10
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["mehta", "hulick", "fader-ltv", "dixon-effort"]
-anchors: {"dixon-effort": "esfuerzo", "fader-ltv": "ltv-modelo", "hulick": "primer-exito", "mehta": "resultado-cliente"}
-updated: 2026-08-19
----
-
 # Clase 24.10 — Customer Success del Capstone
 
 Clase 10 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Ideal Customer Profile"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 05
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "ross", "fader", "roberge"]
-anchors: {"fader": "heterogeneidad", "moore": "beachhead", "roberge": "proceso-comprador", "ross": "tipos-lead"}
-updated: 2026-08-19
----
-
 # Clase 02.05 — Ideal Customer Profile
 
 Clase 5 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

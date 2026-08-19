@@ -1,18 +1,3 @@
----
-title: "Gobierno del CRM"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 13
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "grove", "nist-airmf", "roberge"]
-anchors: {"diorio": "definiciones", "grove": "delegacion", "nist-airmf": "gobernar", "roberge": "formacion"}
-updated: 2026-08-19
----
-
 # Clase 16.13 — Gobierno del CRM
 
 Clase 13 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

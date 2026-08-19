@@ -1,10 +1,3 @@
----
-title: "Checklist del Capstone"
-type: checklist
-language: es
-updated: 2026-08-19
----
-
 # Checklist del Capstone
 
 Marca cada elemento sólo cuando exista evidencia verificable en el repositorio de entrega.

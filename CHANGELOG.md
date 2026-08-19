@@ -4,6 +4,26 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [1.5.0] — 2026-08-19
+
+Retirado el front matter YAML de todo el material. GitHub lo pinta como una tabla de metadatos justo encima
+del título —`title`, `type`, `language`, `part`, `updated`—, es decir en el lugar donde el lector busca el
+contenido y donde no le dice nada. Era la misma ficha que se había quitado del cuerpo de las clases,
+sobreviviendo en la cabecera del archivo.
+
+- Sin front matter: las **336 clases**, los **24 índices de parte**, el índice del currículo, los 48
+  laboratorios, las 24 evaluaciones, los 24 casos, los 12 proyectos, las 17 rutas de rol, los 15 documentos
+  de `docs/`, las 13 plantillas y el resto de READMEs. Ahora cada documento empieza por su título.
+- **Excepción deliberada:** `.github/ISSUE_TEMPLATE/` conserva el suyo. Ahí el front matter no es
+  decoración: es lo que GitHub lee para construir el formulario de la incidencia.
+- Lo que ese bloque declaraba —idioma, estándar, umbral de aprobación, minutos estimados, obras citadas y
+  anclajes de cada clase— no se pierde: vive en
+  [`curriculum/curriculum.json`](curriculum/curriculum.json), que es donde una máquina lo lee sin ensuciar lo
+  que lee una persona. El validador y las pruebas lo comprueban ahí.
+- El portal se sigue construyendo igual: el título de cada página cae al primer encabezado del documento.
+- Dos pruebas nuevas —una exige que ninguna clase abra con front matter, otra que el índice conserve los
+  metadatos de las 336—; el repositorio pasa de 83 a **84 pruebas**.
+
 ## [1.4.0] — 2026-08-19
 
 Una bibliografía puede estar completa, enlazada y verificada y seguir afirmando algo que no se comprobó. El

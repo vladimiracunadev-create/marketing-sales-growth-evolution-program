@@ -1,18 +1,3 @@
----
-title: "A/B testing"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 10
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kohavi", "provost", "laja", "wheeler-dv"]
-anchors: {"kohavi": "efecto-minimo", "laja": "potencia", "provost": "sobreajuste", "wheeler-dv": "variacion-comun"}
-updated: 2026-08-19
----
-
 # Clase 20.10 — A/B testing
 
 Clase 10 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

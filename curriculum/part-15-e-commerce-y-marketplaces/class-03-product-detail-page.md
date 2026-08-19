@@ -1,18 +1,3 @@
----
-title: "Página de producto"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 03
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["krug", "eisenberg", "laja", "dixon-effort"]
-anchors: {"dixon-effort": "esfuerzo", "eisenberg": "hipotesis-cro", "krug": "no-pensar", "laja": "jerarquia-mensaje"}
-updated: 2026-08-19
----
-
 # Clase 15.03 — Página de producto
 
 Clase 3 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

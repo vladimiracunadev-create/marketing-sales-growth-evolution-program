@@ -1,18 +1,3 @@
----
-title: "Packaging y bundling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 07
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ramanujam", "nagle", "smith-pricing", "ariely"]
-anchors: {"ariely": "relatividad", "nagle": "segmentacion-precio", "ramanujam": "empaquetado", "smith-pricing": "versionado"}
-updated: 2026-08-19
----
-
 # Clase 05.07 — Packaging y bundling
 
 Clase 7 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

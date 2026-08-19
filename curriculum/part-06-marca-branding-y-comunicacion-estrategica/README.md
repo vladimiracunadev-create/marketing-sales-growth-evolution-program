@@ -1,11 +1,3 @@
----
-title: "Parte 06 — Marca, branding y comunicación estratégica"
-type: part-index
-language: es
-part: 06
-updated: 2026-08-19
----
-
 # Parte 06 — Marca, branding y comunicación estratégica
 
 Esta parte trabaja el nivel **Oferta comercial** del programa y su propósito es que llegues a poder **construir activos de marca que reduzcan el costo de adquisición futuro**. Llegas desde la parte 05, *Producto, oferta y propuesta de valor*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 07, *Pricing y monetización*.

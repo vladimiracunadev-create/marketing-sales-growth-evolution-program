@@ -1,18 +1,3 @@
----
-title: "Simulación de tienda rentable"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 14
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "flint", "provost", "hubbard"]
-anchors: {"croll-yoskovitz": "linea-trazada", "flint": "valor-canal", "hubbard": "calibracion", "provost": "valor-esperado"}
-updated: 2026-08-19
----
-
 # Clase 15.14 — Simulación de tienda rentable
 
 Clase 14 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

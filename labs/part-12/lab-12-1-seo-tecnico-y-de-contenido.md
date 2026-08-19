@@ -1,14 +1,3 @@
----
-title: "Lab 12.1 — SEO técnico y de contenido"
-type: lab
-language: es
-part: 12
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 12.1 — SEO técnico y de contenido
 
 **Parte 12 · Marketing digital y adquisición** · Duración estimada: 4 horas · Aprobación: 80/100

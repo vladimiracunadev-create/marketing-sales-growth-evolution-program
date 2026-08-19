@@ -1,11 +1,3 @@
----
-title: "Plan de negociación"
-type: template
-language: es
-part: "10"
-updated: 2026-08-18
----
-
 # Plan de negociación
 
 **Contraparte:** · **Objeto:** · **Fecha:** · **Preparado por:**

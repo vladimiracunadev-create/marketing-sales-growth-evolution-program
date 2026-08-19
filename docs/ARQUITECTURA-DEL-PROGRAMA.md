@@ -1,10 +1,3 @@
----
-title: "Arquitectura del programa"
-type: architecture
-language: es
-updated: 2026-08-18
----
-
 # Arquitectura del programa
 
 Cómo está construido el repositorio, por qué el contenido se genera y cómo se mantiene coherente a lo largo

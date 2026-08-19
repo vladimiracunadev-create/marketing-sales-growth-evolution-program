@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Content manager / Copywriter comercial"
-type: career-path
-language: es
-role: content-manager
-family: Adquisición
-updated: 2026-08-19
----
-
 # ✍️ Content manager / Copywriter comercial
 
 > Quien produce los mensajes que informan, mueven a la acción y resisten el escrutinio. El oficio no es escribir bonito: es que un desconocido entienda, crea y actúe, sin afirmar nada que la empresa no pueda sostener.

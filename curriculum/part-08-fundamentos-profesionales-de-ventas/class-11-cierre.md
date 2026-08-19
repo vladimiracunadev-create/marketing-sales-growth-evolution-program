@@ -1,18 +1,3 @@
----
-title: "Cierre"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 11
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "fisher-ury", "keenan", "cialdini"]
-anchors: {"cialdini": "escasez", "fisher-ury": "opciones", "keenan": "brecha", "rackham": "cierre-grande"}
-updated: 2026-08-19
----
-
 # Clase 08.11 — Cierre
 
 Clase 11 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

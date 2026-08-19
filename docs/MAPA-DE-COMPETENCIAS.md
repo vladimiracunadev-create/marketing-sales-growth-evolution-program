@@ -1,11 +1,3 @@
----
-title: "Mapa de competencias y roles"
-type: competency-map
-language: es
-generated: true
-updated: 2026-08-19
----
-
 > Documento generado por `tools/build_docs.py`. No editar a mano: los cambios se pierden en la siguiente generación. La fuente de verdad está en `curriculum/spec/`.
 
 # Mapa de competencias y roles

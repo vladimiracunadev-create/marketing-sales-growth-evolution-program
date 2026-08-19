@@ -1,18 +1,3 @@
----
-title: "Defensa ejecutiva"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 13
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellet", "heath", "rumelt", "grove"]
-anchors: {"ellet": "argumento", "grove": "reuniones", "heath": "maldicion-conocimiento", "rumelt": "mala-estrategia"}
-updated: 2026-08-19
----
-
 # Clase 24.13 — Defensa ejecutiva
 
 Clase 13 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

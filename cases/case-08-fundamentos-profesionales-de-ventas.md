@@ -1,11 +1,3 @@
----
-title: "Caso 08 — Fundamentos profesionales de ventas"
-type: case
-language: es
-part: 08
-updated: 2026-08-19
----
-
 # Caso 08 — Fundamentos profesionales de ventas
 
 ## Contexto

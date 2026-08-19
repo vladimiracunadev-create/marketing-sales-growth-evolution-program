@@ -1,18 +1,3 @@
----
-title: "Acuerdo de servicio entre marketing y ventas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 07
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "roberge", "grove", "lencioni"]
-anchors: {"diorio": "definiciones", "grove": "output-gerencial", "lencioni": "accountability", "roberge": "demanda"}
-updated: 2026-08-19
----
-
 # Clase 17.07 — Acuerdo de servicio entre marketing y ventas
 
 Clase 7 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

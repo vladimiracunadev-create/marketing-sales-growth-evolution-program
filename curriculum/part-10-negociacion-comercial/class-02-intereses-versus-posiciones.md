@@ -1,18 +1,3 @@
----
-title: "Intereses versus posiciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 02
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fisher-ury", "malhotra-neg", "ury", "shell"]
-anchors: {"fisher-ury": "intereses", "malhotra-neg": "crear-reclamar", "shell": "legitimidad", "ury": "reencuadre"}
-updated: 2026-08-19
----
-
 # Clase 10.02 — Intereses versus posiciones
 
 Clase 2 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

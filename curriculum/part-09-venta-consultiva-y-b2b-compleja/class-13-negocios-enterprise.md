@@ -1,18 +1,3 @@
----
-title: "Negocios enterprise"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 13
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "dixon-customer", "mehta", "zoltners"]
-anchors: {"dixon-customer": "consenso", "mehta": "segmentacion-cs", "miller-heiman": "plan-cuenta", "zoltners": "territorios"}
-updated: 2026-08-19
----
-
 # Clase 09.13 — Negocios enterprise
 
 Clase 13 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

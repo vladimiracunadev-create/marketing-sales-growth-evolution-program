@@ -1,18 +1,3 @@
----
-title: "Oferta lista para vender"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 14
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ramanujam", "roberge", "weinberg-sales", "osterwalder-vpd"]
-anchors: {"osterwalder-vpd": "encaje", "ramanujam": "modelo-monetizacion", "roberge": "formacion", "weinberg-sales": "relato-comercial"}
-updated: 2026-08-19
----
-
 # Clase 05.14 — Oferta lista para vender
 
 Clase 14 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

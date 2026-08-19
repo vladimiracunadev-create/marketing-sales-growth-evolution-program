@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Brand manager"
-type: career-path
-language: es
-role: brand-manager
-family: Marketing
-updated: 2026-08-19
----
-
 # 🎨 Brand manager
 
 > Responsable de que el mercado recuerde a la empresa cuando aparece la necesidad. Trabaja sobre un activo que se construye en años y se mide con incomodidad, en organizaciones que piden resultados trimestrales.

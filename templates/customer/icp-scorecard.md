@@ -1,11 +1,3 @@
----
-title: "Ficha de perfil de cliente ideal"
-type: template
-language: es
-part: "02, 04"
-updated: 2026-08-18
----
-
 # Ficha de perfil de cliente ideal
 
 ## 1. Construcción

@@ -1,18 +1,3 @@
----
-title: "Forecast unificado"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 11
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["mehta", "diorio", "croll-yoskovitz", "provost"]
-anchors: {"croll-yoskovitz": "cohortes", "diorio": "definiciones", "mehta": "expansion", "provost": "evaluacion"}
-updated: 2026-08-19
----
-
 # Clase 17.11 — Forecast unificado
 
 Clase 11 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

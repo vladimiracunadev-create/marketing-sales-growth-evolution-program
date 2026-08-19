@@ -1,18 +1,3 @@
----
-title: "Modelos de atribución"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 08
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "kohavi", "provost", "binet-field"]
-anchors: {"binet-field": "corto-largo", "kaushik": "plan-medicion", "kohavi": "confianza", "provost": "asociacion-causalidad"}
-updated: 2026-08-19
----
-
 # Clase 20.08 — Modelos de atribución
 
 Clase 8 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

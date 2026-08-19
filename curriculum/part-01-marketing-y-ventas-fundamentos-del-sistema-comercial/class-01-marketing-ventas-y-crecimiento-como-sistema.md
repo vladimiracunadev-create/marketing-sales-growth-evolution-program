@@ -1,18 +1,3 @@
----
-title: "Marketing, ventas y crecimiento como sistema"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 01
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["drucker", "kotler", "diorio", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "una-metrica", "diorio": "sistema-ingresos", "drucker": "crear-cliente", "kotler": "mezcla"}
-updated: 2026-08-19
----
-
 # Clase 01.01 — Marketing, ventas y crecimiento como sistema
 
 Clase 1 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

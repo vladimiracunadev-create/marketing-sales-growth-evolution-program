@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Marketing manager"
-type: career-path
-language: es
-role: marketing-manager
-family: Marketing
-updated: 2026-08-19
----
-
 # 🎯 Marketing manager
 
 > El perfil que decide dónde compite la empresa y con qué diferencia, y después responde por que esa elección produzca demanda. Es el puesto más generalista del área y, por eso mismo, el que más fácilmente se convierte en gestor de proveedores si no sostiene criterio propio.

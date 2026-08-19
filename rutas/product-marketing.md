@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Product marketing manager"
-type: career-path
-language: es
-role: product-marketing
-family: Marketing
-updated: 2026-08-19
----
-
 # 🧩 Product marketing manager
 
 > El puente entre lo que el producto hace y lo que el mercado entiende. Responde por el posicionamiento, por el relato comercial y por que el equipo de ventas tenga argumentos que resistan preguntas técnicas.

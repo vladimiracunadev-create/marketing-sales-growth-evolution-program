@@ -1,18 +1,3 @@
----
-title: "Mapeo de cuentas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 09
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "dixon-customer", "porter", "shell"]
-anchors: {"dixon-customer": "disrupcion-interna", "miller-heiman": "plan-cuenta", "porter": "competidor", "shell": "legitimidad"}
-updated: 2026-08-19
----
-
 # Clase 09.09 — Mapeo de cuentas
 
 Clase 9 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

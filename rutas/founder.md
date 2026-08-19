@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Founder / dueño de negocio"
-type: career-path
-language: es
-role: founder
-family: Dirección
-updated: 2026-08-19
----
-
 # 🚩 Founder / dueño de negocio
 
 > Quien tiene que vender antes de poder contratar a alguien que venda. No necesita dominar todas las áreas: necesita saber cuál es su cuello de botella real y no gastar dinero en el resto.

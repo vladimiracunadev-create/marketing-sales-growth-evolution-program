@@ -1,18 +1,3 @@
----
-title: "Value Proposition Canvas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 02
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["osterwalder-vpd", "christensen", "fitzpatrick", "cagan"]
-anchors: {"cagan": "riesgos", "christensen": "job", "fitzpatrick": "mom-test", "osterwalder-vpd": "perfil"}
-updated: 2026-08-19
----
-
 # Clase 05.02 — Value Proposition Canvas
 
 Clase 2 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

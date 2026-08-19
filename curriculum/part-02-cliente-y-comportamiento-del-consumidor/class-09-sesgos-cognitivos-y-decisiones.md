@@ -1,18 +1,3 @@
----
-title: "Sesgos cognitivos y decisiones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 09
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kahneman", "thaler", "ariely", "cialdini"]
-anchors: {"ariely": "relatividad", "cialdini": "compromiso", "kahneman": "dos-sistemas", "thaler": "opcion-defecto"}
-updated: 2026-08-19
----
-
 # Clase 02.09 — Sesgos cognitivos y decisiones
 
 Clase 9 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

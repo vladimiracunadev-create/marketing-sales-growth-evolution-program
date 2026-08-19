@@ -1,18 +1,3 @@
----
-title: "Networking"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 07
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["cialdini", "godin", "blount", "collins"]
-anchors: {"blount": "bloques", "cialdini": "reciprocidad", "collins": "personas-primero", "godin": "cambio"}
-updated: 2026-08-19
----
-
 # Clase 11.07 — Networking
 
 Clase 7 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Atractivo y accesibilidad de segmentos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 05
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "moore", "porter", "rumelt"]
-anchors: {"kotler": "stp", "moore": "producto-completo", "porter": "cinco-fuerzas", "rumelt": "foco"}
-updated: 2026-08-19
----
-
 # Clase 04.05 — Atractivo y accesibilidad de segmentos
 
 Clase 5 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

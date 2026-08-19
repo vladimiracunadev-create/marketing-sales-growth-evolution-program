@@ -1,11 +1,3 @@
----
-title: "Capstone — Empresa comercial completa"
-type: capstone
-language: es
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Capstone — Empresa comercial completa
 
 El Capstone integra las 24 partes del programa en una operación comercial defendible ante un panel que revisará números, evidencia y cumplimiento normativo.

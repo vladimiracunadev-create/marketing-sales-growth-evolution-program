@@ -1,18 +1,3 @@
----
-title: "Economía del e-commerce"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 13
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fader", "croll-yoskovitz", "flint", "fader-ltv"]
-anchors: {"croll-yoskovitz": "modelos", "fader": "centricidad", "fader-ltv": "cohortes-valor", "flint": "recompra"}
-updated: 2026-08-19
----
-
 # Clase 15.13 — Economía del e-commerce
 
 Clase 13 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

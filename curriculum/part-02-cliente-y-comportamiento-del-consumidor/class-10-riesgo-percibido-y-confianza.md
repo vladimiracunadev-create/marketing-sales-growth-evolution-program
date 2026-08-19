@@ -1,18 +1,3 @@
----
-title: "Riesgo percibido y confianza"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 10
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["cialdini", "rackham", "dixon-effort", "godin"]
-anchors: {"cialdini": "autoridad", "dixon-effort": "esfuerzo", "godin": "permiso", "rackham": "objeciones-prevencion"}
-updated: 2026-08-19
----
-
 # Clase 02.10 — Riesgo percibido y confianza
 
 Clase 10 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

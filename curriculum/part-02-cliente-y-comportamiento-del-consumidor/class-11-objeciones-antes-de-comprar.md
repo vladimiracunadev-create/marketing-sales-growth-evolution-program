@@ -1,18 +1,3 @@
----
-title: "Objeciones antes de comprar"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 11
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "blount", "cialdini"]
-anchors: {"blount": "rechazo", "cialdini": "compromiso", "keenan": "impacto", "rackham": "objeciones-prevencion"}
-updated: 2026-08-19
----
-
 # Clase 02.11 — Objeciones antes de comprar
 
 Clase 11 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "B2C, B2B, B2G y modelos híbridos"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 04
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "miller-heiman", "rackham", "moore"]
-anchors: {"kotler": "valor-cliente", "miller-heiman": "roles-compra", "moore": "producto-completo", "rackham": "avance"}
-updated: 2026-08-19
----
-
 # Clase 01.04 — B2C, B2B, B2G y modelos híbridos
 
 Clase 4 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

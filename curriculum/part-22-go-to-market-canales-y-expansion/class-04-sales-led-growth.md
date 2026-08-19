@@ -1,18 +1,3 @@
----
-title: "Crecimiento liderado por ventas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 04
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ross", "roberge", "zoltners", "moore"]
-anchors: {"moore": "abismo", "roberge": "contratacion-datos", "ross": "pipeline-predecible", "zoltners": "cuotas"}
-updated: 2026-08-19
----
-
 # Clase 22.04 — Crecimiento liderado por ventas
 
 Clase 4 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

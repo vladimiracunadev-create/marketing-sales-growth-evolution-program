@@ -1,18 +1,3 @@
----
-title: "Copilotos de ventas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 21
-class: 08
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nist-airmf", "roberge", "ng-mlyearning", "rackham"]
-anchors: {"ng-mlyearning": "conjunto-evaluacion", "nist-airmf": "caracteristicas", "rackham": "avance", "roberge": "formacion"}
-updated: 2026-08-19
----
-
 # Clase 21.08 — Copilotos de ventas
 
 Clase 8 de 14 de la parte [21 — IA aplicada a marketing, ventas y servicio](README.md), de nivel IA y expansión. Dura unos 150 minutos.

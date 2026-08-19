@@ -1,18 +1,3 @@
----
-title: "Negociación intercultural"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 12
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["shell", "fisher-ury", "malhotra-neg", "solomon"]
-anchors: {"fisher-ury": "personas-problema", "malhotra-neg": "informacion", "shell": "cultura", "solomon": "cultura"}
-updated: 2026-08-19
----
-
 # Clase 10.12 — Negociación intercultural
 
 Clase 12 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

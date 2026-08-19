@@ -1,11 +1,3 @@
----
-title: "Calificación MEDDPICC"
-type: template
-language: es
-part: "09"
-updated: 2026-08-18
----
-
 # Calificación MEDDPICC
 
 **Cuenta:** · **Valor estimado:** · **Etapa:** · **Fecha de revisión:**

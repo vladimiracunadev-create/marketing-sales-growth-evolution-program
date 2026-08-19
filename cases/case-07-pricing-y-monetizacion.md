@@ -1,11 +1,3 @@
----
-title: "Caso 07 — Pricing y monetización"
-type: case
-language: es
-part: 07
-updated: 2026-08-19
----
-
 # Caso 07 — Pricing y monetización
 
 ## Contexto

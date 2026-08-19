@@ -1,18 +1,3 @@
----
-title: "Manejo de objeciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 09
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "voss", "keenan", "cialdini"]
-anchors: {"cialdini": "compromiso", "keenan": "impacto", "rackham": "objeciones-prevencion", "voss": "etiquetado"}
-updated: 2026-08-19
----
-
 # Clase 08.09 — Manejo de objeciones
 
 Clase 9 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

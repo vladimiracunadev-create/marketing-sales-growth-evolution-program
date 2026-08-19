@@ -1,18 +1,3 @@
----
-title: "Freemium y pruebas gratuitas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 10
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["bush-plg", "croll-yoskovitz", "ramanujam", "ellis-brown"]
-anchors: {"bush-plg": "modelo-gratuito", "croll-yoskovitz": "una-metrica", "ellis-brown": "aha", "ramanujam": "modelo-monetizacion"}
-updated: 2026-08-19
----
-
 # Clase 07.10 — Freemium y pruebas gratuitas
 
 Clase 10 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

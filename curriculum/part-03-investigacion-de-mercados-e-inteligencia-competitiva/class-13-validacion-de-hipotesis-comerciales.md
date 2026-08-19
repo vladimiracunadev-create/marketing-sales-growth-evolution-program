@@ -1,18 +1,3 @@
----
-title: "Validación de hipótesis comerciales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 13
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ries-lean", "kohavi", "blank", "hubbard"]
-anchors: {"blank": "hipotesis", "hubbard": "medicion-definicion", "kohavi": "confianza", "ries-lean": "aprendizaje-validado"}
-updated: 2026-08-19
----
-
 # Clase 03.13 — Validación de hipótesis comerciales
 
 Clase 13 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

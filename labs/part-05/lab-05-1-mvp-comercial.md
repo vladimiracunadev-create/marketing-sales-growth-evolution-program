@@ -1,14 +1,3 @@
----
-title: "Lab 05.1 — MVP comercial"
-type: lab
-language: es
-part: 05
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 05.1 — MVP comercial
 
 **Parte 05 · Producto, oferta y propuesta de valor** · Duración estimada: 4 horas · Aprobación: 80/100

@@ -1,11 +1,3 @@
----
-title: "Caso 22 — Go-to-market, canales y expansión"
-type: case
-language: es
-part: 22
-updated: 2026-08-19
----
-
 # Caso 22 — Go-to-market, canales y expansión
 
 ## Contexto

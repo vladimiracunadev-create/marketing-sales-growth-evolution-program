@@ -1,11 +1,3 @@
----
-title: "Parte 05 — Producto, oferta y propuesta de valor"
-type: part-index
-language: es
-part: 05
-updated: 2026-08-19
----
-
 # Parte 05 — Producto, oferta y propuesta de valor
 
 Esta parte trabaja el nivel **Oferta comercial** del programa y su propósito es que llegues a poder **convertir una capacidad técnica en una oferta que alguien quiera comprar hoy**. Llegas desde la parte 04, *Segmentación, targeting y posicionamiento*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 06, *Marca, branding y comunicación estratégica*.

@@ -1,14 +1,3 @@
----
-title: "Lab 13.1 — PAS: problema, agitación, solución"
-type: lab
-language: es
-part: 13
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 13.1 — PAS: problema, agitación, solución
 
 **Parte 13 · Contenido, copywriting y comunicación persuasiva** · Duración estimada: 4 horas · Aprobación: 80/100

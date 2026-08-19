@@ -1,11 +1,3 @@
----
-title: "Parte 17 — Marketing automation y revenue operations"
-type: part-index
-language: es
-part: 17
-updated: 2026-08-19
----
-
 # Parte 17 — Marketing automation y revenue operations
 
 Esta parte trabaja el nivel **Operación de ingresos** del programa y su propósito es que llegues a poder **integrar marketing, ventas y servicio en un solo modelo de datos y de proceso**. Llegas desde la parte 16, *CRM, pipeline y sales operations*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 18, *Customer experience, success y fidelización*.

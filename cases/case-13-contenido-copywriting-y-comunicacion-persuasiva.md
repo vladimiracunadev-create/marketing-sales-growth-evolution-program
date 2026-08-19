@@ -1,11 +1,3 @@
----
-title: "Caso 13 — Contenido, copywriting y comunicación persuasiva"
-type: case
-language: es
-part: 13
-updated: 2026-08-19
----
-
 # Caso 13 — Contenido, copywriting y comunicación persuasiva
 
 ## Contexto

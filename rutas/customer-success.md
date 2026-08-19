@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Customer Success Manager"
-type: career-path
-language: es
-role: customer-success
-family: Retención
-updated: 2026-08-19
----
-
 # 🔁 Customer Success Manager
 
 > Responsable de que el cliente obtenga el resultado por el que pagó, y de que ese resultado quede acreditado. No es soporte con otro nombre: soporte es reactivo y resuelve incidencias; éxito de cliente es proactivo y responde por la renovación.

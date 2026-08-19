@@ -1,18 +1,3 @@
----
-title: "Motivaciones y fricciones"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 08
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["krug", "laja", "eisenberg", "thaler"]
-anchors: {"eisenberg": "friccion-formulario", "krug": "no-pensar", "laja": "jerarquia-mensaje", "thaler": "arquitectura-decision"}
-updated: 2026-08-19
----
-
 # Clase 02.08 — Motivaciones y fricciones
 
 Clase 8 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

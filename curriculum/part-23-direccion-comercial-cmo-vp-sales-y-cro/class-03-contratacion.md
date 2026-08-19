@@ -1,18 +1,3 @@
----
-title: "Contratación comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 03
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "collins", "zoltners", "lencioni"]
-anchors: {"collins": "personas-primero", "lencioni": "confianza", "roberge": "contratacion-datos", "zoltners": "cuotas"}
-updated: 2026-08-19
----
-
 # Clase 23.03 — Contratación comercial
 
 Clase 3 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

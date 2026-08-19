@@ -1,18 +1,3 @@
----
-title: "Ticket promedio y paquetes"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 09
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ramanujam", "flint", "fader", "nagle"]
-anchors: {"fader": "rfm", "flint": "recompra", "nagle": "segmentacion-precio", "ramanujam": "empaquetado"}
-updated: 2026-08-19
----
-
 # Clase 15.09 — Ticket promedio y paquetes
 
 Clase 9 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,14 +1,3 @@
----
-title: "Lab 06.1 — Naming"
-type: lab
-language: es
-part: 06
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 06.1 — Naming
 
 **Parte 06 · Marca, branding y comunicación estratégica** · Duración estimada: 4 horas · Aprobación: 80/100

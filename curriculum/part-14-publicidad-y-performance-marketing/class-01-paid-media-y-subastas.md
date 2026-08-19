@@ -1,18 +1,3 @@
----
-title: "Medios pagados y subastas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 01
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["geddes", "kaushik", "chaffey", "ogilvy"]
-anchors: {"chaffey": "modelo-canal", "geddes": "subasta", "kaushik": "so-what", "ogilvy": "investigacion"}
-updated: 2026-08-19
----
-
 # Clase 14.01 — Medios pagados y subastas
 
 Clase 1 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

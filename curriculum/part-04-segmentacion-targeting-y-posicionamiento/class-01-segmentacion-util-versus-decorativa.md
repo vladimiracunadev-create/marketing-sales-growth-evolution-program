@@ -1,18 +1,3 @@
----
-title: "Segmentación útil versus decorativa"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 01
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "sharp", "fader", "rumelt"]
-anchors: {"fader": "heterogeneidad", "kotler": "stp", "rumelt": "mala-estrategia", "sharp": "compradores-ligeros"}
-updated: 2026-08-19
----
-
 # Clase 04.01 — Segmentación útil versus decorativa
 
 Clase 1 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

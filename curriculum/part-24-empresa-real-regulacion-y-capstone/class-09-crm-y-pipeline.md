@@ -1,18 +1,3 @@
----
-title: "CRM y pipeline del Capstone"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 09
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "diorio", "grove", "provost"]
-anchors: {"diorio": "modelo-datos", "grove": "indicadores-adelantados", "provost": "formulacion", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 24.09 — CRM y pipeline del Capstone
 
 Clase 9 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

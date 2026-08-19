@@ -1,18 +1,3 @@
----
-title: "Playbook comercial básico"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 14
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "weinberg-sales", "rackham", "bertuzzi"]
-anchors: {"bertuzzi": "modelo-sdr", "rackham": "spin", "roberge": "formacion", "weinberg-sales": "proceso-nueva-venta"}
-updated: 2026-08-19
----
-
 # Clase 08.14 — Playbook comercial básico
 
 Clase 14 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

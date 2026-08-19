@@ -1,11 +1,3 @@
----
-title: "Parte 20 — Analítica comercial y marketing science"
-type: part-index
-language: es
-part: 20
-updated: 2026-08-19
----
-
 # Parte 20 — Analítica comercial y marketing science
 
 Esta parte trabaja el nivel **Crecimiento y analítica** del programa y su propósito es que llegues a poder **sostener decisiones de ingreso con métricas correctamente construidas**. Llegas desde la parte 19, *Growth marketing y growth engineering*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 21, *IA aplicada a marketing, ventas y servicio*.

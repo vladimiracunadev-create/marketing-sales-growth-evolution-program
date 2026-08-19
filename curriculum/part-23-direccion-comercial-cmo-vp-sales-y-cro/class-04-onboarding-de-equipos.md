@@ -1,18 +1,3 @@
----
-title: "Onboarding de equipos comerciales"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 04
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "ericsson", "grove", "ambrose"]
-anchors: {"ambrose": "practica-feedback", "ericsson": "practica-deliberada", "grove": "delegacion", "roberge": "formacion"}
-updated: 2026-08-19
----
-
 # Clase 23.04 — Onboarding de equipos comerciales
 
 Clase 4 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

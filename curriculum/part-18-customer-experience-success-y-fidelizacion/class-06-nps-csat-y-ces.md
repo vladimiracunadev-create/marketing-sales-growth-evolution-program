@@ -1,18 +1,3 @@
----
-title: "NPS, CSAT y CES"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 06
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["reichheld", "dixon-effort", "mehta", "malhotra"]
-anchors: {"dixon-effort": "esfuerzo", "malhotra": "escalas", "mehta": "salud", "reichheld": "nps-uso"}
-updated: 2026-08-19
----
-
 # Clase 18.06 — NPS, CSAT y CES
 
 Clase 6 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

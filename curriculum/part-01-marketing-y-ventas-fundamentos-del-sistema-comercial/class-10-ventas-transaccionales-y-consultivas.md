@@ -1,18 +1,3 @@
----
-title: "Ventas transaccionales y consultivas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 10
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "roberge", "keenan", "moore"]
-anchors: {"keenan": "diagnostico", "moore": "producto-completo", "rackham": "cierre-grande", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 01.10 — Ventas transaccionales y consultivas
 
 Clase 10 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

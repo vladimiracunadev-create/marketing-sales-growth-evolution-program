@@ -1,18 +1,3 @@
----
-title: "Propósito, promesa y personalidad"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 03
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["sinek", "godin", "aaker", "collins"]
-anchors: {"aaker": "identidad", "collins": "erizo", "godin": "cambio", "sinek": "porque"}
-updated: 2026-08-19
----
-
 # Clase 06.03 — Propósito, promesa y personalidad
 
 Clase 3 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Fraude, brand safety y privacidad"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 13
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["oneil", "kaushik", "nist-airmf", "chaffey"]
-anchors: {"chaffey": "gobierno-digital", "kaushik": "so-what", "nist-airmf": "contexto", "oneil": "auditoria"}
-updated: 2026-08-19
----
-
 # Clase 14.13 — Fraude, brand safety y privacidad
 
 Clase 13 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,11 +1,3 @@
----
-title: "Parte 22 — Go-to-market, canales y expansión"
-type: part-index
-language: es
-part: 22
-updated: 2026-08-19
----
-
 # Parte 22 — Go-to-market, canales y expansión
 
 Esta parte trabaja el nivel **IA y expansión** del programa y su propósito es que llegues a poder **diseñar el modo en que la oferta llega al mercado y decide crecer**. Llegas desde la parte 21, *IA aplicada a marketing, ventas y servicio*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 23, *Dirección comercial: CMO, VP Sales y CRO*.

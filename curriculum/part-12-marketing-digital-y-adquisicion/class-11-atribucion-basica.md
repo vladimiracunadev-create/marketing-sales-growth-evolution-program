@@ -1,18 +1,3 @@
----
-title: "Atribución básica"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 11
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "kohavi", "provost", "binet-field"]
-anchors: {"binet-field": "corto-largo", "kaushik": "multiplicidad", "kohavi": "metricas-sustitutas", "provost": "asociacion-causalidad"}
-updated: 2026-08-19
----
-
 # Clase 12.11 — Atribución básica
 
 Clase 11 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

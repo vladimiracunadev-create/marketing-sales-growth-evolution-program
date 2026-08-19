@@ -1,18 +1,3 @@
----
-title: "Gestión de desempeño"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 23
-class: 11
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["grove", "zoltners", "lencioni", "collins"]
-anchors: {"collins": "personas-primero", "grove": "output-gerencial", "lencioni": "accountability", "zoltners": "territorios"}
-updated: 2026-08-19
----
-
 # Clase 23.11 — Gestión de desempeño
 
 Clase 11 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

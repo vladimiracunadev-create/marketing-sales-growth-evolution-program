@@ -1,14 +1,3 @@
----
-title: "Lab 03.2 — Análisis de competencia"
-type: lab
-language: es
-part: 03
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 03.2 — Análisis de competencia
 
 **Parte 03 · Investigación de mercados e inteligencia competitiva** · Duración estimada: 4 horas · Aprobación: 80/100

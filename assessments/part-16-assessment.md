@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 16: CRM, pipeline y sales operations"
-type: assessment
-language: es
-part: 16
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 16: CRM, pipeline y sales operations
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

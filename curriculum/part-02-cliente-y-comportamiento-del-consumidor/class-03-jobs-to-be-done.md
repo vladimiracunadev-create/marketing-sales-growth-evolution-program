@@ -1,18 +1,3 @@
----
-title: "Jobs to Be Done"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 03
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["christensen", "ulwick", "fitzpatrick", "cagan"]
-anchors: {"cagan": "riesgos", "christensen": "dimensiones", "fitzpatrick": "compromiso", "ulwick": "mapa-job"}
-updated: 2026-08-19
----
-
 # Clase 02.03 — Jobs to Be Done
 
 Clase 3 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

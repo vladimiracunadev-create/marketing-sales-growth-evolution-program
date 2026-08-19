@@ -1,18 +1,3 @@
----
-title: "Ciclo de vida del producto"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 09
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "moore", "porter", "cagan"]
-anchors: {"cagan": "roadmap", "kotler": "ciclo-vida", "moore": "ciclo-adopcion", "porter": "grupos-estrategicos"}
-updated: 2026-08-19
----
-
 # Clase 05.09 — Ciclo de vida del producto
 
 Clase 9 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

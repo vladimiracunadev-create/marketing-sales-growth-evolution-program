@@ -1,14 +1,3 @@
----
-title: "Lab 04.2 — Mapas perceptuales"
-type: lab
-language: es
-part: 04
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 04.2 — Mapas perceptuales
 
 **Parte 04 · Segmentación, targeting y posicionamiento** · Duración estimada: 4 horas · Aprobación: 80/100

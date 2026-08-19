@@ -1,18 +1,3 @@
----
-title: "Lead magnets"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 10
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["godin", "handley", "pulizzi", "chaffey"]
-anchors: {"chaffey": "medios-propios", "godin": "permiso", "handley": "utilidad", "pulizzi": "nicho-contenido"}
-updated: 2026-08-19
----
-
 # Clase 11.10 — Lead magnets
 
 Clase 10 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

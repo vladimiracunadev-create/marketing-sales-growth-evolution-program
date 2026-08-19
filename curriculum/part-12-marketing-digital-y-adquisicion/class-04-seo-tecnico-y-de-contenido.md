@@ -1,18 +1,3 @@
----
-title: "SEO técnico y de contenido"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 04
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["enge-seo", "chaffey", "pulizzi", "kaushik"]
-anchors: {"chaffey": "medios-propios", "enge-seo": "intencion", "kaushik": "segmentacion", "pulizzi": "nicho-contenido"}
-updated: 2026-08-19
----
-
 # Clase 12.04 — SEO técnico y de contenido
 
 Clase 4 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Cumplimiento normativo en Chile"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 24
-class: 12
-level: Dirección y Capstone
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["iso-31000", "oneil", "nist-airmf", "rumelt"]
-anchors: {"iso-31000": "proceso", "nist-airmf": "gobernar", "oneil": "auditoria", "rumelt": "diagnostico"}
-updated: 2026-08-19
----
-
 # Clase 24.12 — Cumplimiento normativo en Chile
 
 Clase 12 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.

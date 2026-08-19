@@ -1,18 +1,3 @@
----
-title: "Modelo de datos de RevOps"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 08
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["diorio", "provost", "roberge", "kaplan-norton"]
-anchors: {"diorio": "modelo-datos", "kaplan-norton": "traduccion", "provost": "formulacion", "roberge": "metricas-coaching"}
-updated: 2026-08-19
----
-
 # Clase 17.08 — Modelo de datos de RevOps
 
 Clase 8 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

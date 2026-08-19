@@ -1,18 +1,3 @@
----
-title: "Disposición a pagar"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 05
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ramanujam", "nagle", "hubbard", "malhotra"]
-anchors: {"hubbard": "calibracion", "malhotra": "cuestionario", "nagle": "sensibilidad", "ramanujam": "disposicion-pagar"}
-updated: 2026-08-19
----
-
 # Clase 07.05 — Disposición a pagar
 
 Clase 5 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

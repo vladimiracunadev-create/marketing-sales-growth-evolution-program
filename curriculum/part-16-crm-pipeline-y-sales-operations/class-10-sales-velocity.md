@@ -1,18 +1,3 @@
----
-title: "Velocidad comercial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 10
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "grove", "croll-yoskovitz", "miller-heiman"]
-anchors: {"croll-yoskovitz": "una-metrica", "grove": "apalancamiento", "miller-heiman": "plan-cuenta", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 16.10 — Velocidad comercial
 
 Clase 10 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

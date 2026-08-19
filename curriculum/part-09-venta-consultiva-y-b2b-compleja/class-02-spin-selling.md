@@ -1,18 +1,3 @@
----
-title: "SPIN Selling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 02
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["rackham", "keenan", "fitzpatrick", "dixon-challenger"]
-anchors: {"dixon-challenger": "adaptar", "fitzpatrick": "preguntas-malas", "keenan": "impacto", "rackham": "spin"}
-updated: 2026-08-19
----
-
 # Clase 09.02 — SPIN Selling
 
 Clase 2 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

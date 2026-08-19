@@ -1,18 +1,3 @@
----
-title: "Pricing por costo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 07
-class: 02
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["nagle", "simon", "smith-pricing", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "modelos", "nagle": "costo-piso", "simon": "valor-percibido", "smith-pricing": "estructura"}
-updated: 2026-08-19
----
-
 # Clase 07.02 — Pricing por costo
 
 Clase 2 de 14 de la parte [07 — Pricing y monetización](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

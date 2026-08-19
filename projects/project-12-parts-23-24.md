@@ -1,12 +1,3 @@
----
-title: "Proyecto 12 — Partes 23 y 24"
-type: project
-language: es
-parts: [23, 24]
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Proyecto 12 — Partes 23 y 24
 
 **Partes integradas:** Dirección comercial: CMO, VP Sales y CRO y Empresa real, regulación y Capstone.

@@ -1,18 +1,3 @@
----
-title: "Calificación de leads"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 11
-class: 12
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "diorio", "provost", "ross"]
-anchors: {"diorio": "definiciones", "provost": "evaluacion", "roberge": "demanda", "ross": "pipeline-predecible"}
-updated: 2026-08-19
----
-
 # Clase 11.12 — Calificación de leads
 
 Clase 12 de 14 de la parte [11 — Prospección y generación de demanda](README.md), de nivel Venta. Dura unos 150 minutos.

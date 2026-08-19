@@ -1,18 +1,3 @@
----
-title: "Champion y comprador económico"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 08
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "dixon-customer", "rackham", "shell"]
-anchors: {"dixon-customer": "habilitar", "miller-heiman": "resultado-ganar", "rackham": "avance", "shell": "autoridad"}
-updated: 2026-08-19
----
-
 # Clase 09.08 — Champion y comprador económico
 
 Clase 8 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

@@ -1,11 +1,3 @@
----
-title: "Parte 14 — Publicidad y performance marketing"
-type: part-index
-language: es
-part: 14
-updated: 2026-08-19
----
-
 # Parte 14 — Publicidad y performance marketing
 
 Esta parte trabaja el nivel **Adquisición** del programa y su propósito es que llegues a poder **invertir en medios pagados con control de costo, calidad y riesgo**. Llegas desde la parte 13, *Contenido, copywriting y comunicación persuasiva*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 15, *E-commerce y marketplaces*.

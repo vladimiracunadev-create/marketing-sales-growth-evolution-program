@@ -1,14 +1,3 @@
----
-title: "Lab 08.2 — Seguimiento"
-type: lab
-language: es
-part: 08
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 08.2 — Seguimiento
 
 **Parte 08 · Fundamentos profesionales de ventas** · Duración estimada: 4 horas · Aprobación: 80/100

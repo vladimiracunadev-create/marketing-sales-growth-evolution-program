@@ -1,18 +1,3 @@
----
-title: "Informe de oportunidad de mercado"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 14
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellet", "malhotra", "hubbard", "rumelt"]
-anchors: {"ellet": "argumento", "hubbard": "calibracion", "malhotra": "error-total", "rumelt": "nucleo"}
-updated: 2026-08-19
----
-
 # Clase 03.14 — Informe de oportunidad de mercado
 
 Clase 14 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Activación"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 05
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "hulick", "croll-yoskovitz", "kohavi"]
-anchors: {"croll-yoskovitz": "cohortes", "ellis-brown": "aha", "hulick": "primer-exito", "kohavi": "efecto-minimo"}
-updated: 2026-08-19
----
-
 # Clase 19.05 — Activación
 
 Clase 5 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

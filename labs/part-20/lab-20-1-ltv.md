@@ -1,14 +1,3 @@
----
-title: "Lab 20.1 — Valor de vida del cliente"
-type: lab
-language: es
-part: 20
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 20.1 — Valor de vida del cliente
 
 **Parte 20 · Analítica comercial y marketing science** · Duración estimada: 4 horas · Aprobación: 80/100

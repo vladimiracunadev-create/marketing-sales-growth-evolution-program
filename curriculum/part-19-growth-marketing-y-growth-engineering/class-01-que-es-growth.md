@@ -1,18 +1,3 @@
----
-title: "Qué es growth"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 01
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "ries-lean", "cagan", "croll-yoskovitz"]
-anchors: {"cagan": "descubrimiento", "croll-yoskovitz": "etapas", "ellis-brown": "equipo-multifuncional", "ries-lean": "construir-medir"}
-updated: 2026-08-19
----
-
 # Clase 19.01 — Qué es growth
 
 Clase 1 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

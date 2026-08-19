@@ -1,14 +1,3 @@
----
-title: "Lab 05.2 — Portafolio y arquitectura de oferta"
-type: lab
-language: es
-part: 05
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 05.2 — Portafolio y arquitectura de oferta
 
 **Parte 05 · Producto, oferta y propuesta de valor** · Duración estimada: 4 horas · Aprobación: 80/100

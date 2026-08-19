@@ -1,12 +1,3 @@
----
-title: "Ruta profesional — Performance marketer / Media buyer"
-type: career-path
-language: es
-role: performance-marketer
-family: Adquisición
-updated: 2026-08-19
----
-
 # 📈 Performance marketer / Media buyer
 
 > Quien invierte presupuesto en medios pagados y responde por lo que ese dinero produce. El rol vive de una tensión: la plataforma reporta un retorno y el negocio necesita saber cuánto de eso es incremental.

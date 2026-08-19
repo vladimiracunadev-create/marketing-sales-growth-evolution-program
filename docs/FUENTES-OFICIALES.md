@@ -1,11 +1,3 @@
----
-title: "Fuentes oficiales y política de verificación"
-type: sources
-language: es
-review_date: 2026-08-18
-updated: 2026-08-18
----
-
 # Fuentes oficiales
 
 **Fecha de revisión: 18 de agosto de 2026.** Toda la información normativa y de plataformas cambia con el

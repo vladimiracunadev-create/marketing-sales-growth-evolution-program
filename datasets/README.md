@@ -1,10 +1,3 @@
----
-title: "Conjuntos de datos sintéticos"
-type: datasets
-language: es
-updated: 2026-08-18
----
-
 # Conjuntos de datos
 
 Cinco conjuntos sintéticos que sostienen los cálculos del programa. **No contienen datos de personas ni de

@@ -1,18 +1,3 @@
----
-title: "Titulares"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 06
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ogilvy", "sugarman", "handley", "kohavi"]
-anchors: {"handley": "edicion", "kohavi": "twyman", "ogilvy": "titular", "sugarman": "coherencia-promesa"}
-updated: 2026-08-19
----
-
 # Clase 13.06 — Titulares
 
 Clase 6 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Social media"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 07
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["godin", "vaynerchuk", "chaffey", "handley"]
-anchors: {"chaffey": "modelo-canal", "godin": "cambio", "handley": "empatia", "vaynerchuk": "contexto-canal"}
-updated: 2026-08-19
----
-
 # Clase 12.07 — Social media
 
 Clase 7 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

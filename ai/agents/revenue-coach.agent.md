@@ -1,10 +1,3 @@
----
-title: "Agente — entrenador de ingresos"
-type: agent-spec
-language: es
-updated: 2026-08-18
----
-
 # Agente — entrenador de ingresos
 
 ## Propósito

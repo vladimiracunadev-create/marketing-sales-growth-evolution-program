@@ -1,14 +1,3 @@
----
-title: "Lab 07.2 — Freemium y pruebas gratuitas"
-type: lab
-language: es
-part: 07
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 07.2 — Freemium y pruebas gratuitas
 
 **Parte 07 · Pricing y monetización** · Duración estimada: 4 horas · Aprobación: 80/100

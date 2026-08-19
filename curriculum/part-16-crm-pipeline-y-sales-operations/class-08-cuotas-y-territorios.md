@@ -1,18 +1,3 @@
----
-title: "Cuotas y territorios"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 16
-class: 08
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["zoltners", "roberge", "grove", "collins"]
-anchors: {"collins": "personas-primero", "grove": "output-gerencial", "roberge": "contratacion-datos", "zoltners": "cuotas"}
-updated: 2026-08-19
----
-
 # Clase 16.08 — Cuotas y territorios
 
 Clase 8 de 14 de la parte [16 — CRM, pipeline y sales operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

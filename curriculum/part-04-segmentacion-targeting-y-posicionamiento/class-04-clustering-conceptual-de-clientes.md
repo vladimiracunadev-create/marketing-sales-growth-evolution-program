@@ -1,18 +1,3 @@
----
-title: "Clustering conceptual de clientes"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 04
-class: 04
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["provost", "fader", "croll-yoskovitz", "kaushik"]
-anchors: {"croll-yoskovitz": "cohortes", "fader": "rfm", "kaushik": "segmentacion", "provost": "sobreajuste"}
-updated: 2026-08-19
----
-
 # Clase 04.04 — Clustering conceptual de clientes
 
 Clase 4 de 14 de la parte [04 — Segmentación, targeting y posicionamiento](README.md), de nivel Fundamentos. Dura unos 150 minutos.

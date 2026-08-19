@@ -1,18 +1,3 @@
----
-title: "Enrutamiento de leads"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 17
-class: 04
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["roberge", "diorio", "ross", "grove"]
-anchors: {"diorio": "friccion", "grove": "delegacion", "roberge": "demanda", "ross": "especializacion"}
-updated: 2026-08-19
----
-
 # Clase 17.04 — Enrutamiento de leads
 
 Clase 4 de 14 de la parte [17 — Marketing automation y revenue operations](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

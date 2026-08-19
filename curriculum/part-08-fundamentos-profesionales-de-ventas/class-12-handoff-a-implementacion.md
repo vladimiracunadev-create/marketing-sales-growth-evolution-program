@@ -1,18 +1,3 @@
----
-title: "Handoff a implementación"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 08
-class: 12
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["mehta", "roberge", "hulick", "diorio"]
-anchors: {"diorio": "friccion", "hulick": "primer-exito", "mehta": "resultado-cliente", "roberge": "proceso-comprador"}
-updated: 2026-08-19
----
-
 # Clase 08.12 — Handoff a implementación
 
 Clase 12 de 14 de la parte [08 — Fundamentos profesionales de ventas](README.md), de nivel Venta. Dura unos 150 minutos.

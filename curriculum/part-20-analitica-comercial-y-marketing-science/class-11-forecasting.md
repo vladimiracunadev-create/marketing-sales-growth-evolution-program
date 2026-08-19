@@ -1,18 +1,3 @@
----
-title: "Proyección de resultados"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 11
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["wheeler-dv", "provost", "hubbard", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "cohortes", "hubbard": "calibracion", "provost": "evaluacion", "wheeler-dv": "graficos-control"}
-updated: 2026-08-19
----
-
 # Clase 20.11 — Proyección de resultados
 
 Clase 11 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

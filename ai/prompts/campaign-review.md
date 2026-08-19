@@ -1,10 +1,3 @@
----
-title: "Prompt — revisión de campaña"
-type: prompt
-language: es
-updated: 2026-08-18
----
-
 # Prompt — revisión de campaña
 
 Para auditar una campaña antes de lanzarla y después de ejecutarla.

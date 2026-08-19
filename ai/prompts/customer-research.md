@@ -1,10 +1,3 @@
----
-title: "Prompt — investigación de cliente"
-type: prompt
-language: es
-updated: 2026-08-18
----
-
 # Prompt — investigación de cliente
 
 Para preparar, conducir y sintetizar entrevistas sin contaminarlas con la propia hipótesis.

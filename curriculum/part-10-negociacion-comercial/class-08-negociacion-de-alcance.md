@@ -1,18 +1,3 @@
----
-title: "Negociación de alcance"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 08
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fisher-ury", "nagle", "malhotra-neg", "grove"]
-anchors: {"fisher-ury": "opciones", "grove": "delegacion", "malhotra-neg": "crear-reclamar", "nagle": "segmentacion-precio"}
-updated: 2026-08-19
----
-
 # Clase 10.08 — Negociación de alcance
 
 Clase 8 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

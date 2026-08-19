@@ -1,18 +1,3 @@
----
-title: "Contexto cultural y social"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 12
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["solomon", "sharp2", "cialdini", "godin"]
-anchors: {"cialdini": "prueba-social", "godin": "publico-minimo", "sharp2": "situaciones-compra", "solomon": "cultura"}
-updated: 2026-08-19
----
-
 # Clase 02.12 — Contexto cultural y social
 
 Clase 12 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

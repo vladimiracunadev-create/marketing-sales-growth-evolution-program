@@ -1,11 +1,3 @@
----
-title: "Parte 01 — Marketing y ventas: fundamentos del sistema comercial"
-type: part-index
-language: es
-part: 01
-updated: 2026-08-19
----
-
 # Parte 01 — Marketing y ventas: fundamentos del sistema comercial
 
 Esta parte trabaja el nivel **Fundamentos** del programa y su propósito es que llegues a poder **explicar el motor de ingresos como un sistema y no como una suma de tácticas**. Es la primera parte del programa: no supone nada previo salvo la disposición a escribir lo que se decide. Lo que produzcas aquí es material de entrada para la parte 02, *Cliente y comportamiento del consumidor*.

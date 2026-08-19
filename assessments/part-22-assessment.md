@@ -1,12 +1,3 @@
----
-title: "Evaluación — Parte 22: Go-to-market, canales y expansión"
-type: assessment
-language: es
-part: 22
-mastery_threshold: 80
-updated: 2026-08-19
----
-
 # Evaluación — Parte 22: Go-to-market, canales y expansión
 
 Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos laboratorios. Una respuesta genérica, que podría copiarse a otra parte sin cambios, se considera insuficiente.

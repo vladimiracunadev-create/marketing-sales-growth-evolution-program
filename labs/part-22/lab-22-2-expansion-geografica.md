@@ -1,14 +1,3 @@
----
-title: "Lab 22.2 — Expansión geográfica"
-type: lab
-language: es
-part: 22
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 22.2 — Expansión geográfica
 
 **Parte 22 · Go-to-market, canales y expansión** · Duración estimada: 4 horas · Aprobación: 80/100

@@ -1,14 +1,3 @@
----
-title: "Lab 11.2 — Lead magnets"
-type: lab
-language: es
-part: 11
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 11.2 — Lead magnets
 
 **Parte 11 · Prospección y generación de demanda** · Duración estimada: 4 horas · Aprobación: 80/100

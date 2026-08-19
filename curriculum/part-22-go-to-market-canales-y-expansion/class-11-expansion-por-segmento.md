@@ -1,18 +1,3 @@
----
-title: "Expansión por segmento"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 11
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "christensen", "rumelt", "cagan"]
-anchors: {"cagan": "descubrimiento", "christensen": "circunstancia", "moore": "ciclo-adopcion", "rumelt": "diagnostico"}
-updated: 2026-08-19
----
-
 # Clase 22.11 — Expansión por segmento
 
 Clase 11 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

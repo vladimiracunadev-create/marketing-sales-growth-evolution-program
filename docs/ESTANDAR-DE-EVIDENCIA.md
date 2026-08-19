@@ -1,10 +1,3 @@
----
-title: "Estándar de evidencia"
-type: evidence-standard
-language: es
-updated: 2026-08-18
----
-
 # Estándar de evidencia
 
 Qué cuenta como evidencia en este programa, cómo se organiza y cómo se audita. Este estándar aplica a

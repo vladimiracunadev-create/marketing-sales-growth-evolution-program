@@ -1,14 +1,3 @@
----
-title: "Lab 14.1 — Creatividades"
-type: lab
-language: es
-part: 14
-lab: 1
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 14.1 — Creatividades
 
 **Parte 14 · Publicidad y performance marketing** · Duración estimada: 4 horas · Aprobación: 80/100

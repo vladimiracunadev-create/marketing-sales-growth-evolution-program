@@ -1,18 +1,3 @@
----
-title: "Propuesta de valor inicial"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 01
-class: 07
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["osterwalder-vpd", "heath", "ries-trout", "fitzpatrick"]
-anchors: {"fitzpatrick": "mom-test", "heath": "concrecion", "osterwalder-vpd": "encaje", "ries-trout": "mente"}
-updated: 2026-08-19
----
-
 # Clase 01.07 — Propuesta de valor inicial
 
 Clase 7 de 14 de la parte [01 — Marketing y ventas: fundamentos del sistema comercial](README.md), de nivel Fundamentos. Dura unos 150 minutos.

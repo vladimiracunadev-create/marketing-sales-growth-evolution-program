@@ -1,14 +1,3 @@
----
-title: "Lab 19.2 — ICE, RICE y priorización"
-type: lab
-language: es
-part: 19
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 19.2 — ICE, RICE y priorización
 
 **Parte 19 · Growth marketing y growth engineering** · Duración estimada: 4 horas · Aprobación: 80/100

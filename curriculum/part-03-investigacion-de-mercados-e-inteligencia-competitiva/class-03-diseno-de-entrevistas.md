@@ -1,18 +1,3 @@
----
-title: "Diseño de entrevistas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 03
-class: 03
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fitzpatrick", "portigal", "blank", "malhotra"]
-anchors: {"blank": "fuera-del-edificio", "fitzpatrick": "preguntas-malas", "malhotra": "cuestionario", "portigal": "conducir"}
-updated: 2026-08-19
----
-
 # Clase 03.03 — Diseño de entrevistas
 
 Clase 3 de 14 de la parte [03 — Investigación de mercados e inteligencia competitiva](README.md), de nivel Fundamentos. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Optimización de campañas"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 12
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["wheeler-dv", "kohavi", "geddes", "kaushik"]
-anchors: {"geddes": "calidad", "kaushik": "segmentacion", "kohavi": "detencion-temprana", "wheeler-dv": "variacion-comun"}
-updated: 2026-08-19
----
-
 # Clase 14.12 — Optimización de campañas
 
 Clase 12 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

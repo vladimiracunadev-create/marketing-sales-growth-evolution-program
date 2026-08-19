@@ -1,18 +1,3 @@
----
-title: "Identidad verbal"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 06
-class: 05
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["handley", "heath", "wheeler", "sugarman"]
-anchors: {"handley": "estandar-editorial", "heath": "concrecion", "sugarman": "coherencia-promesa", "wheeler": "gobierno"}
-updated: 2026-08-19
----
-
 # Clase 06.05 — Identidad verbal
 
 Clase 5 de 14 de la parte [06 — Marca, branding y comunicación estratégica](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

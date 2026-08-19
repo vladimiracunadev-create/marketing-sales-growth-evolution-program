@@ -1,18 +1,3 @@
----
-title: "CPA, CAC y ROAS"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 14
-class: 10
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["croll-yoskovitz", "kaushik", "kohavi", "provost"]
-anchors: {"croll-yoskovitz": "modelos", "kaushik": "plan-medicion", "kohavi": "metricas-sustitutas", "provost": "valor-esperado"}
-updated: 2026-08-19
----
-
 # Clase 14.10 — CPA, CAC y ROAS
 
 Clase 10 de 14 de la parte [14 — Publicidad y performance marketing](README.md), de nivel Adquisición. Dura unos 150 minutos.

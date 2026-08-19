@@ -1,18 +1,3 @@
----
-title: "Plan go-to-market completo"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 22
-class: 14
-level: IA y expansión
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["moore", "rumelt", "ross", "weinberg-traction"]
-anchors: {"moore": "beachhead", "ross": "especializacion", "rumelt": "nucleo", "weinberg-traction": "bullseye"}
-updated: 2026-08-19
----
-
 # Clase 22.14 — Plan go-to-market completo
 
 Clase 14 de 14 de la parte [22 — Go-to-market, canales y expansión](README.md), de nivel IA y expansión. Dura unos 150 minutos.

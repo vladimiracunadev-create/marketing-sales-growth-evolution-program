@@ -1,18 +1,3 @@
----
-title: "Cliente, usuario, comprador y decisor"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 02
-class: 01
-level: Fundamentos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "dixon-customer", "kotler", "solomon"]
-anchors: {"dixon-customer": "mobilizer", "kotler": "valor-cliente", "miller-heiman": "roles-compra", "solomon": "proceso-decision"}
-updated: 2026-08-19
----
-
 # Clase 02.01 — Cliente, usuario, comprador y decisor
 
 Clase 1 de 14 de la parte [02 — Cliente y comportamiento del consumidor](README.md), de nivel Fundamentos. Dura unos 150 minutos.

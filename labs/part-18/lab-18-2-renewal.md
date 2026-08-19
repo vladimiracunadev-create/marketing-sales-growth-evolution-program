@@ -1,14 +1,3 @@
----
-title: "Lab 18.2 — Renovación"
-type: lab
-language: es
-part: 18
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 18.2 — Renovación
 
 **Parte 18 · Customer experience, success y fidelización** · Duración estimada: 4 horas · Aprobación: 80/100

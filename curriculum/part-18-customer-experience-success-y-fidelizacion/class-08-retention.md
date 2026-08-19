@@ -1,18 +1,3 @@
----
-title: "Retención"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 18
-class: 08
-level: Operación de ingresos
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fader", "mehta", "croll-yoskovitz", "ellis-brown"]
-anchors: {"croll-yoskovitz": "etapas", "ellis-brown": "must-have", "fader": "centricidad", "mehta": "salud"}
-updated: 2026-08-19
----
-
 # Clase 18.08 — Retención
 
 Clase 8 de 14 de la parte [18 — Customer experience, success y fidelización](README.md), de nivel Operación de ingresos. Dura unos 150 minutos.

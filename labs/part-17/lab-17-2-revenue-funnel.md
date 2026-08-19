@@ -1,14 +1,3 @@
----
-title: "Lab 17.2 — Embudo de ingresos"
-type: lab
-language: es
-part: 17
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 17.2 — Embudo de ingresos
 
 **Parte 17 · Marketing automation y revenue operations** · Duración estimada: 4 horas · Aprobación: 80/100

@@ -1,11 +1,3 @@
----
-title: "Parte 03 — Investigación de mercados e inteligencia competitiva"
-type: part-index
-language: es
-part: 03
-updated: 2026-08-19
----
-
 # Parte 03 — Investigación de mercados e inteligencia competitiva
 
 Esta parte trabaja el nivel **Fundamentos** del programa y su propósito es que llegues a poder **producir investigación que cambie una decisión y resista una auditoría metodológica**. Llegas desde la parte 02, *Cliente y comportamiento del consumidor*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 04, *Segmentación, targeting y posicionamiento*.

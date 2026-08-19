@@ -1,18 +1,3 @@
----
-title: "ZOPA"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 04
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra-neg", "fisher-ury", "shell", "nagle"]
-anchors: {"fisher-ury": "opciones", "malhotra-neg": "zopa", "nagle": "valor-diferencial", "shell": "legitimidad"}
-updated: 2026-08-19
----
-
 # Clase 10.04 — ZOPA
 
 Clase 4 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

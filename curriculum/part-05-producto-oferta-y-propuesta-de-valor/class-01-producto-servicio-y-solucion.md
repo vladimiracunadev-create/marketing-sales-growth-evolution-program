@@ -1,18 +1,3 @@
----
-title: "Producto, servicio y solución"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 05
-class: 01
-level: Oferta comercial
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kotler", "cagan", "osterwalder-vpd", "mehta"]
-anchors: {"cagan": "resultado-output", "kotler": "mezcla", "mehta": "resultado-cliente", "osterwalder-vpd": "mapa-valor"}
-updated: 2026-08-19
----
-
 # Clase 05.01 — Producto, servicio y solución
 
 Clase 1 de 14 de la parte [05 — Producto, oferta y propuesta de valor](README.md), de nivel Oferta comercial. Dura unos 150 minutos.

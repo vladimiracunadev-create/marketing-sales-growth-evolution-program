@@ -1,18 +1,3 @@
----
-title: "Negociar con compras y procurement"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 10
-class: 10
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["malhotra-neg", "fisher-ury", "shell", "nagle"]
-anchors: {"fisher-ury": "intereses", "malhotra-neg": "tacticas-dificiles", "nagle": "valor-diferencial", "shell": "autoridad"}
-updated: 2026-08-19
----
-
 # Clase 10.10 — Negociar con compras y procurement
 
 Clase 10 de 14 de la parte [10 — Negociación comercial](README.md), de nivel Venta. Dura unos 150 minutos.

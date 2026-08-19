@@ -1,18 +1,3 @@
----
-title: "Account-based selling"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 09
-class: 10
-level: Venta
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["miller-heiman", "ross", "dixon-customer", "bertuzzi"]
-anchors: {"bertuzzi": "modelo-sdr", "dixon-customer": "habilitar", "miller-heiman": "plan-cuenta", "ross": "especializacion"}
-updated: 2026-08-19
----
-
 # Clase 09.10 — Account-based selling
 
 Clase 10 de 14 de la parte [09 — Venta consultiva y B2B compleja](README.md), de nivel Venta. Dura unos 150 minutos.

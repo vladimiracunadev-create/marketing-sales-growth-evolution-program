@@ -1,18 +1,3 @@
----
-title: "Postventa"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 15
-class: 12
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["dixon-effort", "reichheld", "flint", "mehta"]
-anchors: {"dixon-effort": "esfuerzo", "flint": "recompra", "mehta": "resultado-cliente", "reichheld": "cierre-circuito"}
-updated: 2026-08-19
----
-
 # Clase 15.12 — Postventa
 
 Clase 12 de 14 de la parte [15 — E-commerce y marketplaces](README.md), de nivel Adquisición. Dura unos 150 minutos.

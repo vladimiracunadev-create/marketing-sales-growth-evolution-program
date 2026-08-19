@@ -1,18 +1,3 @@
----
-title: "Crecimiento centrado en retención"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 06
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "fader", "croll-yoskovitz", "mehta"]
-anchors: {"croll-yoskovitz": "una-metrica", "ellis-brown": "must-have", "fader": "centricidad", "mehta": "salud"}
-updated: 2026-08-19
----
-
 # Clase 19.06 — Crecimiento centrado en retención
 
 Clase 6 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

@@ -1,18 +1,3 @@
----
-title: "Omnicanalidad"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 12
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["chaffey", "dixon-effort", "diorio", "flint"]
-anchors: {"chaffey": "omnicanal", "diorio": "modelo-datos", "dixon-effort": "canal-preferido", "flint": "migracion-clientes"}
-updated: 2026-08-19
----
-
 # Clase 12.12 — Omnicanalidad
 
 Clase 12 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

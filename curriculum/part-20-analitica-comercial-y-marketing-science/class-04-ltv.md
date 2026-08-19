@@ -1,18 +1,3 @@
----
-title: "Valor de vida del cliente"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 20
-class: 04
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["fader-ltv", "fader", "provost", "croll-yoskovitz"]
-anchors: {"croll-yoskovitz": "cohortes", "fader": "heterogeneidad", "fader-ltv": "ltv-modelo", "provost": "sobreajuste"}
-updated: 2026-08-19
----
-
 # Clase 20.04 — Valor de vida del cliente
 
 Clase 4 de 14 de la parte [20 — Analítica comercial y marketing science](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

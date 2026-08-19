@@ -1,11 +1,3 @@
----
-title: "Parte 02 — Cliente y comportamiento del consumidor"
-type: part-index
-language: es
-part: 02
-updated: 2026-08-19
----
-
 # Parte 02 — Cliente y comportamiento del consumidor
 
 Esta parte trabaja el nivel **Fundamentos** del programa y su propósito es que llegues a poder **construir un expediente de cliente accionable basado en evidencia y no en estereotipos**. Llegas desde la parte 01, *Marketing y ventas: fundamentos del sistema comercial*, y lo que allí quedó resuelto se da por sabido aquí. Lo que produzcas aquí es material de entrada para la parte 03, *Investigación de mercados e inteligencia competitiva*.

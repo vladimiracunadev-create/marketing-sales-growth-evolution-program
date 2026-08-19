@@ -1,18 +1,3 @@
----
-title: "PAS: problema, agitación, solución"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 13
-class: 04
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["sugarman", "cialdini", "heath", "handley"]
-anchors: {"cialdini": "escasez", "handley": "edicion", "heath": "concrecion", "sugarman": "semillas-curiosidad"}
-updated: 2026-08-19
----
-
 # Clase 13.04 — PAS: problema, agitación, solución
 
 Clase 4 de 14 de la parte [13 — Contenido, copywriting y comunicación persuasiva](README.md), de nivel Adquisición. Dura unos 150 minutos.

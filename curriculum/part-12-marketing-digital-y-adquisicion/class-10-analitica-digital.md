@@ -1,18 +1,3 @@
----
-title: "Analítica digital"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 12
-class: 10
-level: Adquisición
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["kaushik", "provost", "croll-yoskovitz", "wheeler-dv"]
-anchors: {"croll-yoskovitz": "una-metrica", "kaushik": "vanidad", "provost": "formulacion", "wheeler-dv": "graficos-control"}
-updated: 2026-08-19
----
-
 # Clase 12.10 — Analítica digital
 
 Clase 10 de 14 de la parte [12 — Marketing digital y adquisición](README.md), de nivel Adquisición. Dura unos 150 minutos.

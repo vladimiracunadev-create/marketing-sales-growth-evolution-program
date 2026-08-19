@@ -1,18 +1,3 @@
----
-title: "Growth loops"
-type: class
-language: es
-standard: clase-profunda-v2
-part: 19
-class: 04
-level: Crecimiento y analítica
-mastery_threshold: 80
-estimated_minutes: 150
-sources: ["ellis-brown", "bush-plg", "croll-yoskovitz", "weinberg-traction"]
-anchors: {"bush-plg": "autoservicio", "croll-yoskovitz": "modelos", "ellis-brown": "ciclo", "weinberg-traction": "canales"}
-updated: 2026-08-19
----
-
 # Clase 19.04 — Growth loops
 
 Clase 4 de 14 de la parte [19 — Growth marketing y growth engineering](README.md), de nivel Crecimiento y analítica. Dura unos 150 minutos.

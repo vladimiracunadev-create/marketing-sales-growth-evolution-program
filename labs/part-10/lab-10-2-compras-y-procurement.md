@@ -1,14 +1,3 @@
----
-title: "Lab 10.2 — Negociar con compras y procurement"
-type: lab
-language: es
-part: 10
-lab: 2
-mastery_threshold: 80
-estimated_minutes: 240
-updated: 2026-08-19
----
-
 # Lab 10.2 — Negociar con compras y procurement
 
 **Parte 10 · Negociación comercial** · Duración estimada: 4 horas · Aprobación: 80/100

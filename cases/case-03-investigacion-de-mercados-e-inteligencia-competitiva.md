@@ -1,11 +1,3 @@
----
-title: "Caso 03 — Investigación de mercados e inteligencia competitiva"
-type: case
-language: es
-part: 03
-updated: 2026-08-19
----
-
 # Caso 03 — Investigación de mercados e inteligencia competitiva
 
 ## Contexto

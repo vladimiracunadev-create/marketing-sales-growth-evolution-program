@@ -14,7 +14,10 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 
 | Directorio | Archivos | Contenido |
 |---|---:|---|
-| `(raíz)` | 14 | CHANGELOG.md, CODE_OF_CONDUCT.md, CONTRIBUTING.md, FILE_INDEX.md, LICENSE, MANIFEST.md… |
+| `(raíz)` | 18 | .editorconfig, .gitattributes, .gitignore, .markdownlint-cli2.jsonc, CHANGELOG.md, CODE_OF_CONDUCT.md… |
+| `.github` | 1 | PULL_REQUEST_TEMPLATE.md |
+| `.github/ISSUE_TEMPLATE` | 4 | accesibilidad.md, config.yml, error-de-contenido.md, error-normativo.md |
+| `.github/workflows` | 3 | ci.yml, pages.yml, security.yml |
 | `ai` | 1 | GUARDRAILS.md |
 | `ai/agents` | 3 | market-research.agent.md, revenue-coach.agent.md, sales-analyst.agent.md |
 | `ai/prompts` | 4 | MASTER-PROMPT.md, campaign-review.md, customer-research.md, deal-review.md |
@@ -50,6 +53,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/spec` | 27 | __init__.py, bibliografia.py, clases_p01.py, clases_p02.py, clases_p03.py, clases_p04.py… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
 | `docs` | 20 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
+| `evidence` | 2 | .gitkeep, README.md |
 | `labs/part-01` | 2 | lab-01-1-b2c-b2b-b2g-y-modelos-hibridos.md, lab-01-2-ventas-transaccionales-y-consultivas.md |
 | `labs/part-02` | 2 | lab-02-1-buyer-persona-con-evidencia.md, lab-02-2-riesgo-percibido-y-confianza.md |
 | `labs/part-03` | 2 | lab-03-1-diseno-de-encuestas.md, lab-03-2-analisis-de-competencia.md |

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import importlib
 import os
+import subprocess
 import sys
 from collections import defaultdict
 
@@ -377,18 +378,39 @@ def build_syllabus(datos):
     return "\n".join(lineas)
 
 
-def build_file_index():
-    filas = []
-    ignorar = {".git", ".github", "__pycache__", "site", ".pytest_cache", "node_modules"}
+def _archivos_versionados():
+    """Lista de archivos bajo control de versiones.
+
+    Se usa `git ls-files` para que el índice describa lo que efectivamente se
+    publica y no lo que exista en el directorio de trabajo de quien lo genera.
+    Sin git disponible, se recurre a un recorrido del sistema de archivos con
+    las mismas exclusiones.
+    """
+    try:
+        salida = subprocess.run(["git", "ls-files"], cwd=RAIZ, capture_output=True,
+                                text=True, timeout=120)
+        if salida.returncode == 0 and salida.stdout.strip():
+            return sorted(l.strip() for l in salida.stdout.splitlines() if l.strip())
+    except Exception:  # noqa: BLE001
+        pass
+    ignorar = {".git", ".github", "__pycache__", "site", ".pytest_cache", "node_modules", "evidence"}
+    rutas = []
     for base, dirs, files in os.walk(RAIZ):
         dirs[:] = sorted(d for d in dirs if d not in ignorar and not d.startswith("."))
-        rel = os.path.relpath(base, RAIZ).replace("\\", "/")
-        if rel == ".":
-            rel = ""
-        visibles = sorted(f for f in files if not f.startswith("."))
-        if not visibles:
-            continue
-        filas.append((rel or "(raíz)", len(visibles), visibles))
+        for f in sorted(files):
+            if f.startswith("."):
+                continue
+            rel = os.path.relpath(os.path.join(base, f), RAIZ).replace("\\", "/")
+            rutas.append(rel)
+    return sorted(rutas)
+
+
+def build_file_index():
+    agrupados = defaultdict(list)
+    for ruta in _archivos_versionados():
+        carpeta, _, nombre = ruta.rpartition("/")
+        agrupados[carpeta or "(raíz)"].append(nombre)
+    filas = [(carpeta, len(nombres), sorted(nombres)) for carpeta, nombres in sorted(agrupados.items())]
     lineas = cabecera("Índice de archivos", "file-index")
     lineas += [
         "# Índice de archivos",

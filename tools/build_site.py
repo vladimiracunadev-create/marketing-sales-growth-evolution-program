@@ -461,6 +461,21 @@ def main():
                     escribir(destino_idx, plantilla(nombre_seccion, cuerpo, [], rel_dir.count("/") + 1))
                 paginas += 1
 
+    # panel de progreso: se copia tal cual para que funcione dentro del sitio
+    panel_origen = os.path.join(RAIZ, "apps", "learning-dashboard")
+    if os.path.isdir(panel_origen):
+        panel_destino = os.path.join(SALIDA, "apps", "learning-dashboard")
+        os.makedirs(panel_destino, exist_ok=True)
+        for nombre in sorted(os.listdir(panel_origen)):
+            if nombre.endswith((".html", ".js", ".css")):
+                shutil.copy2(os.path.join(panel_origen, nombre), os.path.join(panel_destino, nombre))
+        # el panel busca el índice del currículo dos niveles arriba
+        os.makedirs(os.path.join(SALIDA, "curriculum"), exist_ok=True)
+        origen_json = os.path.join(RAIZ, "curriculum", "curriculum.json")
+        if os.path.isfile(origen_json):
+            shutil.copy2(origen_json, os.path.join(SALIDA, "curriculum", "curriculum.json"))
+        paginas += 1
+
     # portada
     cifras = [("336", "clases"), ("24", "partes"), ("48", "laboratorios"), ("1.344", "conceptos"),
               ("1.008", "métricas"), ("96", "obras citadas")]
@@ -476,6 +491,8 @@ def main():
             ("capstone", "Capstone", "Operación comercial completa y defensa"),
             ("docs", "Documentación", "Metodología, estándares, glosario y regulación"),
         ])
+    tarjetas += ('<a class="tarjeta" href="apps/learning-dashboard/index.html"><strong>Panel de progreso</strong>'
+                 '<span>Seguimiento local, sin cuentas ni envío de datos</span></a>')
     portada = """
 <h1>{marca}</h1>
 <p>De fundamentos comerciales a dirección de ingresos: <strong>24 partes</strong> y

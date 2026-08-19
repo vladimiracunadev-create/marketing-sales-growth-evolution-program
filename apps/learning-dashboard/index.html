@@ -1,1 +1,65 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Marketing Sales Growth Evolution</title><link rel="stylesheet" href="style.css"></head><body><main><h1>Marketing, Sales & Growth Evolution Program</h1><p>24 partes · 336 clases · 48 labs · 24 evaluaciones · 12 proyectos · 1 Capstone</p><section id="grid"></section><p><button id="reset">Reiniciar progreso local</button></p></main><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de progreso · Marketing, Sales &amp; Growth Evolution Program</title>
+<meta name="description" content="Panel local de seguimiento del programa. Sin dependencias y sin envío de datos.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header>
+  <div class="titulo">
+    <h1>Panel de progreso</h1>
+    <p>Marketing, Sales &amp; Growth Evolution Program</p>
+  </div>
+  <button id="cambiar-tema" type="button" class="secundario">Modo oscuro</button>
+</header>
+
+<main id="contenido">
+
+  <section class="resumen" aria-labelledby="h-resumen">
+    <h2 id="h-resumen" class="oculto">Resumen</h2>
+    <div class="cifras">
+      <div class="cifra"><b id="c-clases">0</b><span>de 336 clases</span></div>
+      <div class="cifra"><b id="c-labs">0</b><span>de 48 laboratorios</span></div>
+      <div class="cifra"><b id="c-evals">0</b><span>de 24 evaluaciones</span></div>
+      <div class="cifra"><b id="c-partes">0</b><span>partes completas</span></div>
+      <div class="cifra"><b id="c-horas">0</b><span>horas estimadas</span></div>
+    </div>
+    <div class="barra grande"><div class="relleno" id="barra-total"></div></div>
+    <p class="pie-resumen"><span id="pct-total">0 %</span> del programa · una parte se considera completa
+      con sus 14 clases, sus 2 laboratorios y su evaluación aprobada.</p>
+  </section>
+
+  <section aria-labelledby="h-partes">
+    <h2 id="h-partes">Partes</h2>
+    <div id="grilla" class="grilla"></div>
+  </section>
+
+  <section aria-labelledby="h-datos">
+    <h2 id="h-datos">Tus datos</h2>
+    <p>El avance se guarda sólo en el almacenamiento local de este navegador. No se envía a ningún servidor,
+      no hay cuentas ni telemetría. Si cambias de equipo, exporta y vuelve a importar.</p>
+    <div class="acciones">
+      <button id="exportar" type="button" class="secundario">Exportar avance</button>
+      <label class="boton-archivo secundario">
+        Importar avance
+        <input type="file" id="importar" accept="application/json" hidden>
+      </label>
+      <button id="reiniciar" type="button" class="peligro">Reiniciar todo</button>
+    </div>
+    <p id="mensaje" role="status" class="mensaje"></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Contenido bajo licencia MIT · el avance registrado aquí es tuyo y permanece en tu navegador.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

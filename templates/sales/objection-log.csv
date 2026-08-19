@@ -1,1 +1,2 @@
-date,segment,objection,root_cause,response,evidence,next_test,outcome
+fecha,cuenta,etapa,objecion_textual,categoria,pregunta_de_verificacion,causa_raiz,respuesta_entregada,evidencia_usada,resuelta,resultado_negocio
+2026-09-03,taller andes,propuesta,es caro,precio,que esta comparando con nuestro precio,plazo de implementacion,calculo de costo de inasistencias,ficha de valor diferencial,si,ganado

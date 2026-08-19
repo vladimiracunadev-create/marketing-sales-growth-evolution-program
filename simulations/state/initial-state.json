@@ -1,16 +1,50 @@
 {
-  "company": "AndesFlow",
-  "country": "Chile",
-  "target_accounts": 500,
-  "known_leads": 120,
-  "active_opportunities": 40,
-  "arpa_clp": 180000,
-  "gross_margin": 0.78,
-  "monthly_logo_churn": 0.032,
-  "marketing_budget_clp": 4000000,
-  "sales_team": {
-    "ae": 2,
-    "sdr": 1
+  "empresa": "Ruta Andina SpA",
+  "pais": "Chile",
+  "snapshot": "2026-08-18",
+  "descripcion": "Plataforma de agendamiento, pagos y CRM ligero para pymes de servicios.",
+  "meses_operacion": 18,
+  "lineas_de_ingreso": [
+    "suscripcion_saas",
+    "hardware_ecommerce",
+    "contratos_sector_publico"
+  ],
+  "cuentas_activas": 240,
+  "arr_clp": 610000000,
+  "arpa_mensual_clp": 212000,
+  "margen_bruto": 0.74,
+  "churn_mensual_logos": 0.034,
+  "churn_mensual_ingreso": 0.051,
+  "ingreso_neto_retenido": 0.84,
+  "cuentas_objetivo_estimadas": 4800,
+  "leads_conocidos": 1240,
+  "oportunidades_abiertas": 380,
+  "oportunidades_sin_actividad_30d": 167,
+  "cac_mixto_clp": 310000,
+  "cac_completo_estimado_clp": 705000,
+  "payback_meses": 14,
+  "vida_media_cliente_meses": 11,
+  "presupuesto_marketing_mensual_clp": 4200000,
+  "equipo_comercial": {
+    "ae": 3,
+    "sdr": 2,
+    "customer_success": 1
   },
-  "snapshot": "2026-08-17"
+  "tiempo_comercial_efectivo": 0.62,
+  "ciclo_mediano_dias": 71,
+  "activacion_14d": 0.22,
+  "restricciones": [
+    "Un solo analista de datos compartido con finanzas",
+    "Competidor regional con capital de riesgo y precio 30 % menor",
+    "Obligación de cumplir la Ley 19.496 y de prepararse para la Ley 21.719",
+    "El directorio pide duplicar ingresos en 18 meses sin duplicar el gasto comercial"
+  ],
+  "deuda_operativa": [
+    "Tres definiciones distintas de propuesta enviada en el CRM",
+    "31 % de la base de contactos con rebote",
+    "Migración de datos entregada sin cobro en 40 % de los proyectos",
+    "Integración CRM-facturación sin monitoreo"
+  ],
+  "decisiones_tomadas": [],
+  "historial": []
 }

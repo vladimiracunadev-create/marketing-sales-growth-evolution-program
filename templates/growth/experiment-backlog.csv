@@ -1,1 +1,2 @@
-id,hypothesis,funnel_stage,impact,confidence,ease,rice_score,owner,status,result
+id,hipotesis,fundamento,metrica_principal,criterio_de_refutacion,impacto_estimado,confianza,esfuerzo,prioridad,estado,resultado,aprendizaje
+EXP-001,cargar 20 clientes en la primera semana aumenta la retencion a 90 dias,las cuentas que lo hacen retienen 3.2 veces mas,retencion a 90 dias,diferencia menor a 5 puntos,alto,media,medio,1,propuesto,,

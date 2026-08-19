@@ -1,8 +1,2 @@
-metric,value
-AOV,0
-COGS,0
-Payment fees,0
-Fulfillment,0
-Returns,0
-CAC,0
-Contribution margin,0
+producto,precio_venta,costo_producto,comision_canal,costo_despacho,costo_empaque,tasa_devolucion,costo_devolucion,costo_pasarela,contribucion_unitaria,margen_contribucion
+lector de tarjetas,89900,52000,14384,4900,900,0.09,6200,2607,8909,0.099

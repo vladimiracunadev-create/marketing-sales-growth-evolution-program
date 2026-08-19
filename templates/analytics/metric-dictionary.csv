@@ -1,1 +1,3 @@
-metric,business_question,numerator,denominator,window,cohort,source,owner,guardrail
+metrica,pregunta_que_responde,numerador,denominador,ventana,segmentacion,fuente,frecuencia,responsable,linea_base,lectura_permitida,lectura_prohibida
+costo por oportunidad calificada,cuanto cuesta generar una oportunidad,gasto total del canal en el periodo,oportunidades calificadas originadas por el canal,mes calendario,por canal y segmento,plataforma publicitaria y CRM,mensual,marketing,CLP 0,comparar canales dentro del mismo periodo,atribuir causalidad sin prueba de incrementalidad
+ingreso neto retenido,si la base de clientes crece sin ventas nuevas,ingreso del mismo grupo 12 meses despues,ingreso inicial del grupo,12 meses moviles,por cohorte y segmento,facturacion,mensual,customer success,0,evaluar salud de la base,proyectar crecimiento total de la empresa

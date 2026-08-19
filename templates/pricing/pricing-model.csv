@@ -1,4 +1,2 @@
-plan,price_clp,variable_cost_clp,customers,discount_pct,mrr_clp,gross_margin_pct
-Starter,0,0,0,0,0,0
-Growth,0,0,0,0,0,0
-Scale,0,0,0,0,0,0
+plan,metrica_de_cobro,precio_lista_clp,descuento_promedio,precio_efectivo,costo_servir_mensual,margen_contribucion,payback_meses,price_fence,justificacion
+esencial,por local,39000,0.08,35880,18400,0.487,9,hasta 2 locales,segmento de un local sin personal administrativo

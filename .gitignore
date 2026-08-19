@@ -1,0 +1,37 @@
+# Artefactos de Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Sitio generado: lo construye el flujo de GitHub Pages
+site/
+
+# Evidencia local del estudiante
+evidence/*
+!evidence/.gitkeep
+!evidence/README.md
+
+# Entorno y credenciales
+.env
+.env.*
+*.pem
+*.key
+
+# Herramientas locales
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencias de terceros
+node_modules/
+dist/
+coverage/
+*.sqlite

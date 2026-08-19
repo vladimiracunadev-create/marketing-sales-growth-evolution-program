@@ -1,0 +1,92 @@
+name: Validación del programa
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validar:
+    name: Estructura, profundidad y pruebas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias de prueba
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validar estructura del repositorio
+        run: python tools/validate_repository.py
+
+      - name: Validar profundidad del contenido
+        run: python tools/validate_depth.py
+
+      - name: Verificar enlaces internos
+        run: python tools/check_links.py
+
+      - name: Ejecutar pruebas
+        run: python -m pytest -q
+
+  reproducibilidad:
+    name: El contenido generado está al día
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerar contenido desde la especificación
+        run: |
+          python tools/build_curriculum.py
+          python tools/build_practica.py
+          python tools/build_docs.py
+
+      - name: Comprobar que no hay diferencias
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "El contenido publicado no coincide con la especificación."
+            echo "Ejecuta los generadores y vuelve a confirmar los cambios:"
+            echo "  python tools/build_curriculum.py"
+            echo "  python tools/build_practica.py"
+            echo "  python tools/build_docs.py"
+            git status --porcelain
+            git diff --stat
+            exit 1
+          fi
+          echo "El contenido generado está sincronizado con la especificación."
+
+  markdown:
+    name: Estilo de Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Revisar Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            *.md
+            docs/*.md
+        continue-on-error: true

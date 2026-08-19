@@ -1,0 +1,12 @@
+{
+  "config": {
+    "default": true,
+    "MD013": { "line_length": 120, "tables": false, "code_blocks": false },
+    "MD024": { "siblings_only": true },
+    "MD033": { "allowed_elements": ["br", "details", "summary"] },
+    "MD041": false,
+    "MD046": { "style": "fenced" }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", "site/**", ".git/**", "curriculum/part-*/**", "labs/**", "assessments/**", "cases/**", "projects/**", "docs/GLOSARIO.md", "docs/FORMULAS-Y-METRICAS.md", "docs/MAPA-DEL-CURRICULO.md"]
+}

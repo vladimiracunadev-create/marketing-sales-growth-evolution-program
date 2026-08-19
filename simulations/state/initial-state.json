@@ -1,0 +1,16 @@
+{
+  "company": "AndesFlow",
+  "country": "Chile",
+  "target_accounts": 500,
+  "known_leads": 120,
+  "active_opportunities": 40,
+  "arpa_clp": 180000,
+  "gross_margin": 0.78,
+  "monthly_logo_churn": 0.032,
+  "marketing_budget_clp": 4000000,
+  "sales_team": {
+    "ae": 2,
+    "sdr": 1
+  },
+  "snapshot": "2026-08-17"
+}

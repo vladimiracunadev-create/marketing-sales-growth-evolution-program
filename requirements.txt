@@ -1,0 +1,4 @@
+# Dependencias para ejecutar las pruebas del repositorio.
+# Los generadores y validadores de tools/ usan solo la biblioteca estandar:
+# construir y validar el material no debe exigir instalar nada.
+pytest>=8.2,<10.0

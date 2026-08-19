@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Preguntas frecuentes
+    url: https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/docs/PREGUNTAS-FRECUENTES.md
+    about: Dudas sobre alcance, uso y límites del programa
+  - name: Cómo contribuir
+    url: https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/CONTRIBUTING.md
+    about: Regla fundamental — el contenido se genera desde curriculum/spec/

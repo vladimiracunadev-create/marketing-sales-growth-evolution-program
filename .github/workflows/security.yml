@@ -73,7 +73,11 @@ jobs:
       - name: Licencia y avisos presentes
         run: |
           set -e
-          test -f LICENSE && grep -q "MIT" LICENSE
+          test -f LICENSE && grep -q "MIT License" LICENSE
+          grep -q "Copyright © 2026 Vladimir Acuña" LICENSE
+          test -f LICENSE-CONTENT.md && grep -q "CC BY-NC-SA 4.0" LICENSE-CONTENT.md
+          test -f THIRD_PARTY_NOTICES.md
+          test -f TRADEMARKS.md
           grep -q "no asesoría legal" README.md
           grep -q "datos sintéticos" README.md || grep -q "sintéticos" README.md
           echo "Licencia y avisos de alcance presentes."

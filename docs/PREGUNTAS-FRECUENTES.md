@@ -73,8 +73,10 @@ está en [`EVALUACION-Y-RUBRICAS.md`](EVALUACION-Y-RUBRICAS.md).
 ## Sobre la enseñanza
 
 **¿Puedo usar esto para capacitar?**
-Sí. El contenido original está bajo licencia MIT con atribución. Ver
-[`PLAN-DE-CAPACITACION.md`](PLAN-DE-CAPACITACION.md) para formatos de sesión y migración a plataforma.
+Sí, para usos no comerciales y cumpliendo atribución y CompartirIgual conforme a
+[CC BY-NC-SA 4.0](../LICENSE-CONTENT.md). Para capacitación cobrada, corporativa o integrada a una oferta,
+consulta la [política de uso comercial](COMMERCIAL_USE.md). El código del portal y las herramientas permanece
+bajo [MIT](../LICENSE).
 
 **¿Cómo lo llevo a un LMS?**
 Genera el sitio HTML, usa `curriculum/curriculum.json` como árbol de importación y mapea parte → módulo,

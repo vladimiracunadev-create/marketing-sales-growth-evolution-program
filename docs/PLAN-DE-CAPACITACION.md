@@ -164,9 +164,14 @@ Si alguna falla, la implementación bajó el estándar del programa aunque haya 
 
 ## 7. Licencia y uso en capacitación
 
-El contenido original del repositorio está bajo licencia MIT: puede usarse en capacitación comercial y no
-comercial conservando la atribución. Las obras citadas, las marcas y las normas pertenecen a sus titulares y
-no se redistribuyen.
+El contenido educativo original está bajo [CC BY-NC-SA 4.0](../LICENSE-CONTENT.md): puede adaptarse y usarse
+en capacitación no comercial con atribución, indicación de cambios y CompartirIgual. La capacitación cobrada,
+corporativa o incorporada a una oferta comercial requiere revisar la
+[política de uso comercial](COMMERCIAL_USE.md) y, cuando corresponda, obtener autorización.
+
+El software permanece bajo [MIT](../LICENSE). Las obras citadas, metodologías externas, marcas y normas
+pertenecen a sus titulares y no se relicencian; consulta los
+[avisos de terceros](../THIRD_PARTY_NOTICES.md).
 
 ---
 

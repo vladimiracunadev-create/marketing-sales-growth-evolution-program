@@ -12,6 +12,7 @@
 | [Syllabus](../SYLLABUS.md) | Programa completo en una página · **generado** |
 | [Metodología](METODOLOGIA.md) | Por qué el programa está construido así |
 | [Preguntas frecuentes](PREGUNTAS-FRECUENTES.md) | Dudas habituales sobre alcance, uso y límites |
+| [Uso comercial](COMMERCIAL_USE.md) | Qué permite cada licencia y cuándo pedir autorización |
 
 ## Referencia de contenido
 
@@ -70,7 +71,12 @@
 | [CONTRIBUTING](../CONTRIBUTING.md) | Cómo contribuir |
 | [CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md) | Normas de convivencia |
 | [SECURITY](../SECURITY.md) | Reporte de vulnerabilidades |
-| [LICENSE](../LICENSE) | Licencia MIT |
+| [LICENSE](../LICENSE) | Licencia MIT del software |
+| [LICENSE-CONTENT](../LICENSE-CONTENT.md) | Licencia CC BY-NC-SA 4.0 del contenido original |
+| [Historia de licenciamiento](LICENSING_HISTORY.md) | Trazabilidad y preservación del MIT histórico |
+| [Avisos de terceros](../THIRD_PARTY_NOTICES.md) | Obras y metodologías externas que no se relicencian |
+| [Marcas](../TRADEMARKS.md) | Alcance del uso referencial de nombres y marcas |
+| [Auditoría de licencias](../LICENSING_AUDIT.md) | Evidencia Git y decisiones de alcance |
 
 ## Regenerar la documentación derivada
 

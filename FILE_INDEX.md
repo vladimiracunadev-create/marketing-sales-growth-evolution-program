@@ -6,7 +6,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 
 | Directorio | Archivos | Contenido |
 |---|---:|---|
-| `(raíz)` | 18 | .editorconfig, .gitattributes, .gitignore, .markdownlint-cli2.jsonc, CHANGELOG.md, CODE_OF_CONDUCT.md… |
+| `(raíz)` | 22 | .editorconfig, .gitattributes, .gitignore, .markdownlint-cli2.jsonc, CHANGELOG.md, CODE_OF_CONDUCT.md… |
 | `.github` | 1 | PULL_REQUEST_TEMPLATE.md |
 | `.github/ISSUE_TEMPLATE` | 4 | accesibilidad.md, config.yml, error-de-contenido.md, error-normativo.md |
 | `.github/workflows` | 5 | ci.yml, codeql.yml, fuentes.yml, pages.yml, security.yml |
@@ -44,7 +44,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
 | `curriculum/spec` | 57 | __init__.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py, clases_p02.py… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
-| `docs` | 21 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md, ESTANDAR-PEDAGOGICO.md… |
+| `docs` | 23 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, BIBLIOGRAFIA.md, COMMERCIAL_USE.md, DATOS-PERSONALES-Y-ETICA.md, ESTANDAR-DE-EVIDENCIA.md… |
 | `evidence` | 2 | .gitkeep, README.md |
 | `labs/part-01` | 2 | lab-01-1-b2c-b2b-b2g-y-modelos-hibridos.md, lab-01-2-ventas-transaccionales-y-consultivas.md |
 | `labs/part-02` | 2 | lab-02-1-buyer-persona-con-evidencia.md, lab-02-2-riesgo-percibido-y-confianza.md |

@@ -15,7 +15,7 @@
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](curriculum/README.md)
 [![Contenido](https://img.shields.io/badge/contenido-1,29M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
 [![Rutas](https://img.shields.io/badge/rutas%20por%20rol-17-0b5c8a?style=for-the-badge)](rutas/README.md)
-[![License](https://img.shields.io/badge/licencia-MIT-3fb950?style=for-the-badge)](LICENSE)
+[![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](#-licencias)
 
 [🌐 Portal](https://vladimiracunadev-create.github.io/marketing-sales-growth-evolution-program/) ·
 [📚 Índice de las 336 clases](curriculum/README.md) ·
@@ -390,10 +390,18 @@ El programa **no distribuye** ninguna de las obras citadas: las cita, las contra
 [⛓️ Blockchain Learning Path](https://github.com/vladimiracunadev-create/blockchain-learning-path) ·
 [🌐 Polyglot Programming](https://github.com/vladimiracunadev-create/polyglot-programming-labs)
 
-## 📄 Licencia
+## 📄 Licencias
 
-[MIT](LICENSE) para el código y el contenido original del repositorio. Las obras citadas, marcas, normas y
-frameworks pertenecen a sus respectivos titulares: el programa los cita y **no los redistribuye**.
+| Material | Licencia |
+|---|---|
+| Código, scripts, validadores, generadores y componentes del portal | [MIT](LICENSE) |
+| Contenido educativo original, plantillas, playbooks, ejercicios y metodología propia | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| Obras, metodologías, normas y marcas de terceros | No se relicencian; ver [avisos de terceros](THIRD_PARTY_NOTICES.md) |
+
+Copyright © 2026 Vladimir Acuña · `vladimiracunadev-create`.
+
+[Uso comercial](docs/COMMERCIAL_USE.md) · [Historia de licenciamiento](docs/LICENSING_HISTORY.md) ·
+[Auditoría](LICENSING_AUDIT.md) · [Marcas](TRADEMARKS.md)
 
 ---
 

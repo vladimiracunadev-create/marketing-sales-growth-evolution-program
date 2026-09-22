@@ -24,7 +24,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
 
-FECHA = "2026-08-19"
+FECHA = "2026-09-22"
 
 
 def contar(carpeta, prefijo="", sufijo=".md"):
@@ -59,7 +59,15 @@ def version():
 
 def ejecutar(comando):
     try:
-        proceso = subprocess.run(comando, cwd=RAIZ, capture_output=True, text=True, timeout=600)
+        proceso = subprocess.run(
+            comando,
+            cwd=RAIZ,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=600,
+        )
         return proceso.returncode, (proceso.stdout or "").strip().split("\n")[-1]
     except Exception as exc:  # noqa: BLE001
         return 1, "no ejecutable: {}".format(exc)

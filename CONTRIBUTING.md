@@ -177,4 +177,11 @@ Toda participación se rige por el [código de conducta](CODE_OF_CONDUCT.md).
 
 ## Licencia de las contribuciones
 
-Al contribuir aceptas que tu aporte se publique bajo la licencia [MIT](LICENSE) del repositorio.
+Al contribuir declaras que tienes derecho a aportar el material y aceptas el esquema dual del repositorio:
+
+- código, scripts, pruebas y herramientas bajo [MIT](LICENSE);
+- contenido educativo original, plantillas, playbooks, ejercicios y metodología bajo
+  [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
+
+No envíes material de terceros salvo que su uso y atribución estén documentados en
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) y sean compatibles con esta distribución.

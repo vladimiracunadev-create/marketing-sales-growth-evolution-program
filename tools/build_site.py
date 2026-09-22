@@ -339,7 +339,7 @@ def plantilla(titulo, cuerpo, encabezados, profundidad, meta=None, seccion=None,
   {indice}
 </div>
 <footer class="pie">
-  <p>{marca} · contenido bajo licencia MIT · actualizado {fecha}</p>
+  <p>{marca} · contenido educativo CC BY-NC-SA 4.0 · software MIT · actualizado {fecha}</p>
   <p>La fuente oficial manda sobre el material pedagógico. Formación aplicada, no asesoría legal.</p>
 </footer>
 <script src="{p}assets/app.js"></script>

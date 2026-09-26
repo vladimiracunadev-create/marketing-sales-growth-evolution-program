@@ -418,39 +418,51 @@ CLASES = [
         tesis=(
             "La marca empleadora y la marca personal de quienes venden son activos comerciales reales, "
             "especialmente en B2B: el comprador investiga a la empresa y a la persona antes de responder. "
-            "Ambas se construyen con evidencia pública consistente —contenido útil, trayectoria verificable, "
-            "trato coherente— y ambas tienen un límite: no pueden sostener una promesa que la empresa no "
-            "cumple internamente."
+            "La imagen personal y profesional forma parte de ese sistema, pero no sustituye competencia ni "
+            "evidencia: apariencia, comunicación, conducta, voz, postura, contexto y presencia digital producen "
+            "señales que otras personas interpretan. Ambas marcas se construyen con evidencia pública consistente "
+            "—contenido útil, trayectoria verificable, trato coherente— y tienen un límite: no pueden sostener una "
+            "promesa que la conducta o la empresa contradicen."
         ),
         conceptos=[
             ("marca empleadora", "percepción del mercado laboral sobre cómo es trabajar en la empresa"),
-            ("marca personal comercial", "reputación pública de quien vende, construida con evidencia verificable"),
-            ("coherencia interna-externa", "correspondencia entre la promesa al mercado laboral y la experiencia real del equipo"),
-            ("prueba pública", "contenido o antecedente verificable que sostiene la reputación declarada"),
+            ("marca personal profesional", "expectativa pública sobre la contribución de una persona, sostenida por conducta y evidencia verificable"),
+            ("imagen profesional", "percepción situada producida por señales visuales, verbales, conductuales y digitales en un contexto de trabajo"),
+            ("coherencia omnicanal personal", "compatibilidad reconocible entre la presencia física, el CV, los perfiles, el portafolio, las publicaciones y los proyectos"),
         ],
         metodo=[
-            "auditar la presencia pública actual de la empresa y del equipo comercial",
-            "verificar la coherencia con la experiencia interna real",
-            "definir qué evidencia pública se producirá y con qué frecuencia",
-            "acordar límites de uso de datos y de clientes",
-            "medir efecto en respuesta comercial y en atracción de talento",
+            "declarar el contexto y la decisión que la presencia profesional debe facilitar",
+            "acordar objetivos, consentimiento y límites del diagnóstico",
+            "auditar hechos y señales actuales sin juzgar características corporales",
+            "explicitar la identidad personal y la identidad profesional que sí son pertinentes",
+            "recoger la percepción actual y separar observaciones, preferencias e inferencias",
+            "localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento",
+            "formular dos conjuntos de recomendaciones adecuados al contexto",
+            "priorizar e implementar cambios reversibles con evidencia",
+            "observar comprensión, coherencia y consecuencias no deseadas",
+            "ajustar, documentar límites y transferir el criterio a la persona",
         ],
         senales=[
-            ("tasa de respuesta por perfil", "respuestas obtenidas, sobre contactos realizados, comparada entre perfiles con y sin presencia pública"),
+            ("coherencia de señales profesionales", "señales críticas compatibles con la identidad y el objetivo declarados, sobre señales críticas auditadas por canal"),
             ("origen de candidatos", "postulaciones espontáneas, sobre postulaciones totales, por periodo"),
             ("rotación temprana", "salidas antes de seis meses, sobre incorporaciones del periodo"),
         ],
         caso=(
             "Ruta Andina publica que es «el mejor lugar para crecer» y su rotación comercial anual es 62 %. "
-            "Dos ex vendedores lo comentaron públicamente."
+            "A la vez quiere convertir a una ejecutiva senior en vocera: su trabajo es sólido, pero la biografía, "
+            "la fotografía, el vestuario elegido para una conferencia técnica y su perfil de LinkedIn emiten "
+            "señales contradictorias sobre el tema que representa. Dos ex vendedores ya cuestionaron públicamente "
+            "la promesa corporativa."
         ),
         limite=(
-            "La marca personal del vendedor puede volverse un riesgo de concentración: si el activo es la "
-            "persona y no la empresa, la salida se lleva la relación."
+            "La presencia puede influir en una primera impresión, pero no permite inferir competencia, integridad "
+            "o potencial. Recomendar una apariencia ideal o penalizar edad, sexo, raza, discapacidad, peso, "
+            "características corporales, identidad o expresión de género convierte la consultoría en discriminación. "
+            "Además, si el activo comercial reside sólo en una persona, su salida se lleva parte de la relación."
         ),
-        libros=["godin", "handley", "collins", "lencioni"],
-        error=("Comunicar cultura que no existe",
-               "Verifica indicadores internos de rotación y clima antes de publicar promesas de marca empleadora."),
+        libros=["solomon", "wheeler", "handley", "godin"],
+        error=("Confundir adecuación contextual con competencia",
+               "Describe la señal y el contexto, conserva comodidad e identidad, y exige evidencia de desempeño antes de atribuir capacidad."),
     ),
     dict(
         n="12",

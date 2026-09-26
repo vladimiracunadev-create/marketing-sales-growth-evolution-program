@@ -2875,26 +2875,26 @@
           "minutos_estimados": 150,
           "conceptos": [
             "marca empleadora",
-            "marca personal comercial",
-            "coherencia interna-externa",
-            "prueba pública"
+            "marca personal profesional",
+            "imagen profesional",
+            "coherencia omnicanal personal"
           ],
           "senales": [
-            "tasa de respuesta por perfil",
+            "coherencia de señales profesionales",
             "origen de candidatos",
             "rotación temprana"
           ],
           "libros": [
-            "godin",
+            "solomon",
+            "wheeler",
             "handley",
-            "collins",
-            "lencioni"
+            "godin"
           ],
           "anclajes": {
-            "godin": "publico-minimo",
-            "handley": "utilidad",
-            "collins": "personas-primero",
-            "lencioni": "confianza"
+            "solomon": "identidad",
+            "wheeler": "aplicabilidad",
+            "handley": "estandar-editorial",
+            "godin": "publico-minimo"
           },
           "ruta": "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md"
         },

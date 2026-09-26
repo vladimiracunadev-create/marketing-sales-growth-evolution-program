@@ -2,7 +2,7 @@
 
 # Estado del repositorio
 
-**Versión:** 1.6.0 · **Actualizado:** 2026-09-22
+**Versión:** 1.6.0 · **Actualizado:** 2026-09-25
 
 ## Inventario frente a metas
 
@@ -19,9 +19,9 @@
 | Conjuntos de datos | 5 | 5 | OK |
 | Obras en bibliografía | 96 | 90 | OK |
 
-**Palabras de contenido curricular:** 1.799.438
+**Palabras de contenido curricular:** 1.800.909
 
-**Páginas HTML generadas:** 634 · **Módulos de prueba:** 7 · **Plantillas:** 14
+**Páginas HTML generadas:** 636 · **Módulos de prueba:** 7 · **Plantillas:** 14
 
 ## Verificaciones automatizadas
 

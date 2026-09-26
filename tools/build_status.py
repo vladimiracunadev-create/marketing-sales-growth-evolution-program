@@ -24,7 +24,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import PARTES  # noqa: E402
 
-FECHA = "2026-09-22"
+FECHA = "2026-09-25"
 
 
 def contar(carpeta, prefijo="", sufijo=".md"):

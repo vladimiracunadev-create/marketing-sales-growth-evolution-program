@@ -109,7 +109,7 @@ ANCLAJES = {
     "06.08": {"heath": "succes", "godin": "cambio", "sugarman": "resbaladilla", "handley": "empatia"},
     "06.09": {"keller-brand": "cbbe", "aaker": "equity", "binet-field": "corto-largo", "sharp": "disponibilidad"},
     "06.10": {"reichheld": "proposito", "godin": "permiso", "dixon-effort": "resolucion-siguiente", "cialdini": "autoridad"},
-    "06.11": {"godin": "publico-minimo", "handley": "utilidad", "collins": "personas-primero", "lencioni": "confianza"},
+    "06.11": {"solomon": "identidad", "wheeler": "aplicabilidad", "handley": "estandar-editorial", "godin": "publico-minimo"},
     "06.12": {"chaffey": "omnicanal", "flint": "migracion-clientes", "krug": "no-pensar", "kotler": "canales"},
     "06.13": {"binet-field": "metricas-sesgo", "keller-brand": "medicion", "sharp": "penetracion", "kaushik": "plan-medicion"},
     "06.14": {"wheeler": "gobierno", "aaker": "identidad", "handley": "estandar-editorial", "sharp2": "consistencia"},

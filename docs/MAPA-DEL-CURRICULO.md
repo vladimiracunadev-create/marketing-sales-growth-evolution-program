@@ -140,7 +140,7 @@
 | 08 | [Storytelling](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-08-storytelling.md) | estructura narrativa, concreción | recuerdo del relato |
 | 09 | [Brand equity](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-09-brand-equity.md) | notoriedad, significado asociado | costo de adquisición por origen de marca |
 | 10 | [Confianza y reputación](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) | reputación, manejo de errores | tiempo de respuesta ante incidente |
-| 11 | [Employer branding y marca personal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) | marca empleadora, marca personal comercial | tasa de respuesta por perfil |
+| 11 | [Employer branding y marca personal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) | marca empleadora, marca personal profesional | coherencia de señales profesionales |
 | 12 | [Coherencia omnicanal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) | fuente única de verdad, continuidad de la conversación | incoherencias detectadas por auditoría |
 | 13 | [Medición de marca](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) | notoriedad espontánea, consideración | notoriedad espontánea por ola |
 | 14 | [Brand book mínimo viable](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-14-brand-book-minimo-viable.md) | manual operativo de marca, regla de aplicación | resultado de la prueba de producción |

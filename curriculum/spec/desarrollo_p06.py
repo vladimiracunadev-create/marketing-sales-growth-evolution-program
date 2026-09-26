@@ -276,30 +276,82 @@ DESARROLLO = {
     ],
 
     "11": [
-        "La marca empleadora y la marca comercial se alimentan mutuamente y se dañan igual. Los candidatos "
-        "leen las reseñas de clientes y los clientes leen las reseñas de empleados; en mercados pequeños, "
-        "además, las mismas personas circulan entre ambos roles. Gestionarlas por separado, con áreas y "
-        "mensajes distintos, produce incoherencias que ambos públicos detectan.",
+        "La marca empleadora y la marca profesional se alimentan mutuamente y se dañan igual. Los candidatos "
+        "leen reseñas de clientes y los clientes leen reseñas de empleados; en mercados pequeños, además, las "
+        "mismas personas circulan entre ambos roles. Gestionarlas por separado produce incoherencias. La prueba "
+        "pública de la cultura no la da la campaña sino la conducta en momentos de tensión: cómo se maneja un "
+        "despido, cómo se reconoce un error y si se cumplen compromisos cuando cuesta. La comparación útil pone "
+        "juntas la promesa de empleo, la experiencia documentada del equipo, la rotación voluntaria por área y "
+        "los motivos de salida. Una consultoría de imagen no puede maquillar esa brecha: primero se corrige la "
+        "experiencia y después se comunica. Del mismo modo, impulsar la visibilidad pública del equipo abre un "
+        "canal B2B y crea una responsabilidad compartida; la solución es acordar información sensible, atribución "
+        "y libertad responsable, no aprobar cada publicación ni apropiarse del activo personal.",
 
-        "La marca personal comercial es un activo de la persona y una palanca para la empresa, y esa doble "
-        "propiedad hay que reconocerla. Un vendedor con reputación propia abre puertas que la marca "
-        "corporativa no abre, y se lleva parte de ese activo si se va. Negarlo lleva a políticas que "
-        "desincentivan la construcción de reputación individual y empobrecen a ambas partes.",
+        "La **identidad personal** reúne valores, preferencias, historia y límites que la persona reconoce como "
+        "propios; la **identidad profesional** selecciona capacidades, responsabilidades y propósito pertinentes "
+        "para un contexto de trabajo. La **expresión** convierte ambas en señales: apariencia, vestuario, palabras, "
+        "voz, postura, conducta, decisiones, contenido y artefactos. La **imagen personal** es la impresión situada "
+        "que otras personas forman del conjunto; la **imagen profesional** es esa percepción cuando la decisión "
+        "tiene consecuencias de trabajo. La **marca personal profesional** es la expectativa más estable sobre qué "
+        "contribución ofrece la persona; la **reputación** es el juicio acumulado a partir de conductas y relatos "
+        "verificables, y el **posicionamiento** es el lugar relativo que una audiencia le asigna frente a otras "
+        "alternativas para una necesidad concreta. El modelo `identidad → expresión → imagen percibida → reputación "
+        "→ posicionamiento` ordena relaciones, no promete control: cada flecha está mediada por audiencia, cultura, "
+        "contexto y experiencia. Por eso autenticidad no significa expresar todo en todo lugar, sino evitar una "
+        "representación incompatible con la propia identidad o con los hechos. Un consultor puede diseñar señales y "
+        "probar comprensión; no puede dictar la percepción ni fabricar reputación.",
 
-        "La coherencia interna-externa se verifica con una prueba incómoda: comparar lo que la empresa "
-        "comunica sobre su cultura con lo que dicen quienes salieron. Cuando la brecha es grande, ninguna "
-        "campaña de marca empleadora la cierra. La medición útil es la tasa de rotación voluntaria por área "
-        "y el motivo declarado de salida, sostenido en el tiempo.",
+        "La imagen profesional no se reduce a ropa ni debe usarse como sustituto de desempeño. La investigación de "
+        "Willis y Todorov sobre exposiciones faciales breves muestra que las personas forman juicios con gran rapidez "
+        "([Psychological Science, 2006](https://doi.org/10.1111/j.1467-9280.2006.01750.x)); demuestra velocidad de "
+        "formación, no exactitud del juicio ni validez para contratar. Una auditoría debe observar el sistema de "
+        "señales: primera impresión, coherencia visual, presentación, estilo, adecuación, intencionalidad, cuidado, "
+        "presencia, comunicación, conducta, voz, postura, entorno, historial público y canales digitales. La fotografía "
+        "profesional se decide por uso —LinkedIn, CV sólo cuando sea pertinente, sitio, portafolio, biografía, "
+        "conferencia, prensa o perfil corporativo— y se revisa por encuadre, iluminación, fondo, expresión, vestuario, "
+        "resolución, accesibilidad y consistencia con el canal. Una foto clara ayuda a reconocer a la persona; no es "
+        "una métrica de capacidad. La coherencia omnicanal personal exige compatibilidad entre `presencial ↔ LinkedIn "
+        "↔ CV ↔ portafolio ↔ publicaciones ↔ proyectos` sin volverlos copias: el CV sintetiza evidencia, LinkedIn "
+        "facilita descubrimiento, GitHub demuestra trabajo tecnológico y un portafolio explica decisiones. La señal "
+        "de coherencia se registra por canal y por audiencia, con desacuerdos y datos faltantes, nunca como test de "
+        "personalidad.",
 
-        "Impulsar la visibilidad pública del equipo mejora el alcance y expone a la empresa a lo que cada "
-        "persona publique. Restringirla protege el control y renuncia a un canal que en ventas B2B tiene "
-        "efecto real. La solución practicable son lineamientos claros sobre qué es información sensible y "
-        "libertad en el resto, no la aprobación previa de cada publicación.",
+        "El vestuario profesional se elige desde `profesión + industria + función + audiencia + cultura + clima + "
+        "comodidad + identidad + objetivo comunicacional`. Las etiquetas —formal, *business formal*, *business "
+        "casual*, *smart casual* y casual profesional— son convenciones locales y móviles, no una escala universal "
+        "de mérito. Una entrevista, una reunión ejecutiva, una conferencia, un encuentro de networking, una "
+        "presentación y una videollamada remota plantean riesgos y funciones distintas: en remoto importan también "
+        "encuadre, luz, audio y contraste con el fondo; en terreno pueden dominar seguridad, movilidad y clima. Color "
+        "se trabaja con valor claro-oscuro, contraste, armonía, repetición, combinación con prendas y legibilidad en "
+        "el entorno. La revisión de Elliot y Maier advierte problemas metodológicos e importancia del contexto en "
+        "los efectos psicológicos del color ([Annual Review of Psychology, 2014](https://doi.org/10.1146/annurev-psych-010213-115035)); "
+        "por tanto, la colorimetría personal se presenta como práctica estética para comparar combinaciones, no como "
+        "ciencia capaz de revelar personalidad, credibilidad o competencia. Grooming significa `cuidado + coherencia "
+        "+ adecuación`: higiene, cabello, barba o afeitado cuando la persona los elige, uñas, estado de prendas, "
+        "calzado y accesorios. No define un cuerpo ideal. Los casos cambian la recomendación: quien busca empleo "
+        "prioriza legibilidad y ajuste; un profesional senior, consistencia y autoridad sustentada; un ejecutivo, "
+        "representación institucional; un emprendedor o consultor, reconocimiento y cercanía con su cliente; un perfil "
+        "tecnológico, evidencia en proyectos y GitHub; un docente, claridad y movilidad; un vendedor, adecuación al "
+        "cliente sin disfraz; y un conferencista, visibilidad en escenario y fotografía. Ninguna de esas convenciones "
+        "autoriza discriminar ni inferir capacidad desde apariencia.",
 
-        "La prueba pública de la cultura no la da la comunicación sino la conducta observable en momentos de "
-        "tensión: cómo se maneja un despido, cómo se responde a un error, si se cumplen los compromisos "
-        "cuando cuesta. Ninguna estrategia de marca empleadora compensa una incoherencia en esos momentos, y "
-        "el intento de compensarla suele empeorar la percepción.",
+        "La práctica distingue tres alcances. Un **consultor o consultora de imagen personal** puede trabajar estilo, "
+        "presentación, vestuario, color, grooming, protocolo, presencia y adecuación contextual. Un **consultor o "
+        "consultora de marca personal** trabaja identidad profesional, propuesta de valor, posicionamiento, reputación, "
+        "comunicación, contenido, LinkedIn, networking y presencia digital. Quien integra imagen y marca conecta ambos "
+        "sistemas, sin asumir por ello una profesión regulada universalmente ni competencias legales, psicológicas o "
+        "médicas. La metodología básica es `1. contexto → 2. objetivos → 3. diagnóstico → 4. identidad → 5. percepción "
+        "actual → 6. brechas → 7. recomendaciones → 8. implementación → 9. observación → 10. ajuste`. El diagnóstico "
+        "mantiene columnas separadas para **hechos** comprobables, **observaciones** descriptivas, **preferencias** de "
+        "la persona o audiencia, **inferencias** todavía discutibles y **recomendaciones** con responsable y condición "
+        "de revisión. El ejercicio de cierre es una auditoría de imagen y marca profesional: revisar identidad "
+        "declarada, presencia visual, propuesta de valor, LinkedIn, fotografía, coherencia, evidencia, reputación y "
+        "oportunidades; entregar cada fila como `diagnóstico → evidencia → recomendación → prioridad`; y formular dos "
+        "alternativas, incluida una intervención mínima. La Ley 20.609 chilena incluye la apariencia personal entre "
+        "los motivos protegidos frente a discriminación arbitraria, de modo que edad, sexo, raza o etnia, discapacidad, "
+        "peso, características corporales e identidad o expresión de género nunca son defectos a corregir. La marca "
+        "personal pertenece a la persona y puede beneficiar a la empresa; negarlo empobrece a ambas partes, mientras "
+        "depender sólo de ella crea concentración que debe gobernarse con activos y relaciones institucionales.",
     ],
 
     "12": [

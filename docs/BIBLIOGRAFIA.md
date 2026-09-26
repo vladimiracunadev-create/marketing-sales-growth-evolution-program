@@ -63,7 +63,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
-| Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 7 clases | [9781292318103](https://openlibrary.org/isbn/9781292318103) |
+| Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 8 clases | [9781292318103](https://openlibrary.org/isbn/9781292318103) |
 | Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | principios de influencia y su uso ético en contextos comerciales | 22 clases | [9780062937650](https://openlibrary.org/isbn/9780062937650) |
 | Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) | arquitectura de decisión y límites éticos de la influencia sobre la elección | 01.13, 02.08, 02.09, 21.05 | [9780143137009](https://openlibrary.org/isbn/9780143137009) |
 | Dan Ariely — *Predictably Irrational* (2008) | efectos de anclaje, gratuidad y comparación en la percepción de valor | 01.02, 02.09, 05.07, 10.05 | [9780061353239](https://openlibrary.org/isbn/9780061353239) |
@@ -74,7 +74,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
 | David A. Aaker — *Building Strong Brands* (1996) | brand equity, identidad de marca y arquitectura de portafolio | 12 clases | [9780029001516](https://openlibrary.org/isbn/9780029001516) |
-| Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 7 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
+| Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 8 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
 | Kevin Lane Keller y Vanitha Swaminathan — *Strategic Brand Management* (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 13 clases | [9780134892498](https://openlibrary.org/isbn/9780134892498) |
 
 ## Comunicación
@@ -202,13 +202,13 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
-| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 12 clases | [9780066620992](https://openlibrary.org/isbn/9780066620992) |
+| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 11 clases | [9780066620992](https://openlibrary.org/isbn/9780066620992) |
 | Andrew S. Grove — *High Output Management* (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 41 clases | [9780394532349](https://openlibrary.org/isbn/9780394532349) |
 | John Doerr — *Measure What Matters* (2018) | OKR como sistema de foco, alineamiento y seguimiento | 9 clases | [9780525536222](https://openlibrary.org/isbn/9780525536222) |
 | Simon Sinek — *Start With Why* (2009) | propósito como articulador del relato interno y externo | 06.03 | [9781591844518](https://openlibrary.org/isbn/9781591844518) |
 | Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | traducción de la estrategia en indicadores causalmente conectados | 15 clases | [9780875846514](https://openlibrary.org/isbn/9780875846514) |
 | Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) | diseño de cuotas, territorios e incentivos sin efectos perversos | 12 clases | [9780814473245](https://openlibrary.org/isbn/9780814473245) |
-| Patrick Lencioni — *The Five Dysfunctions of a Team* (2002) | confianza, conflicto productivo, compromiso, accountability y resultados | 8 clases | [9780787960759](https://openlibrary.org/isbn/9780787960759) |
+| Patrick Lencioni — *The Five Dysfunctions of a Team* (2002) | confianza, conflicto productivo, compromiso, accountability y resultados | 7 clases | [9780787960759](https://openlibrary.org/isbn/9780787960759) |
 
 ## Inteligencia artificial
 

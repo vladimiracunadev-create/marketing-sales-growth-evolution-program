@@ -13,7 +13,7 @@
 
 [![Version](https://img.shields.io/badge/versión-1.6.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](curriculum/README.md)
-[![Contenido](https://img.shields.io/badge/contenido-1,29M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
+[![Contenido](https://img.shields.io/badge/contenido-1,80M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
 [![Rutas](https://img.shields.io/badge/rutas%20por%20rol-17-0b5c8a?style=for-the-badge)](rutas/README.md)
 [![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](#-licencias)
 
@@ -52,7 +52,7 @@
 
 Un currículo **secuencial, basado en libros y orientado a evidencia**: 336 clases agrupadas en 24 partes,
 desde el diagnóstico del motor de ingresos hasta la dirección de la función comercial completa. Cada clase
-es un documento de 4.800 a 5.600 palabras, **redactado clase a clase** —no generado por plantilla— que incluye:
+supera las 4.800 palabras, está **redactado clase a clase** —no generado por plantilla— e incluye:
 
 - 🚦 **Antes de empezar**: prerrequisitos, materiales, tiempo real y cómo saber que terminaste.
 - 🎯 **Propósito** anclado a una decisión concreta, no a una definición.
@@ -72,7 +72,7 @@ es un documento de 4.800 a 5.600 palabras, **redactado clase a clase** —no gen
 
 | Superficie | Cobertura |
 |---|---|
-| 📚 Currículo | 336/336 clases en 24 partes · 1.691.000 palabras · estándar `clase-profunda-v2` |
+| 📚 Currículo | 336/336 clases en 24 partes · 1.800.909 palabras · estándar `clase-profunda-v2` |
 | 🧩 Conceptos | 1.344 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
 | 📐 Medición | 1.008 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
 | 📖 Bibliografía | 96 obras · 395 ideas catalogadas · **1.344 anclajes** clase a clase, auditados |

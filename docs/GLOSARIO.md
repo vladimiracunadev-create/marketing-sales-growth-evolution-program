@@ -208,11 +208,11 @@
 | **coherencia económica** | correspondencia entre el valor del contrato y el costo del movimiento | [22.01](../curriculum/part-22-go-to-market-canales-y-expansion/class-01-que-es-una-estrategia-gtm.md) |
 | **coherencia entre activos** | consistencia de promesa y tono entre todas las piezas | [24.05](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-05-marca-y-activos-comerciales.md) |
 | **coherencia interna** | ausencia de contradicción entre segmento elegido, promesa, precio y canal | [04.14](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-14-arquitectura-stp-completa.md) |
-| **coherencia interna-externa** | correspondencia entre la promesa al mercado laboral y la experiencia real del equipo | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
 | **coherencia mensaje-página** | correspondencia entre lo prometido en el origen y lo que muestra la página | [12.03](../curriculum/part-12-marketing-digital-y-adquisicion/class-03-landing-pages.md) |
 | **coherencia objetivo-métrica** | correspondencia entre lo que se optimiza y lo que se evalúa | [14.02](../curriculum/part-14-publicidad-y-performance-marketing/class-02-objetivos-de-campana.md) |
 | **coherencia observable** | correspondencia entre lo declarado y lo que el cliente experimenta | [06.10](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) |
 | **coherencia oferta-operación** | correspondencia entre lo prometido y lo que la operación puede entregar | [24.04](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-04-oferta-y-pricing.md) |
+| **coherencia omnicanal personal** | compatibilidad reconocible entre la presencia física, el CV, los perfiles, el portafolio, las publicaciones y los proyectos | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
 | **coherencia precio-valor** | correspondencia entre lo que se cobra y el valor que percibe cada segmento | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **coherencia venta-entrega** | correspondencia entre lo prometido y lo que el proceso produce | [24.10](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) |
 | **cohesión del grupo** | grado en que los miembros de un grupo se parecen entre sí más que a los de otros grupos | [04.04](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-04-clustering-conceptual-de-clientes.md) |
@@ -683,6 +683,7 @@
 | **identidad de marca** | conjunto de asociaciones que la empresa aspira a construir y sostener | [06.02](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-02-identidad-versus-imagen.md) |
 | **identidad única de cliente** | registro que consolida las interacciones de una persona en todos los canales | [12.12](../curriculum/part-12-marketing-digital-y-adquisicion/class-12-omnicanalidad.md) |
 | **imagen de marca** | conjunto de asociaciones que el mercado efectivamente mantiene | [06.02](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-02-identidad-versus-imagen.md) |
+| **imagen profesional** | percepción situada producida por señales visuales, verbales, conductuales y digitales en un contexto de trabajo | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
 | **impacto estimado** | efecto esperado sobre la métrica objetivo si la hipótesis es correcta | [19.10](../curriculum/part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) |
 | **implicación** | consecuencia del problema en costo, riesgo, tiempo o reputación | [08.04](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-04-discovery.md) |
 | **implicancia** | acción concreta que se deriva del insight, con responsable y horizonte | [03.12](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-12-sintesis-de-insights.md) |
@@ -777,7 +778,7 @@
 | **mapa del comité** | representación de miembros, roles, criterios y postura frente al proyecto | [09.07](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-07-buying-committee.md) |
 | **mapa del motor de ingresos** | representación de etapas, volúmenes, conversiones, costos y responsables del sistema comercial completo | [01.14](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-14-mapa-completo-del-motor-de-ingresos.md) |
 | **marca empleadora** | percepción del mercado laboral sobre cómo es trabajar en la empresa | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
-| **marca personal comercial** | reputación pública de quien vende, construida con evidencia verificable | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
+| **marca personal profesional** | expectativa pública sobre la contribución de una persona, sostenida por conducta y evidencia verificable | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
 | **marca respaldada** | marca propia que menciona a la marca madre como aval | [06.07](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) |
 | **marco de referencia** | categoría en la que la marca quiere ser considerada por el cliente | [04.11](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-11-declaracion-de-posicionamiento.md) |
 | **marco muestral** | lista o mecanismo desde el cual se seleccionan los participantes | [03.05](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-05-muestreo-y-sesgos.md) |
@@ -1026,7 +1027,6 @@
 | **prueba en página** | evidencia visible que respalda la afirmación central | [13.08](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-08-landing-page-copy.md) |
 | **prueba gratuita** | acceso completo por tiempo limitado para que el cliente experimente el valor | [07.10](../curriculum/part-07-pricing-y-monetizacion/class-10-freemium-y-pruebas-gratuitas.md) |
 | **prueba mínima** | experimento más barato capaz de producir evidencia suficiente para decidir | [03.13](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) |
-| **prueba pública** | contenido o antecedente verificable que sostiene la reputación declarada | [06.11](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) |
 | **prueba social local** | evidencia de adopción proveniente de pares reconocibles del mismo contexto | [02.12](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-12-contexto-cultural-y-social.md) |
 | **prueba social negativa** | mensaje que comunica involuntariamente que pocos adoptan la solución | [13.12](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) |
 | **práctica deliberada** | ejercicio focalizado en una habilidad con criterio y corrección | [23.10](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-10-coaching-comercial.md) |

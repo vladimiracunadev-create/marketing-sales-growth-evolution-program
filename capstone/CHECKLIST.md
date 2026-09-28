@@ -107,6 +107,7 @@ Marca cada elemento sólo cuando exista evidencia verificable en el repositorio 
 - [ ] Está resuelto y documentado lo relativo a **publicidad engañosa**.
 - [ ] Está resuelto y documentado lo relativo a **falsa autoridad**.
 - [ ] Está resuelto y documentado lo relativo a **información clínica**.
+- [ ] Está resuelto y documentado lo relativo a **estado de la fuente**.
 - [ ] Señal medida o mecanismo de captura diseñado: **obligaciones identificadas y cubiertas**.
 
 ## 13. Defensa ejecutiva

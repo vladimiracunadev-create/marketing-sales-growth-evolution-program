@@ -44,7 +44,7 @@ ANCLAJES = {
     "02.07": {"dixon-effort": "canal-preferido", "krug": "escaneo", "solomon": "proceso-decision", "kotler": "canales"},
     "02.08": {"krug": "no-pensar", "laja": "jerarquia-mensaje", "eisenberg": "friccion-formulario", "thaler": "arquitectura-decision"},
     "02.09": {"kahneman": "dos-sistemas", "thaler": "opcion-defecto", "ariely": "relatividad", "cialdini": "compromiso"},
-    "02.10": {"cialdini": "autoridad", "rackham": "objeciones-prevencion", "dixon-effort": "esfuerzo", "godin": "permiso"},
+    "02.10": {"cialdini": "autoridad", "rackham": "objeciones-prevencion", "dixon-effort": "esfuerzo", "doj-madoff": "confianza-verificacion"},
     "02.11": {"rackham": "objeciones-prevencion", "keenan": "impacto", "blount": "rechazo", "cialdini": "compromiso"},
     "02.12": {"solomon": "cultura", "sharp2": "situaciones-compra", "cialdini": "prueba-social", "godin": "publico-minimo"},
     "02.13": {"fader": "rfm", "croll-yoskovitz": "cohortes", "kaushik": "segmentacion", "flint": "recompra"},
@@ -108,7 +108,7 @@ ANCLAJES = {
     "06.07": {"aaker": "arquitectura", "keller-brand": "cbbe", "sharp2": "consistencia", "kotler": "mezcla"},
     "06.08": {"heath": "succes", "godin": "cambio", "sugarman": "resbaladilla", "handley": "empatia"},
     "06.09": {"keller-brand": "cbbe", "aaker": "equity", "binet-field": "corto-largo", "sharp": "disponibilidad"},
-    "06.10": {"reichheld": "proposito", "godin": "permiso", "dixon-effort": "resolucion-siguiente", "cialdini": "autoridad"},
+    "06.10": {"reichheld": "proposito", "godin": "permiso", "dixon-effort": "resolucion-siguiente", "fiscalia-ac-inversions": "estado-procesal"},
     "06.11": {"solomon": "identidad", "wheeler": "aplicabilidad", "handley": "estandar-editorial", "godin": "publico-minimo"},
     "06.12": {"chaffey": "omnicanal", "flint": "migracion-clientes", "krug": "no-pensar", "kotler": "canales"},
     "06.13": {"binet-field": "metricas-sesgo", "keller-brand": "medicion", "sharp": "penetracion", "kaushik": "plan-medicion"},
@@ -224,7 +224,7 @@ ANCLAJES = {
     "13.11": {"heath": "credibilidad", "ellet": "evidencia-caso", "handley": "estandar-editorial", "ogilvy": "investigacion"},
     "13.12": {"cialdini": "prueba-social", "sharp2": "situaciones-compra", "godin": "permiso", "reichheld": "nps-uso"},
     "13.13": {"handley": "edicion", "kohavi": "detencion-temprana", "sugarman": "coherencia-promesa", "laja": "potencia"},
-    "13.14": {"handley": "estandar-editorial", "pulizzi": "consistencia", "godin": "cambio", "wheeler": "gobierno"},
+    "13.14": {"handley": "estandar-editorial", "pulizzi": "consistencia", "godin": "cambio", "ca2-ftx-appeal": "afirmaciones-evidencia"},
 
     # ---------------------------------------------------------------- Parte 14
     "14.01": {"geddes": "subasta", "kaushik": "so-what", "chaffey": "modelo-canal", "ogilvy": "investigacion"},
@@ -239,7 +239,7 @@ ANCLAJES = {
     "14.10": {"croll-yoskovitz": "modelos", "kaushik": "plan-medicion", "kohavi": "metricas-sustitutas", "provost": "valor-esperado"},
     "14.11": {"kaushik": "multiplicidad", "provost": "asociacion-causalidad", "kohavi": "confianza", "chaffey": "gobierno-digital"},
     "14.12": {"wheeler-dv": "variacion-comun", "kohavi": "detencion-temprana", "geddes": "calidad", "kaushik": "segmentacion"},
-    "14.13": {"oneil": "auditoria", "kaushik": "so-what", "nist-airmf": "contexto", "chaffey": "gobierno-digital"},
+    "14.13": {"oneil": "auditoria", "kaushik": "so-what", "nist-airmf": "contexto", "doj-celsius-sentence": "seguridad-liquidez"},
     "14.14": {"kaushik": "plan-medicion", "geddes": "estructura-cuenta", "binet-field": "metricas-sesgo", "wheeler-dv": "graficos-control"},
 
     # ---------------------------------------------------------------- Parte 15
@@ -360,7 +360,7 @@ ANCLAJES = {
     "22.03": {"moore": "referencias", "rumelt": "foco", "godin": "publico-minimo", "porter-hbr": "renuncia"},
     "22.04": {"ross": "pipeline-predecible", "roberge": "contratacion-datos", "zoltners": "cuotas", "moore": "abismo"},
     "22.05": {"bush-plg": "moment-value", "cagan": "resultado-output", "ellis-brown": "must-have", "croll-yoskovitz": "modelos"},
-    "22.06": {"moore": "producto-completo", "weinberg-traction": "canales", "porter": "excedente", "ross": "tipos-lead"},
+    "22.06": {"moore": "producto-completo", "weinberg-traction": "canales", "porter": "excedente", "doj-onecoin-greenwood": "incentivos-captacion"},
     "22.07": {"moore": "ciclo-adopcion", "porter": "grupos-estrategicos", "nagle": "segmentacion-precio", "weinberg-traction": "bullseye"},
     "22.08": {"nagle": "cascada", "moore": "producto-completo", "croll-yoskovitz": "modelos", "porter": "excedente"},
     "22.09": {"moore": "abismo", "cagan": "riesgos", "roberge": "formacion", "handley": "estandar-editorial"},
@@ -375,7 +375,7 @@ ANCLAJES = {
     "23.02": {"grove": "delegacion", "lencioni": "accountability", "zoltners": "incentivos", "roberge": "formacion"},
     "23.03": {"roberge": "contratacion-datos", "collins": "personas-primero", "zoltners": "cuotas", "lencioni": "confianza"},
     "23.04": {"roberge": "formacion", "ericsson": "practica-deliberada", "grove": "delegacion", "ambrose": "practica-feedback"},
-    "23.05": {"zoltners": "incentivos", "grove": "output-gerencial", "roberge": "metricas-coaching", "collins": "disciplina"},
+    "23.05": {"zoltners": "incentivos", "grove": "output-gerencial", "roberge": "metricas-coaching", "doj-onecoin-greenwood": "incentivos-captacion"},
     "23.06": {"grove": "apalancamiento", "doerr": "foco", "kaplan-norton": "traduccion", "croll-yoskovitz": "linea-trazada"},
     "23.07": {"doerr": "okr", "grove": "indicadores-adelantados", "kaplan-norton": "indicadores-causales", "collins": "disciplina"},
     "23.08": {"grove": "output-gerencial", "roberge": "metricas-coaching", "wheeler-dv": "graficos-control", "kaplan-norton": "traduccion"},
@@ -398,7 +398,7 @@ ANCLAJES = {
     "24.09": {"roberge": "proceso-comprador", "diorio": "modelo-datos", "grove": "indicadores-adelantados", "provost": "formulacion"},
     "24.10": {"mehta": "resultado-cliente", "hulick": "primer-exito", "fader-ltv": "ltv-modelo", "dixon-effort": "esfuerzo"},
     "24.11": {"kaplan-norton": "cuatro-perspectivas", "croll-yoskovitz": "linea-trazada", "provost": "evaluacion", "kaushik": "so-what"},
-    "24.12": {"iso-31000": "proceso", "oneil": "auditoria", "nist-airmf": "gobernar", "rumelt": "diagnostico"},
+    "24.12": {"iso-31000": "proceso", "oneil": "auditoria", "nist-airmf": "gobernar", "sec-terraform-verdict": "mecanismo-estabilidad"},
     "24.13": {"ellet": "argumento", "heath": "maldicion-conocimiento", "rumelt": "mala-estrategia", "grove": "reuniones"},
     "24.14": {"ellet": "evidencia-caso", "ericsson": "representaciones", "ambrose": "motivacion", "wiggins": "diseno-inverso"},
 }

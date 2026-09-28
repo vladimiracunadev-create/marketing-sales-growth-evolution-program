@@ -981,6 +981,30 @@ APORTES = {
         "riesgo-residual": ("el riesgo residual aceptado de forma explícita y documentada",
                             "la cláusula sobre tratamiento del riesgo"),
     },
+    "doj-madoff": {
+        "confianza-verificacion": ("la confianza acumulada y los estados presentados no sustituyen la verificación independiente; la fuente registra declaración de culpabilidad y sentencia",
+                                    "el resumen del caso Bernard L. Madoff y sus hitos de marzo y junio de 2009"),
+    },
+    "fiscalia-ac-inversions": {
+        "estado-procesal": ("una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena",
+                            "la nota oficial de la audiencia de formalización del 4 de marzo de 2016"),
+    },
+    "doj-onecoin-greenwood": {
+        "incentivos-captacion": ("el análisis responsable separa la existencia de una red de incentivos de la prueba concreta sobre producto, mensajes y conducta acreditada",
+                                 "las secciones sobre red multinivel, comisiones, representaciones y sentencia de Greenwood"),
+    },
+    "ca2-ftx-appeal": {
+        "afirmaciones-evidencia": ("las afirmaciones de custodia y trato no privilegiado deben contrastarse con evidencia operativa; la condena fue confirmada en apelación",
+                                   "el resumen, los antecedentes y la conclusión de la opinión del Segundo Circuito"),
+    },
+    "doj-celsius-sentence": {
+        "seguridad-liquidez": ("las promesas públicas de fortaleza y liquidez requieren evidencia vigente y un protocolo de actualización cuando aparece información adversa",
+                               "los apartados sobre comunicaciones previas al bloqueo de retiros y la sentencia"),
+    },
+    "sec-terraform-verdict": {
+        "mecanismo-estabilidad": ("una etiqueta de estabilidad no reemplaza la explicación verificable del mecanismo, sus límites y las intervenciones que lo sostienen",
+                                  "los apartados sobre UST, el veredicto civil y el acuerdo final"),
+    },
 
     # ================================================================ PEDAGOGÍA
     "ambrose": {

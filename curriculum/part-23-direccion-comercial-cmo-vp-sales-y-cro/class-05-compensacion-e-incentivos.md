@@ -6,7 +6,7 @@ Clase 5 de 14 de la parte [23 — Dirección comercial: CMO, VP Sales y CRO](REA
 
 Vienes de la clase 23.04, *Onboarding de equipos comerciales*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
-Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de dispersión de descuentos con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
+Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de descuento ponderado con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
 
 Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que terminaste cuando exista el entregable y puedas responder las seis preguntas de comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que produjiste es un documento, no un criterio.
 
@@ -16,22 +16,22 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-El esquema de compensación es la declaración más honesta de lo que la empresa realmente quiere. Zoltners documenta que los incentivos producen exactamente el comportamiento que premian, incluidos los efectos no deseados: premiar sólo ingreso nuevo produce descuentos agresivos y clientes que no renuevan. El diseño debe incluir contrapesos y ser simple de entender.
+El esquema de compensación es la declaración más honesta de lo que la empresa realmente quiere. Zoltners documenta que los incentivos producen exactamente el comportamiento que premian, incluidos los efectos no deseados: premiar sólo ingreso nuevo produce descuentos agresivos y clientes que no renuevan. El diseño debe incluir contrapesos y ser simple de entender. Nuevos aportes de inversionistas o fondos captados para invertir no son ingreso comercial; volumen, crecimiento y rentabilidad son magnitudes distintas y no pueden compartir una etiqueta de logro.
 
 La clase trata el tema como un problema de evidencia y de consecuencia, no como vocabulario. La parte 23 busca **dirigir la función de ingresos: personas, sistema, números y gobierno**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **compensación e incentivos** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
 > **Pregunta rectora de la parte:** ¿Qué debe existir para que el resultado no dependa de que yo esté en cada reunión?
 
-Los conceptos que estructuran la sesión son **estructura de compensación**, **efecto no deseado**, **contrapeso** y **comprensibilidad**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **estructura de compensación**, **efecto no deseado**, **contrapeso**, **comprensibilidad** y **base elegible**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `estructura de compensación`, `efecto no deseado`, `contrapeso` y `comprensibilidad` por sus observables y no por su definición memorizada.
+1. **Distinguir** `estructura de compensación`, `efecto no deseado`, `contrapeso`, `comprensibilidad` y `base elegible` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Dirección comercial: CMO, VP Sales y CRO**.
-3. **Aplicar** la secuencia **declarar qué comportamiento se quiere producir → diseñar el esquema y simular sus efectos → identificar los efectos no deseados posibles → incorporar contrapesos sobre margen y retención → verificar que el esquema sea comprensible y estable** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **dispersión de descuentos**, **retención de clientes por vendedor** y **comprensión del esquema** indicando numerador, denominador, ventana, fuente y uso permitido.
+3. **Aplicar** la secuencia **declarar qué comportamiento se quiere producir → diseñar el esquema y simular sus efectos → identificar los efectos no deseados posibles → incorporar contrapesos sobre margen, retención, reclamos y transparencia → verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles** conservando supuestos, alternativas descartadas y trazabilidad.
+4. **Operacionalizar** **descuento ponderado**, **retención por vendedor** y **comprensión del esquema** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -41,7 +41,7 @@ Al terminar esta clase serás capaz de:
 |---|---|---|
 | 0–15 min | Recuperación | Define **estructura de compensación** y **efecto no deseado** sin mirar el material; corrige después con la tabla de conceptos. |
 | 15–45 min | Núcleo conceptual | Lectura del desarrollo y construcción de la tabla `hecho / inferencia / supuesto`. |
-| 45–75 min | Medición | Ficha de la señal **dispersión de descuentos**: fórmula, fuente, ventana y lectura prohibida. |
+| 45–75 min | Medición | Ficha de la señal **descuento ponderado**: fórmula, fuente, ventana y lectura prohibida. |
 | 75–110 min | Ejemplo trabajado | Recorrido de los 5 pasos del método sobre el caso de la clase. |
 | 110–140 min | Caso ejecutivo | Dos alternativas, trade-offs, recomendación y señal de detención. |
 | 140–150 min | Cierre | Entregable, preguntas de comprobación y registro de lo que aún no sabes. |
@@ -54,13 +54,14 @@ Al terminar esta clase serás capaz de:
 | **efecto no deseado** | comportamiento perverso inducido por el diseño del incentivo | Da un hecho compatible con la definición y otro que la refute. |
 | **contrapeso** | componente que penaliza el resultado obtenido a costa de otro objetivo | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **comprensibilidad** | capacidad del vendedor de calcular su propia remuneración | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **base elegible** | venta comercial cobrada y válida que excluye aportes de capital, depósitos o captación financiera | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. declarar qué comportamiento se quiere producir → 2. diseñar el esquema y simular sus efectos → 3. identificar los efectos no deseados posibles → 4. incorporar contrapesos sobre margen y retención → 5. verificar que el esquema sea comprensible y estable
+1. declarar qué comportamiento se quiere producir → 2. diseñar el esquema y simular sus efectos → 3. identificar los efectos no deseados posibles → 4. incorporar contrapesos sobre margen, retención, reclamos y transparencia → 5. verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -75,7 +76,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 Un plan de compensación es el instrumento que más influye en la conducta del equipo comercial, y produce exactamente lo que premia. Antes de diseñarlo conviene preguntar qué conducta se quiere obtener, y después verificar qué otras conductas el diseño hace rentables sin haberlo pretendido.
 
-**De dónde viene esta afirmación.** Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) aporta la idea que sostiene este bloque: los efectos no deseados que produce cada estructura de incentivo. Búscala en los capítulos sobre diseño de planes de compensación. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «dispersión de descuentos» debería moverse cuando cambie **estructura de compensación**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
+**De dónde viene esta afirmación.** Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) aporta la idea que sostiene este bloque: los efectos no deseados que produce cada estructura de incentivo. Búscala en los capítulos sobre diseño de planes de compensación. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «descuento ponderado» debería moverse cuando cambie **estructura de compensación**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **efecto no deseado**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
@@ -95,7 +96,7 @@ Antes de pasar a «diseñar el esquema y simular sus efectos», registra explíc
 
 El contrapeso es el mecanismo que corrige el efecto no deseado sin abandonar el incentivo: un componente ligado a la retención, un requisito de calidad del negocio, un ajuste por descuento otorgado. Debe ser simple, porque un contrapeso complejo vuelve el plan incomprensible y por lo tanto inefectivo.
 
-Ficha de medición obligatoria para **dispersión de descuentos**: `descuento promedio otorgado, por vendedor y periodo`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **descuento ponderado**: `numerador: suma de descuento monetario concedido; denominador o base sobre la que se calcula: precio de lista de ventas cerradas; ventana: mes; fuente: cotizaciones y facturación`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** Mark Roberge — *The Sales Acceleration Formula* (2015) pone una condición sobre la medición: el acompañamiento dirigido por una métrica diagnóstica por vendedor (los capítulos sobre la fórmula de gestión). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
@@ -105,13 +106,13 @@ Ficha de medición obligatoria para **dispersión de descuentos**: `descuento pr
 
 Un plan sofisticado captura mejor los objetivos y deja de motivar cuando nadie puede calcular su comisión. La prueba de comprensibilidad es directa: pedir a tres vendedores que estimen su comisión ante un escenario. Si no coinciden, el plan no está funcionando como incentivo por más correcto que sea su diseño.
 
-**Lo que aporta la fuente.** Jim Collins — *Good to Great* (2001) aporta el criterio para pesar el intercambio: la cultura de disciplina que hace innecesaria la jerarquía excesiva (el capítulo sobre cultura de disciplina). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **comprensión del esquema** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** U.S. Attorney's Office, Southern District of New York — *Co-Founder of OneCoin Sentenced to 20 Years in Prison* (2023) aporta el criterio para pesar el intercambio: el análisis responsable separa la existencia de una red de incentivos de la prueba concreta sobre producto, mensajes y conducta acreditada (las secciones sobre red multinivel, comisiones, representaciones y sentencia de Greenwood). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **comprensión del esquema** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **comprensibilidad** y otro de un supuesto del caso que nunca fue validado.
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «verificar que el esquema sea comprensible y estable», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
 Los cambios de plan afectan el ingreso de personas y su comunicación importa tanto como su diseño. Anunciarlos con anticipación, explicar el criterio y considerar el efecto sobre quienes salen perjudicados es parte de la responsabilidad de dirección. Un cambio bien diseñado y mal comunicado produce rotación innecesaria.
 
@@ -134,7 +135,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — *The Complete Guide to Sales Force Incentive Compensation* (2006) | Los efectos no deseados que produce cada estructura de incentivo | Los capítulos sobre diseño de planes de compensación | ¿Qué debería observarse en **estructura de compensación** si aquí opera «los efectos no deseados que produce cada estructura de incentivo»? ¿Y qué observación lo desmentiría en este caso? |
 | Andrew S. Grove — *High Output Management* (1983) | El output del gerente es el de su organización más el de las unidades que influye | Los capítulos sobre el trabajo del gerente | ¿Qué debería observarse en **efecto no deseado** si aquí opera «el output del gerente es el de su organización más el de las unidades que influye»? ¿Y qué observación lo desmentiría en este caso? |
 | Mark Roberge — *The Sales Acceleration Formula* (2015) | El acompañamiento dirigido por una métrica diagnóstica por vendedor | Los capítulos sobre la fórmula de gestión | ¿Qué debería observarse en **contrapeso** si aquí opera «el acompañamiento dirigido por una métrica diagnóstica por vendedor»? ¿Y qué observación lo desmentiría en este caso? |
-| Jim Collins — *Good to Great* (2001) | La cultura de disciplina que hace innecesaria la jerarquía excesiva | El capítulo sobre cultura de disciplina | ¿Qué debería observarse en **comprensibilidad** si aquí opera «la cultura de disciplina que hace innecesaria la jerarquía excesiva»? ¿Y qué observación lo desmentiría en este caso? |
+| U.S. Attorney's Office, Southern District of New York — *Co-Founder of OneCoin Sentenced to 20 Years in Prison* (2023) | El análisis responsable separa la existencia de una red de incentivos de la prueba concreta sobre producto, mensajes y conducta acreditada | Las secciones sobre red multinivel, comisiones, representaciones y sentencia de Greenwood | ¿Qué debería observarse en **comprensibilidad** si aquí opera «el análisis responsable separa la existencia de una red de incentivos de la prueba concreta sobre producto, mensajes y conducta acreditada»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -144,15 +145,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** La comisión de Ruta Andina paga sobre ingreso firmado sin considerar margen ni permanencia. El descuento promedio de cierre de mes es 22 % y esos clientes retienen la mitad.
 
-**Paso 1 — Declarar qué comportamiento se quiere producir.** El equipo escribe primero el supuesto asociado a **estructura de compensación** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **dispersión de descuentos** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Declarar qué comportamiento se quiere producir.** El equipo escribe primero el supuesto asociado a **estructura de compensación** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **descuento ponderado** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Diseñar el esquema y simular sus efectos.** El trabajo aquí es separar lo observado de lo inferido sobre **efecto no deseado**. La evidencia que ordena la discusión es **retención de clientes por vendedor**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Diseñar el esquema y simular sus efectos.** El trabajo aquí es separar lo observado de lo inferido sobre **efecto no deseado**. La evidencia que ordena la discusión es **retención por vendedor**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
 **Paso 3 — Identificar los efectos no deseados posibles.** El riesgo de este paso es cerrar demasiado rápido alrededor de **contrapeso**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **comprensión del esquema** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Incorporar contrapesos sobre margen y retención.** Con **comprensibilidad** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **dispersión de descuentos** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Incorporar contrapesos sobre margen, retención, reclamos y transparencia.** Con **comprensibilidad** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **descuento ponderado** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Verificar que el esquema sea comprensible y estable.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **estructura de compensación**. **retención de clientes por vendedor** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **base elegible**. **retención por vendedor** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -160,7 +161,7 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 | Camino | Qué privilegia | Cuándo elegirlo | Riesgo principal |
 |---|---|---|---|
-| Actuar sobre **estructura de compensación** | Combinación de fijo, variable y aceleradores del esquema | Cuando **dispersión de descuentos** es observable y accionable en el plazo de la decisión. | Sobrerreaccionar a una señal parcial. |
+| Actuar sobre **estructura de compensación** | Combinación de fijo, variable y aceleradores del esquema | Cuando **descuento ponderado** es observable y accionable en el plazo de la decisión. | Sobrerreaccionar a una señal parcial. |
 | Actuar sobre **efecto no deseado** | Comportamiento perverso inducido por el diseño del incentivo | Cuando la primera explicación no distingue mecanismo ni responsable. | Convertir el concepto en etiqueta y no en intervención. |
 | Experimentar antes de decidir | Aprender antes de comprometer recursos mayores | Cuando la decisión es reversible y la incertidumbre es alta. | Experimentar indefinidamente y no decidir. |
 | Escalar la decisión | Elevar autoridad, especialidad o control legal | Cuando hay compromisos contractuales, datos personales, regulación o irreversibilidad. | Delegar hacia arriba lo que sí correspondía decidir. |
@@ -192,8 +193,8 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **declarar qué comportamiento se quiere producir → diseñar el esquema y simular sus efectos → identificar los efectos no deseados posibles → incorporar contrapesos sobre margen y retención → verificar que el esquema sea comprensible y estable** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
-| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **dispersión de descuentos**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **declarar qué comportamiento se quiere producir → diseñar el esquema y simular sus efectos → identificar los efectos no deseados posibles → incorporar contrapesos sobre margen, retención, reclamos y transparencia → verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **descuento ponderado**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Complete Guide to Sales Force Incentive Compensation* y la de *High Output Management*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
 | 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
@@ -205,8 +206,8 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **estructura de compensación** y **efecto no deseado** como sinónimos | Se perdió la distinción entre «combinación de fijo, variable y aceleradores del esquema» y «comportamiento perverso inducido por el diseño del incentivo» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «verificar que el esquema sea comprensible y estable» | Se saltó «declarar qué comportamiento se quiere producir»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **dispersión de descuentos** | La métrica local reemplazó al resultado del sistema | Contrástala con **comprensión del esquema** y explicita el costo de oportunidad. |
+| Empezar por «verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles» | Se saltó «declarar qué comportamiento se quiere producir»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Optimizar sólo **descuento ponderado** | La métrica local reemplazó al resultado del sistema | Contrástala con **comprensión del esquema** y explicita el costo de oportunidad. |
 | Compensar sólo ingreso firmado | Error específico de esta clase | Incorpora contrapesos de margen y permanencia, y verifica que el esquema siga siendo comprensible. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -215,7 +216,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 1. Explica la diferencia entre **estructura de compensación** y **efecto no deseado** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **contrapeso** y qué observación te obligaría a rechazar tu interpretación?
 3. Aplica «declarar qué comportamiento se quiere producir» al caso de la clase. ¿Qué dato sigue faltando?
-4. ¿Por qué **dispersión de descuentos** no basta por sí sola para atribuir causalidad?
+4. ¿Por qué **descuento ponderado** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un esquema con demasiados componentes deja de orientar el comportamiento porque nadie entiende qué maximiza. La simplicidad tiene valor propio»?
 
@@ -228,8 +229,8 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
 | 2 | Dos observaciones concretas: una que confirmaría **contrapeso** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
-| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **dispersión de descuentos**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Complete Guide to Sales Force Incentive Compensation* y *Good to Great*. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **descuento ponderado**. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Complete Guide to Sales Force Incentive Compensation* y *Co-Founder of OneCoin Sentenced to 20 Years in Prison*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +252,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P23-C05-compensacion-e-incentivos/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **dispersión de descuentos**, **retención de clientes por vendedor** y **comprensión del esquema** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **descuento ponderado**, **retención por vendedor** y **comprensión del esquema** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -279,7 +280,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Andris A. Zoltners, Prabhakant Sinha y Sally E. Lorimer — [*The Complete Guide to Sales Force Incentive Compensation*](https://openlibrary.org/isbn/9780814473245) (2006) · ISBN 9780814473245 — **aporta a esta clase:** los efectos no deseados que produce cada estructura de incentivo. **Dónde buscarlo:** los capítulos sobre diseño de planes de compensación. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Andrew S. Grove — [*High Output Management*](https://openlibrary.org/isbn/9780394532349) (1983) · ISBN 9780394532349 — **aporta a esta clase:** el output del gerente es el de su organización más el de las unidades que influye. **Dónde buscarlo:** los capítulos sobre el trabajo del gerente. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Mark Roberge — [*The Sales Acceleration Formula*](https://openlibrary.org/isbn/9781119047018) (2015) · ISBN 9781119047018 — **aporta a esta clase:** el acompañamiento dirigido por una métrica diagnóstica por vendedor. **Dónde buscarlo:** los capítulos sobre la fórmula de gestión. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
-- Jim Collins — [*Good to Great*](https://openlibrary.org/isbn/9780066620992) (2001) · ISBN 9780066620992 — **aporta a esta clase:** la cultura de disciplina que hace innecesaria la jerarquía excesiva. **Dónde buscarlo:** el capítulo sobre cultura de disciplina. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- U.S. Attorney's Office, Southern District of New York — [*Co-Founder of OneCoin Sentenced to 20 Years in Prison*](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) (2023) · fuente primaria — **aporta a esta clase:** el análisis responsable separa la existencia de una red de incentivos de la prueba concreta sobre producto, mensajes y conducta acreditada. **Dónde buscarlo:** las secciones sobre red multinivel, comisiones, representaciones y sentencia de Greenwood. **Acceso:** gratis. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

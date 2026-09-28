@@ -39,7 +39,7 @@ Las obras que ordenan el criterio de cada parte. El índice de cada una lista ad
 
 ## Libros de referencia por área
 
-Las 97 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
+Las 103 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
 
 ### Marketing
 
@@ -189,7 +189,13 @@ Las 97 obras del programa, agrupadas por lo que aportan. El título enlaza al ca
 
 ### Ética y consecuencias
 
+- U.S. Attorney's Office, Southern District of New York — [*Co-Founder of OneCoin Sentenced to 20 Years in Prison*](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) (2023) — promesas de producto e incentivos de captación acreditados en una condena.
+- Corte de Apelaciones del Segundo Circuito de Estados Unidos — [*Estados Unidos contra Bankman-Fried, 24-961-cr*](https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf) (2026) — afirmaciones sobre custodia y trato a Alameda contrastadas con prueba y revisión judicial.
+- U.S. Attorney's Office, Southern District of New York — [*Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation*](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) (2025) — promesas de seguridad, liquidez y comunicación previa al bloqueo de retiros.
 - ISO — *ISO 31000: Gestión del riesgo* (2018) — vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales.
+- Fiscalía de Chile — [*Por dos delitos formalizan a ex gerente de AC Inversions*](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions) (2016) — formalización y alegaciones para practicar estado procesal sin tratarlas como condena.
+- Comisión de Bolsa y Valores de Estados Unidos (SEC) — [*Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude*](https://www.sec.gov/newsroom/press-releases/2024-73) (2024) — explicación del mecanismo y evidencia exigible antes de prometer estabilidad.
+- U.S. Attorney's Office, Southern District of New York — [*United States v. Bernard L. Madoff and Related Cases*](https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases) (2009) — declaración de culpabilidad y sentencia como contraste entre confianza y verificación.
 - Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) — daños de los modelos opacos a escala y necesidad de auditoría.
 
 ### Dirección y organización
@@ -240,7 +246,13 @@ Listado ampliado con fecha de consulta en [`FUENTES-OFICIALES.md`](FUENTES-OFICI
 Las normas de arriba, completas. Y estas obras, que su autor o su organismo publican de forma gratuita:
 
 - NIST — [*AI Risk Management Framework 1.0*](https://doi.org/10.6028/NIST.AI.100-1) (2023).
+- U.S. Attorney's Office, Southern District of New York — [*Co-Founder of OneCoin Sentenced to 20 Years in Prison*](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) (2023).
+- Corte de Apelaciones del Segundo Circuito de Estados Unidos — [*Estados Unidos contra Bankman-Fried, 24-961-cr*](https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf) (2026).
+- U.S. Attorney's Office, Southern District of New York — [*Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation*](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) (2025).
 - Andrew Ng — [*Machine Learning Yearning*](https://info.deeplearning.ai/machine-learning-yearning-book) (2018).
+- Fiscalía de Chile — [*Por dos delitos formalizan a ex gerente de AC Inversions*](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions) (2016).
+- Comisión de Bolsa y Valores de Estados Unidos (SEC) — [*Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude*](https://www.sec.gov/newsroom/press-releases/2024-73) (2024).
+- U.S. Attorney's Office, Southern District of New York — [*United States v. Bernard L. Madoff and Related Cases*](https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases) (2009).
 
 El resto son libros comerciales y documentación de editor: se compran, se piden en biblioteca o se consultan por suscripción. El programa **no distribuye ninguna** y no reproduce sus textos.
 

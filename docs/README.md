@@ -19,10 +19,10 @@
 | Documento | Contenido |
 |---|---|
 | [Mapa del currículo](MAPA-DEL-CURRICULO.md) | 24 partes y 336 clases con conceptos y señales · **generado** |
-| [Glosario](GLOSARIO.md) | 1.348 términos con definición operacional · **generado** |
-| [Fórmulas y métricas](FORMULAS-Y-METRICAS.md) | 1.012 señales con su ficha de medición · **generado** |
+| [Glosario](GLOSARIO.md) | 1.296 términos únicos con definición operacional · **generado** |
+| [Fórmulas y métricas](FORMULAS-Y-METRICAS.md) | 960 señales únicas con su ficha de medición · **generado** |
 | [Fuentes](FUENTES.md) | Las obras y enlaces que sostienen el programa, con su dirección · **generado** |
-| [Bibliografía](BIBLIOGRAFIA.md) | 97 obras con el lente que aporta cada una · **generado** |
+| [Bibliografía](BIBLIOGRAFIA.md) | 103 obras con el lente que aporta cada una · **generado** |
 | [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) | Competencias, roles y artefactos por parte · **generado** |
 | [Caso avanzado MEDVi](../cases/case-24-empresa-real-regulacion-y-capstone.md) | Growth AI-native, amplificación del error, publicidad sanitaria, claims, afiliados y compliance |
 

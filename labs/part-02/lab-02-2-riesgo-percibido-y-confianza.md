@@ -31,21 +31,22 @@ Producir un componente defendible de **expediente de cliente con cadena segmento
 
 1. Enumerar los riesgos percibidos por cada rol.
 2. Clasificarlos en económico, operativo, reputacional y personal.
-3. Asignar a cada riesgo una señal de confianza verificable.
-4. Aumentar la reversibilidad donde el riesgo es alto.
-5. Medir el efecto sobre avance y sobre calidad del cliente ganado.
-6. Calcular o diseñar la captura de **objeciones de riesgo por negocio**, **uso de referencias en negocios ganados** y **tasa de conversión con garantía**.
-7. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
-8. Verificar el riesgo declarado de la parte: Construir personas ficticias sin datos y usarlas para justificar decisiones caras.
-9. Redactar la recomendación con responsable, fecha, umbral de éxito y condición de detención.
+3. Clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo.
+4. Asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable.
+5. Aumentar la reversibilidad donde el riesgo es alto.
+6. Decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión.
+7. Calcular o diseñar la captura de **objeciones de riesgo por negocio**, **cobertura de evidencia** y **tasa de reversión informada**.
+8. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
+9. Verificar el riesgo declarado de la parte: Construir personas ficticias sin datos y usarlas para justificar decisiones caras.
+10. Redactar la recomendación con responsable, fecha, umbral de éxito y condición de detención.
 
 ## Fichas de medición obligatorias
 
 | Señal | Definición operacional |
 |---|---|
-| **objeciones de riesgo por negocio** | objeciones clasificadas como riesgo, sobre objeciones totales registradas en el periodo |
-| **uso de referencias en negocios ganados** | negocios donde se entregó una referencia verificable, sobre negocios cerrados |
-| **tasa de conversión con garantía** | conversión de la oferta con garantía explícita frente a la oferta sin garantía |
+| **objeciones de riesgo por negocio** | numerador: objeciones clasificadas como riesgo; denominador o base sobre la que se calcula: objeciones totales; ventana: mes móvil; fuente: CRM con motivo codificado |
+| **cobertura de evidencia** | numerador: afirmaciones con evidencia primaria vigente; denominador o base sobre la que se calcula: afirmaciones comerciales revisadas; ventana: cada ciclo editorial; fuente: registro de afirmaciones |
+| **tasa de reversión informada** | numerador: compras deshechas dentro del plazo informado; denominador o base sobre la que se calcula: compras con reversibilidad ofrecida; ventana: 90 días; fuente: contratos, facturación y soporte |
 | **tamaño y estabilidad del segmento** | clientes en el segmento y porcentaje que permanece en él entre dos periodos consecutivos |
 | **diferencial de respuesta** | diferencia de conversión o retención entre segmentos ante el mismo tratamiento |
 | **valor promedio por segmento** | ingreso y margen promedio por cliente en cada segmento conductual |

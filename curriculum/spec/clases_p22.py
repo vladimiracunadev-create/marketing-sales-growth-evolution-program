@@ -212,25 +212,28 @@ CLASES = [
             "Los socios aportan acceso, credibilidad e implementación a cambio de margen y de control. "
             "Funcionan cuando existe un incentivo económico real para el socio y cuando la empresa puede "
             "sostener su habilitación. El error frecuente es firmar muchos acuerdos y no activar ninguno: un "
-            "socio sin incentivo, sin formación y sin apoyo comercial no vende."
+            "socio sin incentivo, sin formación y sin apoyo comercial no vende. El incentivo debe remunerar "
+            "valor comercial verificable, no sólo captación: una red de referidos no demuestra fraude por sí "
+            "sola, pero exige trazabilidad, divulgación y límites para evitar presión y promesas no aprobadas."
         ),
         conceptos=[
             ("incentivo del socio", "beneficio económico que justifica su esfuerzo comercial"),
             ("habilitación", "formación, materiales y apoyo que permiten al socio vender y entregar"),
             ("socio activo", "aliado que generó negocio en el periodo, frente al que sólo firmó acuerdo"),
             ("conflicto de canal", "competencia entre el equipo propio y el socio por la misma cuenta"),
+            ("incentivo responsable", "pago trazable condicionado a venta válida, información completa y ausencia de reclamos fundados"),
         ],
         metodo=[
-            "definir el incentivo económico del socio",
+            "definir conducta remunerada, conducta prohibida y divulgación del incentivo",
             "diseñar el programa de habilitación",
             "establecer reglas de conflicto de canal",
-            "medir socios activos y no acuerdos firmados",
-            "concentrar el apoyo en los socios que producen",
+            "medir ventas válidas y calidad posterior, no incorporaciones ni dinero captado",
+            "suspender pagos y comunicación cuando falte evidencia o aparezca información adversa material",
         ],
         senales=[
-            ("proporción de socios activos", "socios con negocio en el periodo, sobre socios con acuerdo firmado"),
-            ("ingreso por socio activo", "ingreso generado, por socio con actividad"),
-            ("conflictos de canal registrados", "disputas por cuenta entre equipo propio y socios, por trimestre"),
+            ("proporción de socios activos", "numerador: socios con venta comercial válida; denominador o base sobre la que se calcula: socios habilitados; ventana: trimestre; fuente: CRM y facturación"),
+            ("calidad de ventas referidas", "numerador: ventas referidas sin reversión ni reclamo fundado; denominador o base sobre la que se calcula: ventas referidas; ventana: 90 días; fuente: CRM, facturación y soporte"),
+            ("incentivos divulgados", "numerador: piezas y conversaciones auditadas con divulgación; denominador o base sobre la que se calcula: piezas y conversaciones auditadas con incentivo; ventana: mes; fuente: archivo de piezas y muestreo de interacciones"),
         ],
         caso=(
             "Ruta Andina firmó 22 acuerdos con estudios contables. Tres han generado negocio y ninguno "
@@ -240,7 +243,7 @@ CLASES = [
             "El canal indirecto reduce el margen unitario y aleja la relación con el cliente final. Su "
             "conveniencia depende del costo de acceso directo a ese segmento."
         ),
-        libros=["moore", "weinberg-traction", "porter", "ross"],
+        libros=["moore", "weinberg-traction", "porter", "doj-onecoin-greenwood"],
         error=("Firmar acuerdos sin programa de habilitación",
                "Mide socios activos y concentra formación e incentivos en los que producen negocio."),
     ),

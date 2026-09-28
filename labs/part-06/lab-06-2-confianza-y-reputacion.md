@@ -6,7 +6,7 @@
 
 Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.
 
-**Situación específica del laboratorio.** Una caída de ocho horas dejó a 120 clientes de Ruta Andina sin agenda. La empresa no comunicó nada hasta que los reclamos aparecieron en un grupo gremial.
+**Situación específica del laboratorio.** Una caída de ocho horas dejó a 120 clientes de Ruta Andina sin agenda. La empresa no comunicó nada hasta que los reclamos aparecieron en un grupo gremial. El contraste documental de AC Inversions se usa sólo para practicar la etiqueta «formalización y alegaciones de Fiscalía», no para convertir esa actuación de 2016 en condena ni para atribuirla a Ruta Andina.
 
 **Restricciones vigentes.** Presupuesto de marketing y ventas acotado, un solo analista de datos compartido, obligación de cumplir la Ley 19.496 del consumidor y de prepararse para la Ley 21.719 de datos personales, y un competidor regional con más capital.
 
@@ -29,12 +29,12 @@ Producir un componente defendible de **brand book mínimo viable con activos dis
 
 ## Procedimiento
 
-1. Monitorear señales públicas de reputación.
-2. Definir el protocolo de respuesta ante incidentes.
-3. Reconocer y reparar antes de comunicar.
-4. Documentar la causa raíz y la prevención.
-5. Medir la recuperación en indicadores de confianza.
-6. Calcular o diseñar la captura de **tiempo de respuesta ante incidente**, **tasa de reclamos resueltos en primera instancia** y **evolución de menciones negativas**.
+1. Monitorear señales públicas y verificar su fuente y estado procesal.
+2. Activar un protocolo con dueño, canal, plazo y criterio de término.
+3. Comunicar hechos confirmados, incertidumbres y protección inmediata al cliente.
+4. Corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta.
+5. Cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia.
+6. Calcular o diseñar la captura de **respuesta material oportuna**, **resolución en primera instancia** y **actualizaciones cumplidas**.
 7. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
 8. Verificar el riesgo declarado de la parte: Confundir gusto estético del equipo con construcción de memoria en el mercado.
 9. Redactar la recomendación con responsable, fecha, umbral de éxito y condición de detención.
@@ -43,9 +43,9 @@ Producir un componente defendible de **brand book mínimo viable con activos dis
 
 | Señal | Definición operacional |
 |---|---|
-| **tiempo de respuesta ante incidente** | horas entre la detección del incidente y la comunicación al cliente afectado |
-| **tasa de reclamos resueltos en primera instancia** | reclamos cerrados sin escalamiento, sobre reclamos recibidos |
-| **evolución de menciones negativas** | variación del volumen de menciones negativas tras el incidente |
+| **respuesta material oportuna** | numerador: incidentes con aviso dentro del plazo; denominador o base sobre la que se calcula: incidentes materiales; ventana: trimestre; fuente: bitácora de incidentes y envíos |
+| **resolución en primera instancia** | numerador: reclamos cerrados sin escalamiento; denominador o base sobre la que se calcula: reclamos recibidos; ventana: mes móvil; fuente: mesa de ayuda |
+| **actualizaciones cumplidas** | numerador: actualizaciones emitidas en la fecha prometida; denominador o base sobre la que se calcula: actualizaciones comprometidas; ventana: por incidente; fuente: bitácora y archivo de comunicaciones |
 | **notoriedad espontánea por ola** | proporción que nombra la marca sin ayuda, por ola y por segmento |
 | **consideración por ola** | proporción que incluiría la marca en su evaluación, por ola |
 | **relación marca-costo de adquisición** | correlación observada entre indicadores de marca y costo por cliente ganado |

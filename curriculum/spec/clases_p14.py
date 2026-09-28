@@ -495,37 +495,42 @@ CLASES = [
         tesis=(
             "La publicidad digital tiene tres riesgos que no aparecen en el tablero: tráfico no humano que "
             "consume presupuesto, aparición junto a contenido que daña la marca y tratamiento de datos "
-            "personales sin base suficiente. Los tres se gestionan con controles previos —listas de "
-            "exclusión, verificación de inventario, revisión de consentimiento— y no con reacciones "
-            "posteriores."
+            "personales sin base suficiente. Se suma el riesgo de una pieza que promete seguridad, liquidez o "
+            "rentabilidad sin evidencia suficiente o que omite una limitación material. Todos se gestionan "
+            "con controles previos —listas de exclusión, verificación de inventario, revisión de "
+            "consentimiento y expediente de afirmaciones— y no con reacciones posteriores."
         ),
         conceptos=[
             ("tráfico no válido", "interacciones generadas por sistemas automatizados que no corresponden a personas"),
             ("seguridad de marca", "control sobre el entorno donde aparece el anuncio"),
             ("consentimiento de cookies", "autorización informada para el uso de identificadores de seguimiento"),
             ("control previo", "medida establecida antes de la exposición que reduce el riesgo"),
+            ("expediente de afirmación", "evidencia, alcance, limitación, responsable y decisión asociados a una promesa publicitaria"),
         ],
         metodo=[
             "revisar los informes de calidad de tráfico",
             "definir listas de exclusión de sitios y categorías",
             "verificar el mecanismo de consentimiento del sitio propio",
-            "auditar el tratamiento de datos en las plataformas usadas",
-            "documentar los controles y revisarlos cada semestre",
+            "auditar el tratamiento de datos y las afirmaciones de seguridad, disponibilidad o retorno",
+            "retirar la pieza sin respaldo y documentar controles, responsables y próxima revisión",
         ],
         senales=[
-            ("proporción de tráfico no válido", "interacciones marcadas como inválidas, sobre interacciones totales"),
-            ("apariciones en contexto no deseado", "impresiones en sitios excluidos o inapropiados, sobre impresiones totales"),
-            ("tasa de consentimiento válido", "visitantes con consentimiento registrado conforme, sobre visitantes totales"),
+            ("proporción de tráfico no válido", "numerador: interacciones marcadas como inválidas; denominador o base sobre la que se calcula: interacciones totales; ventana: mes; fuente: plataforma y verificador independiente si existe"),
+            ("apariciones en contexto no deseado", "numerador: impresiones en sitios excluidos; denominador o base sobre la que se calcula: impresiones totales; ventana: semana; fuente: informe de ubicación"),
+            ("afirmaciones publicitarias respaldadas", "numerador: afirmaciones con expediente aprobado; denominador o base sobre la que se calcula: afirmaciones activas; ventana: cada publicación y revisión trimestral; fuente: registro de aprobación"),
         ],
         caso=(
             "Ruta Andina descubre que el 14 % de sus clics proviene de sitios de contenido descargable y que "
-            "su banner apareció junto a contenido incompatible con su marca."
+            "su banner apareció junto a contenido incompatible con su marca. Sin atribuirle fraude, la empresa "
+            "añade un control preventivo para que ninguna pieza declare seguridad, disponibilidad o retorno "
+            "sin evidencia, limitación y responsable. Celsius se estudia como contraste documentado por una "
+            "declaración de culpabilidad y sentencia de 2025, no como analogía sobre Ruta Andina."
         ),
         limite=(
             "Los controles reducen el riesgo pero también el alcance disponible y pueden subir el costo. La "
             "decisión debe ser explícita y no un efecto colateral."
         ),
-        libros=["oneil", "kaushik", "nist-airmf", "chaffey"],
+        libros=["oneil", "kaushik", "nist-airmf", "doj-celsius-sentence"],
         error=("Operar sin listas de exclusión ni revisión de tráfico",
                "Define exclusiones y revisa mensualmente los informes de calidad de tráfico."),
     ),

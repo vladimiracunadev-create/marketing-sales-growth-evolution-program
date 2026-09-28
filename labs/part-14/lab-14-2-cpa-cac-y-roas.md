@@ -46,9 +46,9 @@ Producir un componente defendible de **plan de performance con estructura de cam
 | **costo de adquisición completo por canal** | gasto total atribuible dividido por clientes nuevos del canal |
 | **proporción de ingreso incremental** | ingreso incremental estimado, sobre ingreso atribuido |
 | **relación valor de vida a costo de adquisición** | valor de vida dividido por costo de adquisición, por canal |
-| **proporción de tráfico no válido** | interacciones marcadas como inválidas, sobre interacciones totales |
-| **apariciones en contexto no deseado** | impresiones en sitios excluidos o inapropiados, sobre impresiones totales |
-| **tasa de consentimiento válido** | visitantes con consentimiento registrado conforme, sobre visitantes totales |
+| **proporción de tráfico no válido** | numerador: interacciones marcadas como inválidas; denominador o base sobre la que se calcula: interacciones totales; ventana: mes; fuente: plataforma y verificador independiente si existe |
+| **apariciones en contexto no deseado** | numerador: impresiones en sitios excluidos; denominador o base sobre la que se calcula: impresiones totales; ventana: semana; fuente: informe de ubicación |
+| **afirmaciones publicitarias respaldadas** | numerador: afirmaciones con expediente aprobado; denominador o base sobre la que se calcula: afirmaciones activas; ventana: cada publicación y revisión trimestral; fuente: registro de aprobación |
 
 Cada ficha debe indicar además: fuente del dato, frecuencia de cálculo, responsable, lectura permitida y lectura prohibida. Si el dato no existe, se diseña el mecanismo de captura y se declara su costo.
 

@@ -966,6 +966,28 @@
       "status": "verificada"
     },
     {
+      "id": "ca2-ftx-appeal",
+      "type": "reference",
+      "authors": [
+        "Corte de Apelaciones del Segundo Circuito de Estados Unidos"
+      ],
+      "title": "Estados Unidos contra Bankman-Fried, 24-961-cr",
+      "published": "2026",
+      "edition": "2026",
+      "authority": "Corte de Apelaciones del Segundo Circuito de Estados Unidos",
+      "category": "etica",
+      "contribution": "afirmaciones sobre custodia y trato a Alameda contrastadas con prueba y revisión judicial",
+      "cited_as": "Corte de Apelaciones del Segundo Circuito de Estados Unidos",
+      "access": "abierta",
+      "locator": "https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Estados Unidos, Segundo Circuito. Condena de 2023 y sentencia de 2024 revisadas en 24-961-cr. Publicación: 12-06-2026. La Corte confirmó el fallo; distingue prueba, condena y recurso resuelto.",
+      "used_in": [
+        "curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "cagan",
       "type": "book",
       "authors": [
@@ -1049,7 +1071,6 @@
         "curriculum/part-14-publicidad-y-performance-marketing/class-07-linkedin-ads-arquitectura-conceptual.md",
         "curriculum/part-14-publicidad-y-performance-marketing/class-09-ctr-cpc-y-cpm.md",
         "curriculum/part-14-publicidad-y-performance-marketing/class-11-tracking-y-atribucion.md",
-        "curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md",
         "curriculum/part-15-e-commerce-y-marketplaces/class-01-modelo-operativo-e-commerce.md",
         "curriculum/part-15-e-commerce-y-marketplaces/class-02-catalogo-y-merchandising-digital.md",
         "curriculum/part-15-e-commerce-y-marketplaces/class-05-pagos.md",
@@ -1117,7 +1138,6 @@
         "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-12-contexto-cultural-y-social.md",
         "curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md",
         "curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md",
-        "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md",
         "curriculum/part-08-fundamentos-profesionales-de-ventas/class-03-apertura-y-rapport.md",
         "curriculum/part-08-fundamentos-profesionales-de-ventas/class-09-manejo-de-objeciones.md",
         "curriculum/part-08-fundamentos-profesionales-de-ventas/class-11-cierre.md",
@@ -1157,7 +1177,6 @@
         "curriculum/part-11-prospeccion-y-generacion-de-demanda/class-07-networking.md",
         "curriculum/part-16-crm-pipeline-y-sales-operations/class-08-cuotas-y-territorios.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-03-contratacion.md",
-        "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-07-okr-y-kpi.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-09-reuniones-operativas.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-11-gestion-de-desempeno.md",
@@ -1424,6 +1443,73 @@
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-09-reuniones-operativas.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "doj-celsius-sentence",
+      "type": "reference",
+      "authors": [
+        "U.S. Attorney's Office, Southern District of New York"
+      ],
+      "title": "Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation",
+      "published": "2025",
+      "edition": "2025",
+      "authority": "U.S. Department of Justice, Estados Unidos",
+      "category": "etica",
+      "contribution": "promesas de seguridad, liquidez y comunicación previa al bloqueo de retiros",
+      "cited_as": "U.S. Attorney's Office, Southern District of New York",
+      "access": "abierta",
+      "locator": "https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Estados Unidos, S.D.N.Y. Declaración de culpabilidad del 03-12-2024 y sentencia del 08-05-2025. Uso: afirmaciones de estabilidad y liquidez antes del bloqueo de retiros del 12-06-2022.",
+      "used_in": [
+        "curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "doj-madoff",
+      "type": "reference",
+      "authors": [
+        "U.S. Attorney's Office, Southern District of New York"
+      ],
+      "title": "United States v. Bernard L. Madoff and Related Cases",
+      "published": "2009",
+      "edition": "2009",
+      "authority": "U.S. Department of Justice, Estados Unidos",
+      "category": "etica",
+      "contribution": "declaración de culpabilidad y sentencia como contraste entre confianza y verificación",
+      "cited_as": "U.S. Attorney's Office, Southern District of New York",
+      "access": "abierta",
+      "locator": "https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Estados Unidos, S.D.N.Y. Hechos usados: declaración de culpabilidad del 12-03-2009 y sentencia del 29-06-2009. No se usa reputación o testimonio como prueba.",
+      "used_in": [
+        "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-10-riesgo-percibido-y-confianza.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "doj-onecoin-greenwood",
+      "type": "reference",
+      "authors": [
+        "U.S. Attorney's Office, Southern District of New York"
+      ],
+      "title": "Co-Founder of OneCoin Sentenced to 20 Years in Prison",
+      "published": "2023",
+      "edition": "2023",
+      "authority": "U.S. Department of Justice, Estados Unidos",
+      "category": "etica",
+      "contribution": "promesas de producto e incentivos de captación acreditados en una condena",
+      "cited_as": "U.S. Attorney's Office, Southern District of New York",
+      "access": "abierta",
+      "locator": "https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Estados Unidos, S.D.N.Y. Sentencia de Karl Sebastian Greenwood del 12-09-2023 tras declaración de culpabilidad. Uso: incentivos de reclutamiento y evidencia del producto; no se infiere fraude de toda red multinivel.",
+      "used_in": [
+        "curriculum/part-22-go-to-market-canales-y-expansion/class-06-partner-led-growth.md",
+        "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md"
       ],
       "status": "verificada"
     },
@@ -2336,6 +2422,28 @@
       "status": "verificada"
     },
     {
+      "id": "fiscalia-ac-inversions",
+      "type": "reference",
+      "authors": [
+        "Fiscalía de Chile"
+      ],
+      "title": "Por dos delitos formalizan a ex gerente de AC Inversions",
+      "published": "2016",
+      "edition": "2016",
+      "authority": "Ministerio Público de Chile",
+      "category": "etica",
+      "contribution": "formalización y alegaciones para practicar estado procesal sin tratarlas como condena",
+      "cited_as": "Fiscalía de Chile",
+      "access": "abierta",
+      "locator": "https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Chile, Juzgado de Garantía de Antofagasta. Hecho y publicación: formalización informada el 04-03-2016. Contiene alegaciones de Fiscalía y posición de la defensa; no se registra como condena.",
+      "used_in": [
+        "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "fisher-ury",
       "type": "book",
       "authors": [
@@ -2500,7 +2608,6 @@
       "accessed": "2026-08-19",
       "used_in": [
         "curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-13-etica-comercial-y-confianza.md",
-        "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-10-riesgo-percibido-y-confianza.md",
         "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-12-contexto-cultural-y-social.md",
         "curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md",
         "curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-07-estrategias-de-nicho.md",
@@ -4145,7 +4252,6 @@
         "curriculum/part-17-marketing-automation-y-revenue-operations/class-04-lead-routing.md",
         "curriculum/part-22-go-to-market-canales-y-expansion/class-01-que-es-una-estrategia-gtm.md",
         "curriculum/part-22-go-to-market-canales-y-expansion/class-04-sales-led-growth.md",
-        "curriculum/part-22-go-to-market-canales-y-expansion/class-06-partner-led-growth.md",
         "curriculum/part-22-go-to-market-canales-y-expansion/class-13-gtm-metrics.md",
         "curriculum/part-22-go-to-market-canales-y-expansion/class-14-plan-gtm-completo.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-01-diseno-de-la-organizacion-comercial.md",
@@ -4191,7 +4297,6 @@
         "curriculum/part-22-go-to-market-canales-y-expansion/class-14-plan-gtm-completo.md",
         "curriculum/part-24-empresa-real-regulacion-y-capstone/class-01-diseno-de-la-empresa-del-capstone.md",
         "curriculum/part-24-empresa-real-regulacion-y-capstone/class-06-gtm.md",
-        "curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md",
         "curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md"
       ],
       "status": "verificada"
@@ -4220,6 +4325,28 @@
         "curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-09-agentes-comerciales.md",
         "curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-13-privacidad-y-propiedad-intelectual.md",
         "curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-14-operating-model-humano-ia.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "sec-terraform-verdict",
+      "type": "reference",
+      "authors": [
+        "Comisión de Bolsa y Valores de Estados Unidos (SEC)"
+      ],
+      "title": "Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude",
+      "published": "2024",
+      "edition": "2024",
+      "authority": "Comisión de Bolsa y Valores de Estados Unidos (SEC)",
+      "category": "etica",
+      "contribution": "explicación del mecanismo y evidencia exigible antes de prometer estabilidad",
+      "cited_as": "Comisión de Bolsa y Valores de Estados Unidos (SEC)",
+      "access": "abierta",
+      "locator": "https://www.sec.gov/newsroom/press-releases/2024-73",
+      "accessed": "2026-09-28",
+      "note": "Jurisdicción: Estados Unidos, S.D.N.Y. Desacople de UST en mayo de 2022; veredicto civil del 05-04-2024; acuerdo anunciado el 13-06-2024. Uso: separar mecanismo de promesa de estabilidad.",
+      "used_in": [
+        "curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md"
       ],
       "status": "verificada"
     },
@@ -4672,7 +4799,6 @@
         "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md",
         "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md",
         "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-14-brand-book-minimo-viable.md",
-        "curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md",
         "curriculum/part-24-empresa-real-regulacion-y-capstone/class-05-marca-y-activos-comerciales.md"
       ],
       "status": "verificada"

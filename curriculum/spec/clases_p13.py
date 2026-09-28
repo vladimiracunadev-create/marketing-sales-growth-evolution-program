@@ -455,7 +455,9 @@ CLASES = [
             "parece menor. Cialdini precisó la condición: la similitud importa más que la cantidad. Cien "
             "testimonios genéricos convencen menos que tres de pares reconocibles. Su límite es rotundo: "
             "reseñas falsas o testimonios inventados constituyen publicidad engañosa y destruyen la "
-            "confianza cuando se descubren."
+            "confianza cuando se descubren. Un testimonio describe la experiencia declarada de alguien; no "
+            "prueba solvencia, seguridad, rentabilidad ni desempeño típico. Una red de referidos o una figura "
+            "pública tampoco demuestra fraude por sí sola: obliga a transparentar incentivo, alcance y evidencia."
         ),
         conceptos=[
             ("similitud del referente", "grado en que quien testimonia se parece al destinatario del mensaje"),
@@ -471,9 +473,9 @@ CLASES = [
             "medir el efecto por segmento",
         ],
         senales=[
-            ("efecto de la prueba social", "diferencia de conversión entre piezas con y sin testimonio de pares"),
-            ("testimonios verificables", "testimonios con identificación y autorización, sobre testimonios publicados"),
-            ("similitud declarada", "testimonios del mismo rubro y tamaño que el destinatario, sobre testimonios usados"),
+            ("efecto de la prueba social", "numerador: conversiones con testimonio menos conversiones del control; denominador o base sobre la que se calcula: exposiciones de cada variante; ventana: test predefinido; fuente: plataforma y analítica propia"),
+            ("testimonios verificables", "numerador: testimonios con identidad, autorización e incentivo registrado; denominador o base sobre la que se calcula: testimonios publicados; ventana: revisión trimestral; fuente: registro de consentimientos"),
+            ("representatividad declarada", "numerador: testimonios que informan si el resultado es típico o excepcional; denominador o base sobre la que se calcula: testimonios con resultado cuantitativo; ventana: ciclo editorial; fuente: expediente de evidencia"),
         ],
         caso=(
             "Ruta Andina muestra logos de 40 clientes en su página. Ninguno es de un taller, que es el "
@@ -535,35 +537,53 @@ CLASES = [
             "Esta clase integra la parte en un sistema editorial: pilares, calendario, guía de estilo, flujo "
             "de producción y aprobación, biblioteca de piezas y medición. La prueba de calidad es la "
             "continuidad: el sistema debe seguir produciendo con calidad cuando el responsable actual no "
-            "esté, y debe impedir que salga publicada una afirmación sin respaldo."
+            "esté, y debe impedir que salga publicada una afirmación sin respaldo. El control no evalúa sólo "
+            "si una frase es literalmente cierta: identifica opiniones, testimonios, incentivos y omisiones "
+            "materiales que podrían cambiar la decisión del destinatario. FTX y Alameda se usan como "
+            "contraste documental de afirmaciones frente a evidencia operativa: la fuente registra condena "
+            "y recurso confirmado en 2026, no recuerdos de publicidad ni inferencias sobre terceros."
         ),
         conceptos=[
             ("flujo de producción", "secuencia definida desde la idea hasta la publicación con responsables"),
             ("control de afirmaciones", "verificación obligatoria del respaldo de toda afirmación comercial"),
             ("biblioteca de piezas", "repositorio organizado que permite reutilizar contenido en ventas"),
             ("continuidad operativa", "capacidad del sistema de funcionar sin depender de una persona"),
+            ("matriz de afirmaciones", "registro afirmación → evidencia → limitación → responsable → decisión de publicar, corregir o retirar"),
+            ("omisión material", "información conocida cuya ausencia puede cambiar una decisión razonable del destinatario"),
         ],
         metodo=[
-            "consolidar pilares, calendario y guía de estilo",
-            "definir el flujo de producción y aprobación",
-            "instalar el control de afirmaciones antes de publicar",
-            "organizar la biblioteca para uso comercial",
-            "medir producción, uso y efecto comercial",
+            "inventariar afirmaciones, opiniones, testimonios, incentivos y posibles omisiones materiales",
+            "completar la matriz afirmación → evidencia → limitación → responsable → publicar, corregir o retirar",
+            "reescribir con alcance, condiciones, incertidumbre y alternativa verificable",
+            "aprobar una política de incentivos que prohíba pagar por ocultar límites y exija divulgación",
+            "activar ante información adversa un protocolo con contención, aviso, actualización y criterio de término",
         ],
         senales=[
-            ("cumplimiento del calendario", "piezas publicadas en fecha, sobre piezas planificadas"),
-            ("afirmaciones verificadas antes de publicar", "piezas con control de afirmaciones aplicado, sobre piezas publicadas"),
-            ("uso comercial del contenido", "piezas utilizadas en negocios activos, sobre piezas de la biblioteca"),
+            ("cobertura de control", "numerador: afirmaciones con matriz completa; denominador o base sobre la que se calcula: afirmaciones detectadas; ventana: cada ciclo editorial; fuente: registro de afirmaciones"),
+            ("correcciones antes de publicación", "numerador: afirmaciones corregidas o retiradas antes de salir; denominador o base sobre la que se calcula: afirmaciones observadas; ventana: mes; fuente: historial de aprobación"),
+            ("respuesta adversa oportuna", "numerador: incidentes materiales comunicados dentro del plazo; denominador o base sobre la que se calcula: incidentes materiales; ventana: trimestre; fuente: bitácora de incidentes y envíos"),
         ],
         caso=(
             "Ruta Andina trabajará con una agencia externa el próximo trimestre. Hoy no existe guía de "
-            "estilo, ni flujo de aprobación, ni control de afirmaciones."
+            "estilo, ni flujo de aprobación, ni control de afirmaciones. La práctica entrega tres borradores "
+            "íntegramente ficticios y rotulados «material de aprendizaje; no publicado ni referido a una "
+            "empresa real»: «seguridad total», «resultado garantizado en 30 días» y «recomienda y recibe una "
+            "comisión». El alumno completa la matriz, retira la primera promesa sin evidencia, reescribe la "
+            "segunda con resultado, población, ventana y fuente, y conserva la tercera sólo con reglas y "
+            "divulgación del incentivo. Ejemplo resuelto, sólo con datos sintéticos del ejercicio: «resultado "
+            "garantizado en 30 días» → evidencia: 18 cuentas con el hito, numerador, sobre 60 cuentas "
+            "elegibles, denominador, en una cohorte de 30 días, ventana, según dataset pedagógico simulado, "
+            "fuente → limitación: una cohorte sintética no prueba causalidad ni resultado individual → "
+            "responsable: Marketing Ops → decisión: corregir. Reescritura: «En el dataset sintético de esta "
+            "práctica, 18 de 60 cuentas elegibles alcanzaron el hito en 30 días; el resultado individual puede "
+            "variar». Luego redacta el primer aviso y el siguiente hito ante evidencia adversa."
         ),
         limite=(
             "Un flujo de aprobación con demasiados pasos mata la producción. El control debe concentrarse en "
-            "las afirmaciones con riesgo, no en cada palabra."
+            "afirmaciones con riesgo y terminar cuando existe evidencia vigente, responsable y decisión "
+            "registrada. Este ejercicio previene persuasión engañosa; no enseña a ocultarla mejor."
         ),
-        libros=["handley", "pulizzi", "godin", "wheeler"],
+        libros=["handley", "pulizzi", "godin", "ca2-ftx-appeal"],
         error=("Publicar sin control de afirmaciones",
                "Instala una verificación obligatoria de respaldo para toda afirmación cuantitativa o comparativa."),
     ),

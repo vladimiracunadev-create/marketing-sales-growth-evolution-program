@@ -21,8 +21,8 @@
 [📚 Índice de las 336 clases](curriculum/README.md) ·
 [🧭 Rutas por rol](rutas/README.md) ·
 [📅 Syllabus](SYLLABUS.md) ·
-[📖 Glosario (1.348 términos)](docs/GLOSARIO.md) ·
-[📐 Métricas (1.012 fichas)](docs/FORMULAS-Y-METRICAS.md) ·
+[📖 Glosario (1.296 términos únicos)](docs/GLOSARIO.md) ·
+[📐 Métricas (960 fichas únicas)](docs/FORMULAS-Y-METRICAS.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
 [🤝 Contribuir](CONTRIBUTING.md) ·
 [🔐 Seguridad](SECURITY.md)
@@ -74,16 +74,16 @@ supera las 4.800 palabras, está **redactado clase a clase** —no generado por 
 
 | Superficie | Cobertura |
 |---|---|
-| 📚 Currículo | 336/336 clases en 24 partes · 1.804.905 palabras · estándar `clase-profunda-v2` |
-| 🧩 Conceptos | 1.348 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
-| 📐 Medición | 1.012 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
-| 📖 Bibliografía | 97 obras · 396 ideas catalogadas · **1.345 anclajes** clase a clase, auditados |
+| 📚 Currículo | 336/336 clases en 24 partes · 1.809.058 palabras · estándar `clase-profunda-v2` |
+| 🧩 Conceptos | 1.363 definiciones de clase, consolidadas en 1.303 términos únicos del [glosario](docs/GLOSARIO.md) |
+| 📐 Medición | 1.023 señales de clase, consolidadas en 971 fichas únicas de [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
+| 📖 Bibliografía | 103 obras · 402 ideas catalogadas · **1.345 anclajes** clase a clase, auditados |
 | 🧪 Práctica | 48 laboratorios con rúbrica de 100 puntos y escenario adverso obligatorio |
 | 🏆 Evaluación | 24 evaluaciones de cuatro bloques ponderados + 12 proyectos + Capstone eliminatorio |
 | 🧭 Rutas por rol | 17 guías de carrera con día a día, artefactos, progresión y rangos |
 | 🖥️ Portal | 638 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
 | 🇨🇱 Regulación | Consumo, comercio electrónico, datos personales, marcas, tributación y libre competencia |
-| 🔧 Calidad | 91 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
+| 🔧 Calidad | 92 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
 
 ## 🗺️ El recorrido en 8 niveles
 
@@ -332,7 +332,7 @@ taller intensivo de dos días y programa completo de doce meses.
 
 ## 📚 Fuentes
 
-La redacción del material es original y se apoya en **97 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
+La redacción del material es original y se apoya en **103 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
 
 Cada clase cierra indicando **qué idea concreta** de cada obra sostiene lo que acabas de leer y **en qué capítulo buscarla**. El identificador de cada obra —ISBN-13, DOI o dirección de la fuente— está en [`sources/bibliography.json`](sources/bibliography.json).
 

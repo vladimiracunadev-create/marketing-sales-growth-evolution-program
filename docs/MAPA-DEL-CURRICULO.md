@@ -145,7 +145,7 @@
 | 07 | [Arquitectura de marca](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) | casa de marca única, marca respaldada | inversión por marca |
 | 08 | [Storytelling](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-08-storytelling.md) | estructura narrativa, concreción | recuerdo del relato |
 | 09 | [Brand equity](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-09-brand-equity.md) | notoriedad, significado asociado | costo de adquisición por origen de marca |
-| 10 | [Confianza y reputación](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) | reputación, manejo de errores | tiempo de respuesta ante incidente |
+| 10 | [Confianza y reputación](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) | reputación, manejo de errores | respuesta material oportuna |
 | 11 | [Employer branding y marca personal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md) | marca empleadora, marca personal profesional | coherencia de señales profesionales |
 | 12 | [Coherencia omnicanal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) | fuente única de verdad, continuidad de la conversación | incoherencias detectadas por auditoría |
 | 13 | [Medición de marca](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) | notoriedad espontánea, consideración | notoriedad espontánea por ola |
@@ -296,7 +296,7 @@
 | 11 | [Storytelling comercial](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-11-storytelling-comercial.md) | caso verificable, atribución honesta | casos con autorización documentada |
 | 12 | [Prueba social](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) | similitud del referente, verificabilidad | efecto de la prueba social |
 | 13 | [Edición y testing de mensajes](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-13-edicion-y-testing-de-mensajes.md) | edición por utilidad, variable aislada | reducción de extensión tras edición |
-| 14 | [Sistema editorial completo](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) | flujo de producción, control de afirmaciones | cumplimiento del calendario |
+| 14 | [Sistema editorial completo](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) | flujo de producción, control de afirmaciones | cobertura de control |
 
 ### Parte 14 — Publicidad y performance marketing
 
@@ -497,7 +497,7 @@
 | 02 | [Roles y responsabilidades](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-02-roles-y-responsabilidades.md) | resultado del rol, derecho de decisión | resultados con dueño único |
 | 03 | [Contratación comercial](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-03-contratacion.md) | perfil basado en datos, evaluación por desempeño | desempeño de las incorporaciones |
 | 04 | [Onboarding de equipos comerciales](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-04-onboarding-de-equipos.md) | rampa de productividad, certificación | duración de la rampa |
-| 05 | [Compensación e incentivos](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md) | estructura de compensación, efecto no deseado | dispersión de descuentos |
+| 05 | [Compensación e incentivos](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md) | estructura de compensación, efecto no deseado | descuento ponderado |
 | 06 | [Presupuesto comercial](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-06-presupuesto.md) | supuesto presupuestario, presupuesto base cero | desviación presupuestaria |
 | 07 | [OKR y KPI](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-07-okr-y-kpi.md) | indicador de estado, resultado clave | número de objetivos activos |
 | 08 | [Forecast ejecutivo](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-08-forecast-ejecutivo.md) | categoría de forecast, precisión histórica | precisión histórica del forecast |

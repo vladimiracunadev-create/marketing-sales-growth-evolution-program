@@ -217,6 +217,26 @@ LIBROS = {
     "iso-31000": ("ISO", "ISO 31000: Gestión del riesgo", "2018",
                   "vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales", "etica"),
 
+    # --- Casos documentales de crecimiento responsable ----------------------
+    "doj-madoff": ("U.S. Attorney's Office, Southern District of New York",
+                    "United States v. Bernard L. Madoff and Related Cases", "2009",
+                    "declaración de culpabilidad y sentencia como contraste entre confianza y verificación", "etica"),
+    "fiscalia-ac-inversions": ("Fiscalía de Chile",
+                               "Por dos delitos formalizan a ex gerente de AC Inversions", "2016",
+                               "formalización y alegaciones para practicar estado procesal sin tratarlas como condena", "etica"),
+    "doj-onecoin-greenwood": ("U.S. Attorney's Office, Southern District of New York",
+                              "Co-Founder of OneCoin Sentenced to 20 Years in Prison", "2023",
+                              "promesas de producto e incentivos de captación acreditados en una condena", "etica"),
+    "ca2-ftx-appeal": ("Corte de Apelaciones del Segundo Circuito de Estados Unidos",
+                       "Estados Unidos contra Bankman-Fried, 24-961-cr", "2026",
+                       "afirmaciones sobre custodia y trato a Alameda contrastadas con prueba y revisión judicial", "etica"),
+    "doj-celsius-sentence": ("U.S. Attorney's Office, Southern District of New York",
+                             "Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation", "2025",
+                             "promesas de seguridad, liquidez y comunicación previa al bloqueo de retiros", "etica"),
+    "sec-terraform-verdict": ("Comisión de Bolsa y Valores de Estados Unidos (SEC)",
+                              "Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude", "2024",
+                              "explicación del mecanismo y evidencia exigible antes de prometer estabilidad", "etica"),
+
     # --- Pedagogía (estándar transversal del programa) ------------------------
     "ambrose": ("Susan A. Ambrose et al.", "How Learning Works", "2010",
                 "principios de aprendizaje: conocimiento previo, práctica y retroalimentación", "pedagogia"),

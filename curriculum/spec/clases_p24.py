@@ -454,7 +454,9 @@ CLASES = [
             "derechos del consumidor y comercio electrónico, tratamiento de datos personales, propiedad "
             "industrial de la marca, obligaciones tributarias de la venta y reglas de libre competencia. No "
             "se trata de un anexo legal: cada uno de esos frentes impone requisitos de diseño sobre "
-            "materiales, procesos y sistemas."
+            "materiales, procesos y sistemas. Los casos de otras jurisdicciones sirven para probar el método "
+            "de evidencia y comunicación; no sustituyen la verificación de la norma chilena vigente ni la "
+            "regla que existía cuando ocurrieron los hechos."
         ),
         conceptos=[
             ("obligación aplicable", "requisito normativo que rige la operación propuesta"),
@@ -465,6 +467,7 @@ CLASES = [
             ("publicidad engañosa", "representación u omisión material capaz de inducir una conclusión falsa"),
             ("falsa autoridad", "identidad o representación que aparenta una credencial profesional no verificable"),
             ("información clínica", "contenido sobre condición, tratamiento, seguridad, eficacia o uso que exige control especializado"),
+            ("estado de la fuente", "distinción explícita entre alegación, hecho acreditado, condena y recurso"),
         ],
         metodo=[
             "identificar las obligaciones aplicables a la operación",
@@ -473,24 +476,28 @@ CLASES = [
             "documentar el cumplimiento con evidencia",
             "separar hechos, alegaciones, posición regulatoria, respuesta y análisis",
             "clasificar claims, testimonios, comparaciones e identidades antes de publicar",
+            "documentar fecha de hechos, publicación, consulta, jurisdicción y estado procesal",
             "declarar los frentes que requieren asesoría especializada",
+            "declarar límites, alternativas y criterio de término",
         ],
         senales=[
-            ("obligaciones identificadas y cubiertas", "requisitos con solución de diseño documentada, sobre requisitos identificados"),
-            ("verificaciones en fuente primaria", "normas comprobadas en texto oficial, sobre normas citadas"),
-            ("brechas declaradas", "incumplimientos reconocidos con plan de corrección, sobre brechas detectadas"),
+            ("obligaciones identificadas y cubiertas", "numerador: requisitos con solución y evidencia; denominador: requisitos aplicables identificados; ventana: cada hito del Capstone; fuente: matriz de cumplimiento"),
+            ("verificaciones en fuente primaria", "numerador: normas comprobadas en texto oficial con fecha; denominador: normas citadas; ventana: antes de cada entrega; fuente: registro de fuentes"),
+            ("brechas con responsable", "numerador: brechas con acción, responsable y fecha; denominador: brechas detectadas; ventana: revisión quincenal; fuente: registro de riesgos"),
             ("claim rejection rate", "claims rechazados por el control, sobre claims extraídos, por versión de campaña"),
             ("regulatory incident rate", "incidentes regulatorios confirmados, sobre campañas activas, por trimestre"),
         ],
         caso=(
             "El Capstone debe mostrar cómo su tienda cumple el derecho a retracto, cómo trata los datos "
-            "personales de su base y cómo protege su marca."
+            "personales de su base y cómo protege su marca. Como contraste internacional, Terra/UST/LUNA "
+            "obliga a explicar el mecanismo y los límites antes de prometer estabilidad; el veredicto civil y "
+            "acuerdo estadounidense de 2024 no se trasladan automáticamente a Chile ni a Ruta Andina."
         ),
         limite=(
             "Este trabajo es formación aplicada, no asesoría legal. Toda operación real requiere revisión "
             "profesional y verificación de la norma vigente a esa fecha."
         ),
-        libros=["iso-31000", "oneil", "nist-airmf", "rumelt"],
+        libros=["iso-31000", "oneil", "nist-airmf", "sec-terraform-verdict"],
         error=("Tratar el cumplimiento como anexo final",
                "Traduce cada obligación en requisitos de diseño e incorpóralos a procesos y materiales."),
     ),

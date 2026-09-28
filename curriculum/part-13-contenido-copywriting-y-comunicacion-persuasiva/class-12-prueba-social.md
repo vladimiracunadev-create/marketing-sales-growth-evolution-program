@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-La prueba social funciona porque reduce incertidumbre: si otros como yo lo hicieron, el riesgo parece menor. Cialdini precisó la condición: la similitud importa más que la cantidad. Cien testimonios genéricos convencen menos que tres de pares reconocibles. Su límite es rotundo: reseñas falsas o testimonios inventados constituyen publicidad engañosa y destruyen la confianza cuando se descubren.
+La prueba social funciona porque reduce incertidumbre: si otros como yo lo hicieron, el riesgo parece menor. Cialdini precisó la condición: la similitud importa más que la cantidad. Cien testimonios genéricos convencen menos que tres de pares reconocibles. Su límite es rotundo: reseñas falsas o testimonios inventados constituyen publicidad engañosa y destruyen la confianza cuando se descubren. Un testimonio describe la experiencia declarada de alguien; no prueba solvencia, seguridad, rentabilidad ni desempeño típico. Una red de referidos o una figura pública tampoco demuestra fraude por sí sola: obliga a transparentar incentivo, alcance y evidencia.
 
 La clase trata el tema como un problema de evidencia y de consecuencia, no como vocabulario. La parte 13 busca **producir mensajes que informen, muevan a la acción y resistan el escrutinio**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **prueba social** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -31,7 +31,7 @@ Al terminar esta clase serás capaz de:
 1. **Distinguir** `similitud del referente`, `verificabilidad`, `prueba social negativa` y `transparencia de incentivos` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Contenido, copywriting y comunicación persuasiva**.
 3. **Aplicar** la secuencia **seleccionar referentes similares al destinatario → obtener testimonios verificables con autorización → declarar cualquier incentivo entregado → evitar formulaciones que comuniquen baja adopción → medir el efecto por segmento** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **efecto de la prueba social**, **testimonios verificables** y **similitud declarada** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **efecto de la prueba social**, **testimonios verificables** y **representatividad declarada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -95,7 +95,7 @@ Antes de pasar a «obtener testimonios verificables con autorización», registr
 
 La prueba social negativa es un efecto documentado y contraintuitivo: comunicar que pocos hacen algo desincentiva hacerlo. Frases como «todavía pocas empresas del sector han adoptado esto» pretenden señalar oportunidad y comunican que la norma es no adoptarlo. Revisar el material buscando ese patrón suele encontrar varios casos.
 
-Ficha de medición obligatoria para **efecto de la prueba social**: `diferencia de conversión entre piezas con y sin testimonio de pares`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **efecto de la prueba social**: `numerador: conversiones con testimonio menos conversiones del control; denominador o base sobre la que se calcula: exposiciones de cada variante; ventana: test predefinido; fuente: plataforma y analítica propia`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** Seth Godin — *This Is Marketing* (2018) pone una condición sobre la medición: el permiso como activo: el derecho a comunicarse con quien espera el mensaje (los capítulos sobre marketing de permiso). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
@@ -105,7 +105,7 @@ Ficha de medición obligatoria para **efecto de la prueba social**: `diferencia 
 
 Mostrar mucha prueba social refuerza la credibilidad hasta un punto a partir del cual genera sospecha, especialmente si todos los testimonios son igualmente entusiastas. La variedad y la presencia de matices resultan más creíbles que la uniformidad, aunque intuitivamente parezca lo contrario.
 
-**Lo que aporta la fuente.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta el criterio para pesar el intercambio: los usos correctos e incorrectos del indicador de recomendación (los capítulos sobre medición de lealtad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **similitud declarada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta el criterio para pesar el intercambio: los usos correctos e incorrectos del indicador de recomendación (los capítulos sobre medición de lealtad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **representatividad declarada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **transparencia de incentivos** y otro de un supuesto del caso que nunca fue validado.
 
@@ -148,7 +148,7 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 2 — Obtener testimonios verificables con autorización.** El trabajo aquí es separar lo observado de lo inferido sobre **verificabilidad**. La evidencia que ordena la discusión es **testimonios verificables**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Declarar cualquier incentivo entregado.** El riesgo de este paso es cerrar demasiado rápido alrededor de **prueba social negativa**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **similitud declarada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Declarar cualquier incentivo entregado.** El riesgo de este paso es cerrar demasiado rápido alrededor de **prueba social negativa**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **representatividad declarada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
 **Paso 4 — Evitar formulaciones que comuniquen baja adopción.** Con **transparencia de incentivos** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **efecto de la prueba social** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
@@ -206,7 +206,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **similitud del referente** y **verificabilidad** como sinónimos | Se perdió la distinción entre «grado en que quien testimonia se parece al destinatario del mensaje» y «posibilidad de que un tercero compruebe que el testimonio es real» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «medir el efecto por segmento» | Se saltó «seleccionar referentes similares al destinatario»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **efecto de la prueba social** | La métrica local reemplazó al resultado del sistema | Contrástala con **similitud declarada** y explicita el costo de oportunidad. |
+| Optimizar sólo **efecto de la prueba social** | La métrica local reemplazó al resultado del sistema | Contrástala con **representatividad declarada** y explicita el costo de oportunidad. |
 | Usar testimonios de segmentos distintos al destinatario | Error específico de esta clase | Selecciona referentes del mismo rubro y tamaño, con autorización verificable. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +251,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P13-C12-prueba-social/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **efecto de la prueba social**, **testimonios verificables** y **similitud declarada** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **efecto de la prueba social**, **testimonios verificables** y **representatividad declarada** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

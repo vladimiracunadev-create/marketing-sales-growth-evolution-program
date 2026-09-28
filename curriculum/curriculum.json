@@ -847,24 +847,25 @@
             "riesgo percibido",
             "señal de confianza",
             "riesgo personal del recomendante",
-            "reversibilidad de la decisión"
+            "reversibilidad de la decisión",
+            "jerarquía de evidencia"
           ],
           "senales": [
             "objeciones de riesgo por negocio",
-            "uso de referencias en negocios ganados",
-            "tasa de conversión con garantía"
+            "cobertura de evidencia",
+            "tasa de reversión informada"
           ],
           "libros": [
             "cialdini",
             "rackham",
             "dixon-effort",
-            "godin"
+            "doj-madoff"
           ],
           "anclajes": {
             "cialdini": "autoridad",
             "rackham": "objeciones-prevencion",
             "dixon-effort": "esfuerzo",
-            "godin": "permiso"
+            "doj-madoff": "confianza-verificacion"
           },
           "ruta": "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-10-riesgo-percibido-y-confianza.md"
         },
@@ -2852,24 +2853,25 @@
             "reputación",
             "manejo de errores",
             "coherencia observable",
-            "costo de recuperación"
+            "costo de recuperación",
+            "estado procesal"
           ],
           "senales": [
-            "tiempo de respuesta ante incidente",
-            "tasa de reclamos resueltos en primera instancia",
-            "evolución de menciones negativas"
+            "respuesta material oportuna",
+            "resolución en primera instancia",
+            "actualizaciones cumplidas"
           ],
           "libros": [
             "reichheld",
             "godin",
             "dixon-effort",
-            "cialdini"
+            "fiscalia-ac-inversions"
           ],
           "anclajes": {
             "reichheld": "proposito",
             "godin": "permiso",
             "dixon-effort": "resolucion-siguiente",
-            "cialdini": "autoridad"
+            "fiscalia-ac-inversions": "estado-procesal"
           },
           "ruta": "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md"
         },
@@ -6422,7 +6424,7 @@
           "senales": [
             "efecto de la prueba social",
             "testimonios verificables",
-            "similitud declarada"
+            "representatividad declarada"
           ],
           "libros": [
             "cialdini",
@@ -6485,24 +6487,26 @@
             "flujo de producción",
             "control de afirmaciones",
             "biblioteca de piezas",
-            "continuidad operativa"
+            "continuidad operativa",
+            "matriz de afirmaciones",
+            "omisión material"
           ],
           "senales": [
-            "cumplimiento del calendario",
-            "afirmaciones verificadas antes de publicar",
-            "uso comercial del contenido"
+            "cobertura de control",
+            "correcciones antes de publicación",
+            "respuesta adversa oportuna"
           ],
           "libros": [
             "handley",
             "pulizzi",
             "godin",
-            "wheeler"
+            "ca2-ftx-appeal"
           ],
           "anclajes": {
             "handley": "estandar-editorial",
             "pulizzi": "consistencia",
             "godin": "cambio",
-            "wheeler": "gobierno"
+            "ca2-ftx-appeal": "afirmaciones-evidencia"
           },
           "ruta": "curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md"
         }
@@ -6950,24 +6954,25 @@
             "tráfico no válido",
             "seguridad de marca",
             "consentimiento de cookies",
-            "control previo"
+            "control previo",
+            "expediente de afirmación"
           ],
           "senales": [
             "proporción de tráfico no válido",
             "apariciones en contexto no deseado",
-            "tasa de consentimiento válido"
+            "afirmaciones publicitarias respaldadas"
           ],
           "libros": [
             "oneil",
             "kaushik",
             "nist-airmf",
-            "chaffey"
+            "doj-celsius-sentence"
           ],
           "anclajes": {
             "oneil": "auditoria",
             "kaushik": "so-what",
             "nist-airmf": "contexto",
-            "chaffey": "gobierno-digital"
+            "doj-celsius-sentence": "seguridad-liquidez"
           },
           "ruta": "curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md"
         },
@@ -10718,24 +10723,25 @@
             "incentivo del socio",
             "habilitación",
             "socio activo",
-            "conflicto de canal"
+            "conflicto de canal",
+            "incentivo responsable"
           ],
           "senales": [
             "proporción de socios activos",
-            "ingreso por socio activo",
-            "conflictos de canal registrados"
+            "calidad de ventas referidas",
+            "incentivos divulgados"
           ],
           "libros": [
             "moore",
             "weinberg-traction",
             "porter",
-            "ross"
+            "doj-onecoin-greenwood"
           ],
           "anclajes": {
             "moore": "producto-completo",
             "weinberg-traction": "canales",
             "porter": "excedente",
-            "ross": "tipos-lead"
+            "doj-onecoin-greenwood": "incentivos-captacion"
           },
           "ruta": "curriculum/part-22-go-to-market-canales-y-expansion/class-06-partner-led-growth.md"
         },
@@ -11184,24 +11190,25 @@
             "estructura de compensación",
             "efecto no deseado",
             "contrapeso",
-            "comprensibilidad"
+            "comprensibilidad",
+            "base elegible"
           ],
           "senales": [
-            "dispersión de descuentos",
-            "retención de clientes por vendedor",
+            "descuento ponderado",
+            "retención por vendedor",
             "comprensión del esquema"
           ],
           "libros": [
             "zoltners",
             "grove",
             "roberge",
-            "collins"
+            "doj-onecoin-greenwood"
           ],
           "anclajes": {
             "zoltners": "incentivos",
             "grove": "output-gerencial",
             "roberge": "metricas-coaching",
-            "collins": "disciplina"
+            "doj-onecoin-greenwood": "incentivos-captacion"
           },
           "ruta": "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md"
         },
@@ -11926,12 +11933,13 @@
             "claim no sustentado",
             "publicidad engañosa",
             "falsa autoridad",
-            "información clínica"
+            "información clínica",
+            "estado de la fuente"
           ],
           "senales": [
             "obligaciones identificadas y cubiertas",
             "verificaciones en fuente primaria",
-            "brechas declaradas",
+            "brechas con responsable",
             "claim rejection rate",
             "regulatory incident rate"
           ],
@@ -11939,13 +11947,13 @@
             "iso-31000",
             "oneil",
             "nist-airmf",
-            "rumelt"
+            "sec-terraform-verdict"
           ],
           "anclajes": {
             "iso-31000": "proceso",
             "oneil": "auditoria",
             "nist-airmf": "gobernar",
-            "rumelt": "diagnostico"
+            "sec-terraform-verdict": "mecanismo-estabilidad"
           },
           "ruta": "curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md"
         },

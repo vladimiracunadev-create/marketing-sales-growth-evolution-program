@@ -99,7 +99,7 @@ Citar una obra no fundamenta nada. El estándar exige tres niveles y verifica el
 | **Lente** | Para qué sirve esa obra en general | `spec/bibliografia.py` |
 | **Anclaje** | Qué idea concreta de esa obra sostiene **esta** clase y dónde buscarla | `spec/aportes.py` + `spec/anclajes.py` |
 
-`aportes.py` cataloga 396 ideas identificables repartidas entre las 97 obras. `anclajes.py` asigna, para
+`aportes.py` cataloga 402 ideas identificables repartidas entre las 103 obras. `anclajes.py` asigna, para
 cada una de las 336 clases, cuál de esas ideas sostiene cada cita: 1.345 anclajes.
 
 El validador rechaza tres situaciones: una obra citada sin anclaje, un identificador que no existe en el

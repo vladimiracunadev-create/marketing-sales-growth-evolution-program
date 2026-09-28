@@ -24,13 +24,13 @@ Construye dos alternativas realmente defendibles. Para cada una indica beneficio
 
 Aplica la secuencia de trabajo de la parte:
 
-1. Consolidar pilares, calendario y guía de estilo.
-2. Definir el flujo de producción y aprobación.
-3. Instalar el control de afirmaciones antes de publicar.
-4. Organizar la biblioteca para uso comercial.
-5. Medir producción, uso y efecto comercial.
+1. Inventariar afirmaciones, opiniones, testimonios, incentivos y posibles omisiones materiales.
+2. Completar la matriz afirmación → evidencia → limitación → responsable → publicar, corregir o retirar.
+3. Reescribir con alcance, condiciones, incertidumbre y alternativa verificable.
+4. Aprobar una política de incentivos que prohíba pagar por ocultar límites y exija divulgación.
+5. Activar ante información adversa un protocolo con contención, aviso, actualización y criterio de término.
 
-Debes operacionalizar **cumplimiento del calendario**, **afirmaciones verificadas antes de publicar** y **uso comercial del contenido**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
+Debes operacionalizar **cobertura de control**, **correcciones antes de publicación** y **respuesta adversa oportuna**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
 
 ## D. Fuentes, límites y red team — 15 puntos
 

@@ -16,22 +16,22 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-Antes de evaluar el beneficio, el cliente evalúa el riesgo: de perder dinero, de perder tiempo, de quedar mal ante otros, de que el proveedor desaparezca. En compras B2B ese riesgo es también personal para quien recomienda. La confianza es el mecanismo que reduce el riesgo percibido sin eliminarlo realmente, y se construye con señales verificables: casos comparables, garantías, transparencia sobre límites y consistencia entre lo dicho y lo hecho.
+Antes de evaluar el beneficio, el cliente evalúa el riesgo: de perder dinero, de perder tiempo, de quedar mal ante otros, de que el proveedor desaparezca. En compras B2B ese riesgo es también personal para quien recomienda. La confianza es el mecanismo que reduce el riesgo percibido sin eliminarlo realmente, y se construye con señales verificables: casos comparables, garantías, transparencia sobre límites y consistencia entre lo dicho y lo hecho. El reconocimiento de marca, una figura pública, una red de referidos, un testimonio o una rentabilidad alta no acreditan por sí mismos solvencia ni fraude: son señales que deben contrastarse con evidencia del producto, custodia, liquidez, límites y responsables.
 
 Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si el análisis fuese correcto. La parte 02 busca **construir un expediente de cliente accionable basado en evidencia y no en estereotipos**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **riesgo percibido y confianza** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
 > **Pregunta rectora de la parte:** ¿Quién decide, quién usa, quién paga y qué progreso intenta lograr cada uno?
 
-Los conceptos que estructuran la sesión son **riesgo percibido**, **señal de confianza**, **riesgo personal del recomendante** y **reversibilidad de la decisión**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **riesgo percibido**, **señal de confianza**, **riesgo personal del recomendante**, **reversibilidad de la decisión** y **jerarquía de evidencia**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `riesgo percibido`, `señal de confianza`, `riesgo personal del recomendante` y `reversibilidad de la decisión` por sus observables y no por su definición memorizada.
+1. **Distinguir** `riesgo percibido`, `señal de confianza`, `riesgo personal del recomendante`, `reversibilidad de la decisión` y `jerarquía de evidencia` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Cliente y comportamiento del consumidor**.
-3. **Aplicar** la secuencia **enumerar los riesgos percibidos por cada rol → clasificarlos en económico, operativo, reputacional y personal → asignar a cada riesgo una señal de confianza verificable → aumentar la reversibilidad donde el riesgo es alto → medir el efecto sobre avance y sobre calidad del cliente ganado** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **objeciones de riesgo por negocio**, **uso de referencias en negocios ganados** y **tasa de conversión con garantía** indicando numerador, denominador, ventana, fuente y uso permitido.
+3. **Aplicar** la secuencia **enumerar los riesgos percibidos por cada rol → clasificarlos en económico, operativo, reputacional y personal → clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo → asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable → aumentar la reversibilidad donde el riesgo es alto → decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión** conservando supuestos, alternativas descartadas y trazabilidad.
+4. **Operacionalizar** **objeciones de riesgo por negocio**, **cobertura de evidencia** y **tasa de reversión informada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -42,7 +42,7 @@ Al terminar esta clase serás capaz de:
 | 0–15 min | Recuperación | Define **riesgo percibido** y **señal de confianza** sin mirar el material; corrige después con la tabla de conceptos. |
 | 15–45 min | Núcleo conceptual | Lectura del desarrollo y construcción de la tabla `hecho / inferencia / supuesto`. |
 | 45–75 min | Medición | Ficha de la señal **objeciones de riesgo por negocio**: fórmula, fuente, ventana y lectura prohibida. |
-| 75–110 min | Ejemplo trabajado | Recorrido de los 5 pasos del método sobre el caso de la clase. |
+| 75–110 min | Ejemplo trabajado | Recorrido de los 6 pasos del método sobre el caso de la clase. |
 | 110–140 min | Caso ejecutivo | Dos alternativas, trade-offs, recomendación y señal de detención. |
 | 140–150 min | Cierre | Entregable, preguntas de comprobación y registro de lo que aún no sabes. |
 
@@ -54,13 +54,14 @@ Al terminar esta clase serás capaz de:
 | **señal de confianza** | evidencia verificable que reduce la incertidumbre sobre el desempeño futuro del proveedor | Da un hecho compatible con la definición y otro que la refute. |
 | **riesgo personal del recomendante** | consecuencia profesional que enfrenta quien impulsa la compra si el proyecto falla | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **reversibilidad de la decisión** | facilidad y costo de deshacer la compra si el resultado no se cumple | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **jerarquía de evidencia** | orden que separa afirmación, testimonio e inferencia de un documento verificable y de un hecho acreditado | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. enumerar los riesgos percibidos por cada rol → 2. clasificarlos en económico, operativo, reputacional y personal → 3. asignar a cada riesgo una señal de confianza verificable → 4. aumentar la reversibilidad donde el riesgo es alto → 5. medir el efecto sobre avance y sobre calidad del cliente ganado
+1. enumerar los riesgos percibidos por cada rol → 2. clasificarlos en económico, operativo, reputacional y personal → 3. clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo → 4. asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable → 5. aumentar la reversibilidad donde el riesgo es alto → 6. decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -95,7 +96,7 @@ Antes de pasar a «clasificarlos en económico, operativo, reputacional y person
 
 El riesgo del recomendante interno es el que menos se mide y más decide. Quien propone al proveedor dentro de la organización pone su criterio en juego; si la implementación falla, el costo es suyo aunque el contrato sea de la empresa. La ficha de oportunidad debería registrar explícitamente qué arriesga esa persona y qué se le está entregando para protegerla.
 
-Ficha de medición obligatoria para **objeciones de riesgo por negocio**: `objeciones clasificadas como riesgo, sobre objeciones totales registradas en el periodo`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **objeciones de riesgo por negocio**: `numerador: objeciones clasificadas como riesgo; denominador o base sobre la que se calcula: objeciones totales; ventana: mes móvil; fuente: CRM con motivo codificado`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) pone una condición sobre la medición: la reducción del esfuerzo del cliente predice lealtad mejor que el deleite (los capítulos que presentan la evidencia). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
@@ -105,13 +106,13 @@ Ficha de medición obligatoria para **objeciones de riesgo por negocio**: `objec
 
 Reducir el riesgo percibido con garantías amplias facilita el cierre y transfiere el costo a la operación, que deberá cumplirlas. Una garantía cuyo costo esperado nadie calculó es una promesa financiada por el área que no participó de la venta. La decisión correcta estima la probabilidad de ejecución y su costo antes de incorporarla al material comercial.
 
-**Lo que aporta la fuente.** Seth Godin — *This Is Marketing* (2018) aporta el criterio para pesar el intercambio: el permiso como activo: el derecho a comunicarse con quien espera el mensaje (los capítulos sobre marketing de permiso). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de conversión con garantía** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** U.S. Attorney's Office, Southern District of New York — *United States v. Bernard L. Madoff and Related Cases* (2009) aporta el criterio para pesar el intercambio: la confianza acumulada y los estados presentados no sustituyen la verificación independiente; la fuente registra declaración de culpabilidad y sentencia (el resumen del caso Bernard L. Madoff y sus hitos de marzo y junio de 2009). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de reversión informada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **reversibilidad de la decisión** y otro de un supuesto del caso que nunca fue validado.
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir el efecto sobre avance y sobre calidad del cliente ganado», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
 El análisis de riesgo percibido opera sobre percepciones y no las corrige cuando el riesgo es real. Si el producto efectivamente falla en el escenario que preocupa al cliente, la respuesta profesional no es una mejor narrativa de confianza sino declarar la limitación. Vender contra un riesgo real conocido es el camino más corto a una baja temprana y a un reclamo formal.
 
@@ -134,7 +135,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | La autoridad señalizada y la diferencia entre credibilidad y apariencia | El capítulo sobre autoridad | ¿Qué debería observarse en **riesgo percibido** si aquí opera «la autoridad señalizada y la diferencia entre credibilidad y apariencia»? ¿Y qué observación lo desmentiría en este caso? |
 | Neil Rackham — *SPIN Selling* (1988) | Las objeciones se previenen en la investigación, no se manejan en el cierre | El capítulo sobre manejo de objeciones | ¿Qué debería observarse en **señal de confianza** si aquí opera «las objeciones se previenen en la investigación, no se manejan en el cierre»? ¿Y qué observación lo desmentiría en este caso? |
 | Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | La reducción del esfuerzo del cliente predice lealtad mejor que el deleite | Los capítulos que presentan la evidencia | ¿Qué debería observarse en **riesgo personal del recomendante** si aquí opera «la reducción del esfuerzo del cliente predice lealtad mejor que el deleite»? ¿Y qué observación lo desmentiría en este caso? |
-| Seth Godin — *This Is Marketing* (2018) | El permiso como activo: el derecho a comunicarse con quien espera el mensaje | Los capítulos sobre marketing de permiso | ¿Qué debería observarse en **reversibilidad de la decisión** si aquí opera «el permiso como activo: el derecho a comunicarse con quien espera el mensaje»? ¿Y qué observación lo desmentiría en este caso? |
+| U.S. Attorney's Office, Southern District of New York — *United States v. Bernard L. Madoff and Related Cases* (2009) | La confianza acumulada y los estados presentados no sustituyen la verificación independiente; la fuente registra declaración de culpabilidad y sentencia | El resumen del caso Bernard L. Madoff y sus hitos de marzo y junio de 2009 | ¿Qué debería observarse en **reversibilidad de la decisión** si aquí opera «la confianza acumulada y los estados presentados no sustituyen la verificación independiente; la fuente registra declaración de culpabilidad y sentencia»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -146,13 +147,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 1 — Enumerar los riesgos percibidos por cada rol.** El equipo escribe primero el supuesto asociado a **riesgo percibido** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **objeciones de riesgo por negocio** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Clasificarlos en económico, operativo, reputacional y personal.** El trabajo aquí es separar lo observado de lo inferido sobre **señal de confianza**. La evidencia que ordena la discusión es **uso de referencias en negocios ganados**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Clasificarlos en económico, operativo, reputacional y personal.** El trabajo aquí es separar lo observado de lo inferido sobre **señal de confianza**. La evidencia que ordena la discusión es **cobertura de evidencia**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Asignar a cada riesgo una señal de confianza verificable.** El riesgo de este paso es cerrar demasiado rápido alrededor de **riesgo personal del recomendante**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **tasa de conversión con garantía** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo.** El riesgo de este paso es cerrar demasiado rápido alrededor de **riesgo personal del recomendante**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **tasa de reversión informada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Aumentar la reversibilidad donde el riesgo es alto.** Con **reversibilidad de la decisión** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **objeciones de riesgo por negocio** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable.** Con **reversibilidad de la decisión** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **objeciones de riesgo por negocio** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Medir el efecto sobre avance y sobre calidad del cliente ganado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **riesgo percibido**. **uso de referencias en negocios ganados** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Aumentar la reversibilidad donde el riesgo es alto.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **jerarquía de evidencia**. **cobertura de evidencia** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+
+**Paso 6 — Decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión.** El equipo escribe primero el supuesto asociado a **riesgo percibido** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **tasa de reversión informada** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +195,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **enumerar los riesgos percibidos por cada rol → clasificarlos en económico, operativo, reputacional y personal → asignar a cada riesgo una señal de confianza verificable → aumentar la reversibilidad donde el riesgo es alto → medir el efecto sobre avance y sobre calidad del cliente ganado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **enumerar los riesgos percibidos por cada rol → clasificarlos en económico, operativo, reputacional y personal → clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo → asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable → aumentar la reversibilidad donde el riesgo es alto → decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **objeciones de riesgo por negocio**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Influence: The Psychology of Persuasion, New and Expanded* y la de *SPIN Selling*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,8 +208,8 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **riesgo percibido** y **señal de confianza** como sinónimos | Se perdió la distinción entre «estimación subjetiva del cliente sobre la probabilidad y magnitud de un resultado adverso» y «evidencia verificable que reduce la incertidumbre sobre el desempeño futuro del proveedor» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «medir el efecto sobre avance y sobre calidad del cliente ganado» | Se saltó «enumerar los riesgos percibidos por cada rol»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **objeciones de riesgo por negocio** | La métrica local reemplazó al resultado del sistema | Contrástala con **tasa de conversión con garantía** y explicita el costo de oportunidad. |
+| Empezar por «decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión» | Se saltó «enumerar los riesgos percibidos por cada rol»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Optimizar sólo **objeciones de riesgo por negocio** | La métrica local reemplazó al resultado del sistema | Contrástala con **tasa de reversión informada** y explicita el costo de oportunidad. |
 | Responder al riesgo con más argumentos de beneficio | Error específico de esta clase | Atiende el riesgo con evidencia y reversibilidad, no con entusiasmo adicional. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -229,7 +232,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **riesgo personal del recomendante** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **objeciones de riesgo por negocio**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Influence: The Psychology of Persuasion, New and Expanded* y *This Is Marketing*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Influence: The Psychology of Persuasion, New and Expanded* y *United States v. Bernard L. Madoff and Related Cases*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +254,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P02-C10-riesgo-percibido-y-confianza/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **objeciones de riesgo por negocio**, **uso de referencias en negocios ganados** y **tasa de conversión con garantía** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **objeciones de riesgo por negocio**, **cobertura de evidencia** y **tasa de reversión informada** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -279,7 +282,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Robert B. Cialdini — [*Influence: The Psychology of Persuasion, New and Expanded*](https://openlibrary.org/isbn/9780062937650) (2021) · ISBN 9780062937650 — **aporta a esta clase:** la autoridad señalizada y la diferencia entre credibilidad y apariencia. **Dónde buscarlo:** el capítulo sobre autoridad. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) · ISBN 9780070511132 — **aporta a esta clase:** las objeciones se previenen en la investigación, no se manejan en el cierre. **Dónde buscarlo:** el capítulo sobre manejo de objeciones. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) · ISBN 9780241003305 — **aporta a esta clase:** la reducción del esfuerzo del cliente predice lealtad mejor que el deleite. **Dónde buscarlo:** los capítulos que presentan la evidencia. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
-- Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- U.S. Attorney's Office, Southern District of New York — [*United States v. Bernard L. Madoff and Related Cases*](https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases) (2009) · fuente primaria — **aporta a esta clase:** la confianza acumulada y los estados presentados no sustituyen la verificación independiente; la fuente registra declaración de culpabilidad y sentencia. **Dónde buscarlo:** el resumen del caso Bernard L. Madoff y sus hitos de marzo y junio de 2009. **Acceso:** gratis. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

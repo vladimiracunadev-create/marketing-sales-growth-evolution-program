@@ -2,7 +2,7 @@
 
 # Bibliografía
 
-97 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
+103 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
 
 ## Cómo se usa la bibliografía en este programa
 
@@ -29,7 +29,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Theodore Levitt — *Marketing Myopia (Harvard Business Review)* (1960) | definir el negocio por el trabajo del cliente y no por el producto que se fabrica | 01.03 | [fuente primaria](https://hbr.org/2004/07/marketing-myopia) |
 | Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) | posicionamiento como lugar en la mente del cliente y no como declaración interna | 11 clases | [9780071359160](https://openlibrary.org/isbn/9780071359160) |
 | Les Binet y Peter Field — *The Long and the Short of It* (2013) | equilibrio entre construcción de marca a largo plazo y activación de ventas a corto plazo | 14 clases | [9780852941348](https://openlibrary.org/isbn/9780852941348) |
-| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 30 clases | [9780525540830](https://openlibrary.org/isbn/9780525540830) |
+| Seth Godin — *This Is Marketing* (2018) | marketing como servicio a un público mínimo viable y construcción de confianza | 29 clases | [9780525540830](https://openlibrary.org/isbn/9780525540830) |
 
 ## Estrategia
 
@@ -39,7 +39,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Alexander Osterwalder e Yves Pigneur — *Business Model Generation* (2010) | modelo de negocio como sistema de nueve bloques interdependientes | 03.08, 24.01 | [9780470876411](https://openlibrary.org/isbn/9780470876411) |
 | Michael E. Porter — *Competitive Strategy* (1980) | estructura de industria, fuerzas competitivas y elección de una posición defendible | 18 clases | [9780029253601](https://openlibrary.org/isbn/9780029253601) |
 | Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | 25 clases | [9780062293008](https://openlibrary.org/isbn/9780062293008) |
-| Richard Rumelt — *Good Strategy / Bad Strategy* (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 21 clases | [9781846684807](https://openlibrary.org/isbn/9781846684807) |
+| Richard Rumelt — *Good Strategy / Bad Strategy* (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 20 clases | [9781846684807](https://openlibrary.org/isbn/9781846684807) |
 | Peter F. Drucker — *The Practice of Management* (1954) | el propósito de una empresa es crear un cliente; marketing e innovación como funciones centrales | 01.01 | [9780060110956](https://openlibrary.org/isbn/9780060110956) |
 | Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | 6 clases | [fuente primaria](https://hbr.org/1996/11/what-is-strategy) |
 
@@ -64,7 +64,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
 | Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | marco académico del comportamiento del consumidor: cultura, identidad y proceso de decisión | 8 clases | [9781292318103](https://openlibrary.org/isbn/9781292318103) |
-| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | principios de influencia y su uso ético en contextos comerciales | 22 clases | [9780062937650](https://openlibrary.org/isbn/9780062937650) |
+| Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) | principios de influencia y su uso ético en contextos comerciales | 21 clases | [9780062937650](https://openlibrary.org/isbn/9780062937650) |
 | Richard H. Thaler y Cass R. Sunstein — *Nudge: The Final Edition* (2021) | arquitectura de decisión y límites éticos de la influencia sobre la elección | 01.13, 02.08, 02.09, 21.05 | [9780143137009](https://openlibrary.org/isbn/9780143137009) |
 | Dan Ariely — *Predictably Irrational* (2008) | efectos de anclaje, gratuidad y comparación en la percepción de valor | 01.02, 02.09, 05.07, 10.05 | [9780061353239](https://openlibrary.org/isbn/9780061353239) |
 | Daniel Kahneman — *Thinking, Fast and Slow* (2011) | sistemas 1 y 2, heurísticas y sesgos aplicables a decisiones de compra y de gestión | 02.09, 10.05 | [9780141918921](https://openlibrary.org/isbn/9780141918921) |
@@ -74,7 +74,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
 | David A. Aaker — *Building Strong Brands* (1996) | brand equity, identidad de marca y arquitectura de portafolio | 12 clases | [9780029001516](https://openlibrary.org/isbn/9780029001516) |
-| Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 8 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
+| Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 7 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
 | Kevin Lane Keller y Vanitha Swaminathan — *Strategic Brand Management* (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 13 clases | [9780134892498](https://openlibrary.org/isbn/9780134892498) |
 | Pankaj Aggarwal y Ann L. McGill — *When Brands Seem Human, Do Humans Act Like Brands?* (2012) | efectos conductuales y condiciones de la antropomorfización de marca | 06.06 | [10.1086/662614](https://doi.org/10.1086/662614) |
 
@@ -122,7 +122,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Keenan — *Gap Selling* (2018) | vender la brecha entre estado actual y estado futuro con diagnóstico riguroso | 14 clases | [9781732891005](https://openlibrary.org/isbn/9781732891005) |
 | Gary Vaynerchuk — *Jab, Jab, Jab, Right Hook* (2013) | secuencia de aporte de valor antes de la petición comercial en canales sociales | 11.06, 12.07 | [9780062273079](https://openlibrary.org/isbn/9780062273079) |
 | Mike Weinberg — *New Sales. Simplified.* (2012) | proceso de nueva venta: lista objetivo, relato comercial y actividad sostenida | 8 clases | [9780814431788](https://openlibrary.org/isbn/9780814431788) |
-| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | 24 clases | [9780984380213](https://openlibrary.org/isbn/9780984380213) |
+| Aaron Ross y Marylou Tyler — *Predictable Revenue* (2011) | especialización de roles comerciales y generación de pipeline predecible | 23 clases | [9780984380213](https://openlibrary.org/isbn/9780984380213) |
 | Neil Rackham — *SPIN Selling* (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 24 clases | [9780070511132](https://openlibrary.org/isbn/9780070511132) |
 | Brent Adamson y Matthew Dixon — *The Challenger Customer* (2015) | comité de compra, mobilizer y construcción de consenso interno del cliente | 12 clases | [9780241196564](https://openlibrary.org/isbn/9780241196564) |
 | Matthew Dixon y Brent Adamson — *The Challenger Sale* (2011) | enseñar, adaptar y tomar el control; el insight comercial como diferenciador | 7 clases | [9781591844358](https://openlibrary.org/isbn/9781591844358) |
@@ -146,7 +146,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 |---|---|---|---|
 | Bryan Eisenberg y Jeffrey Eisenberg — *Call to Action* (2005) | optimización de conversión con hipótesis, escenarios y persuasión medible | 11 clases | [9781932226393](https://openlibrary.org/isbn/9781932226393) |
 | Peep Laja y el equipo de CXL — *Conversion Optimization Playbooks (CXL)* (2024) | método CRO basado en investigación previa al test y validez estadística | 16 clases | [fuente primaria](https://cxl.com/institute/) |
-| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 32 clases | [9781292400990](https://openlibrary.org/isbn/9781292400990) |
+| Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | planificación digital integrada: canales, medición y gobierno | 31 clases | [9781292400990](https://openlibrary.org/isbn/9781292400990) |
 | Steve Krug — *Don't Make Me Think, Revisited* (2014) | usabilidad, claridad y pruebas baratas con usuarios reales | 16 clases | [9780321965516](https://openlibrary.org/isbn/9780321965516) |
 | Eric Enge, Stephan Spencer y Jessie Stricchiola — *The Art of SEO* (2023, 4.ª ed.) | arquitectura, contenido y autoridad como sistema de búsqueda orgánica | 12.04, 12.14, 14.05 | [9781098102616](https://openlibrary.org/isbn/9781098102616) |
 
@@ -203,7 +203,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
-| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 11 clases | [9780066620992](https://openlibrary.org/isbn/9780066620992) |
+| Jim Collins — *Good to Great* (2001) | disciplina, personas correctas y concepto del erizo aplicados a la ejecución comercial | 10 clases | [9780066620992](https://openlibrary.org/isbn/9780066620992) |
 | Andrew S. Grove — *High Output Management* (1983) | output gerencial, indicadores adelantados y reuniones como herramienta de producción | 41 clases | [9780394532349](https://openlibrary.org/isbn/9780394532349) |
 | John Doerr — *Measure What Matters* (2018) | OKR como sistema de foco, alineamiento y seguimiento | 9 clases | [9780525536222](https://openlibrary.org/isbn/9780525536222) |
 | Simon Sinek — *Start With Why* (2009) | propósito como articulador del relato interno y externo | 06.03 | [9781591844518](https://openlibrary.org/isbn/9781591844518) |
@@ -223,7 +223,13 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
+| U.S. Attorney's Office, Southern District of New York — *Co-Founder of OneCoin Sentenced to 20 Years in Prison* (2023) | promesas de producto e incentivos de captación acreditados en una condena | 22.06, 23.05 | [fuente primaria](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) |
+| Corte de Apelaciones del Segundo Circuito de Estados Unidos — *Estados Unidos contra Bankman-Fried, 24-961-cr* (2026) | afirmaciones sobre custodia y trato a Alameda contrastadas con prueba y revisión judicial | 13.14 | [fuente primaria](https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf) |
+| U.S. Attorney's Office, Southern District of New York — *Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation* (2025) | promesas de seguridad, liquidez y comunicación previa al bloqueo de retiros | 14.13 | [fuente primaria](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) |
 | ISO — *ISO 31000: Gestión del riesgo* (2018) | vocabulario y proceso de gestión de riesgo aplicable a decisiones comerciales | 8 clases | pendiente |
+| Fiscalía de Chile — *Por dos delitos formalizan a ex gerente de AC Inversions* (2016) | formalización y alegaciones para practicar estado procesal sin tratarlas como condena | 06.10 | [fuente primaria](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions) |
+| Comisión de Bolsa y Valores de Estados Unidos (SEC) — *Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude* (2024) | explicación del mecanismo y evidencia exigible antes de prometer estabilidad | 24.12 | [fuente primaria](https://www.sec.gov/newsroom/press-releases/2024-73) |
+| U.S. Attorney's Office, Southern District of New York — *United States v. Bernard L. Madoff and Related Cases* (2009) | declaración de culpabilidad y sentencia como contraste entre confianza y verificación | 02.10 | [fuente primaria](https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases) |
 | Cathy O'Neil — *Weapons of Math Destruction* (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 16 clases | [9780141985428](https://openlibrary.org/isbn/9780141985428) |
 
 ## Pedagogía (estándar del programa)

@@ -400,35 +400,40 @@ CLASES = [
             "confianza es la disposición a asumir riesgo con ella. Se construyen con consistencia y se "
             "destruyen con incoherencia visible, especialmente en el manejo de errores. La respuesta ante una "
             "falla propia informa más sobre la empresa que cualquier campaña: reconocer, reparar y prevenir "
-            "produce más confianza que negar."
+            "produce más confianza que negar. Una información adversa activa un protocolo: preservar "
+            "evidencia, separar hechos acreditados de alegaciones e inferencias, informar lo material, nombrar "
+            "responsables y fijar la próxima actualización aunque todavía no exista una respuesta completa."
         ),
         conceptos=[
             ("reputación", "juicio acumulado del mercado basado en el comportamiento observado en el tiempo"),
             ("manejo de errores", "protocolo de reconocimiento, reparación y prevención ante una falla propia"),
             ("coherencia observable", "correspondencia entre lo declarado y lo que el cliente experimenta"),
             ("costo de recuperación", "esfuerzo necesario para restablecer la confianza después de un incidente"),
+            ("estado procesal", "etiqueta que distingue denuncia o alegación, hecho acreditado, condena y recurso pendiente o resuelto"),
         ],
         metodo=[
-            "monitorear señales públicas de reputación",
-            "definir el protocolo de respuesta ante incidentes",
-            "reconocer y reparar antes de comunicar",
-            "documentar la causa raíz y la prevención",
-            "medir la recuperación en indicadores de confianza",
+            "monitorear señales públicas y verificar su fuente y estado procesal",
+            "activar un protocolo con dueño, canal, plazo y criterio de término",
+            "comunicar hechos confirmados, incertidumbres y protección inmediata al cliente",
+            "corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta",
+            "cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia",
         ],
         senales=[
-            ("tiempo de respuesta ante incidente", "horas entre la detección del incidente y la comunicación al cliente afectado"),
-            ("tasa de reclamos resueltos en primera instancia", "reclamos cerrados sin escalamiento, sobre reclamos recibidos"),
-            ("evolución de menciones negativas", "variación del volumen de menciones negativas tras el incidente"),
+            ("respuesta material oportuna", "numerador: incidentes con aviso dentro del plazo; denominador o base sobre la que se calcula: incidentes materiales; ventana: trimestre; fuente: bitácora de incidentes y envíos"),
+            ("resolución en primera instancia", "numerador: reclamos cerrados sin escalamiento; denominador o base sobre la que se calcula: reclamos recibidos; ventana: mes móvil; fuente: mesa de ayuda"),
+            ("actualizaciones cumplidas", "numerador: actualizaciones emitidas en la fecha prometida; denominador o base sobre la que se calcula: actualizaciones comprometidas; ventana: por incidente; fuente: bitácora y archivo de comunicaciones"),
         ],
         caso=(
             "Una caída de ocho horas dejó a 120 clientes de Ruta Andina sin agenda. La empresa no comunicó "
-            "nada hasta que los reclamos aparecieron en un grupo gremial."
+            "nada hasta que los reclamos aparecieron en un grupo gremial. El contraste documental de AC "
+            "Inversions se usa sólo para practicar la etiqueta «formalización y alegaciones de Fiscalía», no "
+            "para convertir esa actuación de 2016 en condena ni para atribuirla a Ruta Andina."
         ),
         limite=(
             "La comunicación no sustituye la reparación. Un protocolo impecable sobre un problema no resuelto "
             "acelera la pérdida de confianza."
         ),
-        libros=["reichheld", "godin", "dixon-effort", "cialdini"],
+        libros=["reichheld", "godin", "dixon-effort", "fiscalia-ac-inversions"],
         error=("Comunicar antes de reparar",
                "Define el protocolo: contención, reparación, comunicación y prevención documentada, en ese orden."),
     ),

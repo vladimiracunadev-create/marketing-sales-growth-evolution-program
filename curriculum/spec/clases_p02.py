@@ -389,25 +389,30 @@ CLASES = [
             "de quedar mal ante otros, de que el proveedor desaparezca. En compras B2B ese riesgo es también "
             "personal para quien recomienda. La confianza es el mecanismo que reduce el riesgo percibido sin "
             "eliminarlo realmente, y se construye con señales verificables: casos comparables, garantías, "
-            "transparencia sobre límites y consistencia entre lo dicho y lo hecho."
+            "transparencia sobre límites y consistencia entre lo dicho y lo hecho. El reconocimiento de "
+            "marca, una figura pública, una red de referidos, un testimonio o una rentabilidad alta no "
+            "acreditan por sí mismos solvencia ni fraude: son señales que deben contrastarse con evidencia "
+            "del producto, custodia, liquidez, límites y responsables."
         ),
         conceptos=[
             ("riesgo percibido", "estimación subjetiva del cliente sobre la probabilidad y magnitud de un resultado adverso"),
             ("señal de confianza", "evidencia verificable que reduce la incertidumbre sobre el desempeño futuro del proveedor"),
             ("riesgo personal del recomendante", "consecuencia profesional que enfrenta quien impulsa la compra si el proyecto falla"),
             ("reversibilidad de la decisión", "facilidad y costo de deshacer la compra si el resultado no se cumple"),
+            ("jerarquía de evidencia", "orden que separa afirmación, testimonio e inferencia de un documento verificable y de un hecho acreditado"),
         ],
         metodo=[
             "enumerar los riesgos percibidos por cada rol",
             "clasificarlos en económico, operativo, reputacional y personal",
-            "asignar a cada riesgo una señal de confianza verificable",
+            "clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo",
+            "asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable",
             "aumentar la reversibilidad donde el riesgo es alto",
-            "medir el efecto sobre avance y sobre calidad del cliente ganado",
+            "decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión",
         ],
         senales=[
-            ("objeciones de riesgo por negocio", "objeciones clasificadas como riesgo, sobre objeciones totales registradas en el periodo"),
-            ("uso de referencias en negocios ganados", "negocios donde se entregó una referencia verificable, sobre negocios cerrados"),
-            ("tasa de conversión con garantía", "conversión de la oferta con garantía explícita frente a la oferta sin garantía"),
+            ("objeciones de riesgo por negocio", "numerador: objeciones clasificadas como riesgo; denominador o base sobre la que se calcula: objeciones totales; ventana: mes móvil; fuente: CRM con motivo codificado"),
+            ("cobertura de evidencia", "numerador: afirmaciones con evidencia primaria vigente; denominador o base sobre la que se calcula: afirmaciones comerciales revisadas; ventana: cada ciclo editorial; fuente: registro de afirmaciones"),
+            ("tasa de reversión informada", "numerador: compras deshechas dentro del plazo informado; denominador o base sobre la que se calcula: compras con reversibilidad ofrecida; ventana: 90 días; fuente: contratos, facturación y soporte"),
         ],
         caso=(
             "Los clientes de Ruta Andina temen perder el historial de citas al migrar. La empresa nunca "
@@ -418,7 +423,7 @@ CLASES = [
             "Una garantía amplia mal diseñada puede atraer clientes que no lograrán resultado y trasladar el "
             "costo a la operación. La garantía debe acotarse a lo que la empresa controla."
         ),
-        libros=["cialdini", "rackham", "dixon-effort", "godin"],
+        libros=["cialdini", "rackham", "dixon-effort", "doj-madoff"],
         error=("Responder al riesgo con más argumentos de beneficio",
                "Atiende el riesgo con evidencia y reversibilidad, no con entusiasmo adicional."),
     ),

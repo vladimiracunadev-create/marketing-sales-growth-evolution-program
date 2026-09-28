@@ -170,25 +170,28 @@ CLASES = [
             "El esquema de compensación es la declaración más honesta de lo que la empresa realmente quiere. "
             "Zoltners documenta que los incentivos producen exactamente el comportamiento que premian, "
             "incluidos los efectos no deseados: premiar sólo ingreso nuevo produce descuentos agresivos y "
-            "clientes que no renuevan. El diseño debe incluir contrapesos y ser simple de entender."
+            "clientes que no renuevan. El diseño debe incluir contrapesos y ser simple de entender. Nuevos "
+            "aportes de inversionistas o fondos captados para invertir no son ingreso comercial; volumen, "
+            "crecimiento y rentabilidad son magnitudes distintas y no pueden compartir una etiqueta de logro."
         ),
         conceptos=[
             ("estructura de compensación", "combinación de fijo, variable y aceleradores del esquema"),
             ("efecto no deseado", "comportamiento perverso inducido por el diseño del incentivo"),
             ("contrapeso", "componente que penaliza el resultado obtenido a costa de otro objetivo"),
             ("comprensibilidad", "capacidad del vendedor de calcular su propia remuneración"),
+            ("base elegible", "venta comercial cobrada y válida que excluye aportes de capital, depósitos o captación financiera"),
         ],
         metodo=[
             "declarar qué comportamiento se quiere producir",
             "diseñar el esquema y simular sus efectos",
             "identificar los efectos no deseados posibles",
-            "incorporar contrapesos sobre margen y retención",
-            "verificar que el esquema sea comprensible y estable",
+            "incorporar contrapesos sobre margen, retención, reclamos y transparencia",
+            "verificar que base, fórmula, ventana, fuente y suspensión sean comprensibles",
         ],
         senales=[
-            ("dispersión de descuentos", "descuento promedio otorgado, por vendedor y periodo"),
-            ("retención de clientes por vendedor", "retención a 12 meses de los clientes que cada vendedor cerró"),
-            ("comprensión del esquema", "vendedores que calculan correctamente su remuneración, en verificación"),
+            ("descuento ponderado", "numerador: suma de descuento monetario concedido; denominador o base sobre la que se calcula: precio de lista de ventas cerradas; ventana: mes; fuente: cotizaciones y facturación"),
+            ("retención por vendedor", "numerador: clientes del vendedor activos a 12 meses; denominador o base sobre la que se calcula: clientes elegibles cerrados por ese vendedor; ventana: cohorte de 12 meses; fuente: CRM y facturación"),
+            ("comprensión del esquema", "numerador: vendedores que calculan correctamente un caso; denominador o base sobre la que se calcula: vendedores evaluados; ventana: cada cambio y revisión semestral; fuente: prueba documentada"),
         ],
         caso=(
             "La comisión de Ruta Andina paga sobre ingreso firmado sin considerar margen ni permanencia. El "
@@ -198,7 +201,7 @@ CLASES = [
             "Un esquema con demasiados componentes deja de orientar el comportamiento porque nadie entiende "
             "qué maximiza. La simplicidad tiene valor propio."
         ),
-        libros=["zoltners", "grove", "roberge", "collins"],
+        libros=["zoltners", "grove", "roberge", "doj-onecoin-greenwood"],
         error=("Compensar sólo ingreso firmado",
                "Incorpora contrapesos de margen y permanencia, y verifica que el esquema siga siendo comprensible."),
     ),

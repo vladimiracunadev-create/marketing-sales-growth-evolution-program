@@ -856,6 +856,55 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
 
+    # --- Casos documentales de crecimiento responsable ----------------------
+    "doj-madoff": {
+        "acceso": "abierta", "tipo": "reference",
+        "autores": ["U.S. Attorney's Office, Southern District of New York"], "publicado": "2009",
+        "url": "https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-bernard-l-madoff-and-related-cases",
+        "autoridad": "U.S. Department of Justice, Estados Unidos", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Estados Unidos, S.D.N.Y. Hechos usados: declaración de culpabilidad del 12-03-2009 y sentencia del 29-06-2009. No se usa reputación o testimonio como prueba.",
+        "estado": "verificada",
+    },
+    "fiscalia-ac-inversions": {
+        "acceso": "abierta", "tipo": "reference", "autores": ["Fiscalía de Chile"], "publicado": "2016",
+        "url": "https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions",
+        "autoridad": "Ministerio Público de Chile", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Chile, Juzgado de Garantía de Antofagasta. Hecho y publicación: formalización informada el 04-03-2016. Contiene alegaciones de Fiscalía y posición de la defensa; no se registra como condena.",
+        "estado": "verificada",
+    },
+    "doj-onecoin-greenwood": {
+        "acceso": "abierta", "tipo": "reference",
+        "autores": ["U.S. Attorney's Office, Southern District of New York"], "publicado": "2023",
+        "url": "https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison",
+        "autoridad": "U.S. Department of Justice, Estados Unidos", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Estados Unidos, S.D.N.Y. Sentencia de Karl Sebastian Greenwood del 12-09-2023 tras declaración de culpabilidad. Uso: incentivos de reclutamiento y evidencia del producto; no se infiere fraude de toda red multinivel.",
+        "estado": "verificada",
+    },
+    "ca2-ftx-appeal": {
+        "acceso": "abierta", "tipo": "reference",
+        "autores": ["Corte de Apelaciones del Segundo Circuito de Estados Unidos"], "publicado": "2026",
+        "url": "https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf",
+        "autoridad": "Corte de Apelaciones del Segundo Circuito de Estados Unidos", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Estados Unidos, Segundo Circuito. Condena de 2023 y sentencia de 2024 revisadas en 24-961-cr. Publicación: 12-06-2026. La Corte confirmó el fallo; distingue prueba, condena y recurso resuelto.",
+        "estado": "verificada",
+    },
+    "doj-celsius-sentence": {
+        "acceso": "abierta", "tipo": "reference",
+        "autores": ["U.S. Attorney's Office, Southern District of New York"], "publicado": "2025",
+        "url": "https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation",
+        "autoridad": "U.S. Department of Justice, Estados Unidos", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Estados Unidos, S.D.N.Y. Declaración de culpabilidad del 03-12-2024 y sentencia del 08-05-2025. Uso: afirmaciones de estabilidad y liquidez antes del bloqueo de retiros del 12-06-2022.",
+        "estado": "verificada",
+    },
+    "sec-terraform-verdict": {
+        "acceso": "abierta", "tipo": "reference",
+        "autores": ["Comisión de Bolsa y Valores de Estados Unidos (SEC)"], "publicado": "2024",
+        "url": "https://www.sec.gov/newsroom/press-releases/2024-73",
+        "autoridad": "Comisión de Bolsa y Valores de Estados Unidos (SEC)", "consultado": "2026-09-28",
+        "nota": "Jurisdicción: Estados Unidos, S.D.N.Y. Desacople de UST en mayo de 2022; veredicto civil del 05-04-2024; acuerdo anunciado el 13-06-2024. Uso: separar mecanismo de promesa de estabilidad.",
+        "estado": "verificada",
+    },
+
     # --- Precio y monetización -----------------------------------------------
     "nagle": {
         "tipo": "book",

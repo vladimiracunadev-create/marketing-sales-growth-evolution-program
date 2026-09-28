@@ -49,6 +49,7 @@ Producir un componente defendible de **brand book mínimo viable con activos dis
 | **notoriedad espontánea por ola** | proporción que nombra la marca sin ayuda, por ola y por segmento |
 | **consideración por ola** | proporción que incluiría la marca en su evaluación, por ola |
 | **relación marca-costo de adquisición** | correlación observada entre indicadores de marca y costo por cliente ganado |
+| **atribución del personaje por ola** | personas que vinculan correctamente la mascota con la empresa, sobre personas que reconocen el personaje, por segmento y ola |
 
 Cada ficha debe indicar además: fuente del dato, frecuencia de cálculo, responsable, lectura permitida y lectura prohibida. Si el dato no existe, se diseña el mecanismo de captura y se declara su costo.
 

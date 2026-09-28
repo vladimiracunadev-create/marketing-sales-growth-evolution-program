@@ -4,6 +4,16 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 Versionado semántico aplicado al contenido: **mayor** = cambio del estándar pedagógico, **menor** = contenido
 nuevo, **parche** = correcciones.
 
+## [Sin publicar]
+
+- Ampliada la Parte 06 con una unidad aplicada sobre mascotas de marca y corpóreos: decisión estratégica,
+  adaptación física/digital, operación segura y accesible, costos, atribución y evaluación incremental.
+- Extendido el caso sintético de Ruta Andina, la evaluación y el proyecto de las Partes 05–06 con una
+  comparación entre activación con corpóreo y alternativa sin personaje; descartar el recurso sigue siendo
+  una respuesta evaluable cuando está bien fundamentada.
+- Incorporados un estudio académico sobre antropomorfismo de marca y textos oficiales chilenos sobre niñez,
+  propiedad intelectual y seguridad laboral, con pruebas de regresión para preservar alcance y regeneración.
+
 ## [1.6.0] — 2026-08-19
 
 Nueva página [`docs/FUENTES.md`](docs/FUENTES.md): las obras y los enlaces que sostienen el programa, sin

@@ -37,6 +37,28 @@
       "status": "verificada"
     },
     {
+      "id": "aggarwal-mcgill",
+      "type": "paper",
+      "authors": [
+        "Aggarwal, Pankaj",
+        "McGill, Ann L."
+      ],
+      "title": "When Brands Seem Human, Do Humans Act Like Brands?",
+      "published": "2012",
+      "edition": "2012",
+      "authority": "Journal of Consumer Research / Oxford University Press",
+      "category": "marca",
+      "contribution": "efectos conductuales y condiciones de la antropomorfización de marca",
+      "cited_as": "Pankaj Aggarwal y Ann L. McGill",
+      "access": "restringida",
+      "doi": "10.1086/662614",
+      "locator": "https://doi.org/10.1086/662614",
+      "used_in": [
+        "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "ambrose",
       "type": "book",
       "authors": [

@@ -10,7 +10,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Situación
 
-Ruta Andina cambió de logo dos veces en 18 meses y su nombre no aparece en la conversación espontánea del rubro.
+Escenario didáctico con datos sintéticos: Ruta Andina evalúa una feria para pymes y debe elegir entre una activación con el corpóreo original «Ruti» y una demostración sin personaje. El piloto con corpóreo reúne más interacciones, pero sólo 19 % atribuye el personaje a la empresa y produce menos contactos pertinentes que la alternativa. El presupuesto no alcanza para repetir ambas condiciones y operar con el acompañamiento previsto.
 
 El equipo tiene tres semanas para presentar una recomendación al comité. Existen posiciones encontradas dentro de la empresa y la información disponible es incompleta en varios frentes.
 
@@ -23,6 +23,12 @@ El equipo tiene tres semanas para presentar una recomendación al comité. Exist
 | `datasets/campaigns.csv` | Inversión y resultados por campaña | Atribución de último clic |
 | `datasets/ecommerce_orders.csv` | Pedidos, montos y devoluciones | Sin costo logístico desagregado |
 | `datasets/experiments.csv` | Pruebas ejecutadas y resultados | Varias sin tamaño de muestra registrado |
+
+## Extensión aplicada
+
+- La condición A, con corpóreo, cuesta CLP 2.400.000: 310 participantes únicos, 59 personas que atribuyen correctamente a Ruta Andina, 8 contactos pertinentes y 2 compras observadas en siete días.
+- La condición B, sin corpóreo, cuesta CLP 1.250.000: 145 participantes únicos, 90 atribuciones correctas, 17 contactos pertinentes y 5 compras observadas en siete días.
+- Los bloques ocurrieron en horarios y ubicaciones distintas. Por ello, QR, cupón y compras observadas describen respuesta atribuida bajo esas reglas, pero no identifican por sí solos efecto causal.
 
 ## Preguntas de análisis
 

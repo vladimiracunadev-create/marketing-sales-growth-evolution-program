@@ -20,6 +20,12 @@ Este proyecto se construye sobre el estado acumulado de la simulación: las deci
 4. Registro de supuestos con nivel de evidencia y plan de validación.
 5. Actualización del estado de la simulación en `simulations/state/`.
 
+## Extensión aplicada de la Parte 06
+
+1. Añade al brand book una decisión explícita sobre «Ruti»: usar, ajustar o descartar la mascota y su corpóreo. Las tres respuestas pueden obtener puntaje completo si comparan una alternativa defendible.
+2. Si se usa, entrega brief, identidad y conducta, adaptación física/digital, guion de interacción, roles, checklist de accesibilidad y seguridad, presupuesto sin doble conteo, registro de incidentes y criterio de detención.
+3. Diseña la comparación con y sin corpóreo; ficha reconocimiento, atribución, participantes únicos, respuesta comercial y resultado. Explica qué confundidores impiden atribuir causalidad.
+
 ## Preguntas rectoras
 
 - ¿Qué compra realmente el cliente y por qué elegiría esta oferta frente a no hacer nada?

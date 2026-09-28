@@ -39,7 +39,7 @@ Las obras que ordenan el criterio de cada parte. El índice de cada una lista ad
 
 ## Libros de referencia por área
 
-Las 96 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
+Las 97 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
 
 ### Marketing
 
@@ -86,6 +86,7 @@ Las 96 obras del programa, agrupadas por lo que aportan. El título enlaza al ca
 - David A. Aaker — [*Building Strong Brands*](https://openlibrary.org/isbn/9780029001516) (1996) — brand equity, identidad de marca y arquitectura de portafolio.
 - Alina Wheeler y Rob Meyerson — [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) (2024, 6.ª ed.) — proceso de identidad de marca: investigación, diseño, aplicación y gobierno.
 - Kevin Lane Keller y Vanitha Swaminathan — [*Strategic Brand Management*](https://openlibrary.org/isbn/9780134892498) (2019, 5.ª ed.) — modelo CBBE: notoriedad, significado, respuesta y resonancia de marca.
+- Pankaj Aggarwal y Ann L. McGill — [*When Brands Seem Human, Do Humans Act Like Brands?*](https://doi.org/10.1086/662614) (2012) — efectos conductuales y condiciones de la antropomorfización de marca.
 
 ### Comunicación e identidad
 
@@ -218,6 +219,10 @@ Texto completo y gratuito en Ley Chile. **La norma vigente manda sobre el materi
 - **Ley 19.628** — Sobre protección de la vida privada (Ministerio Secretaría General de la Presidencia): <https://www.bcn.cl/leychile/navegar?idNorma=141599>
 - **Decreto 6/2021** — Aprueba reglamento de comercio electrónico (Ministerio de Economía, Fomento y Turismo): <https://www.bcn.cl/leychile/navegar?idNorma=1165504>
 - **Decreto 52/2024** — Aprueba reglamento que regula la forma y condiciones en que los proveedores deberán comunicar la exclusión del derecho a retracto y los bienes en que excepcionalmente y por su naturaleza procederá tal exclusión (Ministerio de Economía, Fomento y Turismo): <https://www.bcn.cl/leychile/navegar?idNorma=1206144>
+- **Ley 21.430** — Sobre garantías y protección integral de los derechos de la niñez y adolescencia (Ministerio de Desarrollo Social y Familia): <https://www.bcn.cl/leychile/navegar?idNorma=1173643>
+- **Ley 17.336** — Propiedad intelectual (Ministerio de Educación Pública): <https://www.bcn.cl/leychile/navegar?idNorma=28933>
+- **Código del Trabajo** — Fija el texto refundido, coordinado y sistematizado del Código del Trabajo (Ministerio del Trabajo y Previsión Social): <https://www.bcn.cl/leychile/navegar?idNorma=207436>
+- **Decreto 594/1999** — Aprueba reglamento sobre condiciones sanitarias y ambientales básicas en los lugares de trabajo (Ministerio de Salud): <https://www.bcn.cl/leychile/navegar?idNorma=167766>
 
 ## Organismos que fiscalizan
 

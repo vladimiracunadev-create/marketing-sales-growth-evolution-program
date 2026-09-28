@@ -117,6 +117,36 @@ PARTES = [
         "libros": ["aaker", "keller-brand", "sharp2", "wheeler", "heath", "binet-field"],
         "caso": "Ruta Andina cambió de logo dos veces en 18 meses y su nombre no aparece en la conversación espontánea del rubro.",
         "riesgo": "Confundir gusto estético del equipo con construcción de memoria en el mercado.",
+        "caso_aplicado": ("Escenario didáctico con datos sintéticos: Ruta Andina evalúa una feria para pymes y "
+                          "debe elegir entre una activación con el corpóreo original «Ruti» y una demostración "
+                          "sin personaje. El piloto con corpóreo reúne más interacciones, pero sólo 19 % atribuye "
+                          "el personaje a la empresa y produce menos contactos pertinentes que la alternativa. "
+                          "El presupuesto no alcanza para repetir ambas condiciones y operar con el acompañamiento previsto."),
+        "evaluacion_requisitos": [
+            "definir objetivo y audiencia de la activación",
+            "justificar usar o descartar el personaje frente a una alternativa",
+            "traducir identidad y personalidad a conducta observable",
+            "presupuestar y preparar una operación segura y accesible",
+            "diseñar medición por niveles y declarar la ventana de atribución",
+            "interpretar los datos sintéticos sin afirmar causalidad no identificada",
+            "recomendar continuar, ajustar o detener con razones verificables",
+        ],
+        "caso_extension": [
+            "La condición A, con corpóreo, cuesta CLP 2.400.000: 310 participantes únicos, 59 personas que "
+            "atribuyen correctamente a Ruta Andina, 8 contactos pertinentes y 2 compras observadas en siete días.",
+            "La condición B, sin corpóreo, cuesta CLP 1.250.000: 145 participantes únicos, 90 atribuciones "
+            "correctas, 17 contactos pertinentes y 5 compras observadas en siete días.",
+            "Los bloques ocurrieron en horarios y ubicaciones distintas. Por ello, QR, cupón y compras observadas "
+            "describen respuesta atribuida bajo esas reglas, pero no identifican por sí solos efecto causal.",
+        ],
+        "proyecto_extension": [
+            "Añade al brand book una decisión explícita sobre «Ruti»: usar, ajustar o descartar la mascota y su "
+            "corpóreo. Las tres respuestas pueden obtener puntaje completo si comparan una alternativa defendible.",
+            "Si se usa, entrega brief, identidad y conducta, adaptación física/digital, guion de interacción, roles, "
+            "checklist de accesibilidad y seguridad, presupuesto sin doble conteo, registro de incidentes y criterio de detención.",
+            "Diseña la comparación con y sin corpóreo; ficha reconocimiento, atribución, participantes únicos, "
+            "respuesta comercial y resultado. Explica qué confundidores impiden atribuir causalidad.",
+        ],
     },
     {
         "num": "07",

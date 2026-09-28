@@ -83,6 +83,12 @@ DESARROLLO = {
         "mercados donde el cliente compra por resultado y precio, dedicar el material comercial al propósito "
         "resta espacio a lo que decide la compra. El límite es de proporción, no de contenido: el propósito "
         "sostiene la coherencia, no reemplaza al argumento.",
+
+        "Si la marca adopta una mascota, cada rasgo debe convertirse en conducta observable. «Cercana» puede "
+        "significar saludar a distancia, ofrecer ayuda sin bloquear el paso y retirarse ante una negativa; no "
+        "autoriza abrazar, tocar ni insistir. El mismo contrato conductual rige a la ilustración, la voz digital "
+        "y el intérprete del corpóreo. Un personaje que bromea cuando la promesa exige precisión o que presiona "
+        "a quien no quiere interactuar contradice la personalidad aunque el diseño sea atractivo.",
     ],
 
     "04": [
@@ -165,6 +171,72 @@ DESARROLLO = {
         "obligación de no discriminar, es una decisión comercial: cada persona que no puede leer la pieza es "
         "un cliente potencial perdido. Las pautas de accesibilidad deben verificarse en su fuente, no de "
         "memoria.",
+
+        "Una mascota de marca es un personaje original cuya identidad y conducta están gobernadas para "
+        "representar asociaciones concretas. No es lo mismo que un promotor, que ejecuta una tarea comercial; "
+        "un embajador, que presta su identidad real; ni un personaje publicitario usado sólo en una campaña. "
+        "Tampoco equivale a una representación digital: la mascota puede vivir en ilustración, animación o voz "
+        "sin tener versión física. El corpóreo es únicamente la representación vestible operada por una persona. "
+        "Que exista esa pieza física no prueba que el público reconozca al personaje como activo de la marca.",
+
+        "La pregunta central es: «¿Cuándo una mascota y su representación corpórea aportan a la marca y al "
+        "negocio, y cómo podemos comprobarlo sin confundir atención, entretenimiento y fotografías con "
+        "resultados comerciales?». Se responde comparando alternativas, no acumulando anécdotas.",
+
+        "La decisión empieza con una hipótesis, no con un boceto: para qué audiencia, en qué situación de compra "
+        "y qué cambio observable se espera frente a una alternativa sin corpóreo. Puede buscar identificación, "
+        "asociaciones de personalidad, continuidad entre canales o una interacción presencial que habilite una "
+        "conversación. La evidencia sobre personajes antropomorfizados en publicidad ayuda a formular hipótesis, "
+        "pero no permite prometer que un corpóreo en una feria producirá ventas. El medio, el contexto y el "
+        "resultado estudiado son distintos; la transferencia debe declararse como inferencia y probarse.",
+
+        "Es razonable descartar el corpóreo cuando la audiencia lo percibiría infantil o invasivo, cuando la "
+        "categoría exige sobriedad, cuando la promesa no puede traducirse a una conducta digna, cuando el costo "
+        "desplaza una demostración más útil o cuando no existe capacidad para operar y medir con seguridad. La "
+        "pregunta no es si el equipo quiere una mascota, sino si supera alternativas como demostración, asesoría, "
+        "señalización o contenido. Una respuesta negativa bien fundamentada protege presupuesto y marca.",
+
+        "El brief conecta estrategia y ejecución: objetivo, audiencia, mensaje, contexto, conducta esperada y "
+        "conductas prohibidas. Después fija silueta reconocible, paleta accesible, rasgos que sobreviven al cambio "
+        "de escala y elementos que no pueden perderse al pasar de ilustración a video o corpóreo. Debe probarse la "
+        "atribución sin mostrar primero el nombre. Si se recuerda a «un zorro simpático» pero no a Ruta Andina, "
+        "hay atención sin activo distintivo. El gusto interno nunca sustituye esa prueba con la audiencia.",
+
+        "El guion presencial contiene bienvenida, invitación no coercitiva, participación, derivación a una "
+        "persona comercial, cierre y salida ante incomodidad. Con niños nunca se fuerza contacto, abrazo o foto: "
+        "se mantiene distancia, se acepta el rechazo o temor de inmediato y se verifican las autorizaciones que "
+        "correspondan antes de captar o publicar imágenes. Quien no quiera interactuar conserva libre tránsito y "
+        "acceso equivalente. Estas reglas son criterios pedagógicos y operativos; la base jurídica del tratamiento "
+        "de imágenes y datos debe comprobarse en la normativa vigente para el caso concreto.",
+
+        "La operación asigna tres responsabilidades separadas. El intérprete ejecuta la conducta y comunica su "
+        "estado; el acompañante despeja visión y desplazamiento, gestiona público y detecta riesgos; el coordinador "
+        "autoriza el inicio, controla pausas y detiene. Antes de abrir se revisan visibilidad, movilidad, ruta sin "
+        "obstáculos, ventilación, clima, hidratación, descansos, higiene, limpieza, almacenamiento, transporte y "
+        "plan de emergencia. No existe un límite universal de minutos o temperatura aplicable a todo traje: la "
+        "evaluación debe considerar diseño, persona, ambiente, tarea y norma vigente. Malestar, pérdida de visión, "
+        "riesgo ambiental, acoso o falla del acompañamiento son razones para detener y registrar el incidente.",
+
+        "El presupuesto separa desembolso inicial —concepto, diseño y adquisición—, gasto por evento —intérprete, "
+        "acompañante, transporte, limpieza, producción y medición— y asignación por uso —almacenamiento, reparación "
+        "y amortización bajo una regla explícita—. Un costo compartido se asigna una sola vez. Comparar sólo el "
+        "arriendo del traje con el ingreso observado omite la mayor parte del costo; cargar la compra completa y "
+        "además su amortización la duplica. Cada supuesto debe quedar visible para poder recalcular.",
+
+        "La medición se ordena en cuatro niveles. Marca: reconocimiento del personaje, atribución a la empresa y "
+        "recuerdo espontáneo o asistido. Actividad: exposición estimada u observada, participantes únicos e "
+        "interacción definida, sin contar varias fotos de una persona como varias personas. Respuesta comercial: "
+        "visitas identificables, contactos pertinentes, solicitudes y compras dentro de una ventana declarada. "
+        "Resultado: margen de contribución, costo total y evidencia sobre incrementalidad. Cada ficha declara "
+        "definición, numerador, denominador, unidad, ventana, fuente, exclusiones, responsable y limitaciones.",
+
+        "Un QR o cupón registra respuestas bajo reglas de atribución, pero no identifica causalidad por sí solo. "
+        "La comparación con y sin corpóreo debe revisar horario, afluencia, ubicación, promoción y composición del "
+        "público. Si difieren, el contraste sigue siendo descriptivo. Sólo con margen incremental defendible puede "
+        "calcularse retorno: (margen de contribución incremental antes del costo de activación − costo de la "
+        "activación) / costo de la activación. Si el diseño no aísla el efecto, se informa costo, respuesta "
+        "registrada y brecha de atribución, pero no un retorno causal. Más interacción con menor asociación de "
+        "marca, como en el piloto de Ruti, justifica ajustar o detener aunque produzca muchas fotografías.",
     ],
 
     "07": [
@@ -379,6 +451,11 @@ DESARROLLO = {
         "autonomía de cada uno. En organizaciones con canales operados por terceros, el control es parcial "
         "por definición. Reconocer ese límite y concentrar la exigencia de coherencia en los elementos que "
         "afectan la confianza es más efectivo que aspirar a una uniformidad inalcanzable.",
+
+        "Una mascota añade un canal conductual. La misma silueta, señales de identidad, vocabulario y límites de "
+        "interacción deben sobrevivir entre corpóreo, ilustración, video, redes y materiales comerciales. No hace "
+        "falta que cada versión se vea idéntica, pero sí que una persona pueda atribuirla a la misma marca y que "
+        "ningún canal prometa o haga algo que los otros tendrían que reparar.",
     ],
 
     "13": [
@@ -406,6 +483,13 @@ DESARROLLO = {
         "función es explicar por qué la elasticidad de precio, la conversión o el costo de adquisición se "
         "mueven en el mediano plazo. Presentarlos como métrica de desempeño mensual desacredita la medición y "
         "termina con su financiamiento.",
+
+        "Para una mascota se miden por separado reconocimiento del personaje, atribución correcta a la empresa y "
+        "recuerdo de la marca; para una activación se agregan participantes únicos y respuesta comercial. El orden "
+        "importa: un personaje muy recordado con baja atribución puede estar construyendo memoria para nadie. Una "
+        "foto, un saludo o un escaneo prueban actividad bajo una definición, no consideración, compra ni margen "
+        "incremental. La conclusión causal depende del diseño comparativo y de sus límites, no de que dos tasas "
+        "sean diferentes.",
     ],
 
     "14": [
@@ -433,5 +517,12 @@ DESARROLLO = {
         "medios que no dependen de la empresa. Su gobierno debe definir quién autoriza excepciones, con qué "
         "criterio y dónde se registran, porque las excepciones ocurrirán de todas formas y sin registro se "
         "convierten en la nueva norma sin que nadie lo decida.",
+
+        "Si existe mascota, el núcleo del brand book incorpora nombre y titularidad, propósito, personalidad "
+        "traducida a conductas, rasgos visuales invariantes, adaptaciones física y digital, voz, usos prohibidos, "
+        "guion de interacción, roles operativos, accesibilidad, manejo de incidentes, permisos de imagen y criterio "
+        "de detención. También documenta quién aprueba versiones y cómo se mide reconocimiento y atribución. Un "
+        "proveedor debe poder ejecutar esas reglas sin inventar personalidad ni asumir que una foto autoriza su "
+        "publicación.",
     ],
 }

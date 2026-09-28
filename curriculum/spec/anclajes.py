@@ -104,7 +104,7 @@ ANCLAJES = {
     "06.03": {"sinek": "porque", "godin": "cambio", "aaker": "identidad", "collins": "erizo"},
     "06.04": {"wheeler": "aplicabilidad", "ries-trout": "nombre", "keller-brand": "cbbe", "heath": "succes"},
     "06.05": {"handley": "estandar-editorial", "heath": "concrecion", "wheeler": "gobierno", "sugarman": "coherencia-promesa"},
-    "06.06": {"sharp2": "activos-distintivos", "wheeler": "aplicabilidad", "aaker": "posicion", "krug": "jerarquia-visual"},
+    "06.06": {"sharp2": "activos-distintivos", "wheeler": "aplicabilidad", "aaker": "posicion", "krug": "jerarquia-visual", "aggarwal-mcgill": "condiciones-antropomorfismo"},
     "06.07": {"aaker": "arquitectura", "keller-brand": "cbbe", "sharp2": "consistencia", "kotler": "mezcla"},
     "06.08": {"heath": "succes", "godin": "cambio", "sugarman": "resbaladilla", "handley": "empatia"},
     "06.09": {"keller-brand": "cbbe", "aaker": "equity", "binet-field": "corto-largo", "sharp": "disponibilidad"},

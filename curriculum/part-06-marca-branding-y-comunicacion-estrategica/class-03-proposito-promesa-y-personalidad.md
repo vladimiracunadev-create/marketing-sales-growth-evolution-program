@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `propósito`, `promesa de marca`, `personalidad` y `prueba de renuncia` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
-3. **Aplicar** la secuencia **formular propósito, promesa y personalidad por separado → verificar que cada uno tenga consecuencia operativa → buscar la prueba de renuncia en el historial → traducir la personalidad a reglas de tono y trato → auditar coherencia en tres puntos de contacto reales** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **formular propósito, promesa y personalidad por separado → verificar que cada uno tenga consecuencia operativa → buscar la prueba de renuncia en el historial → traducir la personalidad a reglas observables de tono, trato y conducta del personaje → auditar coherencia en tres puntos de contacto reales** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **decisiones alineadas al propósito**, **cumplimiento de la promesa** y **consistencia de tono** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. formular propósito, promesa y personalidad por separado → 2. verificar que cada uno tenga consecuencia operativa → 3. buscar la prueba de renuncia en el historial → 4. traducir la personalidad a reglas de tono y trato → 5. auditar coherencia en tres puntos de contacto reales
+1. formular propósito, promesa y personalidad por separado → 2. verificar que cada uno tenga consecuencia operativa → 3. buscar la prueba de renuncia en el historial → 4. traducir la personalidad a reglas observables de tono, trato y conducta del personaje → 5. auditar coherencia en tres puntos de contacto reales
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -119,6 +119,10 @@ El propósito es un instrumento de dirección interna que se comunica hacia afue
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir gusto estético del equipo con construcción de memoria en el mercado.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
+### Desarrollo específico aplicado
+
+Si la marca adopta una mascota, cada rasgo debe convertirse en conducta observable. «Cercana» puede significar saludar a distancia, ofrecer ayuda sin bloquear el paso y retirarse ante una negativa; no autoriza abrazar, tocar ni insistir. El mismo contrato conductual rige a la ilustración, la voz digital y el intérprete del corpóreo. Un personaje que bromea cuando la promesa exige precisión o que presiona a quien no quiere interactuar contradice la personalidad aunque el diseño sea atractivo.
+
 ### 6. Integración: de conceptos a una decisión defendible
 
 Sintetizar propósito, promesa y personalidad no consiste en sumar definiciones. Empieza por **propósito**, contrasta **promesa de marca** con **personalidad**, incorpora **prueba de renuncia** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
@@ -150,7 +154,7 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Buscar la prueba de renuncia en el historial.** El riesgo de este paso es cerrar demasiado rápido alrededor de **personalidad**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **consistencia de tono** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Traducir la personalidad a reglas de tono y trato.** Con **prueba de renuncia** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **decisiones alineadas al propósito** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Traducir la personalidad a reglas observables de tono, trato y conducta del personaje.** Con **prueba de renuncia** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **decisiones alineadas al propósito** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
 **Paso 5 — Auditar coherencia en tres puntos de contacto reales.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **propósito**. **cumplimiento de la promesa** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
@@ -192,7 +196,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **formular propósito, promesa y personalidad por separado → verificar que cada uno tenga consecuencia operativa → buscar la prueba de renuncia en el historial → traducir la personalidad a reglas de tono y trato → auditar coherencia en tres puntos de contacto reales** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **formular propósito, promesa y personalidad por separado → verificar que cada uno tenga consecuencia operativa → buscar la prueba de renuncia en el historial → traducir la personalidad a reglas observables de tono, trato y conducta del personaje → auditar coherencia en tres puntos de contacto reales** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **decisiones alineadas al propósito**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Start With Why* y la de *This Is Marketing*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |

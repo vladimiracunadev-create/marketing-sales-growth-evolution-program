@@ -105,7 +105,7 @@ CLASES = [
             "formular propósito, promesa y personalidad por separado",
             "verificar que cada uno tenga consecuencia operativa",
             "buscar la prueba de renuncia en el historial",
-            "traducir la personalidad a reglas de tono y trato",
+            "traducir la personalidad a reglas observables de tono, trato y conducta del personaje",
             "auditar coherencia en tres puntos de contacto reales",
         ],
         senales=[
@@ -215,37 +215,58 @@ CLASES = [
             "La identidad visual se evalúa por función, no por gusto: debe ser reconocible a baja atención, "
             "distintiva frente a los competidores, aplicable en todos los soportes y accesible para personas "
             "con baja visión o daltonismo. Romaniuk mostró que lo que produce reconocimiento no es la belleza "
-            "sino la consistencia de los activos distintivos a lo largo del tiempo."
+            "sino la consistencia de los activos distintivos a lo largo del tiempo. Una mascota puede ser uno "
+            "de esos activos y un corpóreo puede representarla en una activación, pero atención, fotografías o "
+            "simpatía no demuestran por sí solas asociación con la marca ni resultado comercial incremental."
         ),
         conceptos=[
             ("activo distintivo", "elemento visual que el mercado asocia únicamente con la marca"),
             ("reconocimiento a baja atención", "capacidad de identificar la marca en una exposición breve y parcial"),
             ("aplicabilidad", "funcionamiento del sistema visual en todos los soportes y tamaños reales"),
             ("accesibilidad visual", "contraste y legibilidad suficientes para personas con distintas capacidades"),
+            ("mascota de marca", "personaje original y gobernado que representa asociaciones de una marca de manera consistente"),
+            ("corpóreo", "representación física vestible de una mascota o personaje, operada por un intérprete en actividades presenciales"),
+            ("atribución a la marca", "proporción de personas expuestas que vincula correctamente el personaje con la empresa sin ayuda engañosa"),
+            ("retorno incremental de activación", "margen de contribución incremental menos costo de activación, dividido por ese costo, bajo un diseño comparativo declarado"),
         ],
         metodo=[
-            "identificar los activos distintivos actuales y su nivel de asociación",
-            "evaluar reconocimiento en exposición breve",
-            "verificar aplicabilidad en los soportes reales",
-            "comprobar contraste y accesibilidad",
-            "decidir qué conservar antes de qué cambiar",
+            "definir objetivo, audiencia, mensaje y alternativa sin personaje antes de diseñar",
+            "traducir personalidad a silueta, rasgos y conductas observables sin confundir gusto con asociación",
+            "probar reconocimiento, atribución y accesibilidad en versiones física y digital",
+            "presupuestar diseño, uso, intérprete, acompañamiento, transporte, cuidado y medición sin doble conteo",
+            "diseñar operación, interacción respetuosa, seguridad, registro de incidentes y criterios de detención",
+            "comparar con y sin corpóreo controlando horario, afluencia, promoción, ubicación y composición del público",
+            "decidir continuar, ajustar o descartar según evidencia de marca, actividad, respuesta comercial y resultado",
         ],
         senales=[
-            ("asociación de activos", "personas que atribuyen correctamente el activo a la marca, sobre expuestas"),
-            ("reconocimiento en dos segundos", "identificaciones correctas en exposición breve, sobre exposiciones"),
+            ("reconocimiento de la mascota", "personas únicas del segmento que reconocen el personaje, sobre personas únicas encuestadas dentro de 48 horas de la exposición"),
+            ("atribución correcta a la empresa", "personas únicas que nombran Ruta Andina al ver el personaje, sobre personas únicas que reconocen el personaje en la misma ola"),
+            ("participación única", "personas observadas que completan la interacción definida, sobre personas expuestas observadas durante cada bloque; fotografías repetidas se deduplican"),
+            ("respuesta comercial identificable", "contactos pertinentes o visitas con código válido, sobre participantes únicos durante la ventana declarada de siete días"),
+            ("retorno incremental estimado", "margen de contribución incremental antes del costo menos costo total de activación, dividido por ese costo en la ventana comparada"),
             ("cumplimiento de contraste", "elementos que cumplen el mínimo de contraste, sobre elementos evaluados"),
         ],
         caso=(
-            "El nuevo manual visual de Ruta Andina usa texto gris claro sobre blanco. En pantallas de taller, "
-            "con luz directa, el 40 % de los usuarios no logra leer el estado de las citas."
+            "Escenario didáctico con datos sintéticos: Ruta Andina evalúa una feria para pymes. La alternativa "
+            "con el corpóreo original «Ruti» cuesta CLP 2.400.000 y la alternativa demostrativa sin personaje "
+            "CLP 1.250.000. Un piloto comparable registra 310 participantes únicos con corpóreo, pero sólo 19 % "
+            "lo atribuye a Ruta Andina y genera 8 contactos pertinentes; sin corpóreo participan 145 personas, "
+            "62 % atribuye la experiencia a la empresa y se generan 17 contactos. Debe recomendarse continuar, "
+            "ajustar o detener sin presentar fotografías ni escaneos de QR como prueba causal de ventas."
         ),
         limite=(
-            "Un rediseño destruye activos acumulados. Antes de cambiar, hay que medir qué elementos ya poseen "
-            "asociación y cuál sería el costo de reconstruirla."
+            "No corresponde usar corpóreo cuando contradice el posicionamiento, desplaza una alternativa más "
+            "eficaz, no existe capacidad segura de operación o la medición no distinguirá atención de resultado. "
+            "Una mascota no sustituye propuesta de valor, producto, atención ni activos ya reconocidos."
         ),
-        libros=["sharp2", "wheeler", "aaker", "krug"],
-        error=("Rediseñar sin medir los activos existentes",
-               "Mide la asociación de cada activo antes de decidir qué se conserva y qué se reemplaza."),
+        libros=["sharp2", "wheeler", "aaker", "krug", "aggarwal-mcgill"],
+        normas_adicionales=["ley-21430", "ley-17336", "codigo-trabajo", "decreto-594"],
+        fuentes_oficiales=[
+            ("INAPI", "https://www.inapi.cl/sala-de-prensa/detalle-noticia/inapi-publica-nueva-version-de-las-directrices-de-marcas-2026",
+             "criterios vigentes de registro y gestión de signos; verificar protección antes de invertir"),
+        ],
+        error=("Presentar interacción y fotografías como ventas incrementales",
+               "Separa exposición, participantes únicos, atribución, respuesta comercial y resultado; declara el diseño y sus confundidores."),
     ),
     dict(
         n="07",
@@ -485,7 +506,7 @@ CLASES = [
             "auditar precio, condiciones y mensajes en todos los canales",
             "identificar la fuente única de verdad para cada dato",
             "corregir las incoherencias visibles primero",
-            "definir reglas de gobierno por canal",
+            "definir reglas de gobierno por canal, incluida la conducta física y digital del personaje",
             "medir la recurrencia de incoherencias",
         ],
         senales=[
@@ -533,6 +554,7 @@ CLASES = [
             ("notoriedad espontánea por ola", "proporción que nombra la marca sin ayuda, por ola y por segmento"),
             ("consideración por ola", "proporción que incluiría la marca en su evaluación, por ola"),
             ("relación marca-costo de adquisición", "correlación observada entre indicadores de marca y costo por cliente ganado"),
+            ("atribución del personaje por ola", "personas que vinculan correctamente la mascota con la empresa, sobre personas que reconocen el personaje, por segmento y ola"),
         ],
         caso=(
             "Ruta Andina mide su marca sólo con seguidores y alcance en redes. No tiene línea base de "
@@ -564,7 +586,7 @@ CLASES = [
         ],
         metodo=[
             "consolidar posicionamiento, promesa y activos",
-            "escribir reglas de aplicación con ejemplos",
+            "escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan",
             "incluir la guía verbal con antes y después",
             "definir el sistema de medición y su periodicidad",
             "ejecutar la prueba de producción con alguien ajeno",

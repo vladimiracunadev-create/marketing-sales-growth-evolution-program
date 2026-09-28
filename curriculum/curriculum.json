@@ -2707,24 +2707,33 @@
             "activo distintivo",
             "reconocimiento a baja atención",
             "aplicabilidad",
-            "accesibilidad visual"
+            "accesibilidad visual",
+            "mascota de marca",
+            "corpóreo",
+            "atribución a la marca",
+            "retorno incremental de activación"
           ],
           "senales": [
-            "asociación de activos",
-            "reconocimiento en dos segundos",
+            "reconocimiento de la mascota",
+            "atribución correcta a la empresa",
+            "participación única",
+            "respuesta comercial identificable",
+            "retorno incremental estimado",
             "cumplimiento de contraste"
           ],
           "libros": [
             "sharp2",
             "wheeler",
             "aaker",
-            "krug"
+            "krug",
+            "aggarwal-mcgill"
           ],
           "anclajes": {
             "sharp2": "activos-distintivos",
             "wheeler": "aplicabilidad",
             "aaker": "posicion",
-            "krug": "jerarquia-visual"
+            "krug": "jerarquia-visual",
+            "aggarwal-mcgill": "condiciones-antropomorfismo"
           },
           "ruta": "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md"
         },
@@ -2950,7 +2959,8 @@
           "senales": [
             "notoriedad espontánea por ola",
             "consideración por ola",
-            "relación marca-costo de adquisición"
+            "relación marca-costo de adquisición",
+            "atribución del personaje por ola"
           ],
           "libros": [
             "binet-field",

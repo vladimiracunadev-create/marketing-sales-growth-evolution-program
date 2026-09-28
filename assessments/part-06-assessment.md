@@ -16,16 +16,28 @@ Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos l
 
 ## B. Caso de decisión — 30 puntos
 
-**Caso.** Ruta Andina cambió de logo dos veces en 18 meses y su nombre no aparece en la conversación espontánea del rubro.
+**Caso.** Escenario didáctico con datos sintéticos: Ruta Andina evalúa una feria para pymes y debe elegir entre una activación con el corpóreo original «Ruti» y una demostración sin personaje. El piloto con corpóreo reúne más interacciones, pero sólo 19 % atribuye el personaje a la empresa y produce menos contactos pertinentes que la alternativa. El presupuesto no alcanza para repetir ambas condiciones y operar con el acompañamiento previsto.
 
 Construye dos alternativas realmente defendibles. Para cada una indica beneficio esperado, costo de oportunidad, riesgo, reversibilidad y quién asume la consecuencia. Recomienda una y declara qué información nueva te haría cambiar de opinión.
+
+### Requisitos específicos del caso
+
+1. Definir objetivo y audiencia de la activación.
+2. Justificar usar o descartar el personaje frente a una alternativa.
+3. Traducir identidad y personalidad a conducta observable.
+4. Presupuestar y preparar una operación segura y accesible.
+5. Diseñar medición por niveles y declarar la ventana de atribución.
+6. Interpretar los datos sintéticos sin afirmar causalidad no identificada.
+7. Recomendar continuar, ajustar o detener con razones verificables.
+
+Una recomendación que descarte el corpóreo puede obtener el puntaje completo si la comparación, la evidencia y los límites están bien resueltos.
 
 ## C. Método y evidencia — 30 puntos
 
 Aplica la secuencia de trabajo de la parte:
 
 1. Consolidar posicionamiento, promesa y activos.
-2. Escribir reglas de aplicación con ejemplos.
+2. Escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan.
 3. Incluir la guía verbal con antes y después.
 4. Definir el sistema de medición y su periodicidad.
 5. Ejecutar la prueba de producción con alguien ajeno.

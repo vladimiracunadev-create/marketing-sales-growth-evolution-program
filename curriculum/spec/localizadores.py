@@ -103,6 +103,15 @@ LOCALIZADORES = {
         "autoridad": "John Wiley & Sons",
         "estado": "verificada",
     },
+    "aggarwal-mcgill": {
+        "acceso": "restringida",
+        "tipo": "paper",
+        "autores": ["Aggarwal, Pankaj", "McGill, Ann L."],
+        "publicado": "2012",
+        "doi": "10.1086/662614",
+        "autoridad": "Journal of Consumer Research / Oxford University Press",
+        "estado": "verificada",
+    },
 
     # --- Pedagogía del programa ----------------------------------------------
     "ambrose": {

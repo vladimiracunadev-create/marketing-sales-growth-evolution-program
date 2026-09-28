@@ -79,8 +79,8 @@ Las decisiones de cada parte condicionan a las siguientes; el estado acumulado v
 
 ## Recursos incluidos
 
-- 1344 conceptos con definición operacional.
-- 96 obras de referencia con el lente que aporta cada una.
+- 1348 conceptos con definición operacional.
+- 97 obras de referencia con el lente que aporta cada una.
 - 5 conjuntos de datos sintéticos y 8 notebooks de analítica.
 - Plantillas de artefactos, prompts, especificaciones de agentes y guardarraíles de IA.
 - Mapa regulatorio chileno con fuentes oficiales y fecha de consulta.

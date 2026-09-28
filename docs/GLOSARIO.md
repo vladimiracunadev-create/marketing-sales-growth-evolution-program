@@ -2,7 +2,7 @@
 
 # Glosario
 
-1285 términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
+1289 términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
 
 ## A
 
@@ -85,6 +85,7 @@
 | **asunto informativo** | línea que describe el contenido sin engañar ni manipular la apertura | [11.04](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-04-cold-email.md) |
 | **atención pública** | gestión de consultas y reclamos visibles para terceros | [12.07](../curriculum/part-12-marketing-digital-y-adquisicion/class-07-social-media.md) |
 | **atractivo del segmento** | combinación de tamaño, crecimiento, margen potencial e intensidad competitiva | [04.05](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-05-atractivo-y-accesibilidad-de-segmentos.md) |
+| **atribución a la marca** | proporción de personas expuestas que vincula correctamente el personaje con la empresa sin ayuda engañosa | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **atribución honesta** | declaración de qué parte del resultado corresponde a la solución y qué parte a otros factores | [13.11](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-11-storytelling-comercial.md) |
 | **atributo accionable** | característica que cambia mensaje, canal, oferta o proceso comercial | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
 | **audiencia alquilada** | acceso a personas que depende de un pago o de una plataforma de terceros | [12.01](../curriculum/part-12-marketing-digital-y-adquisicion/class-01-estrategia-digital.md) |
@@ -310,6 +311,7 @@
 | **convención de nomenclatura** | regla uniforme para etiquetar campañas, fuentes y medios | [14.11](../curriculum/part-14-publicidad-y-performance-marketing/class-11-tracking-y-atribucion.md) |
 | **conversación sostenida** | intercambio de al menos dos mensajes con contenido sustantivo | [11.06](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-06-linkedin-y-social-selling.md) |
 | **coordinación marketing-ventas** | trabajo conjunto sobre la misma lista con métricas compartidas | [09.10](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-10-account-based-selling.md) |
+| **corpóreo** | representación física vestible de una mascota o personaje, operada por un intérprete en actividades presenciales | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **correlación con ingreso** | relación observada entre la métrica y el resultado financiero | [19.02](../curriculum/part-19-growth-marketing-y-growth-engineering/class-02-north-star-metric.md) |
 | **correspondencia anuncio-página** | coherencia entre lo que promete el anuncio y lo que muestra el destino | [14.05](../curriculum/part-14-publicidad-y-performance-marketing/class-05-google-ads-arquitectura-conceptual.md) |
 | **costo de adquisición admisible** | gasto máximo de venta compatible con el margen y el periodo de recuperación del contrato | [01.10](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-10-ventas-transaccionales-y-consultivas.md) |
@@ -790,6 +792,7 @@
 | **margen por segmento** | contribución calculada separadamente para cada grupo de clientes | [20.06](../curriculum/part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md) |
 | **margen retenido** | porcentaje del ingreso que queda tras comisiones y descuentos del canal | [22.08](../curriculum/part-22-go-to-market-canales-y-expansion/class-08-channel-economics.md) |
 | **masa crítica** | nivel de presencia que hace que la marca sea conocida dentro del segmento | [22.03](../curriculum/part-22-go-to-market-canales-y-expansion/class-03-beachhead-market.md) |
+| **mascota de marca** | personaje original y gobernado que representa asociaciones de una marca de manera consistente | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **material habilitante** | documento diseñado para que el mobilizer defienda el proyecto sin el vendedor presente | [02.06](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) |
 | **mecanismo** | explicación concreta de por qué la oferta produce el resultado prometido | [01.07](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-07-propuesta-de-valor-inicial.md) |
 | **mecanismo de captura** | forma en que la empresa convierte el valor entregado en ingreso | [24.02](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-02-seleccion-de-mercado-y-problema.md) |
@@ -1133,6 +1136,7 @@
 | **retención estabilizada** | curva de uso o permanencia que deja de caer y se aplana en una cohorte | [05.05](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-05-product-market-fit.md) |
 | **retiro de automatizaciones** | proceso de desactivar flujos que ya no cumplen función | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
 | **retiro ordenado** | proceso de discontinuación que protege a los clientes existentes y la reputación | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
+| **retorno incremental de activación** | margen de contribución incremental menos costo de activación, dividido por ese costo, bajo un diseño comparativo declarado | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **retorno marginal** | resultado adicional que produce el siguiente peso invertido en un canal | [14.08](../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) |
 | **retorno sobre inversión publicitaria** | ingreso atribuido dividido por gasto de medios | [14.10](../curriculum/part-14-publicidad-y-performance-marketing/class-10-cpa-cac-y-roas.md) |
 | **retroalimentación de ventas** | información que ventas devuelve sobre la calidad real de los leads recibidos | [11.12](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-12-lead-qualification.md) |

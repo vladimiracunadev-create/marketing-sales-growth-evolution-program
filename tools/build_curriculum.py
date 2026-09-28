@@ -429,6 +429,14 @@ def bloque_desarrollo(parte, clase, i):
         "",
     ]
 
+    if len(d) > 5:
+        lineas += [
+            "### Desarrollo específico aplicado",
+            "",
+        ]
+        for parrafo in d[5:]:
+            lineas += [parrafo, ""]
+
     # 6. integración
     lineas += [
         "### 6. Integración: de conceptos a una decisión defendible",
@@ -679,7 +687,7 @@ def bloque_chile(parte, clase):
     únicas fuentes del programa que se pueden leer completas y gratis, así que
     aquí no hay nada que creer, hay un texto al que ir.
     """
-    return "\n".join([
+    lineas = [
         "## 🇨🇱 Contexto chileno y cumplimiento",
         "",
         "Riesgo asociado a esta parte: **{}** Antes de ejecutar cualquier recomendación de esta clase en una "
@@ -692,6 +700,12 @@ def bloque_chile(parte, clase):
         "- **Datos personales.** {}, que sustituye progresivamente a {}.".format(
             normas.cita("ley-21719"), normas.cita("ley-19628")),
         "- **Derecho a retracto.** {}.".format(normas.cita("decreto-52-2024")),
+    ]
+    for clave in clase.get("normas_adicionales", []):
+        lineas.append("- **Fuente adicional aplicable a esta clase.** {}.".format(normas.cita(clave)))
+    for nombre, url, alcance in clase.get("fuentes_oficiales", []):
+        lineas.append("- **{}** — [{}]({}): {}.".format(nombre, "fuente primaria", url, alcance))
+    lineas += [
         "",
         "Dentro del repositorio, el "
         "[mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) ordena qué norma aplica a cada decisión "
@@ -702,7 +716,8 @@ def bloque_chile(parte, clase):
         "La regla del programa es simple: **la fuente oficial manda sobre el material pedagógico**. Si la norma "
         "cambió después de la fecha de esta clase, gana la norma.",
         "",
-    ])
+    ]
+    return "\n".join(lineas)
 
 
 def bloque_entregable(parte, clase):

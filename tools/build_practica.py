@@ -196,12 +196,19 @@ def render_assessment(parte, cls):
         "",
         "## B. Caso de decisión — 30 puntos",
         "",
-        "**Caso.** {}".format(parte["caso"]),
+        "**Caso.** {}".format(parte.get("caso_aplicado", parte["caso"])),
         "",
         "Construye dos alternativas realmente defendibles. Para cada una indica beneficio esperado, costo de "
         "oportunidad, riesgo, reversibilidad y quién asume la consecuencia. Recomienda una y declara qué "
         "información nueva te haría cambiar de opinión.",
         "",
+    ]
+    if parte.get("evaluacion_requisitos"):
+        lineas += ["### Requisitos específicos del caso", ""]
+        lineas += ["{}. {}.".format(i, p[0].upper() + p[1:]) for i, p in enumerate(parte["evaluacion_requisitos"], 1)]
+        lineas += ["", "Una recomendación que descarte el corpóreo puede obtener el puntaje completo si la comparación, "
+                   "la evidencia y los límites están bien resueltos.", ""]
+    lineas += [
         "## C. Método y evidencia — 30 puntos",
         "",
         "Aplica la secuencia de trabajo de la parte:",
@@ -276,7 +283,7 @@ def render_case(parte, cls):
         "",
         "## Situación",
         "",
-        parte["caso"],
+        parte.get("caso_aplicado", parte["caso"]),
         "",
         "El equipo tiene tres semanas para presentar una recomendación al comité. Existen posiciones "
         "encontradas dentro de la empresa y la información disponible es incompleta en varios frentes.",
@@ -291,6 +298,12 @@ def render_case(parte, cls):
         "| `datasets/ecommerce_orders.csv` | Pedidos, montos y devoluciones | Sin costo logístico desagregado |",
         "| `datasets/experiments.csv` | Pruebas ejecutadas y resultados | Varias sin tamaño de muestra registrado |",
         "",
+    ]
+    if parte.get("caso_extension"):
+        lineas += ["## Extensión aplicada", ""]
+        lineas += ["- {}".format(p) for p in parte["caso_extension"]]
+        lineas += [""]
+    lineas += [
         "## Preguntas de análisis",
         "",
         "1. ¿Cuál es el problema real y qué evidencia lo sostiene? Distingue síntoma de causa.",
@@ -368,6 +381,12 @@ def render_project(n, p1, p2):
         "4. Registro de supuestos con nivel de evidencia y plan de validación.",
         "5. Actualización del estado de la simulación en `simulations/state/`.",
         "",
+    ]
+    if p2.get("proyecto_extension"):
+        lineas += ["## Extensión aplicada de la Parte {}".format(p2["num"]), ""]
+        lineas += ["{}. {}".format(i, p) for i, p in enumerate(p2["proyecto_extension"], 1)]
+        lineas += [""]
+    lineas += [
         "## Preguntas rectoras",
         "",
         "- {}".format(p1["pregunta"]),

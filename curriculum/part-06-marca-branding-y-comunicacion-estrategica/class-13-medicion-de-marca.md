@@ -31,7 +31,7 @@ Al terminar esta clase serás capaz de:
 1. **Distinguir** `notoriedad espontánea`, `consideración`, `ola de medición` y `efecto de largo plazo` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
 3. **Aplicar** la secuencia **definir los indicadores de marca y su método → establecer la línea base con la primera ola → mantener método idéntico entre olas → separar efecto de marca y efecto de activación → vincular la evolución con costo de adquisición y precio** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **notoriedad espontánea por ola**, **consideración por ola** y **relación marca-costo de adquisición** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **notoriedad espontánea por ola**, **consideración por ola**, **relación marca-costo de adquisición** y **atribución del personaje por ola** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -105,7 +105,7 @@ Ficha de medición obligatoria para **notoriedad espontánea por ola**: `proporc
 
 Medir marca con frecuencia entrega sensación de control y produce lecturas dominadas por el ruido; medir poco entrega series limpias y detecta tarde los problemas. La periodicidad razonable depende de la velocidad del mercado y del volumen de inversión: sin campañas relevantes, medir trimestralmente es gastar en confirmar que nada cambió.
 
-**Lo que aporta la fuente.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta el criterio para pesar el intercambio: el plan de medición que va de la decisión a la métrica y no al revés (los capítulos sobre estrategia de medición). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **relación marca-costo de adquisición** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta el criterio para pesar el intercambio: el plan de medición que va de la decisión a la métrica y no al revés (los capítulos sobre estrategia de medición). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **atribución del personaje por ola** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **efecto de largo plazo** y otro de un supuesto del caso que nunca fue validado.
 
@@ -118,6 +118,10 @@ Los indicadores de marca no sustituyen a los comerciales ni predicen el ingreso 
 **Frontera declarada.** Las mediciones de marca tienen ruido y costo. En empresas pequeñas conviene una ola semestral acotada antes que ninguna medición o que un tablero de vanidad. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir gusto estético del equipo con construcción de memoria en el mercado.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
+
+### Desarrollo específico aplicado
+
+Para una mascota se miden por separado reconocimiento del personaje, atribución correcta a la empresa y recuerdo de la marca; para una activación se agregan participantes únicos y respuesta comercial. El orden importa: un personaje muy recordado con baja atribución puede estar construyendo memoria para nadie. Una foto, un saludo o un escaneo prueban actividad bajo una definición, no consideración, compra ni margen incremental. La conclusión causal depende del diseño comparativo y de sus límites, no de que dos tasas sean diferentes.
 
 ### 6. Integración: de conceptos a una decisión defendible
 
@@ -150,9 +154,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Mantener método idéntico entre olas.** El riesgo de este paso es cerrar demasiado rápido alrededor de **ola de medición**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **relación marca-costo de adquisición** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Separar efecto de marca y efecto de activación.** Con **efecto de largo plazo** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **notoriedad espontánea por ola** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Separar efecto de marca y efecto de activación.** Con **efecto de largo plazo** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **atribución del personaje por ola** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Vincular la evolución con costo de adquisición y precio.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **notoriedad espontánea**. **consideración por ola** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Vincular la evolución con costo de adquisición y precio.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **notoriedad espontánea**. **notoriedad espontánea por ola** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +210,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **notoriedad espontánea** y **consideración** como sinónimos | Se perdió la distinción entre «proporción que nombra la marca sin ayuda ante la categoría o la situación» y «proporción que incluiría la marca en su conjunto de evaluación» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «vincular la evolución con costo de adquisición y precio» | Se saltó «definir los indicadores de marca y su método»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **notoriedad espontánea por ola** | La métrica local reemplazó al resultado del sistema | Contrástala con **relación marca-costo de adquisición** y explicita el costo de oportunidad. |
+| Optimizar sólo **notoriedad espontánea por ola** | La métrica local reemplazó al resultado del sistema | Contrástala con **atribución del personaje por ola** y explicita el costo de oportunidad. |
 | Usar métricas de redes como métricas de marca | Error específico de esta clase | Levanta notoriedad y consideración con método comparable entre olas. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +255,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P06-C13-medicion-de-marca/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **notoriedad espontánea por ola**, **consideración por ola** y **relación marca-costo de adquisición** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **notoriedad espontánea por ola**, **consideración por ola**, **relación marca-costo de adquisición** y **atribución del personaje por ola** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

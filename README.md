@@ -21,8 +21,8 @@
 [📚 Índice de las 336 clases](curriculum/README.md) ·
 [🧭 Rutas por rol](rutas/README.md) ·
 [📅 Syllabus](SYLLABUS.md) ·
-[📖 Glosario (1.344 términos)](docs/GLOSARIO.md) ·
-[📐 Métricas (1.008 fichas)](docs/FORMULAS-Y-METRICAS.md) ·
+[📖 Glosario (1.348 términos)](docs/GLOSARIO.md) ·
+[📐 Métricas (1.012 fichas)](docs/FORMULAS-Y-METRICAS.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
 [🤝 Contribuir](CONTRIBUTING.md) ·
 [🔐 Seguridad](SECURITY.md)
@@ -73,15 +73,15 @@ supera las 4.800 palabras, está **redactado clase a clase** —no generado por 
 | Superficie | Cobertura |
 |---|---|
 | 📚 Currículo | 336/336 clases en 24 partes · 1.800.909 palabras · estándar `clase-profunda-v2` |
-| 🧩 Conceptos | 1.344 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
-| 📐 Medición | 1.008 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
-| 📖 Bibliografía | 96 obras · 395 ideas catalogadas · **1.344 anclajes** clase a clase, auditados |
+| 🧩 Conceptos | 1.348 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
+| 📐 Medición | 1.012 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
+| 📖 Bibliografía | 97 obras · 396 ideas catalogadas · **1.345 anclajes** clase a clase, auditados |
 | 🧪 Práctica | 48 laboratorios con rúbrica de 100 puntos y escenario adverso obligatorio |
 | 🏆 Evaluación | 24 evaluaciones de cuatro bloques ponderados + 12 proyectos + Capstone eliminatorio |
 | 🧭 Rutas por rol | 17 guías de carrera con día a día, artefactos, progresión y rangos |
 | 🖥️ Portal | 632 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
 | 🇨🇱 Regulación | Consumo, comercio electrónico, datos personales, marcas, tributación y libre competencia |
-| 🔧 Calidad | 85 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
+| 🔧 Calidad | 90 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
 
 ## 🗺️ El recorrido en 8 niveles
 
@@ -297,7 +297,7 @@ python tools/validate_depth.py        # profundidad mínima por clase, lab, eval
 python tools/check_links.py           # enlaces internos
 python tools/validate_site.py         # artefacto del portal completo
 python scripts/verify_sources.py      # registro de fuentes: ISBN, DOI, cobertura y cifras del README
-python -m pytest -q                   # 85 pruebas
+python -m pytest -q                   # 90 pruebas
 ```
 
 ## 👩‍🏫 Para instructores
@@ -315,7 +315,7 @@ taller intensivo de dos días y programa completo de doce meses.
 
 ## 📚 Fuentes
 
-La redacción del material es original y se apoya en **96 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
+La redacción del material es original y se apoya en **97 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
 
 Cada clase cierra indicando **qué idea concreta** de cada obra sostiene lo que acabas de leer y **en qué capítulo buscarla**. El identificador de cada obra —ISBN-13, DOI o dirección de la fuente— está en [`sources/bibliography.json`](sources/bibliography.json).
 
@@ -330,6 +330,10 @@ Texto completo y gratuito. **La norma vigente manda sobre el material pedagógic
 | **Ley 19.628** | régimen previo de datos personales, todavía aplicable en lo no derogado | <https://www.bcn.cl/leychile/navegar?idNorma=141599> |
 | **Decreto 6/2021** | obligaciones del proveedor en venta a distancia y comercio electrónico | <https://www.bcn.cl/leychile/navegar?idNorma=1165504> |
 | **Decreto 52/2024** | cómo debe comunicarse la exclusión del derecho a retracto | <https://www.bcn.cl/leychile/navegar?idNorma=1206144> |
+| **Ley 21.430** | vida privada, datos personales, dignidad y protección de niños, niñas y adolescentes | <https://www.bcn.cl/leychile/navegar?idNorma=1173643> |
+| **Ley 17.336** | derechos de autor sobre dibujos, personajes y demás obras originales | <https://www.bcn.cl/leychile/navegar?idNorma=28933> |
+| **Código del Trabajo** | deber de protección eficaz de la vida y salud de quienes trabajan | <https://www.bcn.cl/leychile/navegar?idNorma=207436> |
+| **Decreto 594/1999** | condiciones sanitarias y ambientales y control de riesgos laborales | <https://www.bcn.cl/leychile/navegar?idNorma=167766> |
 
 El programa **no distribuye** ninguna de las obras citadas: las cita, las contrasta y enseña a usarlas de forma selectiva. El acceso se obtiene por biblioteca, editorial, librería o suscripción legítima.
 

@@ -26,7 +26,7 @@ Cada entrada declara:
 from __future__ import annotations
 
 # Fecha en que se contrastó cada título contra el servicio de metadatos de BCN.
-CONFIRMADO_EN = "2026-08-19"
+CONFIRMADO_EN = "2026-09-28"
 
 BASE = "https://www.bcn.cl/leychile/navegar?idNorma={}"
 
@@ -69,6 +69,34 @@ NORMAS = {
         "organismo": "Ministerio de Economía, Fomento y Turismo",
         "id_norma": "1206144",
         "materia": "cómo debe comunicarse la exclusión del derecho a retracto",
+    },
+    "ley-21430": {
+        "numero": "Ley 21.430",
+        "titulo": "Sobre garantías y protección integral de los derechos de la niñez y adolescencia",
+        "organismo": "Ministerio de Desarrollo Social y Familia",
+        "id_norma": "1173643",
+        "materia": "vida privada, datos personales, dignidad y protección de niños, niñas y adolescentes",
+    },
+    "ley-17336": {
+        "numero": "Ley 17.336",
+        "titulo": "Propiedad intelectual",
+        "organismo": "Ministerio de Educación Pública",
+        "id_norma": "28933",
+        "materia": "derechos de autor sobre dibujos, personajes y demás obras originales",
+    },
+    "codigo-trabajo": {
+        "numero": "Código del Trabajo",
+        "titulo": "Fija el texto refundido, coordinado y sistematizado del Código del Trabajo",
+        "organismo": "Ministerio del Trabajo y Previsión Social",
+        "id_norma": "207436",
+        "materia": "deber de protección eficaz de la vida y salud de quienes trabajan",
+    },
+    "decreto-594": {
+        "numero": "Decreto 594/1999",
+        "titulo": "Aprueba reglamento sobre condiciones sanitarias y ambientales básicas en los lugares de trabajo",
+        "organismo": "Ministerio de Salud",
+        "id_norma": "167766",
+        "materia": "condiciones sanitarias y ambientales y control de riesgos laborales",
     },
 }
 

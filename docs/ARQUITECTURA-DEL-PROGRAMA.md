@@ -37,7 +37,7 @@ flowchart TD
 marketing-sales-growth-evolution-program/
 ├── curriculum/
 │   ├── spec/                    fuente de verdad pedagógica
-│   │   ├── bibliografia.py      96 obras con su lente
+│   │   ├── bibliografia.py      97 obras con su lente
 │   │   ├── partes.py            24 partes, caso persistente y niveles
 │   │   └── clases_pNN.py        14 especificaciones de clase por parte
 │   ├── part-NN-slug/            salida generada: 14 clases + README

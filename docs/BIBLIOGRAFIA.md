@@ -2,7 +2,7 @@
 
 # Bibliografía
 
-96 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
+97 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
 
 ## Cómo se usa la bibliografía en este programa
 
@@ -76,6 +76,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | David A. Aaker — *Building Strong Brands* (1996) | brand equity, identidad de marca y arquitectura de portafolio | 12 clases | [9780029001516](https://openlibrary.org/isbn/9780029001516) |
 | Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 8 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
 | Kevin Lane Keller y Vanitha Swaminathan — *Strategic Brand Management* (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 13 clases | [9780134892498](https://openlibrary.org/isbn/9780134892498) |
+| Pankaj Aggarwal y Ann L. McGill — *When Brands Seem Human, Do Humans Act Like Brands?* (2012) | efectos conductuales y condiciones de la antropomorfización de marca | 06.06 | [10.1086/662614](https://doi.org/10.1086/662614) |
 
 ## Comunicación
 

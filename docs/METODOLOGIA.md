@@ -26,7 +26,7 @@ permite a dos personas distintas clasificar el mismo caso de la misma forma. Cua
 predicciones observables, sigue siendo demasiado vaga para dirigir.
 
 Verificación: cada clase tiene una tabla de conceptos donde cada fila declara qué observar para demostrar
-comprensión. El [glosario](GLOSARIO.md) reúne 1.344 de esas definiciones.
+comprensión. El [glosario](GLOSARIO.md) reúne 1.348 de esas definiciones.
 
 ### Regla 2 — Toda métrica declara su ficha
 
@@ -34,7 +34,7 @@ Ninguna métrica aparece como nombre suelto. Cada señal del programa indica num
 temporal y fuente. El motivo es práctico: la mayor parte de las discusiones comerciales improductivas ocurren
 porque dos áreas usan la misma palabra para cosas distintas.
 
-Verificación: [`FORMULAS-Y-METRICAS.md`](FORMULAS-Y-METRICAS.md) contiene 1.008 señales con su definición.
+Verificación: [`FORMULAS-Y-METRICAS.md`](FORMULAS-Y-METRICAS.md) contiene 1.012 señales con su definición.
 
 ### Regla 3 — Todo método declara su frontera
 

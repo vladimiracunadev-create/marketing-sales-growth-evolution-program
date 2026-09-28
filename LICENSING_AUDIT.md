@@ -47,7 +47,7 @@ Resultados relevantes:
 2. **Software:** mantener MIT en `LICENSE` para código, configuración ejecutable y herramientas.
 3. **Contenido original:** aplicar CC BY-NC-SA 4.0 prospectivamente mediante `LICENSE-CONTENT.md`.
 4. **Materiales mixtos:** MIT cubre el código identificable; CC BY-NC-SA 4.0 cubre el texto educativo original.
-5. **Terceros:** excluirlos de ambas concesiones propias y remitir al registro verificable de 96 obras.
+5. **Terceros:** excluirlos de ambas concesiones propias y remitir al registro verificable de 97 obras.
 6. **Historia:** no modificar tags ni commits publicados y documentar que las concesiones MIT anteriores
    continúan vigentes.
 7. **Marcas y comercio:** separar derechos de marca y explicar que el código MIT y el contenido NC tienen

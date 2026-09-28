@@ -135,7 +135,7 @@
 | 03 | [Propósito, promesa y personalidad](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-03-proposito-promesa-y-personalidad.md) | propósito, promesa de marca | decisiones alineadas al propósito |
 | 04 | [Naming](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-04-naming.md) | distintividad, memorabilidad | recuerdo correcto del nombre |
 | 05 | [Identidad verbal](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-05-identidad-verbal.md) | tono, vocabulario propio | consistencia verbal auditada |
-| 06 | [Identidad visual: criterios](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) | activo distintivo, reconocimiento a baja atención | asociación de activos |
+| 06 | [Identidad visual: criterios](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) | activo distintivo, reconocimiento a baja atención | reconocimiento de la mascota |
 | 07 | [Arquitectura de marca](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) | casa de marca única, marca respaldada | inversión por marca |
 | 08 | [Storytelling](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-08-storytelling.md) | estructura narrativa, concreción | recuerdo del relato |
 | 09 | [Brand equity](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-09-brand-equity.md) | notoriedad, significado asociado | costo de adquisición por origen de marca |

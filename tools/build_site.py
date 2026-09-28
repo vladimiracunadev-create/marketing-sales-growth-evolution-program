@@ -478,8 +478,8 @@ def main():
         paginas += 1
 
     # portada
-    cifras = [("336", "clases"), ("24", "partes"), ("48", "laboratorios"), ("1.344", "conceptos"),
-              ("1.008", "métricas"), ("96", "obras citadas")]
+    cifras = [("336", "clases"), ("24", "partes"), ("48", "laboratorios"), ("1.348", "conceptos"),
+              ("1.012", "métricas"), ("97", "obras citadas")]
     tarjetas = "".join(
         '<a class="tarjeta" href="{}/index.html"><strong>{}</strong>'
         '<span>{}</span></a>'.format(slug, nombre, descripcion)

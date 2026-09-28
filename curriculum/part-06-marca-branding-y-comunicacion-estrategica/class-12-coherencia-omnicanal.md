@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `fuente única de verdad`, `continuidad de la conversación`, `incoherencia visible` y `gobierno de canal` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
-3. **Aplicar** la secuencia **auditar precio, condiciones y mensajes en todos los canales → identificar la fuente única de verdad para cada dato → corregir las incoherencias visibles primero → definir reglas de gobierno por canal → medir la recurrencia de incoherencias** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **auditar precio, condiciones y mensajes en todos los canales → identificar la fuente única de verdad para cada dato → corregir las incoherencias visibles primero → definir reglas de gobierno por canal, incluida la conducta física y digital del personaje → medir la recurrencia de incoherencias** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **incoherencias detectadas por auditoría**, **consultas por información contradictoria** y **tiempo de propagación de un cambio** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. auditar precio, condiciones y mensajes en todos los canales → 2. identificar la fuente única de verdad para cada dato → 3. corregir las incoherencias visibles primero → 4. definir reglas de gobierno por canal → 5. medir la recurrencia de incoherencias
+1. auditar precio, condiciones y mensajes en todos los canales → 2. identificar la fuente única de verdad para cada dato → 3. corregir las incoherencias visibles primero → 4. definir reglas de gobierno por canal, incluida la conducta física y digital del personaje → 5. medir la recurrencia de incoherencias
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -119,6 +119,10 @@ La omnicanalidad tiene un costo de coordinación que crece con el número de can
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir gusto estético del equipo con construcción de memoria en el mercado.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
+### Desarrollo específico aplicado
+
+Una mascota añade un canal conductual. La misma silueta, señales de identidad, vocabulario y límites de interacción deben sobrevivir entre corpóreo, ilustración, video, redes y materiales comerciales. No hace falta que cada versión se vea idéntica, pero sí que una persona pueda atribuirla a la misma marca y que ningún canal prometa o haga algo que los otros tendrían que reparar.
+
 ### 6. Integración: de conceptos a una decisión defendible
 
 Sintetizar coherencia omnicanal no consiste en sumar definiciones. Empieza por **fuente única de verdad**, contrasta **continuidad de la conversación** con **incoherencia visible**, incorpora **gobierno de canal** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
@@ -150,7 +154,7 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Corregir las incoherencias visibles primero.** El riesgo de este paso es cerrar demasiado rápido alrededor de **incoherencia visible**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **tiempo de propagación de un cambio** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Definir reglas de gobierno por canal.** Con **gobierno de canal** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **incoherencias detectadas por auditoría** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Definir reglas de gobierno por canal, incluida la conducta física y digital del personaje.** Con **gobierno de canal** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **incoherencias detectadas por auditoría** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
 **Paso 5 — Medir la recurrencia de incoherencias.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **fuente única de verdad**. **consultas por información contradictoria** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
@@ -192,7 +196,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **auditar precio, condiciones y mensajes en todos los canales → identificar la fuente única de verdad para cada dato → corregir las incoherencias visibles primero → definir reglas de gobierno por canal → medir la recurrencia de incoherencias** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **auditar precio, condiciones y mensajes en todos los canales → identificar la fuente única de verdad para cada dato → corregir las incoherencias visibles primero → definir reglas de gobierno por canal, incluida la conducta física y digital del personaje → medir la recurrencia de incoherencias** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **incoherencias detectadas por auditoría**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Digital Marketing* y la de *Hillstrom's Multichannel Forensics*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |

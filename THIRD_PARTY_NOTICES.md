@@ -10,7 +10,7 @@ La atribución verificable vive en tres capas:
 
 - [`docs/FUENTES.md`](docs/FUENTES.md): autores, títulos, ediciones, aportes y enlaces legibles;
 - [`docs/BIBLIOGRAFIA.md`](docs/BIBLIOGRAFIA.md): bibliografía organizada por categoría;
-- [`sources/bibliography.json`](sources/bibliography.json): registro estructurado de 96 obras con ISBN, DOI o
+- [`sources/bibliography.json`](sources/bibliography.json): registro estructurado de 97 obras con ISBN, DOI o
   URL de fuente primaria y los archivos donde se usan.
 
 Cada clase identifica las obras utilizadas, la idea atribuida y el capítulo o sección donde debe contrastarse.

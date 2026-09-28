@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `manual operativo de marca`, `regla de aplicación`, `sistema de medición de marca` y `prueba de producción` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
-3. **Aplicar** la secuencia **consolidar posicionamiento, promesa y activos → escribir reglas de aplicación con ejemplos → incluir la guía verbal con antes y después → definir el sistema de medición y su periodicidad → ejecutar la prueba de producción con alguien ajeno** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **consolidar posicionamiento, promesa y activos → escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan → incluir la guía verbal con antes y después → definir el sistema de medición y su periodicidad → ejecutar la prueba de producción con alguien ajeno** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **resultado de la prueba de producción**, **tiempo de producción de una pieza** y **consistencia auditada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. consolidar posicionamiento, promesa y activos → 2. escribir reglas de aplicación con ejemplos → 3. incluir la guía verbal con antes y después → 4. definir el sistema de medición y su periodicidad → 5. ejecutar la prueba de producción con alguien ajeno
+1. consolidar posicionamiento, promesa y activos → 2. escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan → 3. incluir la guía verbal con antes y después → 4. definir el sistema de medición y su periodicidad → 5. ejecutar la prueba de producción con alguien ajeno
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -87,7 +87,7 @@ La regla de aplicación es la unidad práctica del manual: una instrucción veri
 
 **Contraste bibliográfico.** David A. Aaker — *Building Strong Brands* (1996) aporta aquí una distinción concreta: la identidad de marca como conjunto aspiracional que guía decisiones internas (los capítulos sobre el sistema de identidad de marca). Formula dos mini-casos: uno que satisface la definición de **regla de aplicación** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «escribir reglas de aplicación con ejemplos», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Sistema de medición de marca: operacionalización y medición
 
@@ -119,6 +119,10 @@ El manual regula la producción propia y no puede controlar cómo terceros repre
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir gusto estético del equipo con construcción de memoria en el mercado.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
+### Desarrollo específico aplicado
+
+Si existe mascota, el núcleo del brand book incorpora nombre y titularidad, propósito, personalidad traducida a conductas, rasgos visuales invariantes, adaptaciones física y digital, voz, usos prohibidos, guion de interacción, roles operativos, accesibilidad, manejo de incidentes, permisos de imagen y criterio de detención. También documenta quién aprueba versiones y cómo se mide reconocimiento y atribución. Un proveedor debe poder ejecutar esas reglas sin inventar personalidad ni asumir que una foto autoriza su publicación.
+
 ### 6. Integración: de conceptos a una decisión defendible
 
 Sintetizar brand book mínimo viable no consiste en sumar definiciones. Empieza por **manual operativo de marca**, contrasta **regla de aplicación** con **sistema de medición de marca**, incorpora **prueba de producción** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
@@ -146,7 +150,7 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 1 — Consolidar posicionamiento, promesa y activos.** El equipo escribe primero el supuesto asociado a **manual operativo de marca** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **resultado de la prueba de producción** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Escribir reglas de aplicación con ejemplos.** El trabajo aquí es separar lo observado de lo inferido sobre **regla de aplicación**. La evidencia que ordena la discusión es **tiempo de producción de una pieza**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan.** El trabajo aquí es separar lo observado de lo inferido sobre **regla de aplicación**. La evidencia que ordena la discusión es **tiempo de producción de una pieza**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
 **Paso 3 — Incluir la guía verbal con antes y después.** El riesgo de este paso es cerrar demasiado rápido alrededor de **sistema de medición de marca**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **consistencia auditada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
@@ -192,7 +196,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **consolidar posicionamiento, promesa y activos → escribir reglas de aplicación con ejemplos → incluir la guía verbal con antes y después → definir el sistema de medición y su periodicidad → ejecutar la prueba de producción con alguien ajeno** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **consolidar posicionamiento, promesa y activos → escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan → incluir la guía verbal con antes y después → definir el sistema de medición y su periodicidad → ejecutar la prueba de producción con alguien ajeno** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **resultado de la prueba de producción**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Designing Brand Identity* y la de *Building Strong Brands*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |

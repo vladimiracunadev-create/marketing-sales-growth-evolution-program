@@ -324,6 +324,11 @@ APORTES = {
         "gobierno": ("el gobierno de la identidad: normas, permisos y mantenimiento",
                      "la sección sobre gestión de activos"),
     },
+    "aggarwal-mcgill": {
+        "condiciones-antropomorfismo": (
+            "la antropomorfización puede activar conductas coherentes o contrarias a la imagen de marca según el rol percibido y la valoración",
+            "el marco teórico y los tres estudios sobre marcas antropomorfizadas"),
+    },
     "heath": {
         "succes": ("las seis propiedades de las ideas que perduran: simple, inesperada, concreta, creíble, emocional y con historia",
                    "la introducción que enuncia el marco"),

@@ -176,8 +176,8 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 ## 📦 Commercial Evidence Pack
 
 El paquete reúne en un solo lugar la evidencia de mercado, cliente, competencia, propuesta, precio,
-adquisición, conversiones y forecast. Es una guía navegable con mapa visual, instrucciones, ejemplos y
-enlaces directos a las clases completas que enseñan cada bloque.
+adquisición, conversiones y forecast. Es una guía pedagógica y navegable: explica cada campo en lenguaje
+simple, incluye un ejemplo resuelto, glosario, mapa visual y enlaces directos a las clases completas.
 
 | Abrir | Para qué sirve | Ruta dentro del repositorio |
 |---|---|---|

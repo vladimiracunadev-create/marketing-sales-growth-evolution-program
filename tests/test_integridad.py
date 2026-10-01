@@ -122,7 +122,11 @@ def test_commercial_evidence_pack_cubre_la_cadena_completa(raiz):
         assert clase in texto, "Commercial Evidence Pack sin enlace a {}".format(clase)
 
     assert "```mermaid" in texto
+    assert "## Antes de comenzar: qué es este documento" in texto
+    assert "### Ejemplo completo en un minuto" in texto
+    assert "## Ficha inicial: qué significa cada campo" in texto
     assert "## Cómo usar esta guía" in texto
+    assert "## Palabras y siglas que aparecerán más adelante" in texto
     assert "## Ruta de aprendizaje y enlaces directos" in texto
 
 

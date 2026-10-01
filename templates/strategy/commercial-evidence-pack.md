@@ -1,29 +1,87 @@
 # Commercial Evidence Pack
 
-> **De evidencia dispersa a una decisión comercial defendible.**
->
-> Esta guía conecta lo aprendido en el programa con un entregable ejecutivo, auditable y actualizable.
+## Guía para justificar una decisión comercial
 
-| Control del documento | Completar |
+**Commercial Evidence Pack** significa **paquete de evidencias comerciales**. El nombre se conserva porque es
+el artefacto integrador del programa; no necesitas conocer el término en inglés para utilizarlo.
+
+> **Una guía paso a paso para responder una pregunta comercial con hechos, cálculos y dudas visibles.**
+
+## Antes de comenzar: qué es este documento
+
+Imagina que alguien de la empresa pregunta:
+
+> **¿Debemos invertir tiempo y dinero en esta oportunidad comercial?**
+
+No basta responder «sí, porque parece atractiva». Hay que explicar:
+
+1. qué sabemos del mercado;
+2. qué sabemos del cliente;
+3. contra qué alternativas competimos;
+4. qué vamos a ofrecer y cobrar;
+5. cómo llegarán y avanzarán los clientes;
+6. cuánto podríamos vender sin fingir certeza;
+7. qué todavía no sabemos y cómo lo averiguaremos.
+
+El **Commercial Evidence Pack** es el documento donde ordenas esas respuestas. No es un informe para llenar
+por obligación ni una colección de palabras técnicas. Es una forma de que otra persona entienda **qué
+recomiendas, por qué lo recomiendas y qué podría hacerte cambiar de opinión**.
+
+### Ejemplo completo en un minuto
+
+> **Ejemplo pedagógico inventado:** Ruta Andina debe decidir si realiza una prueba de 90 días de un plan para
+> centros de estética de Santiago. Todas las cifras de este ejemplo son ficticias y sólo muestran cómo se
+> conecta el razonamiento.
+
+| Paso | Lo que se encontró | Cómo afecta la decisión |
+|---|---|---|
+| Mercado | Hay negocios suficientes en el segmento, pero no existe una cifra confiable de cuota | Se puede probar la oportunidad; no se puede afirmar que será líder |
+| Cliente | 8 de 12 entrevistas describen las ausencias a citas como un costo frecuente | Existe una señal de problema, todavía no una prueba de compra |
+| Competencia | Tres alternativas observadas cobran entre CLP 39.000 y CLP 79.000 al mes | El precio inicial debe probarse dentro de un rango observable |
+| Prueba comercial | De 100 contactos, 15 aceptaron una demostración y 5 compraron | La conversión inicial es 5 %, pero la muestra sigue siendo pequeña |
+| Capacidad | El equipo puede incorporar como máximo 6 clientes nuevos al mes | El pronóstico no puede prometer 20 altas mensuales aunque exista demanda |
+| Decisión | Ejecutar una prueba limitada de 90 días y revisar al llegar a 100 nuevos contactos | Se aprueba aprender con un límite; no se aprueba todavía un lanzamiento masivo |
+
+Eso es lo que hace el paquete: conecta observaciones y cálculos con una decisión limitada y revisable.
+
+## Ficha inicial: qué significa cada campo
+
+No completes esta ficha hasta poder expresar la decisión como una pregunta concreta.
+
+| Campo | Explicación en lenguaje simple | Ejemplo | Tu respuesta |
+|---|---|---|---|
+| **Decisión que debe informar** | La pregunta que alguien debe poder responder al terminar | ¿Realizamos una prueba comercial de 90 días? |  |
+| **Empresa** | La organización sobre la que estás trabajando | Ruta Andina |  |
+| **Unidad** | El producto, equipo, país o línea específica que analizarás | Plan de agendamiento |  |
+| **Segmento** | El grupo concreto de clientes que estudiarás; no «todo el mercado» | Centros de estética de Santiago |  |
+| **Responsable** | La persona que mantiene el documento y coordina la siguiente acción | Nombre y cargo |  |
+| **Fecha de corte** | El último día incluido en los datos; lo posterior todavía no forma parte del análisis | 31 de octubre de 2026 |  |
+| **Próxima revisión** | Cuándo volverás a abrir el documento porque habrá información nueva | Al llegar a 100 contactos o el 31 de enero |  |
+| **Estado** | En qué etapa se encuentra el trabajo | Borrador |  |
+
+### Cómo elegir el estado
+
+| Estado | Úsalo cuando |
 |---|---|
-| **Decisión que debe informar** |  |
-| **Empresa / unidad / segmento** |  |
-| **Responsable** |  |
-| **Fecha de corte** |  |
-| **Próxima revisión** |  |
-| **Estado** | Borrador / En revisión / Aprobado / Requiere nueva evidencia |
+| **Borrador** | Faltan secciones o todavía estás reuniendo información |
+| **En revisión** | El documento está completo y otra persona está comprobando cálculos y fuentes |
+| **Aprobado** | La persona con autoridad aceptó la recomendación y sus límites |
+| **Requiere nueva evidencia** | La información actual no permite decidir responsablemente |
 
-## Qué vas a producir
+## Qué vas a producir, explicado sin jerga
 
-| Pieza | Extensión orientativa | Propósito |
-|---|---:|---|
-| **Resumen ejecutivo** | 1–2 páginas | Permitir que una persona decida sin recorrer todos los anexos |
-| **Diez bloques de evidencia** | Sólo lo necesario | Mostrar cómo mercado, cliente y operación sostienen la recomendación |
-| **Anexos enlazados** | Sin límite artificial | Conservar entrevistas, cálculos, fuentes y datos sin saturar el resumen |
-| **Registro de incertidumbres** | Una fila por supuesto crítico | Evitar que una estimación o una hipótesis se presente como certeza |
+Al terminar tendrás **un documento principal** y enlaces a los materiales que lo respaldan.
 
-Este paquete **no sustituye** entrevistas, cálculos, anexos ni una proyección financiera. Funciona como
-índice ejecutivo: cada conclusión debe conducir a la evidencia que la sostiene.
+| Resultado | Qué contiene realmente | Cuándo se prepara |
+|---|---|---|
+| **Secciones 1–10 de esta guía** | Respuestas breves sobre mercado, cliente, oferta, ventas y proyección | Durante el análisis |
+| **Resumen ejecutivo de 1–2 páginas** | La recomendación, las razones principales, los riesgos y la siguiente acción | Al final, cuando las demás secciones están listas |
+| **Materiales de respaldo** | Entrevistas, hojas de cálculo, capturas de precios, informes o datos ya existentes | Se crean durante la investigación y sólo se enlazan desde aquí |
+| **Lista de dudas pendientes** | Lo que todavía no sabes, cuánto afecta la decisión y cómo lo investigarás | Se actualiza cada vez que aparece una brecha |
+
+Un **material de respaldo** —también llamado anexo— no es otro informe que debas escribir. Puede ser una
+entrevista guardada, una hoja de cálculo o el enlace a una fuente. El documento principal resume; el material
+de respaldo permite comprobar que el resumen no fue inventado.
 
 ## Mapa del sistema comercial
 
@@ -41,22 +99,59 @@ flowchart LR
     H --> J[Decisión y próxima acción]
 ```
 
-La lógica de lectura es izquierda a derecha. Si una cifra del forecast no puede regresar hasta mercado,
-cliente o evidencia operativa, no es una conclusión: es un supuesto todavía oculto.
+Lee el mapa de izquierda a derecha. Primero comprendes el mercado y el cliente; después diseñas oferta,
+precio y adquisición; recién entonces calculas conversiones y una proyección. Las dudas y los supuestos
+acompañan todo el recorrido. Si una cifra final no puede explicarse con los pasos anteriores, todavía falta
+información o hay una suposición escondida.
 
 ## Cómo usar esta guía
 
-1. **Define la decisión.** No empieces por completar tablas; escribe qué decisión debe cambiar con el análisis.
-2. **Reutiliza evidencia existente.** Enlaza entrevistas, cálculos y artefactos del programa; no los copies.
-3. **Abre la clase de apoyo.** Cada bloque contiene enlaces directos a la explicación, ejemplo y práctica.
-4. **Completa sólo lo aplicable.** Cuando algo no corresponda, escribe `no aplica` y explica la razón.
-5. **Prueba la coherencia.** Recorre el paquete desde forecast hacia atrás hasta llegar a evidencia verificable.
-6. **Cierra con una decisión condicionada.** Declara qué recomiendas, qué podría cambiarla y cuándo revisar.
+No intentes completar todo de una vez. Sigue este orden:
+
+1. **Escribe la pregunta de decisión** y completa la ficha inicial.
+2. **Completa mercado, cliente y competencia** —secciones 1 a 3— antes de diseñar la solución.
+3. **Completa propuesta, precio y adquisición** —secciones 4 a 6— usando lo aprendido antes.
+4. **Construye las conversiones y el forecast** —secciones 7 y 8— con tasas y capacidad explícitas.
+5. **Registra lo que no sabes** en la sección 9. Un vacío reconocido es mejor que una cifra inventada.
+6. **Escribe la recomendación y el resumen ejecutivo al final**, en la sección 10.
+
+En cada sección encontrarás una pregunta, una explicación de la salida esperada, enlaces a clases y una
+tabla vacía. Si un campo no corresponde a tu negocio, escribe `no aplica` y explica por qué.
 
 > [!TIP]
-> Si es tu primera vez, comienza por la
+> Si nunca has construido una proyección comercial, comienza por la
 > [Clase 24.11 — Commercial Evidence Pack y dashboard comercial](../../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md).
-> Después abre únicamente las clases del bloque que estés completando.
+> No necesitas leer todas las clases antes de usar la guía: abre sólo las relacionadas con la sección que
+> estás completando.
+
+## Palabras y siglas que aparecerán más adelante
+
+| Término | Significado en lenguaje simple |
+|---|---|
+| **Evidencia** | Información que puedes mostrar y comprobar: una entrevista, un dato, un cálculo o una fuente |
+| **Supuesto** | Algo que debe ser cierto para que el plan funcione, pero que aún no está completamente probado |
+| **Incertidumbre** | Lo que no sabes y podría cambiar la decisión |
+| **Segmento** | Grupo específico de clientes con características o problemas semejantes |
+| **ICP** | Perfil del cliente que más probablemente obtiene valor y resulta viable atender |
+| **JTBD** | Progreso que el cliente intenta lograr en una situación concreta; no es su edad ni su cargo |
+| **TAM / SAM / SOM** | Mercado total / parte que puedes atender / parte que podrías capturar bajo restricciones reales |
+| **WTP** | Disposición a pagar: rango que el cliente acepta pagar bajo condiciones concretas |
+| **Packaging** | Cómo agrupas funciones, servicio y condiciones dentro de uno o más planes |
+| **CAC** | Costo total necesario para conseguir un cliente nuevo |
+| **LTV** | Margen que se espera obtener de un cliente durante toda su permanencia |
+| **Payback** | Tiempo necesario para recuperar lo gastado en conseguir al cliente |
+| **Funnel o embudo** | Secuencia de pasos por los que una persona avanza desde contacto hasta compra |
+| **MQL** | Lead que marketing considera suficientemente calificado para el siguiente paso |
+| **SQL** | Lead que ventas acepta trabajar porque cumple criterios acordados |
+| **PLG** | Modelo donde el uso del producto impulsa adquisición, conversión o expansión |
+| **Churn** | Clientes o ingresos que se pierden durante un periodo |
+| **Sales cycle** | Tiempo que normalmente pasa desde el primer contacto hasta el cierre |
+| **Pipeline coverage** | Cuántas oportunidades existen en relación con la meta de ventas |
+| **Capacidad comercial** | Cantidad de oportunidades o clientes que el equipo puede atender de forma sostenible |
+| **Forecast** | Proyección razonada de ventas futuras; no es una promesa ni una certeza |
+| **Confianza del forecast** | Evaluación de cuán sólida es la proyección según datos, cobertura, estabilidad y precisión previa |
+
+Para definiciones más completas, consulta el [glosario del programa](../../docs/GLOSARIO.md).
 
 ## Ruta de aprendizaje y enlaces directos
 

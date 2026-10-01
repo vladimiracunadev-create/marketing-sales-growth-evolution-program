@@ -12,8 +12,8 @@ nuevo, **parche** = correcciones.
   benchmark competitivo reproducible y forecast adaptable a funnels B2B y modelos alternativos.
 - Añadida una prueba de integridad del nuevo artefacto y corregido el recuento del portal para informar
   archivos HTML únicos realmente generados.
-- Rediseñado el `Commercial Evidence Pack` como guía navegable: mapa visual, ruta de uso, preguntas
-  ejecutivas, ejemplos, controles de calidad y enlaces directos a las clases que sostienen cada bloque.
+- Rediseñado el `Commercial Evidence Pack` como guía pedagógica navegable: explicación en lenguaje simple,
+  ejemplo resuelto, glosario, mapa visual, ruta de uso, controles y enlaces directos a las clases.
 - Ampliada la Parte 06 con una unidad aplicada sobre mascotas de marca y corpóreos: decisión estratégica,
   adaptación física/digital, operación segura y accesible, costos, atribución y evaluación incremental.
 - Extendido el caso sintético de Ruta Andina, la evaluación y el proyecto de las Partes 05–06 con una

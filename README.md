@@ -173,6 +173,20 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 [Laboratorios](labs/) · [Evaluaciones](assessments/) · [Casos](cases/) · [Proyectos](projects/) ·
 [Capstone](capstone/README.md) · [Commercial Evidence Pack](templates/strategy/commercial-evidence-pack.md)
 
+## 📦 Commercial Evidence Pack
+
+El paquete reúne en un solo lugar la evidencia de mercado, cliente, competencia, propuesta, precio,
+adquisición, conversiones y forecast. Se usa como plantilla de trabajo para el Capstone y deja separados
+los datos, las estimaciones, las hipótesis, las inferencias y las incertidumbres.
+
+| Abrir | Para qué sirve | Ruta dentro del repositorio |
+|---|---|---|
+| **[Usar la plantilla del Commercial Evidence Pack](templates/strategy/commercial-evidence-pack.md)** | Completar el entregable integrador | `templates` → `strategy` → `commercial-evidence-pack.md` |
+| **[Leer la auditoría y la matriz antes/después](docs/AUDITORIA-COMMERCIAL-EVIDENCE.md)** | Revisar cobertura previa, brechas, cambios, pruebas y evidencia de no duplicación | `docs` → `AUDITORIA-COMMERCIAL-EVIDENCE.md` |
+
+Ambos enlaces se abren directamente en GitHub. También pueden descargarse con el botón **Download raw file**
+de la vista del archivo.
+
 ## 🖥️ Portal de aprendizaje
 
 El portal se genera desde el mismo Markdown del repositorio, así que no puede desincronizarse. Es

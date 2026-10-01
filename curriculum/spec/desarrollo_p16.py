@@ -177,15 +177,15 @@ DESARROLLO = {
         "identificar quién sistemáticamente sobreestima. Es un dato que casi ninguna organización lleva y que "
         "es fácil de construir.",
 
-        "Un pronóstico conservador protege de sorpresas y puede producir decisiones de inversión demasiado "
-        "cautelosas; uno optimista habilita inversión y arriesga compromisos que no se cumplen. La solución "
-        "es separar el compromiso —lo que se sostiene— del mejor caso, y usar cada uno para decisiones "
-        "distintas.",
+        "La confianza del pronóstico no es una sensación ni una probabilidad inventada. Se calibra con cinco "
+        "evidencias: cobertura suficiente, datos vigentes, baja concentración en pocos negocios, capacidad para "
+        "trabajarlos y precisión histórica del método. Un nivel bajo no invalida la proyección; indica que debe "
+        "presentarse con un intervalo más ancho y que ciertas decisiones conviene hacerlas reversibles.",
 
-        "El método de pronóstico debe corresponder a la madurez de los datos. Un modelo ponderado por etapa "
-        "requiere probabilidades históricas confiables; sin ellas, produce precisión aparente sobre supuestos "
-        "arbitrarios. En operaciones jóvenes, el juicio estructurado con criterios explícitos suele ser "
-        "superior al modelo.",
+        "El método debe corresponder a la madurez de los datos. Un modelo ponderado por etapa exige probabilidades "
+        "históricas confiables; sin ellas produce precisión aparente. Contrastar juicio estructurado, cohortes y "
+        "ponderación revela cuánto depende el resultado del método. Compromiso, probable y mejor caso son "
+        "categorías con criterios verificables, no sinónimos de seguro, posible y deseado.",
     ],
 
     "08": [

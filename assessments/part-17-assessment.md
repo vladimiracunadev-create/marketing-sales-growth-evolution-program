@@ -24,11 +24,11 @@ Construye dos alternativas realmente defendibles. Para cada una indica beneficio
 
 Aplica la secuencia de trabajo de la parte:
 
-1. Consolidar definiciones, datos y acuerdos.
-2. Documentar el modelo con responsables por proceso.
-3. Establecer el ritmo de revisiones.
-4. Verificar que cada indicador tenga cifra única.
-5. Revisar el modelo completo cada semestre.
+1. Consolidar definiciones, datos, acuerdos y supuestos del Commercial Evidence Pack.
+2. Documentar el recorrido completo y el forecast con responsables por proceso.
+3. Establecer el ritmo de revisión de conversiones, capacidad, retención y precisión.
+4. Verificar que cada indicador tenga cifra única, fuente y nivel de incertidumbre.
+5. Revisar el modelo completo cuando cambie la evidencia y al menos cada semestre.
 
 Debes operacionalizar **indicadores con definición única**, **procesos con responsable** y **discrepancia entre informes**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
 

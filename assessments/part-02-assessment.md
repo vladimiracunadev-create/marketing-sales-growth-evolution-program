@@ -24,11 +24,11 @@ Construye dos alternativas realmente defendibles. Para cada una indica beneficio
 
 Aplica la secuencia de trabajo de la parte:
 
-1. Consolidar los hallazgos de las 13 clases anteriores.
-2. Marcar el nivel de evidencia de cada afirmación.
-3. Someter el expediente a prueba de uso con una persona ajena.
-4. Corregir lo que no resultó accionable.
-5. Fijar responsable y frecuencia de actualización.
+1. Consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación.
+2. Traducir la evidencia a propuesta de valor, mensaje, oferta, canal y siguiente acción de venta.
+3. Usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas.
+4. Marcar hipótesis no validadas y someter la cadena completa a una prueba de uso.
+5. Corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización.
 
 Debes operacionalizar **proporción de afirmaciones con fuente**, **resultado de la prueba de uso** y **frecuencia de uso del expediente**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
 

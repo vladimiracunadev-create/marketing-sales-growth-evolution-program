@@ -6,7 +6,7 @@ Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia 
 
 > **¿Esta operación resiste una revisión comercial, financiera, legal y ética al mismo tiempo?**
 
-Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva— y no con una opinión.
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva— y no con una opinión.
 
 ## Sobre qué caso vas a trabajar
 
@@ -34,14 +34,14 @@ Las clases van en orden y cada una supone la anterior. Esta es la secuencia y lo
 | 08 | [Prospección y ventas del Capstone](class-08-prospeccion-y-ventas.md) | sistema comercial ejecutable, base de licitud de la lista, guion de diagnóstico |
 | 09 | [CRM y pipeline del Capstone](class-09-crm-y-pipeline.md) | configuración coherente, campo mínimo necesario, regla de higiene |
 | 10 | [Customer Success del Capstone](class-10-customer-success.md) | resultado esperado documentado, coherencia venta-entrega, modelo de cobertura |
-| 11 | [Dashboard financiero-comercial](class-11-dashboard-financiero-comercial.md) | trazabilidad de la cifra, coherencia aritmética, proyección con supuestos |
+| 11 | [Commercial Evidence Pack y dashboard comercial](class-11-dashboard-financiero-comercial.md) | trazabilidad de la cifra, coherencia aritmética, proyección con supuestos |
 | 12 | [Cumplimiento normativo en Chile](class-12-cumplimiento-chile.md) | obligación aplicable, requisito de diseño, verificación en fuente primaria |
 | 13 | [Defensa ejecutiva](class-13-defensa-ejecutiva.md) | argumento sostenido en evidencia, reconocimiento de límites, pregunta de estrés |
 | 14 | [Retrospectiva y portafolio profesional](class-14-retrospectiva-y-portafolio-profesional.md) | artefacto de portafolio, documentación del contexto, retrospectiva |
 
 ## Dónde se practica y cómo se evalúa
 
-Leer la parte no la acredita. Los [laboratorios](../../labs/part-24/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-24-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-24/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-24-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ## Qué puede salir mal
 

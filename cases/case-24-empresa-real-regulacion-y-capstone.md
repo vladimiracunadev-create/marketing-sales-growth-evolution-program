@@ -55,7 +55,7 @@ Un decision brief de dos páginas más anexos:
 
 ## Vínculo con el currículo
 
-Este caso integra la parte 24 y en particular la clase 24.14 — Retrospectiva y portafolio profesional. Su artefacto alimenta **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Este caso integra la parte 24 y en particular la clase 24.14 — Retrospectiva y portafolio profesional. Su artefacto alimenta **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ---
 

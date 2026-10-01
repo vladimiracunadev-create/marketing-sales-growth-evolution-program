@@ -55,7 +55,7 @@ Un decision brief de dos páginas más anexos:
 
 ## Vínculo con el currículo
 
-Este caso integra la parte 03 y en particular la clase 03.14 — Informe de oportunidad de mercado. Su artefacto alimenta **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Este caso integra la parte 03 y en particular la clase 03.14 — Informe de oportunidad de mercado. Su artefacto alimenta **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ---
 

@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-Esta clase integra la parte en un informe que un comité pueda usar para decidir. Sus componentes no son negociables: decisión que informa, método y muestra, hallazgos jerarquizados, dimensionamiento con supuestos, análisis competitivo, riesgos y recomendación con condiciones de revisión. La prueba de calidad es que un lector escéptico pueda reconstruir el razonamiento y señalar exactamente dónde discrepa.
+Esta clase integra la parte en un informe ejecutivo de inteligencia comercial de una a dos páginas, enlazado a un anexo auditable. Resume mercado, categoría, segmentos, competidores y sustitutos, tendencias, benchmarks, cuota sólo cuando existe una fuente confiable, señales de demanda, canales y precios observables. Cada afirmación se rotula como dato, estimación, hipótesis o inferencia para que un comité pueda decidir sin confundir síntesis con certeza.
 
 Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se ha medido. La parte 03 busca **producir investigación que cambie una decisión y resista una auditoría metodológica**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **informe de oportunidad de mercado** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `informe decisional`, `declaración de método`, `recomendación condicionada` y `auditabilidad` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
-3. **Aplicar** la secuencia **abrir con la decisión y la recomendación → declarar método, muestra y límites → presentar tres insights con su implicancia → dimensionar la oportunidad con escenarios → cerrar con riesgos, condiciones de revisión y responsables** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **abrir con la decisión, recomendación condicionada y fecha de corte → resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes → presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios → incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia → cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **afirmaciones trazables**, **tiempo de lectura hasta la recomendación** y **decisiones tomadas con el informe** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. abrir con la decisión y la recomendación → 2. declarar método, muestra y límites → 3. presentar tres insights con su implicancia → 4. dimensionar la oportunidad con escenarios → 5. cerrar con riesgos, condiciones de revisión y responsables
+1. abrir con la decisión, recomendación condicionada y fecha de corte → 2. resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes → 3. presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios → 4. incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia → 5. cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -73,7 +73,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Informe decisional** se entiende aquí como **documento estructurado alrededor de la decisión que debe informar y no del proceso realizado**.
 
-Un informe de oportunidad no es un compendio de lo investigado: es un documento construido para que alguien decida. Su estructura sigue a la decisión —qué se pregunta, qué se encontró, qué se recomienda, bajo qué condiciones— y no al cronograma del proyecto. La prueba de que está bien escrito es que quien lo lea sepa qué se espera de él en la primera página.
+El informe de oportunidad evoluciona a una pieza de inteligencia comercial de una o dos páginas. Abre con decisión, recomendación condicionada y fecha de corte; después muestra mercado, categoría y segmentos, y deja claro qué señal de demanda justifica actuar. La síntesis ejecutiva no reemplaza el detalle: cada cifra y afirmación enlaza al anexo donde un tercero puede reconstruirla.
 
 **De dónde viene esta afirmación.** William Ellet — *The Case Study Handbook* (2018, ed. revisada) aporta la idea que sostiene este bloque: la construcción del argumento con posición, razones y evidencia. Búscala en los capítulos sobre escritura y discusión de casos. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «afirmaciones trazables» debería moverse cuando cambie **informe decisional**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
@@ -83,19 +83,19 @@ Relaciona el mecanismo con **declaración de método**. Si ambos se mueven junto
 
 **Definición operacional:** sección que describe fuentes, muestra, límites y fecha de la evidencia. Su valor está en distinguirlo de **informe decisional**.
 
-La declaración de método es el apartado que da o quita credibilidad a todo lo demás. Debe indicar qué se hizo, con quién, cuándo y con qué limitaciones conocidas. Un informe que oculta su método obliga al lector a confiar; uno que lo declara le permite ponderar. Y declarar las limitaciones no debilita el documento: es lo que permite defenderlo cuando alguien las descubra.
+La sección de estructura del mercado incluye competidores directos, sustitutos y no hacer nada; tendencias con horizonte; benchmarks comparables; canales disponibles y precios observables. Una cuota de mercado sólo aparece si población, periodo, unidad y fuente son confiables. Si no existe ese dato, se informa participación en negocios observados o se declara el vacío, sin rebautizar una estimación como cuota.
 
 **Contraste bibliográfico.** Naresh K. Malhotra — *Marketing Research: An Applied Orientation* (2019, 7.ª ed.) aporta aquí una distinción concreta: el error total de la investigación: muestral y no muestral (el capítulo sobre fuentes de error). Formula dos mini-casos: uno que satisface la definición de **declaración de método** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «declarar método, muestra y límites», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Recomendación condicionada: operacionalización y medición
 
 **Recomendación condicionada** significa **propuesta que explicita bajo qué supuestos es válida y qué la invalidaría**.
 
-La recomendación condicionada es la forma profesional de recomendar bajo incertidumbre: no «hay que entrar a este mercado», sino «conviene entrar si se confirma X en los próximos sesenta días; si no se confirma, la alternativa es Y». Esa formulación mantiene la responsabilidad del analista y entrega a la dirección el control sobre la condición.
+TAM, SAM y SOM se presentan como rangos con supuestos. El lector debe distinguir de un vistazo dato, estimación, hipótesis e inferencia: una etiqueta acompaña cada afirmación y su fuente, fecha y vigencia. La recomendación no gana fuerza ocultando incertidumbre; gana utilidad al indicar qué supuesto mueve más el resultado y qué evidencia nueva obligaría a cambiarla.
 
-Ficha de medición obligatoria para **afirmaciones trazables**: `afirmaciones del informe con fuente verificable, sobre afirmaciones totales`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **afirmaciones trazables**: `afirmaciones con fuente, fecha y etiqueta epistemológica, sobre afirmaciones totales del informe`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** Douglas W. Hubbard — *How to Measure Anything* (2014, 3.ª ed.) pone una condición sobre la medición: la calibración de estimaciones subjetivas como habilidad entrenable (los capítulos sobre estimación calibrada). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
@@ -103,7 +103,7 @@ Ficha de medición obligatoria para **afirmaciones trazables**: `afirmaciones de
 
 **Definición:** posibilidad de que un tercero verifique cada afirmación hasta su fuente.
 
-Un informe extenso demuestra el trabajo y reduce la probabilidad de ser leído completo por quien decide. Uno breve se lee y omite matices que después se reclaman. La solución habitual —resumen ejecutivo más anexos— sólo funciona si el resumen contiene las limitaciones y no sólo las conclusiones, que es justamente el recorte que se hace por defecto.
+El límite de una o dos páginas obliga a jerarquizar. Sólo entran tres hallazgos que cambian la decisión, la economía básica de la oportunidad, el riesgo principal y la acción siguiente. Métodos, tablas competitivas y cálculos completos quedan en el anexo con enlaces estables. Si el resumen omite una limitación capaz de cambiar la decisión, no es síntesis: es distorsión ejecutiva.
 
 **Lo que aporta la fuente.** Richard Rumelt — *Good Strategy / Bad Strategy* (2011) aporta el criterio para pesar el intercambio: el núcleo de una estrategia: diagnóstico, política rectora y acción coherente (la parte sobre el núcleo de la buena estrategia). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **decisiones tomadas con el informe** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
@@ -111,9 +111,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «cerrar con riesgos, condiciones de revisión y responsables», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-El informe es auditable o no vale. Auditable significa que otra persona, con el mismo material, podría rehacer el camino y llegar a conclusiones comparables. Eso exige guardar los datos intermedios y no sólo el resultado. Cuando un informe no puede reconstruirse, su valor caduca con la memoria de quien lo escribió.
+La inteligencia comercial es un sistema, no un estudio que caduca en una carpeta. Cada fuente tiene responsable y fecha de revisión; cada señal de demanda tiene umbral de acción; cada hipótesis crítica tiene prueba siguiente. La actualización puede cambiar una celda sin rehacer todo el informe, y el historial deja visible cuándo cambió la recomendación y por qué.
 
 **Frontera declarada.** Un informe no reemplaza la decisión ni la responsabilidad de quien decide. Su función es hacer explícito el razonamiento, no eliminar la incertidumbre. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
@@ -144,15 +144,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** El comité de Ruta Andina debe decidir entre abrir el vertical de centros médicos o profundizar en talleres. Tiene 40 minutos y necesita un documento que soporte preguntas duras.
 
-**Paso 1 — Abrir con la decisión y la recomendación.** El equipo escribe primero el supuesto asociado a **informe decisional** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **afirmaciones trazables** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Abrir con la decisión, recomendación condicionada y fecha de corte.** El equipo escribe primero el supuesto asociado a **informe decisional** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **afirmaciones trazables** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Declarar método, muestra y límites.** El trabajo aquí es separar lo observado de lo inferido sobre **declaración de método**. La evidencia que ordena la discusión es **tiempo de lectura hasta la recomendación**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes.** El trabajo aquí es separar lo observado de lo inferido sobre **declaración de método**. La evidencia que ordena la discusión es **tiempo de lectura hasta la recomendación**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Presentar tres insights con su implicancia.** El riesgo de este paso es cerrar demasiado rápido alrededor de **recomendación condicionada**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **decisiones tomadas con el informe** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios.** El riesgo de este paso es cerrar demasiado rápido alrededor de **recomendación condicionada**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **decisiones tomadas con el informe** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Dimensionar la oportunidad con escenarios.** Con **auditabilidad** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **afirmaciones trazables** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia.** Con **auditabilidad** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **afirmaciones trazables** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Cerrar con riesgos, condiciones de revisión y responsables.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **informe decisional**. **tiempo de lectura hasta la recomendación** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **informe decisional**. **tiempo de lectura hasta la recomendación** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **abrir con la decisión y la recomendación → declarar método, muestra y límites → presentar tres insights con su implicancia → dimensionar la oportunidad con escenarios → cerrar con riesgos, condiciones de revisión y responsables** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **abrir con la decisión, recomendación condicionada y fecha de corte → resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes → presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios → incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia → cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **afirmaciones trazables**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Case Study Handbook* y la de *Marketing Research: An Applied Orientation*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **informe decisional** y **declaración de método** como sinónimos | Se perdió la distinción entre «documento estructurado alrededor de la decisión que debe informar y no del proceso realizado» y «sección que describe fuentes, muestra, límites y fecha de la evidencia» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «cerrar con riesgos, condiciones de revisión y responsables» | Se saltó «abrir con la decisión y la recomendación»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable» | Se saltó «abrir con la decisión, recomendación condicionada y fecha de corte»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **afirmaciones trazables** | La métrica local reemplazó al resultado del sistema | Contrástala con **decisiones tomadas con el informe** y explicita el costo de oportunidad. |
 | Estructurar el informe por proceso y no por decisión | Error específico de esta clase | Abre con la recomendación y sus condiciones; el método va después, no antes. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
@@ -214,7 +214,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 
 1. Explica la diferencia entre **informe decisional** y **declaración de método** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **recomendación condicionada** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «abrir con la decisión y la recomendación» al caso de la clase. ¿Qué dato sigue faltando?
+3. Aplica «abrir con la decisión, recomendación condicionada y fecha de corte» al caso de la clase. ¿Qué dato sigue faltando?
 4. ¿Por qué **afirmaciones trazables** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un informe no reemplaza la decisión ni la responsabilidad de quien decide. Su función es hacer explícito el razonamiento, no eliminar la incertidumbre»?
@@ -255,7 +255,7 @@ Guarda en `evidence/P03-C14-informe-de-oportunidad-de-mercado/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Este entregable alimenta el artefacto de la parte: **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ## ✅ Evaluación de la clase
 

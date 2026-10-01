@@ -255,7 +255,7 @@ Guarda en `evidence/P24-C10-customer-success/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Este entregable alimenta el artefacto de la parte: **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ## ✅ Evaluación de la clase
 
@@ -289,4 +289,4 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 
 ---
 
-← [Clase 09 · CRM y pipeline del Capstone](class-09-crm-y-pipeline.md) · [Índice de la parte](README.md) · [Clase 11 · Dashboard financiero-comercial](class-11-dashboard-financiero-comercial.md) →
+← [Clase 09 · CRM y pipeline del Capstone](class-09-crm-y-pipeline.md) · [Índice de la parte](README.md) · [Clase 11 · Commercial Evidence Pack y dashboard comercial](class-11-dashboard-financiero-comercial.md) →

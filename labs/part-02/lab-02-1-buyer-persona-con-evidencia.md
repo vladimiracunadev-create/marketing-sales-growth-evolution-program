@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas**, aplicando en particular **buyer persona con evidencia** y **customer journey**.
+Producir un componente defendible de **expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta**, aplicando en particular **buyer persona con evidencia** y **customer journey**.
 
 > **Pregunta que debe quedar respondida:** ¿Quién decide, quién usa, quién paga y qué progreso intenta lograr cada uno?
 

@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**, aplicando en particular **análisis de competencia** y **validación de hipótesis comerciales**.
+Producir un componente defendible de **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**, aplicando en particular **análisis de competencia** y **validación de hipótesis comerciales**.
 
 > **Pregunta que debe quedar respondida:** ¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?
 
@@ -29,11 +29,11 @@ Producir un componente defendible de **informe de oportunidad de mercado con mé
 
 ## Procedimiento
 
-1. Reconstruir el modelo económico de los dos competidores principales.
-2. Identificar sus restricciones observables.
-3. Anticipar sus movimientos probables en 12 meses.
-4. Evaluar el efecto de esos movimientos sobre el margen propio.
-5. Definir la respuesta y su condición de activación.
+1. Delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada.
+2. Aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia.
+3. Etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha.
+4. Inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables.
+5. Definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla.
 6. Calcular o diseñar la captura de **participación en negocios enfrentados**, **cambios de precio del competidor** y **velocidad de respuesta**.
 7. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
 8. Verificar el riesgo declarado de la parte: Investigar para confirmar una decisión ya tomada y presentar el resultado como hallazgo.

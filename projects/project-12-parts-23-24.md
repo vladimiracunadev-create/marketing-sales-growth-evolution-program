@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Integrar los artefactos de ambas partes en un entregable único y coherente: **operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio** y **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
+Integrar los artefactos de ambas partes en un entregable único y coherente: **operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio** y **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
 
 ## Contexto
 
@@ -15,7 +15,7 @@ Este proyecto se construye sobre el estado acumulado de la simulación: las deci
 ## Entregables
 
 1. Artefacto de la parte 23: operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio.
-2. Artefacto de la parte 24: Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva.
+2. Artefacto de la parte 24: Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva.
 3. Documento de integración que responda: ¿qué decisión de la parte 23 restringe lo posible en la parte 24?
 4. Registro de supuestos con nivel de evidencia y plan de validación.
 5. Actualización del estado de la simulación en `simulations/state/`.

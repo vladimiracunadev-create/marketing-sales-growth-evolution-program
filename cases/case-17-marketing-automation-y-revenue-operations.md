@@ -55,7 +55,7 @@ Un decision brief de dos páginas más anexos:
 
 ## Vínculo con el currículo
 
-Este caso integra la parte 17 y en particular la clase 17.14 — Operating model de RevOps. Su artefacto alimenta **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**.
+Este caso integra la parte 17 y en particular la clase 17.14 — Operating model de RevOps. Su artefacto alimenta **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**.
 
 ---
 

@@ -91,8 +91,8 @@ Estos son los entregables que conviene llevar a una postulación. No describen r
 
 - [ ] Operating system del CRO con estructura, ritmo y gobierno
 - [ ] Economía unitaria por segmento verificada con contabilidad
-- [ ] Forecast unificado con precisión por componente
-- [ ] Capstone completo con defensa ante panel
+- [ ] Forecast unificado con precisión, capacidad y confianza por componente
+- [ ] Commercial Evidence Pack con defensa ante panel
 
 ## 🎓 Credenciales y señales de mercado
 

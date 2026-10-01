@@ -87,9 +87,9 @@ Orden recomendado. Todas las rutas asumen que empiezas por la [parte 01](../curr
 Estos son los entregables que conviene llevar a una postulación. No describen responsabilidades: muestran trabajo que alguien puede auditar.
 
 - [ ] Diseño de sales operations con pipeline, criterios y gobierno
-- [ ] Operating model de RevOps con cifra única por indicador
+- [ ] Operating model de RevOps con funnel adaptable, capacidad y forecast unificado
 - [ ] Acuerdo de servicio entre marketing y ventas con cumplimiento medido
-- [ ] Modelo de datos con fuente autoritativa declarada por campo
+- [ ] Commercial Evidence Pack con supuestos e incertidumbre conectados al modelo de datos
 
 ## 🎓 Credenciales y señales de mercado
 

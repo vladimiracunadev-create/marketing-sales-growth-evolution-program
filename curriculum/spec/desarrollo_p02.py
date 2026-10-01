@@ -388,29 +388,31 @@ DESARROLLO = {
     ],
 
     "14": [
-        "El expediente de cliente es el artefacto que convierte quince clases de análisis en algo que otra "
-        "persona puede usar. Reúne quién es el cliente, qué trabajo intenta resolver, qué evidencia sostiene "
-        "cada afirmación y qué sigue sin verificarse. Su valor no está en la extensión sino en la "
-        "trazabilidad: cada afirmación tiene origen, y las que no lo tienen aparecen marcadas como supuesto.",
+        "El expediente de cliente convierte el análisis en una cadena de decisiones: el segmento delimita a "
+        "quién estudiar; el ICP establece inclusión y exclusión; las entrevistas reconstruyen contexto y "
+        "progreso; JTBD, dolores y ganancias explican qué cambiar; propuesta, mensaje, oferta y canal traducen "
+        "esa evidencia a una venta. Si un eslabón no puede rastrearse al anterior, la cadena contiene una "
+        "apuesta oculta y debe marcarse antes de invertir.",
 
-        "La trazabilidad de la evidencia distingue un expediente de un documento de opinión. La regla es que "
-        "toda afirmación relevante lleve su fuente —entrevista, dato del sistema, observación— con fecha. "
-        "Cuando esa regla se aplica de verdad, suele revelar que una porción incómoda del conocimiento que el "
-        "equipo daba por establecido no tiene respaldo, y ese hallazgo es más valioso que el documento mismo.",
+        "La procedencia usa cinco etiquetas que no se mezclan: entrevista, observación, dato de comportamiento, "
+        "encuesta e hipótesis no validada. Cada registro incluye fuente concreta, fecha y población o contexto. "
+        "Una frase repetida en tres entrevistas sigue siendo evidencia cualitativa; un evento en analítica sigue "
+        "siendo comportamiento sin explicar su causa. Nombrar bien el origen impide que una evidencia útil se "
+        "presente con más alcance del que realmente tiene.",
 
-        "La prueba de uso es el criterio de calidad del expediente: se entrega a una persona que no participó "
-        "de la investigación y se le pide tomar una decisión concreta con él. Si necesita preguntar cosas "
-        "básicas, el documento está incompleto; si toma una decisión que contradice lo que sabe el equipo, "
-        "está mal escrito. Es una prueba barata y casi nadie la hace antes de dar por cerrado el trabajo.",
+        "El mapa de empatía puede ordenar lo que el cliente dice, piensa, hace y siente, pero sólo después de la "
+        "investigación. Cada nota del mapa debe enlazar al registro que la sostiene y ningún cuadrante vacío se "
+        "completa por intuición del equipo. Usado así es una vista pedagógica breve; usado como sesión de lluvia "
+        "de ideas es una fábrica de estereotipos con apariencia de conocimiento del cliente.",
 
-        "Un expediente exhaustivo envejece mal y consume semanas; uno breve se mantiene actualizado y omite "
-        "matices que después se echan de menos. La solución practicable es separar el núcleo estable —trabajo, "
-        "criterios de decisión, perfil— de los anexos volátiles, y fijar una frecuencia distinta de revisión "
-        "para cada uno.",
+        "La prueba de uso entrega el expediente a una persona que no participó y le pide producir una propuesta, "
+        "un mensaje, una elección de canal y un siguiente paso comercial. Si inventa una razón de compra, no sabe "
+        "qué segmento excluir o elige un canal sin evidencia, el documento no es accionable. Registrar dónde se "
+        "rompió la cadena convierte la prueba en una mejora concreta y no en una opinión editorial.",
 
-        "El expediente describe lo que se sabía en la fecha en que se cerró, y esa fecha es parte del "
-        "documento. Un ciclo de actualización sin responsable asignado no ocurre, y un expediente "
-        "desactualizado es peor que ninguno porque transmite confianza injustificada. La entrega no termina "
-        "con el documento: termina cuando alguien tiene el mandato de mantenerlo.",
+        "El expediente describe lo que se sabía en su fecha de corte, no una verdad permanente. El núcleo estable "
+        "puede vivir en una página y los anexos conservar entrevistas, datos y cálculos. Cada hipótesis pendiente "
+        "lleva responsable, prueba siguiente y fecha de revisión; cada hallazgo nuevo indica qué eslabón cambia. "
+        "Sin ese gobierno, el documento envejece y transmite una confianza mayor que su evidencia.",
     ],
 }

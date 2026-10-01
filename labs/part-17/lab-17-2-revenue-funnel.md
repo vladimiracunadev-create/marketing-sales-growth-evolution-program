@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**, aplicando en particular **embudo de ingresos** y **gobernanza de automatizaciones**.
+Producir un componente defendible de **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**, aplicando en particular **embudo de ingresos** y **gobernanza de automatizaciones**.
 
 > **Pregunta que debe quedar respondida:** ¿Qué automatizo porque mejora el sistema y qué estaría solo escalando un desorden?
 
@@ -29,11 +29,11 @@ Producir un componente defendible de **operating model de RevOps con lifecycle, 
 
 ## Procedimiento
 
-1. Definir las etapas del recorrido completo.
-2. Acordar criterios entre áreas.
-3. Medir volumen, conversión y valor por tramo.
-4. Identificar la mayor pérdida de valor.
-5. Asignar responsable por tramo.
+1. Elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto.
+2. Definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn.
+3. Medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento.
+4. Proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad.
+5. Asignar responsable, fuente, supuesto y condición de revisión por tramo.
 6. Calcular o diseñar la captura de **conversión por tramo**, **valor perdido por tramo** y **cobertura de definiciones compartidas**.
 7. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
 8. Verificar el riesgo declarado de la parte: Automatizar comunicaciones sin base de licitud ni control de calidad y multiplicar el daño.

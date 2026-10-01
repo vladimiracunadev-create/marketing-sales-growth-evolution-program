@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**, aplicando en particular **customer Success del Capstone** y **defensa ejecutiva**.
+Producir un componente defendible de **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**, aplicando en particular **customer Success del Capstone** y **defensa ejecutiva**.
 
 > **Pregunta que debe quedar respondida:** ¿Esta operación resiste una revisión comercial, financiera, legal y ética al mismo tiempo?
 

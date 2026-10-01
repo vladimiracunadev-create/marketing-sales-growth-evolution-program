@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-Analizar competencia no es listar competidores: es entender su modelo económico, sus restricciones y sus movimientos probables. Un competidor con capital de riesgo y presión de crecimiento se comportará distinto de uno familiar con caja propia. Porter estructuró el análisis en fuerzas —proveedores, compradores, entrantes, sustitutos y rivalidad— que explican por qué algunas industrias son rentables y otras no, independientemente del esfuerzo individual.
+Analizar competencia no es listar competidores: es entender su modelo económico, sus restricciones y sus movimientos probables. Un competidor con capital de riesgo y presión de crecimiento se comportará distinto de uno familiar con caja propia. Porter estructuró el análisis en fuerzas —proveedores, compradores, entrantes, sustitutos y rivalidad— que explican por qué algunas industrias son rentables y otras no. La matriz incluye competidores directos, sustitutos y no hacer nada; cada afirmación distingue dato, estimación, hipótesis o inferencia.
 
 Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si el análisis fuese correcto. La parte 03 busca **producir investigación que cambie una decisión y resista una auditoría metodológica**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **análisis de competencia** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `modelo económico del competidor`, `restricción del competidor`, `movimiento probable` y `intensidad competitiva` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
-3. **Aplicar** la secuencia **reconstruir el modelo económico de los dos competidores principales → identificar sus restricciones observables → anticipar sus movimientos probables en 12 meses → evaluar el efecto de esos movimientos sobre el margen propio → definir la respuesta y su condición de activación** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada → aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia → etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha → inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables → definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **participación en negocios enfrentados**, **cambios de precio del competidor** y **velocidad de respuesta** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. reconstruir el modelo económico de los dos competidores principales → 2. identificar sus restricciones observables → 3. anticipar sus movimientos probables en 12 meses → 4. evaluar el efecto de esos movimientos sobre el margen propio → 5. definir la respuesta y su condición de activación
+1. delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada → 2. aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia → 3. etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha → 4. inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables → 5. definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -73,7 +73,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Modelo económico del competidor** se entiende aquí como **forma en que gana dinero, su estructura de costos y su presión de retorno**.
 
-Analizar a un competidor por su catálogo es quedarse en la superficie. Michael Porter propuso mirar cuatro cosas que sí predicen conducta: sus objetivos declarados, los supuestos que tiene sobre el mercado, su estrategia actual y sus capacidades reales. Un competidor que cree que el mercado se consolidará actuará de forma distinta a uno que cree que se fragmentará, aunque hoy ofrezcan lo mismo.
+Analizar la competencia empieza por delimitar la categoría y termina más allá de los proveedores parecidos. La muestra incluye competidores directos, sustitutos funcionales y la alternativa de no hacer nada, porque todos disputan la misma decisión. Michael Porter propuso mirar objetivos, supuestos, estrategia actual y capacidades reales: dos empresas con catálogos parecidos pueden responder de forma opuesta ante el mismo movimiento.
 
 **De dónde viene esta afirmación.** Michael E. Porter — *Competitive Strategy* (1980) aporta la idea que sostiene este bloque: el análisis del competidor por sus objetivos, supuestos y capacidades, no por su catálogo. Búscala en el capítulo sobre análisis de la competencia. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «participación en negocios enfrentados» debería moverse cuando cambie **modelo económico del competidor**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
@@ -87,13 +87,13 @@ La restricción del competidor es lo que no puede hacer aunque quiera, y es el d
 
 **Contraste bibliográfico.** Richard Rumelt — *Good Strategy / Bad Strategy* (2011) aporta aquí una distinción concreta: el diagnóstico como reformulación del problema que hace evidente la acción (el capítulo sobre el diagnóstico). Formula dos mini-casos: uno que satisface la definición de **restricción del competidor** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «identificar sus restricciones observables», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Movimiento probable: operacionalización y medición
 
 **Movimiento probable** significa **acción esperable del competidor dada su situación, no la que sería óptima en abstracto**.
 
-El movimiento probable se estima con evidencia observable y con fecha: publicaciones de empleo, cambios de precio, presencia en eventos sectoriales, movimientos de personal clave. La ficha registra la señal, su fuente pública, la fecha y la interpretación propuesta, separando el hecho de la lectura. Esa separación es lo que permite revisar después si la interpretación fue correcta y calibrar al equipo.
+El registro separa cuatro niveles. Dato es una observación trazable; estimación es un cálculo con método y rango; hipótesis es una afirmación pendiente de prueba; inferencia es la explicación derivada de uno o más datos. Una publicación de empleo es dato, la inversión probable es inferencia y el efecto sobre precio es hipótesis. Conservar esa separación permite revisar después dónde falló el juicio sin reescribir retrospectivamente la evidencia.
 
 Ficha de medición obligatoria para **participación en negocios enfrentados**: `negocios ganados frente a cada competidor, sobre negocios donde estuvo presente`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
@@ -111,9 +111,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «definir la respuesta y su condición de activación», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-El análisis competitivo trabaja con información pública y con inferencia. Recolectar información por medios no legítimos —hacerse pasar por cliente para acceder a condiciones confidenciales, contactar personal para obtener datos reservados— además de ser un riesgo legal, corrompe la calidad del análisis, porque nadie puede citar la fuente. La regla del programa es que toda fuente debe ser citable.
+El análisis competitivo trabaja con información pública, experiencia observable y testimonio obtenido de forma legítima. Recolectar datos confidenciales mediante engaño es un riesgo legal y corrompe la auditabilidad. La regla es que toda fuente sea citable y que la ausencia de información permanezca visible. Una debilidad que el equipo no puede observar se registra como hipótesis, no como acusación ni como hecho útil para posicionamiento.
 
 **Frontera declarada.** La inteligencia competitiva tiene límites legales y éticos: no incluye obtener información confidencial por medios engañosos ni coordinar precios, práctica sancionada por la libre competencia en Chile. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
@@ -144,15 +144,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** El competidor regional de Ruta Andina levantó capital y bajó precios 30 %. La reacción propuesta es igualar el precio, sin considerar que el competidor puede sostener pérdidas y Ruta Andina no.
 
-**Paso 1 — Reconstruir el modelo económico de los dos competidores principales.** El equipo escribe primero el supuesto asociado a **modelo económico del competidor** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **participación en negocios enfrentados** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada.** El equipo escribe primero el supuesto asociado a **modelo económico del competidor** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **participación en negocios enfrentados** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Identificar sus restricciones observables.** El trabajo aquí es separar lo observado de lo inferido sobre **restricción del competidor**. La evidencia que ordena la discusión es **cambios de precio del competidor**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia.** El trabajo aquí es separar lo observado de lo inferido sobre **restricción del competidor**. La evidencia que ordena la discusión es **cambios de precio del competidor**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Anticipar sus movimientos probables en 12 meses.** El riesgo de este paso es cerrar demasiado rápido alrededor de **movimiento probable**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **velocidad de respuesta** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha.** El riesgo de este paso es cerrar demasiado rápido alrededor de **movimiento probable**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **velocidad de respuesta** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Evaluar el efecto de esos movimientos sobre el margen propio.** Con **intensidad competitiva** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **participación en negocios enfrentados** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables.** Con **intensidad competitiva** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **participación en negocios enfrentados** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Definir la respuesta y su condición de activación.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **modelo económico del competidor**. **cambios de precio del competidor** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **modelo económico del competidor**. **cambios de precio del competidor** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **reconstruir el modelo económico de los dos competidores principales → identificar sus restricciones observables → anticipar sus movimientos probables en 12 meses → evaluar el efecto de esos movimientos sobre el margen propio → definir la respuesta y su condición de activación** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada → aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia → etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha → inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables → definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **participación en negocios enfrentados**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Competitive Strategy* y la de *Good Strategy / Bad Strategy*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **modelo económico del competidor** y **restricción del competidor** como sinónimos | Se perdió la distinción entre «forma en que gana dinero, su estructura de costos y su presión de retorno» y «limitación de capital, capacidad, contrato o tecnología que acota lo que puede hacer» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «definir la respuesta y su condición de activación» | Se saltó «reconstruir el modelo económico de los dos competidores principales»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla» | Se saltó «delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **participación en negocios enfrentados** | La métrica local reemplazó al resultado del sistema | Contrástala con **velocidad de respuesta** y explicita el costo de oportunidad. |
 | Reaccionar a un precio sin comparar estructuras de costo | Error específico de esta clase | Modela cuánto tiempo puede sostener cada parte esa política antes de responder. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
@@ -214,7 +214,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 
 1. Explica la diferencia entre **modelo económico del competidor** y **restricción del competidor** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **movimiento probable** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «reconstruir el modelo económico de los dos competidores principales» al caso de la clase. ¿Qué dato sigue faltando?
+3. Aplica «delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada» al caso de la clase. ¿Qué dato sigue faltando?
 4. ¿Por qué **participación en negocios enfrentados** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La inteligencia competitiva tiene límites legales y éticos: no incluye obtener información confidencial por medios engañosos ni coordinar precios, práctica sancionada por la libre competencia en Chile»?
@@ -255,7 +255,7 @@ Guarda en `evidence/P03-C10-analisis-de-competencia/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Este entregable alimenta el artefacto de la parte: **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ## ✅ Evaluación de la clase
 

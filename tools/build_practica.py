@@ -450,6 +450,10 @@ def render_capstone(cls24):
                       "class-{}-{}.md) |".format(c["n"], c["titulo"], "24", c["n"], c["n"], c["slug"]))
     lineas += [
         "",
+        "El componente 11 se entrega con la plantilla "
+        "[`Commercial Evidence Pack`](../templates/strategy/commercial-evidence-pack.md). El paquete conecta "
+        "los artefactos existentes y alimenta una proyección financiera posterior; no la sustituye.",
+        "",
         "## Criterios de evaluación (100 puntos)",
         "",
         "| Bloque | Puntos | Qué se evalúa |",
@@ -459,7 +463,7 @@ def render_capstone(cls24):
         "| Go-to-market y adquisición | 15 | Movimiento coherente con el ticket y economía verificable |",
         "| Sistema comercial y operación | 15 | Proceso ejecutable por otra persona, CRM coherente |",
         "| Retención y expansión | 10 | Onboarding conectado con la promesa comercial |",
-        "| Analítica y tablero | 10 | Cifras trazables y aritméticamente coherentes |",
+        "| Commercial Evidence Pack y tablero | 10 | Evidencia, supuestos, incertidumbre y cifras coherentes |",
         "| Cumplimiento normativo chileno | 10 | Obligaciones traducidas a requisitos de diseño |",
         "| Defensa ejecutiva | 5 | Argumentos sostenidos en evidencia y límites reconocidos |",
         "",
@@ -536,6 +540,9 @@ def render_checklist(cls24):
         "- [ ] Toda afirmación factual generada fue verificada en fuente primaria.",
         "- [ ] Autorización escrita para datos y testimonios de terceros.",
         "- [ ] Ninguna cifra sin trazabilidad hasta su fuente.",
+        "- [ ] Cada afirmación está marcada como dato, estimación, hipótesis o inferencia.",
+        "- [ ] El conocimiento del cliente declara entrevista, observación, comportamiento, encuesta o hipótesis.",
+        "- [ ] El forecast declara modelo, capacidad, rango y confianza sin presentar certeza.",
         "",
         "## Defensa",
         "",

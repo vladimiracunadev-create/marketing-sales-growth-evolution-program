@@ -255,7 +255,7 @@ Guarda en `evidence/P03-C02-fuentes-primarias-y-secundarias/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Este entregable alimenta el artefacto de la parte: **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ## ✅ Evaluación de la clase
 

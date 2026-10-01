@@ -255,7 +255,7 @@ Guarda en `evidence/P02-C13-segmentos-conductuales/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas**.
+Este entregable alimenta el artefacto de la parte: **expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta**.
 
 ## ✅ Evaluación de la clase
 

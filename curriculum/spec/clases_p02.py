@@ -551,27 +551,27 @@ CLASES = [
         slug="sintesis-expediente-de-cliente-accionable",
         titulo="Síntesis: expediente de cliente accionable",
         tesis=(
-            "Esta clase integra la parte en un expediente único: quién es el cliente, qué progreso busca, "
-            "quién decide, qué lo frena, qué riesgo percibe y qué evidencia necesita. La prueba de calidad no "
-            "es la extensión sino la utilidad: un ejecutivo comercial nuevo debería poder preparar una "
-            "conversación con ese documento, y un equipo de marketing debería poder escribir una pieza sin "
-            "inventar nada."
+            "Esta clase integra la parte en una cadena verificable: segmento, ICP, entrevistas, JTBD, dolores "
+            "y ganancias, propuesta de valor, mensaje, oferta, canal y venta. Cada afirmación debe declarar "
+            "si proviene de entrevista, observación, comportamiento, encuesta o de una hipótesis todavía no "
+            "validada. La prueba de calidad no es la extensión: marketing y ventas deben poder actuar con el "
+            "expediente sin inventar un eslabón ni ocultar qué evidencia falta."
         ),
         conceptos=[
-            ("expediente de cliente", "documento único que integra ICP, roles, jobs, journey, fricciones y objeciones con sus fuentes"),
-            ("trazabilidad de la evidencia", "posibilidad de identificar de dónde salió cada afirmación del expediente"),
+            ("expediente de cliente", "documento único que conecta segmento, ICP, jobs, pains, gains y decisiones comerciales con sus fuentes"),
+            ("trazabilidad de la evidencia", "registro del origen, fecha y estado de validación de cada afirmación del expediente"),
             ("prueba de uso", "verificación de que una persona ajena puede tomar una decisión concreta con el documento"),
             ("ciclo de actualización", "rutina definida que mantiene el expediente vigente con datos nuevos"),
         ],
         metodo=[
-            "consolidar los hallazgos de las 13 clases anteriores",
-            "marcar el nivel de evidencia de cada afirmación",
-            "someter el expediente a prueba de uso con una persona ajena",
-            "corregir lo que no resultó accionable",
-            "fijar responsable y frecuencia de actualización",
+            "consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación",
+            "traducir la evidencia a propuesta de valor, mensaje, oferta, canal y siguiente acción de venta",
+            "usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas",
+            "marcar hipótesis no validadas y someter la cadena completa a una prueba de uso",
+            "corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización",
         ],
         senales=[
-            ("proporción de afirmaciones con fuente", "afirmaciones con fuente y fecha, sobre afirmaciones totales del expediente"),
+            ("proporción de afirmaciones con fuente", "afirmaciones con origen permitido, fecha y estado de validación, sobre afirmaciones totales del expediente"),
             ("resultado de la prueba de uso", "decisiones que la persona ajena logró tomar sin consultar, sobre decisiones planteadas"),
             ("frecuencia de uso del expediente", "referencias al expediente en materiales y guiones producidos en el trimestre"),
         ],
@@ -580,8 +580,9 @@ CLASES = [
             "cliente está en la cabeza de dos personas y en conversaciones de chat."
         ),
         limite=(
-            "Un expediente extenso que nadie lee equivale a no tenerlo. Si excede lo que una persona puede "
-            "revisar antes de una reunión, hay que producir una versión operativa de una página."
+            "Un mapa de empatía puede ordenar lo aprendido, pero no es investigación y no autoriza a rellenar "
+            "vacíos con imaginación. Si el expediente excede lo que alguien puede revisar antes de una "
+            "reunión, hay que producir una versión operativa de una página enlazada al detalle."
         ),
         libros=["fitzpatrick", "osterwalder-vpd", "christensen", "roberge"],
         error=("Producir un documento sin prueba de uso",

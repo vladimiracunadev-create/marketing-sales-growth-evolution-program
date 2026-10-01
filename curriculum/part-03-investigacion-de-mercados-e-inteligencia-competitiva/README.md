@@ -6,7 +6,7 @@ Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia 
 
 > **¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?**
 
-Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —informe de oportunidad de mercado con método, muestra, límites y decisión recomendada— y no con una opinión.
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable— y no con una opinión.
 
 ## Sobre qué caso vas a trabajar
 
@@ -41,7 +41,7 @@ Las clases van en orden y cada una supone la anterior. Esta es la secuencia y lo
 
 ## Dónde se practica y cómo se evalúa
 
-Leer la parte no la acredita. Los [laboratorios](../../labs/part-03/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-03-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-03/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-03-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ## Qué puede salir mal
 

@@ -42,7 +42,7 @@
 
 ### Parte 02 — Cliente y comportamiento del consumidor
 
-**Nivel:** Fundamentos · **Resultado:** construir un expediente de cliente accionable basado en evidencia y no en estereotipos · **Artefacto:** expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas
+**Nivel:** Fundamentos · **Resultado:** construir un expediente de cliente accionable basado en evidencia y no en estereotipos · **Artefacto:** expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta
 
 | # | Clase | Conceptos | Señal principal |
 |---|---|---|---|
@@ -63,7 +63,7 @@
 
 ### Parte 03 — Investigación de mercados e inteligencia competitiva
 
-**Nivel:** Fundamentos · **Resultado:** producir investigación que cambie una decisión y resista una auditoría metodológica · **Artefacto:** informe de oportunidad de mercado con método, muestra, límites y decisión recomendada
+**Nivel:** Fundamentos · **Resultado:** producir investigación que cambie una decisión y resista una auditoría metodológica · **Artefacto:** informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable
 
 | # | Clase | Conceptos | Señal principal |
 |---|---|---|---|
@@ -357,7 +357,7 @@
 
 ### Parte 17 — Marketing automation y revenue operations
 
-**Nivel:** Operación de ingresos · **Resultado:** integrar marketing, ventas y servicio en un solo modelo de datos y de proceso · **Artefacto:** operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad
+**Nivel:** Operación de ingresos · **Resultado:** integrar marketing, ventas y servicio en un solo modelo de datos y de proceso · **Artefacto:** operating model de RevOps con funnel adaptable, forecast unificado y observabilidad
 
 | # | Clase | Conceptos | Señal principal |
 |---|---|---|---|
@@ -504,7 +504,7 @@
 
 ### Parte 24 — Empresa real, regulación y Capstone
 
-**Nivel:** Dirección y Capstone · **Resultado:** integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena · **Artefacto:** Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva
+**Nivel:** Dirección y Capstone · **Resultado:** integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena · **Artefacto:** Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva
 
 | # | Clase | Conceptos | Señal principal |
 |---|---|---|---|
@@ -518,7 +518,7 @@
 | 08 | [Prospección y ventas del Capstone](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-08-prospeccion-y-ventas.md) | sistema comercial ejecutable, base de licitud de la lista | materiales completos |
 | 09 | [CRM y pipeline del Capstone](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-09-crm-y-pipeline.md) | configuración coherente, campo mínimo necesario | métricas calculables |
 | 10 | [Customer Success del Capstone](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) | resultado esperado documentado, coherencia venta-entrega | coherencia venta-entrega |
-| 11 | [Dashboard financiero-comercial](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) | trazabilidad de la cifra, coherencia aritmética | cifras trazables |
+| 11 | [Commercial Evidence Pack y dashboard comercial](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) | trazabilidad de la cifra, coherencia aritmética | cobertura del paquete de evidencia |
 | 12 | [Cumplimiento normativo en Chile](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) | obligación aplicable, requisito de diseño | obligaciones identificadas y cubiertas |
 | 13 | [Defensa ejecutiva](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md) | argumento sostenido en evidencia, reconocimiento de límites | respuestas sostenidas en evidencia |
 | 14 | [Retrospectiva y portafolio profesional](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md) | artefacto de portafolio, documentación del contexto | artefactos documentados |

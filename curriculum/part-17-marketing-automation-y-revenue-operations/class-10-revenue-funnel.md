@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-El embudo de ingresos unifica la vista de marketing, ventas y éxito de cliente en un solo recorrido con definiciones compartidas. Su valor es diagnóstico: permite ver dónde se pierde valor considerando el ciclo completo, incluida la retención. Un embudo que termina en la venta esconde el problema más caro de los modelos recurrentes.
+El embudo de ingresos unifica la vista de marketing, ventas y éxito de cliente en un solo recorrido con definiciones compartidas: visitas o alcance, leads, MQL cuando aplica, SQL, oportunidades, cierres, clientes e ingreso. Su valor es diagnóstico y proyectivo: muestra volumen, conversión y valor hasta retención. E-commerce, suscripción, PLG y canales indirectos usan modelos equivalentes de unidades y transiciones; no se les fuerza un funnel B2B que no describe su realidad.
 
 Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si el análisis fuese correcto. La parte 17 busca **integrar marketing, ventas y servicio en un solo modelo de datos y de proceso**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **embudo de ingresos** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `embudo unificado`, `definición compartida por etapa`, `pérdida por tramo` y `visión de ciclo completo` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marketing automation y revenue operations**.
-3. **Aplicar** la secuencia **definir las etapas del recorrido completo → acordar criterios entre áreas → medir volumen, conversión y valor por tramo → identificar la mayor pérdida de valor → asignar responsable por tramo** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto → definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn → medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento → proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad → asignar responsable, fuente, supuesto y condición de revisión por tramo** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **conversión por tramo**, **valor perdido por tramo** y **cobertura de definiciones compartidas** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. definir las etapas del recorrido completo → 2. acordar criterios entre áreas → 3. medir volumen, conversión y valor por tramo → 4. identificar la mayor pérdida de valor → 5. asignar responsable por tramo
+1. elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto → 2. definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn → 3. medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento → 4. proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad → 5. asignar responsable, fuente, supuesto y condición de revisión por tramo
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -73,7 +73,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Embudo unificado** se entiende aquí como **representación única del recorrido desde el descubrimiento hasta la renovación**.
 
-El embudo de ingresos unifica en una sola vista lo que marketing, ventas y éxito de cliente miden por separado. Su valor está en hacer visible el ciclo completo: no sólo cuántos entran sino cuántos permanecen y cuánto expanden. Sin esa vista, cada área optimiza su tramo y el conjunto puede deteriorarse.
+El modelo B2B parte de visitas o alcance y continúa por leads, MQL cuando existe una definición útil, SQL, oportunidades, cierres, clientes e ingreso. Cada etapa declara unidad, criterio de entrada, fuente y ventana. MQL y SQL no son casillas obligatorias: si la empresa no puede explicar qué decisión cambia cada una, se omiten en vez de inflar el diagrama con estados sin función.
 
 **De dónde viene esta afirmación.** Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) aporta la idea que sostiene este bloque: el ingreso como resultado de un sistema integrado y no de tres áreas separadas. Búscala en los capítulos introductorios sobre revenue operations. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «conversión por tramo» debería moverse cuando cambie **embudo unificado**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
@@ -83,17 +83,17 @@ Relaciona el mecanismo con **definición compartida por etapa**. Si ambos se mue
 
 **Definición operacional:** criterio acordado entre áreas para cada estado del recorrido. Su valor está en distinguirlo de **embudo unificado**.
 
-La definición compartida por etapa es la condición para que el embudo signifique algo. Cuando marketing cuenta contactos y ventas cuenta oportunidades con criterios distintos, la conversión entre ambas es un número sin interpretación. Acordar esas definiciones es trabajo previo a construir cualquier tablero.
+Otros negocios requieren estructuras distintas. E-commerce proyecta sesiones, carritos, pedidos, clientes, ticket, frecuencia y devoluciones; suscripción usa visitantes o usuarios, activación, pago, retención y expansión; PLG añade uso y límite alcanzado; un canal indirecto parte de socios activos, oportunidades y margen retenido. Todos conservan la misma disciplina de unidades, transiciones y valor.
 
 **Contraste bibliográfico.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta aquí una distinción concreta: las cinco etapas —empatía, adherencia, viralidad, ingreso y escala— con su métrica propia (la parte sobre etapas del negocio). Formula dos mini-casos: uno que satisface la definición de **definición compartida por etapa** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «acordar criterios entre áreas», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Pérdida por tramo: operacionalización y medición
 
 **Pérdida por tramo** significa **valor que se pierde en cada transición del embudo**.
 
-La pérdida por tramo debe medirse en unidades y en valor, porque un tramo con alta pérdida porcentual sobre pocas unidades puede importar menos que uno con pérdida moderada sobre muchas. Presentar sólo porcentajes conduce sistemáticamente a priorizar mal.
+La definición compartida por etapa es la condición para que una conversión signifique algo. Numerador, denominador, ventana y segmento deben corresponder; comparar leads creados este mes con cierres de ciclos anteriores produce una tasa sin cohorte. El diccionario se acuerda antes del tablero y mantiene el vínculo entre marketing, ventas, producto, canal y éxito de cliente.
 
 Ficha de medición obligatoria para **conversión por tramo**: `unidades que avanzan, sobre unidades que ingresaron al tramo`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
@@ -103,7 +103,7 @@ Ficha de medición obligatoria para **conversión por tramo**: `unidades que ava
 
 **Definición:** inclusión de retención y expansión en el análisis del embudo.
 
-Una vista unificada facilita la coordinación y puede diluir la responsabilidad: cuando todos responden por el embudo completo, nadie responde por su tramo. El diseño debe mantener responsabilidad por tramo y visibilidad del conjunto, no sustituir la primera por la segunda.
+La pérdida por tramo se mide en unidades y en valor. Ticket y frecuencia convierten clientes en ingreso; retención y churn determinan cuánto permanece; CAC y LTV acotan cuánto conviene invertir. La mayor caída porcentual no siempre es la mayor oportunidad económica, y una conversión mejor puede destruir valor si atrae clientes que no permanecen o que exceden la capacidad de servir.
 
 **Lo que aporta la fuente.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta el criterio para pesar el intercambio: el mapa estratégico que conecta causalmente objetivos entre perspectivas (los capítulos sobre relaciones causa-efecto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cobertura de definiciones compartidas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
@@ -111,9 +111,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «asignar responsable por tramo», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «asignar responsable, fuente, supuesto y condición de revisión por tramo», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-El embudo unificado supone que el recorrido es secuencial, y en negocios con expansión y recompra no lo es: un cliente puede estar simultáneamente en renovación y en una nueva oportunidad. Forzar la linealidad simplifica el tablero y distorsiona la realidad. Reconocer el límite y complementar con vistas específicas es preferible.
+El recorrido alimenta una proyección sólo después de contrastarse con ciclo, cobertura de pipeline y capacidad. Una fórmula puede producir cien cierres y un equipo capaz de trabajar cuarenta; el forecast defendible usa cuarenta o explica cómo cambia la capacidad. Cada tramo conserva responsable y supuesto, y el modelo se segmenta cuando una vista única oculta economías diferentes.
 
 **Frontera declarada.** Un embudo unificado puede ocultar diferencias importantes entre segmentos o líneas de negocio. El análisis debe segmentarse. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
@@ -144,15 +144,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** El embudo de Ruta Andina termina en la firma. La mayor pérdida de valor ocurre entre la firma y el día 90, y no aparece en ningún informe.
 
-**Paso 1 — Definir las etapas del recorrido completo.** El equipo escribe primero el supuesto asociado a **embudo unificado** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **conversión por tramo** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto.** El equipo escribe primero el supuesto asociado a **embudo unificado** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **conversión por tramo** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Acordar criterios entre áreas.** El trabajo aquí es separar lo observado de lo inferido sobre **definición compartida por etapa**. La evidencia que ordena la discusión es **valor perdido por tramo**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn.** El trabajo aquí es separar lo observado de lo inferido sobre **definición compartida por etapa**. La evidencia que ordena la discusión es **valor perdido por tramo**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Medir volumen, conversión y valor por tramo.** El riesgo de este paso es cerrar demasiado rápido alrededor de **pérdida por tramo**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura de definiciones compartidas** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento.** El riesgo de este paso es cerrar demasiado rápido alrededor de **pérdida por tramo**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura de definiciones compartidas** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Identificar la mayor pérdida de valor.** Con **visión de ciclo completo** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **conversión por tramo** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad.** Con **visión de ciclo completo** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **conversión por tramo** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Asignar responsable por tramo.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **embudo unificado**. **valor perdido por tramo** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Asignar responsable, fuente, supuesto y condición de revisión por tramo.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **embudo unificado**. **valor perdido por tramo** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **definir las etapas del recorrido completo → acordar criterios entre áreas → medir volumen, conversión y valor por tramo → identificar la mayor pérdida de valor → asignar responsable por tramo** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto → definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn → medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento → proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad → asignar responsable, fuente, supuesto y condición de revisión por tramo** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **conversión por tramo**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Revenue Operations* y la de *Lean Analytics*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **embudo unificado** y **definición compartida por etapa** como sinónimos | Se perdió la distinción entre «representación única del recorrido desde el descubrimiento hasta la renovación» y «criterio acordado entre áreas para cada estado del recorrido» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «asignar responsable por tramo» | Se saltó «definir las etapas del recorrido completo»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «asignar responsable, fuente, supuesto y condición de revisión por tramo» | Se saltó «elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **conversión por tramo** | La métrica local reemplazó al resultado del sistema | Contrástala con **cobertura de definiciones compartidas** y explicita el costo de oportunidad. |
 | Terminar el embudo en la venta | Error específico de esta clase | Extiende el análisis hasta renovación y expansión, y mide el valor perdido en cada tramo. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
@@ -214,7 +214,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 
 1. Explica la diferencia entre **embudo unificado** y **definición compartida por etapa** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **pérdida por tramo** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «definir las etapas del recorrido completo» al caso de la clase. ¿Qué dato sigue faltando?
+3. Aplica «elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto» al caso de la clase. ¿Qué dato sigue faltando?
 4. ¿Por qué **conversión por tramo** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un embudo unificado puede ocultar diferencias importantes entre segmentos o líneas de negocio. El análisis debe segmentarse»?
@@ -255,7 +255,7 @@ Guarda en `evidence/P17-C10-revenue-funnel/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**.
+Este entregable alimenta el artefacto de la parte: **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**.
 
 ## ✅ Evaluación de la clase
 

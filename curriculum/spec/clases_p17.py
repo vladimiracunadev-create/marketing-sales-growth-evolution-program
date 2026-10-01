@@ -370,9 +370,10 @@ CLASES = [
         titulo="Embudo de ingresos",
         tesis=(
             "El embudo de ingresos unifica la vista de marketing, ventas y éxito de cliente en un solo "
-            "recorrido con definiciones compartidas. Su valor es diagnóstico: permite ver dónde se pierde "
-            "valor considerando el ciclo completo, incluida la retención. Un embudo que termina en la venta "
-            "esconde el problema más caro de los modelos recurrentes."
+            "recorrido con definiciones compartidas: visitas o alcance, leads, MQL cuando aplica, SQL, "
+            "oportunidades, cierres, clientes e ingreso. Su valor es diagnóstico y proyectivo: muestra volumen, "
+            "conversión y valor hasta retención. E-commerce, suscripción, PLG y canales indirectos usan modelos "
+            "equivalentes de unidades y transiciones; no se les fuerza un funnel B2B que no describe su realidad."
         ),
         conceptos=[
             ("embudo unificado", "representación única del recorrido desde el descubrimiento hasta la renovación"),
@@ -381,11 +382,11 @@ CLASES = [
             ("visión de ciclo completo", "inclusión de retención y expansión en el análisis del embudo"),
         ],
         metodo=[
-            "definir las etapas del recorrido completo",
-            "acordar criterios entre áreas",
-            "medir volumen, conversión y valor por tramo",
-            "identificar la mayor pérdida de valor",
-            "asignar responsable por tramo",
+            "elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto",
+            "definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn",
+            "medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento",
+            "proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad",
+            "asignar responsable, fuente, supuesto y condición de revisión por tramo",
         ],
         senales=[
             ("conversión por tramo", "unidades que avanzan, sobre unidades que ingresaron al tramo"),
@@ -411,8 +412,10 @@ CLASES = [
         tesis=(
             "Un forecast unificado proyecta ingreso nuevo, renovaciones, expansión y contracción en un mismo "
             "modelo. Sin esa vista, la empresa puede celebrar un trimestre récord de ventas nuevas mientras "
-            "pierde más ingreso por bajas del que incorpora. La proyección debe declarar sus supuestos por "
-            "componente y medir la precisión de cada uno por separado."
+            "pierde más ingreso por bajas del que incorpora. La proyección parte de las unidades y conversiones "
+            "del modelo comercial, incorpora ticket o frecuencia, ciclo, cobertura y capacidad, y después "
+            "concilia retención, churn, CAC y LTV. Cada componente declara rango, supuesto y precisión: el "
+            "modelo informa decisiones, no fabrica certeza."
         ),
         conceptos=[
             ("ingreso nuevo", "ingreso incorporado por clientes que no existían al inicio del periodo"),
@@ -421,11 +424,11 @@ CLASES = [
             ("precisión por componente", "medición separada de la exactitud de cada parte de la proyección"),
         ],
         metodo=[
-            "modelar cada componente por separado",
-            "declarar los supuestos de cada uno",
-            "consolidar la proyección de ingreso neto",
-            "medir la precisión por componente",
-            "corregir los supuestos con el sesgo observado",
+            "modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio",
+            "limitar cierres por cobertura de pipeline, capacidad y rampa comercial",
+            "proyectar ingreso nuevo, renovación, expansión, contracción y churn por separado",
+            "contrastar CAC, LTV y sensibilidad y consolidar el ingreso neto como rango",
+            "medir precisión por componente y corregir supuestos con el sesgo observado",
         ],
         senales=[
             ("precisión por componente", "diferencia entre proyección y resultado, por componente y trimestre"),
@@ -531,8 +534,10 @@ CLASES = [
         tesis=(
             "Esta clase integra la parte en un modelo operativo de ingresos: definiciones compartidas, "
             "modelo de datos, ciclo de vida, automatizaciones gobernadas, acuerdos entre áreas, forecast "
-            "unificado y observabilidad. La prueba de calidad es que una pregunta de negocio pueda "
-            "responderse con una sola cifra, con su definición y su fuente."
+            "unificado y observabilidad. Recibe del Commercial Evidence Pack los supuestos de mercado, cliente, "
+            "competencia, precio y adquisición, y devuelve conversiones, capacidad, forecast y precisión. La "
+            "prueba de calidad es que una pregunta pueda responderse con una cifra definida y con su evidencia, "
+            "incertidumbre y responsable visibles."
         ),
         conceptos=[
             ("modelo operativo de ingresos", "conjunto de procesos, datos, acuerdos y responsabilidades que produce ingreso"),
@@ -541,11 +546,11 @@ CLASES = [
             ("ritmo de gestión", "calendario de revisiones que sostiene la operación"),
         ],
         metodo=[
-            "consolidar definiciones, datos y acuerdos",
-            "documentar el modelo con responsables por proceso",
-            "establecer el ritmo de revisiones",
-            "verificar que cada indicador tenga cifra única",
-            "revisar el modelo completo cada semestre",
+            "consolidar definiciones, datos, acuerdos y supuestos del Commercial Evidence Pack",
+            "documentar el recorrido completo y el forecast con responsables por proceso",
+            "establecer el ritmo de revisión de conversiones, capacidad, retención y precisión",
+            "verificar que cada indicador tenga cifra única, fuente y nivel de incertidumbre",
+            "revisar el modelo completo cuando cambie la evidencia y al menos cada semestre",
         ],
         senales=[
             ("indicadores con definición única", "indicadores con definición y fuente acordadas, sobre indicadores usados"),

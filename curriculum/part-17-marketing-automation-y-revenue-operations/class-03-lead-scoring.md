@@ -255,7 +255,7 @@ Guarda en `evidence/P17-C03-lead-scoring/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**.
+Este entregable alimenta el artefacto de la parte: **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**.
 
 ## ✅ Evaluación de la clase
 

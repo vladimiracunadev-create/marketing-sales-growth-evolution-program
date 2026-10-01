@@ -459,9 +459,9 @@ ROLES_B = [
         labs=["16", "17"],
         artefactos=[
             "Diseño de sales operations con pipeline, criterios y gobierno",
-            "Operating model de RevOps con cifra única por indicador",
+            "Operating model de RevOps con funnel adaptable, capacidad y forecast unificado",
             "Acuerdo de servicio entre marketing y ventas con cumplimiento medido",
-            "Modelo de datos con fuente autoritativa declarada por campo",
+            "Commercial Evidence Pack con supuestos e incertidumbre conectados al modelo de datos",
         ],
         credenciales=[
             "**Salesforce Administrator / HubSpot Operations** — sí pesan en este rol, porque acreditan "
@@ -1393,8 +1393,8 @@ ROLES_B = [
         artefactos=[
             "Operating system del CRO con estructura, ritmo y gobierno",
             "Economía unitaria por segmento verificada con contabilidad",
-            "Forecast unificado con precisión por componente",
-            "Capstone completo con defensa ante panel",
+            "Forecast unificado con precisión, capacidad y confianza por componente",
+            "Commercial Evidence Pack con defensa ante panel",
         ],
         credenciales=[
             "**No hay certificación relevante.** Se evalúa por trayectoria y por la calidad del razonamiento "
@@ -1511,7 +1511,7 @@ ROLES_B = [
             "Expediente de cliente con evidencia de compromiso costoso",
             "Oferta lista para vender con precio fundamentado",
             "Economía unitaria con periodo de recuperación y sensibilidad",
-            "Capstone con la operación completa y cumplimiento verificado",
+            "Commercial Evidence Pack del Capstone con cumplimiento verificado",
         ],
         credenciales=[
             "**Ninguna importa aquí.** Lo que importa son clientes que pagan y una economía que cierra.",

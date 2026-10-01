@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Integrar los artefactos de ambas partes en un entregable único y coherente: **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada** y **arquitectura STP con criterios de atractivo, accesibilidad y declaración de posicionamiento probada**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
+Integrar los artefactos de ambas partes en un entregable único y coherente: **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable** y **arquitectura STP con criterios de atractivo, accesibilidad y declaración de posicionamiento probada**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
 
 ## Contexto
 
@@ -14,7 +14,7 @@ Este proyecto se construye sobre el estado acumulado de la simulación: las deci
 
 ## Entregables
 
-1. Artefacto de la parte 03: informe de oportunidad de mercado con método, muestra, límites y decisión recomendada.
+1. Artefacto de la parte 03: informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable.
 2. Artefacto de la parte 04: arquitectura STP con criterios de atractivo, accesibilidad y declaración de posicionamiento probada.
 3. Documento de integración que responda: ¿qué decisión de la parte 03 restringe lo posible en la parte 04?
 4. Registro de supuestos con nivel de evidencia y plan de validación.

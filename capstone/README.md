@@ -26,10 +26,12 @@ En cualquier opción debe declararse explícitamente qué datos son reales y cu�
 | 08 | Prospección y ventas del Capstone | [24.08](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-08-prospeccion-y-ventas.md) |
 | 09 | CRM y pipeline del Capstone | [24.09](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-09-crm-y-pipeline.md) |
 | 10 | Customer Success del Capstone | [24.10](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) |
-| 11 | Dashboard financiero-comercial | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
+| 11 | Commercial Evidence Pack y dashboard comercial | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
 | 12 | Cumplimiento normativo en Chile | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | 13 | Defensa ejecutiva | [24.13](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md) |
 | 14 | Retrospectiva y portafolio profesional | [24.14](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md) |
+
+El componente 11 se entrega con la plantilla [`Commercial Evidence Pack`](../templates/strategy/commercial-evidence-pack.md). El paquete conecta los artefactos existentes y alimenta una proyección financiera posterior; no la sustituye.
 
 ## Criterios de evaluación (100 puntos)
 
@@ -40,7 +42,7 @@ En cualquier opción debe declararse explícitamente qué datos son reales y cu�
 | Go-to-market y adquisición | 15 | Movimiento coherente con el ticket y economía verificable |
 | Sistema comercial y operación | 15 | Proceso ejecutable por otra persona, CRM coherente |
 | Retención y expansión | 10 | Onboarding conectado con la promesa comercial |
-| Analítica y tablero | 10 | Cifras trazables y aritméticamente coherentes |
+| Commercial Evidence Pack y tablero | 10 | Evidencia, supuestos, incertidumbre y cifras coherentes |
 | Cumplimiento normativo chileno | 10 | Obligaciones traducidas a requisitos de diseño |
 | Defensa ejecutiva | 5 | Argumentos sostenidos en evidencia y límites reconocidos |
 

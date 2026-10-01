@@ -341,8 +341,9 @@ CLASES = [
             "Comparar con competidores es útil para detectar brechas y peligroso para definir estrategia: si "
             "todos copian a todos, la industria converge y el margen se erosiona. Porter advirtió que la "
             "eficacia operativa no es estrategia; alcanzar la frontera de las mejores prácticas es necesario "
-            "pero no diferencia. El benchmarking correcto compara elementos específicos con criterio "
-            "explícito y separa lo que es tabla de entrada de lo que es diferencia real."
+            "pero no diferencia. El benchmarking reproducible compara propuesta, segmento, posicionamiento, "
+            "precio, packaging, canal y experiencia con una misma regla, y separa evidencia observable de "
+            "interpretación. Una celda sin evidencia se marca «no observable»: no se rellena con opinión."
         ),
         conceptos=[
             ("tabla de entrada", "atributo que todos los competidores ofrecen y cuya ausencia descalifica"),
@@ -351,16 +352,16 @@ CLASES = [
             ("costo de cierre de brecha", "recursos necesarios para alcanzar el nivel del competidor en ese atributo"),
         ],
         metodo=[
-            "elegir los atributos que el cliente usa para decidir",
-            "medir a la empresa y a los competidores en cada uno",
-            "clasificar cada atributo como tabla de entrada o diferencia",
-            "estimar el costo de cerrar cada brecha relevante",
-            "decidir dónde igualar y dónde diferenciarse deliberadamente",
+            "definir muestra, fecha de corte y regla común de comparación",
+            "registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa",
+            "adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse",
+            "separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia",
+            "decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas",
         ],
         senales=[
-            ("brecha por atributo crítico", "diferencia medida entre la empresa y el mejor competidor en cada atributo de decisión"),
+            ("brecha por atributo crítico", "diferencia comparable con fuente y fecha entre la empresa y las alternativas en cada atributo de decisión"),
             ("tasa de pérdida por atributo", "negocios perdidos donde el atributo fue citado como razón, sobre pérdidas totales"),
-            ("costo estimado de paridad", "inversión requerida para alcanzar el nivel competitivo en los atributos de tabla de entrada"),
+            ("costo estimado de paridad", "inversión estimada por atributo y supuesto declarado para alcanzar el nivel observable de una tabla de entrada"),
         ],
         caso=(
             "Ruta Andina compara funcionalidades con dos competidores y concluye que necesita 14 desarrollos. "
@@ -383,7 +384,8 @@ CLASES = [
             "restricciones y sus movimientos probables. Un competidor con capital de riesgo y presión de "
             "crecimiento se comportará distinto de uno familiar con caja propia. Porter estructuró el análisis "
             "en fuerzas —proveedores, compradores, entrantes, sustitutos y rivalidad— que explican por qué "
-            "algunas industrias son rentables y otras no, independientemente del esfuerzo individual."
+            "algunas industrias son rentables y otras no. La matriz incluye competidores directos, sustitutos "
+            "y no hacer nada; cada afirmación distingue dato, estimación, hipótesis o inferencia."
         ),
         conceptos=[
             ("modelo económico del competidor", "forma en que gana dinero, su estructura de costos y su presión de retorno"),
@@ -392,11 +394,11 @@ CLASES = [
             ("intensidad competitiva", "grado en que la rivalidad erosiona el margen disponible en la categoría"),
         ],
         metodo=[
-            "reconstruir el modelo económico de los dos competidores principales",
-            "identificar sus restricciones observables",
-            "anticipar sus movimientos probables en 12 meses",
-            "evaluar el efecto de esos movimientos sobre el margen propio",
-            "definir la respuesta y su condición de activación",
+            "delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada",
+            "aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia",
+            "etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha",
+            "inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables",
+            "definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla",
         ],
         senales=[
             ("participación en negocios enfrentados", "negocios ganados frente a cada competidor, sobre negocios donde estuvo presente"),
@@ -544,11 +546,11 @@ CLASES = [
         slug="informe-de-oportunidad-de-mercado",
         titulo="Informe de oportunidad de mercado",
         tesis=(
-            "Esta clase integra la parte en un informe que un comité pueda usar para decidir. Sus componentes "
-            "no son negociables: decisión que informa, método y muestra, hallazgos jerarquizados, "
-            "dimensionamiento con supuestos, análisis competitivo, riesgos y recomendación con condiciones de "
-            "revisión. La prueba de calidad es que un lector escéptico pueda reconstruir el razonamiento y "
-            "señalar exactamente dónde discrepa."
+            "Esta clase integra la parte en un informe ejecutivo de inteligencia comercial de una a dos "
+            "páginas, enlazado a un anexo auditable. Resume mercado, categoría, segmentos, competidores y "
+            "sustitutos, tendencias, benchmarks, cuota sólo cuando existe una fuente confiable, señales de "
+            "demanda, canales y precios observables. Cada afirmación se rotula como dato, estimación, hipótesis "
+            "o inferencia para que un comité pueda decidir sin confundir síntesis con certeza."
         ),
         conceptos=[
             ("informe decisional", "documento estructurado alrededor de la decisión que debe informar y no del proceso realizado"),
@@ -557,14 +559,14 @@ CLASES = [
             ("auditabilidad", "posibilidad de que un tercero verifique cada afirmación hasta su fuente"),
         ],
         metodo=[
-            "abrir con la decisión y la recomendación",
-            "declarar método, muestra y límites",
-            "presentar tres insights con su implicancia",
-            "dimensionar la oportunidad con escenarios",
-            "cerrar con riesgos, condiciones de revisión y responsables",
+            "abrir con la decisión, recomendación condicionada y fecha de corte",
+            "resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes",
+            "presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios",
+            "incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia",
+            "cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable",
         ],
         senales=[
-            ("afirmaciones trazables", "afirmaciones del informe con fuente verificable, sobre afirmaciones totales"),
+            ("afirmaciones trazables", "afirmaciones con fuente, fecha y etiqueta epistemológica, sobre afirmaciones totales del informe"),
             ("tiempo de lectura hasta la recomendación", "minutos que tarda un lector en encontrar la recomendación y sus condiciones"),
             ("decisiones tomadas con el informe", "decisiones formalizadas que citan el informe, en los 60 días posteriores"),
         ],

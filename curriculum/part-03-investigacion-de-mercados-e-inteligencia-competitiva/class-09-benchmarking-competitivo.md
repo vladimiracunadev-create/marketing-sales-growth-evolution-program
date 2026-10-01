@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-Comparar con competidores es útil para detectar brechas y peligroso para definir estrategia: si todos copian a todos, la industria converge y el margen se erosiona. Porter advirtió que la eficacia operativa no es estrategia; alcanzar la frontera de las mejores prácticas es necesario pero no diferencia. El benchmarking correcto compara elementos específicos con criterio explícito y separa lo que es tabla de entrada de lo que es diferencia real.
+Comparar con competidores es útil para detectar brechas y peligroso para definir estrategia: si todos copian a todos, la industria converge y el margen se erosiona. Porter advirtió que la eficacia operativa no es estrategia; alcanzar la frontera de las mejores prácticas es necesario pero no diferencia. El benchmarking reproducible compara propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia con una misma regla, y separa evidencia observable de interpretación. Una celda sin evidencia se marca «no observable»: no se rellena con opinión.
 
 Esta clase existe porque el error que corrige es caro y frecuente en operaciones reales. La parte 03 busca **producir investigación que cambie una decisión y resista una auditoría metodológica**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **benchmarking competitivo** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `tabla de entrada`, `punto de diferencia`, `brecha de desempeño` y `costo de cierre de brecha` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
-3. **Aplicar** la secuencia **elegir los atributos que el cliente usa para decidir → medir a la empresa y a los competidores en cada uno → clasificar cada atributo como tabla de entrada o diferencia → estimar el costo de cerrar cada brecha relevante → decidir dónde igualar y dónde diferenciarse deliberadamente** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **definir muestra, fecha de corte y regla común de comparación → registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa → adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse → separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia → decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **brecha por atributo crítico**, **tasa de pérdida por atributo** y **costo estimado de paridad** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. elegir los atributos que el cliente usa para decidir → 2. medir a la empresa y a los competidores en cada uno → 3. clasificar cada atributo como tabla de entrada o diferencia → 4. estimar el costo de cerrar cada brecha relevante → 5. decidir dónde igualar y dónde diferenciarse deliberadamente
+1. definir muestra, fecha de corte y regla común de comparación → 2. registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa → 3. adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse → 4. separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia → 5. decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -73,7 +73,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Tabla de entrada** se entiende aquí como **atributo que todos los competidores ofrecen y cuya ausencia descalifica**.
 
-El benchmarking útil compara capacidades y resultados, no catálogos. Listar funcionalidades de competidores produce una tabla que envejece en un mes y que ningún cliente pidió; comparar cómo resuelve cada uno el trabajo del cliente, con qué costo y con qué evidencia, produce una decisión. La diferencia está en la unidad de comparación: atributos del producto frente a resultados del cliente.
+El benchmarking útil empieza con un protocolo que otra persona pueda repetir: alternativas incluidas, fecha de corte, segmento observado y criterio común. La matriz compara propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia. Cambiar el criterio para cada competidor hace la tabla más vistosa y menos comparable; dejar una celda como «no observable» es más riguroso que rellenarla con la impresión del equipo.
 
 **De dónde viene esta afirmación.** Michael E. Porter — *Competitive Strategy* (1980) aporta la idea que sostiene este bloque: los grupos estratégicos y las barreras de movilidad entre ellos. Búscala en el capítulo sobre mapas de grupos estratégicos. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «brecha por atributo crítico» debería moverse cuando cambie **tabla de entrada**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
@@ -87,15 +87,15 @@ La tabla de entrada reúne los atributos sin los cuales no te consideran, y el p
 
 **Contraste bibliográfico.** Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) aporta aquí una distinción concreta: la eficacia operativa no es estrategia: alcanzar la frontera de las mejores prácticas no diferencia (la primera sección del artículo). Formula dos mini-casos: uno que satisface la definición de **punto de diferencia** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «medir a la empresa y a los competidores en cada uno», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Brecha de desempeño: operacionalización y medición
 
 **Brecha de desempeño** significa **diferencia medida entre la empresa y el mejor competidor en un atributo concreto**.
 
-La brecha de desempeño se mide contra un estándar declarado y no contra la impresión general. Para cada atributo comparado se registra la fuente —prueba propia, documentación pública, testimonio de cliente— y su fecha. Cuando la fuente es «lo que dice el equipo comercial», hay que anotarlo así, porque esa información suele estar filtrada por las oportunidades perdidas más recientes.
+La brecha de desempeño se mide contra un estándar declarado y no contra la impresión general. Cada celda enlaza a una prueba propia, documentación pública, precio observable o testimonio registrado, con fecha y contexto. Fortaleza y debilidad son conclusiones comparativas, no adjetivos: se sostienen sólo cuando la evidencia muestra una diferencia relevante para el cliente. La causa propuesta de esa diferencia se conserva aparte como inferencia.
 
-Ficha de medición obligatoria para **brecha por atributo crítico**: `diferencia medida entre la empresa y el mejor competidor en cada atributo de decisión`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **brecha por atributo crítico**: `diferencia comparable con fuente y fecha entre la empresa y las alternativas en cada atributo de decisión`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** W. Chan Kim y Renée Mauborgne — *Blue Ocean Strategy* (2015, ed. ampliada) pone una condición sobre la medición: la curva de valor como comparación explícita de atributos frente a la industria (el capítulo sobre el lienzo estratégico). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
@@ -103,7 +103,7 @@ Ficha de medición obligatoria para **brecha por atributo crítico**: `diferenci
 
 **Definición:** recursos necesarios para alcanzar el nivel del competidor en ese atributo.
 
-Cerrar una brecha frente al competidor consume roadmap que podría destinarse a profundizar una ventaja propia. Igualar es defensivo y suele ser necesario en atributos de la tabla de entrada; profundizar es ofensivo y sostiene el margen. La decisión exige estimar cuánto cuesta cada cierre y qué proporción de negocios se pierde hoy por esa causa, dato que casi siempre existe en el CRM y casi nunca se consulta.
+Cerrar una brecha frente al competidor consume roadmap que podría destinarse a profundizar una ventaja propia. Igualar es defensivo y suele ser necesario en atributos de tabla de entrada; profundizar es ofensivo y sostiene el margen. La decisión combina costo estimado de paridad con razones documentadas de compra y pérdida. Una puntuación subjetiva sin caso, fuente o escala no cuenta como benchmark y no debe gobernar inversión.
 
 **Lo que aporta la fuente.** Al Ries y Jack Trout — *Positioning: The Battle for Your Mind* (2001, ed. revisada) aporta el criterio para pesar el intercambio: la escalera de categoría: las marcas ocupan peldaños y desplazar al líder es caro (el capítulo sobre la escalera del producto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **costo estimado de paridad** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
@@ -111,7 +111,7 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «decidir dónde igualar y dónde diferenciarse deliberadamente», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
 El benchmarking describe el presente del competidor y no su intención. Un rival puede estar a punto de abandonar una línea o de duplicar la apuesta, y ninguna comparación de atributos lo revela. Por eso el análisis competitivo serio combina esta clase con la siguiente: qué hace hoy y qué puede y quiere hacer mañana son preguntas distintas.
 
@@ -144,15 +144,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** Ruta Andina compara funcionalidades con dos competidores y concluye que necesita 14 desarrollos. Ninguno de los 14 aparece entre las razones de compra citadas por sus clientes ganados.
 
-**Paso 1 — Elegir los atributos que el cliente usa para decidir.** El equipo escribe primero el supuesto asociado a **tabla de entrada** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **brecha por atributo crítico** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Definir muestra, fecha de corte y regla común de comparación.** El equipo escribe primero el supuesto asociado a **tabla de entrada** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **brecha por atributo crítico** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Medir a la empresa y a los competidores en cada uno.** El trabajo aquí es separar lo observado de lo inferido sobre **punto de diferencia**. La evidencia que ordena la discusión es **tasa de pérdida por atributo**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa.** El trabajo aquí es separar lo observado de lo inferido sobre **punto de diferencia**. La evidencia que ordena la discusión es **tasa de pérdida por atributo**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Clasificar cada atributo como tabla de entrada o diferencia.** El riesgo de este paso es cerrar demasiado rápido alrededor de **brecha de desempeño**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **costo estimado de paridad** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse.** El riesgo de este paso es cerrar demasiado rápido alrededor de **brecha de desempeño**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **costo estimado de paridad** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Estimar el costo de cerrar cada brecha relevante.** Con **costo de cierre de brecha** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **brecha por atributo crítico** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia.** Con **costo de cierre de brecha** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **brecha por atributo crítico** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Decidir dónde igualar y dónde diferenciarse deliberadamente.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **tabla de entrada**. **tasa de pérdida por atributo** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **tabla de entrada**. **tasa de pérdida por atributo** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **elegir los atributos que el cliente usa para decidir → medir a la empresa y a los competidores en cada uno → clasificar cada atributo como tabla de entrada o diferencia → estimar el costo de cerrar cada brecha relevante → decidir dónde igualar y dónde diferenciarse deliberadamente** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir muestra, fecha de corte y regla común de comparación → registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa → adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse → separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia → decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **brecha por atributo crítico**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Competitive Strategy* y la de *What Is Strategy? (Harvard Business Review)*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **tabla de entrada** y **punto de diferencia** como sinónimos | Se perdió la distinción entre «atributo que todos los competidores ofrecen y cuya ausencia descalifica» y «atributo donde la empresa supera de forma perceptible y sostenible a las alternativas» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «decidir dónde igualar y dónde diferenciarse deliberadamente» | Se saltó «elegir los atributos que el cliente usa para decidir»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas» | Se saltó «definir muestra, fecha de corte y regla común de comparación»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **brecha por atributo crítico** | La métrica local reemplazó al resultado del sistema | Contrástala con **costo estimado de paridad** y explicita el costo de oportunidad. |
 | Convertir el benchmarking en un plan de desarrollo | Error específico de esta clase | Filtra los atributos por su presencia en las razones de compra y de pérdida documentadas. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
@@ -214,7 +214,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 
 1. Explica la diferencia entre **tabla de entrada** y **punto de diferencia** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **brecha de desempeño** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «elegir los atributos que el cliente usa para decidir» al caso de la clase. ¿Qué dato sigue faltando?
+3. Aplica «definir muestra, fecha de corte y regla común de comparación» al caso de la clase. ¿Qué dato sigue faltando?
 4. ¿Por qué **brecha por atributo crítico** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El benchmarking mira el presente del competidor, no su dirección. Igualar hoy puede significar llegar tarde mañana si el competidor está construyendo otra cosa»?
@@ -255,7 +255,7 @@ Guarda en `evidence/P03-C09-benchmarking-competitivo/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**.
+Este entregable alimenta el artefacto de la parte: **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**.
 
 ## ✅ Evaluación de la clase
 

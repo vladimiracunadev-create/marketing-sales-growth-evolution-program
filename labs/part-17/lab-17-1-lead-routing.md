@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**, aplicando en particular **enrutamiento de leads** y **acuerdo de servicio entre marketing y ventas**.
+Producir un componente defendible de **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**, aplicando en particular **enrutamiento de leads** y **acuerdo de servicio entre marketing y ventas**.
 
 > **Pregunta que debe quedar respondida:** ¿Qué automatizo porque mejora el sistema y qué estaría solo escalando un desorden?
 

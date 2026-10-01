@@ -90,6 +90,26 @@ def test_version_es_semantica(raiz):
     assert re.match(r"^\d+\.\d+\.\d+$", version), "VERSION inválida: {}".format(version)
 
 
+def test_commercial_evidence_pack_cubre_la_cadena_completa(raiz):
+    ruta = os.path.join(raiz, "templates", "strategy", "commercial-evidence-pack.md")
+    assert os.path.isfile(ruta)
+    with open(ruta, encoding="utf-8") as fh:
+        texto = fh.read()
+
+    secciones = [
+        "## 1. Mercado", "## 2. Cliente", "## 3. Competencia y benchmarks",
+        "## 4. Propuesta y oferta", "## 5. Precio y economía comercial",
+        "## 6. Adquisición", "## 7. Conversiones", "## 8. Forecast comercial",
+        "## 9. Registro de supuestos", "## 10. Evidencias, incertidumbres y decisión",
+    ]
+    for seccion in secciones:
+        assert seccion in texto, "Commercial Evidence Pack sin {}".format(seccion)
+
+    for termino in ["Dato", "Estimación", "Hipótesis", "Inferencia", "MQL, cuando aplique",
+                    "Pipeline coverage", "Capacidad comercial", "Confianza del forecast"]:
+        assert termino in texto, "Commercial Evidence Pack sin {}".format(termino)
+
+
 def test_readme_declara_cifras_coherentes(raiz):
     with open(os.path.join(raiz, "README.md"), encoding="utf-8") as fh:
         readme = fh.read()

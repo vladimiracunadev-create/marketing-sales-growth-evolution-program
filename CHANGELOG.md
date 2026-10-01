@@ -6,6 +6,12 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Integradas las cuatro conexiones de evidencia comercial —mercado, cliente, economía y forecast— en las
+  clases, prácticas, evaluaciones, rutas y Capstone existentes, sin alterar las 336 clases ni las 24 partes.
+- Incorporado el `Commercial Evidence Pack`: inteligencia de mercado, trazabilidad de evidencia del cliente,
+  benchmark competitivo reproducible y forecast adaptable a funnels B2B y modelos alternativos.
+- Añadida una prueba de integridad del nuevo artefacto y corregido el recuento del portal para informar
+  archivos HTML únicos realmente generados.
 - Ampliada la Parte 06 con una unidad aplicada sobre mascotas de marca y corpóreos: decisión estratégica,
   adaptación física/digital, operación segura y accesible, costos, atribución y evaluación incremental.
 - Extendido el caso sintético de Ruta Andina, la evaluación y el proyecto de las Partes 05–06 con una

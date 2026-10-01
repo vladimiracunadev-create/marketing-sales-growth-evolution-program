@@ -513,7 +513,7 @@
       "titulo": "Cliente y comportamiento del consumidor",
       "nivel": "Fundamentos",
       "resultado": "construir un expediente de cliente accionable basado en evidencia y no en estereotipos",
-      "artefacto": "expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas",
+      "artefacto": "expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta",
       "roles": [
         "Marketing manager",
         "Product marketing",
@@ -1012,7 +1012,7 @@
       "titulo": "Investigación de mercados e inteligencia competitiva",
       "nivel": "Fundamentos",
       "resultado": "producir investigación que cambie una decisión y resista una auditoría metodológica",
-      "artefacto": "informe de oportunidad de mercado con método, muestra, límites y decisión recomendada",
+      "artefacto": "informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable",
       "roles": [
         "Market researcher",
         "Product marketing",
@@ -7744,7 +7744,7 @@
             "método de forecast",
             "sesgo de optimismo",
             "precisión del forecast",
-            "compromiso frente a mejor caso"
+            "confianza del forecast"
           ],
           "senales": [
             "precisión del forecast",
@@ -8011,7 +8011,7 @@
       "titulo": "Marketing automation y revenue operations",
       "nivel": "Operación de ingresos",
       "resultado": "integrar marketing, ventas y servicio en un solo modelo de datos y de proceso",
-      "artefacto": "operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad",
+      "artefacto": "operating model de RevOps con funnel adaptable, forecast unificado y observabilidad",
       "roles": [
         "Marketing ops",
         "RevOps manager",
@@ -11507,7 +11507,7 @@
       "titulo": "Empresa real, regulación y Capstone",
       "nivel": "Dirección y Capstone",
       "resultado": "integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena",
-      "artefacto": "Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva",
+      "artefacto": "Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva",
       "roles": [
         "Founder",
         "CRO",
@@ -11866,7 +11866,7 @@
         {
           "n": "11",
           "slug": "dashboard-financiero-comercial",
-          "titulo": "Dashboard financiero-comercial",
+          "titulo": "Commercial Evidence Pack y dashboard comercial",
           "nivel": "Dirección y Capstone",
           "estandar": "clase-profunda-v2",
           "idioma": "es",
@@ -11876,12 +11876,12 @@
             "trazabilidad de la cifra",
             "coherencia aritmética",
             "proyección con supuestos",
-            "indicador de alerta"
+            "paquete de evidencia comercial"
           ],
           "senales": [
-            "cifras trazables",
+            "cobertura del paquete de evidencia",
             "coherencia aritmética verificada",
-            "indicadores con umbral"
+            "confianza del forecast"
           ],
           "libros": [
             "kaplan-norton",

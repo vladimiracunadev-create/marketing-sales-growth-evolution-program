@@ -15,8 +15,8 @@
 | # | Parte | Nivel | Clases | Artefacto |
 |---|---|---|---:|---|
 | 01 | [Marketing y ventas: fundamentos del sistema comercial](part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/README.md) | Fundamentos | 14 | mapa del sistema comercial con supuestos, métricas y puntos de fuga |
-| 02 | [Cliente y comportamiento del consumidor](part-02-cliente-y-comportamiento-del-consumidor/README.md) | Fundamentos | 14 | expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas |
-| 03 | [Investigación de mercados e inteligencia competitiva](part-03-investigacion-de-mercados-e-inteligencia-competitiva/README.md) | Fundamentos | 14 | informe de oportunidad de mercado con método, muestra, límites y decisión recomendada |
+| 02 | [Cliente y comportamiento del consumidor](part-02-cliente-y-comportamiento-del-consumidor/README.md) | Fundamentos | 14 | expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta |
+| 03 | [Investigación de mercados e inteligencia competitiva](part-03-investigacion-de-mercados-e-inteligencia-competitiva/README.md) | Fundamentos | 14 | informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable |
 | 04 | [Segmentación, targeting y posicionamiento](part-04-segmentacion-targeting-y-posicionamiento/README.md) | Fundamentos | 14 | arquitectura STP con criterios de atractivo, accesibilidad y declaración de posicionamiento probada |
 | 05 | [Producto, oferta y propuesta de valor](part-05-producto-oferta-y-propuesta-de-valor/README.md) | Oferta comercial | 14 | oferta lista para vender con propuesta de valor, alcance, garantía y prueba de concepto |
 | 06 | [Marca, branding y comunicación estratégica](part-06-marca-branding-y-comunicacion-estrategica/README.md) | Oferta comercial | 14 | brand book mínimo viable con activos distintivos, promesa y sistema de medición |
@@ -30,14 +30,14 @@
 | 14 | [Publicidad y performance marketing](part-14-publicidad-y-performance-marketing/README.md) | Adquisición | 14 | plan de performance con estructura de campañas, presupuestos, medición y salvaguardas |
 | 15 | [E-commerce y marketplaces](part-15-e-commerce-y-marketplaces/README.md) | Adquisición | 14 | simulación de tienda rentable con catálogo, checkout, costos y plan postventa |
 | 16 | [CRM, pipeline y sales operations](part-16-crm-pipeline-y-sales-operations/README.md) | Operación de ingresos | 14 | diseño de sales operations con pipeline, criterios de etapa, forecast y gobierno de datos |
-| 17 | [Marketing automation y revenue operations](part-17-marketing-automation-y-revenue-operations/README.md) | Operación de ingresos | 14 | operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad |
+| 17 | [Marketing automation y revenue operations](part-17-marketing-automation-y-revenue-operations/README.md) | Operación de ingresos | 14 | operating model de RevOps con funnel adaptable, forecast unificado y observabilidad |
 | 18 | [Customer experience, success y fidelización](part-18-customer-experience-success-y-fidelizacion/README.md) | Operación de ingresos | 14 | sistema de retención y expansión con onboarding, health score, renovación y advocacy |
 | 19 | [Growth marketing y growth engineering](part-19-growth-marketing-y-growth-engineering/README.md) | Crecimiento y analítica | 14 | growth model con North Star, bucles, backlog priorizado y resultados de experimentos |
 | 20 | [Analítica comercial y marketing science](part-20-analitica-comercial-y-marketing-science/README.md) | Crecimiento y analítica | 14 | caso analítico integral con árbol de métricas, cohortes, incrementalidad y dashboard ejecutivo |
 | 21 | [IA aplicada a marketing, ventas y servicio](part-21-ia-aplicada-a-marketing-ventas-y-servicio/README.md) | IA y expansión | 14 | operating model humano-IA con casos de uso, evaluaciones, guardrails y registro de incidentes |
 | 22 | [Go-to-market, canales y expansión](part-22-go-to-market-canales-y-expansion/README.md) | IA y expansión | 14 | plan GTM completo con beachhead, movimiento comercial, canales, economía y plan de lanzamiento |
 | 23 | [Dirección comercial: CMO, VP Sales y CRO](part-23-direccion-comercial-cmo-vp-sales-y-cro/README.md) | Dirección y Capstone | 14 | operating system del CRO con estructura, plan, cadencia, incentivos y reporte al directorio |
-| 24 | [Empresa real, regulación y Capstone](part-24-empresa-real-regulacion-y-capstone/README.md) | Dirección y Capstone | 14 | Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva |
+| 24 | [Empresa real, regulación y Capstone](part-24-empresa-real-regulacion-y-capstone/README.md) | Dirección y Capstone | 14 | Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva |
 
 ## Cómo estudiar una clase
 

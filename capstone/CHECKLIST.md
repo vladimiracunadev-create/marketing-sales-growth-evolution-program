@@ -89,13 +89,13 @@ Marca cada elemento sólo cuando exista evidencia verificable en el repositorio 
 - [ ] Está resuelto y documentado lo relativo a **criterio de expansión**.
 - [ ] Señal medida o mecanismo de captura diseñado: **coherencia venta-entrega**.
 
-## 11. Dashboard financiero-comercial
+## 11. Commercial Evidence Pack y dashboard comercial
 
 - [ ] Está resuelto y documentado lo relativo a **trazabilidad de la cifra**.
 - [ ] Está resuelto y documentado lo relativo a **coherencia aritmética**.
 - [ ] Está resuelto y documentado lo relativo a **proyección con supuestos**.
-- [ ] Está resuelto y documentado lo relativo a **indicador de alerta**.
-- [ ] Señal medida o mecanismo de captura diseñado: **cifras trazables**.
+- [ ] Está resuelto y documentado lo relativo a **paquete de evidencia comercial**.
+- [ ] Señal medida o mecanismo de captura diseñado: **cobertura del paquete de evidencia**.
 
 ## 12. Cumplimiento normativo en Chile
 
@@ -138,6 +138,9 @@ Marca cada elemento sólo cuando exista evidencia verificable en el repositorio 
 - [ ] Toda afirmación factual generada fue verificada en fuente primaria.
 - [ ] Autorización escrita para datos y testimonios de terceros.
 - [ ] Ninguna cifra sin trazabilidad hasta su fuente.
+- [ ] Cada afirmación está marcada como dato, estimación, hipótesis o inferencia.
+- [ ] El conocimiento del cliente declara entrevista, observación, comportamiento, encuesta o hipótesis.
+- [ ] El forecast declara modelo, capacidad, rango y confianza sin presentar certeza.
 
 ## Defensa
 

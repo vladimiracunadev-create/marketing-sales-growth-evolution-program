@@ -55,7 +55,7 @@ Un decision brief de dos páginas más anexos:
 
 ## Vínculo con el currículo
 
-Este caso integra la parte 02 y en particular la clase 02.14 — Síntesis: expediente de cliente accionable. Su artefacto alimenta **expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas**.
+Este caso integra la parte 02 y en particular la clase 02.14 — Síntesis: expediente de cliente accionable. Su artefacto alimenta **expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta**.
 
 ---
 

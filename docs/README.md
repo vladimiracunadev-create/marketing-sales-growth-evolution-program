@@ -33,6 +33,7 @@
 | [Estándar de evidencia](ESTANDAR-DE-EVIDENCIA.md) | Qué cuenta como evidencia y cómo se organiza |
 | [Evaluación y rúbricas](EVALUACION-Y-RUBRICAS.md) | Instrumentos, pesos y criterios de aprobación |
 | [Arquitectura del programa](ARQUITECTURA-DEL-PROGRAMA.md) | Cómo se genera y se mantiene el repositorio |
+| [Auditoría Commercial Evidence](AUDITORIA-COMMERCIAL-EVIDENCE.md) | Cobertura, brechas, cambios y no duplicación |
 
 ## Contexto chileno y ética
 

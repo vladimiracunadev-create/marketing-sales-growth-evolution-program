@@ -533,7 +533,17 @@ migración a plataforma están en el <a href="docs/PLAN-DE-CAPACITACION.html">pl
         "display": "standalone", "background_color": "#ffffff", "theme_color": "#0b5c8a",
     }, ensure_ascii=False, indent=2) + "\n")
 
-    print("Sitio generado: {} páginas · índice de búsqueda: {} entradas".format(paginas, len(indice)))
+    # `paginas` cuenta operaciones de escritura y puede sobrecontar cuando una
+    # portada de directorio reemplaza a un destino homónimo. La cifra pública
+    # debe representar archivos HTML únicos realmente entregados.
+    paginas_html = sum(
+        1
+        for actual, _, archivos in os.walk(SALIDA)
+        for nombre in archivos
+        if nombre.endswith(".html")
+    )
+    print("Sitio generado: {} páginas · índice de búsqueda: {} entradas".format(
+        paginas_html, len(indice)))
     return 0
 
 

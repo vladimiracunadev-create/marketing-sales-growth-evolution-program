@@ -24,11 +24,11 @@ Construye dos alternativas realmente defendibles. Para cada una indica beneficio
 
 Aplica la secuencia de trabajo de la parte:
 
-1. Abrir con la decisión y la recomendación.
-2. Declarar método, muestra y límites.
-3. Presentar tres insights con su implicancia.
-4. Dimensionar la oportunidad con escenarios.
-5. Cerrar con riesgos, condiciones de revisión y responsables.
+1. Abrir con la decisión, recomendación condicionada y fecha de corte.
+2. Resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes.
+3. Presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios.
+4. Incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia.
+5. Cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable.
 
 Debes operacionalizar **afirmaciones trazables**, **tiempo de lectura hasta la recomendación** y **decisiones tomadas con el informe**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
 

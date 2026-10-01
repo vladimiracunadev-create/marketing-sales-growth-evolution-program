@@ -16,7 +16,7 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-Un forecast unificado proyecta ingreso nuevo, renovaciones, expansión y contracción en un mismo modelo. Sin esa vista, la empresa puede celebrar un trimestre récord de ventas nuevas mientras pierde más ingreso por bajas del que incorpora. La proyección debe declarar sus supuestos por componente y medir la precisión de cada uno por separado.
+Un forecast unificado proyecta ingreso nuevo, renovaciones, expansión y contracción en un mismo modelo. Sin esa vista, la empresa puede celebrar un trimestre récord de ventas nuevas mientras pierde más ingreso por bajas del que incorpora. La proyección parte de las unidades y conversiones del modelo comercial, incorpora ticket o frecuencia, ciclo, cobertura y capacidad, y después concilia retención, churn, CAC y LTV. Cada componente declara rango, supuesto y precisión: el modelo informa decisiones, no fabrica certeza.
 
 El material se ordena alrededor de una pregunta que un comité comercial haría en voz alta. La parte 17 busca **integrar marketing, ventas y servicio en un solo modelo de datos y de proceso**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **forecast unificado** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
@@ -30,7 +30,7 @@ Al terminar esta clase serás capaz de:
 
 1. **Distinguir** `ingreso nuevo`, `renovación`, `expansión y contracción` y `precisión por componente` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marketing automation y revenue operations**.
-3. **Aplicar** la secuencia **modelar cada componente por separado → declarar los supuestos de cada uno → consolidar la proyección de ingreso neto → medir la precisión por componente → corregir los supuestos con el sesgo observado** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio → limitar cierres por cobertura de pipeline, capacidad y rampa comercial → proyectar ingreso nuevo, renovación, expansión, contracción y churn por separado → contrastar CAC, LTV y sensibilidad y consolidar el ingreso neto como rango → medir precisión por componente y corregir supuestos con el sesgo observado** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **precisión por componente**, **ingreso neto proyectado** y **cobertura de renovaciones** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -60,7 +60,7 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 ## 🧠 Modelo mental
 
 ```text
-1. modelar cada componente por separado → 2. declarar los supuestos de cada uno → 3. consolidar la proyección de ingreso neto → 4. medir la precisión por componente → 5. corregir los supuestos con el sesgo observado
+1. modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio → 2. limitar cierres por cobertura de pipeline, capacidad y rampa comercial → 3. proyectar ingreso nuevo, renovación, expansión, contracción y churn por separado → 4. contrastar CAC, LTV y sensibilidad y consolidar el ingreso neto como rango → 5. medir precisión por componente y corregir supuestos con el sesgo observado
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -73,7 +73,7 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Ingreso nuevo** se entiende aquí como **ingreso incorporado por clientes que no existían al inicio del periodo**.
 
-Un pronóstico unificado separa los componentes del ingreso porque cada uno se comporta distinto: ingreso nuevo, renovación, expansión y contracción tienen predictibilidad y responsables diferentes. Sumarlos en una sola cifra oculta que el error de pronóstico puede venir de un solo componente.
+El forecast unificado comienza en el modelo de unidades elegido. Volumen por tasa de conversión produce clientes; clientes por ticket y frecuencia produce ingreso transaccional; base activa por tarifa produce ingreso recurrente. El cálculo conserva sus cohortes y su ciclo para no atribuir cierres de hoy a demanda de hoy. Cada tasa se presenta como rango cuando la muestra o la estabilidad no sostienen un punto único.
 
 **De dónde viene esta afirmación.** Nick Mehta, Dan Steinman y Lincoln Murphy — *Customer Success* (2016) aporta la idea que sostiene este bloque: la expansión condicionada al resultado inicial acreditado. Búscala en los capítulos sobre crecimiento en la base instalada. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «precisión por componente» debería moverse cuando cambie **ingreso nuevo**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
@@ -83,17 +83,17 @@ Relaciona el mecanismo con **renovación**. Si ambos se mueven juntos no concluy
 
 **Definición operacional:** ingreso conservado de clientes existentes al vencer su contrato. Su valor está en distinguirlo de **ingreso nuevo**.
 
-La renovación es el componente más predecible y el que menos atención recibe en el proceso de pronóstico, porque suele darse por supuesta. Modelarla explícitamente —con tasa histórica por segmento y por antigüedad— mejora la precisión total más que refinar el pronóstico de ingreso nuevo.
+El resultado matemático se contrasta con la realidad operativa. Cobertura de pipeline insuficiente, ciclos más largos que el periodo o capacidad limitada reducen los cierres defendibles. Contratar agrega capacidad después de la rampa, no el día de la firma. Esta reconciliación evita que el plan de marketing prometa una demanda que ventas no puede atender o que ventas se dimensione para un pipeline inexistente.
 
 **Contraste bibliográfico.** Stephen G. Diorio y Chris K. Hummel — *Revenue Operations* (2022) aporta aquí una distinción concreta: la definición única por indicador como acuerdo previo a cualquier tablero (los capítulos sobre gobierno de métricas). Formula dos mini-casos: uno que satisface la definición de **renovación** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «declarar los supuestos de cada uno», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «limitar cierres por cobertura de pipeline, capacidad y rampa comercial», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Expansión y contracción: operacionalización y medición
 
 **Expansión y contracción** significa **aumento o reducción de ingreso en clientes que permanecen**.
 
-La precisión por componente debe medirse por separado. Un pronóstico global con error aceptable puede estar compensando una sobreestimación de nuevo con una subestimación de renovación, y esa compensación no se repetirá. Medir por componente permite corregir donde está el problema.
+Ingreso nuevo, renovación, expansión, contracción y churn se modelan por separado porque tienen causas, responsables y precisión distintas. La renovación usa cohortes y segmentos; la contracción compara cada cliente consigo mismo; el ingreso nuevo conserva canal y fecha de origen. Sumarlos antes de medir el error permite que una sobreestimación oculte otra y destruye el aprendizaje.
 
 Ficha de medición obligatoria para **precisión por componente**: `diferencia entre proyección y resultado, por componente y trimestre`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
@@ -103,7 +103,7 @@ Ficha de medición obligatoria para **precisión por componente**: `diferencia e
 
 **Definición:** medición separada de la exactitud de cada parte de la proyección.
 
-Un proceso de pronóstico detallado mejora la precisión y consume tiempo de muchas personas cada periodo. La inversión se justifica cuando las decisiones dependen del pronóstico —contratación, inversión, compromisos financieros— y no cuando el pronóstico sólo se reporta.
+CAC, LTV y periodo de recuperación no son una segunda proyección financiera: son restricciones comerciales. El forecast puede mostrar crecimiento y aun así rechazarlo si el costo de adquisición supera el margen o si la caja se recupera después de la permanencia esperada. La sensibilidad a conversión, ticket, frecuencia, retención y churn muestra qué supuesto merece evidencia adicional.
 
 **Lo que aporta la fuente.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) aporta el criterio para pesar el intercambio: la evaluación contra una línea base y no contra la nada (los capítulos sobre evaluación de modelos). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cobertura de renovaciones** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
@@ -111,9 +111,9 @@ Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «corregir los supuestos con el sesgo observado», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «medir precisión por componente y corregir supuestos con el sesgo observado», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-La contracción —clientes que reducen su consumo sin irse— es el componente que más se omite y que puede explicar una parte relevante de la desviación. Su medición exige comparar el mismo cliente consigo mismo en el tiempo, no comparar totales. Incorporarla al pronóstico suele revelar un deterioro que el ingreso agregado ocultaba.
+La confianza se informa por componente usando vigencia, cobertura, concentración, estabilidad y precisión histórica. Un negocio joven puede tener un forecast útil con confianza baja si declara intervalo y condición de revisión. El objetivo no es reducir artificialmente el rango, sino mejorar las decisiones y medir después qué supuesto produjo la desviación.
 
 **Frontera declarada.** La proyección de renovaciones requiere cohortes maduras. En empresas jóvenes el error es alto y debe declararse como rango. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
@@ -144,15 +144,15 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Situación.** Ruta Andina proyecta ventas nuevas con detalle y estima renovaciones con un porcentaje fijo heredado de 2025 que nadie ha vuelto a validar.
 
-**Paso 1 — Modelar cada componente por separado.** El equipo escribe primero el supuesto asociado a **ingreso nuevo** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **precisión por componente** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio.** El equipo escribe primero el supuesto asociado a **ingreso nuevo** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **precisión por componente** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Declarar los supuestos de cada uno.** El trabajo aquí es separar lo observado de lo inferido sobre **renovación**. La evidencia que ordena la discusión es **ingreso neto proyectado**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Limitar cierres por cobertura de pipeline, capacidad y rampa comercial.** El trabajo aquí es separar lo observado de lo inferido sobre **renovación**. La evidencia que ordena la discusión es **ingreso neto proyectado**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Consolidar la proyección de ingreso neto.** El riesgo de este paso es cerrar demasiado rápido alrededor de **expansión y contracción**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura de renovaciones** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Proyectar ingreso nuevo, renovación, expansión, contracción y churn por separado.** El riesgo de este paso es cerrar demasiado rápido alrededor de **expansión y contracción**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura de renovaciones** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Medir la precisión por componente.** Con **precisión por componente** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **precisión por componente** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Contrastar CAC, LTV y sensibilidad y consolidar el ingreso neto como rango.** Con **precisión por componente** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **precisión por componente** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Corregir los supuestos con el sesgo observado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **ingreso nuevo**. **ingreso neto proyectado** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Medir precisión por componente y corregir supuestos con el sesgo observado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **ingreso nuevo**. **ingreso neto proyectado** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **modelar cada componente por separado → declarar los supuestos de cada uno → consolidar la proyección de ingreso neto → medir la precisión por componente → corregir los supuestos con el sesgo observado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio → limitar cierres por cobertura de pipeline, capacidad y rampa comercial → proyectar ingreso nuevo, renovación, expansión, contracción y churn por separado → contrastar CAC, LTV y sensibilidad y consolidar el ingreso neto como rango → medir precisión por componente y corregir supuestos con el sesgo observado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **precisión por componente**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *Customer Success* y la de *Revenue Operations*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **ingreso nuevo** y **renovación** como sinónimos | Se perdió la distinción entre «ingreso incorporado por clientes que no existían al inicio del periodo» y «ingreso conservado de clientes existentes al vencer su contrato» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «corregir los supuestos con el sesgo observado» | Se saltó «modelar cada componente por separado»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «medir precisión por componente y corregir supuestos con el sesgo observado» | Se saltó «modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **precisión por componente** | La métrica local reemplazó al resultado del sistema | Contrástala con **cobertura de renovaciones** y explicita el costo de oportunidad. |
 | Proyectar renovaciones con un porcentaje fijo | Error específico de esta clase | Modela renovación por cohorte y segmento, y mide su precisión cada trimestre. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
@@ -214,7 +214,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 
 1. Explica la diferencia entre **ingreso nuevo** y **renovación** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **expansión y contracción** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «modelar cada componente por separado» al caso de la clase. ¿Qué dato sigue faltando?
+3. Aplica «modelar demanda, conversiones, ticket o frecuencia y ciclo según el negocio» al caso de la clase. ¿Qué dato sigue faltando?
 4. ¿Por qué **precisión por componente** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
 6. ¿Qué decisión equivocada se produciría si se ignora este límite: «La proyección de renovaciones requiere cohortes maduras. En empresas jóvenes el error es alto y debe declararse como rango»?
@@ -255,7 +255,7 @@ Guarda en `evidence/P17-C11-forecast-unificado/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad**.
+Este entregable alimenta el artefacto de la parte: **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad**.
 
 ## ✅ Evaluación de la clase
 

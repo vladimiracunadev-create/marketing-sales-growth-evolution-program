@@ -1,4 +1,4 @@
-# Clase 24.11 — Dashboard financiero-comercial
+# Clase 24.11 — Commercial Evidence Pack y dashboard comercial
 
 Clase 11 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.md), de nivel Dirección y Capstone. Dura unos 150 minutos.
 
@@ -6,7 +6,7 @@ Clase 11 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.
 
 Vienes de la clase 24.10, *Customer Success del Capstone*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
-Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de cifras trazables con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
+Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de cobertura del paquete de evidencia con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
 
 Calcula 150 minutos de trabajo dirigido más una hora de lectura selectiva. Sabrás que terminaste cuando exista el entregable y puedas responder las seis preguntas de comprobación sin volver al texto; si tienes el entregable pero no las respuestas, lo que produjiste es un documento, no un criterio.
 
@@ -16,22 +16,22 @@ Lee el propósito y la agenda antes que el desarrollo. La agenda dice qué debe 
 
 ## 🎯 Propósito
 
-El Capstone debe entregar un tablero que conecte la operación comercial con la economía del negocio: ingreso, margen de contribución, costo de adquisición, periodo de recuperación, retención y proyección. Se evalúa la trazabilidad de cada cifra y la coherencia aritmética del conjunto, no la sofisticación visual.
+El Capstone debe entregar un Commercial Evidence Pack que conecte mercado, cliente, competencia, propuesta, precio, adquisición, conversiones y forecast con supuestos, evidencias e incertidumbres. El dashboard comercial resume ingreso, margen, CAC, payback, retención y proyección para alimentar una proyección financiera posterior; no intenta sustituirla. Se evalúan trazabilidad y coherencia, no sofisticación visual ni certeza inventada.
 
-El material se ordena alrededor de una pregunta que un comité comercial haría en voz alta. La parte 24 busca **integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **dashboard financiero-comercial** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
+El material se ordena alrededor de una pregunta que un comité comercial haría en voz alta. La parte 24 busca **integrar todo el programa en una operación comercial defendible y conforme a la normativa chilena**; en esta clase esa progresión se concreta exigiendo que toda afirmación sobre **commercial Evidence Pack y dashboard comercial** termine en una definición operacional, una señal observable, una decisión y una condición de revisión.
 
 > **Pregunta rectora de la parte:** ¿Esta operación resiste una revisión comercial, financiera, legal y ética al mismo tiempo?
 
-Los conceptos que estructuran la sesión son **trazabilidad de la cifra**, **coherencia aritmética**, **proyección con supuestos** y **indicador de alerta**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **trazabilidad de la cifra**, **coherencia aritmética**, **proyección con supuestos** y **paquete de evidencia comercial**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `trazabilidad de la cifra`, `coherencia aritmética`, `proyección con supuestos` y `indicador de alerta` por sus observables y no por su definición memorizada.
+1. **Distinguir** `trazabilidad de la cifra`, `coherencia aritmética`, `proyección con supuestos` y `paquete de evidencia comercial` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Empresa real, regulación y Capstone**.
-3. **Aplicar** la secuencia **definir los indicadores y su cálculo → construir el tablero con datos del proyecto → verificar la coherencia aritmética del conjunto → declarar los supuestos de la proyección → definir umbrales de alerta y sus acciones** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **cifras trazables**, **coherencia aritmética verificada** y **indicadores con umbral** indicando numerador, denominador, ventana, fuente y uso permitido.
+3. **Aplicar** la secuencia **consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable → conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial → registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre → verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso → publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión** conservando supuestos, alternativas descartadas y trazabilidad.
+4. **Operacionalizar** **cobertura del paquete de evidencia**, **coherencia aritmética verificada** y **confianza del forecast** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -41,7 +41,7 @@ Al terminar esta clase serás capaz de:
 |---|---|---|
 | 0–15 min | Recuperación | Define **trazabilidad de la cifra** y **coherencia aritmética** sin mirar el material; corrige después con la tabla de conceptos. |
 | 15–45 min | Núcleo conceptual | Lectura del desarrollo y construcción de la tabla `hecho / inferencia / supuesto`. |
-| 45–75 min | Medición | Ficha de la señal **cifras trazables**: fórmula, fuente, ventana y lectura prohibida. |
+| 45–75 min | Medición | Ficha de la señal **cobertura del paquete de evidencia**: fórmula, fuente, ventana y lectura prohibida. |
 | 75–110 min | Ejemplo trabajado | Recorrido de los 5 pasos del método sobre el caso de la clase. |
 | 110–140 min | Caso ejecutivo | Dos alternativas, trade-offs, recomendación y señal de detención. |
 | 140–150 min | Cierre | Entregable, preguntas de comprobación y registro de lo que aún no sabes. |
@@ -53,19 +53,19 @@ Al terminar esta clase serás capaz de:
 | **trazabilidad de la cifra** | posibilidad de reconstruir el cálculo desde sus componentes | Da un hecho compatible con la definición y otro que la refute. |
 | **coherencia aritmética** | consistencia entre los indicadores del tablero | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **proyección con supuestos** | estimación futura acompañada de las condiciones que la sostienen | Construye un caso límite donde el concepto se confunde con el anterior. |
-| **indicador de alerta** | métrica con umbral definido que gatilla una acción | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **paquete de evidencia comercial** | índice ejecutivo que conecta decisiones comerciales con evidencia, supuestos e incertidumbres | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. definir los indicadores y su cálculo → 2. construir el tablero con datos del proyecto → 3. verificar la coherencia aritmética del conjunto → 4. declarar los supuestos de la proyección → 5. definir umbrales de alerta y sus acciones
+1. consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable → 2. conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial → 3. registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre → 4. verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso → 5. publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 
-**Frontera de aplicación.** Un tablero con datos simulados demuestra diseño, no desempeño. Debe declararse el origen de cada serie utilizada.
+**Frontera de aplicación.** El paquete comercial alimenta una proyección financiera posterior, pero no modela estados financieros ni reemplaza ese trabajo. Con datos simulados demuestra diseño, no desempeño; debe declararse el origen y la incertidumbre de cada serie.
 
 ## 📖 Desarrollo
 
@@ -73,9 +73,9 @@ La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y prod
 
 **Trazabilidad de la cifra** se entiende aquí como **posibilidad de reconstruir el cálculo desde sus componentes**.
 
-El tablero financiero-comercial del Capstone integra las decisiones anteriores en cifras que deben cerrar entre sí. Su primera exigencia es aritmética: los totales deben reconstruirse desde sus componentes. Un tablero que no cierra indica que alguna definición no es consistente.
+El Commercial Evidence Pack es el índice que conecta las decisiones construidas durante el programa. Sus diez bloques son mercado, cliente, competencia, propuesta, precio, adquisición, conversiones, forecast, supuestos y un registro conjunto de evidencias e incertidumbres. Cada conclusión ejecutiva enlaza al cálculo, entrevista, observación o fuente que la sostiene; el paquete no duplica los anexos.
 
-**De dónde viene esta afirmación.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta la idea que sostiene este bloque: las cuatro perspectivas: financiera, cliente, procesos y aprendizaje. Búscala en los capítulos que presentan el cuadro de mando. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «cifras trazables» debería moverse cuando cambie **trazabilidad de la cifra**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
+**De dónde viene esta afirmación.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta la idea que sostiene este bloque: las cuatro perspectivas: financiera, cliente, procesos y aprendizaje. Búscala en los capítulos que presentan el cuadro de mando. Aplicada a esta clase, esa idea predice algo verificable: si es correcta, «cobertura del paquete de evidencia» debería moverse cuando cambie **trazabilidad de la cifra**, y no debería moverse cuando cambie el resto. Ese es el contraste que tienes que montar antes de recomendar nada.
 
 Relaciona el mecanismo con **coherencia aritmética**. Si ambos se mueven juntos no concluyas causalidad: nombra una tercera variable capaz de explicar el mismo patrón. El resultado de este bloque debe ser una hipótesis refutable, no una recomendación anticipada.
 
@@ -83,45 +83,45 @@ Relaciona el mecanismo con **coherencia aritmética**. Si ambos se mueven juntos
 
 **Definición operacional:** consistencia entre los indicadores del tablero. Su valor está en distinguirlo de **trazabilidad de la cifra**.
 
-La trazabilidad de cada cifra es el requisito central: de dónde sale, con qué definición y con qué periodo. Un número sin trazabilidad es indefendible en la presentación final, y esa es exactamente la situación que el ejercicio busca evitar mediante la disciplina previa.
+La taxonomía evita mezclar niveles: dato es una observación trazable, estimación es un cálculo con método y rango, hipótesis es una apuesta pendiente de prueba e inferencia es la interpretación de la evidencia. Cada fila declara origen, fecha, responsable, vigencia e incertidumbre. Una celda vacía se conserva como brecha con acción siguiente, en vez de rellenarse para que la presentación parezca completa.
 
 **Contraste bibliográfico.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta aquí una distinción concreta: la línea trazada de antemano: qué valor haría considerar exitoso el experimento (los capítulos sobre definir el éxito). Formula dos mini-casos: uno que satisface la definición de **coherencia aritmética** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «construir el tablero con datos del proyecto», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Proyección con supuestos: operacionalización y medición
 
 **Proyección con supuestos** significa **estimación futura acompañada de las condiciones que la sostienen**.
 
-La proyección con supuestos declarados debe distinguir lo observado de lo estimado. Presentar juntas cifras reales y proyectadas sin distinguirlas produce un documento engañoso aunque no haya intención. Marcar visualmente esa diferencia es una convención simple y necesaria.
+La sección de cliente conserva la cadena desde segmento e ICP hasta entrevistas, JTBD, pains y gains, propuesta, mensaje, oferta, canal y venta. La de mercado resume la inteligencia comercial de una o dos páginas; la competitiva usa la matriz reproducible. Así puede verse si el ticket proyectado proviene de precio observado, prueba de disposición a pagar o una hipótesis aún no validada.
 
-Ficha de medición obligatoria para **cifras trazables**: `indicadores con cálculo documentado, sobre indicadores del tablero`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
+Ficha de medición obligatoria para **cobertura del paquete de evidencia**: `secciones obligatorias con evidencia, supuesto e incertidumbre declarados, sobre secciones requeridas`. Registra además fuente del dato, frecuencia, responsable, interpretación permitida e interpretación prohibida. Si no existe un dato confiable, la salida correcta no es inventar precisión: es diseñar el mecanismo de captura y declarar la incertidumbre.
 
 **Control de lectura.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) pone una condición sobre la medición: la evaluación contra una línea base y no contra la nada (los capítulos sobre evaluación de modelos). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
-### 4. Indicador de alerta: trade-offs y efectos de segundo orden
+### 4. Paquete de evidencia comercial: trade-offs y efectos de segundo orden
 
-**Definición:** métrica con umbral definido que gatilla una acción.
+**Definición:** índice ejecutivo que conecta decisiones comerciales con evidencia, supuestos e incertidumbres.
 
-Un tablero completo demuestra dominio y puede volverse ilegible; uno mínimo se entiende y omite. Para el Capstone, la prioridad es que cada indicador presente tenga una decisión asociada, y que la cantidad permita una lectura en pocos minutos durante la defensa.
+El forecast conecta unidades, conversiones, ticket o frecuencia, retención y churn con cobertura de pipeline y capacidad. Después verifica coherencia con CAC, LTV, margen y payback. Estas relaciones preparan insumos para una proyección financiera posterior, pero no modelan caja, balance ni estados financieros: ese alcance pertenece a otro programa y debe permanecer fuera de este artefacto.
 
-**Lo que aporta la fuente.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta el criterio para pesar el intercambio: la prueba del «¿y entonces qué?» aplicada tres veces a cada informe (los capítulos sobre informes accionables). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **indicadores con umbral** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Avinash Kaushik — *Web Analytics 2.0* (2009) aporta el criterio para pesar el intercambio: la prueba del «¿y entonces qué?» aplicada tres veces a cada informe (los capítulos sobre informes accionables). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **confianza del forecast** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
-Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **indicador de alerta** y otro de un supuesto del caso que nunca fue validado.
+Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **paquete de evidencia comercial** y otro de un supuesto del caso que nunca fue validado.
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «definir umbrales de alerta y sus acciones», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-El indicador presentado debe ser el que se usó para decidir durante el proyecto y no uno construido para la entrega. Esa diferencia se detecta en la defensa: quien construyó el tablero al final no puede explicar qué decisión tomó con él, y esa incapacidad revela que la gestión fue por intuición.
+La defensa usa el paquete que gobernó decisiones durante el proyecto, no uno reconstruido al final. El resumen muestra recomendación, confianza y tres incertidumbres decisivas; los anexos permiten auditar. Cuando llega evidencia nueva, se actualiza la fila afectada, la proyección dependiente y la condición de revisión, dejando visible qué cambió y por qué.
 
-**Frontera declarada.** Un tablero con datos simulados demuestra diseño, no desempeño. Debe declararse el origen de cada serie utilizada. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
+**Frontera declarada.** El paquete comercial alimenta una proyección financiera posterior, pero no modela estados financieros ni reemplaza ese trabajo. Con datos simulados demuestra diseño, no desempeño; debe declararse el origen y la incertidumbre de cada serie. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Presentar un plan atractivo que no cumple la Ley 19.496, la Ley 21.719 o las reglas de libre competencia.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
 ### 6. Integración: de conceptos a una decisión defendible
 
-Sintetizar dashboard financiero-comercial no consiste en sumar definiciones. Empieza por **trazabilidad de la cifra**, contrasta **coherencia aritmética** con **proyección con supuestos**, incorpora **indicador de alerta** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
+Sintetizar commercial Evidence Pack y dashboard comercial no consiste en sumar definiciones. Empieza por **trazabilidad de la cifra**, contrasta **coherencia aritmética** con **proyección con supuestos**, incorpora **paquete de evidencia comercial** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Si el análisis no puede nombrar qué pieza sostiene la recomendación, todavía no hay comprensión transferible.
 
@@ -134,7 +134,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | Las cuatro perspectivas: financiera, cliente, procesos y aprendizaje | Los capítulos que presentan el cuadro de mando | ¿Qué debería observarse en **trazabilidad de la cifra** si aquí opera «las cuatro perspectivas: financiera, cliente, procesos y aprendizaje»? ¿Y qué observación lo desmentiría en este caso? |
 | Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) | La línea trazada de antemano: qué valor haría considerar exitoso el experimento | Los capítulos sobre definir el éxito | ¿Qué debería observarse en **coherencia aritmética** si aquí opera «la línea trazada de antemano: qué valor haría considerar exitoso el experimento»? ¿Y qué observación lo desmentiría en este caso? |
 | Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | La evaluación contra una línea base y no contra la nada | Los capítulos sobre evaluación de modelos | ¿Qué debería observarse en **proyección con supuestos** si aquí opera «la evaluación contra una línea base y no contra la nada»? ¿Y qué observación lo desmentiría en este caso? |
-| Avinash Kaushik — *Web Analytics 2.0* (2009) | La prueba del «¿y entonces qué?» aplicada tres veces a cada informe | Los capítulos sobre informes accionables | ¿Qué debería observarse en **indicador de alerta** si aquí opera «la prueba del «¿y entonces qué?» aplicada tres veces a cada informe»? ¿Y qué observación lo desmentiría en este caso? |
+| Avinash Kaushik — *Web Analytics 2.0* (2009) | La prueba del «¿y entonces qué?» aplicada tres veces a cada informe | Los capítulos sobre informes accionables | ¿Qué debería observarse en **paquete de evidencia comercial** si aquí opera «la prueba del «¿y entonces qué?» aplicada tres veces a cada informe»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -142,17 +142,17 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 ## 🧮 Ejemplo trabajado
 
-**Situación.** El Capstone exige un tablero donde el ingreso proyectado, el costo de adquisición y la retención sean aritméticamente consistentes entre sí.
+**Situación.** El Capstone exige un paquete donde la oportunidad de mercado, el cliente elegido, el precio, las conversiones, la capacidad, el ingreso proyectado, CAC y retención sean trazables y consistentes.
 
-**Paso 1 — Definir los indicadores y su cálculo.** El equipo escribe primero el supuesto asociado a **trazabilidad de la cifra** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **cifras trazables** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 1 — Consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable.** El equipo escribe primero el supuesto asociado a **trazabilidad de la cifra** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **cobertura del paquete de evidencia** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Construir el tablero con datos del proyecto.** El trabajo aquí es separar lo observado de lo inferido sobre **coherencia aritmética**. La evidencia que ordena la discusión es **coherencia aritmética verificada**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial.** El trabajo aquí es separar lo observado de lo inferido sobre **coherencia aritmética**. La evidencia que ordena la discusión es **coherencia aritmética verificada**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Verificar la coherencia aritmética del conjunto.** El riesgo de este paso es cerrar demasiado rápido alrededor de **proyección con supuestos**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **indicadores con umbral** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre.** El riesgo de este paso es cerrar demasiado rápido alrededor de **proyección con supuestos**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **confianza del forecast** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Declarar los supuestos de la proyección.** Con **indicador de alerta** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **cifras trazables** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso.** Con **paquete de evidencia comercial** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **cobertura del paquete de evidencia** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Definir umbrales de alerta y sus acciones.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **trazabilidad de la cifra**. **coherencia aritmética verificada** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **trazabilidad de la cifra**. **coherencia aritmética verificada** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -160,16 +160,16 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 | Camino | Qué privilegia | Cuándo elegirlo | Riesgo principal |
 |---|---|---|---|
-| Actuar sobre **trazabilidad de la cifra** | Posibilidad de reconstruir el cálculo desde sus componentes | Cuando **cifras trazables** es observable y accionable en el plazo de la decisión. | Sobrerreaccionar a una señal parcial. |
+| Actuar sobre **trazabilidad de la cifra** | Posibilidad de reconstruir el cálculo desde sus componentes | Cuando **cobertura del paquete de evidencia** es observable y accionable en el plazo de la decisión. | Sobrerreaccionar a una señal parcial. |
 | Actuar sobre **coherencia aritmética** | Consistencia entre los indicadores del tablero | Cuando la primera explicación no distingue mecanismo ni responsable. | Convertir el concepto en etiqueta y no en intervención. |
 | Experimentar antes de decidir | Aprender antes de comprometer recursos mayores | Cuando la decisión es reversible y la incertidumbre es alta. | Experimentar indefinidamente y no decidir. |
 | Escalar la decisión | Elevar autoridad, especialidad o control legal | Cuando hay compromisos contractuales, datos personales, regulación o irreversibilidad. | Delegar hacia arriba lo que sí correspondía decidir. |
 
-**Frontera de aplicación.** Un tablero con datos simulados demuestra diseño, no desempeño. Debe declararse el origen de cada serie utilizada.
+**Frontera de aplicación.** El paquete comercial alimenta una proyección financiera posterior, pero no modela estados financieros ni reemplaza ese trabajo. Con datos simulados demuestra diseño, no desempeño; debe declararse el origen y la incertidumbre de cada serie.
 
 ## 🪜 El mismo tema según el rol
 
-| Nivel | Responsabilidad sobre dashboard financiero-comercial |
+| Nivel | Responsabilidad sobre commercial Evidence Pack y dashboard comercial |
 |---|---|
 | **Analista / especialista** | Produce la evidencia, documenta el método y declara los límites del dato. |
 | **Jefatura de equipo** | Convierte el análisis en prioridad, carga de trabajo y criterio compartido. |
@@ -181,7 +181,7 @@ Al subir de nivel aumentan las personas, el dinero y las consecuencias que queda
 
 ## 🏢 Caso ejecutivo
 
-El Capstone exige un tablero donde el ingreso proyectado, el costo de adquisición y la retención sean aritméticamente consistentes entre sí.
+El Capstone exige un paquete donde la oportunidad de mercado, el cliente elegido, el precio, las conversiones, la capacidad, el ingreso proyectado, CAC y retención sean trazables y consistentes.
 
 Entrega un **decision brief** que contenga: (a) hechos y fuentes; (b) hipótesis; (c) dos opciones realmente defendibles; (d) efecto sobre cliente, operación, caja y riesgo; (e) recomendación; (f) la condición que la haría cambiar; (g) responsable y fecha de revisión. Usa al menos **dos** fuentes de la lectura comparada para desafiar tu primera respuesta.
 
@@ -192,8 +192,8 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **definir los indicadores y su cálculo → construir el tablero con datos del proyecto → verificar la coherencia aritmética del conjunto → declarar los supuestos de la proyección → definir umbrales de alerta y sus acciones** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
-| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **cifras trazables**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable → conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial → registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre → verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso → publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 3 | **Operacionalizar la señal** | Construye la ficha de medición de **cobertura del paquete de evidencia**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Balanced Scorecard* y la de *Lean Analytics*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
 | 6 | **Subir de nivel** | Rehaz la decisión desde la dirección comercial: qué cambia al aumentar alcance, dinero e irreversibilidad. | El brief completo | El brief indica qué parte de la decisión ya no corresponde al analista y a quién pasa. |
@@ -205,19 +205,19 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **trazabilidad de la cifra** y **coherencia aritmética** como sinónimos | Se perdió la distinción entre «posibilidad de reconstruir el cálculo desde sus componentes» y «consistencia entre los indicadores del tablero» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «definir umbrales de alerta y sus acciones» | Se saltó «definir los indicadores y su cálculo»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **cifras trazables** | La métrica local reemplazó al resultado del sistema | Contrástala con **indicadores con umbral** y explicita el costo de oportunidad. |
-| Presentar indicadores sin verificar su coherencia entre sí | Error específico de esta clase | Comprueba que las relaciones aritméticas entre indicadores cuadren antes de presentar. |
+| Empezar por «publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión» | Se saltó «consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Optimizar sólo **cobertura del paquete de evidencia** | La métrica local reemplazó al resultado del sistema | Contrástala con **confianza del forecast** y explicita el costo de oportunidad. |
+| Presentar el paquete como si todas sus cifras fueran hechos | Error específico de esta clase | Etiqueta dato, estimación, hipótesis o inferencia y comprueba la coherencia antes de presentar. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
 ## ❓ Preguntas de comprobación
 
 1. Explica la diferencia entre **trazabilidad de la cifra** y **coherencia aritmética** con un ejemplo donde elegir mal cambie la decisión.
 2. ¿Qué observarías para validar **proyección con supuestos** y qué observación te obligaría a rechazar tu interpretación?
-3. Aplica «definir los indicadores y su cálculo» al caso de la clase. ¿Qué dato sigue faltando?
-4. ¿Por qué **cifras trazables** no basta por sí sola para atribuir causalidad?
+3. Aplica «consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable» al caso de la clase. ¿Qué dato sigue faltando?
+4. ¿Por qué **cobertura del paquete de evidencia** no basta por sí sola para atribuir causalidad?
 5. Compara dos fuentes de la lectura comparada: ¿dónde llevarían a recomendaciones distintas?
-6. ¿Qué decisión equivocada se produciría si se ignora este límite: «Un tablero con datos simulados demuestra diseño, no desempeño. Debe declararse el origen de cada serie utilizada»?
+6. ¿Qué decisión equivocada se produciría si se ignora este límite: «El paquete comercial alimenta una proyección financiera posterior, pero no modela estados financieros ni reemplaza ese trabajo. Con datos simulados demuestra diseño, no desempeño; debe declararse el origen y la incertidumbre de cada serie»?
 
 ## 🗝️ Respuestas orientadoras
 
@@ -228,7 +228,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 1 | Nombra un caso real donde la clasificación cambie la intervención, no sólo la etiqueta. Si el ejemplo funciona igual con los dos conceptos intercambiados, la distinción todavía no está entendida. |
 | 2 | Dos observaciones concretas: una que confirmaría **proyección con supuestos** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
-| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **cifras trazables**. |
+| 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **cobertura del paquete de evidencia**. |
 | 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *The Balanced Scorecard* y *Web Analytics 2.0*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
@@ -251,11 +251,11 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P24-C11-dashboard-financiero-comercial/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **cifras trazables**, **coherencia aritmética verificada** y **indicadores con umbral** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **cobertura del paquete de evidencia**, **coherencia aritmética verificada** y **confianza del forecast** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Este entregable alimenta el artefacto de la parte: **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ## ✅ Evaluación de la clase
 

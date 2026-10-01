@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Integrar los artefactos de ambas partes en un entregable único y coherente: **mapa del sistema comercial con supuestos, métricas y puntos de fuga** y **expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
+Integrar los artefactos de ambas partes en un entregable único y coherente: **mapa del sistema comercial con supuestos, métricas y puntos de fuga** y **expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
 
 ## Contexto
 
@@ -15,7 +15,7 @@ Este proyecto se construye sobre el estado acumulado de la simulación: las deci
 ## Entregables
 
 1. Artefacto de la parte 01: mapa del sistema comercial con supuestos, métricas y puntos de fuga.
-2. Artefacto de la parte 02: expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas.
+2. Artefacto de la parte 02: expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta.
 3. Documento de integración que responda: ¿qué decisión de la parte 01 restringe lo posible en la parte 02?
 4. Registro de supuestos con nivel de evidencia y plan de validación.
 5. Actualización del estado de la simulación en `simulations/state/`.

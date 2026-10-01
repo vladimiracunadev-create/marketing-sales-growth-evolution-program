@@ -6,7 +6,7 @@ Son 14 clases, alrededor de 35 horas de estudio dirigido, y todas empujan hacia 
 
 > **¿Quién decide, quién usa, quién paga y qué progreso intenta lograr cada uno?**
 
-Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas— y no con una opinión.
+Esa pregunta no es retórica: al final de la parte tienes que poder responderla con un artefacto en la mano —expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta— y no con una opinión.
 
 ## Sobre qué caso vas a trabajar
 
@@ -41,7 +41,7 @@ Las clases van en orden y cada una supone la anterior. Esta es la secuencia y lo
 
 ## Dónde se practica y cómo se evalúa
 
-Leer la parte no la acredita. Los [laboratorios](../../labs/part-02/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-02-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **expediente de cliente con ICP, unidad de decisión, journey y fricciones priorizadas**.
+Leer la parte no la acredita. Los [laboratorios](../../labs/part-02/) te hacen ejecutar el método sobre el caso; la [evaluación de la parte](../../assessments/part-02-assessment.md) comprueba que puedes sostener las decisiones sin el material delante; el [caso extendido](../../cases/) exige integrar lo aprendido en una recomendación completa, y en [`templates/`](../../templates/) están los formatos que se usan para producir el artefacto. El resultado que va a tu portafolio es **expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta**.
 
 ## Qué puede salir mal
 

@@ -93,7 +93,7 @@ Estos son los entregables que conviene llevar a una postulación. No describen r
 - [ ] Expediente de cliente con evidencia de compromiso costoso
 - [ ] Oferta lista para vender con precio fundamentado
 - [ ] Economía unitaria con periodo de recuperación y sensibilidad
-- [ ] Capstone con la operación completa y cumplimiento verificado
+- [ ] Commercial Evidence Pack del Capstone con cumplimiento verificado
 
 ## 🎓 Credenciales y señales de mercado
 

@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Integrar los artefactos de ambas partes en un entregable único y coherente: **operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad** y **sistema de retención y expansión con onboarding, health score, renovación y advocacy**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
+Integrar los artefactos de ambas partes en un entregable único y coherente: **operating model de RevOps con funnel adaptable, forecast unificado y observabilidad** y **sistema de retención y expansión con onboarding, health score, renovación y advocacy**, conectados de modo que las decisiones de la primera condicionen explícitamente a la segunda.
 
 ## Contexto
 
@@ -14,7 +14,7 @@ Este proyecto se construye sobre el estado acumulado de la simulación: las deci
 
 ## Entregables
 
-1. Artefacto de la parte 17: operating model de RevOps con lifecycle, scoring, SLA, integraciones y observabilidad.
+1. Artefacto de la parte 17: operating model de RevOps con funnel adaptable, forecast unificado y observabilidad.
 2. Artefacto de la parte 18: sistema de retención y expansión con onboarding, health score, renovación y advocacy.
 3. Documento de integración que responda: ¿qué decisión de la parte 17 restringe lo posible en la parte 18?
 4. Registro de supuestos con nivel de evidencia y plan de validación.

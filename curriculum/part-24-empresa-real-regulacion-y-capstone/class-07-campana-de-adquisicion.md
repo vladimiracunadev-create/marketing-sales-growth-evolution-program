@@ -255,7 +255,7 @@ Guarda en `evidence/P24-C07-campana-de-adquisicion/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Este entregable alimenta el artefacto de la parte: **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ## ✅ Evaluación de la clase
 

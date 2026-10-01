@@ -243,11 +243,11 @@ DESARROLLO = {
     ],
 
     "09": [
-        "El benchmarking útil compara capacidades y resultados, no catálogos. Listar funcionalidades de "
-        "competidores produce una tabla que envejece en un mes y que ningún cliente pidió; comparar cómo "
-        "resuelve cada uno el trabajo del cliente, con qué costo y con qué evidencia, produce una decisión. "
-        "La diferencia está en la unidad de comparación: atributos del producto frente a resultados del "
-        "cliente.",
+        "El benchmarking útil empieza con un protocolo que otra persona pueda repetir: alternativas incluidas, "
+        "fecha de corte, segmento observado y criterio común. La matriz compara propuesta, segmento, "
+        "posicionamiento, precio, packaging, canal y experiencia. Cambiar el criterio para cada competidor hace "
+        "la tabla más vistosa y menos comparable; dejar una celda como «no observable» es más riguroso que "
+        "rellenarla con la impresión del equipo.",
 
         "La tabla de entrada reúne los atributos sin los cuales no te consideran, y el punto de diferencia es "
         "aquello por lo que te eligen entre los que sí consideran. Confundirlos lleva a invertir en "
@@ -255,16 +255,17 @@ DESARROLLO = {
         "diferencia compensa. La verificación es preguntar a clientes perdidos qué los dejó fuera de la lista "
         "corta.",
 
-        "La brecha de desempeño se mide contra un estándar declarado y no contra la impresión general. Para "
-        "cada atributo comparado se registra la fuente —prueba propia, documentación pública, testimonio de "
-        "cliente— y su fecha. Cuando la fuente es «lo que dice el equipo comercial», hay que anotarlo así, "
-        "porque esa información suele estar filtrada por las oportunidades perdidas más recientes.",
+        "La brecha de desempeño se mide contra un estándar declarado y no contra la impresión general. Cada "
+        "celda enlaza a una prueba propia, documentación pública, precio observable o testimonio registrado, "
+        "con fecha y contexto. Fortaleza y debilidad son conclusiones comparativas, no adjetivos: se sostienen "
+        "sólo cuando la evidencia muestra una diferencia relevante para el cliente. La causa propuesta de esa "
+        "diferencia se conserva aparte como inferencia.",
 
-        "Cerrar una brecha frente al competidor consume roadmap que podría destinarse a profundizar una "
-        "ventaja propia. Igualar es defensivo y suele ser necesario en atributos de la tabla de entrada; "
-        "profundizar es ofensivo y sostiene el margen. La decisión exige estimar cuánto cuesta cada cierre y "
-        "qué proporción de negocios se pierde hoy por esa causa, dato que casi siempre existe en el CRM y "
-        "casi nunca se consulta.",
+        "Cerrar una brecha frente al competidor consume roadmap que podría destinarse a profundizar una ventaja "
+        "propia. Igualar es defensivo y suele ser necesario en atributos de tabla de entrada; profundizar es "
+        "ofensivo y sostiene el margen. La decisión combina costo estimado de paridad con razones documentadas "
+        "de compra y pérdida. Una puntuación subjetiva sin caso, fuente o escala no cuenta como benchmark y no "
+        "debe gobernar inversión.",
 
         "El benchmarking describe el presente del competidor y no su intención. Un rival puede estar a punto "
         "de abandonar una línea o de duplicar la apuesta, y ninguna comparación de atributos lo revela. Por "
@@ -273,11 +274,11 @@ DESARROLLO = {
     ],
 
     "10": [
-        "Analizar a un competidor por su catálogo es quedarse en la superficie. Michael Porter propuso mirar "
-        "cuatro cosas que sí predicen conducta: sus objetivos declarados, los supuestos que tiene sobre el "
-        "mercado, su estrategia actual y sus capacidades reales. Un competidor que cree que el mercado se "
-        "consolidará actuará de forma distinta a uno que cree que se fragmentará, aunque hoy ofrezcan lo "
-        "mismo.",
+        "Analizar la competencia empieza por delimitar la categoría y termina más allá de los proveedores "
+        "parecidos. La muestra incluye competidores directos, sustitutos funcionales y la alternativa de no "
+        "hacer nada, porque todos disputan la misma decisión. Michael Porter propuso mirar objetivos, supuestos, "
+        "estrategia actual y capacidades reales: dos empresas con catálogos parecidos pueden responder de forma "
+        "opuesta ante el mismo movimiento.",
 
         "La restricción del competidor es lo que no puede hacer aunque quiera, y es el dato más accionable "
         "del análisis. Una empresa con arquitectura antigua no puede bajar su costo de servir; una con "
@@ -285,22 +286,22 @@ DESARROLLO = {
         "restricciones permite elegir terreno: se compite donde el otro está impedido de responder, no donde "
         "es simplemente peor.",
 
-        "El movimiento probable se estima con evidencia observable y con fecha: publicaciones de empleo, "
-        "cambios de precio, presencia en eventos sectoriales, movimientos de personal clave. La ficha "
-        "registra la señal, su fuente pública, la fecha y la interpretación propuesta, separando el hecho de "
-        "la lectura. Esa separación es lo que permite revisar después si la interpretación fue correcta y "
-        "calibrar al equipo.",
+        "El registro separa cuatro niveles. Dato es una observación trazable; estimación es un cálculo con "
+        "método y rango; hipótesis es una afirmación pendiente de prueba; inferencia es la explicación derivada "
+        "de uno o más datos. Una publicación de empleo es dato, la inversión probable es inferencia y el efecto "
+        "sobre precio es hipótesis. Conservar esa separación permite revisar después dónde falló el juicio sin "
+        "reescribir retrospectivamente la evidencia.",
 
         "Vigilar de cerca al competidor mejora la anticipación y arrastra la agenda propia hacia la suya. Los "
         "equipos que revisan semanalmente los movimientos del rival terminan construyendo lo que el rival "
         "construye. La disciplina consiste en fijar una frecuencia acotada de revisión y una regla explícita "
         "sobre qué tipo de movimiento ajeno justifica cambiar el plan propio.",
 
-        "El análisis competitivo trabaja con información pública y con inferencia. Recolectar información por "
-        "medios no legítimos —hacerse pasar por cliente para acceder a condiciones confidenciales, contactar "
-        "personal para obtener datos reservados— además de ser un riesgo legal, corrompe la calidad del "
-        "análisis, porque nadie puede citar la fuente. La regla del programa es que toda fuente debe ser "
-        "citable.",
+        "El análisis competitivo trabaja con información pública, experiencia observable y testimonio obtenido "
+        "de forma legítima. Recolectar datos confidenciales mediante engaño es un riesgo legal y corrompe la "
+        "auditabilidad. La regla es que toda fuente sea citable y que la ausencia de información permanezca "
+        "visible. Una debilidad que el equipo no puede observar se registra como hipótesis, no como acusación ni "
+        "como hecho útil para posicionamiento.",
     ],
 
     "11": [
@@ -389,29 +390,30 @@ DESARROLLO = {
     ],
 
     "14": [
-        "Un informe de oportunidad no es un compendio de lo investigado: es un documento construido para que "
-        "alguien decida. Su estructura sigue a la decisión —qué se pregunta, qué se encontró, qué se "
-        "recomienda, bajo qué condiciones— y no al cronograma del proyecto. La prueba de que está bien "
-        "escrito es que quien lo lea sepa qué se espera de él en la primera página.",
+        "El informe de oportunidad evoluciona a una pieza de inteligencia comercial de una o dos páginas. Abre "
+        "con decisión, recomendación condicionada y fecha de corte; después muestra mercado, categoría y "
+        "segmentos, y deja claro qué señal de demanda justifica actuar. La síntesis ejecutiva no reemplaza el "
+        "detalle: cada cifra y afirmación enlaza al anexo donde un tercero puede reconstruirla.",
 
-        "La declaración de método es el apartado que da o quita credibilidad a todo lo demás. Debe indicar "
-        "qué se hizo, con quién, cuándo y con qué limitaciones conocidas. Un informe que oculta su método "
-        "obliga al lector a confiar; uno que lo declara le permite ponderar. Y declarar las limitaciones no "
-        "debilita el documento: es lo que permite defenderlo cuando alguien las descubra.",
+        "La sección de estructura del mercado incluye competidores directos, sustitutos y no hacer nada; "
+        "tendencias con horizonte; benchmarks comparables; canales disponibles y precios observables. Una cuota "
+        "de mercado sólo aparece si población, periodo, unidad y fuente son confiables. Si no existe ese dato, "
+        "se informa participación en negocios observados o se declara el vacío, sin rebautizar una estimación "
+        "como cuota.",
 
-        "La recomendación condicionada es la forma profesional de recomendar bajo incertidumbre: no «hay que "
-        "entrar a este mercado», sino «conviene entrar si se confirma X en los próximos sesenta días; si no "
-        "se confirma, la alternativa es Y». Esa formulación mantiene la responsabilidad del analista y "
-        "entrega a la dirección el control sobre la condición.",
+        "TAM, SAM y SOM se presentan como rangos con supuestos. El lector debe distinguir de un vistazo dato, "
+        "estimación, hipótesis e inferencia: una etiqueta acompaña cada afirmación y su fuente, fecha y vigencia. "
+        "La recomendación no gana fuerza ocultando incertidumbre; gana utilidad al indicar qué supuesto mueve "
+        "más el resultado y qué evidencia nueva obligaría a cambiarla.",
 
-        "Un informe extenso demuestra el trabajo y reduce la probabilidad de ser leído completo por quien "
-        "decide. Uno breve se lee y omite matices que después se reclaman. La solución habitual —resumen "
-        "ejecutivo más anexos— sólo funciona si el resumen contiene las limitaciones y no sólo las "
-        "conclusiones, que es justamente el recorte que se hace por defecto.",
+        "El límite de una o dos páginas obliga a jerarquizar. Sólo entran tres hallazgos que cambian la decisión, "
+        "la economía básica de la oportunidad, el riesgo principal y la acción siguiente. Métodos, tablas "
+        "competitivas y cálculos completos quedan en el anexo con enlaces estables. Si el resumen omite una "
+        "limitación capaz de cambiar la decisión, no es síntesis: es distorsión ejecutiva.",
 
-        "El informe es auditable o no vale. Auditable significa que otra persona, con el mismo material, "
-        "podría rehacer el camino y llegar a conclusiones comparables. Eso exige guardar los datos "
-        "intermedios y no sólo el resultado. Cuando un informe no puede reconstruirse, su valor caduca con la "
-        "memoria de quien lo escribió.",
+        "La inteligencia comercial es un sistema, no un estudio que caduca en una carpeta. Cada fuente tiene "
+        "responsable y fecha de revisión; cada señal de demanda tiene umbral de acción; cada hipótesis crítica "
+        "tiene prueba siguiente. La actualización puede cambiar una celda sin rehacer todo el informe, y el "
+        "historial deja visible cuándo cambió la recomendación y por qué.",
     ],
 }

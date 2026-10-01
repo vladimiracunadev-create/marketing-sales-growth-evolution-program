@@ -236,52 +236,57 @@ DESARROLLO = {
     ],
 
     "10": [
-        "El embudo de ingresos unifica en una sola vista lo que marketing, ventas y éxito de cliente miden "
-        "por separado. Su valor está en hacer visible el ciclo completo: no sólo cuántos entran sino cuántos "
-        "permanecen y cuánto expanden. Sin esa vista, cada área optimiza su tramo y el conjunto puede "
-        "deteriorarse.",
+        "El modelo B2B parte de visitas o alcance y continúa por leads, MQL cuando existe una definición útil, "
+        "SQL, oportunidades, cierres, clientes e ingreso. Cada etapa declara unidad, criterio de entrada, fuente "
+        "y ventana. MQL y SQL no son casillas obligatorias: si la empresa no puede explicar qué decisión cambia "
+        "cada una, se omiten en vez de inflar el diagrama con estados sin función.",
 
-        "La definición compartida por etapa es la condición para que el embudo signifique algo. Cuando "
-        "marketing cuenta contactos y ventas cuenta oportunidades con criterios distintos, la conversión "
-        "entre ambas es un número sin interpretación. Acordar esas definiciones es trabajo previo a construir "
-        "cualquier tablero.",
+        "Otros negocios requieren estructuras distintas. E-commerce proyecta sesiones, carritos, pedidos, "
+        "clientes, ticket, frecuencia y devoluciones; suscripción usa visitantes o usuarios, activación, pago, "
+        "retención y expansión; PLG añade uso y límite alcanzado; un canal indirecto parte de socios activos, "
+        "oportunidades y margen retenido. Todos conservan la misma disciplina de unidades, transiciones y valor.",
 
-        "La pérdida por tramo debe medirse en unidades y en valor, porque un tramo con alta pérdida "
-        "porcentual sobre pocas unidades puede importar menos que uno con pérdida moderada sobre muchas. "
-        "Presentar sólo porcentajes conduce sistemáticamente a priorizar mal.",
+        "La definición compartida por etapa es la condición para que una conversión signifique algo. Numerador, "
+        "denominador, ventana y segmento deben corresponder; comparar leads creados este mes con cierres de ciclos "
+        "anteriores produce una tasa sin cohorte. El diccionario se acuerda antes del tablero y mantiene el vínculo "
+        "entre marketing, ventas, producto, canal y éxito de cliente.",
 
-        "Una vista unificada facilita la coordinación y puede diluir la responsabilidad: cuando todos "
-        "responden por el embudo completo, nadie responde por su tramo. El diseño debe mantener "
-        "responsabilidad por tramo y visibilidad del conjunto, no sustituir la primera por la segunda.",
+        "La pérdida por tramo se mide en unidades y en valor. Ticket y frecuencia convierten clientes en ingreso; "
+        "retención y churn determinan cuánto permanece; CAC y LTV acotan cuánto conviene invertir. La mayor caída "
+        "porcentual no siempre es la mayor oportunidad económica, y una conversión mejor puede destruir valor si "
+        "atrae clientes que no permanecen o que exceden la capacidad de servir.",
 
-        "El embudo unificado supone que el recorrido es secuencial, y en negocios con expansión y recompra no "
-        "lo es: un cliente puede estar simultáneamente en renovación y en una nueva oportunidad. Forzar la "
-        "linealidad simplifica el tablero y distorsiona la realidad. Reconocer el límite y complementar con "
-        "vistas específicas es preferible.",
+        "El recorrido alimenta una proyección sólo después de contrastarse con ciclo, cobertura de pipeline y "
+        "capacidad. Una fórmula puede producir cien cierres y un equipo capaz de trabajar cuarenta; el forecast "
+        "defendible usa cuarenta o explica cómo cambia la capacidad. Cada tramo conserva responsable y supuesto, "
+        "y el modelo se segmenta cuando una vista única oculta economías diferentes.",
     ],
 
     "11": [
-        "Un pronóstico unificado separa los componentes del ingreso porque cada uno se comporta distinto: "
-        "ingreso nuevo, renovación, expansión y contracción tienen predictibilidad y responsables diferentes. "
-        "Sumarlos en una sola cifra oculta que el error de pronóstico puede venir de un solo componente.",
+        "El forecast unificado comienza en el modelo de unidades elegido. Volumen por tasa de conversión produce "
+        "clientes; clientes por ticket y frecuencia produce ingreso transaccional; base activa por tarifa produce "
+        "ingreso recurrente. El cálculo conserva sus cohortes y su ciclo para no atribuir cierres de hoy a demanda "
+        "de hoy. Cada tasa se presenta como rango cuando la muestra o la estabilidad no sostienen un punto único.",
 
-        "La renovación es el componente más predecible y el que menos atención recibe en el proceso de "
-        "pronóstico, porque suele darse por supuesta. Modelarla explícitamente —con tasa histórica por "
-        "segmento y por antigüedad— mejora la precisión total más que refinar el pronóstico de ingreso "
-        "nuevo.",
+        "El resultado matemático se contrasta con la realidad operativa. Cobertura de pipeline insuficiente, ciclos "
+        "más largos que el periodo o capacidad limitada reducen los cierres defendibles. Contratar agrega capacidad "
+        "después de la rampa, no el día de la firma. Esta reconciliación evita que el plan de marketing prometa una "
+        "demanda que ventas no puede atender o que ventas se dimensione para un pipeline inexistente.",
 
-        "La precisión por componente debe medirse por separado. Un pronóstico global con error aceptable "
-        "puede estar compensando una sobreestimación de nuevo con una subestimación de renovación, y esa "
-        "compensación no se repetirá. Medir por componente permite corregir donde está el problema.",
+        "Ingreso nuevo, renovación, expansión, contracción y churn se modelan por separado porque tienen causas, "
+        "responsables y precisión distintas. La renovación usa cohortes y segmentos; la contracción compara cada "
+        "cliente consigo mismo; el ingreso nuevo conserva canal y fecha de origen. Sumarlos antes de medir el error "
+        "permite que una sobreestimación oculte otra y destruye el aprendizaje.",
 
-        "Un proceso de pronóstico detallado mejora la precisión y consume tiempo de muchas personas cada "
-        "periodo. La inversión se justifica cuando las decisiones dependen del pronóstico —contratación, "
-        "inversión, compromisos financieros— y no cuando el pronóstico sólo se reporta.",
+        "CAC, LTV y periodo de recuperación no son una segunda proyección financiera: son restricciones comerciales. "
+        "El forecast puede mostrar crecimiento y aun así rechazarlo si el costo de adquisición supera el margen o "
+        "si la caja se recupera después de la permanencia esperada. La sensibilidad a conversión, ticket, frecuencia, "
+        "retención y churn muestra qué supuesto merece evidencia adicional.",
 
-        "La contracción —clientes que reducen su consumo sin irse— es el componente que más se omite y que "
-        "puede explicar una parte relevante de la desviación. Su medición exige comparar el mismo cliente "
-        "consigo mismo en el tiempo, no comparar totales. Incorporarla al pronóstico suele revelar un "
-        "deterioro que el ingreso agregado ocultaba.",
+        "La confianza se informa por componente usando vigencia, cobertura, concentración, estabilidad y precisión "
+        "histórica. Un negocio joven puede tener un forecast útil con confianza baja si declara intervalo y condición "
+        "de revisión. El objetivo no es reducir artificialmente el rango, sino mejorar las decisiones y medir después "
+        "qué supuesto produjo la desviación.",
     ],
 
     "12": [
@@ -336,27 +341,30 @@ DESARROLLO = {
     ],
 
     "14": [
-        "Un modelo operativo de ingresos describe cómo trabajan juntas las áreas que producen ingreso: qué "
-        "procesos existen, quién responde por cada uno, con qué información y con qué ritmo. Es el documento "
-        "que permite que la coordinación no dependa de las relaciones personales entre jefaturas.",
+        "Un modelo operativo de ingresos describe cómo trabajan juntas las áreas que producen ingreso y qué "
+        "evidencia gobierna sus decisiones. El Commercial Evidence Pack aporta mercado, cliente, competencia, "
+        "propuesta, precio y supuestos de adquisición; RevOps los traduce a definiciones de etapa, datos, "
+        "responsables, capacidad y forecast. Así la coordinación no depende de relaciones personales ni de una "
+        "presentación aislada.",
 
-        "La cifra única es el acuerdo de que existe una fuente autoritativa para cada indicador relevante y "
-        "que todas las áreas la usan. Parece obvio y es raro: en la mayoría de las organizaciones, marketing, "
-        "ventas y finanzas reportan cifras distintas del mismo concepto, y las reuniones empiezan "
-        "reconciliando.",
+        "La cifra única no significa fingir que existe una verdad exacta. Significa una definición autoritativa, "
+        "una fuente, una ventana y un nivel de incertidumbre compartidos. Dos áreas pueden usar vistas distintas "
+        "sin disputar el significado. Cuando la evidencia cambia, la versión del indicador y el supuesto afectado "
+        "quedan registrados para que la reconciliación produzca aprendizaje.",
 
-        "La responsabilidad por proceso debe estar asignada de extremo a extremo y no por tramo. Cuando cada "
-        "área responde por su parte, los traspasos quedan sin dueño y ahí es donde se pierde la mayor parte "
-        "del valor. Nombrar un responsable del proceso completo, aunque no dirija a todos los equipos, "
-        "cambia la dinámica.",
+        "La responsabilidad se asigna de extremo a extremo y por tramo. Un dueño del proceso vigila que la cadena "
+        "desde demanda hasta ingreso y retención cierre; cada tramo conserva un responsable operativo capaz de "
+        "corregirlo. Sin ambos niveles, los traspasos quedan sin dueño o una sola persona se vuelve cuello de botella "
+        "de un sistema que debería sobrevivir a su ausencia.",
 
-        "Un modelo operativo detallado alinea y puede volverse burocrático si no se ajusta al tamaño de la "
-        "organización. En equipos pequeños, la formalización excesiva consume más de lo que aporta. El "
-        "criterio es formalizar lo que ya produce fricción y dejar lo demás en acuerdos simples.",
+        "El ritmo de gestión revisa conversiones y calidad semanalmente, capacidad y pipeline mensualmente, y "
+        "economía, retención y precisión por cohorte en la ventana apropiada. No todas las métricas merecen la "
+        "misma frecuencia. Una alerta temprana se vuelve ruido si se calcula con datos demasiado inmaduros, y una "
+        "métrica lenta llega tarde si nadie define el indicador adelantado que la acompaña.",
 
-        "El ritmo de gestión —qué se revisa semanalmente, mensualmente, trimestralmente— es parte del modelo "
-        "y no un detalle de calendario. Un sistema sin ritmo definido revisa cuando hay problemas, que es "
-        "siempre tarde. Definir el ritmo y sostenerlo es una de las pocas prácticas cuya ausencia se nota "
-        "inmediatamente en los resultados.",
+        "Un modelo detallado puede volverse burocrático. En equipos pequeños se conserva el subconjunto que permite "
+        "decidir: diccionario, funnel aplicable, capacidad, forecast por componentes, supuestos críticos y registro "
+        "de precisión. La revisión ocurre cuando cambia evidencia crítica y al menos cada semestre; añadir procesos "
+        "que nadie puede mantener reduce observabilidad en vez de aumentarla.",
     ],
 }

@@ -247,7 +247,6 @@
 | **compromiso de atención** | plazo en que ventas se compromete a contactar y calificar | [17.07](../curriculum/part-17-marketing-automation-y-revenue-operations/class-07-sla-marketing-ventas.md) |
 | **compromiso de volumen** | cantidad de leads calificados que marketing se compromete a entregar | [17.07](../curriculum/part-17-marketing-automation-y-revenue-operations/class-07-sla-marketing-ventas.md) |
 | **compromiso derivado** | obligación que nace de lo afirmado en una comunicación comercial | [21.08](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-08-copilotos-de-ventas.md) |
-| **compromiso frente a mejor caso** | distinción entre lo que se asegura y lo que podría ocurrir | [16.07](../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md) |
 | **compromiso no documentado** | promesa verbal del proceso de venta que la operación desconoce | [08.12](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-12-handoff-a-implementacion.md) |
 | **compromiso posterior** | siguiente paso concreto acordado al finalizar la demostración | [08.06](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-06-demostracion-de-valor.md) |
 | **compromiso verificable** | señal costosa —tiempo, dinero, presentación a un jefe— que confirma interés real | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
@@ -269,6 +268,7 @@
 | **conexión causal** | relación explícita entre un factor y el resultado que afecta | [20.01](../curriculum/part-20-analitica-comercial-y-marketing-science/class-01-arbol-de-metricas.md) |
 | **conexión comercial** | vínculo entre el tema y el problema que la oferta resuelve | [13.02](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-02-pilares-de-contenido.md) |
 | **confianza** | grado de evidencia que respalda la expectativa de impacto | [19.10](../curriculum/part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) |
+| **confianza del forecast** | evaluación auditable basada en evidencia, cobertura, vigencia, concentración y precisión histórica, nunca certeza | [16.07](../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md) |
 | **configuración coherente** | correspondencia entre el proceso declarado y la configuración del sistema | [24.09](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-09-crm-y-pipeline.md) |
 | **confirmación bilateral** | aceptación explícita de ambas partes sobre el contenido del resumen | [10.13](../curriculum/part-10-negociacion-comercial/class-13-cierre-y-documentacion.md) |
 | **confirmación de resolución** | verificación explícita de que la objeción dejó de ser un obstáculo | [08.09](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-09-manejo-de-objeciones.md) |
@@ -578,7 +578,7 @@
 | **expansión y contracción** | aumento o reducción de ingreso en clientes que permanecen | [17.11](../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) |
 | **expectativa de privacidad** | supuesto del cliente sobre qué información tiene la empresa y para qué | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **expectativa transferida** | resultado que el cliente espera y que debe ser conocido por quien implementa | [08.12](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-12-handoff-a-implementacion.md) |
-| **expediente de cliente** | documento único que integra ICP, roles, jobs, journey, fricciones y objeciones con sus fuentes | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
+| **expediente de cliente** | documento único que conecta segmento, ICP, jobs, pains, gains y decisiones comerciales con sus fuentes | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **experiencia acumulada** | percepción formada por el conjunto de interacciones a lo largo de la relación | [18.01](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-01-experiencia-de-cliente.md) |
 | **explicabilidad** | capacidad de indicar qué factores influyeron en la puntuación | [21.07](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-07-lead-scoring-asistido.md) |
 | **extensibilidad** | capacidad del nombre de acompañar nuevas categorías o mercados | [06.04](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-04-naming.md) |
@@ -699,7 +699,6 @@
 | **incrementalidad** | efecto causal real de un canal, estimado con grupo de comparación | [12.11](../curriculum/part-12-marketing-digital-y-adquisicion/class-11-atribucion-basica.md) |
 | **independencia del sistema** | capacidad de operar sin intervención permanente de la dirección | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **indicador adelantado** | actividad que precede y predice el resultado comercial | [16.06](../curriculum/part-16-crm-pipeline-y-sales-operations/class-06-actividades-comerciales.md) |
-| **indicador de alerta** | métrica con umbral definido que gatilla una acción | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
 | **indicador de esfuerzo** | medida de la dificultad percibida para resolver algo | [18.06](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) |
 | **indicador de estado** | métrica que describe cómo está el negocio de forma continua | [23.07](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-07-okr-y-kpi.md) |
 | **indicador de recomendación** | medida de la disposición declarada a recomendar | [18.06](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) |
@@ -905,6 +904,7 @@
 | **palanca dominante** | variable cuya mejora produce mayor efecto sobre el resultado | [16.10](../curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md) |
 | **paquete** | combinación de componentes ofrecida como unidad con un precio propio | [05.07](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md) |
 | **paquete de contrapartidas** | conjunto de concesiones preparadas con su exigencia asociada | [10.10](../curriculum/part-10-negociacion-comercial/class-10-compras-y-procurement.md) |
+| **paquete de evidencia comercial** | índice ejecutivo que conecta decisiones comerciales con evidencia, supuestos e incertidumbres | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
 | **paquete pertinente** | combinación que el cliente usaría efectivamente en conjunto | [15.09](../curriculum/part-15-e-commerce-y-marketplaces/class-09-aov-y-bundles.md) |
 | **paridad competitiva** | neutralización de una ventaja del competidor para que deje de ser criterio decisivo | [04.09](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-09-puntos-de-paridad-y-diferencia.md) |
 | **participación entre miembros** | interacciones que ocurren sin intervención de la empresa | [12.08](../curriculum/part-12-marketing-digital-y-adquisicion/class-08-community-marketing.md) |
@@ -1291,7 +1291,7 @@
 | **transparencia del incentivo** | declaración de cualquier beneficio entregado por la recomendación | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
 | **transparencia sobre riesgos** | declaración anticipada de los problemas relevantes | [23.13](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md) |
 | **trazabilidad de la cifra** | registro de origen, metodología, muestra, periodo y fecha de consulta | [03.02](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-02-fuentes-primarias-y-secundarias.md) |
-| **trazabilidad de la evidencia** | posibilidad de identificar de dónde salió cada afirmación del expediente | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
+| **trazabilidad de la evidencia** | registro del origen, fecha y estado de validación de cada afirmación del expediente | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **trazabilidad del acuerdo** | posibilidad de reconstruir qué se acordó, cuándo y con quién | [10.13](../curriculum/part-10-negociacion-comercial/class-13-cierre-y-documentacion.md) |
 | **triangulación** | contraste de un hallazgo con una fuente o método distinto | [03.06](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-06-investigacion-cualitativa.md) |
 | **triangulación de métodos** | uso de dos o más técnicas para reducir el sesgo de cada una | [07.07](../curriculum/part-07-pricing-y-monetizacion/class-07-van-westendorp-y-tecnicas-de-investigacion.md) |

@@ -12,7 +12,7 @@ Ruta Andina SpA — Empresa chilena que vende una plataforma de agendamiento, pa
 
 ## Misión
 
-Producir un componente defendible de **informe de oportunidad de mercado con método, muestra, límites y decisión recomendada**, aplicando en particular **diseño de encuestas** y **investigación cuantitativa**.
+Producir un componente defendible de **informe ejecutivo de inteligencia comercial de 1–2 páginas con anexo auditable**, aplicando en particular **diseño de encuestas** y **investigación cuantitativa**.
 
 > **Pregunta que debe quedar respondida:** ¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?
 

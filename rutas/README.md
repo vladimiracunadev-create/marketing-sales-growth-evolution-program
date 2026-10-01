@@ -184,7 +184,7 @@ Quien tiene que vender antes de poder contratar a alguien que venda. No necesita
 |---|---|---|---|
 | 📊 [Analista de marketing y de ingresos](analista-de-marketing.md) | Analítica | 01, 20, 16, 18 | Árbol de métricas con responsable por rama y aritmética verificada |
 | 🎯 [Marketing manager](marketing-manager.md) | Marketing | 01, 02, 04, 06 | Arquitectura STP con criterios de atractivo y accesibilidad |
-| 🧩 [Product marketing manager](product-marketing.md) | Marketing | 02, 03, 04, 05 | Expediente de cliente con ICP, unidad de decisión y journey documentados |
+| 🧩 [Product marketing manager](product-marketing.md) | Marketing | 02, 03, 04, 05 | Expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta |
 | 🚀 [Growth manager](growth-manager.md) | Growth | 01, 18, 19, 20 | Growth model con palancas, sensibilidad y aprendizajes acumulados |
 | 📞 [SDR / BDR — desarrollo de ventas](sdr-bdr.md) | Ventas | 01, 02, 11, 08 | Lista objetivo con base de licitud documentada por contacto |
 | 🤝 [Ejecutivo comercial / Account Executive](ejecutivo-comercial.md) | Ventas | 01, 02, 08, 09 | Playbook comercial con etapas y criterios de salida verificables |

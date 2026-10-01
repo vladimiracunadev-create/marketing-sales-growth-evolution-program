@@ -72,16 +72,16 @@ supera las 4.800 palabras, está **redactado clase a clase** —no generado por 
 
 | Superficie | Cobertura |
 |---|---|
-| 📚 Currículo | 336/336 clases en 24 partes · 1.800.909 palabras · estándar `clase-profunda-v2` |
+| 📚 Currículo | 336/336 clases en 24 partes · 1.804.905 palabras · estándar `clase-profunda-v2` |
 | 🧩 Conceptos | 1.348 términos con definición operacional, todos en el [glosario](docs/GLOSARIO.md) |
 | 📐 Medición | 1.012 señales con ficha completa en [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
 | 📖 Bibliografía | 97 obras · 396 ideas catalogadas · **1.345 anclajes** clase a clase, auditados |
 | 🧪 Práctica | 48 laboratorios con rúbrica de 100 puntos y escenario adverso obligatorio |
 | 🏆 Evaluación | 24 evaluaciones de cuatro bloques ponderados + 12 proyectos + Capstone eliminatorio |
 | 🧭 Rutas por rol | 17 guías de carrera con día a día, artefactos, progresión y rangos |
-| 🖥️ Portal | 632 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
+| 🖥️ Portal | 638 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
 | 🇨🇱 Regulación | Consumo, comercio electrónico, datos personales, marcas, tributación y libre competencia |
-| 🔧 Calidad | 90 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
+| 🔧 Calidad | 91 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
 
 ## 🗺️ El recorrido en 8 niveles
 
@@ -171,7 +171,7 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 | 🎓 **1 Capstone** | Empresa completa con cumplimiento normativo **eliminatorio** |
 
 [Laboratorios](labs/) · [Evaluaciones](assessments/) · [Casos](cases/) · [Proyectos](projects/) ·
-[Capstone](capstone/README.md)
+[Capstone](capstone/README.md) · [Commercial Evidence Pack](templates/strategy/commercial-evidence-pack.md)
 
 ## 🖥️ Portal de aprendizaje
 
@@ -297,7 +297,7 @@ python tools/validate_depth.py        # profundidad mínima por clase, lab, eval
 python tools/check_links.py           # enlaces internos
 python tools/validate_site.py         # artefacto del portal completo
 python scripts/verify_sources.py      # registro de fuentes: ISBN, DOI, cobertura y cifras del README
-python -m pytest -q                   # 90 pruebas
+python -m pytest -q                   # 91 pruebas
 ```
 
 ## 👩‍🏫 Para instructores

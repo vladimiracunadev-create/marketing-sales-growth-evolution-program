@@ -22,15 +22,15 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿El pipeline describe la realidad o solo el optimismo del equipo?
 
-Los conceptos que estructuran la sesión son **método de forecast**, **sesgo de optimismo**, **precisión del forecast** y **compromiso frente a mejor caso**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **método de forecast**, **sesgo de optimismo**, **precisión del forecast** y **confianza del forecast**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `método de forecast`, `sesgo de optimismo`, `precisión del forecast` y `compromiso frente a mejor caso` por sus observables y no por su definición memorizada.
+1. **Distinguir** `método de forecast`, `sesgo de optimismo`, `precisión del forecast` y `confianza del forecast` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **CRM, pipeline y sales operations**.
-3. **Aplicar** la secuencia **declarar el método y su alcance → separar compromiso, probable y mejor caso → contrastar con al menos un método alternativo → medir la precisión de cada ciclo → corregir el método con el sesgo observado** conservando supuestos, alternativas descartadas y trazabilidad.
+3. **Aplicar** la secuencia **declarar el método y su alcance → separar compromiso, probable y mejor caso con criterios verificables → contrastar con al menos un método alternativo y con la capacidad disponible → calibrar la confianza con cobertura, vigencia, concentración y precisión histórica → corregir el método con el sesgo observado sin ocultar el intervalo resultante** conservando supuestos, alternativas descartadas y trazabilidad.
 4. **Operacionalizar** **precisión del forecast**, **sesgo sistemático** y **cobertura del pipeline** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
@@ -53,14 +53,14 @@ Al terminar esta clase serás capaz de:
 | **método de forecast** | regla explícita que convierte el estado del pipeline en una proyección | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **sesgo de optimismo** | tendencia sistemática a proyectar más de lo que se cierra | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **precisión del forecast** | diferencia entre lo proyectado y lo efectivamente cerrado | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
-| **compromiso frente a mejor caso** | distinción entre lo que se asegura y lo que podría ocurrir | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **confianza del forecast** | evaluación auditable basada en evidencia, cobertura, vigencia, concentración y precisión histórica, nunca certeza | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. declarar el método y su alcance → 2. separar compromiso, probable y mejor caso → 3. contrastar con al menos un método alternativo → 4. medir la precisión de cada ciclo → 5. corregir el método con el sesgo observado
+1. declarar el método y su alcance → 2. separar compromiso, probable y mejor caso con criterios verificables → 3. contrastar con al menos un método alternativo y con la capacidad disponible → 4. calibrar la confianza con cobertura, vigencia, concentración y precisión histórica → 5. corregir el método con el sesgo observado sin ocultar el intervalo resultante
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -87,7 +87,7 @@ El sesgo de optimismo está documentado y es sistemático: los pronósticos come
 
 **Contraste bibliográfico.** Andrew S. Grove — *High Output Management* (1983) aporta aquí una distinción concreta: los indicadores adelantados y pareados que permiten corregir a tiempo (los capítulos sobre medición en la producción). Formula dos mini-casos: uno que satisface la definición de **sesgo de optimismo** y otro que sólo se le parece en la superficie; después decide cuál de los dos describiría esa obra con su propio vocabulario. Si la obra no permite separarlos, la distinción es tuya y tienes que sostenerla con evidencia del caso, no con la cita.
 
-Antes de pasar a «separar compromiso, probable y mejor caso», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
+Antes de pasar a «separar compromiso, probable y mejor caso con criterios verificables», registra explícitamente qué decisión sería errónea si esta frontera se ignora. Esa frase convierte el vocabulario en criterio de gestión.
 
 ### 3. Precisión del forecast: operacionalización y medición
 
@@ -99,21 +99,21 @@ Ficha de medición obligatoria para **precisión del forecast**: `diferencia por
 
 **Control de lectura.** Foster Provost y Tom Fawcett — *Data Science for Business* (2013) pone una condición sobre la medición: la evaluación contra una línea base y no contra la nada (los capítulos sobre evaluación de modelos). Contrasta tu ficha con ella: si la métrica que acabas de definir cae dentro de lo que esa obra considera un error de medición, corrígela antes de usarla para decidir.
 
-### 4. Compromiso frente a mejor caso: trade-offs y efectos de segundo orden
+### 4. Confianza del forecast: trade-offs y efectos de segundo orden
 
-**Definición:** distinción entre lo que se asegura y lo que podría ocurrir.
+**Definición:** evaluación auditable basada en evidencia, cobertura, vigencia, concentración y precisión histórica, nunca certeza.
 
-Un pronóstico conservador protege de sorpresas y puede producir decisiones de inversión demasiado cautelosas; uno optimista habilita inversión y arriesga compromisos que no se cumplen. La solución es separar el compromiso —lo que se sostiene— del mejor caso, y usar cada uno para decisiones distintas.
+La confianza del pronóstico no es una sensación ni una probabilidad inventada. Se calibra con cinco evidencias: cobertura suficiente, datos vigentes, baja concentración en pocos negocios, capacidad para trabajarlos y precisión histórica del método. Un nivel bajo no invalida la proyección; indica que debe presentarse con un intervalo más ancho y que ciertas decisiones conviene hacerlas reversibles.
 
 **Lo que aporta la fuente.** Donald J. Wheeler — *Understanding Variation* (2000) aporta el criterio para pesar el intercambio: el error de comparar dos puntos consecutivos y llamarlo tendencia (los capítulos sobre interpretación de series). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cobertura del pipeline** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
-Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **compromiso frente a mejor caso** y otro de un supuesto del caso que nunca fue validado.
+Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **confianza del forecast** y otro de un supuesto del caso que nunca fue validado.
 
 ### 5. Gobernanza, límites y responsabilidad
 
-La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «corregir el método con el sesgo observado», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
+La pregunta ejecutiva es siempre la misma: quién decide, quién ejecuta, a quién hay que consultar, qué evidencia queda registrada y qué condición obliga a detener, corregir o escalar. Al ejecutar «corregir el método con el sesgo observado sin ocultar el intervalo resultante», deja una traza que permita a otra persona reconstruir por qué la decisión parecía razonable con la información disponible en ese momento.
 
-El método de pronóstico debe corresponder a la madurez de los datos. Un modelo ponderado por etapa requiere probabilidades históricas confiables; sin ellas, produce precisión aparente sobre supuestos arbitrarios. En operaciones jóvenes, el juicio estructurado con criterios explícitos suele ser superior al modelo.
+El método debe corresponder a la madurez de los datos. Un modelo ponderado por etapa exige probabilidades históricas confiables; sin ellas produce precisión aparente. Contrastar juicio estructurado, cohortes y ponderación revela cuánto depende el resultado del método. Compromiso, probable y mejor caso son categorías con criterios verificables, no sinónimos de seguro, posible y deseado.
 
 **Frontera declarada.** Ningún método corrige un pipeline con criterios de etapa débiles. La precisión del forecast es consecuencia de la disciplina de calificación, no de la fórmula. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
@@ -121,7 +121,7 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Tomar decisio
 
 ### 6. Integración: de conceptos a una decisión defendible
 
-Sintetizar forecast no consiste en sumar definiciones. Empieza por **método de forecast**, contrasta **sesgo de optimismo** con **precisión del forecast**, incorpora **compromiso frente a mejor caso** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
+Sintetizar forecast no consiste en sumar definiciones. Empieza por **método de forecast**, contrasta **sesgo de optimismo** con **precisión del forecast**, incorpora **confianza del forecast** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Una síntesis correcta indica qué evidencia falta y qué decisión se posterga hasta obtenerla.
 
@@ -134,7 +134,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Mark Roberge — *The Sales Acceleration Formula* (2015) | El acompañamiento dirigido por una métrica diagnóstica por vendedor | Los capítulos sobre la fórmula de gestión | ¿Qué debería observarse en **método de forecast** si aquí opera «el acompañamiento dirigido por una métrica diagnóstica por vendedor»? ¿Y qué observación lo desmentiría en este caso? |
 | Andrew S. Grove — *High Output Management* (1983) | Los indicadores adelantados y pareados que permiten corregir a tiempo | Los capítulos sobre medición en la producción | ¿Qué debería observarse en **sesgo de optimismo** si aquí opera «los indicadores adelantados y pareados que permiten corregir a tiempo»? ¿Y qué observación lo desmentiría en este caso? |
 | Foster Provost y Tom Fawcett — *Data Science for Business* (2013) | La evaluación contra una línea base y no contra la nada | Los capítulos sobre evaluación de modelos | ¿Qué debería observarse en **precisión del forecast** si aquí opera «la evaluación contra una línea base y no contra la nada»? ¿Y qué observación lo desmentiría en este caso? |
-| Donald J. Wheeler — *Understanding Variation* (2000) | El error de comparar dos puntos consecutivos y llamarlo tendencia | Los capítulos sobre interpretación de series | ¿Qué debería observarse en **compromiso frente a mejor caso** si aquí opera «el error de comparar dos puntos consecutivos y llamarlo tendencia»? ¿Y qué observación lo desmentiría en este caso? |
+| Donald J. Wheeler — *Understanding Variation* (2000) | El error de comparar dos puntos consecutivos y llamarlo tendencia | Los capítulos sobre interpretación de series | ¿Qué debería observarse en **confianza del forecast** si aquí opera «el error de comparar dos puntos consecutivos y llamarlo tendencia»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -146,13 +146,13 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 1 — Declarar el método y su alcance.** El equipo escribe primero el supuesto asociado a **método de forecast** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **precisión del forecast** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 2 — Separar compromiso, probable y mejor caso.** El trabajo aquí es separar lo observado de lo inferido sobre **sesgo de optimismo**. La evidencia que ordena la discusión es **sesgo sistemático**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 2 — Separar compromiso, probable y mejor caso con criterios verificables.** El trabajo aquí es separar lo observado de lo inferido sobre **sesgo de optimismo**. La evidencia que ordena la discusión es **sesgo sistemático**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Contrastar con al menos un método alternativo.** El riesgo de este paso es cerrar demasiado rápido alrededor de **precisión del forecast**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura del pipeline** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Contrastar con al menos un método alternativo y con la capacidad disponible.** El riesgo de este paso es cerrar demasiado rápido alrededor de **precisión del forecast**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cobertura del pipeline** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Medir la precisión de cada ciclo.** Con **compromiso frente a mejor caso** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **precisión del forecast** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Calibrar la confianza con cobertura, vigencia, concentración y precisión histórica.** Con **confianza del forecast** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **precisión del forecast** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Corregir el método con el sesgo observado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **método de forecast**. **sesgo sistemático** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Corregir el método con el sesgo observado sin ocultar el intervalo resultante.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **método de forecast**. **sesgo sistemático** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +192,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **declarar el método y su alcance → separar compromiso, probable y mejor caso → contrastar con al menos un método alternativo → medir la precisión de cada ciclo → corregir el método con el sesgo observado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **declarar el método y su alcance → separar compromiso, probable y mejor caso con criterios verificables → contrastar con al menos un método alternativo y con la capacidad disponible → calibrar la confianza con cobertura, vigencia, concentración y precisión histórica → corregir el método con el sesgo observado sin ocultar el intervalo resultante** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **precisión del forecast**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *The Sales Acceleration Formula* y la de *High Output Management*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -205,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
 | Usar **método de forecast** y **sesgo de optimismo** como sinónimos | Se perdió la distinción entre «regla explícita que convierte el estado del pipeline en una proyección» y «tendencia sistemática a proyectar más de lo que se cierra» | Vuelve a los observables y exige una señal distinta para cada concepto. |
-| Empezar por «corregir el método con el sesgo observado» | Se saltó «declarar el método y su alcance»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
+| Empezar por «corregir el método con el sesgo observado sin ocultar el intervalo resultante» | Se saltó «declarar el método y su alcance»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
 | Optimizar sólo **precisión del forecast** | La métrica local reemplazó al resultado del sistema | Contrástala con **cobertura del pipeline** y explicita el costo de oportunidad. |
 | Mantener el método pese a un sesgo sistemático | Error específico de esta clase | Mide la desviación con signo por trimestre y corrige el método con ese factor. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |

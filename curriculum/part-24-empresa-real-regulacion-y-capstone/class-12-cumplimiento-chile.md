@@ -4,7 +4,7 @@ Clase 12 de 14 de la parte [24 — Empresa real, regulación y Capstone](README.
 
 ## 🚦 Antes de empezar
 
-Vienes de la clase 24.11, *Dashboard financiero-comercial*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
+Vienes de la clase 24.11, *Commercial Evidence Pack y dashboard comercial*: ten a mano su entregable, porque esta sesión lo retoma y lo lleva más lejos.
 
 Trabajarás sobre el caso de la clase. Si prefieres usar datos de tu organización, lo mínimo que necesitas es una serie histórica de obligaciones identificadas y cubiertas con la que calcular una línea base: sin ella podrás discutir el concepto, pero no comprobar si tu decisión mejora algo. Ten también dónde escribir —planilla o cuaderno— y, de la lectura comparada, al menos el índice y los capítulos que se indican al pie.
 
@@ -255,7 +255,7 @@ Guarda en `evidence/P24-C12-cumplimiento-chile/`:
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
-Este entregable alimenta el artefacto de la parte: **Capstone completo: empresa, evidencia, números, cumplimiento y defensa ejecutiva**.
+Este entregable alimenta el artefacto de la parte: **Capstone con Commercial Evidence Pack, operación, cumplimiento y defensa ejecutiva**.
 
 ## ✅ Evaluación de la clase
 
@@ -289,4 +289,4 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 
 ---
 
-← [Clase 11 · Dashboard financiero-comercial](class-11-dashboard-financiero-comercial.md) · [Índice de la parte](README.md) · [Clase 13 · Defensa ejecutiva](class-13-defensa-ejecutiva.md) →
+← [Clase 11 · Commercial Evidence Pack y dashboard comercial](class-11-dashboard-financiero-comercial.md) · [Índice de la parte](README.md) · [Clase 13 · Defensa ejecutiva](class-13-defensa-ejecutiva.md) →

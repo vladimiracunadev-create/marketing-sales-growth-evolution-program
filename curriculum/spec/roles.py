@@ -380,10 +380,10 @@ ROLES = [
         ],
         labs=["02", "05", "22"],
         artefactos=[
-            "Expediente de cliente con ICP, unidad de decisión y journey documentados",
+            "Expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta",
             "Propuesta de valor con prueba de comprensión superada",
             "Oferta operativa con alcance, exclusiones y biblioteca de objeciones",
-            "Plan de lanzamiento con criterios de listeza verificados",
+            "Benchmark competitivo reproducible con evidencia observable por celda",
         ],
         credenciales=[
             "**Pragmatic Institute / Product Marketing Alliance** — reconocidas en el gremio; su valor real "

@@ -242,25 +242,30 @@ DESARROLLO = {
     ],
 
     "11": [
-        "El tablero financiero-comercial del Capstone integra las decisiones anteriores en cifras que deben "
-        "cerrar entre sí. Su primera exigencia es aritmética: los totales deben reconstruirse desde sus "
-        "componentes. Un tablero que no cierra indica que alguna definición no es consistente.",
+        "El Commercial Evidence Pack es el índice que conecta las decisiones construidas durante el programa. "
+        "Sus diez bloques son mercado, cliente, competencia, propuesta, precio, adquisición, conversiones, "
+        "forecast, supuestos y un registro conjunto de evidencias e incertidumbres. Cada conclusión ejecutiva "
+        "enlaza al cálculo, entrevista, observación o fuente que la sostiene; el paquete no duplica los anexos.",
 
-        "La trazabilidad de cada cifra es el requisito central: de dónde sale, con qué definición y con qué "
-        "periodo. Un número sin trazabilidad es indefendible en la presentación final, y esa es exactamente "
-        "la situación que el ejercicio busca evitar mediante la disciplina previa.",
+        "La taxonomía evita mezclar niveles: dato es una observación trazable, estimación es un cálculo con método "
+        "y rango, hipótesis es una apuesta pendiente de prueba e inferencia es la interpretación de la evidencia. "
+        "Cada fila declara origen, fecha, responsable, vigencia e incertidumbre. Una celda vacía se conserva como "
+        "brecha con acción siguiente, en vez de rellenarse para que la presentación parezca completa.",
 
-        "La proyección con supuestos declarados debe distinguir lo observado de lo estimado. Presentar juntas "
-        "cifras reales y proyectadas sin distinguirlas produce un documento engañoso aunque no haya "
-        "intención. Marcar visualmente esa diferencia es una convención simple y necesaria.",
+        "La sección de cliente conserva la cadena desde segmento e ICP hasta entrevistas, JTBD, pains y gains, "
+        "propuesta, mensaje, oferta, canal y venta. La de mercado resume la inteligencia comercial de una o dos "
+        "páginas; la competitiva usa la matriz reproducible. Así puede verse si el ticket proyectado proviene de "
+        "precio observado, prueba de disposición a pagar o una hipótesis aún no validada.",
 
-        "Un tablero completo demuestra dominio y puede volverse ilegible; uno mínimo se entiende y omite. "
-        "Para el Capstone, la prioridad es que cada indicador presente tenga una decisión asociada, y que la "
-        "cantidad permita una lectura en pocos minutos durante la defensa.",
+        "El forecast conecta unidades, conversiones, ticket o frecuencia, retención y churn con cobertura de "
+        "pipeline y capacidad. Después verifica coherencia con CAC, LTV, margen y payback. Estas relaciones preparan "
+        "insumos para una proyección financiera posterior, pero no modelan caja, balance ni estados financieros: "
+        "ese alcance pertenece a otro programa y debe permanecer fuera de este artefacto.",
 
-        "El indicador presentado debe ser el que se usó para decidir durante el proyecto y no uno construido "
-        "para la entrega. Esa diferencia se detecta en la defensa: quien construyó el tablero al final no "
-        "puede explicar qué decisión tomó con él, y esa incapacidad revela que la gestión fue por intuición.",
+        "La defensa usa el paquete que gobernó decisiones durante el proyecto, no uno reconstruido al final. El "
+        "resumen muestra recomendación, confianza y tres incertidumbres decisivas; los anexos permiten auditar. "
+        "Cuando llega evidencia nueva, se actualiza la fila afectada, la proyección dependiente y la condición de "
+        "revisión, dejando visible qué cambió y por qué.",
     ],
 
     "12": [

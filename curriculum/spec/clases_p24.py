@@ -406,42 +406,44 @@ CLASES = [
     dict(
         n="11",
         slug="dashboard-financiero-comercial",
-        titulo="Dashboard financiero-comercial",
+        titulo="Commercial Evidence Pack y dashboard comercial",
         tesis=(
-            "El Capstone debe entregar un tablero que conecte la operación comercial con la economía del "
-            "negocio: ingreso, margen de contribución, costo de adquisición, periodo de recuperación, "
-            "retención y proyección. Se evalúa la trazabilidad de cada cifra y la coherencia aritmética del "
-            "conjunto, no la sofisticación visual."
+            "El Capstone debe entregar un Commercial Evidence Pack que conecte mercado, cliente, competencia, "
+            "propuesta, precio, adquisición, conversiones y forecast con supuestos, evidencias e incertidumbres. "
+            "El dashboard comercial resume ingreso, margen, CAC, payback, retención y proyección para alimentar "
+            "una proyección financiera posterior; no intenta sustituirla. Se evalúan trazabilidad y coherencia, "
+            "no sofisticación visual ni certeza inventada."
         ),
         conceptos=[
             ("trazabilidad de la cifra", "posibilidad de reconstruir el cálculo desde sus componentes"),
             ("coherencia aritmética", "consistencia entre los indicadores del tablero"),
             ("proyección con supuestos", "estimación futura acompañada de las condiciones que la sostienen"),
-            ("indicador de alerta", "métrica con umbral definido que gatilla una acción"),
+            ("paquete de evidencia comercial", "índice ejecutivo que conecta decisiones comerciales con evidencia, supuestos e incertidumbres"),
         ],
         metodo=[
-            "definir los indicadores y su cálculo",
-            "construir el tablero con datos del proyecto",
-            "verificar la coherencia aritmética del conjunto",
-            "declarar los supuestos de la proyección",
-            "definir umbrales de alerta y sus acciones",
+            "consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable",
+            "conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial",
+            "registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre",
+            "verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso",
+            "publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión",
         ],
         senales=[
-            ("cifras trazables", "indicadores con cálculo documentado, sobre indicadores del tablero"),
+            ("cobertura del paquete de evidencia", "secciones obligatorias con evidencia, supuesto e incertidumbre declarados, sobre secciones requeridas"),
             ("coherencia aritmética verificada", "relaciones que cuadran entre indicadores, sobre relaciones verificables"),
-            ("indicadores con umbral", "métricas con umbral y acción definidos, sobre métricas críticas"),
+            ("confianza del forecast", "nivel sustentado en calidad y vigencia de evidencia, cobertura, concentración y precisión histórica"),
         ],
         caso=(
-            "El Capstone exige un tablero donde el ingreso proyectado, el costo de adquisición y la retención "
-            "sean aritméticamente consistentes entre sí."
+            "El Capstone exige un paquete donde la oportunidad de mercado, el cliente elegido, el precio, las "
+            "conversiones, la capacidad, el ingreso proyectado, CAC y retención sean trazables y consistentes."
         ),
         limite=(
-            "Un tablero con datos simulados demuestra diseño, no desempeño. Debe declararse el origen de cada "
-            "serie utilizada."
+            "El paquete comercial alimenta una proyección financiera posterior, pero no modela estados "
+            "financieros ni reemplaza ese trabajo. Con datos simulados demuestra diseño, no desempeño; debe "
+            "declararse el origen y la incertidumbre de cada serie."
         ),
         libros=["kaplan-norton", "croll-yoskovitz", "provost", "kaushik"],
-        error=("Presentar indicadores sin verificar su coherencia entre sí",
-               "Comprueba que las relaciones aritméticas entre indicadores cuadren antes de presentar."),
+        error=("Presentar el paquete como si todas sus cifras fueran hechos",
+               "Etiqueta dato, estimación, hipótesis o inferencia y comprueba la coherencia antes de presentar."),
     ),
     dict(
         n="12",

@@ -87,10 +87,10 @@ Orden recomendado. Todas las rutas asumen que empiezas por la [parte 01](../curr
 
 Estos son los entregables que conviene llevar a una postulación. No describen responsabilidades: muestran trabajo que alguien puede auditar.
 
-- [ ] Expediente de cliente con ICP, unidad de decisión y journey documentados
+- [ ] Expediente de cliente con cadena segmento–ICP–evidencia–propuesta–canal–venta
 - [ ] Propuesta de valor con prueba de comprensión superada
 - [ ] Oferta operativa con alcance, exclusiones y biblioteca de objeciones
-- [ ] Plan de lanzamiento con criterios de listeza verificados
+- [ ] Benchmark competitivo reproducible con evidencia observable por celda
 
 ## 🎓 Credenciales y señales de mercado
 

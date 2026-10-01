@@ -451,7 +451,7 @@ def render_capstone(cls24):
     lineas += [
         "",
         "El componente 11 se entrega con la plantilla "
-        "[`Commercial Evidence Pack`](../templates/strategy/commercial-evidence-pack.md). El paquete conecta "
+        "[`Commercial Evidence Pack`](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md). El paquete conecta "
         "los artefactos existentes y alimenta una proyección financiera posterior; no la sustituye.",
         "",
         "## Criterios de evaluación (100 puntos)",

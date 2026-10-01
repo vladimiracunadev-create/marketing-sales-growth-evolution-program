@@ -171,21 +171,21 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 | 🎓 **1 Capstone** | Empresa completa con cumplimiento normativo **eliminatorio** |
 
 [Laboratorios](labs/) · [Evaluaciones](assessments/) · [Casos](cases/) · [Proyectos](projects/) ·
-[Capstone](capstone/README.md) · [Commercial Evidence Pack](templates/strategy/commercial-evidence-pack.md)
+[Capstone](capstone/README.md) · [Commercial Evidence Pack](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md)
 
 ## 📦 Commercial Evidence Pack
 
 El paquete reúne en un solo lugar la evidencia de mercado, cliente, competencia, propuesta, precio,
-adquisición, conversiones y forecast. Se usa como plantilla de trabajo para el Capstone y deja separados
-los datos, las estimaciones, las hipótesis, las inferencias y las incertidumbres.
+adquisición, conversiones y forecast. Es una guía navegable con mapa visual, instrucciones, ejemplos y
+enlaces directos a las clases completas que enseñan cada bloque.
 
 | Abrir | Para qué sirve | Ruta dentro del repositorio |
 |---|---|---|
-| **[Usar la plantilla del Commercial Evidence Pack](templates/strategy/commercial-evidence-pack.md)** | Completar el entregable integrador | `templates` → `strategy` → `commercial-evidence-pack.md` |
+| **[Usar la plantilla del Commercial Evidence Pack](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md)** | Completar el entregable integrador | `templates` → `strategy` → `commercial-evidence-pack.md` |
 | **[Leer la auditoría y la matriz antes/después](docs/AUDITORIA-COMMERCIAL-EVIDENCE.md)** | Revisar cobertura previa, brechas, cambios, pruebas y evidencia de no duplicación | `docs` → `AUDITORIA-COMMERCIAL-EVIDENCE.md` |
 
-Ambos enlaces se abren directamente en GitHub. También pueden descargarse con el botón **Download raw file**
-de la vista del archivo.
+La plantilla abre su vista Markdown en GitHub, donde se renderizan el mapa visual y los enlaces a clases.
+También puede descargarse con el botón **Download raw file** de la vista del archivo.
 
 ## 🖥️ Portal de aprendizaje
 

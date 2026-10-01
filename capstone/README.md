@@ -31,7 +31,7 @@ En cualquier opción debe declararse explícitamente qué datos son reales y cu�
 | 13 | Defensa ejecutiva | [24.13](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md) |
 | 14 | Retrospectiva y portafolio profesional | [24.14](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md) |
 
-El componente 11 se entrega con la plantilla [`Commercial Evidence Pack`](../templates/strategy/commercial-evidence-pack.md). El paquete conecta los artefactos existentes y alimenta una proyección financiera posterior; no la sustituye.
+El componente 11 se entrega con la plantilla [`Commercial Evidence Pack`](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md). El paquete conecta los artefactos existentes y alimenta una proyección financiera posterior; no la sustituye.
 
 ## Criterios de evaluación (100 puntos)
 

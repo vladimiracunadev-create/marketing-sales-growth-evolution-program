@@ -109,6 +109,22 @@ def test_commercial_evidence_pack_cubre_la_cadena_completa(raiz):
                     "Pipeline coverage", "Capacidad comercial", "Confianza del forecast"]:
         assert termino in texto, "Commercial Evidence Pack sin {}".format(termino)
 
+    clases_enlazadas = [
+        "class-14-sintesis-expediente-de-cliente-accionable.md",
+        "class-09-benchmarking-competitivo.md",
+        "class-14-informe-de-oportunidad-de-mercado.md",
+        "class-07-forecast.md",
+        "class-10-revenue-funnel.md",
+        "class-11-forecast-unificado.md",
+        "class-11-dashboard-financiero-comercial.md",
+    ]
+    for clase in clases_enlazadas:
+        assert clase in texto, "Commercial Evidence Pack sin enlace a {}".format(clase)
+
+    assert "```mermaid" in texto
+    assert "## Cómo usar esta guía" in texto
+    assert "## Ruta de aprendizaje y enlaces directos" in texto
+
 
 def test_readme_declara_cifras_coherentes(raiz):
     with open(os.path.join(raiz, "README.md"), encoding="utf-8") as fh:

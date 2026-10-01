@@ -121,7 +121,14 @@ def test_commercial_evidence_pack_cubre_la_cadena_completa(raiz):
     for clase in clases_enlazadas:
         assert clase in texto, "Commercial Evidence Pack sin enlace a {}".format(clase)
 
-    assert "```mermaid" in texto
+    assert texto.count("```mermaid") == 3
+    for fase in ["🔎 FASE 1 · COMPRENDER", "💎 FASE 2 · DISEÑAR",
+                 "📈 FASE 3 · PROYECTAR", "✅ FASE 4 · DECIDIR"]:
+        assert fase in texto, "Commercial Evidence Pack sin {}".format(fase)
+    assert texto.count("**Estado del bloque:**") == 10
+    assert "**🎯 Pregunta ejecutiva:**" in texto
+    assert "**📦 Entregable mínimo:**" in texto
+    assert "**🎓 Clases para resolverlo:**" in texto
     assert "## Antes de comenzar: qué es este documento" in texto
     assert "### Ejemplo completo en un minuto" in texto
     assert "## Ficha inicial: qué significa cada campo" in texto

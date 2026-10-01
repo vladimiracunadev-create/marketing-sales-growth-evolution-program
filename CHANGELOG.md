@@ -14,6 +14,8 @@ nuevo, **parche** = correcciones.
   archivos HTML únicos realmente generados.
 - Rediseñado el `Commercial Evidence Pack` como guía pedagógica navegable: explicación en lenguaje simple,
   ejemplo resuelto, glosario, mapa visual, ruta de uso, controles y enlaces directos a las clases.
+- Profesionalizada su presentación con cuatro fases visuales, iconografía coherente, estados de avance,
+  llamadas de control y diagramas para el sistema comercial, la evidencia de cliente y los funnels alternativos.
 - Ampliada la Parte 06 con una unidad aplicada sobre mascotas de marca y corpóreos: decisión estratégica,
   adaptación física/digital, operación segura y accesible, costos, atribución y evaluación incremental.
 - Extendido el caso sintético de Ruta Andina, la evaluación y el proyecto de las Partes 05–06 con una

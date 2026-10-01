@@ -2,10 +2,25 @@
 
 ## Guía para justificar una decisión comercial
 
+> [!NOTE]
+> **De evidencia dispersa a una decisión defendible.** Este documento convierte investigación, señales
+> comerciales y cálculos en una recomendación que otra persona puede revisar, cuestionar y actualizar.
+
+| 🔎 **Comprender** | 💎 **Diseñar** | 📈 **Proyectar** | ✅ **Decidir** |
+|---|---|---|---|
+| Mercado · Cliente · Competencia | Propuesta · Precio · Adquisición | Conversiones · Forecast | Supuestos · Evidencias · Acción |
+| Secciones 1–3 | Secciones 4–6 | Secciones 7–8 | Secciones 9–10 |
+
+**Leyenda de avance:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo para revisión · 🟥 requiere nueva evidencia
+
+`Estado del paquete:` ⬜ Comprender · ⬜ Diseñar · ⬜ Proyectar · ⬜ Decidir
+
 **Commercial Evidence Pack** significa **paquete de evidencias comerciales**. El nombre se conserva porque es
 el artefacto integrador del programa; no necesitas conocer el término en inglés para utilizarlo.
 
-> **Una guía paso a paso para responder una pregunta comercial con hechos, cálculos y dudas visibles.**
+> [!TIP]
+> No tienes que dominar el documento completo para comenzar. Define una decisión, trabaja una fase a la vez
+> y cambia su estado sólo cuando otra persona pueda comprobar lo que escribiste.
 
 ## Antes de comenzar: qué es este documento
 
@@ -35,12 +50,12 @@ recomiendas, por qué lo recomiendas y qué podría hacerte cambiar de opinión*
 
 | Paso | Lo que se encontró | Cómo afecta la decisión |
 |---|---|---|
-| Mercado | Hay negocios suficientes en el segmento, pero no existe una cifra confiable de cuota | Se puede probar la oportunidad; no se puede afirmar que será líder |
-| Cliente | 8 de 12 entrevistas describen las ausencias a citas como un costo frecuente | Existe una señal de problema, todavía no una prueba de compra |
-| Competencia | Tres alternativas observadas cobran entre CLP 39.000 y CLP 79.000 al mes | El precio inicial debe probarse dentro de un rango observable |
-| Prueba comercial | De 100 contactos, 15 aceptaron una demostración y 5 compraron | La conversión inicial es 5 %, pero la muestra sigue siendo pequeña |
-| Capacidad | El equipo puede incorporar como máximo 6 clientes nuevos al mes | El pronóstico no puede prometer 20 altas mensuales aunque exista demanda |
-| Decisión | Ejecutar una prueba limitada de 90 días y revisar al llegar a 100 nuevos contactos | Se aprueba aprender con un límite; no se aprueba todavía un lanzamiento masivo |
+| 🔎 Mercado | Hay negocios suficientes en el segmento, pero no existe una cifra confiable de cuota | Se puede probar la oportunidad; no se puede afirmar que será líder |
+| 👥 Cliente | 8 de 12 entrevistas describen las ausencias a citas como un costo frecuente | Existe una señal de problema, todavía no una prueba de compra |
+| ⚖️ Competencia | Tres alternativas observadas cobran entre CLP 39.000 y CLP 79.000 al mes | El precio inicial debe probarse dentro de un rango observable |
+| 🧪 Prueba comercial | De 100 contactos, 15 aceptaron una demostración y 5 compraron | La conversión inicial es 5 %, pero la muestra sigue siendo pequeña |
+| 🧱 Capacidad | El equipo puede incorporar como máximo 6 clientes nuevos al mes | El pronóstico no puede prometer 20 altas mensuales aunque exista demanda |
+| ✅ Decisión | Ejecutar una prueba limitada de 90 días y revisar al llegar a 100 nuevos contactos | Se aprueba aprender con un límite; no se aprueba todavía un lanzamiento masivo |
 
 Eso es lo que hace el paquete: conecta observaciones y cálculos con una decisión limitada y revisable.
 
@@ -63,10 +78,10 @@ No completes esta ficha hasta poder expresar la decisión como una pregunta conc
 
 | Estado | Úsalo cuando |
 |---|---|
-| **Borrador** | Faltan secciones o todavía estás reuniendo información |
-| **En revisión** | El documento está completo y otra persona está comprobando cálculos y fuentes |
-| **Aprobado** | La persona con autoridad aceptó la recomendación y sus límites |
-| **Requiere nueva evidencia** | La información actual no permite decidir responsablemente |
+| ⚪ **Borrador** | Faltan secciones o todavía estás reuniendo información |
+| 🔵 **En revisión** | El documento está completo y otra persona está comprobando cálculos y fuentes |
+| 🟢 **Aprobado** | La persona con autoridad aceptó la recomendación y sus límites |
+| 🟠 **Requiere nueva evidencia** | La información actual no permite decidir responsablemente |
 
 ## Qué vas a producir, explicado sin jerga
 
@@ -74,10 +89,10 @@ Al terminar tendrás **un documento principal** y enlaces a los materiales que l
 
 | Resultado | Qué contiene realmente | Cuándo se prepara |
 |---|---|---|
-| **Secciones 1–10 de esta guía** | Respuestas breves sobre mercado, cliente, oferta, ventas y proyección | Durante el análisis |
-| **Resumen ejecutivo de 1–2 páginas** | La recomendación, las razones principales, los riesgos y la siguiente acción | Al final, cuando las demás secciones están listas |
-| **Materiales de respaldo** | Entrevistas, hojas de cálculo, capturas de precios, informes o datos ya existentes | Se crean durante la investigación y sólo se enlazan desde aquí |
-| **Lista de dudas pendientes** | Lo que todavía no sabes, cuánto afecta la decisión y cómo lo investigarás | Se actualiza cada vez que aparece una brecha |
+| 🧩 **Secciones 1–10 de esta guía** | Respuestas breves sobre mercado, cliente, oferta, ventas y proyección | Durante el análisis |
+| 📄 **Resumen ejecutivo de 1–2 páginas** | La recomendación, las razones principales, los riesgos y la siguiente acción | Al final, cuando las demás secciones están listas |
+| 🔗 **Materiales de respaldo** | Entrevistas, hojas de cálculo, capturas de precios, informes o datos ya existentes | Se crean durante la investigación y sólo se enlazan desde aquí |
+| ⚠️ **Lista de dudas pendientes** | Lo que todavía no sabes, cuánto afecta la decisión y cómo lo investigarás | Se actualiza cada vez que aparece una brecha |
 
 Un **material de respaldo** —también llamado anexo— no es otro informe que debas escribir. Puede ser una
 entrevista guardada, una hoja de cálculo o el enlace a una fuente. El documento principal resume; el material
@@ -87,16 +102,35 @@ de respaldo permite comprobar que el resumen no fue inventado.
 
 ```mermaid
 flowchart LR
-    A[Mercado] --> B[Cliente]
-    B --> C[Competencia]
-    C --> D[Propuesta y oferta]
-    D --> E[Precio]
-    E --> F[Adquisición]
-    F --> G[Conversiones]
-    G --> H[Forecast]
-    I[Supuestos y evidencia] -. controlan .-> A
-    I -. controlan .-> H
-    H --> J[Decisión y próxima acción]
+    subgraph P1["🔎 1 · COMPRENDER"]
+        A["Mercado"] --> B["Cliente"] --> C["Competencia"]
+    end
+    subgraph P2["💎 2 · DISEÑAR"]
+        D["Propuesta"] --> E["Precio"] --> F["Adquisición"]
+    end
+    subgraph P3["📈 3 · PROYECTAR"]
+        G["Conversiones"] --> H["Forecast"]
+    end
+    subgraph P4["✅ 4 · DECIDIR"]
+        J["Recomendación"] --> K["Próxima acción"]
+    end
+
+    C --> D
+    F --> G
+    H --> J
+    I["🧾 Supuestos · evidencia · incertidumbre"] -. controla todo el recorrido .-> A
+    I -.-> H
+
+    classDef comprender fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef disenar fill:#EDE9FE,stroke:#7C3AED,color:#0F172A,stroke-width:2px;
+    classDef proyectar fill:#DCFCE7,stroke:#16A34A,color:#0F172A,stroke-width:2px;
+    classDef decidir fill:#FEF3C7,stroke:#D97706,color:#0F172A,stroke-width:2px;
+    classDef control fill:#F1F5F9,stroke:#64748B,color:#0F172A,stroke-dasharray:5 5;
+    class A,B,C comprender;
+    class D,E,F disenar;
+    class G,H proyectar;
+    class J,K decidir;
+    class I control;
 ```
 
 Lee el mapa de izquierda a derecha. Primero comprendes el mercado y el cliente; después diseñas oferta,
@@ -155,18 +189,21 @@ Para definiciones más completas, consulta el [glosario del programa](../../docs
 
 ## Ruta de aprendizaje y enlaces directos
 
+**Navegación visual:** 🔎 [Comprender](#1-mercado) → 💎 [Diseñar](#4-propuesta-y-oferta) →
+📈 [Proyectar](#7-conversiones) → ✅ [Decidir](#9-registro-de-supuestos)
+
 | Bloque | Pregunta que resuelve | Clases principales | Resultado esperado |
 |---|---|---|---|
-| [1. Mercado](#1-mercado) | ¿Existe una oportunidad suficientemente clara y vigente? | [03.08 TAM/SAM/SOM](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-08-tam-sam-y-som.md) · [03.11 Señales](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) · [03.14 Informe ejecutivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md) | Mercado priorizado con evidencia, rango y vigencia |
-| [2. Cliente](#2-cliente) | ¿Para quién resolvemos qué progreso y con qué evidencia? | [02.03 JTBD](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-03-jobs-to-be-done.md) · [02.05 ICP](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) · [02.14 Expediente](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) | Cadena cliente–decisión trazable |
-| [3. Competencia](#3-competencia-y-benchmarks) | ¿Frente a qué alternativa debemos igualar o diferenciarnos? | [03.09 Benchmarking](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) · [03.10 Competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) | Comparación reproducible, no adjetivos |
-| [4. Propuesta](#4-propuesta-y-oferta) | ¿Qué prometemos, entregamos y excluimos? | [05.02 Propuesta de valor](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) · [05.06 Oferta](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md) · [05.14 Oferta vendible](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) | Oferta coherente con cliente y competencia |
-| [5. Precio](#5-precio-y-economía-comercial) | ¿El precio es defendible y la adquisición sostenible? | [07.05 WTP](../../curriculum/part-07-pricing-y-monetizacion/class-05-willingness-to-pay.md) · [07.12 Unit economics](../../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md) · [20.03 CAC](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-03-cac.md) · [20.04 LTV](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md) | Rango de precio y límites económicos explícitos |
-| [6. Adquisición](#6-adquisición) | ¿Qué canal puede producir demanda atendible y a qué costo? | [14.08 Presupuesto](../../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) · [14.10 CPA/CAC/ROAS](../../curriculum/part-14-publicidad-y-performance-marketing/class-10-cpa-cac-y-roas.md) · [14.14 Plan](../../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) | Plan de volumen, costo, calidad y capacidad |
-| [7. Conversiones](#7-conversiones) | ¿Cómo se transforma la demanda en clientes e ingreso? | [17.10 Revenue funnel](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-10-revenue-funnel.md) · [20.02 Conversión](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md) | Modelo de etapas con criterios y tasas |
-| [8. Forecast](#8-forecast-comercial) | ¿Qué resultado es defendible bajo capacidad e incertidumbre? | [16.07 Forecast](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md) · [16.09 Capacidad](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) · [17.11 Forecast unificado](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) | Escenarios, restricciones y confianza calibrada |
-| [9. Supuestos](#9-registro-de-supuestos) | ¿Qué tendría que ser cierto y cómo lo refutaremos? | [03.13 Validación](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) · [Estándar de evidencia](../../docs/ESTANDAR-DE-EVIDENCIA.md) | Registro con sensibilidad, dueño y fecha |
-| [10. Decisión](#10-evidencias-incertidumbres-y-decisión) | ¿Qué haremos, por qué y qué nos haría cambiar? | [17.14 Operating model RevOps](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) · [24.11 Integración](../../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) | Recomendación condicionada y gobernada |
+| 🔎 [1. Mercado](#1-mercado) | ¿Existe una oportunidad suficientemente clara y vigente? | [03.08 TAM/SAM/SOM](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-08-tam-sam-y-som.md) · [03.11 Señales](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) · [03.14 Informe ejecutivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md) | Mercado priorizado con evidencia, rango y vigencia |
+| 👥 [2. Cliente](#2-cliente) | ¿Para quién resolvemos qué progreso y con qué evidencia? | [02.03 JTBD](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-03-jobs-to-be-done.md) · [02.05 ICP](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) · [02.14 Expediente](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) | Cadena cliente–decisión trazable |
+| ⚖️ [3. Competencia](#3-competencia-y-benchmarks) | ¿Frente a qué alternativa debemos igualar o diferenciarnos? | [03.09 Benchmarking](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) · [03.10 Competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) | Comparación reproducible, no adjetivos |
+| 💎 [4. Propuesta](#4-propuesta-y-oferta) | ¿Qué prometemos, entregamos y excluimos? | [05.02 Propuesta de valor](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) · [05.06 Oferta](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md) · [05.14 Oferta vendible](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) | Oferta coherente con cliente y competencia |
+| 💰 [5. Precio](#5-precio-y-economía-comercial) | ¿El precio es defendible y la adquisición sostenible? | [07.05 WTP](../../curriculum/part-07-pricing-y-monetizacion/class-05-willingness-to-pay.md) · [07.12 Unit economics](../../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md) · [20.03 CAC](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-03-cac.md) · [20.04 LTV](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md) | Rango de precio y límites económicos explícitos |
+| 📣 [6. Adquisición](#6-adquisición) | ¿Qué canal puede producir demanda atendible y a qué costo? | [14.08 Presupuesto](../../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) · [14.10 CPA/CAC/ROAS](../../curriculum/part-14-publicidad-y-performance-marketing/class-10-cpa-cac-y-roas.md) · [14.14 Plan](../../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) | Plan de volumen, costo, calidad y capacidad |
+| 🔄 [7. Conversiones](#7-conversiones) | ¿Cómo se transforma la demanda en clientes e ingreso? | [17.10 Revenue funnel](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-10-revenue-funnel.md) · [20.02 Conversión](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md) | Modelo de etapas con criterios y tasas |
+| 📈 [8. Forecast](#8-forecast-comercial) | ¿Qué resultado es defendible bajo capacidad e incertidumbre? | [16.07 Forecast](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md) · [16.09 Capacidad](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) · [17.11 Forecast unificado](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) | Escenarios, restricciones y confianza calibrada |
+| 🧾 [9. Supuestos](#9-registro-de-supuestos) | ¿Qué tendría que ser cierto y cómo lo refutaremos? | [03.13 Validación](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) · [Estándar de evidencia](../../docs/ESTANDAR-DE-EVIDENCIA.md) | Registro con sensibilidad, dueño y fecha |
+| ✅ [10. Decisión](#10-evidencias-incertidumbres-y-decisión) | ¿Qué haremos, por qué y qué nos haría cambiar? | [17.14 Operating model RevOps](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) · [24.11 Integración](../../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) | Recomendación condicionada y gobernada |
 
 ### Qué encontrarás al abrir una clase
 
@@ -203,13 +240,20 @@ no puede inventar afirmaciones para llenar cuadrantes.
 | “Las pymes necesitan automatización.” | **Inferencia:** 7 de 10 entrevistados describieron al menos cuatro horas semanales de conciliación manual. Entrevistas E-01 a E-10, agosto de 2026. Alternativa: el problema puede ser capacitación, no ausencia de software. |
 | “La conversión será 8 %.” | **Estimación:** rango 5–8 %, basado en dos cohortes comparables; escenario base 6 %, revisión al acumular 100 SQL. |
 
+> [!TIP]
+> **🔎 FASE 1 · COMPRENDER** — Antes de diseñar la solución, demuestra que entiendes el mercado, el cliente y
+> las alternativas que ya utiliza.
+
 ## 1. Mercado
 
-**Pregunta ejecutiva:** ¿qué oportunidad merece recursos ahora y qué evidencia limita esa conclusión?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** una página de inteligencia comercial y un anexo con fuentes.
-
-**Profundiza en:** [03.08 TAM/SAM/SOM](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-08-tam-sam-y-som.md), [03.09 Benchmarking](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md), [03.10 Competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md), [03.11 Señales](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) y [03.14 Informe ejecutivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué oportunidad merece recursos ahora y qué evidencia limita esa conclusión?
+>
+> **📦 Entregable mínimo:** una página de inteligencia comercial y un anexo con fuentes.
+>
+> **🎓 Clases para resolverlo:** [03.08 TAM/SAM/SOM](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-08-tam-sam-y-som.md), [03.09 Benchmarking](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md), [03.10 Competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md), [03.11 Señales](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) y [03.14 Informe ejecutivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md).
 
 | Elemento | Hallazgo ejecutivo | Tipo | Fuente y fecha | Incertidumbre / vigencia | Implicación |
 |---|---|---|---|---|---|
@@ -220,16 +264,40 @@ no puede inventar afirmaciones para llenar cuadrantes.
 | Tendencias y señales de demanda |  |  |  |  |  |
 | Canales y precios observables |  |  |  |  |  |
 
-> **Control de calidad:** si no existe una fuente confiable para cuota, usa participación en negocios
-> observados o declara `no disponible`. Nunca presentes una estimación como dato de mercado.
+> [!IMPORTANT]
+> **Control de calidad**
+> Si no existe una fuente confiable para cuota, usa participación en negocios observados o declara
+> `no disponible`. Nunca presentes una estimación como dato de mercado.
 
 ## 2. Cliente
 
-**Pregunta ejecutiva:** ¿cómo sabemos que el segmento elegido tiene el problema y comprará esta solución?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** cadena completa desde segmento hasta acción de venta, con procedencia por eslabón.
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿cómo sabemos que el segmento elegido tiene el problema y comprará esta solución?
+>
+> **📦 Entregable mínimo:** cadena completa desde segmento hasta acción de venta, con procedencia por eslabón.
+>
+> **🎓 Clases para resolverlo:** [02.03 JTBD](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-03-jobs-to-be-done.md), [02.04 Persona con evidencia](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md), [02.05 ICP](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md), [03.03 Entrevistas](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) y [02.14 Expediente accionable](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md).
 
-**Profundiza en:** [02.03 JTBD](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-03-jobs-to-be-done.md), [02.04 Persona con evidencia](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md), [02.05 ICP](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md), [03.03 Entrevistas](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) y [02.14 Expediente accionable](../../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md).
+```mermaid
+flowchart LR
+    A["Segmento"] --> B["ICP"] --> C["Entrevistas y observación"] --> D["JTBD"]
+    D --> E["Pains / gains"] --> F["Propuesta"] --> G["Mensaje"]
+    G --> H["Oferta"] --> I["Canal"] --> J["Venta"]
+    K["🧾 Origen identificable"] -. entrevista · conducta · encuesta · hipótesis .-> C
+    K -.-> F
+    K -.-> J
+
+    classDef cliente fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef propuesta fill:#EDE9FE,stroke:#7C3AED,color:#0F172A,stroke-width:2px;
+    classDef venta fill:#DCFCE7,stroke:#16A34A,color:#0F172A,stroke-width:2px;
+    classDef evidencia fill:#F1F5F9,stroke:#64748B,color:#0F172A,stroke-dasharray:5 5;
+    class A,B,C,D,E cliente;
+    class F,G,H propuesta;
+    class I,J venta;
+    class K evidencia;
+```
 
 | Eslabón | Conclusión o decisión | Origen | Evidencia enlazada | Pendiente / próxima prueba |
 |---|---|---|---|---|
@@ -244,16 +312,21 @@ no puede inventar afirmaciones para llenar cuadrantes.
 | Canal |  |  |  |  |
 | Acción de venta |  |  |  |  |
 
-> **Control de calidad:** recorre la tabla de abajo hacia arriba. Si una decisión no puede regresar a una
-> entrevista, observación, conducta o encuesta, márcala como hipótesis no validada.
+> [!IMPORTANT]
+> **Control de calidad**
+> Recorre la tabla de abajo hacia arriba. Si una decisión no puede regresar a una entrevista, observación,
+> conducta o encuesta, márcala como hipótesis no validada.
 
 ## 3. Competencia y benchmarks
 
-**Pregunta ejecutiva:** ¿en qué debemos alcanzar paridad y dónde conviene diferenciarnos?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** protocolo reproducible, evidencia por alternativa y una conclusión de inversión.
-
-**Profundiza en:** [03.09 Benchmarking competitivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) y [03.10 Análisis de competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿en qué debemos alcanzar paridad y dónde conviene diferenciarnos?
+>
+> **📦 Entregable mínimo:** protocolo reproducible, evidencia por alternativa y una conclusión de inversión.
+>
+> **🎓 Clases para resolverlo:** [03.09 Benchmarking competitivo](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) y [03.10 Análisis de competencia](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md).
 
 **Muestra:** · **Segmento comparado:** · **Fecha de corte:** · **Regla de comparación:**
 
@@ -273,16 +346,25 @@ no puede inventar afirmaciones para llenar cuadrantes.
 |---|---|---|---|---|---|
 |  |  |  |  |  |  |
 
-> **Control de calidad:** usa `no observable` cuando falte evidencia. Fortaleza y debilidad son diferencias
-> demostrables para el segmento; cualquier explicación causal se registra como inferencia.
+> [!IMPORTANT]
+> **Control de calidad**
+> Usa `no observable` cuando falte evidencia. Fortaleza y debilidad son diferencias demostrables para el
+> segmento; cualquier explicación causal se registra como inferencia.
+
+> [!TIP]
+> **💎 FASE 2 · DISEÑAR** — Convierte lo aprendido en una oferta clara, un precio defendible y un sistema de
+> adquisición compatible con la economía y la capacidad reales.
 
 ## 4. Propuesta y oferta
 
-**Pregunta ejecutiva:** ¿qué prometemos, a quién, bajo qué condiciones y con qué reducción de riesgo?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** oferta comprensible y ejecutable sin la presencia de su autor.
-
-**Profundiza en:** [05.02 Value Proposition Canvas](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md), [05.06 Diseño de ofertas](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md), [05.07 Packaging](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md), [05.08 Garantías](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md), [05.12 Voice of Customer](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-12-voice-of-customer.md) y [05.14 Oferta lista para vender](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué prometemos, a quién, bajo qué condiciones y con qué reducción de riesgo?
+>
+> **📦 Entregable mínimo:** oferta comprensible y ejecutable sin la presencia de su autor.
+>
+> **🎓 Clases para resolverlo:** [05.02 Value Proposition Canvas](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md), [05.06 Diseño de ofertas](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md), [05.07 Packaging](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md), [05.08 Garantías](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md), [05.12 Voice of Customer](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-12-voice-of-customer.md) y [05.14 Oferta lista para vender](../../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md).
 
 | Elemento | Decisión | Evidencia de cliente | Evidencia competitiva | Hipótesis pendiente | Revisión |
 |---|---|---|---|---|---|
@@ -294,11 +376,14 @@ no puede inventar afirmaciones para llenar cuadrantes.
 
 ## 5. Precio y economía comercial
 
-**Pregunta ejecutiva:** ¿qué precio es defendible y bajo qué límites económicos podemos adquirir clientes?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** rango de precio, sensibilidad y restricciones de CAC, LTV, margen y payback.
-
-**Profundiza en:** [07.03 Pricing competitivo](../../curriculum/part-07-pricing-y-monetizacion/class-03-competitor-based-pricing.md), [07.05 Willingness to Pay](../../curriculum/part-07-pricing-y-monetizacion/class-05-willingness-to-pay.md), [07.12 Unit economics](../../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md), [20.03 CAC](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-03-cac.md), [20.04 LTV](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md), [20.05 Payback](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-05-payback.md) y [20.06 Margen de contribución](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué precio es defendible y bajo qué límites económicos podemos adquirir clientes?
+>
+> **📦 Entregable mínimo:** rango de precio, sensibilidad y restricciones de CAC, LTV, margen y payback.
+>
+> **🎓 Clases para resolverlo:** [07.03 Pricing competitivo](../../curriculum/part-07-pricing-y-monetizacion/class-03-competitor-based-pricing.md), [07.05 Willingness to Pay](../../curriculum/part-07-pricing-y-monetizacion/class-05-willingness-to-pay.md), [07.12 Unit economics](../../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md), [20.03 CAC](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-03-cac.md), [20.04 LTV](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md), [20.05 Payback](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-05-payback.md) y [20.06 Margen de contribución](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md).
 
 | Variable | Valor / rango | Fuente o fórmula | Tipo | Sensibilidad | Límite de uso |
 |---|---:|---|---|---|---|
@@ -311,30 +396,63 @@ no puede inventar afirmaciones para llenar cuadrantes.
 | LTV |  |  |  |  |  |
 | Periodo de recuperación |  |  |  |  |  |
 
-> **Límite de alcance:** este bloque prepara restricciones para el forecast. No modela caja, balance ni estados
-> financieros y no sustituye una proyección financiera.
+> [!WARNING]
+> **Límite de alcance**
+> Este bloque prepara restricciones para el forecast. No modela caja, balance ni estados financieros y no
+> sustituye una proyección financiera.
 
 ## 6. Adquisición
 
-**Pregunta ejecutiva:** ¿qué canal puede generar demanda de calidad sin superar costo ni capacidad?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** volumen, costo, calidad, capacidad y regla de inversión por canal.
-
-**Profundiza en:** [14.08 Presupuesto y pacing](../../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md), [14.10 CPA, CAC y ROAS](../../curriculum/part-14-publicidad-y-performance-marketing/class-10-cpa-cac-y-roas.md), [14.14 Plan de performance](../../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) y [16.09 Sales capacity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué canal puede generar demanda de calidad sin superar costo ni capacidad?
+>
+> **📦 Entregable mínimo:** volumen, costo, calidad, capacidad y regla de inversión por canal.
+>
+> **🎓 Clases para resolverlo:** [14.08 Presupuesto y pacing](../../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md), [14.10 CPA, CAC y ROAS](../../curriculum/part-14-publicidad-y-performance-marketing/class-10-cpa-cac-y-roas.md), [14.14 Plan de performance](../../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) y [16.09 Sales capacity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md).
 
 | Canal / movimiento | Unidad de entrada | Volumen | Costo | Calidad | Capacidad | Evidencia / supuesto |
 |---|---|---:|---:|---|---:|---|
 |  |  |  |  |  |  |  |
 
+> [!TIP]
+> **📈 FASE 3 · PROYECTAR** — Traduce demanda en etapas, tasas, tiempo e ingreso. El modelo debe adaptarse al
+> negocio y detenerse donde la capacidad real impone un límite.
+
 ## 7. Conversiones
 
-**Pregunta ejecutiva:** ¿qué pasos verificables convierten demanda en clientes e ingreso?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** modelo de etapas con criterio de entrada/salida, volumen, conversión y duración.
-
-**Profundiza en:** [17.10 Revenue funnel](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-10-revenue-funnel.md) y [20.02 Conversión y funnels](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué pasos verificables convierten demanda en clientes e ingreso?
+>
+> **📦 Entregable mínimo:** modelo de etapas con criterio de entrada/salida, volumen, conversión y duración.
+>
+> **🎓 Clases para resolverlo:** [17.10 Revenue funnel](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-10-revenue-funnel.md) y [20.02 Conversión y funnels](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md).
 
 Elige el modelo que describe el negocio. No añadas MQL o SQL si no cambian una decisión.
+
+```mermaid
+flowchart LR
+    A["Demanda"] --> B{"Movimiento comercial"}
+    B -->|B2B| C["Lead → MQL → SQL → oportunidad"]
+    B -->|E-commerce| D["Visita → carrito → compra"]
+    B -->|Suscripción / PLG| E["Registro → activación → pago"]
+    B -->|Canal indirecto| F["Socio → oportunidad → venta"]
+    C --> G["Clientes"]
+    D --> G
+    E --> G
+    F --> G
+    G --> H["Ingreso = clientes × ticket × frecuencia"]
+
+    classDef entrada fill:#DBEAFE,stroke:#2563EB,color:#0F172A,stroke-width:2px;
+    classDef modelos fill:#EDE9FE,stroke:#7C3AED,color:#0F172A,stroke-width:2px;
+    classDef salida fill:#DCFCE7,stroke:#16A34A,color:#0F172A,stroke-width:2px;
+    class A,B entrada;
+    class C,D,E,F modelos;
+    class G,H salida;
+```
 
 ### Modelo B2B
 
@@ -359,11 +477,14 @@ Marca uno: **e-commerce / suscripción / PLG / canal indirecto / otro**.
 
 ## 8. Forecast comercial
 
-**Pregunta ejecutiva:** ¿qué rango de resultado puede defenderse bajo las restricciones observadas?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** escenarios, componentes separados, límites operativos y confianza calibrada.
-
-**Profundiza en:** [16.07 Forecast de pipeline](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md), [16.09 Sales capacity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md), [16.10 Sales velocity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md), [17.11 Forecast unificado](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) y [20.11 Forecasting](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-11-forecasting.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué rango de resultado puede defenderse bajo las restricciones observadas?
+>
+> **📦 Entregable mínimo:** escenarios, componentes separados, límites operativos y confianza calibrada.
+>
+> **🎓 Clases para resolverlo:** [16.07 Forecast de pipeline](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-07-forecast.md), [16.09 Sales capacity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md), [16.10 Sales velocity](../../curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md), [17.11 Forecast unificado](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) y [20.11 Forecasting](../../curriculum/part-20-analitica-comercial-y-marketing-science/class-11-forecasting.md).
 
 | Componente | Conservador | Base | Optimista | Supuestos críticos | Evidencia | Precisión histórica |
 |---|---:|---:|---:|---|---|---:|
@@ -387,13 +508,20 @@ Marca uno: **e-commerce / suscripción / PLG / canal indirecto / otro**.
 **Justificación:** calidad y vigencia de evidencia, cobertura, concentración, estabilidad, capacidad y precisión
 histórica. La confianza expresa calibración, nunca certeza.
 
+> [!TIP]
+> **✅ FASE 4 · DECIDIR** — Expón los supuestos que mueven el resultado y formula una decisión con responsable,
+> condición de revisión y siguiente acción.
+
 ## 9. Registro de supuestos
 
-**Pregunta ejecutiva:** ¿qué tendría que ser cierto para que la decisión funcione?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** supuesto refutable, sensibilidad, responsable y fecha de revisión.
-
-**Profundiza en:** [03.13 Validación de hipótesis](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) y [Estándar de evidencia](../../docs/ESTANDAR-DE-EVIDENCIA.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué tendría que ser cierto para que la decisión funcione?
+>
+> **📦 Entregable mínimo:** supuesto refutable, sensibilidad, responsable y fecha de revisión.
+>
+> **🎓 Clases para resolverlo:** [03.13 Validación de hipótesis](../../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) y [Estándar de evidencia](../../docs/ESTANDAR-DE-EVIDENCIA.md).
 
 | ID | Supuesto | Tipo | Evidencia actual | Sensibilidad | Criterio de refutación | Responsable | Revisión |
 |---|---|---|---|---|---|---|---|
@@ -401,17 +529,24 @@ histórica. La confianza expresa calibración, nunca certeza.
 
 ## 10. Evidencias, incertidumbres y decisión
 
-**Pregunta ejecutiva:** ¿qué haremos ahora, con qué confianza y bajo qué condición cambiaremos?
+**Estado del bloque:** ⬜ sin iniciar · 🟨 en curso · 🟩 listo · 🟥 requiere evidencia
 
-**Salida mínima:** recomendación condicionada, alternativa descartada y próxima acción gobernada.
-
-**Profundiza en:** [17.14 Operating model RevOps](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) y [24.11 Commercial Evidence Pack](../../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md).
+> [!NOTE]
+> **🎯 Pregunta ejecutiva:** ¿qué haremos ahora, con qué confianza y bajo qué condición cambiaremos?
+>
+> **📦 Entregable mínimo:** recomendación condicionada, alternativa descartada y próxima acción gobernada.
+>
+> **🎓 Clases para resolverlo:** [17.14 Operating model RevOps](../../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) y [24.11 Commercial Evidence Pack](../../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md).
 
 | Conclusión | Evidencia que la sostiene | Incertidumbre restante | Qué la haría cambiar | Próxima acción |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
 ### Resumen ejecutivo
+
+> [!IMPORTANT]
+> Escribe este resumen **al final**. Debe permitir que una persona entienda la decisión en 1–2 páginas sin
+> recorrer todos los anexos, pero cada afirmación importante debe poder rastrearse a una sección anterior.
 
 - **Decisión solicitada:**
 - **Recomendación condicionada:**

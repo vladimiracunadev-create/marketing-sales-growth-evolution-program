@@ -177,7 +177,8 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 
 El paquete reúne en un solo lugar la evidencia de mercado, cliente, competencia, propuesta, precio,
 adquisición, conversiones y forecast. Es una guía pedagógica y navegable: explica cada campo en lenguaje
-simple, incluye un ejemplo resuelto, glosario, mapa visual y enlaces directos a las clases completas.
+simple, incluye un ejemplo resuelto, iconografía por bloque, tres mapas visuales, estados de avance, glosario
+y enlaces directos a las clases completas.
 
 | Abrir | Para qué sirve | Ruta dentro del repositorio |
 |---|---|---|

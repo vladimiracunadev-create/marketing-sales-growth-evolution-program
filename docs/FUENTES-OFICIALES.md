@@ -1,6 +1,6 @@
 # Fuentes oficiales
 
-**Fecha de revisión: 18 de agosto de 2026.** Toda la información normativa y de plataformas cambia con el
+**Fecha de revisión: 4 de octubre de 2026.** Toda la información normativa y de plataformas cambia con el
 tiempo. Este documento registra dónde verificar, no reemplaza la verificación.
 
 ## Regla del programa
@@ -80,7 +80,25 @@ las capacidades cambian con frecuencia.
 | ISO 31000 | Vocabulario y proceso de gestión de riesgo |
 | ISO 26362 / ESOMAR | Estándares de investigación de mercados |
 
-## 9. Cómo citar una fuente en un entregable
+## 9. Estados Unidos — medicamentos y publicidad sanitaria
+
+Estas fuentes sostienen el caso MEDVi de la parte 24. La carta documenta la posición del regulador; la
+comunicación corporativa documenta la respuesta de la empresa. Ninguna de las dos debe presentarse como si
+fuera la otra ni como sentencia judicial.
+
+| Fuente | Qué contiene | Enlace |
+|---|---|---|
+| FDA — Warning Letter MEDVi, LLC dba MEDVi, MARCS-CMS 721455 | Observaciones de la FDA, claims citados, fundamento indicado y respuesta solicitada | <https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026> |
+| FDA — Compounding and the FDA: Questions and Answers | Distinción entre medicamentos compuestos y productos aprobados | <https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers> |
+| FDA — Generic Drug Facts | Requisitos y significado de medicamento genérico aprobado | <https://www.fda.gov/drugs/generic-drugs/generic-drug-facts> |
+| FDA — Counterfeit Medicine | Riesgos y definición operativa de medicamentos falsificados | <https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine> |
+| MEDVi — Official Communication | Respuesta pública de la empresa y posición sobre afiliados y contenido generado con IA | <https://home.medvi.org/communication> |
+
+> **Regla de clasificación:** `compounded` no significa `counterfeit`. Un medicamento compuesto no está
+> aprobado por la FDA; uno falsificado se presenta como auténtico sin serlo. Un genérico sí es un producto
+> aprobado que debe cumplir los requisitos aplicables. Conserva las cuatro categorías separadas.
+
+## 10. Cómo citar una fuente en un entregable
 
 ```text
 Fuente: <organismo o publicación>
@@ -91,10 +109,11 @@ Fecha de consulta: <AAAA-MM-DD>
 Qué sostiene: <la afirmación específica que respalda>
 ```
 
-## 10. Registro de revisión
+## 11. Registro de revisión
 
 | Fecha | Cambio |
 |---|---|
+| 2026-10-04 | Se añadieron fuentes FDA y la respuesta corporativa para el caso avanzado MEDVi |
 | 2026-08-18 | Revisión completa de enlaces y reorganización por materia |
 
 ---

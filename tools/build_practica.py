@@ -206,8 +206,11 @@ def render_assessment(parte, cls):
     if parte.get("evaluacion_requisitos"):
         lineas += ["### Requisitos específicos del caso", ""]
         lineas += ["{}. {}.".format(i, p[0].upper() + p[1:]) for i, p in enumerate(parte["evaluacion_requisitos"], 1)]
-        lineas += ["", "Una recomendación que descarte el corpóreo puede obtener el puntaje completo si la comparación, "
-                   "la evidencia y los límites están bien resueltos.", ""]
+        nota = parte.get(
+            "evaluacion_nota",
+            "Cumplir los requisitos no predetermina la recomendación: se puntúan la comparación, la evidencia y los límites.",
+        )
+        lineas += ["", nota, ""]
     lineas += [
         "## C. Método y evidencia — 30 puntos",
         "",
@@ -303,6 +306,8 @@ def render_case(parte, cls):
         lineas += ["## Extensión aplicada", ""]
         lineas += ["- {}".format(p) for p in parte["caso_extension"]]
         lineas += [""]
+    if parte.get("caso_avanzado"):
+        lineas += parte["caso_avanzado"] + [""]
     lineas += [
         "## Preguntas de análisis",
         "",

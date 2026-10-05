@@ -24,6 +24,113 @@ El equipo tiene tres semanas para presentar una recomendación al comité. Exist
 | `datasets/ecommerce_orders.csv` | Pedidos, montos y devoluciones | Sin costo logístico desagregado |
 | `datasets/experiments.csv` | Pruebas ejecutadas y resultados | Varias sin tamaño de muestra registrado |
 
+## Caso avanzado — MEDVi: growth AI-native bajo regulación
+
+MEDVi se incorpora como caso externo y comparativo; no sustituye a Ruta Andina ni convierte datos periodísticos en cifras auditadas. La pregunta no es si la IA es buena o mala, sino qué ocurre cuando el costo marginal de producir y distribuir marketing cae más rápido que la capacidad de gobernarlo.
+
+### 1. Potencia de un motor AI-native
+
+Forbes informó, basándose en cifras atribuidas a estados financieros revisados por *The New York Times*, que MEDVi generó USD 401 millones de ingresos en 2025 con 250.000 clientes y que proyectaba USD 1.800 millones para 2026. El mismo reportaje describió una estructura de dos personas apoyada en más de una docena de herramientas de IA y proveedores externos. Son cifras reportadas, no verificadas de forma independiente por este programa; se usan como señal de escala y no como validación del modelo.
+
+La arquitectura AI-native puede comprimir el ciclo `investigación → copy → imagen o vídeo → landing → campaña → experimento → análisis → nueva variante`. También puede asistir personalización, soporte, analítica y optimización. La ventaja aparece cuando aprendizaje, capacidad de servir y control crecen juntos. Si sólo crece la producción, el sistema aumenta inventario de piezas y exposición sin aumentar la probabilidad de que cada promesa sea correcta.
+
+### 2. Error Amplification Factor
+
+El **Error Amplification Factor (EAF)** se define como `impactos erróneos distribuidos atribuibles a una fuente de error / fuentes de error originarias`, dentro de una ventana y alcance declarados. Un impacto puede ser una impresión, mensaje, decisión, conversión o atención de soporte; el denominador debe conservar el error originario para no confundir muchos errores independientes con amplificación.
+
+`error humano individual → una pieza → revisión o alcance limitado` no equivale a `claim incorrecto → IA → campaña → automatización → afiliados → múltiples canales → miles de impresiones → conversiones → reclamos y riesgo regulatorio`. La IA aumenta productividad y **blast radius** a la vez. La métrica se acompaña con severidad, velocidad de propagación y tiempo hasta contención: diez errores clínicos no son equivalentes a diez errores tipográficos.
+
+### 3. Marketing regulado: clasificación operacional
+
+| Categoría | Prueba observable | Tratamiento inicial |
+|---|---|---|
+| Marketing persuasivo | selección veraz de beneficios con fuente, contexto y límites | puede avanzar al control de evidencia |
+| Claim no sustentado | no existe evidencia pertinente para producto, población y resultado declarados | detener hasta aportar o retirar el claim |
+| Publicidad engañosa | una representación u omisión material puede inducir a una conclusión falsa | detener y escalar a revisión regulatoria |
+| Alucinación generativa | el sistema fabrica o altera un dato, fuente, testimonio o atributo | bloquear, registrar incidente y evaluar alcance |
+| Dark pattern | la interfaz dificulta o manipula una elección informada | rediseñar antes de publicar |
+| Falsa autoridad | una persona, imagen o identidad aparenta una credencial que no posee o no puede verificarse | bloquear y verificar identidad, rol y consentimiento |
+| Información clínica | contenido que orienta sobre condición, tratamiento, seguridad, eficacia o uso | separar educación de promoción y exigir revisión clínica |
+
+La clasificación se aplica también a testimonios, comparaciones, promesas comerciales, influencers, personajes generados, imágenes de profesionales y explicaciones clínicas. Declarar que una imagen fue generada no vuelve verdadero el claim ni corrige una autoridad aparente falsa.
+
+### 4. Expediente regulatorio MEDVi
+
+| Capa | Registro del caso |
+|---|---|
+| Hecho documental | La FDA publicó la Warning Letter MARCS-CMS 721455, fechada el 20 de febrero de 2026, dirigida a `MEDVi, LLC dba MEDVi`; indica que revisó `medvi.io` en diciembre de 2025. |
+| Alegación observada | La carta reproduce claims de «mismo ingrediente activo» y describe imágenes de etiquetas que, según la FDA, sugerían que MEDVi era el compounder. |
+| Regulador | La FDA sostuvo que las representaciones eran falsas o engañosas y que los productos quedaban misbranded bajo las disposiciones citadas; pidió respuesta escrita en quince días hábiles. Una warning letter comunica la posición de la agencia y no sustituye una sentencia. |
+| Respuesta de la empresa | En una comunicación del 8 de abril de 2026, MEDVi afirmó que `medvi.io` pertenecía a una agencia afiliada, que exigió retirar materiales desactualizados y que la afiliada respondió a la FDA. También dijo haber detectado anuncios con posibles profesionales generados por IA y haberlos prohibido. |
+| Análisis | La divergencia sobre destinatario, control del dominio y relación con el afiliado no se resuelve por repetición. Exige documentos de propiedad, contratos, instrucciones, versiones de creatividades, fechas de retirada y acuse de respuesta. |
+
+**Distinciones obligatorias.** Un producto **FDA-approved** pasó la revisión aplicable de una solicitud para usos y etiquetado determinados. Un **generic** es una copia aprobada que debe cumplir requisitos de equivalencia y calidad. Un medicamento **compounded** se prepara para necesidades clínicas específicas bajo condiciones legales y no es FDA-approved: la FDA no verifica previamente su seguridad, eficacia y calidad como hace con un producto aprobado. Un **counterfeit** se presenta falsamente como auténtico. Compounded no significa counterfeit; son categorías distintas y confundirlas invalida el análisis.
+
+### 5. Claim Gate y puntos de detención
+
+```text
+AI GENERATION
+      ↓
+CLAIM EXTRACTION
+      ↓
+SOURCE VERIFICATION
+      ↓
+FACT CHECK
+      ↓
+REGULATORY CHECK
+      ↓
+HUMAN APPROVAL
+      ↓
+PUBLICATION
+      ↓
+MONITORING
+      ↓
+AUDIT LOG
+```
+
+La campaña se detiene automáticamente si un claim carece de fuente; la fuente no corresponde al producto, dosis, población o resultado; se infiere aprobación, seguridad o eficacia no demostrada; aparece una identidad o testimonio no verificable; falta revisión clínica o regulatoria exigida; el afiliado o la creatividad no están registrados; o una alerta supera el umbral de reclamos, reembolsos, violaciones o incidentes. Publicar requiere aprobación nominal y versionada; monitorear no reemplaza la revisión previa, y el audit log debe enlazar claim, evidencia, versión, aprobador, canal y retirada.
+
+### 6. Affiliate governance
+
+El sistema mínimo mantiene `registro de afiliado → identidad y beneficiario → contrato → claims autorizados/prohibidos → creatividad versionada → aprobación → canales y dominios declarados → monitoreo → alertas → suspensión → kill switch → auditoría`. El kill switch debe permitir detener anuncios, enlaces, landing pages y pagos pendientes por canal con responsable y tiempo objetivo probado. La empresa debe poder demostrar qué sabía, cuándo lo supo, qué instrucción emitió y cuándo cesó la distribución. **Outsourcing marketing ≠ outsourcing responsibility.**
+
+### 7. Simulación: ventas 20× en seis meses
+
+Una startup AI-native pasa de 500 a 10.000 ventas mensuales. El equipo debe dimensionar qué capacidad también aumenta: compliance, monitoreo, soporte, auditoría, proveedores, afiliados, reclamaciones, seguridad y supervisión humana. No se acepta responder «20× todo»: algunas cargas crecen con ventas, otras con piezas, afiliados, canales o incidentes. Para cada capacidad se exige `driver → capacidad actual → demanda a 20× → brecha → umbral de contratación o automatización → dueño → fallback`.
+
+El equipo recibe una complicación: a la semana 12 la tasa de revisión humana cae de 100 % a 18 %, un afiliado concentra 42 % de las ventas, los reclamos se triplican y una creatividad sin versión activa sigue circulando. Debe decidir qué detener, qué mantener, cómo atender a clientes ya convertidos y qué evidencia conservar, aunque la detención reduzca el crecimiento del mes.
+
+### 8. Tablero de growth ajustado por riesgo
+
+| Métrica | Ficha mínima |
+|---|---|
+| CAC | costo incremental de adquisición / clientes nuevos, por cohorte y mes |
+| LTV | margen de contribución esperado por cliente durante la ventana declarada |
+| Conversion rate | conversiones válidas / oportunidades elegibles, por canal y semana |
+| Retention | clientes activos al cierre que eran elegibles al inicio / clientes elegibles al inicio, por cohorte |
+| Refund rate | transacciones reembolsadas / transacciones cobradas, por cohorte y 30 días |
+| Complaint rate | reclamos únicos / pedidos o clientes servidos, por semana |
+| Claim rejection rate | claims rechazados por el gate / claims extraídos, por versión de campaña |
+| Affiliate violation rate | infracciones confirmadas / piezas o afiliados auditados, por mes |
+| Regulatory incident rate | incidentes regulatorios confirmados / campañas activas, por trimestre |
+| AI-generated-content rate | piezas con generación o edición sustantiva de IA / piezas publicadas, por mes |
+| Human-review rate | piezas con aprobación humana registrada / piezas publicadas, por mes |
+
+El **risk-adjusted growth** no resta un puntaje arbitrario al crecimiento. Calcula `margen incremental realizado − reembolsos − costo de reclamaciones − pérdida esperada de incidentes`, y divide por el ingreso o capital base de la ventana. Debe mostrarse junto al crecimiento bruto: una empresa puede acelerar ventas mientras destruye margen, confianza y opción regulatoria.
+
+### 9. Conclusión del caso
+
+La lección no es «la IA permite hacer marketing sin personas». La IA reduce radicalmente el costo de producir y distribuir marketing, pero también reduce radicalmente el costo de distribuir un error. El sistema maduro escala aprendizaje y control al mismo tiempo que escala adquisición.
+
+### Fuentes del caso y fecha de consulta
+
+- FDA — [Warning Letter MEDVi, LLC dba MEDVi, MARCS-CMS 721455](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/medvi-llc-dba-medvi-721455-02202026), 20-02-2026; consultada 04-10-2026.
+- FDA — [Compounding and the FDA: Questions and Answers](https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers), consultada 04-10-2026.
+- FDA — [Generic Drugs: Questions & Answers](https://www.fda.gov/drugs/generic-drugs/generic-drug-facts), consultada 04-10-2026.
+- FDA — [Counterfeit Medicine](https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine), consultada 04-10-2026.
+- MEDVi — [Official Communication](https://home.medvi.org/communication), 08-04-2026; consultada 04-10-2026. Fuente de la posición de la empresa, no verificación independiente.
+- Forbes — [How Medvi Found Success With Just $20,000 And AI](https://www.forbes.com/sites/josipamajic/2026/04/02/ai-and-20000-helped-one-man-build-a-18-billion-telehealth-startup/), 02-04-2026; consultada 04-10-2026. Fuente secundaria para cifras reportadas.
+
 ## Preguntas de análisis
 
 1. ¿Cuál es el problema real y qué evidencia lo sostiene? Distingue síntoma de causa.

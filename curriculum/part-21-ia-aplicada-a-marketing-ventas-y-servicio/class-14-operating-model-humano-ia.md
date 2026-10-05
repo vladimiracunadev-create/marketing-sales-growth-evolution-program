@@ -119,6 +119,10 @@ La revisión periódica del modelo operativo es necesaria porque la tecnología,
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
+### Desarrollo específico aplicado
+
+Escalar ventas veinte veces en seis meses no implica multiplicar cada equipo por veinte, pero sí volver a dimensionar cada control contra su driver real. Soporte crece con clientes y complejidad; revisión de claims con claims y versiones; gobierno de afiliados con terceros, dominios y piezas; seguridad con superficie de ataque; supervisión humana con decisiones de alta consecuencia y excepciones.
+
 ### 6. Integración: de conceptos a una decisión defendible
 
 Sintetizar operating model humano-IA no consiste en sumar definiciones. Empieza por **modelo operativo humano-IA**, contrasta **rendición de cuentas** con **registro de incidentes**, incorpora **revisión periódica** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.

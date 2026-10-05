@@ -291,6 +291,26 @@ DESARROLLO = {
         "entrega. Su valor no es formal: permite demostrar diligencia y facilita la revisión posterior "
         "cuando la norma cambie. Ninguna parte de este material sustituye la asesoría legal cuando la "
         "decisión lo requiere.",
+
+        "El expediente MEDVi obliga a conservar cinco capas separadas: hecho documental, alegación observada, "
+        "posición del regulador, respuesta de la empresa y análisis. La carta publicada por la FDA y la comunicación "
+        "posterior de MEDVi discrepan sobre el control de `medvi.io` y el papel de una agencia afiliada; resolverlo "
+        "exige contratos, dominios, instrucciones, versiones y fechas, no elegir el relato más persuasivo.",
+
+        "La clasificación del producto es una condición previa del claim. Un medicamento aprobado y un genérico "
+        "aprobado pasaron por las revisiones aplicables; un medicamento compuesto no está aprobado por la FDA, aunque "
+        "puede prepararse legalmente bajo condiciones específicas; uno falsificado se presenta como auténtico sin "
+        "serlo. Equiparar `compounded` con `counterfeit` es un error factual que invalida el análisis regulatorio.",
+
+        "La revisión de marketing distingue persuasión sustentada, claim sin evidencia, representación engañosa, "
+        "alucinación generativa, dark pattern, falsa autoridad e información clínica. Esas categorías pueden coexistir "
+        "en una misma pieza y exigen respuestas distintas; indicar que una imagen fue generada no subsana una credencial "
+        "aparente ni aporta evidencia de seguridad, eficacia o resultado.",
+
+        "El Claim Gate detiene automáticamente una campaña cuando falta la fuente, no coincide con producto o población, "
+        "se infiere aprobación no demostrada, la identidad no puede verificarse o falta aprobación competente. Después "
+        "de publicar, reclamos, reembolsos, infracciones de afiliados e incidentes regulatorios activan umbrales de pausa; "
+        "cada decisión conserva claim, evidencia, versión, aprobador, canal y retirada en el audit log.",
     ],
 
     "13": [

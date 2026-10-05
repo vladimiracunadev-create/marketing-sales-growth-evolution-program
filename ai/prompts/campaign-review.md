@@ -15,8 +15,16 @@ Audita y responde:
 5. ¿Cuál es el costo por resultado que haría inviable la campaña? Calcúlalo desde la economía unitaria.
 6. ¿Qué umbral de qué métrica debería detener la campaña, y qué se haría entonces?
 7. ¿Qué está midiendo el plan que no informa ninguna decisión?
+8. Extrae cada claim y enlázalo con evidencia para el mismo producto, población, dosis, resultado y ventana.
+9. Clasifica cada hallazgo: persuasión sustentada, claim no sustentado, posible publicidad engañosa,
+   alucinación generativa, dark pattern, falsa autoridad o información clínica.
+10. ¿Qué afiliado, dominio, creatividad y versión distribuirán la pieza? ¿Están registrados y aprobados?
+11. ¿Quién aprueba clínica, regulatoria y comercialmente, y qué falta para detener la publicación?
+12. Define umbrales posteriores para refund rate, complaint rate, claim rejection rate, affiliate violation
+    rate, regulatory incident rate, AI-generated-content rate y human-review rate.
 
-No propongas mejoras creativas hasta responder los siete puntos.
+No propongas mejoras creativas hasta responder los doce puntos. Si una fuente, identidad, aprobación o versión
+no puede verificarse, responde `BLOQUEAR` y no redactes una alternativa publicable.
 ```
 
 ## Después de ejecutar

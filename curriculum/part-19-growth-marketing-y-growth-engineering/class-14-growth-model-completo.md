@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿Qué bucle hace que el crecimiento se retroalimente en lugar de depender del gasto?
 
-Los conceptos que estructuran la sesión son **modelo de crecimiento**, **palanca**, **sensibilidad del modelo** y **registro de aprendizajes**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **modelo de crecimiento**, **palanca**, **sensibilidad del modelo**, **registro de aprendizajes** y **growth ajustado por riesgo**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `modelo de crecimiento`, `palanca`, `sensibilidad del modelo` y `registro de aprendizajes` por sus observables y no por su definición memorizada.
+1. **Distinguir** `modelo de crecimiento`, `palanca`, `sensibilidad del modelo`, `registro de aprendizajes` y `growth ajustado por riesgo` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Growth marketing y growth engineering**.
 3. **Aplicar** la secuencia **construir el modelo con las palancas y sus relaciones → calibrar con datos históricos → ejecutar el análisis de sensibilidad → priorizar el backlog con base en el modelo → actualizar el modelo con cada aprendizaje** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **precisión del modelo**, **palancas con efecto verificado** y **aprendizajes acumulados** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **precisión del modelo**, **palancas con efecto verificado**, **aprendizajes acumulados**, **growth ajustado por riesgo**, **refund rate** y **complaint rate** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,7 @@ Al terminar esta clase serás capaz de:
 | **palanca** | variable que el equipo puede modificar y que afecta la métrica estrella | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **sensibilidad del modelo** | efecto en el resultado de variar cada palanca | Da un hecho compatible con la definición y otro que la refute. |
 | **registro de aprendizajes** | documentación acumulada de experimentos y sus conclusiones | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **growth ajustado por riesgo** | crecimiento incremental neto de pérdidas esperadas por fallas comerciales y regulatorias | Construye un caso límite donde el concepto se confunde con el anterior. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +106,7 @@ Ficha de medición obligatoria para **precisión del modelo**: `diferencia entre
 
 Un modelo detallado captura más interacciones y se vuelve difícil de auditar y de comunicar; uno simple se entiende y omite efectos relevantes. Para decidir, el modelo simple con supuestos visibles suele ser superior, porque permite que otros cuestionen los supuestos en lugar de discutir sobre una caja negra.
 
-**Lo que aporta la fuente.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) aporta el criterio para pesar el intercambio: las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema (los capítulos sobre métricas y guardarraíles). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **aprendizajes acumulados** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Ron Kohavi, Diane Tang y Ya Xu — *Trustworthy Online Controlled Experiments* (2020) aporta el criterio para pesar el intercambio: las métricas guardarraíl que impiden ganar en lo local perdiendo en el sistema (los capítulos sobre métricas y guardarraíles). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **complaint rate** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **registro de aprendizajes** y otro de un supuesto del caso que nunca fue validado.
 
@@ -118,6 +119,12 @@ El registro de aprendizajes es lo que convierte el trabajo de un año en conocim
 **Frontera declarada.** Un modelo con supuestos no verificados produce proyecciones falsas. Su valor depende de cuántas relaciones fueron medidas y no supuestas. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Declarar victorias con muestras insuficientes y optimizar métricas locales que dañan el sistema.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
+
+### Desarrollo específico aplicado
+
+El crecimiento ajustado por riesgo obliga a reconciliar velocidad con consecuencia económica: margen incremental realizado menos reembolsos, costo de reclamaciones y pérdida esperada de incidentes, dividido por el ingreso base de la ventana. Se presenta junto al crecimiento bruto, porque una tasa agregada puede subir mientras una cohorte, un canal o un afiliado destruye margen y confianza.
+
+En la simulación de ventas veinte veces mayores, cada capacidad se dimensiona por su driver: claims por piezas y versiones, soporte por clientes y complejidad, afiliados por terceros y dominios, seguridad por superficie de ataque. La decisión correcta puede ser detener un canal rentable si la revisión humana, la contención o el tratamiento de reclamos ya cruzaron su umbral seguro.
 
 ### 6. Integración: de conceptos a una decisión defendible
 
@@ -150,9 +157,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Ejecutar el análisis de sensibilidad.** El riesgo de este paso es cerrar demasiado rápido alrededor de **sensibilidad del modelo**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **aprendizajes acumulados** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Priorizar el backlog con base en el modelo.** Con **registro de aprendizajes** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **precisión del modelo** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Priorizar el backlog con base en el modelo.** Con **registro de aprendizajes** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **growth ajustado por riesgo** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Actualizar el modelo con cada aprendizaje.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **modelo de crecimiento**. **palancas con efecto verificado** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Actualizar el modelo con cada aprendizaje.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **growth ajustado por riesgo**. **refund rate** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +213,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **modelo de crecimiento** y **palanca** como sinónimos | Se perdió la distinción entre «representación cuantitativa de las palancas y su efecto en el resultado» y «variable que el equipo puede modificar y que afecta la métrica estrella» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «actualizar el modelo con cada aprendizaje» | Se saltó «construir el modelo con las palancas y sus relaciones»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **precisión del modelo** | La métrica local reemplazó al resultado del sistema | Contrástala con **aprendizajes acumulados** y explicita el costo de oportunidad. |
+| Optimizar sólo **precisión del modelo** | La métrica local reemplazó al resultado del sistema | Contrástala con **complaint rate** y explicita el costo de oportunidad. |
 | Presentar un plan de crecimiento sin modelo cuantitativo | Error específico de esta clase | Construye el modelo, declara qué relaciones fueron medidas y cuáles son supuestos. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +258,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P19-C14-growth-model-completo/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **precisión del modelo**, **palancas con efecto verificado** y **aprendizajes acumulados** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **precisión del modelo**, **palancas con efecto verificado**, **aprendizajes acumulados**, **growth ajustado por riesgo**, **refund rate** y **complaint rate** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

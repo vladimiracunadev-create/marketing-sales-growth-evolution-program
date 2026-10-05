@@ -541,6 +541,7 @@ CLASES = [
             ("palanca", "variable que el equipo puede modificar y que afecta la métrica estrella"),
             ("sensibilidad del modelo", "efecto en el resultado de variar cada palanca"),
             ("registro de aprendizajes", "documentación acumulada de experimentos y sus conclusiones"),
+            ("growth ajustado por riesgo", "crecimiento incremental neto de pérdidas esperadas por fallas comerciales y regulatorias"),
         ],
         metodo=[
             "construir el modelo con las palancas y sus relaciones",
@@ -553,6 +554,9 @@ CLASES = [
             ("precisión del modelo", "diferencia entre el resultado proyectado y el observado, por trimestre"),
             ("palancas con efecto verificado", "palancas cuyo efecto fue medido experimentalmente, sobre palancas del modelo"),
             ("aprendizajes acumulados", "conclusiones documentadas con evidencia, sobre experimentos ejecutados en el trimestre"),
+            ("growth ajustado por riesgo", "margen incremental menos reembolsos, reclamaciones y pérdida esperada de incidentes, sobre ingreso base de la ventana"),
+            ("refund rate", "transacciones reembolsadas, sobre transacciones cobradas, por cohorte y treinta días"),
+            ("complaint rate", "reclamos únicos, sobre clientes o pedidos servidos, por semana"),
         ],
         caso=(
             "Ruta Andina debe presentar su plan de crecimiento para el próximo año. Hoy no puede estimar qué "

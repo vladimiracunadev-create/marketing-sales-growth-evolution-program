@@ -502,10 +502,14 @@ CLASES = [
             ("registro de tratamiento", "documentación de qué datos se usaron, con qué finalidad y bajo qué base"),
             ("revisión periódica", "auditoría programada de las automatizaciones activas"),
             ("retiro de automatizaciones", "proceso de desactivar flujos que ya no cumplen función"),
+            ("gobernanza de afiliados", "sistema que identifica, autoriza, monitorea y puede suspender a cada tercero comercial"),
         ],
         metodo=[
             "definir autoridad de cambio por tipo de automatización",
             "documentar propósito y base legal de cada flujo",
+            "registrar afiliados, dominios, contratos y claims autorizados",
+            "versionar creatividades y aprobarlas antes de distribuir",
+            "monitorear infracciones y probar el kill switch",
             "establecer la revisión periódica y su alcance",
             "retirar los flujos obsoletos",
             "mantener el registro de tratamiento actualizado",
@@ -514,6 +518,8 @@ CLASES = [
             ("flujos con base legal documentada", "automatizaciones con finalidad y base registradas, sobre automatizaciones activas"),
             ("flujos retirados por revisión", "automatizaciones desactivadas por obsolescencia, por semestre"),
             ("cambios con aprobación registrada", "modificaciones con aprobación documentada, sobre modificaciones realizadas"),
+            ("affiliate violation rate", "infracciones confirmadas, sobre piezas o afiliados auditados, por mes"),
+            ("tiempo de kill switch", "minutos desde la orden de suspensión hasta el cese verificado en cada canal"),
         ],
         caso=(
             "Ruta Andina no puede explicar por qué un cliente recibió una comunicación de una campaña que "

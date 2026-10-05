@@ -6,6 +6,12 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Incorporado MEDVi como caso avanzado de growth AI-native y marketing sanitario regulado, con separación
+  entre hechos documentales, alegaciones, posición de la FDA, respuesta de la empresa y análisis.
+- Formalizado el `Error Amplification Factor`, el Claim Gate, el gobierno de afiliados y la simulación de
+  ventas 20×, junto con métricas de contenido generado, revisión humana, claims, infracciones e incidentes.
+- Extendidas las partes 17, 19, 21 y 24, sus prácticas y evaluaciones; actualizadas las fuentes oficiales FDA,
+  los guardarraíles de IA, el prompt de revisión de campañas, el glosario y el catálogo de métricas.
 - Integradas las cuatro conexiones de evidencia comercial —mercado, cliente, economía y forecast— en las
   clases, prácticas, evaluaciones, rutas y Capstone existentes, sin alterar las 336 clases ni las 24 partes.
 - Incorporado el `Commercial Evidence Pack`: inteligencia de mercado, trazabilidad de evidencia del cliente,

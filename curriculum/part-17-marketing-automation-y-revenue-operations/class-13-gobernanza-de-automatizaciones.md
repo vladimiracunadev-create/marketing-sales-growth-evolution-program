@@ -22,16 +22,16 @@ El contenido se organiza para que la conclusión pueda ser auditada por otra per
 
 > **Pregunta rectora de la parte:** ¿Qué automatizo porque mejora el sistema y qué estaría solo escalando un desorden?
 
-Los conceptos que estructuran la sesión son **autoridad de cambio**, **registro de tratamiento**, **revisión periódica** y **retiro de automatizaciones**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **autoridad de cambio**, **registro de tratamiento**, **revisión periódica**, **retiro de automatizaciones** y **gobernanza de afiliados**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `autoridad de cambio`, `registro de tratamiento`, `revisión periódica` y `retiro de automatizaciones` por sus observables y no por su definición memorizada.
+1. **Distinguir** `autoridad de cambio`, `registro de tratamiento`, `revisión periódica`, `retiro de automatizaciones` y `gobernanza de afiliados` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marketing automation y revenue operations**.
-3. **Aplicar** la secuencia **definir autoridad de cambio por tipo de automatización → documentar propósito y base legal de cada flujo → establecer la revisión periódica y su alcance → retirar los flujos obsoletos → mantener el registro de tratamiento actualizado** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **flujos con base legal documentada**, **flujos retirados por revisión** y **cambios con aprobación registrada** indicando numerador, denominador, ventana, fuente y uso permitido.
+3. **Aplicar** la secuencia **definir autoridad de cambio por tipo de automatización → documentar propósito y base legal de cada flujo → registrar afiliados, dominios, contratos y claims autorizados → versionar creatividades y aprobarlas antes de distribuir → monitorear infracciones y probar el kill switch → establecer la revisión periódica y su alcance → retirar los flujos obsoletos → mantener el registro de tratamiento actualizado** conservando supuestos, alternativas descartadas y trazabilidad.
+4. **Operacionalizar** **flujos con base legal documentada**, **flujos retirados por revisión**, **cambios con aprobación registrada**, **affiliate violation rate** y **tiempo de kill switch** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -42,7 +42,7 @@ Al terminar esta clase serás capaz de:
 | 0–15 min | Recuperación | Define **autoridad de cambio** y **registro de tratamiento** sin mirar el material; corrige después con la tabla de conceptos. |
 | 15–45 min | Núcleo conceptual | Lectura del desarrollo y construcción de la tabla `hecho / inferencia / supuesto`. |
 | 45–75 min | Medición | Ficha de la señal **flujos con base legal documentada**: fórmula, fuente, ventana y lectura prohibida. |
-| 75–110 min | Ejemplo trabajado | Recorrido de los 5 pasos del método sobre el caso de la clase. |
+| 75–110 min | Ejemplo trabajado | Recorrido de los 8 pasos del método sobre el caso de la clase. |
 | 110–140 min | Caso ejecutivo | Dos alternativas, trade-offs, recomendación y señal de detención. |
 | 140–150 min | Cierre | Entregable, preguntas de comprobación y registro de lo que aún no sabes. |
 
@@ -54,13 +54,14 @@ Al terminar esta clase serás capaz de:
 | **registro de tratamiento** | documentación de qué datos se usaron, con qué finalidad y bajo qué base | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **revisión periódica** | auditoría programada de las automatizaciones activas | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **retiro de automatizaciones** | proceso de desactivar flujos que ya no cumplen función | Da un hecho compatible con la definición y otro que la refute. |
+| **gobernanza de afiliados** | sistema que identifica, autoriza, monitorea y puede suspender a cada tercero comercial | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. definir autoridad de cambio por tipo de automatización → 2. documentar propósito y base legal de cada flujo → 3. establecer la revisión periódica y su alcance → 4. retirar los flujos obsoletos → 5. mantener el registro de tratamiento actualizado
+1. definir autoridad de cambio por tipo de automatización → 2. documentar propósito y base legal de cada flujo → 3. registrar afiliados, dominios, contratos y claims autorizados → 4. versionar creatividades y aprobarlas antes de distribuir → 5. monitorear infracciones y probar el kill switch → 6. establecer la revisión periódica y su alcance → 7. retirar los flujos obsoletos → 8. mantener el registro de tratamiento actualizado
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -105,7 +106,7 @@ Ficha de medición obligatoria para **flujos con base legal documentada**: `auto
 
 Controles estrictos reducen el riesgo y ralentizan la operación, empujando a las áreas a construir soluciones fuera del sistema gobernado, que es el peor resultado. El diseño equilibrado define niveles: cambios de bajo riesgo con registro posterior, cambios que afectan comunicación con clientes con aprobación previa.
 
-**Lo que aporta la fuente.** Cathy O'Neil — *Weapons of Math Destruction* (2016) aporta el criterio para pesar el intercambio: la exigencia de auditabilidad en modelos que afectan a personas (el capítulo final sobre desarme). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cambios con aprobación registrada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Cathy O'Neil — *Weapons of Math Destruction* (2016) aporta el criterio para pesar el intercambio: la exigencia de auditabilidad en modelos que afectan a personas (el capítulo final sobre desarme). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo de kill switch** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **retiro de automatizaciones** y otro de un supuesto del caso que nunca fue validado.
 
@@ -118,6 +119,12 @@ El retiro de automatizaciones es tan importante como su creación y casi nunca s
 **Frontera declarada.** Una gobernanza pesada frena la operación. El nivel de control debe ser proporcional al riesgo: mayor para flujos que tratan datos personales o comprometen a la empresa. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Automatizar comunicaciones sin base de licitud ni control de calidad y multiplicar el daño.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
+
+### Desarrollo específico aplicado
+
+Los afiliados añaden una frontera organizativa, no una exención de responsabilidad. El inventario debe unir identidad, beneficiario, contrato, dominios, canales, claims permitidos y prohibidos, creatividad versionada, aprobación y pagos; si una pieza no puede vincularse con esa cadena, queda suspendida hasta reconstruir su procedencia. Externalizar distribución no externaliza la obligación de controlarla.
+
+El kill switch sólo existe si se ha probado. Debe detener anuncios, enlaces, páginas y automatizaciones en un tiempo objetivo, preservar la versión retirada y abrir una investigación con alcance definido; medir la tasa de violaciones sin medir tiempo de contención ocultaría el riesgo principal de un canal que puede seguir distribuyendo después de la orden de suspensión.
 
 ### 6. Integración: de conceptos a una decisión defendible
 
@@ -148,11 +155,17 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 2 — Documentar propósito y base legal de cada flujo.** El trabajo aquí es separar lo observado de lo inferido sobre **registro de tratamiento**. La evidencia que ordena la discusión es **flujos retirados por revisión**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 3 — Establecer la revisión periódica y su alcance.** El riesgo de este paso es cerrar demasiado rápido alrededor de **revisión periódica**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cambios con aprobación registrada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 3 — Registrar afiliados, dominios, contratos y claims autorizados.** El riesgo de este paso es cerrar demasiado rápido alrededor de **revisión periódica**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cambios con aprobación registrada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Retirar los flujos obsoletos.** Con **retiro de automatizaciones** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **flujos con base legal documentada** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Versionar creatividades y aprobarlas antes de distribuir.** Con **retiro de automatizaciones** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **affiliate violation rate** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Mantener el registro de tratamiento actualizado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **autoridad de cambio**. **flujos retirados por revisión** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Monitorear infracciones y probar el kill switch.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **gobernanza de afiliados**. **tiempo de kill switch** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+
+**Paso 6 — Establecer la revisión periódica y su alcance.** El equipo escribe primero el supuesto asociado a **autoridad de cambio** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **flujos con base legal documentada** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+
+**Paso 7 — Retirar los flujos obsoletos.** El trabajo aquí es separar lo observado de lo inferido sobre **registro de tratamiento**. La evidencia que ordena la discusión es **flujos retirados por revisión**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+
+**Paso 8 — Mantener el registro de tratamiento actualizado.** El riesgo de este paso es cerrar demasiado rápido alrededor de **revisión periódica**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cambios con aprobación registrada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +205,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **definir autoridad de cambio por tipo de automatización → documentar propósito y base legal de cada flujo → establecer la revisión periódica y su alcance → retirar los flujos obsoletos → mantener el registro de tratamiento actualizado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **definir autoridad de cambio por tipo de automatización → documentar propósito y base legal de cada flujo → registrar afiliados, dominios, contratos y claims autorizados → versionar creatividades y aprobarlas antes de distribuir → monitorear infracciones y probar el kill switch → establecer la revisión periódica y su alcance → retirar los flujos obsoletos → mantener el registro de tratamiento actualizado** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **flujos con base legal documentada**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *AI Risk Management Framework 1.0* y la de *Revenue Operations*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -206,7 +219,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **autoridad de cambio** y **registro de tratamiento** como sinónimos | Se perdió la distinción entre «definición de quién puede modificar qué en el sistema automatizado» y «documentación de qué datos se usaron, con qué finalidad y bajo qué base» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «mantener el registro de tratamiento actualizado» | Se saltó «definir autoridad de cambio por tipo de automatización»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **flujos con base legal documentada** | La métrica local reemplazó al resultado del sistema | Contrástala con **cambios con aprobación registrada** y explicita el costo de oportunidad. |
+| Optimizar sólo **flujos con base legal documentada** | La métrica local reemplazó al resultado del sistema | Contrástala con **tiempo de kill switch** y explicita el costo de oportunidad. |
 | Mantener flujos activos sin propósito ni base documentada | Error específico de esta clase | Audita las automatizaciones cada semestre y retira las que no tengan finalidad vigente. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +264,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P17-C13-gobernanza-de-automatizaciones/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **flujos con base legal documentada**, **flujos retirados por revisión** y **cambios con aprobación registrada** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **flujos con base legal documentada**, **flujos retirados por revisión**, **cambios con aprobación registrada**, **affiliate violation rate** y **tiempo de kill switch** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

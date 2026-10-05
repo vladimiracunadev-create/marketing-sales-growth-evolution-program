@@ -102,6 +102,22 @@ DESARROLLO = {
         "contextos es exigible. Sirve para auditar cuando aparece un error, para evaluar la calidad relativa "
         "y para cumplir obligaciones de transparencia donde existan. Implementarlo desde el inicio es más "
         "fácil que reconstruirlo después.",
+
+        "El factor de amplificación de error formaliza la diferencia entre una equivocación aislada y una "
+        "equivocación distribuida: `impactos erróneos atribuibles / fuentes de error originarias` dentro de una "
+        "ventana declarada. Debe leerse junto con severidad, velocidad de propagación y tiempo de contención, "
+        "porque una impresión incorrecta, una conversión inducida y una recomendación clínica no tienen el "
+        "mismo costo aunque provengan del mismo claim.",
+
+        "El Claim Gate convierte la revisión en un flujo auditable: generación, extracción de claims, verificación "
+        "de fuente, comprobación factual, control regulatorio, aprobación humana, publicación, monitoreo y registro. "
+        "Se detiene antes de publicar cuando falta evidencia, la fuente no corresponde al producto o población, "
+        "se infiere una aprobación inexistente, aparece autoridad no verificable o falta un aprobador competente.",
+
+        "MEDVi permite observar ambos lados del mecanismo sin atribuir causalidad automática. El crecimiento "
+        "reportado muestra la potencia de combinar IA, paid media, landing pages, soporte y proveedores; la carta "
+        "publicada por la FDA y la respuesta posterior de la empresa muestran por qué cada claim, dominio, afiliado "
+        "y versión creativa debe conservar una trazabilidad independiente del canal que lo distribuye.",
     ],
 
     "05": [
@@ -307,6 +323,11 @@ DESARROLLO = {
         "funciones —mapear, medir, gestionar y gobernar— y esa estructura es útil precisamente porque separa "
         "la evaluación técnica de la responsabilidad organizativa. Adoptarla exige verificar su texto vigente "
         "y adaptarla al contexto, no aplicarla como plantilla.",
+
+        "En contenido regulado, el guardarraíl debe tener una salida ejecutable y no sólo una advertencia: "
+        "bloquear publicación, congelar la versión, preservar evidencia y escalar a la persona competente. "
+        "Los umbrales incluyen fuente ausente, identidad no verificable, claim clínico fuera del corpus aprobado, "
+        "caída de la revisión humana y aumento de reclamos; cada activación entra al registro de incidentes.",
     ],
 
     "13": [
@@ -357,5 +378,10 @@ DESARROLLO = {
         "capacidades cambian con rapidez. Un modelo definido hace un año puede estar restringiendo usos ya "
         "seguros o permitiendo otros que dejaron de serlo. Fijar una frecuencia de revisión y un responsable "
         "es parte del diseño.",
+
+        "Escalar ventas veinte veces en seis meses no implica multiplicar cada equipo por veinte, pero sí volver a "
+        "dimensionar cada control contra su driver real. Soporte crece con clientes y complejidad; revisión de claims "
+        "con claims y versiones; gobierno de afiliados con terceros, dominios y piezas; seguridad con superficie de "
+        "ataque; supervisión humana con decisiones de alta consecuencia y excepciones.",
     ],
 }

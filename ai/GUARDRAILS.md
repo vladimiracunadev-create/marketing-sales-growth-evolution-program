@@ -42,7 +42,26 @@ Ninguna de estas acciones puede ejecutarse sin revisión y aprobación de una pe
 4. **Registrar el tratamiento**: qué datos, con qué finalidad, con qué base y por cuánto tiempo.
 5. **Decisiones automatizadas** que afecten a personas requieren documentación y supervisión humana.
 
-## 5. Reglas de agentes que ejecutan acciones
+## 5. Claim Gate para contenido regulado
+
+```text
+AI GENERATION → CLAIM EXTRACTION → SOURCE VERIFICATION → FACT CHECK
+→ REGULATORY CHECK → HUMAN APPROVAL → PUBLICATION → MONITORING → AUDIT LOG
+```
+
+La pieza se bloquea antes de publicar si ocurre cualquiera de estas condiciones:
+
+- un claim no tiene fuente o la fuente no corresponde al producto, población, dosis o resultado;
+- el texto o la imagen sugieren aprobación, seguridad, eficacia o autoridad profesional no demostradas;
+- aparece un testimonio, identidad, afiliado, dominio o creatividad sin registro verificable;
+- falta aprobación clínica, regulatoria o humana exigida por la matriz de riesgo;
+- la versión publicada no coincide con la versión aprobada.
+
+Después de publicar, reclamos, reembolsos, infracciones de afiliados, incidentes regulatorios o caída de la
+revisión humana activan los umbrales de pausa definidos en el brief. El audit log enlaza claim, evidencia,
+versión, aprobador, afiliado, canal, fecha de publicación y fecha de retirada.
+
+## 6. Reglas de agentes que ejecutan acciones
 
 | Regla | Detalle |
 |---|---|
@@ -52,7 +71,14 @@ Ninguna de estas acciones puede ejecutarse sin revisión y aprobación de una pe
 | Detención inmediata | Debe existir y estar probado un mecanismo para interrumpir la operación |
 | Lista de exclusión respetada | Ninguna acción sobre contactos que solicitaron no ser contactados |
 
-## 6. Prácticas prohibidas
+## 7. Gobierno de afiliados
+
+Todo tercero que distribuya marketing en nombre de la empresa debe tener identidad verificada, contrato,
+dominios y canales declarados, claims autorizados y prohibidos, creatividades versionadas, aprobación previa,
+monitoreo, alertas, reglas de suspensión y un kill switch probado. Externalizar marketing no externaliza la
+responsabilidad de gobernarlo.
+
+## 8. Prácticas prohibidas
 
 - Correo no solicitado masivo sin base de licitud.
 - Persuasión engañosa, urgencia artificial y patrones oscuros.
@@ -61,8 +87,10 @@ Ninguna de estas acciones puede ejecutarse sin revisión y aprobación de una pe
 - Conclusiones legales presentadas como definitivas sin verificación.
 - Publicación de contenido generado sin control de afirmaciones.
 - Uso de datos de clientes en herramientas externas sin evaluación previa.
+- Imágenes o personajes que aparenten una credencial médica no verificable.
+- Equiparar un medicamento compuesto con uno falsificado o insinuar aprobación inexistente.
 
-## 7. Evaluación antes de desplegar
+## 9. Evaluación antes de desplegar
 
 Ningún sistema entra en producción sin:
 
@@ -73,7 +101,7 @@ Ningún sistema entra en producción sin:
 - [ ] Monitoreo posterior con alerta.
 - [ ] Registro de incidentes habilitado.
 
-## 8. Uso de IA en los entregables del programa
+## 10. Uso de IA en los entregables del programa
 
 Permitido y sujeto a declaración:
 
@@ -88,7 +116,7 @@ Permitido y sujeto a declaración:
 Un entregable con afirmaciones generadas y no verificadas se considera insuficiente, con independencia de su
 calidad de redacción.
 
-## 9. Ante un incidente
+## 11. Ante un incidente
 
 1. Detener el sistema.
 2. Evaluar alcance: qué salió, a quién llegó, qué consecuencia tiene.

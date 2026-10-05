@@ -20,6 +20,19 @@ Esta evaluación exige haber estudiado las 14 clases y haber ejecutado los dos l
 
 Construye dos alternativas realmente defendibles. Para cada una indica beneficio esperado, costo de oportunidad, riesgo, reversibilidad y quién asume la consecuencia. Recomienda una y declara qué información nueva te haría cambiar de opinión.
 
+### Requisitos específicos del caso
+
+1. Separar hecho documental, alegación, posición del regulador, respuesta de la empresa y análisis propio.
+2. Distinguir FDA-approved, generic, compounded y counterfeit sin equiparar compuesto con falsificado.
+3. Calcular el factor de amplificación de error y explicar simultáneamente productividad y blast radius.
+4. Clasificar cada pieza como marketing persuasivo, claim no sustentado, publicidad engañosa, alucinación generativa, dark pattern, falsa autoridad o información clínica.
+5. Diseñar el Claim Gate completo con reglas automáticas de detención, aprobación humana y audit log.
+6. Diseñar el gobierno de afiliados con registro, contratos, claims, creatividades, monitoreo, suspensión y kill switch.
+7. Resolver la simulación de crecimiento 20× y dimensionar las capacidades de control que también deben crecer.
+8. Construir un tablero de growth ajustado por riesgo con fichas completas y umbrales de detención.
+
+El caso no pide decidir culpabilidad ni dar asesoría legal. Evalúa si el análisis conserva la procedencia de cada afirmación, evita equivalencias falsas y convierte el riesgo en controles auditables.
+
 ## C. Método y evidencia — 30 puntos
 
 Aplica la secuencia de trabajo de la parte:

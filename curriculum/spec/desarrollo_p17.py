@@ -338,6 +338,16 @@ DESARROLLO = {
         "automatización creada para una campaña terminada que sigue activa puede producir comunicaciones "
         "incoherentes durante años. Incluir una fecha de revisión obligatoria al momento de crear resuelve "
         "buena parte del problema.",
+
+        "Los afiliados añaden una frontera organizativa, no una exención de responsabilidad. El inventario debe "
+        "unir identidad, beneficiario, contrato, dominios, canales, claims permitidos y prohibidos, creatividad "
+        "versionada, aprobación y pagos; si una pieza no puede vincularse con esa cadena, queda suspendida hasta "
+        "reconstruir su procedencia. Externalizar distribución no externaliza la obligación de controlarla.",
+
+        "El kill switch sólo existe si se ha probado. Debe detener anuncios, enlaces, páginas y automatizaciones en "
+        "un tiempo objetivo, preservar la versión retirada y abrir una investigación con alcance definido; medir la "
+        "tasa de violaciones sin medir tiempo de contención ocultaría el riesgo principal de un canal que puede seguir "
+        "distribuyendo después de la orden de suspensión.",
     ],
 
     "14": [

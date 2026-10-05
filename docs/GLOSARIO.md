@@ -2,7 +2,7 @@
 
 # Glosario
 
-1289 términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
+1296 términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
 
 ## A
 
@@ -194,6 +194,7 @@
 | **cifra única** | valor acordado para cada indicador con su definición y fuente | [17.14](../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) |
 | **circulación de referencias** | grado en que los actores del segmento se comunican entre sí | [22.03](../curriculum/part-22-go-to-market-canales-y-expansion/class-03-beachhead-market.md) |
 | **circularidad costo-volumen** | dependencia mutua entre costo unitario y volumen que invalida el cálculo ingenuo | [07.02](../curriculum/part-07-pricing-y-monetizacion/class-02-cost-plus-pricing.md) |
+| **claim no sustentado** | afirmación comercial sin evidencia pertinente para producto, población y resultado declarados | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **claridad de propuesta** | capacidad del sitio de comunicar qué ofrece y para quién en pocos segundos | [12.02](../curriculum/part-12-marketing-digital-y-adquisicion/class-02-sitio-web-como-activo-comercial.md) |
 | **claridad del compromiso** | grado en que el destinatario sabe qué ocurrirá al actuar | [13.07](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-07-ofertas-y-cta.md) |
 | **clima de la revisión** | condiciones que determinan si la información fluye o se oculta | [16.12](../curriculum/part-16-crm-pipeline-y-sales-operations/class-12-revision-de-pipeline.md) |
@@ -590,8 +591,10 @@
 | **facilitación** | material que permite al cliente referir sin esfuerzo ni riesgo | [11.08](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-08-referidos.md) |
 | **facilitación de la referencia** | material y proceso que reducen el esfuerzo de referir | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
 | **factor de amplificación** | número de nuevos usuarios que genera cada usuario existente por ciclo | [19.04](../curriculum/part-19-growth-marketing-y-growth-engineering/class-04-growth-loops.md) |
+| **factor de amplificación de error** | impactos erróneos distribuidos atribuibles a una fuente de error durante una ventana declarada | [21.04](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-04-generacion-de-contenido-con-controles.md) |
 | **factor de sensibilidad** | condición que aumenta o reduce la reacción del cliente ante el precio | [07.06](../curriculum/part-07-pricing-y-monetizacion/class-06-elasticidad-y-sensibilidad.md) |
 | **factor externo** | variable no controlada que afecta las ventas y debe incluirse | [20.12](../curriculum/part-20-analitica-comercial-y-marketing-science/class-12-marketing-mix-modeling-fundamentos.md) |
+| **falsa autoridad** | identidad o representación que aparenta una credencial profesional no verificable | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **falsa objetividad** | apariencia de rigor que produce un puntaje basado en estimaciones subjetivas | [19.10](../curriculum/part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) |
 | **falso positivo** | conclusión de mejora que no se sostiene al repetir la medición | [12.09](../curriculum/part-12-marketing-digital-y-adquisicion/class-09-conversion-web.md) |
 | **falso rechazo** | transacción legítima bloqueada por reglas de prevención de fraude | [15.05](../curriculum/part-15-e-commerce-y-marketplaces/class-05-pagos.md) |
@@ -644,10 +647,12 @@
 | **generación de demanda** | trabajo que crea conciencia del problema y preferencia antes de que exista intención | [11.01](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-01-demand-generation-versus-lead-generation.md) |
 | **gestión de expectativa** | práctica de comunicar dirección sin comprometer fechas no confirmadas | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
 | **gestión del rechazo** | capacidad de sostener la actividad ante una tasa alta de respuestas negativas | [11.05](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-05-cold-calling.md) |
+| **gobernanza de afiliados** | sistema que identifica, autoriza, monitorea y puede suspender a cada tercero comercial | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
 | **gobierno de canal** | reglas que definen qué puede prometerse y modificarse en cada canal | [06.12](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) |
 | **gobierno de la inversión** | reglas de autoridad sobre cambios de presupuesto y de configuración | [14.14](../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) |
 | **gobierno de precios** | reglas de autoridad, revisión y excepción documentadas | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **granularidad** | número de etapas, que debe equilibrar información y costo de mantenimiento | [16.02](../curriculum/part-16-crm-pipeline-y-sales-operations/class-02-diseno-del-pipeline.md) |
+| **growth ajustado por riesgo** | crecimiento incremental neto de pérdidas esperadas por fallas comerciales y regulatorias | [19.14](../curriculum/part-19-growth-marketing-y-growth-engineering/class-14-growth-model-completo.md) |
 | **grupo de comparación** | conjunto equivalente que no recibe el cambio y permite estimar el efecto | [07.13](../curriculum/part-07-pricing-y-monetizacion/class-13-experimentacion-de-precios.md) |
 | **grupo de control** | conjunto comparable que no recibe la intervención | [20.09](../curriculum/part-20-analitica-comercial-y-marketing-science/class-09-incrementalidad.md) |
 | **grupo de referencia** | conjunto de personas cuya opinión el cliente considera al evaluar una decisión | [02.12](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-12-contexto-cultural-y-social.md) |
@@ -706,6 +711,7 @@
 | **indicador de seguimiento** | métrica que informa si la estrategia elegida está produciendo el efecto esperado | [04.14](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-14-arquitectura-stp-completa.md) |
 | **influencia en las bases** | grado en que la empresa contribuyó a definir los requisitos | [09.11](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-11-rfp-y-procesos-formales.md) |
 | **influenciador con veto** | actor que no decide la compra pero puede detenerla por riesgo técnico, legal o de cumplimiento | [02.01](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-01-cliente-usuario-comprador-y-decisor.md) |
+| **información clínica** | contenido sobre condición, tratamiento, seguridad, eficacia o uso que exige control especializado | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **información previa** | material distribuido antes para que el tiempo se use en decidir | [23.09](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-09-reuniones-operativas.md) |
 | **información suficiente** | conjunto de datos que permite decidir sin consultar | [15.03](../curriculum/part-15-e-commerce-y-marketplaces/class-03-product-detail-page.md) |
 | **informe decisional** | documento estructurado alrededor de la decisión que debe informar y no del proceso realizado | [03.14](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md) |
@@ -1034,6 +1040,7 @@
 | **prueba social negativa** | mensaje que comunica involuntariamente que pocos adoptan la solución | [13.12](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) |
 | **práctica deliberada** | ejercicio focalizado en una habilidad con criterio y corrección | [23.10](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-10-coaching-comercial.md) |
 | **práctica supervisada** | ejecución real con acompañamiento y retroalimentación inmediata | [23.04](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-04-onboarding-de-equipos.md) |
+| **publicidad engañosa** | representación u omisión material capaz de inducir una conclusión falsa | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **puntaje de ajuste** | componente que evalúa la correspondencia con el perfil de cliente ideal | [17.03](../curriculum/part-17-marketing-automation-y-revenue-operations/class-03-lead-scoring.md) |
 | **puntaje de comportamiento** | componente que evalúa señales de interés y de intención | [17.03](../curriculum/part-17-marketing-automation-y-revenue-operations/class-03-lead-scoring.md) |
 | **punto de contacto** | momento observable en que el cliente interactúa con la empresa y actualiza su juicio | [01.08](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-08-canales-comerciales-y-puntos-de-contacto.md) |

@@ -30,7 +30,7 @@ Aplica la secuencia de trabajo de la parte:
 4. Priorizar el backlog con base en el modelo.
 5. Actualizar el modelo con cada aprendizaje.
 
-Debes operacionalizar **precisión del modelo**, **palancas con efecto verificado** y **aprendizajes acumulados**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
+Debes operacionalizar **precisión del modelo**, **palancas con efecto verificado**, **aprendizajes acumulados**, **growth ajustado por riesgo**, **refund rate** y **complaint rate**. Separa hechos, inferencias y supuestos: una métrica sin línea base ni ventana no cuenta como evidencia suficiente.
 
 ## D. Fuentes, límites y red team — 15 puntos
 

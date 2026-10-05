@@ -22,16 +22,16 @@ La clase trata el tema como un problema de evidencia y de consecuencia, no como 
 
 > **Pregunta rectora de la parte:** ¿Esta operación resiste una revisión comercial, financiera, legal y ética al mismo tiempo?
 
-Los conceptos que estructuran la sesión son **obligación aplicable**, **requisito de diseño**, **verificación en fuente primaria** y **registro de cumplimiento**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **obligación aplicable**, **requisito de diseño**, **verificación en fuente primaria**, **registro de cumplimiento**, **claim no sustentado**, **publicidad engañosa**, **falsa autoridad** y **información clínica**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `obligación aplicable`, `requisito de diseño`, `verificación en fuente primaria` y `registro de cumplimiento` por sus observables y no por su definición memorizada.
+1. **Distinguir** `obligación aplicable`, `requisito de diseño`, `verificación en fuente primaria`, `registro de cumplimiento`, `claim no sustentado`, `publicidad engañosa`, `falsa autoridad` y `información clínica` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Empresa real, regulación y Capstone**.
-3. **Aplicar** la secuencia **identificar las obligaciones aplicables a la operación → traducir cada una en requisitos de diseño concretos → verificar la vigencia en fuente primaria → documentar el cumplimiento con evidencia → declarar los frentes que requieren asesoría especializada** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **obligaciones identificadas y cubiertas**, **verificaciones en fuente primaria** y **brechas declaradas** indicando numerador, denominador, ventana, fuente y uso permitido.
+3. **Aplicar** la secuencia **identificar las obligaciones aplicables a la operación → traducir cada una en requisitos de diseño concretos → verificar la vigencia en fuente primaria → documentar el cumplimiento con evidencia → separar hechos, alegaciones, posición regulatoria, respuesta y análisis → clasificar claims, testimonios, comparaciones e identidades antes de publicar → declarar los frentes que requieren asesoría especializada** conservando supuestos, alternativas descartadas y trazabilidad.
+4. **Operacionalizar** **obligaciones identificadas y cubiertas**, **verificaciones en fuente primaria**, **brechas declaradas**, **claim rejection rate** y **regulatory incident rate** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -42,7 +42,7 @@ Al terminar esta clase serás capaz de:
 | 0–15 min | Recuperación | Define **obligación aplicable** y **requisito de diseño** sin mirar el material; corrige después con la tabla de conceptos. |
 | 15–45 min | Núcleo conceptual | Lectura del desarrollo y construcción de la tabla `hecho / inferencia / supuesto`. |
 | 45–75 min | Medición | Ficha de la señal **obligaciones identificadas y cubiertas**: fórmula, fuente, ventana y lectura prohibida. |
-| 75–110 min | Ejemplo trabajado | Recorrido de los 5 pasos del método sobre el caso de la clase. |
+| 75–110 min | Ejemplo trabajado | Recorrido de los 7 pasos del método sobre el caso de la clase. |
 | 110–140 min | Caso ejecutivo | Dos alternativas, trade-offs, recomendación y señal de detención. |
 | 140–150 min | Cierre | Entregable, preguntas de comprobación y registro de lo que aún no sabes. |
 
@@ -54,13 +54,17 @@ Al terminar esta clase serás capaz de:
 | **requisito de diseño** | consecuencia concreta de la norma sobre un proceso o material | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **verificación en fuente primaria** | comprobación de la norma en su texto oficial vigente | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **registro de cumplimiento** | documentación que acredita el cumplimiento ante una revisión | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **claim no sustentado** | afirmación comercial sin evidencia pertinente para producto, población y resultado declarados | Da un hecho compatible con la definición y otro que la refute. |
+| **publicidad engañosa** | representación u omisión material capaz de inducir una conclusión falsa | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **falsa autoridad** | identidad o representación que aparenta una credencial profesional no verificable | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **información clínica** | contenido sobre condición, tratamiento, seguridad, eficacia o uso que exige control especializado | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
 ## 🧠 Modelo mental
 
 ```text
-1. identificar las obligaciones aplicables a la operación → 2. traducir cada una en requisitos de diseño concretos → 3. verificar la vigencia en fuente primaria → 4. documentar el cumplimiento con evidencia → 5. declarar los frentes que requieren asesoría especializada
+1. identificar las obligaciones aplicables a la operación → 2. traducir cada una en requisitos de diseño concretos → 3. verificar la vigencia en fuente primaria → 4. documentar el cumplimiento con evidencia → 5. separar hechos, alegaciones, posición regulatoria, respuesta y análisis → 6. clasificar claims, testimonios, comparaciones e identidades antes de publicar → 7. declarar los frentes que requieren asesoría especializada
 ```
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **obligaciones identificadas y cubiertas**: 
 
 Un enfoque conservador reduce el riesgo y puede limitar prácticas legítimas; uno permisivo amplía el margen y expone. La decisión debe documentarse con el criterio usado, porque lo que se evalúa es el razonamiento y la capacidad de identificar dónde hace falta asesoría especializada.
 
-**Lo que aporta la fuente.** Richard Rumelt — *Good Strategy / Bad Strategy* (2011) aporta el criterio para pesar el intercambio: el diagnóstico como reformulación del problema que hace evidente la acción (el capítulo sobre el diagnóstico). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **brechas declaradas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Richard Rumelt — *Good Strategy / Bad Strategy* (2011) aporta el criterio para pesar el intercambio: el diagnóstico como reformulación del problema que hace evidente la acción (el capítulo sobre el diagnóstico). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **regulatory incident rate** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **registro de cumplimiento** y otro de un supuesto del caso que nunca fue validado.
 
@@ -118,6 +122,16 @@ El registro de cumplimiento —qué se verificó, cuándo, en qué fuente y qui�
 **Frontera declarada.** Este trabajo es formación aplicada, no asesoría legal. Toda operación real requiere revisión profesional y verificación de la norma vigente a esa fecha. Conviértela en una regla operativa con el formato `si ocurre X → no aplicar automáticamente → consultar, escalar o revalidar`.
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Presentar un plan atractivo que no cumple la Ley 19.496, la Ley 21.719 o las reglas de libre competencia.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
+
+### Desarrollo específico aplicado
+
+El expediente MEDVi obliga a conservar cinco capas separadas: hecho documental, alegación observada, posición del regulador, respuesta de la empresa y análisis. La carta publicada por la FDA y la comunicación posterior de MEDVi discrepan sobre el control de `medvi.io` y el papel de una agencia afiliada; resolverlo exige contratos, dominios, instrucciones, versiones y fechas, no elegir el relato más persuasivo.
+
+La clasificación del producto es una condición previa del claim. Un medicamento aprobado y un genérico aprobado pasaron por las revisiones aplicables; un medicamento compuesto no está aprobado por la FDA, aunque puede prepararse legalmente bajo condiciones específicas; uno falsificado se presenta como auténtico sin serlo. Equiparar `compounded` con `counterfeit` es un error factual que invalida el análisis regulatorio.
+
+La revisión de marketing distingue persuasión sustentada, claim sin evidencia, representación engañosa, alucinación generativa, dark pattern, falsa autoridad e información clínica. Esas categorías pueden coexistir en una misma pieza y exigen respuestas distintas; indicar que una imagen fue generada no subsana una credencial aparente ni aporta evidencia de seguridad, eficacia o resultado.
+
+El Claim Gate detiene automáticamente una campaña cuando falta la fuente, no coincide con producto o población, se infiere aprobación no demostrada, la identidad no puede verificarse o falta aprobación competente. Después de publicar, reclamos, reembolsos, infracciones de afiliados e incidentes regulatorios activan umbrales de pausa; cada decisión conserva claim, evidencia, versión, aprobador, canal y retirada en el audit log.
 
 ### 6. Integración: de conceptos a una decisión defendible
 
@@ -150,9 +164,13 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Verificar la vigencia en fuente primaria.** El riesgo de este paso es cerrar demasiado rápido alrededor de **verificación en fuente primaria**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **brechas declaradas** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Documentar el cumplimiento con evidencia.** Con **registro de cumplimiento** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **obligaciones identificadas y cubiertas** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Documentar el cumplimiento con evidencia.** Con **registro de cumplimiento** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **claim rejection rate** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Declarar los frentes que requieren asesoría especializada.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **obligación aplicable**. **verificaciones en fuente primaria** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Separar hechos, alegaciones, posición regulatoria, respuesta y análisis.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **claim no sustentado**. **regulatory incident rate** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+
+**Paso 6 — Clasificar claims, testimonios, comparaciones e identidades antes de publicar.** El equipo escribe primero el supuesto asociado a **publicidad engañosa** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **obligaciones identificadas y cubiertas** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+
+**Paso 7 — Declarar los frentes que requieren asesoría especializada.** El trabajo aquí es separar lo observado de lo inferido sobre **falsa autoridad**. La evidencia que ordena la discusión es **verificaciones en fuente primaria**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -192,7 +210,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 | # | Paso | Qué haces | Con qué | Criterio de término |
 |---:|---|---|---|---|
 | 1 | **Reconstruir los hechos** | Vuelca el caso en una tabla `hecho / inferencia / supuesto / decisión` sin agregar información que no esté en el enunciado. | El caso y nada más | Ninguna fila de la columna «hecho» contiene un juicio; cada supuesto tiene un responsable de verificarlo. |
-| 2 | **Ejecutar el método** | Recorre la secuencia **identificar las obligaciones aplicables a la operación → traducir cada una en requisitos de diseño concretos → verificar la vigencia en fuente primaria → documentar el cumplimiento con evidencia → declarar los frentes que requieren asesoría especializada** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
+| 2 | **Ejecutar el método** | Recorre la secuencia **identificar las obligaciones aplicables a la operación → traducir cada una en requisitos de diseño concretos → verificar la vigencia en fuente primaria → documentar el cumplimiento con evidencia → separar hechos, alegaciones, posición regulatoria, respuesta y análisis → clasificar claims, testimonios, comparaciones e identidades antes de publicar → declarar los frentes que requieren asesoría especializada** y adjunta la evidencia usada en cada transición. | La tabla del paso 1 | Cada paso deja un artefacto revisable y una alternativa descartada con su razón. |
 | 3 | **Operacionalizar la señal** | Construye la ficha de medición de **obligaciones identificadas y cubiertas**; si el dato no existe, diseña cómo obtenerlo y estima cuánto costaría. | Fuentes de datos reales o el diseño de captura | Dos personas del equipo calculan el mismo número con la ficha y llegan al mismo resultado. |
 | 4 | **Atacar tu propia respuesta** | Escribe la alternativa que contradice tu preferencia inicial y hazle un *pre-mortem* a seis meses. | Tu borrador de recomendación | Puedes nombrar el dato concreto que te haría cambiar de opinión. |
 | 5 | **Contrastar con la fuente** | Lee la idea anclada de *ISO 31000: Gestión del riesgo* y la de *Weapons of Math Destruction*, y registra una coincidencia y una tensión con tu diagnóstico. | La tabla de lectura comparada | La nota de lectura cita qué idea usaste y qué decisión cambió por ella, o declara que ninguna cambió y por qué. |
@@ -206,7 +224,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **obligación aplicable** y **requisito de diseño** como sinónimos | Se perdió la distinción entre «requisito normativo que rige la operación propuesta» y «consecuencia concreta de la norma sobre un proceso o material» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «declarar los frentes que requieren asesoría especializada» | Se saltó «identificar las obligaciones aplicables a la operación»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **obligaciones identificadas y cubiertas** | La métrica local reemplazó al resultado del sistema | Contrástala con **brechas declaradas** y explicita el costo de oportunidad. |
+| Optimizar sólo **obligaciones identificadas y cubiertas** | La métrica local reemplazó al resultado del sistema | Contrástala con **regulatory incident rate** y explicita el costo de oportunidad. |
 | Tratar el cumplimiento como anexo final | Error específico de esta clase | Traduce cada obligación en requisitos de diseño e incorpóralos a procesos y materiales. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +269,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P24-C12-cumplimiento-chile/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **obligaciones identificadas y cubiertas**, **verificaciones en fuente primaria** y **brechas declaradas** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **obligaciones identificadas y cubiertas**, **verificaciones en fuente primaria**, **brechas declaradas**, **claim rejection rate** y **regulatory incident rate** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

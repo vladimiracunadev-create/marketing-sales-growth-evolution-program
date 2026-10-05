@@ -8447,12 +8447,15 @@
             "autoridad de cambio",
             "registro de tratamiento",
             "revisión periódica",
-            "retiro de automatizaciones"
+            "retiro de automatizaciones",
+            "gobernanza de afiliados"
           ],
           "senales": [
             "flujos con base legal documentada",
             "flujos retirados por revisión",
-            "cambios con aprobación registrada"
+            "cambios con aprobación registrada",
+            "affiliate violation rate",
+            "tiempo de kill switch"
           ],
           "libros": [
             "nist-airmf",
@@ -9479,12 +9482,16 @@
             "modelo de crecimiento",
             "palanca",
             "sensibilidad del modelo",
-            "registro de aprendizajes"
+            "registro de aprendizajes",
+            "growth ajustado por riesgo"
           ],
           "senales": [
             "precisión del modelo",
             "palancas con efecto verificado",
-            "aprendizajes acumulados"
+            "aprendizajes acumulados",
+            "growth ajustado por riesgo",
+            "refund rate",
+            "complaint rate"
           ],
           "libros": [
             "ellis-brown",
@@ -10137,13 +10144,18 @@
           "conceptos": [
             "control de afirmaciones",
             "responsable de publicación",
+            "factor de amplificación de error",
             "riesgo de escala",
             "registro de origen"
           ],
           "senales": [
             "piezas con control aplicado",
             "afirmaciones corregidas en control",
-            "incidentes por contenido publicado"
+            "incidentes por contenido publicado",
+            "factor de amplificación de error",
+            "claim rejection rate",
+            "AI-generated-content rate",
+            "human-review rate"
           ],
           "libros": [
             "handley",
@@ -11910,12 +11922,18 @@
             "obligación aplicable",
             "requisito de diseño",
             "verificación en fuente primaria",
-            "registro de cumplimiento"
+            "registro de cumplimiento",
+            "claim no sustentado",
+            "publicidad engañosa",
+            "falsa autoridad",
+            "información clínica"
           ],
           "senales": [
             "obligaciones identificadas y cubiertas",
             "verificaciones en fuente primaria",
-            "brechas declaradas"
+            "brechas declaradas",
+            "claim rejection rate",
+            "regulatory incident rate"
           ],
           "libros": [
             "iso-31000",

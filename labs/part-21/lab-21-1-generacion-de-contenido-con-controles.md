@@ -31,13 +31,15 @@ Producir un componente defendible de **operating model humano-IA con casos de us
 
 1. Definir qué tipos de contenido pueden generarse asistidamente.
 2. Establecer el control de afirmaciones como paso obligatorio.
-3. Asignar responsable humano de publicación.
-4. Registrar el origen de cada pieza.
-5. Auditar una muestra publicada cada mes.
-6. Calcular o diseñar la captura de **piezas con control aplicado**, **afirmaciones corregidas en control** y **incidentes por contenido publicado**.
-7. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
-8. Verificar el riesgo declarado de la parte: Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.
-9. Redactar la recomendación con responsable, fecha, umbral de éxito y condición de detención.
+3. Extraer cada claim y enlazarlo con su fuente.
+4. Verificar hechos, encaje regulatorio y reglas de detención.
+5. Asignar responsable humano de publicación.
+6. Registrar el origen de cada pieza.
+7. Auditar una muestra publicada cada mes.
+8. Calcular o diseñar la captura de **piezas con control aplicado**, **afirmaciones corregidas en control** y **incidentes por contenido publicado**.
+9. Construir un escenario adverso: −30 % de presupuesto, −20 % de conversión o +25 % de duración del ciclo.
+10. Verificar el riesgo declarado de la parte: Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.
+11. Redactar la recomendación con responsable, fecha, umbral de éxito y condición de detención.
 
 ## Fichas de medición obligatorias
 
@@ -46,6 +48,10 @@ Producir un componente defendible de **operating model humano-IA con casos de us
 | **piezas con control aplicado** | contenidos revisados antes de publicar, sobre contenidos publicados |
 | **afirmaciones corregidas en control** | correcciones realizadas, sobre piezas revisadas |
 | **incidentes por contenido publicado** | reclamos o correcciones posteriores, sobre piezas publicadas |
+| **factor de amplificación de error** | impactos erróneos distribuidos, sobre fuentes de error originarias, por campaña y ventana |
+| **claim rejection rate** | claims rechazados por el gate, sobre claims extraídos, por versión de campaña |
+| **AI-generated-content rate** | piezas con generación o edición sustantiva de IA, sobre piezas publicadas, por mes |
+| **human-review rate** | piezas con aprobación humana registrada, sobre piezas publicadas, por mes |
 | **desempeño frente a la regla actual** | diferencia de precisión entre el modelo y la regla manual |
 | **desempeño por segmento** | precisión del modelo, comparada entre segmentos |
 | **deriva observada** | variación de la precisión del modelo entre periodos sucesivos |

@@ -49,6 +49,8 @@ Producir un componente defendible de **operating model de RevOps con funnel adap
 | **flujos con base legal documentada** | automatizaciones con finalidad y base registradas, sobre automatizaciones activas |
 | **flujos retirados por revisión** | automatizaciones desactivadas por obsolescencia, por semestre |
 | **cambios con aprobación registrada** | modificaciones con aprobación documentada, sobre modificaciones realizadas |
+| **affiliate violation rate** | infracciones confirmadas, sobre piezas o afiliados auditados, por mes |
+| **tiempo de kill switch** | minutos desde la orden de suspensión hasta el cese verificado en cada canal |
 
 Cada ficha debe indicar además: fuente del dato, frecuencia de cálculo, responsable, lectura permitida y lectura prohibida. Si el dato no existe, se diseña el mecanismo de captura y se declara su costo.
 

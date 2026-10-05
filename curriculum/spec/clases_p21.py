@@ -138,12 +138,15 @@ CLASES = [
         conceptos=[
             ("control de afirmaciones", "verificación obligatoria del respaldo de cada afirmación antes de publicar"),
             ("responsable de publicación", "persona que responde por el contenido con independencia de quién lo generó"),
+            ("factor de amplificación de error", "impactos erróneos distribuidos atribuibles a una fuente de error durante una ventana declarada"),
             ("riesgo de escala", "amplificación del daño cuando el error se replica en muchas piezas"),
             ("registro de origen", "documentación de qué contenido fue generado o asistido por un sistema"),
         ],
         metodo=[
             "definir qué tipos de contenido pueden generarse asistidamente",
             "establecer el control de afirmaciones como paso obligatorio",
+            "extraer cada claim y enlazarlo con su fuente",
+            "verificar hechos, encaje regulatorio y reglas de detención",
             "asignar responsable humano de publicación",
             "registrar el origen de cada pieza",
             "auditar una muestra publicada cada mes",
@@ -152,6 +155,10 @@ CLASES = [
             ("piezas con control aplicado", "contenidos revisados antes de publicar, sobre contenidos publicados"),
             ("afirmaciones corregidas en control", "correcciones realizadas, sobre piezas revisadas"),
             ("incidentes por contenido publicado", "reclamos o correcciones posteriores, sobre piezas publicadas"),
+            ("factor de amplificación de error", "impactos erróneos distribuidos, sobre fuentes de error originarias, por campaña y ventana"),
+            ("claim rejection rate", "claims rechazados por el gate, sobre claims extraídos, por versión de campaña"),
+            ("AI-generated-content rate", "piezas con generación o edición sustantiva de IA, sobre piezas publicadas, por mes"),
+            ("human-review rate", "piezas con aprobación humana registrada, sobre piezas publicadas, por mes"),
         ],
         caso=(
             "Ruta Andina publicó 40 artículos generados en un mes. Tres afirmaban compatibilidades "

@@ -119,6 +119,10 @@ El marco de gestión de riesgos publicado por el NIST propone organizar el traba
 
 Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar contenido incorrecto a escala, tratar datos personales sin base legal y perder trazabilidad.** Se documenta en el entregable con su mitigación y su responsable; no se resuelve en la conversación.
 
+### Desarrollo específico aplicado
+
+En contenido regulado, el guardarraíl debe tener una salida ejecutable y no sólo una advertencia: bloquear publicación, congelar la versión, preservar evidencia y escalar a la persona competente. Los umbrales incluyen fuente ausente, identidad no verificable, claim clínico fuera del corpus aprobado, caída de la revisión humana y aumento de reclamos; cada activación entra al registro de incidentes.
+
 ### 6. Integración: de conceptos a una decisión defendible
 
 Sintetizar evaluación y guardrails no consiste en sumar definiciones. Empieza por **conjunto de evaluación**, contrasta **guardarraíl** con **monitoreo posterior**, incorpora **umbral de aceptación** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.

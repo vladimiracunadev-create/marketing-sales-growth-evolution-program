@@ -27,7 +27,7 @@ Las clases van en orden y cada una supone la anterior. Esta es la secuencia y lo
 | 01 | [Mapa de IA comercial](class-01-mapa-de-ia-comercial.md) | tarea automatizable, tipo de sistema, criterio de éxito |
 | 02 | [Prompting con contexto comercial](class-02-prompting-con-contexto-comercial.md) | contexto suficiente, criterio de aceptación, plantilla reutilizable |
 | 03 | [Investigación asistida por IA](class-03-investigacion-asistida-por-ia.md) | afirmación plausible, verificación en fuente primaria, uso legítimo |
-| 04 | [Generación de contenido con controles](class-04-generacion-de-contenido-con-controles.md) | control de afirmaciones, responsable de publicación, riesgo de escala |
+| 04 | [Generación de contenido con controles](class-04-generacion-de-contenido-con-controles.md) | control de afirmaciones, responsable de publicación, factor de amplificación de error |
 | 05 | [Personalización](class-05-personalizacion.md) | pertinencia percibida, expectativa de privacidad, finalidad declarada |
 | 06 | [Investigación de prospectos asistida](class-06-lead-research.md) | señal verificable, afirmación no verificada, proporcionalidad de la recolección |
 | 07 | [Lead scoring asistido por modelos](class-07-lead-scoring-asistido.md) | sesgo histórico, explicabilidad, deriva del modelo |

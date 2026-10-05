@@ -358,5 +358,15 @@ DESARROLLO = {
         "Debe incluir qué se probó, qué resultó, en qué contexto y qué se decidió, incluidos los "
         "experimentos que no funcionaron. Sin él, cada cambio de equipo reinicia el aprendizaje y las mismas "
         "hipótesis se prueban una y otra vez.",
+
+        "El crecimiento ajustado por riesgo obliga a reconciliar velocidad con consecuencia económica: margen "
+        "incremental realizado menos reembolsos, costo de reclamaciones y pérdida esperada de incidentes, dividido "
+        "por el ingreso base de la ventana. Se presenta junto al crecimiento bruto, porque una tasa agregada puede "
+        "subir mientras una cohorte, un canal o un afiliado destruye margen y confianza.",
+
+        "En la simulación de ventas veinte veces mayores, cada capacidad se dimensiona por su driver: claims por "
+        "piezas y versiones, soporte por clientes y complejidad, afiliados por terceros y dominios, seguridad por "
+        "superficie de ataque. La decisión correcta puede ser detener un canal rentable si la revisión humana, la "
+        "contención o el tratamiento de reclamos ya cruzaron su umbral seguro.",
     ],
 }

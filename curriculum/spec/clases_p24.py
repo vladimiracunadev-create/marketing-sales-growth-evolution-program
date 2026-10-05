@@ -461,18 +461,26 @@ CLASES = [
             ("requisito de diseño", "consecuencia concreta de la norma sobre un proceso o material"),
             ("verificación en fuente primaria", "comprobación de la norma en su texto oficial vigente"),
             ("registro de cumplimiento", "documentación que acredita el cumplimiento ante una revisión"),
+            ("claim no sustentado", "afirmación comercial sin evidencia pertinente para producto, población y resultado declarados"),
+            ("publicidad engañosa", "representación u omisión material capaz de inducir una conclusión falsa"),
+            ("falsa autoridad", "identidad o representación que aparenta una credencial profesional no verificable"),
+            ("información clínica", "contenido sobre condición, tratamiento, seguridad, eficacia o uso que exige control especializado"),
         ],
         metodo=[
             "identificar las obligaciones aplicables a la operación",
             "traducir cada una en requisitos de diseño concretos",
             "verificar la vigencia en fuente primaria",
             "documentar el cumplimiento con evidencia",
+            "separar hechos, alegaciones, posición regulatoria, respuesta y análisis",
+            "clasificar claims, testimonios, comparaciones e identidades antes de publicar",
             "declarar los frentes que requieren asesoría especializada",
         ],
         senales=[
             ("obligaciones identificadas y cubiertas", "requisitos con solución de diseño documentada, sobre requisitos identificados"),
             ("verificaciones en fuente primaria", "normas comprobadas en texto oficial, sobre normas citadas"),
             ("brechas declaradas", "incumplimientos reconocidos con plan de corrección, sobre brechas detectadas"),
+            ("claim rejection rate", "claims rechazados por el control, sobre claims extraídos, por versión de campaña"),
+            ("regulatory incident rate", "incidentes regulatorios confirmados, sobre campañas activas, por trimestre"),
         ],
         caso=(
             "El Capstone debe mostrar cómo su tienda cumple el derecho a retracto, cómo trata los datos "

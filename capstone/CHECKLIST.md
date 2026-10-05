@@ -103,6 +103,10 @@ Marca cada elemento sólo cuando exista evidencia verificable en el repositorio 
 - [ ] Está resuelto y documentado lo relativo a **requisito de diseño**.
 - [ ] Está resuelto y documentado lo relativo a **verificación en fuente primaria**.
 - [ ] Está resuelto y documentado lo relativo a **registro de cumplimiento**.
+- [ ] Está resuelto y documentado lo relativo a **claim no sustentado**.
+- [ ] Está resuelto y documentado lo relativo a **publicidad engañosa**.
+- [ ] Está resuelto y documentado lo relativo a **falsa autoridad**.
+- [ ] Está resuelto y documentado lo relativo a **información clínica**.
 - [ ] Señal medida o mecanismo de captura diseñado: **obligaciones identificadas y cubiertas**.
 
 ## 13. Defensa ejecutiva

@@ -6,6 +6,9 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Enriquecido visualmente el caso avanzado MEDVi con iconografía consistente, mapas de flujo Mermaid,
+  gráfico de escala reportada, matrices de riesgo, señales semaforizadas y un tablero de growth ajustado
+  por riesgo, sin dependencias externas.
 - Incorporado MEDVi como caso avanzado de growth AI-native y marketing sanitario regulado, con separación
   entre hechos documentales, alegaciones, posición de la FDA, respuesta de la empresa y análisis.
 - Formalizado el `Error Amplification Factor`, el Claim Gate, el gobierno de afiliados y la simulación de

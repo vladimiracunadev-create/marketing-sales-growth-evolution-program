@@ -17,6 +17,12 @@
 | IA y expansión | 21–22 | IA comercial y go-to-market |
 | Dirección y Capstone | 23–24 | Operating system del CRO y empresa integrada |
 
+## Casos avanzados complementarios
+
+| Caso | Temas | Parte | Acceso |
+|---|---|---:|---|
+| **MEDVi: growth AI-native bajo regulación** | growth AI-native, Error Amplification Factor, marketing sanitario regulado, Claim Gate, affiliate governance, risk-adjusted growth | 24 | [abrir caso](../cases/case-24-empresa-real-regulacion-y-capstone.md) |
+
 ## Detalle por parte
 
 ### Parte 01 — Marketing y ventas: fundamentos del sistema comercial

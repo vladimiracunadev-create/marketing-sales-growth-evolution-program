@@ -6,6 +6,8 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Añadida una ruta de descubrimiento para MEDVi desde el README principal, la documentación, el mapa del
+  currículo y la Parte 24; una prueba de integridad evita que el caso vuelva a quedar como archivo huérfano.
 - Enriquecido visualmente el caso avanzado MEDVi con iconografía consistente, mapas de flujo Mermaid,
   gráfico de escala reportada, matrices de riesgo, señales semaforizadas y un tablero de growth ajustado
   por riesgo, sin dependencias externas.

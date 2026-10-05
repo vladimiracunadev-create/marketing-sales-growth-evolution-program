@@ -209,6 +209,23 @@ def test_documentacion_esperada_existe(raiz):
         assert os.path.isfile(os.path.join(raiz, "docs", nombre)), "Falta docs/{}".format(nombre)
 
 
+def test_caso_medvi_es_descubrible_desde_los_indices(raiz):
+    """El caso avanzado no puede existir como un archivo huérfano."""
+    destino = "case-24-empresa-real-regulacion-y-capstone.md"
+    indices = [
+        os.path.join(raiz, "README.md"),
+        os.path.join(raiz, "docs", "README.md"),
+        os.path.join(raiz, "docs", "MAPA-DEL-CURRICULO.md"),
+        os.path.join(raiz, "curriculum", "README.md"),
+        os.path.join(raiz, "curriculum", "part-21-ia-aplicada-a-marketing-ventas-y-servicio", "README.md"),
+        os.path.join(raiz, "curriculum", "part-24-empresa-real-regulacion-y-capstone", "README.md"),
+    ]
+    for ruta in indices:
+        texto = leer(ruta)
+        assert "MEDVi" in texto, "{} no nombra MEDVi".format(os.path.relpath(ruta, raiz))
+        assert destino in texto, "{} no enlaza el caso MEDVi".format(os.path.relpath(ruta, raiz))
+
+
 def test_glosario_cubre_los_conceptos(raiz, todas_las_clases):
     glosario = leer(os.path.join(raiz, "docs", "GLOSARIO.md"))
     muestra = [c["conceptos"][0][0] for _n, c in todas_las_clases[::17]]

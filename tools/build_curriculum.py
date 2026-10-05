@@ -912,6 +912,30 @@ def render_readme(parte, clases):
         "caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen "
         "entre sí.".format(EMPRESA["nombre"], EMPRESA["descripcion"]),
         "",
+    ]
+
+    casos_relacionados = [
+        caso for caso in PARTES
+        if num in caso.get("caso_avanzado_partes_relacionadas", [])
+    ]
+    if casos_relacionados:
+        lineas += [
+            "## Caso avanzado complementario",
+            "",
+        ]
+        for caso in casos_relacionados:
+            lineas += [
+                "Además del caso persistente, esta parte conecta con **{}**. {}".format(
+                    caso["caso_avanzado_titulo"], caso["caso_avanzado_resumen"]),
+                "",
+                "**Temas:** {}.".format(enum_es(caso["caso_avanzado_temas"])),
+                "",
+                "[🧬 Abrir el caso avanzado MEDVi](../../cases/{})".format(
+                    caso["caso_avanzado_ruta"]),
+                "",
+            ]
+
+    lineas += [
         "## Qué vas a saber hacer",
         "",
         "Las competencias que se desarrollan aquí son {}. Con ellas la parte habilita para el "
@@ -1004,6 +1028,21 @@ def render_indice_curriculo(datos):
         "",
         "**Restricciones:** {}".format(EMPRESA["restricciones"]),
         "",
+        "## Casos avanzados complementarios",
+        "",
+        "El caso persistente mantiene la continuidad del programa. Los casos avanzados añaden contraste externo "
+        "sin sustituirlo y separan hechos, alegaciones, fuentes y análisis.",
+        "",
+        "| Caso | Qué permite estudiar | Parte | Acceso |",
+        "|---|---|---:|---|",
+    ]
+    for p in datos:
+        if p.get("caso_avanzado_titulo"):
+            lineas.append("| **{}** | {} | {} | [abrir caso](../cases/{}) |".format(
+                p["caso_avanzado_titulo"], p["caso_avanzado_resumen"], p["num"],
+                p["caso_avanzado_ruta"]))
+    lineas += [
+        "",
         "## Partes",
         "",
         "| # | Parte | Nivel | Clases | Artefacto |",
@@ -1072,7 +1111,7 @@ def main():
                 escritas += 1
             escribir(os.path.join(destino, "README.md"), render_readme(parte, clases))
 
-        datos.append({
+        entrada = {
             "num": parte["num"],
             "slug": parte["slug"],
             "titulo": parte["titulo"],
@@ -1100,7 +1139,16 @@ def main():
                 "anclajes": ANCLAJES["{}.{}".format(parte["num"], c["n"])],
                 "ruta": "curriculum/{}/class-{}-{}.md".format(parte["slug"], c["n"], c["slug"]),
             } for c in clases],
-        })
+        }
+        if parte.get("caso_avanzado_titulo"):
+            entrada.update({
+                "caso_avanzado_titulo": parte["caso_avanzado_titulo"],
+                "caso_avanzado_ruta": parte["caso_avanzado_ruta"],
+                "caso_avanzado_resumen": parte["caso_avanzado_resumen"],
+                "caso_avanzado_temas": parte["caso_avanzado_temas"],
+                "caso_avanzado_partes_relacionadas": parte["caso_avanzado_partes_relacionadas"],
+            })
+        datos.append(entrada)
 
     if faltantes:
         print("Partes sin especificación: {}".format(", ".join(faltantes)))

@@ -417,6 +417,21 @@ PARTES = [
             "El caso no pide decidir culpabilidad ni dar asesoría legal. Evalúa si el análisis conserva la "
             "procedencia de cada afirmación, evita equivalencias falsas y convierte el riesgo en controles auditables."
         ),
+        "caso_avanzado_titulo": "MEDVi: growth AI-native bajo regulación",
+        "caso_avanzado_ruta": "case-24-empresa-real-regulacion-y-capstone.md",
+        "caso_avanzado_resumen": (
+            "Caso comparativo sobre crecimiento acelerado por IA, Error Amplification Factor, publicidad sanitaria, "
+            "claims, Claim Gate, afiliados, supervisión humana y growth ajustado por riesgo."
+        ),
+        "caso_avanzado_temas": [
+            "growth AI-native",
+            "Error Amplification Factor",
+            "marketing sanitario regulado",
+            "Claim Gate",
+            "affiliate governance",
+            "risk-adjusted growth",
+        ],
+        "caso_avanzado_partes_relacionadas": ["21", "24"],
         "caso_avanzado": [
             "## 🧬 Caso avanzado — MEDVi: growth AI-native bajo regulación",
             "",

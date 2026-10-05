@@ -24,6 +24,7 @@
 | [Fuentes](FUENTES.md) | Las obras y enlaces que sostienen el programa, con su dirección · **generado** |
 | [Bibliografía](BIBLIOGRAFIA.md) | 97 obras con el lente que aporta cada una · **generado** |
 | [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) | Competencias, roles y artefactos por parte · **generado** |
+| [Caso avanzado MEDVi](../cases/case-24-empresa-real-regulacion-y-capstone.md) | Growth AI-native, amplificación del error, publicidad sanitaria, claims, afiliados y compliance |
 
 ## Estándares del programa
 

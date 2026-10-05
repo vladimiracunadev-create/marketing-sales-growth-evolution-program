@@ -10,6 +10,14 @@
 
 **Restricciones:** Presupuesto de marketing y ventas acotado, un solo analista de datos compartido, obligación de cumplir la Ley 19.496 del consumidor y de prepararse para la Ley 21.719 de datos personales, y un competidor regional con más capital.
 
+## Casos avanzados complementarios
+
+El caso persistente mantiene la continuidad del programa. Los casos avanzados añaden contraste externo sin sustituirlo y separan hechos, alegaciones, fuentes y análisis.
+
+| Caso | Qué permite estudiar | Parte | Acceso |
+|---|---|---:|---|
+| **MEDVi: growth AI-native bajo regulación** | Caso comparativo sobre crecimiento acelerado por IA, Error Amplification Factor, publicidad sanitaria, claims, Claim Gate, afiliados, supervisión humana y growth ajustado por riesgo. | 24 | [abrir caso](../cases/case-24-empresa-real-regulacion-y-capstone.md) |
+
 ## Partes
 
 | # | Parte | Nivel | Clases | Artefacto |

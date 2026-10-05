@@ -27,6 +27,8 @@
 [🤝 Contribuir](CONTRIBUTING.md) ·
 [🔐 Seguridad](SECURITY.md)
 
+[🧬 **Caso avanzado MEDVi: growth AI-native bajo regulación**](cases/case-24-empresa-real-regulacion-y-capstone.md)
+
 **Cobertura por nivel:**
 [Fundamentos](curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/README.md) ·
 [Oferta y pricing](curriculum/part-07-pricing-y-monetizacion/README.md) ·

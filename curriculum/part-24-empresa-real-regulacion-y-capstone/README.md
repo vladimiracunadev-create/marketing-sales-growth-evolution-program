@@ -14,6 +14,14 @@ El Capstone exige presentar la operación completa de Ruta Andina —o de una em
 
 Todo el programa ocurre en la misma empresa, **Ruta Andina SpA**: Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público. Trabajar siempre sobre el mismo caso permite comparar decisiones tomadas en partes distintas y ver cuáles se contradicen entre sí.
 
+## Caso avanzado complementario
+
+Además del caso persistente, esta parte conecta con **MEDVi: growth AI-native bajo regulación**. Caso comparativo sobre crecimiento acelerado por IA, Error Amplification Factor, publicidad sanitaria, claims, Claim Gate, afiliados, supervisión humana y growth ajustado por riesgo.
+
+**Temas:** growth AI-native, Error Amplification Factor, marketing sanitario regulado, Claim Gate, affiliate governance y risk-adjusted growth.
+
+[🧬 Abrir el caso avanzado MEDVi](../../cases/case-24-empresa-real-regulacion-y-capstone.md)
+
 ## Qué vas a saber hacer
 
 Las competencias que se desarrollan aquí son **integración estratégica**, **cumplimiento normativo aplicado** y **comunicación ejecutiva**. Con ellas la parte habilita para el trabajo de Founder, CRO, Consultor senior y Gerente general, que es donde estas decisiones se toman de verdad.

@@ -284,6 +284,18 @@ def build_mapa_curriculo(datos):
     ]
     for nivel, rango, resultado in NIVELES:
         lineas.append("| {} | {} | {} |".format(nivel, rango, resultado))
+    lineas += [
+        "",
+        "## Casos avanzados complementarios",
+        "",
+        "| Caso | Temas | Parte | Acceso |",
+        "|---|---|---:|---|",
+    ]
+    for parte, _cls in datos:
+        if parte.get("caso_avanzado_titulo"):
+            lineas.append("| **{}** | {} | {} | [abrir caso](../cases/{}) |".format(
+                parte["caso_avanzado_titulo"], ", ".join(parte["caso_avanzado_temas"]),
+                parte["num"], parte["caso_avanzado_ruta"]))
     lineas += ["", "## Detalle por parte", ""]
     for parte, cls in datos:
         lineas += [

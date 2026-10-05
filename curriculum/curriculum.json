@@ -12017,6 +12017,21 @@
           },
           "ruta": "curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md"
         }
+      ],
+      "caso_avanzado_titulo": "MEDVi: growth AI-native bajo regulación",
+      "caso_avanzado_ruta": "case-24-empresa-real-regulacion-y-capstone.md",
+      "caso_avanzado_resumen": "Caso comparativo sobre crecimiento acelerado por IA, Error Amplification Factor, publicidad sanitaria, claims, Claim Gate, afiliados, supervisión humana y growth ajustado por riesgo.",
+      "caso_avanzado_temas": [
+        "growth AI-native",
+        "Error Amplification Factor",
+        "marketing sanitario regulado",
+        "Claim Gate",
+        "affiliate governance",
+        "risk-adjusted growth"
+      ],
+      "caso_avanzado_partes_relacionadas": [
+        "21",
+        "24"
       ]
     }
   ]

@@ -2,13 +2,14 @@
 
 # Glosario
 
-1303 términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
+1417 fichas conceptuales con definición operacional y contexto, cada una vinculada a la clase donde se trabaja. Una definición operacional indica qué observar, no sólo qué significa.
 
 ## A
 
 | Término | Definición operacional | Clase |
 |---|---|---|
 | **abandono de checkout** | sesiones que inician el proceso de pago y no lo completan | [15.04](../curriculum/part-15-e-commerce-y-marketplaces/class-04-checkout.md) |
+| **abandono oportuno** | decisión previa de detener una iniciativa cuando evidencia, riesgo o costo superan el valor de seguir | [05.13](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-13-prueba-de-concepto-comercial.md) |
 | **abandono temprano** | cliente que deja de usar antes de alcanzar el primer resultado | [18.02](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-02-onboarding.md) |
 | **accesibilidad** | existencia de un canal viable y de un costo de alcance compatible con el margen | [04.05](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-05-atractivo-y-accesibilidad-de-segmentos.md) |
 | **accesibilidad del cliente** | existencia de un camino viable para alcanzarlo | [24.02](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-02-seleccion-de-mercado-y-problema.md) |
@@ -31,6 +32,7 @@
 | **acuerdo de servicio interno** | compromiso de tiempo de respuesta entre marketing y ventas | [11.11](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-11-inbound-lead-capture.md) |
 | **adaptación económica** | traducción del insight a la realidad de costos y prioridades del cliente | [09.03](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-03-challenger-sale.md) |
 | **adopción autónoma** | capacidad del usuario de contratar y obtener valor sin asistencia | [22.05](../curriculum/part-22-go-to-market-canales-y-expansion/class-05-product-led-growth.md) |
+| **adyacencia** | segmento vecino accesible desde la posición conquistada | [22.03](../curriculum/part-22-go-to-market-canales-y-expansion/class-03-beachhead-market.md) |
 | **adyacencia** | segmento vecino al que se puede expandir aprovechando reputación y producto existentes | [04.07](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-07-estrategias-de-nicho.md) |
 | **adyacencia real** | cercanía verificada del problema, del proceso de compra y del contexto | [22.11](../curriculum/part-22-go-to-market-canales-y-expansion/class-11-expansion-por-segmento.md) |
 | **afirmación no verificada** | dato generado que no fue comprobado antes de usarse | [21.06](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-06-lead-research.md) |
@@ -49,6 +51,7 @@
 | **alcanzabilidad** | proporción del equipo que puede alcanzar la cuota con desempeño normal | [16.08](../curriculum/part-16-crm-pipeline-y-sales-operations/class-08-cuotas-y-territorios.md) |
 | **alerta accionable** | aviso que indica qué se rompió y qué hacer | [17.12](../curriculum/part-17-marketing-automation-y-revenue-operations/class-12-calidad-y-observabilidad.md) |
 | **alianza con el área usuaria** | respaldo interno que sostiene el valor durante la negociación de condiciones | [10.10](../curriculum/part-10-negociacion-comercial/class-10-compras-y-procurement.md) |
+| **alineación marketing–ventas** | acuerdo operativo sobre segmento, definiciones, traspasos, capacidad, feedback y resultados | [01.09](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-09-marketing-estrategico-versus-operativo.md) |
 | **aliviador de dolor** | elemento de la oferta que reduce un dolor específico y documentado | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **alivio perceptible** | reducción del problema que el cliente puede notar sin necesidad de un informe | [05.03](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-03-problema-solucion.md) |
 | **alternativa de la contraparte** | estimación de las opciones reales de la otra parte | [10.03](../curriculum/part-10-negociacion-comercial/class-03-batna.md) |
@@ -89,6 +92,7 @@
 | **atribución honesta** | declaración de qué parte del resultado corresponde a la solución y qué parte a otros factores | [13.11](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-11-storytelling-comercial.md) |
 | **atributo accionable** | característica que cambia mensaje, canal, oferta o proceso comercial | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
 | **audiencia alquilada** | acceso a personas que depende de un pago o de una plataforma de terceros | [12.01](../curriculum/part-12-marketing-digital-y-adquisicion/class-01-estrategia-digital.md) |
+| **audiencia definida** | conjunto de personas seleccionado por criterios explícitos | [14.03](../curriculum/part-14-publicidad-y-performance-marketing/class-03-audiencias.md) |
 | **audiencia definida** | grupo específico para el que se produce contenido de forma consistente | [13.01](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-01-estrategia-de-contenidos.md) |
 | **audiencia del tablero** | rol específico para el que se diseña el conjunto de indicadores | [16.11](../curriculum/part-16-crm-pipeline-y-sales-operations/class-11-dashboards-comerciales.md) |
 | **audiencia secundaria** | personas que leerán el documento sin haber participado en la conversación | [08.07](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-07-presentaciones-comerciales.md) |
@@ -99,6 +103,7 @@
 | **automatización de la respuesta** | sustitución de la interacción humana por un sistema | [21.11](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-11-ia-en-customer-success.md) |
 | **automatización masiva** | envío indiscriminado que ignora contexto y degrada la reputación | [11.06](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-06-linkedin-y-social-selling.md) |
 | **autoridad** | capacidad formal de comprometer el gasto | [09.06](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-06-bant-y-sus-limites.md) |
+| **autoridad** | señales externas que respaldan la credibilidad del sitio en un tema | [12.04](../curriculum/part-12-marketing-digital-y-adquisicion/class-04-seo-tecnico-y-de-contenido.md) |
 | **autoridad de cambio** | definición de quién puede modificar qué en el sistema automatizado | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
 | **autoridad de descuento** | nivel jerárquico habilitado para aprobar cada rango de descuento | [07.11](../curriculum/part-07-pricing-y-monetizacion/class-11-descuentos-sin-destruir-valor.md) |
 | **autoridad del agente** | conjunto de acciones que el sistema puede ejecutar sin aprobación humana | [21.09](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-09-agentes-comerciales.md) |
@@ -156,6 +161,7 @@
 | **canal** | ruta completa por la que la oferta llega al cliente, incluidos información, transacción y servicio | [01.08](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-08-canales-comerciales-y-puntos-de-contacto.md) |
 | **canal directo** | venta realizada por el equipo propio con relación directa con el cliente | [22.07](../curriculum/part-22-go-to-market-canales-y-expansion/class-07-canales-directos-e-indirectos.md) |
 | **canal indirecto** | venta realizada por un tercero que se queda con parte del margen | [22.07](../curriculum/part-22-go-to-market-canales-y-expansion/class-07-canales-directos-e-indirectos.md) |
+| **canibalización** | ventas o uso de una oferta nueva que desplazan una oferta propia existente | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **canibalización de contenido** | competencia entre páginas propias por la misma intención de búsqueda | [12.04](../curriculum/part-12-marketing-digital-y-adquisicion/class-04-seo-tecnico-y-de-contenido.md) |
 | **canibalización de planes** | traslado de clientes desde un plan superior a uno inferior por diseño del paquete | [05.07](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md) |
 | **canibalización planificada** | reemplazo deliberado de un producto propio por otro más nuevo | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
@@ -164,6 +170,7 @@
 | **capacidad de atención** | volumen de oportunidades que el equipo comercial puede trabajar con calidad | [12.13](../curriculum/part-12-marketing-digital-y-adquisicion/class-13-plan-de-adquisicion.md) |
 | **capacidad de prospección** | volumen de actividad sostenible con el equipo disponible | [11.14](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-14-sistema-de-prospeccion-repetible.md) |
 | **capacidad de servir** | aptitud actual para entregar el resultado en ese contexto | [22.02](../curriculum/part-22-go-to-market-canales-y-expansion/class-02-market-entry.md) |
+| **capacidad de servir** | aptitud real de entregar el resultado prometido | [24.02](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-02-seleccion-de-mercado-y-problema.md) |
 | **capacidad del sistema** | resultado agregado que la estructura actual puede producir | [16.09](../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) |
 | **capacidad por vendedor** | número de oportunidades que una persona puede trabajar con calidad simultáneamente | [16.09](../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) |
 | **capacidad predictiva** | anticipación de las bajas con un margen de error conocido | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
@@ -190,11 +197,14 @@
 | **ciclo de experimentación** | rutina de analizar, idear, priorizar, probar y aprender | [19.01](../curriculum/part-19-growth-marketing-y-growth-engineering/class-01-que-es-growth.md) |
 | **ciclo de optimización** | secuencia de medición, hipótesis, cambio y evaluación | [14.12](../curriculum/part-14-publicidad-y-performance-marketing/class-12-optimizacion-de-campanas.md) |
 | **ciclo de renovación** | secuencia de actividades que precede al vencimiento del contrato | [18.10](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-10-renewal.md) |
+| **cierre del circuito** | acción de responder al cliente sobre lo que se hizo con su comentario | [18.06](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) |
 | **cierre del circuito** | comunicación al cliente de lo que se hizo con su comentario | [05.12](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-12-voice-of-customer.md) |
 | **cierre natural** | acuerdo que resulta de haber resuelto problema, valor, riesgo y proceso | [08.11](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-11-cierre.md) |
 | **cifra única** | valor acordado para cada indicador con su definición y fuente | [17.14](../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) |
+| **cinco fuerzas** | análisis de rivalidad, entrantes, sustitutos y poder de compradores y proveedores que condiciona rentabilidad | [03.10](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) |
 | **circulación de referencias** | grado en que los actores del segmento se comunican entre sí | [22.03](../curriculum/part-22-go-to-market-canales-y-expansion/class-03-beachhead-market.md) |
 | **circularidad costo-volumen** | dependencia mutua entre costo unitario y volumen que invalida el cálculo ingenuo | [07.02](../curriculum/part-07-pricing-y-monetizacion/class-02-cost-plus-pricing.md) |
+| **cita verificable** | fragmento anonimizado enlazado al registro consentido del que proviene | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **claim no sustentado** | afirmación comercial sin evidencia pertinente para producto, población y resultado declarados | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **claridad de propuesta** | capacidad del sitio de comunicar qué ofrece y para quién en pocos segundos | [12.02](../curriculum/part-12-marketing-digital-y-adquisicion/class-02-sitio-web-como-activo-comercial.md) |
 | **claridad del compromiso** | grado en que el destinatario sabe qué ocurrirá al actuar | [13.07](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-07-ofertas-y-cta.md) |
@@ -203,6 +213,7 @@
 | **cobertura de asignación** | proporción de contactos que llega efectivamente a un responsable | [17.04](../curriculum/part-17-marketing-automation-y-revenue-operations/class-04-lead-routing.md) |
 | **cobertura de medición** | proporción de las conversiones reales que el sistema logra registrar | [14.11](../curriculum/part-14-publicidad-y-performance-marketing/class-11-tracking-y-atribucion.md) |
 | **codificación** | proceso de asignar categorías a fragmentos de texto para hacer comparables los hallazgos | [03.06](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-06-investigacion-cualitativa.md) |
+| **codificación temática** | asignación reproducible de etiquetas a fragmentos para identificar patrones y excepciones | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
 | **coeficiente viral** | número promedio de usuarios nuevos que genera cada usuario existente | [19.08](../curriculum/part-19-growth-marketing-y-growth-engineering/class-08-viralidad.md) |
 | **coherencia aritmética** | consistencia entre los indicadores del tablero | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
 | **coherencia con el consentimiento** | correspondencia entre lo que la persona aceptó recibir y lo que recibe | [13.09](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-09-email-copy.md) |
@@ -220,6 +231,7 @@
 | **coherencia venta-entrega** | correspondencia entre lo prometido y lo que el proceso produce | [24.10](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) |
 | **cohesión del grupo** | grado en que los miembros de un grupo se parecen entre sí más que a los de otros grupos | [04.04](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-04-clustering-conceptual-de-clientes.md) |
 | **cohorte** | conjunto de clientes que comparten el mismo periodo de inicio y que se sigue en el tiempo | [02.13](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-13-segmentos-conductuales.md) |
+| **cohorte** | grupo de clientes que comparte el periodo de incorporación | [18.09](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-09-cohortes.md) |
 | **cohorte de baja** | grupo de clientes que se dio de baja en el mismo periodo de incorporación | [18.07](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-07-churn.md) |
 | **cohorte de comportamiento** | agrupación por acción realizada y no sólo por fecha de ingreso | [20.07](../curriculum/part-20-analitica-comercial-y-marketing-science/class-07-cohort-analysis.md) |
 | **comisión efectiva** | porcentaje total retenido incluyendo comisión, publicidad interna y servicios | [15.11](../curriculum/part-15-e-commerce-y-marketplaces/class-11-marketplaces.md) |
@@ -242,6 +254,7 @@
 | **componente de uso** | señal de actividad en el producto que refleja adopción real | [18.05](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-05-health-score.md) |
 | **componente de volumen** | atributo de bajo valor incremental que conviene incluir en todos los planes | [05.07](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md) |
 | **componente diferenciador** | atributo con alta disposición a pagar que justifica un plan superior | [05.07](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md) |
+| **comprador económico** | persona con autoridad para aprobar el gasto y responsabilidad sobre el retorno | [09.08](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-08-champion-y-economic-buyer.md) |
 | **comprador económico** | persona con autoridad presupuestaria para aprobar el gasto y con responsabilidad sobre el retorno | [02.01](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-01-cliente-usuario-comprador-y-decisor.md) |
 | **comprensibilidad** | capacidad del vendedor de calcular su propia remuneración | [23.05](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-05-compensacion-e-incentivos.md) |
 | **compromiso comercial** | afirmación sobre el futuro que la empresa queda obligada a cumplir | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
@@ -281,6 +294,7 @@
 | **consenso interno** | grado de acuerdo entre los miembros del comité sobre problema, solución y prioridad | [02.06](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) |
 | **consentimiento de cookies** | autorización informada para el uso de identificadores de seguimiento | [14.13](../curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md) |
 | **consentimiento de grabación** | autorización informada de los participantes para registrar la conversación | [21.10](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-10-conversation-intelligence.md) |
+| **consentimiento informado** | autorización específica sobre el uso posterior de los datos entregados | [11.10](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-10-lead-magnets.md) |
 | **consentimiento informado** | autorización obtenida con información suficiente, libre y específica sobre el uso de los datos | [01.13](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-13-etica-comercial-y-confianza.md) |
 | **consentimiento verificable** | registro que acredita cuándo y cómo la persona aceptó recibir comunicaciones | [12.06](../curriculum/part-12-marketing-digital-y-adquisicion/class-06-email-marketing.md) |
 | **consideración** | proporción que incluiría la marca en su conjunto de evaluación | [06.13](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) |
@@ -296,6 +310,7 @@
 | **contexto del destinatario** | información específica que hace pertinente este correo para esta persona | [13.09](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-09-email-copy.md) |
 | **contexto suficiente** | información mínima que el sistema necesita para producir una salida útil | [21.02](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-02-prompting-con-contexto-comercial.md) |
 | **continuidad** | capacidad del cliente de retomar el proceso sin repetir información | [12.12](../curriculum/part-12-marketing-digital-y-adquisicion/class-12-omnicanalidad.md) |
+| **continuidad** | funcionamiento del sistema con independencia de las personas específicas | [16.14](../curriculum/part-16-crm-pipeline-y-sales-operations/class-14-diseno-de-sales-operations.md) |
 | **continuidad de la conversación** | capacidad de retomar la interacción sin que el cliente repita información | [06.12](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) |
 | **continuidad operativa** | capacidad del sistema de funcionar sin depender de una persona | [13.14](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) |
 | **contracargo** | reversión de un pago solicitada por el titular, con su costo asociado | [15.05](../curriculum/part-15-e-commerce-y-marketplaces/class-05-pagos.md) |
@@ -306,6 +321,7 @@
 | **contribución por pedido** | ingreso menos todos los costos variables del pedido | [15.13](../curriculum/part-15-e-commerce-y-marketplaces/class-13-economia-del-e-commerce.md) |
 | **control constructivo** | capacidad de conducir la conversación de precio y proceso sin ceder ni imponer | [09.03](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-03-challenger-sale.md) |
 | **control de acceso** | definición de quién puede ver y modificar cada tipo de dato | [16.13](../curriculum/part-16-crm-pipeline-y-sales-operations/class-13-gobierno-del-crm.md) |
+| **control de afirmaciones** | verificación obligatoria del respaldo de cada afirmación antes de publicar | [21.04](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-04-generacion-de-contenido-con-controles.md) |
 | **control de afirmaciones** | verificación obligatoria del respaldo de toda afirmación comercial | [13.14](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) |
 | **control presupuestario** | capacidad de asignar y limitar gasto por intención | [14.05](../curriculum/part-14-publicidad-y-performance-marketing/class-05-google-ads-arquitectura-conceptual.md) |
 | **control previo** | medida establecida antes de la exposición que reduce el riesgo | [14.13](../curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md) |
@@ -322,6 +338,7 @@
 | **costo de cambio** | esfuerzo, riesgo y pérdida temporal que asume el cliente al abandonar su solución actual | [01.02](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-02-necesidades-deseos-demanda-y-valor.md) |
 | **costo de cierre de brecha** | recursos necesarios para alcanzar el nivel del competidor en ese atributo | [03.09](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) |
 | **costo de construcción de marca** | inversión necesaria para instalar recuerdo y significado de una marca nueva | [06.07](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) |
+| **costo de coordinación** | esfuerzo adicional que exige mantener alineados a los equipos especializados | [23.01](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-01-diseno-de-la-organizacion-comercial.md) |
 | **costo de coordinación** | esfuerzo de gestionar operaciones en husos, idiomas y culturas distintas | [22.12](../curriculum/part-22-go-to-market-canales-y-expansion/class-12-internacionalizacion.md) |
 | **costo de cumplimiento** | gasto de preparación, empaque y despacho por pedido | [15.06](../curriculum/part-15-e-commerce-y-marketplaces/class-06-fulfillment.md) |
 | **costo de dispersión** | pérdida de efectividad por atender demasiados segmentos con la misma capacidad | [04.06](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-06-targeting-y-priorizacion.md) |
@@ -366,6 +383,7 @@
 | **costo por resultado** | gasto dividido por la unidad de resultado que se compra | [14.01](../curriculum/part-14-publicidad-y-performance-marketing/class-01-paid-media-y-subastas.md) |
 | **costo reputacional** | efecto acumulado de una práctica sobre la disposición futura del mercado a confiar | [01.13](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-13-etica-comercial-y-confianza.md) |
 | **costo sorpresa** | cargo revelado al final que altera la decisión ya tomada | [15.04](../curriculum/part-15-e-commerce-y-marketplaces/class-04-checkout.md) |
+| **costo total de propiedad** | suma de precio, implementación, operación y salida durante la vida del contrato | [10.07](../curriculum/part-10-negociacion-comercial/class-07-negociacion-de-precio.md) |
 | **costo total de propiedad** | suma de precio, implementación, operación, cambio y salida durante la vida del contrato | [09.12](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-12-procurement-y-compras.md) |
 | **costo total del canal** | suma de adquisición, habilitación y sostenimiento | [22.08](../curriculum/part-22-go-to-market-canales-y-expansion/class-08-channel-economics.md) |
 | **costo unitario de cada elemento** | valorización interna de cada componente del alcance | [10.08](../curriculum/part-10-negociacion-comercial/class-08-negociacion-de-alcance.md) |
@@ -375,17 +393,22 @@
 | **credibilidad del relato** | coherencia entre lo narrado y la evidencia disponible | [06.08](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-08-storytelling.md) |
 | **credibilidad pública** | reputación construida con contenido y participación verificables | [11.06](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-06-linkedin-y-social-selling.md) |
 | **criterio de aceptación** | condiciones que la salida debe cumplir para considerarse válida | [21.02](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-02-prompting-con-contexto-comercial.md) |
+| **criterio de calificación** | condiciones verificables para invertir tiempo comercial | [24.08](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-08-prospeccion-y-ventas.md) |
+| **criterio de calificación** | condición verificable que debe cumplirse para invertir tiempo comercial | [08.05](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-05-calificacion-de-oportunidades.md) |
 | **criterio de calificación** | regla que define a qué cliente corresponde esta oferta y a cuál no | [05.14](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) |
 | **criterio de continuidad** | condición que debe cumplir el cliente para seguir recibiendo esfuerzo consultivo | [09.01](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-01-venta-consultiva.md) |
+| **criterio de continuidad** | condición que determina si se sostiene o se abandona la operación | [22.12](../curriculum/part-22-go-to-market-canales-y-expansion/class-12-internacionalizacion.md) |
 | **criterio de decisión** | conjunto de requisitos con que el cliente comparará las alternativas | [09.05](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-05-meddic-y-meddpicc.md) |
 | **criterio de decisión por rol** | conjunto de razones y evidencias que cada rol considera suficientes para avanzar | [02.01](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-01-cliente-usuario-comprador-y-decisor.md) |
 | **criterio de exclusión** | característica que predice fracaso y que autoriza a descartar una oportunidad | [02.05](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) |
+| **criterio de expansión** | condición que autoriza proponer una venta adicional | [24.10](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) |
 | **criterio de expansión** | condición verificable que autoriza abrir el frente siguiente | [22.14](../curriculum/part-22-go-to-market-canales-y-expansion/class-14-plan-gtm-completo.md) |
 | **criterio de listeza** | condiciones verificables que deben cumplirse antes de lanzar | [22.09](../curriculum/part-22-go-to-market-canales-y-expansion/class-09-lanzamientos.md) |
 | **criterio de participación** | condiciones que deben cumplirse para invertir en responder | [09.11](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-11-rfp-y-procesos-formales.md) |
 | **criterio de puntuación** | escala documentada con definiciones que permite comparar segmentos sin arbitrariedad | [04.05](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-05-atractivo-y-accesibilidad-de-segmentos.md) |
 | **criterio de rechazo** | capacidad de la declaración de descartar ideas y piezas que no la respetan | [04.11](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-11-declaracion-de-posicionamiento.md) |
 | **criterio de refutación** | resultado definido de antemano que obligaría a abandonar la hipótesis | [03.13](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) |
+| **criterio de salida** | condición verificable para avanzar a la etapa siguiente | [16.02](../curriculum/part-16-crm-pipeline-y-sales-operations/class-02-diseno-del-pipeline.md) |
 | **criterio de salida** | condición verificable que debe cumplirse para avanzar a la etapa siguiente | [08.01](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-01-proceso-comercial-reproducible.md) |
 | **criterio de suficiencia** | estándar que define cuándo un entregable está completo | [24.01](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-01-diseno-de-la-empresa-del-capstone.md) |
 | **criterio de transición** | condición verificable que mueve a un contacto de una etapa a otra | [17.02](../curriculum/part-17-marketing-automation-y-revenue-operations/class-02-lifecycle-stages.md) |
@@ -393,6 +416,7 @@
 | **criterio objetivo** | estándar externo e independiente que legitima una propuesta | [10.01](../curriculum/part-10-negociacion-comercial/class-01-preparacion-de-una-negociacion.md) |
 | **criterio previo** | definición de qué resultado se considerará ganador, fijada antes del test | [13.13](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-13-edicion-y-testing-de-mensajes.md) |
 | **cuello de botella** | etapa que limita el resultado agregado del sistema | [19.03](../curriculum/part-19-growth-marketing-y-growth-engineering/class-03-aarrr.md) |
+| **cuello de botella comercial** | restricción que limita el throughput del sistema aunque otras etapas aumenten actividad | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **cuenta** | organización cliente o potencial cliente como entidad única | [16.04](../curriculum/part-16-crm-pipeline-y-sales-operations/class-04-lead-contact-account-y-opportunity.md) |
 | **cuenta objetivo** | organización seleccionada por potencial y ajuste, con plan propio | [09.10](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-10-account-based-selling.md) |
 | **cultura efectiva** | conjunto de comportamientos que la organización realmente tolera y premia | [23.12](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-12-etica-y-cultura.md) |
@@ -419,11 +443,13 @@
 | **decisión de salida** | conclusión de que la persona no puede desempeñarse en el rol | [23.11](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-11-gestion-de-desempeno.md) |
 | **decisión descartada** | opción explícitamente rechazada con su razón, que impide reabrir la discusión sin datos nuevos | [04.14](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-14-arquitectura-stp-completa.md) |
 | **decisión informada** | elección concreta que cambió a partir de la evidencia | [24.03](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-03-investigacion-con-evidencia.md) |
+| **decisión pendiente** | elección concreta con alternativas definidas que la investigación debe informar | [03.01](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-01-preguntas-de-investigacion-y-decisiones.md) |
 | **decisión pendiente** | elección identificada, con dueño y fecha, que el mapa deja explícita en lugar de esconder | [01.14](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-14-mapa-completo-del-motor-de-ingresos.md) |
 | **decisión por fase** | tipo de inversión que corresponde a la fase estimada | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **decisión que requiere aprobación** | asunto que excede la autoridad de la gerencia | [23.13](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md) |
 | **decisión registrada** | acuerdo documentado con responsable y fecha | [23.09](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-09-reuniones-operativas.md) |
 | **decisión requerida** | acción que el tablero solicita explícitamente cuando algo se desvía | [20.13](../curriculum/part-20-analitica-comercial-y-marketing-science/class-13-dashboards-ejecutivos.md) |
+| **declaración de método** | descripción de fuentes, muestra, procedimiento y límites | [24.03](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-03-investigacion-con-evidencia.md) |
 | **declaración de método** | sección que describe fuentes, muestra, límites y fecha de la evidencia | [03.14](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-14-informe-de-oportunidad-de-mercado.md) |
 | **deduplicación** | proceso de identificar y consolidar registros repetidos | [16.05](../curriculum/part-16-crm-pipeline-y-sales-operations/class-05-higiene-de-datos.md) |
 | **definición compartida de lead calificado** | criterio único acordado entre ambas áreas | [17.07](../curriculum/part-17-marketing-automation-y-revenue-operations/class-07-sla-marketing-ventas.md) |
@@ -447,6 +473,7 @@
 | **descomposición multiplicativa** | expresión del resultado como producto de factores medibles | [20.01](../curriculum/part-20-analitica-comercial-y-marketing-science/class-01-arbol-de-metricas.md) |
 | **descubribilidad** | facilidad con que un visitante encuentra el producto que busca | [15.02](../curriculum/part-15-e-commerce-y-marketplaces/class-02-catalogo-y-merchandising-digital.md) |
 | **descuento mental** | ajuste informal que cada ejecutivo aplica a un forecast poco confiable | [23.08](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-08-forecast-ejecutivo.md) |
+| **deseabilidad–factibilidad–viabilidad** | prueba conjunta de valor para personas, posibilidad técnica-operativa y sostenibilidad económica | [05.13](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-13-prueba-de-concepto-comercial.md) |
 | **deseo** | proyección concreta del beneficio en la situación del lector | [13.03](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-03-aida.md) |
 | **desviación explicada** | diferencia entre lo planificado y lo ejecutado con su causa identificada | [23.06](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-06-presupuesto.md) |
 | **detección de falla** | mecanismo que avisa cuando el flujo deja de funcionar como se esperaba | [17.01](../curriculum/part-17-marketing-automation-y-revenue-operations/class-01-automatizacion-con-proposito.md) |
@@ -494,9 +521,11 @@
 | **economía por canal** | costo por oportunidad y margen atribuible de cada canal | [12.14](../curriculum/part-12-marketing-digital-y-adquisicion/class-14-auditoria-de-marketing-digital.md) |
 | **economía unitaria del plan** | margen de contribución y periodo de recuperación por plan | [24.04](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-04-oferta-y-pricing.md) |
 | **edición por utilidad** | eliminación de todo lo que no ayuda al lector a decidir | [13.13](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-13-edicion-y-testing-de-mensajes.md) |
+| **efecto compuesto** | acumulación del beneficio de retener a lo largo de varios periodos | [18.08](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-08-retention.md) |
 | **efecto compuesto** | resultado de mejorar varias variables simultáneamente | [16.10](../curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md) |
 | **efecto de enfoque** | concentración del esfuerzo que produce elegir una sola métrica | [19.02](../curriculum/part-19-growth-marketing-y-growth-engineering/class-02-north-star-metric.md) |
 | **efecto de largo plazo** | resultado que se manifiesta más allá del periodo de la campaña | [06.13](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) |
+| **efecto de mezcla** | distorsión del agregado producida por cambios en la composición de la base | [20.07](../curriculum/part-20-analitica-comercial-y-marketing-science/class-07-cohort-analysis.md) |
 | **efecto de mezcla** | distorsión del promedio provocada por la combinación de cohortes distintas | [18.09](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-09-cohortes.md) |
 | **efecto incremental** | resultado que no habría ocurrido sin la intervención | [20.09](../curriculum/part-20-analitica-comercial-y-marketing-science/class-09-incrementalidad.md) |
 | **efecto inquietante** | reacción negativa ante una personalización que revela información inesperada | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
@@ -511,11 +540,13 @@
 | **embudo unificado** | representación única del recorrido desde el descubrimiento hasta la renovación | [17.10](../curriculum/part-17-marketing-automation-y-revenue-operations/class-10-revenue-funnel.md) |
 | **encaje problema-solución** | correspondencia verificada entre lo que la oferta hace y lo que el cliente necesita | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **enrutamiento** | asignación de cada tema a un responsable con capacidad de actuar | [05.12](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-12-voice-of-customer.md) |
+| **enrutamiento** | asignación del lead a la persona o equipo correcto según criterios definidos | [11.11](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-11-inbound-lead-capture.md) |
 | **enrutamiento a decisión** | mecanismo que lleva el hallazgo a quien puede modificar el producto o el proceso | [18.13](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-13-voice-of-customer-continuo.md) |
 | **entidad** | objeto del modelo que representa algo real: cuenta, contacto, oportunidad, suscripción | [17.08](../curriculum/part-17-marketing-automation-y-revenue-operations/class-08-modelo-de-datos-revops.md) |
 | **entrada del backlog** | experimento formulado con hipótesis, métrica y criterio de decisión | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **entregabilidad** | probabilidad de que el correo llegue a la bandeja principal del destinatario | [12.06](../curriculum/part-12-marketing-digital-y-adquisicion/class-06-email-marketing.md) |
 | **entrevista de baja** | conversación estructurada con quien se va, para identificar causa raíz | [18.13](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-13-voice-of-customer-continuo.md) |
+| **entrevista no dirigida** | conversación donde el entrevistador explora conducta pasada sin conducir hacia su solución | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
 | **equidad de oportunidad** | grado en que los territorios ofrecen potencial comparable | [16.08](../curriculum/part-16-crm-pipeline-y-sales-operations/class-08-cuotas-y-territorios.md) |
 | **equipo multifuncional** | grupo con capacidad de modificar producto, datos y comunicación | [19.01](../curriculum/part-19-growth-marketing-y-growth-engineering/class-01-que-es-growth.md) |
 | **erosión de precio** | caída sostenida del precio efectivo por acumulación de excepciones | [07.11](../curriculum/part-07-pricing-y-monetizacion/class-11-descuentos-sin-destruir-valor.md) |
@@ -528,6 +559,7 @@
 | **escucha calibrada** | capacidad de sostener el silencio y repreguntar en lugar de completar la respuesta | [08.03](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-03-apertura-y-rapport.md) |
 | **esfuerzo** | recursos necesarios para ejecutar, expresados en una unidad comparable | [19.10](../curriculum/part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) |
 | **esfuerzo del cliente** | cantidad de pasos y tiempo que exige resolver un problema | [15.12](../curriculum/part-15-e-commerce-y-marketplaces/class-12-postventa.md) |
+| **esfuerzo del cliente** | cantidad de pasos, tiempo y energía que exige resolver algo | [18.01](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-01-experiencia-de-cliente.md) |
 | **esfuerzo estimado** | recursos necesarios para ejecutar el experimento | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **eslabón limitante** | la etapa cuya capacidad o calidad determina el resultado total, aunque las demás mejoren | [01.01](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-01-marketing-ventas-y-crecimiento-como-sistema.md) |
 | **espacio vacante** | zona del mapa sin ocupantes que puede o no representar una oportunidad real | [04.10](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-10-mapas-perceptuales.md) |
@@ -535,6 +567,7 @@
 | **especificidad** | nivel de concreción que distingue el titular de una afirmación genérica | [13.06](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-06-headlines.md) |
 | **estabilidad del proceso** | condición en que la variación se mantiene dentro de límites previsibles | [20.11](../curriculum/part-20-analitica-comercial-y-marketing-science/class-11-forecasting.md) |
 | **estabilidad temporal** | permanencia de la estructura de grupos al repetir el análisis en otro periodo | [04.04](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-04-clustering-conceptual-de-clientes.md) |
+| **estacionalidad** | patrón recurrente asociado al calendario | [20.11](../curriculum/part-20-analitica-comercial-y-marketing-science/class-11-forecasting.md) |
 | **estacionalidad** | variación previsible de la demanda según periodo del año o de la semana | [14.08](../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) |
 | **estado actual** | situación operativa y económica verificable del cliente antes de la solución | [09.04](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-04-solution-selling.md) |
 | **estado de la fuente** | distinción explícita entre alegación, hecho acreditado, condena y recurso | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
@@ -556,6 +589,7 @@
 | **estructura por intención** | organización de campañas según lo que busca el usuario y no según el producto | [14.05](../curriculum/part-14-publicidad-y-performance-marketing/class-05-google-ads-arquitectura-conceptual.md) |
 | **etapa comercial** | estado de la oportunidad definido por lo que el cliente ha hecho, no por lo que el vendedor intentó | [08.01](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-01-proceso-comercial-reproducible.md) |
 | **etapa de ciclo de vida** | estado que describe la relación actual del contacto con la empresa | [17.02](../curriculum/part-17-marketing-automation-y-revenue-operations/class-02-lifecycle-stages.md) |
+| **etapa de ciclo de vida** | patrón diagnosticado con adopción, crecimiento, competencia, margen y comportamiento, no edad del producto | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **etapa del cliente** | momento del recorrido al que la campaña se dirige | [14.02](../curriculum/part-14-publicidad-y-performance-marketing/class-02-objetivos-de-campana.md) |
 | **etapa del journey** | momento definido por el objetivo del cliente y no por el canal que la empresa usa | [02.07](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-07-customer-journey.md) |
 | **etapa del marco** | estado medible del recorrido del cliente dentro del modelo | [19.03](../curriculum/part-19-growth-marketing-y-growth-engineering/class-03-aarrr.md) |
@@ -576,7 +610,9 @@
 | **exageración indebida** | amplificación del riesgo más allá de lo que la evidencia sostiene | [13.04](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-04-pas.md) |
 | **excedente del cliente** | diferencia entre lo que el cliente habría pagado y lo que efectivamente pagó | [01.06](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-06-oferta-demanda-y-captura-de-valor.md) |
 | **excedente para el cliente** | parte del valor diferencial que queda en manos del cliente y sostiene la elección | [07.04](../curriculum/part-07-pricing-y-monetizacion/class-04-value-based-pricing.md) |
+| **expansión legítima** | aumento de ingreso en una cuenta que obtuvo el resultado comprometido | [18.11](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-11-expansion-revenue.md) |
 | **expansión legítima** | aumento de ingreso en una cuenta que ya obtuvo el resultado inicial comprometido | [01.11](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-11-customer-success-y-expansion.md) |
+| **expansión por uso** | aumento de ingreso derivado del crecimiento natural del uso | [22.05](../curriculum/part-22-go-to-market-canales-y-expansion/class-05-product-led-growth.md) |
 | **expansión por uso** | aumento de ingreso que ocurre naturalmente al crecer el uso | [19.13](../curriculum/part-19-growth-marketing-y-growth-engineering/class-13-product-led-growth.md) |
 | **expansión prematura** | venta adicional sobre una cuenta que aún no logra el resultado inicial | [18.11](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-11-expansion-revenue.md) |
 | **expansión y contracción** | aumento o reducción de ingreso en clientes que permanecen | [17.11](../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) |
@@ -585,6 +621,7 @@
 | **expediente de afirmación** | evidencia, alcance, limitación, responsable y decisión asociados a una promesa publicitaria | [14.13](../curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md) |
 | **expediente de cliente** | documento único que conecta segmento, ICP, jobs, pains, gains y decisiones comerciales con sus fuentes | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **experiencia acumulada** | percepción formada por el conjunto de interacciones a lo largo de la relación | [18.01](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-01-experiencia-de-cliente.md) |
+| **experiencia–propósito–oportunidad** | intersección entre experiencia observada, cambio que el producto pretende causar y oportunidad viable de negocio | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
 | **explicabilidad** | capacidad de indicar qué factores influyeron en la puntuación | [21.07](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-07-lead-scoring-asistido.md) |
 | **extensibilidad** | capacidad del nombre de acompañar nuevas categorías o mercados | [06.04](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-04-naming.md) |
 
@@ -594,6 +631,7 @@
 |---|---|---|
 | **facilitación** | material que permite al cliente referir sin esfuerzo ni riesgo | [11.08](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-08-referidos.md) |
 | **facilitación de la referencia** | material y proceso que reducen el esfuerzo de referir | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
+| **factor de abandono** | condición observable asociada a no iniciar, no adoptar o terminar la relación | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **factor de amplificación** | número de nuevos usuarios que genera cada usuario existente por ciclo | [19.04](../curriculum/part-19-growth-marketing-y-growth-engineering/class-04-growth-loops.md) |
 | **factor de amplificación de error** | impactos erróneos distribuidos atribuibles a una fuente de error durante una ventana declarada | [21.04](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-04-generacion-de-contenido-con-controles.md) |
 | **factor de sensibilidad** | condición que aumenta o reduce la reacción del cliente ante el precio | [07.06](../curriculum/part-07-pricing-y-monetizacion/class-06-elasticidad-y-sensibilidad.md) |
@@ -606,6 +644,8 @@
 | **fase del ciclo** | etapa estimada según crecimiento de la categoría y comportamiento competitivo | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **fatiga creativa** | caída de desempeño por exposición repetida de la misma pieza | [14.04](../curriculum/part-14-publicidad-y-performance-marketing/class-04-creatividades.md) |
 | **fatiga de comunicación** | pérdida de atención por exceso o repetición de mensajes | [17.05](../curriculum/part-17-marketing-automation-y-revenue-operations/class-05-nurturing.md) |
+| **fatiga de personalización** | caída de respuesta o confianza causada por repetición, intensidad o sensación de vigilancia | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
+| **fidelización** | aumento sostenible de permanencia, recompra o recomendación basado en valor y confianza, no encierro | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
 | **filtro implícito** | característica del recurso que atrae al perfil correcto y desalienta al resto | [11.10](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-10-lead-magnets.md) |
 | **finalidad declarada** | uso informado al momento de recoger el dato | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **finalidad del tratamiento** | propósito declarado que legitima el uso de los datos personales | [21.13](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-13-privacidad-y-propiedad-intelectual.md) |
@@ -613,6 +653,7 @@
 | **flujo de producción** | secuencia definida desde la idea hasta la publicación con responsables | [13.14](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) |
 | **flujo entre etapas** | volumen de contactos que se mueve entre estados en un periodo | [17.02](../curriculum/part-17-marketing-automation-y-revenue-operations/class-02-lifecycle-stages.md) |
 | **flywheel** | modelo donde el resultado de los clientes actuales alimenta la adquisición de los siguientes | [01.05](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-05-funnel-flywheel-y-ciclo-de-compra.md) |
+| **forecast accionable** | proyección con método, error, sesgo, capacidad y decisiones asociadas | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **formalidad del proceso** | grado en que la compra está gobernada por bases, reglamentos o políticas escritas | [01.04](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-04-b2c-b2b-b2g-y-modelos-hibridos.md) |
 | **fragmentación excesiva** | división del presupuesto en demasiados conjuntos que impide el aprendizaje | [14.06](../curriculum/part-14-publicidad-y-performance-marketing/class-06-meta-ads-arquitectura-conceptual.md) |
 | **frecuencia de acompañamiento** | regularidad con que ocurre la sesión de desarrollo | [23.10](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-10-coaching-comercial.md) |
@@ -620,6 +661,7 @@
 | **frecuencia de recordatorio** | número de contactos posteriores al abandono y su espaciamiento | [15.08](../curriculum/part-15-e-commerce-y-marketplaces/class-08-abandono-de-carrito.md) |
 | **frecuencia sostenible** | ritmo de envío que mantiene el interés sin producir bajas ni reclamos | [12.06](../curriculum/part-12-marketing-digital-y-adquisicion/class-06-email-marketing.md) |
 | **freemium** | plan gratuito permanente con limitaciones que motivan la migración a un plan pagado | [07.10](../curriculum/part-07-pricing-y-monetizacion/class-10-freemium-y-pruebas-gratuitas.md) |
+| **fricción** | costo de esfuerzo, tiempo, riesgo o confusión que impone el proceso | [02.08](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-08-motivaciones-y-fricciones.md) |
 | **fricción** | todo aquello que aumenta el esfuerzo o el riesgo percibido de avanzar a la siguiente etapa | [01.05](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-05-funnel-flywheel-y-ciclo-de-compra.md) |
 | **fricción de formulario** | esfuerzo que impone la captura de datos sobre el visitante | [12.03](../curriculum/part-12-marketing-digital-y-adquisicion/class-03-landing-pages.md) |
 | **fricción de registro** | obligación de crear cuenta antes de poder pagar | [15.04](../curriculum/part-15-e-commerce-y-marketplaces/class-04-checkout.md) |
@@ -646,15 +688,18 @@
 | **gancho inicial** | primer segundo o primera línea que determina si la persona detiene el desplazamiento | [14.06](../curriculum/part-14-publicidad-y-performance-marketing/class-06-meta-ads-arquitectura-conceptual.md) |
 | **garantía** | compromiso que reduce el riesgo percibido y acota la responsabilidad del proveedor | [05.06](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-06-diseno-de-ofertas.md) |
 | **garantía comercial** | compromiso voluntario del proveedor que se suma a los derechos legales del cliente | [05.08](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md) |
+| **garantía legal** | derecho a reparación, cambio o devolución que existe con independencia de la voluntad del proveedor | [15.12](../curriculum/part-15-e-commerce-y-marketplaces/class-12-postventa.md) |
 | **garantía legal** | derecho del consumidor que existe con independencia de la garantía comercial | [15.03](../curriculum/part-15-e-commerce-y-marketplaces/class-03-product-detail-page.md) |
 | **gatillo de conversión** | limitación o momento que hace racional pasar al plan pagado | [07.10](../curriculum/part-07-pricing-y-monetizacion/class-10-freemium-y-pruebas-gratuitas.md) |
 | **generación de demanda** | trabajo que crea conciencia del problema y preferencia antes de que exista intención | [11.01](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-01-demand-generation-versus-lead-generation.md) |
+| **gestión de cartera y territorio** | asignación de cuentas, potencial, cobertura y esfuerzo con reglas explícitas | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **gestión de expectativa** | práctica de comunicar dirección sin comprometer fechas no confirmadas | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
 | **gestión del rechazo** | capacidad de sostener la actividad ante una tasa alta de respuestas negativas | [11.05](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-05-cold-calling.md) |
 | **gobernanza de afiliados** | sistema que identifica, autoriza, monitorea y puede suspender a cada tercero comercial | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
 | **gobierno de canal** | reglas que definen qué puede prometerse y modificarse en cada canal | [06.12](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) |
 | **gobierno de la inversión** | reglas de autoridad sobre cambios de presupuesto y de configuración | [14.14](../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) |
 | **gobierno de precios** | reglas de autoridad, revisión y excepción documentadas | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
+| **gobierno de producto** | derechos de decisión, criterios, evidencia y cadencias que conectan estrategia, roadmap, backlog y retiro | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
 | **granularidad** | número de etapas, que debe equilibrar información y costo de mantenimiento | [16.02](../curriculum/part-16-crm-pipeline-y-sales-operations/class-02-diseno-del-pipeline.md) |
 | **growth ajustado por riesgo** | crecimiento incremental neto de pérdidas esperadas por fallas comerciales y regulatorias | [19.14](../curriculum/part-19-growth-marketing-y-growth-engineering/class-14-growth-model-completo.md) |
 | **grupo de comparación** | conjunto equivalente que no recibe el cambio y permite estimar el efecto | [07.13](../curriculum/part-07-pricing-y-monetizacion/class-13-experimentacion-de-precios.md) |
@@ -675,8 +720,10 @@
 | **hallazgo priorizado** | problema detectado con estimación de efecto y de costo de corrección | [12.14](../curriculum/part-12-marketing-digital-y-adquisicion/class-14-auditoria-de-marketing-digital.md) |
 | **heterogeneidad** | diferencia sustantiva de valor entre clientes del mismo segmento aparente | [20.04](../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md) |
 | **higiene de datos** | conjunto de reglas que mantiene el registro completo, actualizado y sin duplicados | [08.13](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-13-disciplina-crm.md) |
+| **hiperpersonalización** | adaptación individual de alta granularidad basada en múltiples señales y automatización | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **hipótesis de causa** | explicación del abandono que puede verificarse con evidencia | [15.07](../curriculum/part-15-e-commerce-y-marketplaces/class-07-conversion.md) |
 | **hipótesis de conversión** | afirmación sobre qué cambio producirá qué efecto y por qué | [12.09](../curriculum/part-12-marketing-digital-y-adquisicion/class-09-conversion-web.md) |
+| **hipótesis de negocio** | predicción refutable que conecta intervención, población, resultado y criterio temporal | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **hipótesis de problema** | suposición informada sobre la dificultad del cliente, presentada para ser corregida | [08.03](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-03-apertura-y-rapport.md) |
 | **hipótesis del MVP** | afirmación específica que el experimento debe confirmar o refutar | [05.04](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-04-mvp-comercial.md) |
 | **hipótesis falsable** | afirmación que especifica condición, efecto esperado, magnitud y plazo | [03.13](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) |
@@ -707,6 +754,7 @@
 | **incidencia logística** | pedido con problema de entrega que genera contacto y costo adicional | [15.06](../curriculum/part-15-e-commerce-y-marketplaces/class-06-fulfillment.md) |
 | **incoherencia visible** | diferencia entre canales que el cliente puede detectar y que erosiona la confianza | [06.12](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) |
 | **incrementalidad** | efecto causal real de un canal, estimado con grupo de comparación | [12.11](../curriculum/part-12-marketing-digital-y-adquisicion/class-11-atribucion-basica.md) |
+| **incrementalidad de personalización** | diferencia causal entre resultado con personalización y contrafactual comparable | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **independencia del sistema** | capacidad de operar sin intervención permanente de la dirección | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **indicador adelantado** | actividad que precede y predice el resultado comercial | [16.06](../curriculum/part-16-crm-pipeline-y-sales-operations/class-06-actividades-comerciales.md) |
 | **indicador de esfuerzo** | medida de la dificultad percibida para resolver algo | [18.06](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) |
@@ -753,6 +801,7 @@
 
 | Término | Definición operacional | Clase |
 |---|---|---|
+| **jerarquía de evidencia** | orden que distingue dato verificado, patrón observado, hipótesis y opinión | [03.12](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-12-sintesis-de-insights.md) |
 | **jerarquía de evidencia** | orden que separa afirmación, testimonio e inferencia de un documento verificable y de un hecho acreditado | [02.10](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-10-riesgo-percibido-y-confianza.md) |
 | **jerarquía de mensajes** | orden en que se comunican paridades y diferencias según la etapa del cliente | [04.09](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-09-puntos-de-paridad-y-diferencia.md) |
 | **jerarquía del tablero** | orden que refleja la importancia de las decisiones que informa | [16.11](../curriculum/part-16-crm-pipeline-y-sales-operations/class-11-dashboards-comerciales.md) |
@@ -784,6 +833,7 @@
 |---|---|---|
 | **maduración** | tiempo necesario para que una cohorte permita conclusiones confiables | [20.07](../curriculum/part-20-analitica-comercial-y-marketing-science/class-07-cohort-analysis.md) |
 | **mandato de compras** | objetivo formal con que se evalúa al área, normalmente ahorro y control de riesgo | [10.10](../curriculum/part-10-negociacion-comercial/class-10-compras-y-procurement.md) |
+| **manejo de errores** | comportamiento definido cuando la sincronización falla | [17.09](../curriculum/part-17-marketing-automation-y-revenue-operations/class-09-integraciones.md) |
 | **manejo de errores** | protocolo de reconocimiento, reparación y prevención ante una falla propia | [06.10](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) |
 | **manejo de objeciones en página** | respuesta anticipada a las dudas que frenan la conversión | [12.03](../curriculum/part-12-marketing-digital-y-adquisicion/class-03-landing-pages.md) |
 | **manual operativo de marca** | documento breve que permite producir piezas correctas sin consulta | [06.14](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-14-brand-book-minimo-viable.md) |
@@ -794,6 +844,7 @@
 | **marca respaldada** | marca propia que menciona a la marca madre como aval | [06.07](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) |
 | **marco de referencia** | categoría en la que la marca quiere ser considerada por el cliente | [04.11](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-11-declaracion-de-posicionamiento.md) |
 | **marco muestral** | lista o mecanismo desde el cual se seleccionan los participantes | [03.05](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-05-muestreo-y-sesgos.md) |
+| **marco ágil** | conjunto de roles, eventos y reglas que orienta la gestión del trabajo bajo incertidumbre | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **margen de contribución** | ingreso menos costos variables, en monto y en porcentaje | [20.06](../curriculum/part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md) |
 | **margen de contribución del cliente** | ingreso menos costos variables de servirlo, por periodo | [20.04](../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md) |
 | **margen de contribución por cliente** | ingreso menos costos variables de servir a ese cliente | [07.12](../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md) |
@@ -801,9 +852,11 @@
 | **margen por pedido** | ingreso del pedido menos todos los costos variables asociados | [15.01](../curriculum/part-15-e-commerce-y-marketplaces/class-01-modelo-operativo-e-commerce.md) |
 | **margen por segmento** | contribución calculada separadamente para cada grupo de clientes | [20.06](../curriculum/part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md) |
 | **margen retenido** | porcentaje del ingreso que queda tras comisiones y descuentos del canal | [22.08](../curriculum/part-22-go-to-market-canales-y-expansion/class-08-channel-economics.md) |
+| **marketing mix 7P** | decisiones coordinadas sobre producto, precio, plaza, promoción, personas, procesos y evidencia física | [01.09](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-09-marketing-estrategico-versus-operativo.md) |
 | **masa crítica** | nivel de presencia que hace que la marca sea conocida dentro del segmento | [22.03](../curriculum/part-22-go-to-market-canales-y-expansion/class-03-beachhead-market.md) |
 | **mascota de marca** | personaje original y gobernado que representa asociaciones de una marca de manera consistente | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **material habilitante** | documento diseñado para que el mobilizer defienda el proyecto sin el vendedor presente | [02.06](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) |
+| **material habilitante** | documento que permite al vendedor y al cliente avanzar sin el diseñador presente | [05.14](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) |
 | **matriz de afirmaciones** | registro afirmación → evidencia → limitación → responsable → decisión de publicar, corregir o retirar | [13.14](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) |
 | **mecanismo** | explicación concreta de por qué la oferta produce el resultado prometido | [01.07](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-07-propuesta-de-valor-inicial.md) |
 | **mecanismo de captura** | forma en que la empresa convierte el valor entregado en ingreso | [24.02](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-02-seleccion-de-mercado-y-problema.md) |
@@ -814,17 +867,20 @@
 | **mejora de la alternativa** | acción previa que aumenta el poder al ampliar las opciones propias | [10.03](../curriculum/part-10-negociacion-comercial/class-03-batna.md) |
 | **mejora entre cohortes** | diferencia de comportamiento entre grupos incorporados en periodos sucesivos | [18.09](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-09-cohortes.md) |
 | **memorabilidad** | facilidad con que el nombre se retiene y se reproduce correctamente | [06.04](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-04-naming.md) |
+| **mensaje por evidencia** | afirmación comercial cuyo beneficio, lenguaje y límite derivan de hallazgos trazables | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **merchandising** | decisión sobre qué productos se destacan y en qué orden | [15.02](../curriculum/part-15-e-commerce-y-marketplaces/class-02-catalogo-y-merchandising-digital.md) |
 | **mobilizer** | actor interno dispuesto a impulsar el cambio y con credibilidad para hacerlo | [02.06](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) |
 | **modelo agregado** | estimación basada en series temporales y no en datos individuales | [20.12](../curriculum/part-20-analitica-comercial-y-marketing-science/class-12-marketing-mix-modeling-fundamentos.md) |
 | **modelo basado en datos** | asignación derivada del análisis de recorridos observados | [20.08](../curriculum/part-20-analitica-comercial-y-marketing-science/class-08-attribution-models.md) |
 | **modelo basado en reglas** | convención fija que reparte el crédito según posición o decaimiento | [20.08](../curriculum/part-20-analitica-comercial-y-marketing-science/class-08-attribution-models.md) |
 | **modelo de atribución** | regla convencional que reparte el crédito de la conversión entre puntos de contacto | [12.11](../curriculum/part-12-marketing-digital-y-adquisicion/class-11-atribucion-basica.md) |
+| **modelo de cobertura** | forma de atender la cartera según valor y complejidad | [24.10](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-10-customer-success.md) |
 | **modelo de cobertura** | forma de atender la cartera: dedicada, agrupada o digital | [18.04](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-04-customer-success.md) |
 | **modelo de compra única o repetida** | clasificación que determina dónde invertir el esfuerzo comercial | [15.13](../curriculum/part-15-e-commerce-y-marketplaces/class-13-economia-del-e-commerce.md) |
 | **modelo de crecimiento** | representación cuantitativa de las palancas y su efecto en el resultado | [19.14](../curriculum/part-19-growth-marketing-y-growth-engineering/class-14-growth-model-completo.md) |
 | **modelo de cumplimiento** | forma en que se almacena, prepara y entrega el producto | [15.01](../curriculum/part-15-e-commerce-y-marketplaces/class-01-modelo-operativo-e-commerce.md) |
 | **modelo de datos de ingresos** | conjunto de entidades, estados y relaciones que representan el recorrido comercial completo | [01.12](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-12-revenue-operations-como-integracion.md) |
+| **modelo de negocio** | lógica conectada de propuesta de valor, clientes, actividades, recursos, socios, costos e ingresos | [03.10](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) |
 | **modelo económico de la tienda** | representación de ingresos, costos y volúmenes con sus supuestos | [15.14](../curriculum/part-15-e-commerce-y-marketplaces/class-14-simulacion-de-tienda-rentable.md) |
 | **modelo económico del competidor** | forma en que gana dinero, su estructura de costos y su presión de retorno | [03.10](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) |
 | **modelo operativo de ingresos** | conjunto de procesos, datos, acuerdos y responsabilidades que produce ingreso | [17.14](../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) |
@@ -837,6 +893,7 @@
 | **momento de intervención** | etapa en que compras entra al proceso y su efecto en el margen | [09.12](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-12-procurement-y-compras.md) |
 | **momento de la oferta** | instante del recorrido donde la sugerencia ayuda en lugar de interrumpir | [15.10](../curriculum/part-15-e-commerce-y-marketplaces/class-10-cross-sell-y-upsell.md) |
 | **momento de la petición** | instante en que el cliente acaba de reconocer el valor obtenido | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
+| **momento de la verdad** | interacción donde la experiencia confirma o contradice una expectativa importante | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
 | **momento de la verdad** | interacción que define desproporcionadamente la percepción de toda la relación | [02.07](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-07-customer-journey.md) |
 | **momento de referencia** | instante en que el cliente ha obtenido resultado y está dispuesto a referir | [11.08](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-08-referidos.md) |
 | **monitoreo de integración** | mecanismo que detecta y avisa cuando el flujo se interrumpe | [17.09](../curriculum/part-17-marketing-automation-y-revenue-operations/class-09-integraciones.md) |
@@ -851,6 +908,7 @@
 | **métrica de cobro** | unidad sobre la que se cobra: usuario, local, transacción, volumen o resultado | [07.01](../curriculum/part-07-pricing-y-monetizacion/class-01-precio-como-decision-estrategica.md) |
 | **métrica de diagnóstico** | indicador que explica el desempeño pero no debe gobernar la decisión | [14.09](../curriculum/part-14-publicidad-y-performance-marketing/class-09-ctr-cpc-y-cpm.md) |
 | **métrica de entrada** | componente que alimenta la métrica estrella y sobre el que se actúa | [19.02](../curriculum/part-19-growth-marketing-y-growth-engineering/class-02-north-star-metric.md) |
+| **métrica de flujo** | medida de tiempo de ciclo, throughput, trabajo en progreso o antigüedad que describe el sistema de entrega | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **métrica de vanidad** | indicador que sube sin relación con el resultado de negocio | [12.10](../curriculum/part-12-marketing-digital-y-adquisicion/class-10-analitica-digital.md) |
 | **métrica del cliente** | indicador con el que el cliente medirá el éxito de la solución | [09.05](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-05-meddic-y-meddpicc.md) |
 | **métrica estrella** | indicador único que representa el valor entregado y guía las decisiones | [19.02](../curriculum/part-19-growth-marketing-y-growth-engineering/class-02-north-star-metric.md) |
@@ -870,6 +928,7 @@
 | **nivel de calidad** | evaluación de la plataforma sobre relevancia que afecta el costo por clic | [12.05](../curriculum/part-12-marketing-digital-y-adquisicion/class-05-sem.md) |
 | **nivel de compromiso** | grado de riesgo del resultado que el proveedor traslada a su propio balance | [05.01](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-01-producto-servicio-y-solucion.md) |
 | **nivel de confianza** | grado de certeza declarado sobre alcance y plazo de una iniciativa | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
+| **nivel de confianza del hallazgo** | grado explícito de respaldo según cantidad, calidad, convergencia y vigencia de la evidencia | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **nivel de fidelidad** | grado de terminación necesario para que la prueba sea válida | [05.04](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-04-mvp-comercial.md) |
 | **nivel de lanzamiento** | escala de la comunicación según la importancia del cambio | [22.09](../curriculum/part-22-go-to-market-canales-y-expansion/class-09-lanzamientos.md) |
 | **nivel de servicio comprometido** | estándar de disponibilidad o respuesta con consecuencia definida | [10.09](../curriculum/part-10-negociacion-comercial/class-09-terminos-y-condiciones.md) |
@@ -901,11 +960,13 @@
 | **oferta operativa** | conjunto completo de definiciones, materiales y reglas que permite vender sin improvisar | [05.14](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) |
 | **ola de medición** | levantamiento periódico con método idéntico que permite comparar en el tiempo | [06.13](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) |
 | **omisión material** | información conocida cuya ausencia puede cambiar una decisión razonable del destinatario | [13.14](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-14-sistema-editorial-completo.md) |
+| **omnicanalidad** | diseño coherente de información, identidad, contexto y continuidad entre puntos de contacto | [01.09](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-09-marketing-estrategico-versus-operativo.md) |
 | **opción de valor conjunto** | alternativa que satisface intereses de ambas partes sin ceder lo esencial | [10.02](../curriculum/part-10-negociacion-comercial/class-02-intereses-versus-posiciones.md) |
 | **oportunidad** | posibilidad de venta calificada con valor, etapa y fecha estimada | [16.04](../curriculum/part-16-crm-pipeline-y-sales-operations/class-04-lead-contact-account-y-opportunity.md) |
 | **orden de intervención** | secuencia de trabajo derivada del diagnóstico y no de la costumbre | [19.03](../curriculum/part-19-growth-marketing-y-growth-engineering/class-03-aarrr.md) |
 | **orden de inversión** | secuencia que prioriza retención antes que adquisición | [19.06](../curriculum/part-19-growth-marketing-y-growth-engineering/class-06-retention-first-growth.md) |
 | **orden de prioridad** | secuencia de temas que refleja lo que el cliente declaró más importante | [08.06](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-06-demostracion-de-valor.md) |
+| **orientación de marketing** | lógica dominante que prioriza producto, cliente, relación, datos o automatización al decidir | [01.09](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-09-marketing-estrategico-versus-operativo.md) |
 | **output del usuario** | producto de la actividad del cliente que puede atraer a otros | [19.04](../curriculum/part-19-growth-marketing-y-growth-engineering/class-04-growth-loops.md) |
 
 ## P
@@ -929,15 +990,22 @@
 | **perfil de cliente ideal** | conjunto de características firmográficas y de comportamiento asociadas a resultado, permanencia y margen | [02.05](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) |
 | **perfil del cliente** | descripción de tareas, dolores y ganancias observadas y no supuestas | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **periodo de atribución** | desfase entre el gasto y la incorporación del cliente que produce | [20.03](../curriculum/part-20-analitica-comercial-y-marketing-science/class-03-cac.md) |
+| **periodo de recuperación** | meses hasta que el margen acumulado iguala el costo de adquisición | [20.05](../curriculum/part-20-analitica-comercial-y-marketing-science/class-05-payback.md) |
+| **periodo de recuperación** | meses hasta recuperar el costo de adquisición con el margen mensual | [07.12](../curriculum/part-07-pricing-y-monetizacion/class-12-unit-economics.md) |
 | **periodo de recuperación** | tiempo necesario para recuperar el costo de adquisición con el margen del cliente | [07.09](../curriculum/part-07-pricing-y-monetizacion/class-09-suscripcion-y-recurring-revenue.md) |
 | **permanencia esperada** | duración estimada de la relación, derivada de curvas de retención | [20.04](../curriculum/part-20-analitica-comercial-y-marketing-science/class-04-ltv.md) |
 | **permiso explícito** | confirmación del destinatario de que puede conversar en ese momento | [11.05](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-05-cold-calling.md) |
 | **persona basada en evidencia** | perfil donde cada atributo indica fuente, número de observaciones y fecha | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
+| **persona hipotética** | perfil provisional compuesto por supuestos marcados que todavía no tiene evidencia suficiente | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
+| **persona sustentada** | patrón respaldado por evidencia cualitativa y cuantitativa trazable | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
+| **persona validada** | perfil revisado contra conducta posterior, casos negativos y una fecha de actualización | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
 | **personalidad** | conjunto de rasgos consistentes en el trato, el tono y las decisiones | [06.03](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-03-proposito-promesa-y-personalidad.md) |
+| **personalización contextual** | adaptación a situación, canal, etapa o necesidad observable con datos proporcionales | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **pertinencia de la recomendación** | correspondencia entre lo recomendado y la necesidad real del cliente | [15.10](../curriculum/part-15-e-commerce-y-marketplaces/class-10-cross-sell-y-upsell.md) |
 | **pertinencia percibida** | grado en que el cliente considera útil la adaptación del mensaje | [21.05](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-05-personalizacion.md) |
 | **pertinencia por etapa** | correspondencia entre el contenido y el momento del contacto | [17.05](../curriculum/part-17-marketing-automation-y-revenue-operations/class-05-nurturing.md) |
 | **pertinencia por rol** | correspondencia entre el mensaje y las preocupaciones del cargo seleccionado | [14.07](../curriculum/part-14-publicidad-y-performance-marketing/class-07-linkedin-ads-arquitectura-conceptual.md) |
+| **PESTEL** | barrido estructurado de factores políticos, económicos, sociales, tecnológicos, ambientales y legales que pueden cambiar una decisión | [03.10](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) |
 | **petición de bajo compromiso** | solicitud proporcional al nivel de confianza existente | [11.04](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-04-cold-email.md) |
 | **petición específica** | solicitud de introducción a una persona u organización identificada | [11.08](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-08-referidos.md) |
 | **pilar temático** | área en la que la empresa concentra su producción y busca ser reconocida | [13.02](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-02-pilares-de-contenido.md) |
@@ -945,6 +1013,7 @@
 | **plan de contingencia** | conjunto de respuestas preparadas ante escenarios adversos | [14.14](../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) |
 | **plan de cuenta** | documento con objetivos, actores, mensajes y acciones específicas para esa organización | [09.10](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-10-account-based-selling.md) |
 | **plan de desarrollo** | definición de las competencias que quedan por construir y cómo | [24.14](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md) |
+| **plan de medición** | definición de qué se registrará y cómo se evaluará | [24.07](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-07-campana-de-adquisicion.md) |
 | **plan de medición** | documento que vincula decisiones, preguntas, métricas y eventos a registrar | [12.10](../curriculum/part-12-marketing-digital-y-adquisicion/class-10-analitica-digital.md) |
 | **plan de mejora** | acuerdo con objetivos, apoyo y plazo definidos | [23.11](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-11-gestion-de-desempeno.md) |
 | **plan de reversión** | acción definida si el lanzamiento produce problemas graves | [22.09](../curriculum/part-22-go-to-market-canales-y-expansion/class-09-lanzamientos.md) |
@@ -965,6 +1034,7 @@
 | **potencia estadística** | capacidad del test de detectar el efecto mínimo relevante con la muestra disponible | [12.09](../curriculum/part-12-marketing-digital-y-adquisicion/class-09-conversion-web.md) |
 | **potencial de expansión** | capacidad estimada de la cuenta de aumentar su gasto sin nueva venta compleja | [02.05](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) |
 | **precedente** | efecto de un descuento sobre las expectativas de futuras negociaciones con ese cliente y su gremio | [07.11](../curriculum/part-07-pricing-y-monetizacion/class-11-descuentos-sin-destruir-valor.md) |
+| **precio basado en valor** | precio establecido con evidencia de valor diferencial y disposición a pagar dentro de una arquitectura sostenible | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **precio de referencia** | monto que el cliente considera normal para esa categoría y contra el cual juzga cualquier propuesta | [01.03](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-03-mercados-categorias-y-competencia.md) |
 | **precio de referencia competitivo** | precio que el cliente considera normal en la categoría, formado por las alternativas visibles | [07.03](../curriculum/part-07-pricing-y-monetizacion/class-03-competitor-based-pricing.md) |
 | **precio efectivo** | monto realmente cobrado después de descuentos, bonificaciones y condiciones | [10.07](../curriculum/part-10-negociacion-comercial/class-07-negociacion-de-precio.md) |
@@ -979,8 +1049,10 @@
 | **pregunta de estrés** | cuestionamiento que somete el plan a un escenario adverso | [24.13](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md) |
 | **pregunta de implicación** | consulta que desarrolla las consecuencias del problema no resuelto | [09.02](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-02-spin-selling.md) |
 | **pregunta de investigación** | formulación que puede responderse con evidencia y que discrimina entre alternativas | [03.01](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-01-preguntas-de-investigacion-y-decisiones.md) |
+| **pregunta de investigación** | formulación que puede responderse con evidencia y que informa una decisión | [24.03](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-03-investigacion-con-evidencia.md) |
 | **pregunta de necesidad-beneficio** | consulta que lleva al cliente a enunciar el valor de resolverlo | [09.02](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-02-spin-selling.md) |
 | **pregunta de problema** | consulta que hace explícita una dificultad o insatisfacción | [09.02](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-02-spin-selling.md) |
+| **pregunta de seguimiento** | indagación que pide ejemplo, secuencia, costo, actor o consecuencia de una respuesta | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
 | **pregunta de situación** | consulta sobre el contexto y los hechos actuales del cliente | [09.02](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-02-spin-selling.md) |
 | **pregunta de verificación** | consulta que confirma si la objeción declarada es el impedimento real | [08.09](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-09-manejo-de-objeciones.md) |
 | **pregunta sesgada** | formulación que orienta la respuesta por su redacción, orden u opciones | [03.04](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-04-diseno-de-encuestas.md) |
@@ -999,16 +1071,22 @@
 | **problema** | brecha entre el estado actual y el estado deseado que produce un costo tolerado o intolerable | [02.02](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-02-problemas-necesidades-y-resultados-deseados.md) |
 | **problema declarado** | dificultad que el cliente reconoce explícitamente | [08.04](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-04-discovery.md) |
 | **problema reconocible** | dificultad que el lector identifica como propia sin necesidad de explicación | [13.04](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-04-pas.md) |
+| **problema verificado** | dificultad documentada con frecuencia, costo y consecuencia | [24.02](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-02-seleccion-de-mercado-y-problema.md) |
 | **problema verificado** | dificultad documentada con frecuencia, costo y consecuencia para el cliente | [05.03](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-03-problema-solucion.md) |
 | **procedimiento de cambio** | regla que define cómo se aprueba y se cobra una modificación | [10.08](../curriculum/part-10-negociacion-comercial/class-08-negociacion-de-alcance.md) |
+| **procedimiento de cambio** | regla que ordena cómo se solicitan y aprueban modificaciones | [16.13](../curriculum/part-16-crm-pipeline-y-sales-operations/class-13-gobierno-del-crm.md) |
 | **proceso de decisión** | secuencia formal de aprobaciones y plazos que el cliente debe recorrer | [09.05](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-05-meddic-y-meddpicc.md) |
 | **proceso estandarizado** | flujo con pasos definidos y resultado consistente antes de ser automatizado | [17.01](../curriculum/part-17-marketing-automation-y-revenue-operations/class-01-automatizacion-con-proposito.md) |
+| **Product Delivery** | construcción, despliegue y operación confiable de cambios priorizados | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
+| **Product Discovery** | reducción continua de riesgo de valor, usabilidad, factibilidad y viabilidad antes y durante la entrega | [05.11](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) |
+| **productividad comercial** | resultado de calidad producido por unidad de capacidad y costo, sin trasladar daño a otra etapa | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **productividad por movimiento** | resultado obtenido por unidad de capacidad en cada movimiento comercial | [22.13](../curriculum/part-22-go-to-market-canales-y-expansion/class-13-gtm-metrics.md) |
 | **productividad por vendedor** | ingreso nuevo generado por persona en un periodo | [22.04](../curriculum/part-22-go-to-market-canales-y-expansion/class-04-sales-led-growth.md) |
 | **producto** | capacidad estandarizada que el cliente usa por su cuenta para obtener un resultado | [05.01](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-01-producto-servicio-y-solucion.md) |
 | **promesa de entrega** | plazo comunicado al cliente al momento de la compra | [15.06](../curriculum/part-15-e-commerce-y-marketplaces/class-06-fulfillment.md) |
 | **promesa de marca** | compromiso concreto que el cliente puede exigir y verificar | [06.03](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-03-proposito-promesa-y-personalidad.md) |
 | **promesa editorial** | compromiso sobre qué tipo de utilidad entregará el contenido | [13.01](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-01-estrategia-de-contenidos.md) |
+| **promesa verificable** | afirmación comercial que puede acreditarse con evidencia disponible | [01.13](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-13-etica-comercial-y-confianza.md) |
 | **promesa verificable** | afirmación que puede comprobarse con un dato o una experiencia del propio cliente | [01.07](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-07-propuesta-de-valor-inicial.md) |
 | **promotor** | cliente con resultado acreditado y disposición a recomendar | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
 | **propiedad y tratamiento de datos** | definición de quién es responsable y qué se puede hacer con la información del cliente | [10.09](../curriculum/part-10-negociacion-comercial/class-09-terminos-y-condiciones.md) |
@@ -1026,6 +1104,7 @@
 | **prueba de campeón** | acción verificable que demuestra compromiso más allá de la declaración | [09.08](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-08-champion-y-economic-buyer.md) |
 | **prueba de cinco segundos** | verificación de qué comprende una persona tras una exposición muy breve | [12.02](../curriculum/part-12-marketing-digital-y-adquisicion/class-02-sitio-web-como-activo-comercial.md) |
 | **prueba de coherencia** | verificación de compatibilidad entre movimiento, ticket y capacidad | [24.06](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-06-gtm.md) |
+| **prueba de comprensión** | verificación de que el destinatario puede explicar la promesa con sus palabras | [04.13](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-13-prueba-de-posicionamiento.md) |
 | **prueba de comprensión** | verificación de que un tercero puede reformular la propuesta sin ayuda | [01.07](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-07-propuesta-de-valor-inicial.md) |
 | **prueba de decepción** | proporción de usuarios que declararía una pérdida relevante si el producto dejara de existir | [05.05](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-05-product-market-fit.md) |
 | **prueba de incorporación** | verificación de que una persona nueva ejecuta correctamente con el documento | [08.14](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-14-playbook-comercial-basico.md) |
@@ -1038,6 +1117,7 @@
 | **prueba de reversibilidad** | verificación de si el cliente mantendría la decisión al conocer toda la información | [02.09](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-09-sesgos-cognitivos-y-decisiones.md) |
 | **prueba de suspensión** | experimento que apaga una inversión para medir su efecto real | [20.09](../curriculum/part-20-analitica-comercial-y-marketing-science/class-09-incrementalidad.md) |
 | **prueba de traspaso** | verificación de que otra persona puede ejecutar la oferta correctamente | [05.14](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-14-oferta-lista-para-vender.md) |
+| **prueba de uso** | verificación de que una persona ajena puede ejecutar con los activos | [24.05](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-05-marca-y-activos-comerciales.md) |
 | **prueba de uso** | verificación de que una persona ajena puede tomar una decisión concreta con el documento | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **prueba en ambiente controlado** | verificación del comportamiento antes de activar sobre datos reales | [17.06](../curriculum/part-17-marketing-automation-y-revenue-operations/class-06-workflows.md) |
 | **prueba en página** | evidencia visible que respalda la afirmación central | [13.08](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-08-landing-page-copy.md) |
@@ -1047,11 +1127,13 @@
 | **prueba social negativa** | mensaje que comunica involuntariamente que pocos adoptan la solución | [13.12](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) |
 | **práctica deliberada** | ejercicio focalizado en una habilidad con criterio y corrección | [23.10](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-10-coaching-comercial.md) |
 | **práctica supervisada** | ejecución real con acompañamiento y retroalimentación inmediata | [23.04](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-04-onboarding-de-equipos.md) |
+| **práctica ágil** | técnica puntual como retrospectiva, visualización, WIP o slicing que puede usarse dentro de distintos marcos | [19.09](../curriculum/part-19-growth-marketing-y-growth-engineering/class-09-experiment-backlog.md) |
 | **publicidad engañosa** | representación u omisión material capaz de inducir una conclusión falsa | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **puntaje de ajuste** | componente que evalúa la correspondencia con el perfil de cliente ideal | [17.03](../curriculum/part-17-marketing-automation-y-revenue-operations/class-03-lead-scoring.md) |
 | **puntaje de comportamiento** | componente que evalúa señales de interés y de intención | [17.03](../curriculum/part-17-marketing-automation-y-revenue-operations/class-03-lead-scoring.md) |
 | **punto de contacto** | momento observable en que el cliente interactúa con la empresa y actualiza su juicio | [01.08](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-08-canales-comerciales-y-puntos-de-contacto.md) |
 | **punto de diferencia** | atributo donde la empresa supera de forma perceptible y sostenible a las alternativas | [03.09](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-09-benchmarking-competitivo.md) |
+| **punto de diferencia** | atributo que inclina la elección hacia esta oferta y no hacia otra | [04.09](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-09-puntos-de-paridad-y-diferencia.md) |
 | **punto de dolor** | fricción concreta que aumenta esfuerzo, riesgo o tiempo del cliente en una etapa | [02.07](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-07-customer-journey.md) |
 | **punto de equilibrio operativo** | volumen a partir del cual la operación cubre sus costos fijos | [15.01](../curriculum/part-15-e-commerce-y-marketplaces/class-01-modelo-operativo-e-commerce.md) |
 | **punto de fuga** | tramo donde se pierde volumen, margen o confianza de forma desproporcionada | [01.14](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-14-mapa-completo-del-motor-de-ingresos.md) |
@@ -1068,6 +1150,7 @@
 
 | Término | Definición operacional | Clase |
 |---|---|---|
+| **rampa de productividad** | tiempo hasta alcanzar el desempeño objetivo del rol | [23.04](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-04-onboarding-de-equipos.md) |
 | **rampa de productividad** | tiempo que tarda una incorporación en alcanzar desempeño pleno | [16.09](../curriculum/part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) |
 | **rango de precios aceptable** | intervalo entre el punto de baratura excesiva y el de carestía excesiva | [07.07](../curriculum/part-07-pricing-y-monetizacion/class-07-van-westendorp-y-tecnicas-de-investigacion.md) |
 | **rango esperado** | banda de variación normal que evita reaccionar al ruido | [16.11](../curriculum/part-16-crm-pipeline-y-sales-operations/class-11-dashboards-comerciales.md) |
@@ -1085,12 +1168,15 @@
 | **reconocimiento de límites** | declaración honesta de lo que el trabajo no puede sostener | [24.13](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-13-defensa-ejecutiva.md) |
 | **recuperación** | acción posterior que busca completar la compra abandonada | [15.08](../curriculum/part-15-e-commerce-y-marketplaces/class-08-abandono-de-carrito.md) |
 | **recuperación de servicio** | gestión que convierte una experiencia negativa en confianza recuperada | [15.12](../curriculum/part-15-e-commerce-y-marketplaces/class-12-postventa.md) |
+| **recuperación de servicio** | secuencia de reconocer, resolver, compensar cuando corresponda y prevenir repetición | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
 | **recurso de valor** | material que resuelve una parte real del problema del destinatario | [11.10](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-10-lead-magnets.md) |
 | **redundancia útil** | repetición del llamado a la acción en los momentos de decisión | [13.08](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-08-landing-page-copy.md) |
 | **reencuadre** | presentación del problema en términos distintos a los que el cliente traía | [09.03](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-03-challenger-sale.md) |
+| **reencuadre** | reconducción de la conversación hacia criterios objetivos en lugar de responder al ancla | [10.05](../curriculum/part-10-negociacion-comercial/class-05-anclaje.md) |
 | **referencia de valor** | cifra del cliente que da sentido al precio propuesto | [10.07](../curriculum/part-10-negociacion-comercial/class-07-negociacion-de-precio.md) |
 | **referencias locales** | casos y clientes de la zona que dan credibilidad ante nuevos prospectos | [22.10](../curriculum/part-22-go-to-market-canales-y-expansion/class-10-expansion-geografica.md) |
 | **registro de acciones** | traza completa de qué hizo el sistema, cuándo y sobre qué registro | [21.09](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-09-agentes-comerciales.md) |
+| **registro de aprendizajes** | documentación acumulada de experimentos y sus conclusiones | [19.14](../curriculum/part-19-growth-marketing-y-growth-engineering/class-14-growth-model-completo.md) |
 | **registro de aprendizajes** | documentación acumulada de qué funcionó y qué no, con evidencia | [14.14](../curriculum/part-14-publicidad-y-performance-marketing/class-14-plan-de-performance-marketing.md) |
 | **registro de cumplimiento** | documentación que acredita el cumplimiento ante una revisión | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **registro de incidentes** | documentación de fallas, su causa y su corrección | [21.14](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-14-operating-model-humano-ia.md) |
@@ -1118,6 +1204,8 @@
 | **renovación** | ingreso conservado de clientes existentes al vencer su contrato | [17.11](../curriculum/part-17-marketing-automation-y-revenue-operations/class-11-forecast-unificado.md) |
 | **renovación automática** | continuidad del contrato sin acción del cliente, sujeta a deber de información | [07.09](../curriculum/part-07-pricing-y-monetizacion/class-09-suscripcion-y-recurring-revenue.md) |
 | **renovación automática informada** | continuidad sujeta al deber de informar y a la facilidad de cancelar | [18.10](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-10-renewal.md) |
+| **renovación de producto** | cambio de propuesta, segmento, tecnología o modelo que busca reabrir crecimiento | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
+| **rentabilidad segmentada** | margen atribuible calculado por cliente, segmento o producto con alcance de costos declarado | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **replicación** | confirmación del resultado al repetir el experimento | [20.10](../curriculum/part-20-analitica-comercial-y-marketing-science/class-10-a-b-testing.md) |
 | **reputación** | juicio acumulado del mercado basado en el comportamiento observado en el tiempo | [06.10](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) |
 | **reputación de dominio** | estado del remitente ante los proveedores de correo, afectado por rebotes y reclamos | [11.02](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-02-list-building-etico.md) |
@@ -1148,7 +1236,9 @@
 | **retardo del pipeline** | desfase entre la actividad de prospección y su efecto en oportunidades cerradas | [08.02](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-02-prospeccion.md) |
 | **retención de datos** | periodo durante el cual se conserva la información según su finalidad | [16.05](../curriculum/part-16-crm-pipeline-y-sales-operations/class-05-higiene-de-datos.md) |
 | **retención estabilizada** | curva de uso o permanencia que deja de caer y se aplana en una cohorte | [05.05](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-05-product-market-fit.md) |
+| **retención estabilizada** | nivel en que la curva se aplana y deja de caer | [18.08](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-08-retention.md) |
 | **retiro de automatizaciones** | proceso de desactivar flujos que ya no cumplen función | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
+| **retiro gestionado** | decisión planificada de descontinuar protegiendo clientes, datos, contratos y reputación | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **retiro ordenado** | proceso de discontinuación que protege a los clientes existentes y la reputación | [05.09](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) |
 | **retorno incremental de activación** | margen de contribución incremental menos costo de activación, dividido por ese costo, bajo un diseño comparativo declarado | [06.06](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-06-identidad-visual-criterios.md) |
 | **retorno marginal** | resultado adicional que produce el siguiente peso invertido en un canal | [14.08](../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) |
@@ -1158,11 +1248,13 @@
 | **retroalimentación estructurada** | información que ventas devuelve sobre la calidad de lo recibido | [17.07](../curriculum/part-17-marketing-automation-y-revenue-operations/class-07-sla-marketing-ventas.md) |
 | **retroceso de etapa** | corrección que devuelve la oportunidad a un estado anterior cuando la evidencia falla | [16.03](../curriculum/part-16-crm-pipeline-y-sales-operations/class-03-etapas-y-criterios-de-salida.md) |
 | **retrospectiva** | análisis honesto de lo que funcionó, lo que no y por qué | [24.14](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-14-retrospectiva-y-portafolio-profesional.md) |
+| **Revenue Management** | asignación de precio y capacidad por segmento, momento o condición con reglas y controles | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **reversibilidad** | capacidad de deshacer o corregir el efecto de una automatización errónea | [17.01](../curriculum/part-17-marketing-automation-y-revenue-operations/class-01-automatizacion-con-proposito.md) |
 | **reversibilidad de la decisión** | facilidad y costo de deshacer la compra si el resultado no se cumple | [02.10](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-10-riesgo-percibido-y-confianza.md) |
 | **revisión de negocio** | sesión estructurada que evalúa la posición real de una oportunidad con evidencia | [09.14](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-14-deal-review-completo.md) |
 | **revisión obligatoria** | verificación humana antes de enviar cualquier salida al cliente | [21.08](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-08-copilotos-de-ventas.md) |
 | **revisión periódica** | auditoría programada de las automatizaciones activas | [17.13](../curriculum/part-17-marketing-automation-y-revenue-operations/class-13-gobernanza-de-automatizaciones.md) |
+| **revisión periódica** | evaluación programada del modelo completo y sus resultados | [21.14](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-14-operating-model-humano-ia.md) |
 | **riesgo cubierto** | contingencia específica que la garantía neutraliza y que frena la decisión | [05.08](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md) |
 | **riesgo de canibalización** | posibilidad de perder a clientes actuales al mover la promesa hacia otro segmento | [04.12](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-12-reposicionamiento.md) |
 | **riesgo de concentración** | dependencia excesiva del ingreso total en una sola cuenta | [09.13](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-13-negocios-enterprise.md) |
@@ -1176,6 +1268,7 @@
 | **ritmo acordado** | frecuencia y canal de seguimiento pactados explícitamente con el cliente | [08.10](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-10-seguimiento.md) |
 | **ritmo de gasto** | distribución del presupuesto en el tiempo dentro del periodo | [14.08](../curriculum/part-14-publicidad-y-performance-marketing/class-08-presupuesto-y-pacing.md) |
 | **ritmo de gestión** | calendario de revisiones que sostiene la operación | [17.14](../curriculum/part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) |
+| **ritmo de gestión** | calendario estable de reuniones que sostiene la operación | [23.09](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-09-reuniones-operativas.md) |
 | **ritmo de revisión** | calendario de revisiones de salud, riesgo y renovación | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
 | **ritmo institucional** | calendario de revisiones y decisiones que sostiene la operación | [23.14](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md) |
 | **ritmo sostenible** | frecuencia de publicación que el equipo puede mantener durante años | [13.01](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-01-estrategia-de-contenidos.md) |
@@ -1189,15 +1282,20 @@
 
 | Término | Definición operacional | Clase |
 |---|---|---|
+| **sacrificio percibido** | precio monetario más costos de transacción, aprendizaje, cambio y riesgos financieros, funcionales o reputacionales | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **salud de cuenta** | estimación del riesgo de baja construida con uso, resultado, relación y señales comerciales | [01.11](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-11-customer-success-y-expansion.md) |
 | **SAM** | porción del TAM alcanzable con el modelo, la geografía y el idioma actuales | [03.08](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-08-tam-sam-y-som.md) |
 | **satisfacción transaccional** | evaluación de una interacción específica y reciente | [18.06](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) |
+| **saturación** | punto donde la inversión adicional produce retornos decrecientes | [20.12](../curriculum/part-20-analitica-comercial-y-marketing-science/class-12-marketing-mix-modeling-fundamentos.md) |
+| **saturación** | punto en que la insistencia produce rechazo y daño reputacional | [11.13](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-13-secuencias-multicanal.md) |
 | **saturación** | punto en que nuevas entrevistas dejan de aportar categorías nuevas | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
 | **secuencia de ejecución** | orden temporal de las acciones con sus dependencias | [24.06](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-06-gtm.md) |
 | **secuencia de expansión** | orden de apertura que aprovecha adyacencias y capacidades | [22.10](../curriculum/part-22-go-to-market-canales-y-expansion/class-10-expansion-geografica.md) |
+| **secuencia de expansión** | orden definido de segmentos y geografías con sus condiciones | [22.14](../curriculum/part-22-go-to-market-canales-y-expansion/class-14-plan-gtm-completo.md) |
 | **secuencia de maduración** | serie de comunicaciones diseñada para acompañar la evolución del contacto | [17.05](../curriculum/part-17-marketing-automation-y-revenue-operations/class-05-nurturing.md) |
 | **secuencia de valor** | orden de correos que entrega utilidad antes de pedir | [13.09](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-09-email-copy.md) |
 | **segmentación analítica** | análisis por grupos que revela diferencias ocultas en el promedio | [12.10](../curriculum/part-12-marketing-digital-y-adquisicion/class-10-analitica-digital.md) |
+| **segmentación contextual** | agrupación por circunstancia de decisión, uso o restricción, no sólo por rasgos estables | [02.04](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) |
 | **segmentación de conversión** | análisis del embudo por dispositivo, origen y categoría | [15.07](../curriculum/part-15-e-commerce-y-marketplaces/class-07-conversion.md) |
 | **segmentación de envío** | división de la lista según comportamiento o perfil para enviar contenido pertinente | [12.06](../curriculum/part-12-marketing-digital-y-adquisicion/class-06-email-marketing.md) |
 | **segmentación de sensibilidad** | diferencia de elasticidad entre grupos de clientes del mismo mercado | [07.06](../curriculum/part-07-pricing-y-monetizacion/class-06-elasticidad-y-sensibilidad.md) |
@@ -1222,6 +1320,7 @@
 | **sesgo de supervivencia** | error de observar sólo los casos que permanecieron y concluir sobre todos | [03.05](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-05-muestreo-y-sesgos.md) |
 | **sesgo de voz** | sobrerrepresentación de opiniones extremas en canales públicos | [03.11](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) |
 | **sesgo declarado** | limitación reconocida que afecta la interpretación de los hallazgos | [24.03](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-03-investigacion-con-evidencia.md) |
+| **sesgo del superviviente** | error de aprender sólo de iniciativas visibles o exitosas e ignorar abandonos y fracasos | [05.13](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-13-prueba-de-concepto-comercial.md) |
 | **sesgo del último clic** | sobrevaloración del canal más cercano a la conversión | [12.11](../curriculum/part-12-marketing-digital-y-adquisicion/class-11-atribucion-basica.md) |
 | **sesgo histórico** | reproducción de patrones del pasado que pueden ser injustos o subóptimos | [21.07](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-07-lead-scoring-asistido.md) |
 | **señal ambigua** | gesto o expresión cuyo significado difiere entre contextos culturales | [10.12](../curriculum/part-10-negociacion-comercial/class-12-negociacion-intercultural.md) |
@@ -1263,6 +1362,7 @@
 | **supuesto de canal** | estimación declarada de costo y conversión que sostiene la asignación | [12.13](../curriculum/part-12-marketing-digital-y-adquisicion/class-13-plan-de-adquisicion.md) |
 | **supuesto de desempeño** | estimación declarada de costo y conversión que sostiene el presupuesto | [24.07](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-07-campana-de-adquisicion.md) |
 | **supuesto de la proyección** | condición declarada que sostiene la estimación | [23.08](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-08-forecast-ejecutivo.md) |
+| **supuesto declarado** | afirmación no verificada que se explicita junto al resultado | [20.14](../curriculum/part-20-analitica-comercial-y-marketing-science/class-14-caso-analitico-integral.md) |
 | **supuesto declarado** | condición que se asume verdadera y que altera el precio o el plazo si no se cumple | [08.08](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-08-propuestas-comerciales.md) |
 | **supuesto no verificado** | elemento del canvas sin evidencia asociada, marcado como pendiente de validar | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **supuesto presupuestario** | estimación declarada que sostiene cada línea del presupuesto | [23.06](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-06-presupuesto.md) |
@@ -1295,6 +1395,7 @@
 | **tiempo medio de recuperación** | duración entre la detección del problema y su resolución | [17.12](../curriculum/part-17-marketing-automation-y-revenue-operations/class-12-calidad-y-observabilidad.md) |
 | **time-to-value** | tiempo entre la firma y la primera evidencia verificable de ese resultado | [01.11](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-11-customer-success-y-expansion.md) |
 | **tipo de coincidencia** | regla que define qué tan cerca debe estar la búsqueda del término configurado | [14.05](../curriculum/part-14-publicidad-y-performance-marketing/class-05-google-ads-arquitectura-conceptual.md) |
+| **tipo de innovación** | cambio incremental o radical en producto, servicio, proceso o modelo de negocio con novedad y resultado observables | [05.13](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-13-prueba-de-concepto-comercial.md) |
 | **tipo de sistema** | clasificación según lo que hace: genera, clasifica, predice, recupera o actúa | [21.01](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-01-mapa-de-ia-comercial.md) |
 | **titularidad del contenido** | definición de quién posee derechos sobre lo generado | [21.13](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-13-privacidad-y-propiedad-intelectual.md) |
 | **tono** | actitud consistente con que la marca se dirige a su audiencia en cada contexto | [06.05](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-05-identidad-verbal.md) |
@@ -1304,9 +1405,12 @@
 | **transparencia del estado** | declaración explícita de qué existe y qué está por construirse | [05.13](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-13-prueba-de-concepto-comercial.md) |
 | **transparencia del incentivo** | declaración de cualquier beneficio entregado por la recomendación | [18.12](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md) |
 | **transparencia sobre riesgos** | declaración anticipada de los problemas relevantes | [23.13](../curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md) |
+| **trazabilidad de la cifra** | posibilidad de reconstruir el cálculo desde sus componentes | [24.11](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-11-dashboard-financiero-comercial.md) |
 | **trazabilidad de la cifra** | registro de origen, metodología, muestra, periodo y fecha de consulta | [03.02](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-02-fuentes-primarias-y-secundarias.md) |
+| **trazabilidad de la evidencia** | registro de qué afirmación provino de qué fuente verificada | [21.03](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-03-investigacion-asistida-por-ia.md) |
 | **trazabilidad de la evidencia** | registro del origen, fecha y estado de validación de cada afirmación del expediente | [02.14](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-14-sintesis-expediente-de-cliente-accionable.md) |
 | **trazabilidad del acuerdo** | posibilidad de reconstruir qué se acordó, cuándo y con quién | [10.13](../curriculum/part-10-negociacion-comercial/class-13-cierre-y-documentacion.md) |
+| **triangulación** | contraste de un hallazgo con métodos, fuentes o investigadores diferentes | [03.03](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-03-diseno-de-entrevistas.md) |
 | **triangulación** | contraste de un hallazgo con una fuente o método distinto | [03.06](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-06-investigacion-cualitativa.md) |
 | **triangulación de métodos** | uso de dos o más técnicas para reducir el sesgo de cada una | [07.07](../curriculum/part-07-pricing-y-monetizacion/class-07-van-westendorp-y-tecnicas-de-investigacion.md) |
 | **tráfico no válido** | interacciones generadas por sistemas automatizados que no corresponden a personas | [14.13](../curriculum/part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md) |
@@ -1318,6 +1422,7 @@
 
 | Término | Definición operacional | Clase |
 |---|---|---|
+| **umbral de acción** | criterio explícito que convierte una señal en decisión de investigar o intervenir | [03.11](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) |
 | **umbral de acción** | punto en que la motivación supera a la fricción y el cliente avanza | [02.08](../curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-08-motivaciones-y-fricciones.md) |
 | **umbral de aceptación** | nivel de desempeño mínimo que autoriza el uso en producción | [21.12](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-12-evaluacion-y-guardrails.md) |
 | **umbral de beneficio** | monto que activa un incentivo como despacho sin costo | [15.09](../curriculum/part-15-e-commerce-y-marketplaces/class-09-aov-y-bundles.md) |
@@ -1330,6 +1435,7 @@
 | **umbral de viabilidad** | ticket mínimo que hace rentable el canal dada su estructura de costo | [14.07](../curriculum/part-14-publicidad-y-performance-marketing/class-07-linkedin-ads-arquitectura-conceptual.md) |
 | **unidad de análisis** | elección entre visitas, sesiones, personas o cuentas como base del cálculo | [20.02](../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md) |
 | **unidad de decisión** | conjunto de personas que influyen, vetan, usan, pagan y firman una compra | [01.04](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-04-b2c-b2b-b2g-y-modelos-hibridos.md) |
+| **unit economics** | relación entre ingreso, costo variable, adquisición, servicio, retención y recuperación a nivel de unidad | [07.14](../curriculum/part-07-pricing-y-monetizacion/class-14-arquitectura-de-monetizacion.md) |
 | **uso legítimo** | tareas donde el error es barato de detectar y corregir | [21.03](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-03-investigacion-asistida-por-ia.md) |
 | **uso para desarrollo** | aplicación orientada a mejorar la habilidad y no a sancionar | [21.10](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-10-conversation-intelligence.md) |
 | **uso sin estímulo** | actividad que continúa sin campañas ni intervención comercial | [05.05](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-05-product-market-fit.md) |
@@ -1347,7 +1453,9 @@
 | **validez ecológica** | grado en que la prueba se parece a la situación real de exposición | [04.13](../curriculum/part-04-segmentacion-targeting-y-posicionamiento/class-13-prueba-de-posicionamiento.md) |
 | **valor aportado en el proceso** | beneficio que el cliente obtiene de la conversación aunque no compre | [09.01](../curriculum/part-09-venta-consultiva-y-b2b-compleja/class-01-venta-consultiva.md) |
 | **valor capturado** | parte del valor creado que se convierte en margen para la empresa | [01.06](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-06-oferta-demanda-y-captura-de-valor.md) |
+| **valor capturado** | porción del valor creado que la empresa retiene como ingreso, margen, aprendizaje o activo estratégico | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **valor conjunto creado** | beneficio total generado por el acuerdo para ambas partes | [10.14](../curriculum/part-10-negociacion-comercial/class-14-simulacion-integral-de-negociacion.md) |
+| **valor creado** | beneficio total que la oferta hace posible para cliente, organización y otras partes afectadas | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **valor creado** | diferencia entre la disposición a pagar del cliente y el costo de proveer el servicio | [01.06](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-06-oferta-demanda-y-captura-de-valor.md) |
 | **valor de la información** | reducción esperada de pérdida por decidir con evidencia en lugar de sin ella | [03.01](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-01-preguntas-de-investigacion-y-decisiones.md) |
 | **valor de referencia** | costo de la mejor alternativa disponible para el cliente | [07.04](../curriculum/part-07-pricing-y-monetizacion/class-04-value-based-pricing.md) |
@@ -1360,6 +1468,7 @@
 | **valor diferencial cuantificado** | monto en que la oferta supera a la alternativa, expresado en la unidad del cliente | [07.03](../curriculum/part-07-pricing-y-monetizacion/class-03-competitor-based-pricing.md) |
 | **valor extraído frente a valor aportado** | relación entre lo que la empresa obtiene y lo que entrega a la comunidad | [12.08](../curriculum/part-12-marketing-digital-y-adquisicion/class-08-community-marketing.md) |
 | **valor perceptible sin ayuda** | beneficio que el usuario obtiene por su cuenta en poco tiempo | [19.13](../curriculum/part-19-growth-marketing-y-growth-engineering/class-13-product-led-growth.md) |
+| **valor percibido** | balance subjetivo y contextual entre beneficios esperados y sacrificios percibidos por quien decide | [05.02](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) |
 | **valor percibido** | juicio del cliente sobre beneficio menos costo total, siempre relativo a una alternativa concreta | [01.02](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-02-necesidades-deseos-demanda-y-valor.md) |
 | **valor por defecto** | configuración inicial que produce beneficio sin trabajo del cliente | [18.03](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-03-time-to-value.md) |
 | **variabilidad del desempeño** | dispersión de resultados entre vendedores que ejecutan el mismo proceso | [08.01](../curriculum/part-08-fundamentos-profesionales-de-ventas/class-01-proceso-comercial-reproducible.md) |
@@ -1382,17 +1491,21 @@
 | **velocidad comercial** | resultado de combinar oportunidades, valor, tasa de cierre y duración del ciclo | [16.10](../curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md) |
 | **velocidad de aprendizaje** | número de experimentos válidos que el equipo puede ejecutar por periodo | [19.12](../curriculum/part-19-growth-marketing-y-growth-engineering/class-12-growth-engineering.md) |
 | **velocidad de escalamiento** | rapidez con que el canal puede aumentar su producción | [22.08](../curriculum/part-22-go-to-market-canales-y-expansion/class-08-channel-economics.md) |
+| **velocidad de escalamiento** | rapidez con que el movimiento puede aumentar su producción | [22.13](../curriculum/part-22-go-to-market-canales-y-expansion/class-13-gtm-metrics.md) |
 | **velocidad de respuesta** | tiempo entre la solicitud del cliente y el primer contacto efectivo | [11.11](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-11-inbound-lead-capture.md) |
 | **velocidad del bucle** | tiempo que tarda un ciclo completo en producir nuevos usuarios | [19.04](../curriculum/part-19-growth-marketing-y-growth-engineering/class-04-growth-loops.md) |
 | **venta consultiva** | proceso donde el vendedor ayuda a definir el problema antes de proponer solución | [01.10](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-10-ventas-transaccionales-y-consultivas.md) |
 | **venta transaccional** | proceso corto donde el cliente ya sabe qué quiere y compara principalmente precio y disponibilidad | [01.10](../curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-10-ventas-transaccionales-y-consultivas.md) |
+| **ventaja competitiva** | sistema de actividades difícil de replicar que permite costo menor, diferenciación o enfoque sostenible | [03.10](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-10-analisis-de-competencia.md) |
 | **ventana de activación** | plazo dentro del cual esa acción debe ocurrir para predecir retención | [19.05](../curriculum/part-19-growth-marketing-y-growth-engineering/class-05-activation.md) |
 | **ventana de atribución** | periodo dentro del cual un contacto se considera contribuyente | [12.11](../curriculum/part-12-marketing-digital-y-adquisicion/class-11-atribucion-basica.md) |
 | **ventana de contacto** | periodo dentro del cual se consideran los puntos de contacto | [20.08](../curriculum/part-20-analitica-comercial-y-marketing-science/class-08-attribution-models.md) |
 | **ventana de conversión** | periodo dentro del cual se considera que la conversión ocurrió | [20.02](../curriculum/part-20-analitica-comercial-y-marketing-science/class-02-conversion-y-funnels.md) |
 | **ventana de evaluación** | periodo necesario para juzgar el efecto de un cambio | [14.12](../curriculum/part-14-publicidad-y-performance-marketing/class-12-optimizacion-de-campanas.md) |
 | **verificabilidad** | claridad de las condiciones que evita discusión al momento de ejecutarla | [05.08](../curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-08-garantias-y-reduccion-de-riesgo.md) |
+| **verificabilidad** | posibilidad de que un tercero compruebe que el testimonio es real | [13.12](../curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) |
 | **verificación en fuente primaria** | comprobación de la afirmación en el documento original | [21.03](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-03-investigacion-asistida-por-ia.md) |
+| **verificación en fuente primaria** | comprobación de la norma en su texto oficial vigente | [24.12](../curriculum/part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md) |
 | **verificación explícita** | práctica de confirmar entendimiento en lugar de suponerlo | [10.12](../curriculum/part-10-negociacion-comercial/class-12-negociacion-intercultural.md) |
 | **verificación previa al contacto** | comprobación de los datos antes de mencionarlos al prospecto | [21.06](../curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-06-lead-research.md) |
 | **versionado** | creación de variantes del producto con valor y precio diferenciados | [07.08](../curriculum/part-07-pricing-y-monetizacion/class-08-versionado-y-price-fences.md) |
@@ -1405,6 +1518,7 @@
 | **vocabulario del cliente** | términos concretos con que el mercado nombra su problema y sus soluciones | [03.11](../curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) |
 | **vocabulario propio** | términos que la marca usa y evita de forma deliberada | [06.05](../curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-05-identidad-verbal.md) |
 | **volumen sin intención** | captura masiva de contactos sin señal de problema ni de perfil | [11.01](../curriculum/part-11-prospeccion-y-generacion-de-demanda/class-01-demand-generation-versus-lead-generation.md) |
+| **voz del cliente** | sistema continuo que recoge, vincula y devuelve acción sobre percepciones y conducta | [18.14](../curriculum/part-18-customer-experience-success-y-fidelizacion/class-14-sistema-de-retencion-y-expansion.md) |
 
 ## Z
 

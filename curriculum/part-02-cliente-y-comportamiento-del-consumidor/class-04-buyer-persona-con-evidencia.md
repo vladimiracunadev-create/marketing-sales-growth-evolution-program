@@ -22,16 +22,16 @@ El material se ordena alrededor de una pregunta que un comité comercial haría 
 
 > **Pregunta rectora de la parte:** ¿Quién decide, quién usa, quién paga y qué progreso intenta lograr cada uno?
 
-Los conceptos que estructuran la sesión son **persona basada en evidencia**, **atributo accionable**, **hipótesis marcada** y **caducidad del perfil**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **persona basada en evidencia**, **atributo accionable**, **hipótesis marcada**, **caducidad del perfil**, **persona hipotética**, **persona sustentada**, **persona validada** y **segmentación contextual**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `persona basada en evidencia`, `atributo accionable`, `hipótesis marcada` y `caducidad del perfil` por sus observables y no por su definición memorizada.
+1. **Distinguir** `persona basada en evidencia`, `atributo accionable`, `hipótesis marcada`, `caducidad del perfil`, `persona hipotética`, `persona sustentada`, `persona validada` y `segmentación contextual` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Cliente y comportamiento del consumidor**.
 3. **Aplicar** la secuencia **definir qué decisiones debe informar la persona → recolectar evidencia de entrevistas, CRM y analítica → escribir sólo atributos accionables con su fuente → marcar hipótesis pendientes y su plan de validación → fijar fecha de revisión del perfil** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **proporción de atributos con fuente**, **uso efectivo del perfil** y **antigüedad del perfil** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **proporción de atributos con fuente**, **uso efectivo del perfil**, **antigüedad del perfil** y **proporción de atributos validados** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **atributo accionable** | característica que cambia mensaje, canal, oferta o proceso comercial | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **hipótesis marcada** | afirmación aún no verificada que se declara como tal para evitar tratarla como hecho | Da un hecho compatible con la definición y otro que la refute. |
 | **caducidad del perfil** | fecha a partir de la cual el perfil debe revalidarse por cambios de mercado | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **persona hipotética** | perfil provisional compuesto por supuestos marcados que todavía no tiene evidencia suficiente | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **persona sustentada** | patrón respaldado por evidencia cualitativa y cuantitativa trazable | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **persona validada** | perfil revisado contra conducta posterior, casos negativos y una fecha de actualización | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **segmentación contextual** | agrupación por circunstancia de decisión, uso o restricción, no sólo por rasgos estables | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **proporción de atributos con fuente**: `at
 
 Menos personas bien construidas orientan mejor que muchas, y a la vez ocultan la variedad real del mercado. Reducir a dos perfiles simplifica la comunicación interna y arriesga dejar fuera un segmento rentable que no encaja en ninguno. La decisión debe registrar qué se dejó fuera deliberadamente, para que la omisión sea una elección y no un olvido.
 
-**Lo que aporta la fuente.** Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) aporta el criterio para pesar el intercambio: la secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial (los capítulos sobre identificación de segmentos y posicionamiento de marca). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **antigüedad del perfil** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Philip Kotler, Kevin Lane Keller y Alexander Chernev — *Marketing Management* (2021, 16.ª ed.) aporta el criterio para pesar el intercambio: la secuencia segmentación → targeting → posicionamiento como decisión previa a la mezcla comercial (los capítulos sobre identificación de segmentos y posicionamiento de marca). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **proporción de atributos validados** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **caducidad del perfil** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,65 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Construir per
 Sintetizar buyer persona con evidencia no consiste en sumar definiciones. Empieza por **persona basada en evidencia**, contrasta **atributo accionable** con **hipótesis marcada**, incorpora **caducidad del perfil** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje B — Buyer Persona como hipótesis, investigación y sistema vivo
+
+Segmento, ICP y Buyer Persona responden preguntas distintas: el segmento agrupa un mercado, el ICP prioriza organizaciones con ajuste y rentabilidad, y la persona modela patrones de roles humanos dentro de una decisión. En B2B y B2G deben convivir usuario, comprador, decisor, prescriptor y veto; en B2C también pueden separarse comprador, usuario y pagador.
+
+Las variables demográficas, geográficas, psicográficas, conductuales y contextuales sólo entran si cambian targeting, posicionamiento, canal, experiencia u oferta. Se busca evidencia sobre motivaciones, aspiraciones, frustraciones, necesidades explícitas y latentes, hábitos, criterios, objeciones y fuentes de información. La IA puede organizar evidencia; nunca fabricar entrevistas ni presentar síntesis simuladas como hallazgos reales.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Hipotético** | supuestos y datos secundarios | usar para planificar investigación, no para afirmar mercado |
+| **Sustentado** | patrones con citas, conteos, fuente y casos discordantes | adaptar mensajes y oferta con confianza declarada |
+| **Validado** | conducta observada y revisión temporal | incorporar a targeting y operación con monitoreo |
+| **Caducado** | cambio de mercado o evidencia contradictoria | suspender uso y revalidar |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Clasifica 20 afirmaciones de la persona actual de Ruta Andina como evidencia, inferencia o supuesto; elimina rasgos decorativos y diseña una muestra que incluya ganados, perdidos, abandonos y no compradores.
+
+**Secuencia.** separar segmento, ICP y roles → vincular cada atributo a una fuente → buscar sesgo de selección → definir criterio de validación y caducidad.
+
+**Solución orientadora.** Una edad sin efecto en la decisión se elimina; la objeción de migración se conserva si aparece en citas trazables y pérdidas; la preferencia de canal queda como hipótesis hasta contrastarla con conducta. El nivel final se asigna atributo por atributo, no a la ficha completa.
+
+**Evidencia de aprendizaje.** matriz atributo–fuente–estado–decisión–próxima validación.
+
+**Rúbrica.** 25 % distinciones; 30 % trazabilidad y representatividad; 25 % accionabilidad; 20 % caducidad y límites.
+
+#### Fichas de medición
+
+**proporción de atributos validados**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| atributos con dos fuentes convergentes y conducta posterior compatible | atributos accionables de la ficha | revisión trimestral o cambio de mercado | repositorio de investigación, CRM y analítica | Research Lead |
+
+- **Lectura permitida:** indica madurez del perfil y dónde investigar.
+- **Limitación:** no mide representatividad del mercado por sí sola.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** agrupar patrones provisionales.
+- **Datos necesarios:** extractos anonimizados con identificador, fecha y contexto.
+- **Prompt reproducible:** `Agrupa sólo afirmaciones presentes. Para cada patrón cita los identificadores que lo sostienen, casos contrarios y nivel de confianza. No inventes frecuencias ni atributos.`
+- **Resultado esperado:** mapa provisional de patrones y contradicciones.
+- **Validación humana:** dos investigadores recodifican una muestra y revisan desacuerdos.
+- **Riesgos:** alucinación, homogeneización de minorías y filtración de datos personales.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** codificación manual con tabla de afinidad.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** consumidor final; pequeña empresa; comité corporativo; comprador institucional.
+
+**Conocimientos previos y referencias cruzadas:** [02.01 · Cliente, usuario, comprador y decisor](../part-02-cliente-y-comportamiento-del-consumidor/class-01-cliente-usuario-comprador-y-decisor.md) · [02.05 · Ideal Customer Profile](../part-02-cliente-y-comportamiento-del-consumidor/class-05-ideal-customer-profile.md) · [02.06 · Unidad de decisión en B2B](../part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) · [04.01 · Segmentación útil versus decorativa](../part-04-segmentacion-targeting-y-posicionamiento/class-01-segmentacion-util-versus-decorativa.md) · [04.06 · Targeting y priorización](../part-04-segmentacion-targeting-y-posicionamiento/class-06-targeting-y-priorizacion.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +213,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Escribir sólo atributos accionables con su fuente.** El riesgo de este paso es cerrar demasiado rápido alrededor de **hipótesis marcada**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **antigüedad del perfil** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Marcar hipótesis pendientes y su plan de validación.** Con **caducidad del perfil** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de atributos con fuente** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Marcar hipótesis pendientes y su plan de validación.** Con **caducidad del perfil** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de atributos validados** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Fijar fecha de revisión del perfil.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **persona basada en evidencia**. **uso efectivo del perfil** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Fijar fecha de revisión del perfil.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **persona hipotética**. **proporción de atributos con fuente** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +269,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **persona basada en evidencia** y **atributo accionable** como sinónimos | Se perdió la distinción entre «perfil donde cada atributo indica fuente, número de observaciones y fecha» y «característica que cambia mensaje, canal, oferta o proceso comercial» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «fijar fecha de revisión del perfil» | Se saltó «definir qué decisiones debe informar la persona»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **proporción de atributos con fuente** | La métrica local reemplazó al resultado del sistema | Contrástala con **antigüedad del perfil** y explicita el costo de oportunidad. |
+| Optimizar sólo **proporción de atributos con fuente** | La métrica local reemplazó al resultado del sistema | Contrástala con **proporción de atributos validados** y explicita el costo de oportunidad. |
 | Documentar rasgos irrelevantes para la decisión comercial | Error específico de esta clase | Elimina todo atributo que no cambie mensaje, canal, oferta o proceso. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +314,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P02-C04-buyer-persona-con-evidencia/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **proporción de atributos con fuente**, **uso efectivo del perfil** y **antigüedad del perfil** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **proporción de atributos con fuente**, **uso efectivo del perfil**, **antigüedad del perfil** y **proporción de atributos validados** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

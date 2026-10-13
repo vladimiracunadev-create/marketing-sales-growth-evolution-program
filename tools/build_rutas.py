@@ -25,7 +25,7 @@ if hasattr(sys.stdout, "reconfigure"):
 from spec.partes import PARTES, por_numero  # noqa: E402
 from spec.roles import FAMILIAS, ROLES  # noqa: E402
 
-FECHA = "2026-08-19"
+FECHA = "2026-10-13"
 SALIDA = os.path.join(RAIZ, "rutas")
 
 _CACHE_CLASES = {}
@@ -251,6 +251,27 @@ def render_indice():
         partes = ", ".join(n for n, _ in rol["ruta"][:4])
         a("| {} [{}]({}.md) | {} | {} | {} |".format(
             rol["emoji"], rol["titulo"], rol["slug"], rol["familia"], partes, rol["artefactos"][0]))
+    a("")
+
+    a("## Variantes profesionales cubiertas sin duplicar rutas")
+    a("")
+    a("Estas variantes combinan una ruta existente con clases de especialización. Se creará una ruta nueva "
+      "sólo si una evaluación futura demuestra que esta combinación no cubre el trabajo real.")
+    a("")
+    a("| Variante | Ruta base | Especialización | Evidencia faro |")
+    a("|---|---|---|---|")
+    variantes = [
+        ("Product Manager / Product Owner / dirección de producto", "product-marketing", "05.11, 19.09 y 05.13", "product brief, roadmap de resultados y backlog gobernado"),
+        ("Investigación de mercados", "analista-de-marketing", "02.04, 03.03–07 y 03.12", "plan, guion, libro de códigos e informe trazable"),
+        ("Customer Experience Manager", "customer-success", "02.07, 18.01, 18.06 y 18.14", "journey, recuperación de servicio y sistema VoC"),
+        ("Key Account Manager / venta consultiva", "ejecutivo-comercial", "09.07–14, 16.07 y 18.10–11", "mapa de cuenta, plan mutuo y renovación rentable"),
+        ("Especialista CRM", "revops", "16.01–14 y 17.08–14", "modelo de datos, gobierno y observabilidad"),
+        ("Consultor de negocios", "founder", "03.10, 05.11, 07.14 y 23.14", "diagnóstico, business case y sistema de gestión"),
+    ]
+    for variante, base, especializacion, evidencia in variantes:
+        rol = next(r for r in ROLES if r["slug"] == base)
+        a("| **{}** | [{}]({}.md) | {} | {} |".format(
+            variante, rol["titulo"], base, especializacion, evidencia))
     a("")
 
     a("## Cómo usar una ruta")

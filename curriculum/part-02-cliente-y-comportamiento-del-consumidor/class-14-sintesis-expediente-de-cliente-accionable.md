@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿Quién decide, quién usa, quién paga y qué progreso intenta lograr cada uno?
 
-Los conceptos que estructuran la sesión son **expediente de cliente**, **trazabilidad de la evidencia**, **prueba de uso** y **ciclo de actualización**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **expediente de cliente**, **trazabilidad de la evidencia**, **prueba de uso**, **ciclo de actualización**, **nivel de confianza del hallazgo**, **cita verificable**, **factor de abandono** y **mensaje por evidencia**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `expediente de cliente`, `trazabilidad de la evidencia`, `prueba de uso` y `ciclo de actualización` por sus observables y no por su definición memorizada.
+1. **Distinguir** `expediente de cliente`, `trazabilidad de la evidencia`, `prueba de uso`, `ciclo de actualización`, `nivel de confianza del hallazgo`, `cita verificable`, `factor de abandono` y `mensaje por evidencia` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Cliente y comportamiento del consumidor**.
 3. **Aplicar** la secuencia **consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación → traducir la evidencia a propuesta de valor, mensaje, oferta, canal y siguiente acción de venta → usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas → marcar hipótesis no validadas y someter la cadena completa a una prueba de uso → corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **proporción de afirmaciones con fuente**, **resultado de la prueba de uso** y **frecuencia de uso del expediente** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **proporción de afirmaciones con fuente**, **resultado de la prueba de uso**, **frecuencia de uso del expediente** y **calidad de ficha Buyer Persona** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **trazabilidad de la evidencia** | registro del origen, fecha y estado de validación de cada afirmación del expediente | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **prueba de uso** | verificación de que una persona ajena puede tomar una decisión concreta con el documento | Da un hecho compatible con la definición y otro que la refute. |
 | **ciclo de actualización** | rutina definida que mantiene el expediente vigente con datos nuevos | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **nivel de confianza del hallazgo** | grado explícito de respaldo según cantidad, calidad, convergencia y vigencia de la evidencia | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **cita verificable** | fragmento anonimizado enlazado al registro consentido del que proviene | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **factor de abandono** | condición observable asociada a no iniciar, no adoptar o terminar la relación | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **mensaje por evidencia** | afirmación comercial cuyo beneficio, lenguaje y límite derivan de hallazgos trazables | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **proporción de afirmaciones con fuente**: 
 
 La prueba de uso entrega el expediente a una persona que no participó y le pide producir una propuesta, un mensaje, una elección de canal y un siguiente paso comercial. Si inventa una razón de compra, no sabe qué segmento excluir o elige un canal sin evidencia, el documento no es accionable. Registrar dónde se rompió la cadena convierte la prueba en una mejora concreta y no en una opinión editorial.
 
-**Lo que aporta la fuente.** Mark Roberge — *The Sales Acceleration Formula* (2015) aporta el criterio para pesar el intercambio: el proceso comercial construido sobre el proceso de compra del cliente (los capítulos sobre alineación con el comprador). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **frecuencia de uso del expediente** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Mark Roberge — *The Sales Acceleration Formula* (2015) aporta el criterio para pesar el intercambio: el proceso comercial construido sobre el proceso de compra del cliente (los capítulos sobre alineación con el comprador). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **calidad de ficha Buyer Persona** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **ciclo de actualización** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,65 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Construir per
 Sintetizar síntesis: expediente de cliente accionable no consiste en sumar definiciones. Empieza por **expediente de cliente**, contrasta **trazabilidad de la evidencia** con **prueba de uso**, incorpora **ciclo de actualización** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje D — Ficha integral de Buyer Persona sustentada en evidencia
+
+La ficha integral registra identificador y contexto, antecedentes relevantes, objetivos, necesidades, desafíos, frustraciones, motivaciones, canales, hábitos, criterios, objeciones, citas verificables, confianza, mensaje, propuesta de valor, elevator pitch, evidencia, hipótesis, fecha, rol decisional, recorrido, atención, abandono, servicio, sensibilidad al precio y beneficios esperados. Cada campo admite `no aplica` o `sin evidencia`; nunca relleno imaginado.
+
+Los ejemplos cambian por contexto: consumidor final enfatiza uso, riesgo y conveniencia; pequeña empresa mezcla usuario y pagador; comprador corporativo separa champion, finanzas, seguridad y procurement; comprador institucional exige bases, presupuesto, transparencia y continuidad. La misma plantilla preserva comparabilidad sin fingir que los procesos son iguales.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Consumidor final** | persona, hogar, ocasión y sensibilidad | probar comprensión, confianza y recompra |
+| **Pequeña empresa** | dueño-operador, caja, tiempo y adopción | mostrar costo total y puesta en marcha |
+| **Corporativo** | comité, riesgo, integración y business case | evidencia distinta por rol |
+| **Institucional** | mandato, compra formal, trazabilidad y continuidad | alinear valor público y cumplimiento |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Construye cuatro fichas mínimas para Ruta Andina usando la misma evidencia base y marca qué campos cambian por tipo de comprador. Escribe un mensaje y un elevator pitch que no excedan lo que sostienen las fuentes.
+
+**Secuencia.** completar campos con fuente → marcar confianza e hipótesis → separar roles decisionales → adaptar propuesta y pitch → programar revisión.
+
+**Solución orientadora.** Una ficha corporativa no hereda la sensibilidad al precio del usuario; una institucional no usa una cita de pyme como evidencia equivalente. El pitch menciona resultado, mecanismo y límite. Los campos sin evidencia quedan visibles como backlog de investigación.
+
+**Evidencia de aprendizaje.** cuatro fichas, matriz de diferencias y registro de hipótesis pendientes.
+
+**Rúbrica.** 30 % completitud razonada; 30 % trazabilidad; 20 % distinción por contexto; 20 % mensaje y límites.
+
+#### Fichas de medición
+
+**calidad de ficha Buyer Persona**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| puntos logrados en completitud, trazabilidad, vigencia, contradicciones y accionabilidad | puntos posibles de la rúbrica | en cada revisión trimestral | ficha y repositorio de evidencia | Product Marketing |
+
+- **Lectura permitida:** prioriza brechas concretas de investigación.
+- **Limitación:** una nota alta no garantiza representatividad ni eficacia comercial.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** proponer huecos y contradicciones de la ficha.
+- **Datos necesarios:** campos y fuentes anonimizadas.
+- **Prompt reproducible:** `Revisa esta ficha. No completes datos. Enumera contradicciones, campos sin fuente, hipótesis y preguntas de validación por rol decisional.`
+- **Resultado esperado:** lista priorizada de brechas.
+- **Validación humana:** el propietario de investigación decide qué preguntas son pertinentes.
+- **Riesgos:** atributos inventados y estereotipos.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** revisión cruzada con la lista de campos y las fuentes.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** B2C; pyme; enterprise; B2G.
+
+**Conocimientos previos y referencias cruzadas:** [02.04 · Buyer persona con evidencia](../part-02-cliente-y-comportamiento-del-consumidor/class-04-buyer-persona-con-evidencia.md) · [02.06 · Unidad de decisión en B2B](../part-02-cliente-y-comportamiento-del-consumidor/class-06-unidad-de-decision-en-b2b.md) · [02.07 · Customer journey](../part-02-cliente-y-comportamiento-del-consumidor/class-07-customer-journey.md) · [05.02 · Value Proposition Canvas](../part-05-producto-oferta-y-propuesta-de-valor/class-02-value-proposition-canvas.md) · [09.07 · Comité de compra](../part-09-venta-consultiva-y-b2b-compleja/class-07-buying-committee.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +213,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas.** El riesgo de este paso es cerrar demasiado rápido alrededor de **prueba de uso**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **frecuencia de uso del expediente** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Marcar hipótesis no validadas y someter la cadena completa a una prueba de uso.** Con **ciclo de actualización** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de afirmaciones con fuente** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Marcar hipótesis no validadas y someter la cadena completa a una prueba de uso.** Con **ciclo de actualización** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **calidad de ficha Buyer Persona** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **expediente de cliente**. **resultado de la prueba de uso** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **nivel de confianza del hallazgo**. **proporción de afirmaciones con fuente** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +269,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **expediente de cliente** y **trazabilidad de la evidencia** como sinónimos | Se perdió la distinción entre «documento único que conecta segmento, ICP, jobs, pains, gains y decisiones comerciales con sus fuentes» y «registro del origen, fecha y estado de validación de cada afirmación del expediente» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización» | Se saltó «consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **proporción de afirmaciones con fuente** | La métrica local reemplazó al resultado del sistema | Contrástala con **frecuencia de uso del expediente** y explicita el costo de oportunidad. |
+| Optimizar sólo **proporción de afirmaciones con fuente** | La métrica local reemplazó al resultado del sistema | Contrástala con **calidad de ficha Buyer Persona** y explicita el costo de oportunidad. |
 | Producir un documento sin prueba de uso | Error específico de esta clase | Entrega el expediente a alguien ajeno y verifica qué decisiones logra tomar sin ayuda. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +314,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P02-C14-sintesis-expediente-de-cliente-accionable/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **proporción de afirmaciones con fuente**, **resultado de la prueba de uso** y **frecuencia de uso del expediente** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **proporción de afirmaciones con fuente**, **resultado de la prueba de uso**, **frecuencia de uso del expediente** y **calidad de ficha Buyer Persona** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

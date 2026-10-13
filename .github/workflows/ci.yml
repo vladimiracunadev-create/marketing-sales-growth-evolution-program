@@ -96,8 +96,8 @@ jobs:
           python tools/build_curriculum.py
           python tools/build_practica.py
           python tools/build_rutas.py
-          python tools/build_docs.py
           python tools/build_bibliography_json.py
+          python tools/build_docs.py
           python tools/build_fuentes.py
           python tools/build_readme_bibliografia.py
 
@@ -109,8 +109,8 @@ jobs:
             echo "  python tools/build_curriculum.py"
             echo "  python tools/build_practica.py"
             echo "  python tools/build_rutas.py"
-            echo "  python tools/build_docs.py"
             echo "  python tools/build_bibliography_json.py"
+            echo "  python tools/build_docs.py"
             echo "  python tools/build_fuentes.py"
             echo "  python tools/build_readme_bibliografia.py"
             git status --porcelain

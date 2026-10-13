@@ -22,16 +22,16 @@ Esta clase existe porque el error que corrige es caro y frecuente en operaciones
 
 > **Pregunta rectora de la parte:** ¿De qué depende realmente que esta empresa gane un cliente rentable y lo conserve?
 
-Los conceptos que estructuran la sesión son **diagnóstico**, **política rectora**, **plan operativo** y **coherencia de acciones**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **diagnóstico**, **política rectora**, **plan operativo**, **coherencia de acciones**, **orientación de marketing**, **marketing mix 7P**, **omnicanalidad** y **alineación marketing–ventas**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `diagnóstico`, `política rectora`, `plan operativo` y `coherencia de acciones` por sus observables y no por su definición memorizada.
+1. **Distinguir** `diagnóstico`, `política rectora`, `plan operativo`, `coherencia de acciones`, `orientación de marketing`, `marketing mix 7P`, `omnicanalidad` y `alineación marketing–ventas` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marketing y ventas: fundamentos del sistema comercial**.
 3. **Aplicar** la secuencia **formular el diagnóstico en una frase con evidencia que lo respalde → declarar la política rectora y lo que se descarta → derivar tres a cinco acciones coherentes con esa política → asignar responsable, presupuesto y plazo a cada acción → fijar la revisión que confirmaría o refutaría el diagnóstico** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **proporción de presupuesto alineado**, **acciones activas sin dueño** y **tiempo entre decisión y ejecución** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **proporción de presupuesto alineado**, **acciones activas sin dueño**, **tiempo entre decisión y ejecución** y **conversión aceptada por ventas** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **política rectora** | elección general que orienta la acción y descarta explícitamente otras opciones | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **plan operativo** | conjunto de acciones, responsables, plazos y presupuestos coherentes con la política | Da un hecho compatible con la definición y otro que la refute. |
 | **coherencia de acciones** | grado en que las actividades se refuerzan entre sí en lugar de competir por recursos | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **orientación de marketing** | lógica dominante que prioriza producto, cliente, relación, datos o automatización al decidir | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **marketing mix 7P** | decisiones coordinadas sobre producto, precio, plaza, promoción, personas, procesos y evidencia física | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **omnicanalidad** | diseño coherente de información, identidad, contexto y continuidad entre puntos de contacto | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **alineación marketing–ventas** | acuerdo operativo sobre segmento, definiciones, traspasos, capacidad, feedback y resultados | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **proporción de presupuesto alineado**: `ga
 
 Concentrar recursos en una apuesta aumenta la probabilidad de que esa apuesta funcione y elimina la cobertura si falla. Repartirlos reduce la varianza y garantiza que ninguna iniciativa alcance masa crítica. Ninguna de las dos es correcta en abstracto: depende de la caja disponible, de la reversibilidad y de cuánto tiempo puede sostener la empresa una apuesta antes de necesitar resultados. Eso es lo que hay que escribir, no la preferencia del equipo.
 
-**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: el foco: pocos objetivos, con lo descartado explícito (los capítulos sobre comprometerse con prioridades). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo entre decisión y ejecución** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: el foco: pocos objetivos, con lo descartado explícito (los capítulos sobre comprometerse con prioridades). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **conversión aceptada por ventas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **coherencia de acciones** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Confundir act
 Sintetizar marketing estratégico versus operativo no consiste en sumar definiciones. Empieza por **diagnóstico**, contrasta **política rectora** con **plan operativo**, incorpora **coherencia de acciones** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje G — Marketing estratégico y táctico integrado
+
+La evolución desde orientación al producto hacia cliente, relación, datos, digital e IA no elimina los enfoques anteriores: cambia cuándo dominan y qué riesgos introducen. La estrategia elige segmento, resultado y posición; la táctica coordina el mix. Campañas, contenido y demanda ejecutan esa elección, no la sustituyen.
+
+4P alcanza para una oferta simple; 7P hace visibles personas, procesos y evidencia física en servicios. La distribución y los canales deben cuadrar con margen y experiencia. La medición conecta actividad, conversión, calidad, ingreso y retención sin repetir el detalle de marketing digital cubierto en las partes 12–14.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **STP** | segmentar, priorizar y posicionar | fijar foco y diferencia |
+| **Oferta** | producto/servicio y precio | conectar resultado, disposición y margen |
+| **Acceso** | plaza, canal y proceso | hacer comprable y entregable la promesa |
+| **Comunicación** | promoción, contenido y marca | explicar valor con evidencia |
+| **Experiencia** | personas y evidencia física | cumplir la promesa en cada contacto |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Diseña un mix 7P para el plan municipal de Ruta Andina y compáralo con el plan pyme. Indica tres decisiones que marketing no puede tomar sin ventas, operaciones o producto.
+
+**Secuencia.** reafirmar STP → diseñar 7P coherentes → mapear canales y capacidad → definir traspasos → conectar indicadores con decisiones.
+
+**Solución orientadora.** El plan institucional requiere proceso de compra, evidencia, implementación y continuidad distintos; no basta cambiar el anuncio. Si ventas no puede cubrir licitaciones o soporte no puede cumplir SLA, promoción adicional empeora el sistema.
+
+**Evidencia de aprendizaje.** tabla 7P comparada, mapa omnicanal, SLA marketing–ventas y árbol de resultados.
+
+**Rúbrica.** 25 % coherencia STP; 25 % mix; 20 % canales; 20 % alineación; 10 % medición.
+
+#### Fichas de medición
+
+**conversión aceptada por ventas**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| oportunidades aceptadas que cumplen criterios | traspasos realizados por marketing | mes calendario por segmento | automatización y CRM | Revenue Operations |
+
+- **Lectura permitida:** mide calidad del acuerdo y del targeting.
+- **Limitación:** no atribuye por sí sola ingreso a marketing.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** detectar incoherencias del mix.
+- **Datos necesarios:** brief, restricciones, capacidad y evidencia sin datos personales.
+- **Prompt reproducible:** `Revisa estas 7P. Señala contradicciones entre promesa, precio, canal, personas y proceso. No propongas claims nuevos; formula preguntas para las celdas sin evidencia.`
+- **Resultado esperado:** lista priorizada de incoherencias.
+- **Validación humana:** dueños de marketing, ventas, producto y operaciones acuerdan correcciones.
+- **Riesgos:** recomendaciones genéricas y automatización de claims.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** revisión cruzada con checklist 7P.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** B2C; venta consultiva B2B; servicio profesional; compra pública.
+
+**Conocimientos previos y referencias cruzadas:** [04.14 · Arquitectura STP completa](../part-04-segmentacion-targeting-y-posicionamiento/class-14-arquitectura-stp-completa.md) · [06.12 · Coherencia omnicanal](../part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) · [12.12 · Omnicanalidad](../part-12-marketing-digital-y-adquisicion/class-12-omnicanalidad.md) · [17.07 · Acuerdo de servicio entre marketing y ventas](../part-17-marketing-automation-y-revenue-operations/class-07-sla-marketing-ventas.md) · [22.14 · Plan go-to-market completo](../part-22-go-to-market-canales-y-expansion/class-14-plan-gtm-completo.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Derivar tres a cinco acciones coherentes con esa política.** El riesgo de este paso es cerrar demasiado rápido alrededor de **plan operativo**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **tiempo entre decisión y ejecución** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Asignar responsable, presupuesto y plazo a cada acción.** Con **coherencia de acciones** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de presupuesto alineado** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Asignar responsable, presupuesto y plazo a cada acción.** Con **coherencia de acciones** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **conversión aceptada por ventas** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Fijar la revisión que confirmaría o refutaría el diagnóstico.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **diagnóstico**. **acciones activas sin dueño** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Fijar la revisión que confirmaría o refutaría el diagnóstico.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **orientación de marketing**. **proporción de presupuesto alineado** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **diagnóstico** y **política rectora** como sinónimos | Se perdió la distinción entre «explicación del obstáculo principal que enfrenta la empresa, con evidencia» y «elección general que orienta la acción y descarta explícitamente otras opciones» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «fijar la revisión que confirmaría o refutaría el diagnóstico» | Se saltó «formular el diagnóstico en una frase con evidencia que lo respalde»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **proporción de presupuesto alineado** | La métrica local reemplazó al resultado del sistema | Contrástala con **tiempo entre decisión y ejecución** y explicita el costo de oportunidad. |
+| Optimizar sólo **proporción de presupuesto alineado** | La métrica local reemplazó al resultado del sistema | Contrástala con **conversión aceptada por ventas** y explicita el costo de oportunidad. |
 | Presentar una lista de actividades como estrategia | Error específico de esta clase | Exige que el documento nombre el obstáculo principal y qué opciones quedan descartadas. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P01-C09-marketing-estrategico-versus-operativo/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **proporción de presupuesto alineado**, **acciones activas sin dueño** y **tiempo entre decisión y ejecución** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **proporción de presupuesto alineado**, **acciones activas sin dueño**, **tiempo entre decisión y ejecución** y **conversión aceptada por ventas** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿Cuánto vale esto para quién, y qué estructura de cobro alinea precio con valor entregado?
 
-Los conceptos que estructuran la sesión son **arquitectura de monetización**, **coherencia precio-valor**, **gobierno de precios** y **proyección de ingreso**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **arquitectura de monetización**, **coherencia precio-valor**, **gobierno de precios**, **proyección de ingreso**, **precio basado en valor**, **Revenue Management**, **unit economics** y **rentabilidad segmentada**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `arquitectura de monetización`, `coherencia precio-valor`, `gobierno de precios` y `proyección de ingreso` por sus observables y no por su definición memorizada.
+1. **Distinguir** `arquitectura de monetización`, `coherencia precio-valor`, `gobierno de precios`, `proyección de ingreso`, `precio basado en valor`, `Revenue Management`, `unit economics` y `rentabilidad segmentada` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Pricing y monetización**.
 3. **Aplicar** la secuencia **consolidar métrica de cobro, planes y barreras → verificar economía unitaria por plan → documentar política de descuentos y autoridad → proyectar ingreso con escenarios → definir la revisión periódica de precios** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **margen por plan**, **desviación de cotizaciones** y **precisión de la proyección** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **margen por plan**, **desviación de cotizaciones**, **precisión de la proyección** y **margen de contribución por segmento** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **coherencia precio-valor** | correspondencia entre lo que se cobra y el valor que percibe cada segmento | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **gobierno de precios** | reglas de autoridad, revisión y excepción documentadas | Da un hecho compatible con la definición y otro que la refute. |
 | **proyección de ingreso** | estimación de ingreso futuro basada en la arquitectura y sus supuestos | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **precio basado en valor** | precio establecido con evidencia de valor diferencial y disposición a pagar dentro de una arquitectura sostenible | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **Revenue Management** | asignación de precio y capacidad por segmento, momento o condición con reglas y controles | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **unit economics** | relación entre ingreso, costo variable, adquisición, servicio, retención y recuperación a nivel de unidad | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **rentabilidad segmentada** | margen atribuible calculado por cliente, segmento o producto con alcance de costos declarado | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **margen por plan**: `margen de contribució
 
 Una arquitectura simple se comunica y se administra bien y captura menos valor; una compleja captura mejor y aumenta el costo de venta, de facturación y de soporte. El límite práctico es la capacidad del equipo comercial de explicarla sin material de apoyo: si no puede, la complejidad se pagará en errores y en descuentos para compensar la confusión.
 
-**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: los seis modelos de negocio y las métricas que cambian entre ellos (la parte sobre modelos de negocio). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **precisión de la proyección** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: los seis modelos de negocio y las métricas que cambian entre ellos (la parte sobre modelos de negocio). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **margen de contribución por segmento** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **proyección de ingreso** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Erosionar pre
 Sintetizar arquitectura de monetización no consiste en sumar definiciones. Empieza por **arquitectura de monetización**, contrasta **coherencia precio-valor** con **gobierno de precios**, incorpora **proyección de ingreso** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje I — Pricing, monetización y rentabilidad comercial integrada
+
+Costo, competencia y valor son lentes complementarios: costo fija viabilidad, competencia informa alternativas y valor acota captura. Elasticidad y sensibilidad no son sinónimos de disposición a pagar. Descuentos, precios dinámicos, psicológicos, bundling, freemium y suscripción cambian conducta y economía; cada uno requiere reglas contra discriminación, erosión y complejidad.
+
+Margen bruto, contribución, punto de equilibrio, CAC, LTV y payback forman un sistema. El LTV no rescata una cohorte que no estabiliza retención y un descuento que mejora cierre puede destruir margen y referencia de precio. Las decisiones se toman por escenario, con sensibilidad y costo de servir completo.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Piso** | costo y capacidad | evitar vender crecimiento con contribución negativa no financiada |
+| **Referencia** | alternativas y competencia | normalizar alcance y servicio |
+| **Techo** | valor y disposición | investigar por segmento y contexto |
+| **Arquitectura** | métrica, planes, fences y descuentos | alinear precio con valor y costo |
+| **Control** | margen, CAC, LTV, payback y abandono | decidir con cohortes y sensibilidad |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Para 100 cuentas, compara tres escenarios: CLP 89.000 sin descuento; 15 % de descuento con 20 % más cierres; bundle de CLP 109.000 con CLP 12.000 de costo variable adicional y 10 % menos churn. Usa CAC CLP 310.000 y declara todos los supuestos.
+
+**Secuencia.** calcular ingreso y contribución → estimar punto de equilibrio → calcular payback → hacer sensibilidad de retención → recomendar con riesgos.
+
+**Solución orientadora.** El 15 % de descuento no gana por cerrar más: debe compensar la contribución perdida y el anclaje futuro. El bundle puede dominar si la mejora de retención es incremental y el costo de servicio permanece dentro del supuesto. Sin prueba causal, la reducción de churn se presenta como escenario, no como hecho.
+
+**Evidencia de aprendizaje.** modelo con fórmulas, sensibilidad, recomendación y política de descuento.
+
+**Rúbrica.** 35 % aritmética; 20 % supuestos; 20 % valor y segmentación; 15 % riesgos; 10 % comunicación.
+
+#### Fichas de medición
+
+**margen de contribución por segmento**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| ingreso neto menos costos variables y de servicio atribuibles | ingreso neto del segmento | mes y cohorte de 12 meses | facturación, costos y soporte | Finance / Revenue Operations |
+
+- **Lectura permitida:** compara calidad económica con alcance homogéneo.
+- **Limitación:** no incluye costos fijos ni prueba causalidad del precio.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** revisar escenarios de precio.
+- **Datos necesarios:** tabla de supuestos no confidenciales o entorno aprobado.
+- **Prompt reproducible:** `Recalcula los escenarios mostrando cada fórmula. No inventes costos ni elasticidades. Ejecuta sensibilidad de ±20 % y marca qué supuesto cambia la decisión.`
+- **Resultado esperado:** cálculos auditables y sensibilidad.
+- **Validación humana:** finanzas verifica fórmulas y comercial revisa comportamiento plausible.
+- **Riesgos:** filtración de precios, errores aritméticos y supuestos implícitos.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** modelo reproducible en hoja de cálculo.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** venta unitaria; suscripción; freemium; capacidad perecedera.
+
+**Conocimientos previos y referencias cruzadas:** [07.04 · Pricing basado en valor](../part-07-pricing-y-monetizacion/class-04-value-based-pricing.md) · [07.06 · Elasticidad y sensibilidad al precio](../part-07-pricing-y-monetizacion/class-06-elasticidad-y-sensibilidad.md) · [07.11 · Descuentos sin destruir valor](../part-07-pricing-y-monetizacion/class-11-descuentos-sin-destruir-valor.md) · [07.12 · Unit economics](../part-07-pricing-y-monetizacion/class-12-unit-economics.md) · [20.03 · Costo de adquisición de cliente](../part-20-analitica-comercial-y-marketing-science/class-03-cac.md) · [20.06 · Margen de contribución](../part-20-analitica-comercial-y-marketing-science/class-06-contribution-margin.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Documentar política de descuentos y autoridad.** El riesgo de este paso es cerrar demasiado rápido alrededor de **gobierno de precios**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **precisión de la proyección** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Proyectar ingreso con escenarios.** Con **proyección de ingreso** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **margen por plan** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Proyectar ingreso con escenarios.** Con **proyección de ingreso** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **margen de contribución por segmento** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Definir la revisión periódica de precios.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **arquitectura de monetización**. **desviación de cotizaciones** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Definir la revisión periódica de precios.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **precio basado en valor**. **margen por plan** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **arquitectura de monetización** y **coherencia precio-valor** como sinónimos | Se perdió la distinción entre «sistema completo de decisiones de precio, estructura y política» y «correspondencia entre lo que se cobra y el valor que percibe cada segmento» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «definir la revisión periódica de precios» | Se saltó «consolidar métrica de cobro, planes y barreras»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **margen por plan** | La métrica local reemplazó al resultado del sistema | Contrástala con **precisión de la proyección** y explicita el costo de oportunidad. |
+| Optimizar sólo **margen por plan** | La métrica local reemplazó al resultado del sistema | Contrástala con **margen de contribución por segmento** y explicita el costo de oportunidad. |
 | Operar sin política de precios escrita | Error específico de esta clase | Publica la política con niveles de autoridad y audita mensualmente las excepciones. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P07-C14-arquitectura-de-monetizacion/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **margen por plan**, **desviación de cotizaciones** y **precisión de la proyección** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **margen por plan**, **desviación de cotizaciones**, **precisión de la proyección** y **margen de contribución por segmento** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

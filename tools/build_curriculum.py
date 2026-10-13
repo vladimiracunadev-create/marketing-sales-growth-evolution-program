@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 
 from spec import bibliografia as bib  # noqa: E402
 from spec import normas  # noqa: E402
+from spec.ampliaciones_integrales import aplicar as aplicar_ampliaciones  # noqa: E402
 from spec.anclajes import ANCLAJES  # noqa: E402
 from spec.aportes import APORTES  # noqa: E402
 from spec.localizadores import acceso_legible, enlace, etiqueta  # noqa: E402
@@ -44,7 +45,7 @@ def cita_localizada(clave):
     return "{} — {} ({}) · {}".format(
         autor, enlace(clave, "*{}*".format(obra)), edicion, etiqueta(clave))
 
-FECHA = "2026-08-19"
+FECHA = "2026-10-13"
 VERSION_ESTANDAR = "clase-profunda-v2"
 
 
@@ -72,7 +73,7 @@ def leer_specs(num):
     """
     modulo = importlib.import_module("spec.clases_p{}".format(num))
     desarrollo = importlib.import_module("spec.desarrollo_p{}".format(num)).DESARROLLO
-    clases = modulo.CLASES
+    clases = aplicar_ampliaciones(num, modulo.CLASES)
     for clase in clases:
         parrafos = desarrollo.get(clase["n"])
         if not parrafos or len(parrafos) < 5:
@@ -481,6 +482,62 @@ def bloque_lectura(parte, clase):
     return "\n".join(lineas)
 
 
+def _enlace_ref(ref):
+    """Enlace relativo a una clase declarada como referencia cruzada."""
+    num, n = ref.split(".")
+    parte = next(p for p in PARTES if p["num"] == num)
+    modulo = importlib.import_module("spec.clases_p{}".format(num))
+    destino = next(c for c in modulo.CLASES if c["n"] == n)
+    return "[{}.{} · {}](../{}/class-{}-{}.md)".format(
+        num, n, destino["titulo"], parte["slug"], n, destino["slug"])
+
+
+def bloque_ampliaciones(clase):
+    """Renderiza profundizaciones optativas definidas en la fuente de verdad."""
+    ampliaciones = clase.get("ampliaciones", [])
+    if not ampliaciones:
+        return ""
+    lineas = ["## 🧠 Ampliación integral", "",
+              "Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el "
+              "desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.", ""]
+    for a in ampliaciones:
+        lineas += ["### Eje {} — {}".format(a["eje"], a["titulo"]), ""]
+        for parrafo in a["teoria"]:
+            lineas += [parrafo, ""]
+        lineas += ["#### Marco de decisión", "",
+                   "| Dimensión | Definición aplicada | Decisión o prueba |", "|---|---|---|"]
+        lineas += ["| **{}** | {} | {} |".format(*fila) for fila in a["marco"]]
+        actividad = a["actividad"]
+        lineas += ["", "#### Actividad aplicada y solución razonada", "",
+                   "**Consigna.** {}".format(actividad["consigna"]), "",
+                   "**Secuencia.** {}.".format(" → ".join(actividad["pasos"])), "",
+                   "**Solución orientadora.** {}".format(actividad["solucion"]), "",
+                   "**Evidencia de aprendizaje.** {}.".format(actividad["evidencia"]), "",
+                   "**Rúbrica.** {}.".format(actividad["rubrica"]), "",
+                   "#### Fichas de medición", ""]
+        for ficha in a["metricas"]:
+            lineas += ["**{}**".format(ficha["nombre"]), "",
+                       "| Numerador | Denominador | Ventana | Fuente | Responsable |", "|---|---|---|---|---|",
+                       "| {numerador} | {denominador} | {ventana} | {fuente} | {responsable} |".format(**ficha), "",
+                       "- **Lectura permitida:** {}.".format(ficha["lectura"]),
+                       "- **Limitación:** {}.".format(ficha["limite"]), ""]
+        uso = a["ia"]
+        lineas += ["#### IA como apoyo, con control humano", "",
+                   "- **Objetivo:** {}.".format(uso["objetivo"]),
+                   "- **Datos necesarios:** {}.".format(uso["datos"]),
+                   "- **Prompt reproducible:** `{}`".format(uso["prompt"]),
+                   "- **Resultado esperado:** {}.".format(uso["resultado"]),
+                   "- **Validación humana:** {}.".format(uso["validacion"]),
+                   "- **Riesgos:** {}.".format(uso["riesgos"]),
+                   "- **Límites:** {}".format(uso["limites"]),
+                   "- **Alternativa sin IA:** {}.".format(uso["alternativa"]), "",
+                   "#### Transferencia y continuidad", "",
+                   "**Contextos de transferencia:** {}.".format("; ".join(a["transferencias"])), "",
+                   "**Conocimientos previos y referencias cruzadas:** {}.".format(
+                       " · ".join(_enlace_ref(ref) for ref in a["referencias"])), ""]
+    return "\n".join(lineas)
+
+
 def bloque_ejemplo(clase):
     lineas = ["## 🧮 Ejemplo trabajado", "", "**Situación.** {}".format(clase["caso"]), ""]
     conceptos = clase["conceptos"]
@@ -822,6 +879,11 @@ def render_clase(parte, clases, idx):
         bloque_conceptos(clase, i),
         bloque_modelo_mental(clase),
         bloque_desarrollo(parte, clase, i),
+    ]
+    ampliacion = bloque_ampliaciones(clase)
+    if ampliacion:
+        partes_doc.append(ampliacion)
+    partes_doc += [
         bloque_lectura(parte, clase),
         bloque_ejemplo(clase),
         bloque_comparacion(clase),

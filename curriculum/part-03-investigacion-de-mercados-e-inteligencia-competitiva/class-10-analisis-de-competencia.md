@@ -22,16 +22,16 @@ Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si e
 
 > **Pregunta rectora de la parte:** ¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?
 
-Los conceptos que estructuran la sesión son **modelo económico del competidor**, **restricción del competidor**, **movimiento probable** y **intensidad competitiva**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **modelo económico del competidor**, **restricción del competidor**, **movimiento probable**, **intensidad competitiva**, **PESTEL**, **cinco fuerzas**, **ventaja competitiva** y **modelo de negocio**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `modelo económico del competidor`, `restricción del competidor`, `movimiento probable` y `intensidad competitiva` por sus observables y no por su definición memorizada.
+1. **Distinguir** `modelo económico del competidor`, `restricción del competidor`, `movimiento probable`, `intensidad competitiva`, `PESTEL`, `cinco fuerzas`, `ventaja competitiva` y `modelo de negocio` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
 3. **Aplicar** la secuencia **delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada → aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia → etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha → inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables → definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **participación en negocios enfrentados**, **cambios de precio del competidor** y **velocidad de respuesta** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **participación en negocios enfrentados**, **cambios de precio del competidor**, **velocidad de respuesta** y **señales externas con respuesta definida** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **restricción del competidor** | limitación de capital, capacidad, contrato o tecnología que acota lo que puede hacer | Da un hecho compatible con la definición y otro que la refute. |
 | **movimiento probable** | acción esperable del competidor dada su situación, no la que sería óptima en abstracto | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **intensidad competitiva** | grado en que la rivalidad erosiona el margen disponible en la categoría | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **PESTEL** | barrido estructurado de factores políticos, económicos, sociales, tecnológicos, ambientales y legales que pueden cambiar una decisión | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **cinco fuerzas** | análisis de rivalidad, entrantes, sustitutos y poder de compradores y proveedores que condiciona rentabilidad | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **ventaja competitiva** | sistema de actividades difícil de replicar que permite costo menor, diferenciación o enfoque sostenible | Da un hecho compatible con la definición y otro que la refute. |
+| **modelo de negocio** | lógica conectada de propuesta de valor, clientes, actividades, recursos, socios, costos e ingresos | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **participación en negocios enfrentados**: 
 
 Vigilar de cerca al competidor mejora la anticipación y arrastra la agenda propia hacia la suya. Los equipos que revisan semanalmente los movimientos del rival terminan construyendo lo que el rival construye. La disciplina consiste en fijar una frecuencia acotada de revisión y una regla explícita sobre qué tipo de movimiento ajeno justifica cambiar el plan propio.
 
-**Lo que aporta la fuente.** Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) aporta el criterio para pesar el intercambio: la elección estratégica implica renunciar deliberadamente a opciones (la sección sobre trade-offs). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **velocidad de respuesta** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) aporta el criterio para pesar el intercambio: la elección estratégica implica renunciar deliberadamente a opciones (la sección sobre trade-offs). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **señales externas con respuesta definida** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **intensidad competitiva** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Investigar pa
 Sintetizar análisis de competencia no consiste en sumar definiciones. Empieza por **modelo económico del competidor**, contrasta **restricción del competidor** con **movimiento probable**, incorpora **intensidad competitiva** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. La prueba de dominio es poder explicar el caso contrario: cuándo esta recomendación sería incorrecta.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje F — Entorno de negocios y estrategia competitiva
+
+PESTEL detecta cambios externos; las cinco fuerzas explican presiones sobre la rentabilidad; las estrategias genéricas obligan a elegir costo, diferenciación o enfoque y sus actividades coherentes. Un listado de tendencias no es estrategia hasta que cambia una asignación, un riesgo o una hipótesis.
+
+El Business Model Canvas conecta propuesta de valor y modelo de ingresos con capacidades y costos. La inteligencia de mercado y el benchmarking comparan alternativas y mecanismos, no copian funcionalidades. El análisis influye en producto, precio, canal, marca, barreras, entrada y crecimiento; marca, producto y empresa se distinguen para diseñar una arquitectura coherente.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Entorno** | PESTEL con evidencia, horizonte y probabilidad | registrar impacto y señal temprana |
+| **Industria** | fuerzas, barreras, sustitutos y poder | identificar mecanismo sobre margen |
+| **Posición** | costo, diferenciación o enfoque | verificar sistema de actividades |
+| **Modelo** | valor, ingresos, costos y capacidades | hacer análisis de sensibilidad |
+| **Riesgo** | escenario, exposición y reversibilidad | decidir entrar, probar, asociarse o abandonar |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Construye para Ruta Andina un PESTEL de seis hechos, un mapa de cinco fuerzas y dos modelos de negocio alternativos. Elige una estrategia y muestra qué producto, canal o segmento se descarta.
+
+**Secuencia.** citar hechos → traducirlos a mecanismos → comparar escenarios → elegir sistema de actividades → definir señales de revisión.
+
+**Solución orientadora.** Una nueva exigencia de datos no es sólo amenaza legal: puede elevar barreras si Ruta Andina convierte cumplimiento en capacidad. Competir por costo sin escala es incoherente; el enfoque en pymes reguladas puede justificar onboarding y soporte especializados, siempre que margen y tamaño accesible lo sostengan.
+
+**Evidencia de aprendizaje.** memo PESTEL, mapa de fuerzas, Canvas comparados y recomendación con descarte.
+
+**Rúbrica.** 25 % fuentes y mecanismos; 25 % análisis competitivo; 25 % coherencia del modelo; 25 % decisión y riesgos.
+
+#### Fichas de medición
+
+**señales externas con respuesta definida**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| señales PESTEL con umbral, responsable y acción | señales externas priorizadas | revisión mensual y escenario trimestral | registro de inteligencia de mercado | Strategy Lead |
+
+- **Lectura permitida:** mide preparación para escenarios.
+- **Limitación:** no predice que los escenarios ocurrirán.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** ordenar evidencia competitiva.
+- **Datos necesarios:** fuentes públicas con fecha y jurisdicción.
+- **Prompt reproducible:** `Clasifica estas evidencias en PESTEL y cinco fuerzas. Distingue hecho, inferencia y supuesto; cita el identificador de origen y propone una evidencia que refute cada inferencia.`
+- **Resultado esperado:** matriz auditable de entorno.
+- **Validación humana:** el analista abre las fuentes primarias y verifica vigencia.
+- **Riesgos:** fuentes obsoletas, contenido promocional y alucinación de competidores.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** matriz manual y revisión por especialista sectorial.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** mercado local; expansión regional; categoría regulada; plataforma multilateral.
+
+**Conocimientos previos y referencias cruzadas:** [01.03 · Mercados, categorías y competencia](../part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-03-mercados-categorias-y-competencia.md) · [04.08 · Diferenciación](../part-04-segmentacion-targeting-y-posicionamiento/class-08-diferenciacion.md) · [06.07 · Arquitectura de marca](../part-06-marca-branding-y-comunicacion-estrategica/class-07-arquitectura-de-marca.md) · [22.02 · Entrada a un mercado](../part-22-go-to-market-canales-y-expansion/class-02-market-entry.md) · [22.10 · Expansión geográfica](../part-22-go-to-market-canales-y-expansion/class-10-expansion-geografica.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha.** El riesgo de este paso es cerrar demasiado rápido alrededor de **movimiento probable**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **velocidad de respuesta** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables.** Con **intensidad competitiva** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **participación en negocios enfrentados** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables.** Con **intensidad competitiva** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **señales externas con respuesta definida** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **modelo económico del competidor**. **cambios de precio del competidor** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **PESTEL**. **participación en negocios enfrentados** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **modelo económico del competidor** y **restricción del competidor** como sinónimos | Se perdió la distinción entre «forma en que gana dinero, su estructura de costos y su presión de retorno» y «limitación de capital, capacidad, contrato o tecnología que acota lo que puede hacer» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla» | Se saltó «delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **participación en negocios enfrentados** | La métrica local reemplazó al resultado del sistema | Contrástala con **velocidad de respuesta** y explicita el costo de oportunidad. |
+| Optimizar sólo **participación en negocios enfrentados** | La métrica local reemplazó al resultado del sistema | Contrástala con **señales externas con respuesta definida** y explicita el costo de oportunidad. |
 | Reaccionar a un precio sin comparar estructuras de costo | Error específico de esta clase | Modela cuánto tiempo puede sostener cada parte esa política antes de responder. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P03-C10-analisis-de-competencia/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **participación en negocios enfrentados**, **cambios de precio del competidor** y **velocidad de respuesta** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **participación en negocios enfrentados**, **cambios de precio del competidor**, **velocidad de respuesta** y **señales externas con respuesta definida** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

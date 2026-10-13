@@ -22,16 +22,16 @@ Esta clase existe porque el error que corrige es caro y frecuente en operaciones
 
 > **Pregunta rectora de la parte:** ¿Qué bucle hace que el crecimiento se retroalimente en lugar de depender del gasto?
 
-Los conceptos que estructuran la sesión son **entrada del backlog**, **fundamento de la hipótesis**, **esfuerzo estimado** y **aprendizaje esperado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **entrada del backlog**, **fundamento de la hipótesis**, **esfuerzo estimado**, **aprendizaje esperado**, **marco ágil**, **práctica ágil**, **métrica de flujo** y **hipótesis de negocio**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `entrada del backlog`, `fundamento de la hipótesis`, `esfuerzo estimado` y `aprendizaje esperado` por sus observables y no por su definición memorizada.
+1. **Distinguir** `entrada del backlog`, `fundamento de la hipótesis`, `esfuerzo estimado`, `aprendizaje esperado`, `marco ágil`, `práctica ágil`, `métrica de flujo` y `hipótesis de negocio` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Growth marketing y growth engineering**.
 3. **Aplicar** la secuencia **formular cada idea como hipótesis con fundamento → estimar esfuerzo y aprendizaje esperado → priorizar con un criterio explícito → ejecutar en orden y documentar el resultado → revisar el backlog con los aprendizajes acumulados** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **entradas con hipótesis completa**, **tasa de ejecución** y **aprendizajes por experimento** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **entradas con hipótesis completa**, **tasa de ejecución**, **aprendizajes por experimento** y **tiempo de ciclo comercial priorizado** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **fundamento de la hipótesis** | evidencia o razonamiento que sostiene la expectativa | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **esfuerzo estimado** | recursos necesarios para ejecutar el experimento | Da un hecho compatible con la definición y otro que la refute. |
 | **aprendizaje esperado** | valor de la información que producirá el resultado, gane o pierda | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **marco ágil** | conjunto de roles, eventos y reglas que orienta la gestión del trabajo bajo incertidumbre | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **práctica ágil** | técnica puntual como retrospectiva, visualización, WIP o slicing que puede usarse dentro de distintos marcos | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **métrica de flujo** | medida de tiempo de ciclo, throughput, trabajo en progreso o antigüedad que describe el sistema de entrega | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **hipótesis de negocio** | predicción refutable que conecta intervención, población, resultado y criterio temporal | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **entradas con hipótesis completa**: `entra
 
 Un backlog grande ofrece opciones y produce parálisis y trabajo de mantenimiento. Uno pequeño se ejecuta y puede quedarse sin ideas de calidad. La práctica razonable mantiene un número acotado de entradas priorizadas y descarta explícitamente las demás, en lugar de acumularlas indefinidamente.
 
-**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **aprendizajes por experimento** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo de ciclo comercial priorizado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **aprendizaje esperado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Declarar vict
 Sintetizar backlog de experimentos no consiste en sumar definiciones. Empieza por **entrada del backlog**, contrasta **fundamento de la hipótesis** con **esfuerzo estimado**, incorpora **aprendizaje esperado** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje J — Agilidad aplicada a producto y trabajo comercial
+
+El Manifiesto Ágil aporta valores y principios; Scrum es un marco; Kanban es un método de gestión del flujo; Lean elimina desperdicio y mejora el sistema; Lean Startup organiza aprendizaje mediante hipótesis y experimentos. Herramientas como tableros o dailies no convierten por sí solas un equipo en ágil.
+
+Producto puede usar backlog, Sprint Planning, Daily Scrum, Sprint Review y retrospectiva cuando existe un producto y un equipo estable. Ventas y marketing no deben adoptar Scrum por reflejo: Kanban, límites WIP y cadencias de revisión suelen encajar mejor con demanda continua. La coordinación entre marketing, ventas, producto y tecnología se gobierna con definiciones de terminado, impedimentos y aprendizaje compartido.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Scrum** | objetivo de producto y sprint con inspección | equipo estable y trabajo que admite incrementos |
+| **Kanban** | flujo visual, políticas y WIP | demanda continua e interrupciones |
+| **Lean** | valor, flujo y desperdicio | mejora de procesos y capacidad |
+| **Lean Startup** | construir, medir y aprender | incertidumbre de negocio y experimento |
+| **Híbrido explícito** | prácticas seleccionadas con razón | dependencias entre tipos de trabajo |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Diseña el sistema de trabajo para lanzar un plan de Ruta Andina con equipo de producto estable, cola de leads continua y campaña con fecha. Elige marco o prácticas por flujo y justifica qué no usarás.
+
+**Secuencia.** clasificar incertidumbre y demanda → visualizar flujo → fijar WIP y definiciones → establecer cadencias → medir y retrospectar.
+
+**Solución orientadora.** Producto puede operar con Scrum; operaciones de leads con Kanban; la campaña usa hitos y revisiones. Una daily para todos agrega costo sin resolver dependencias. El tablero compartido muestra bloqueos y el review prueba el resultado con usuarios y ventas.
+
+**Evidencia de aprendizaje.** diseño de flujo, políticas WIP, cadencias, backlog e hipótesis.
+
+**Rúbrica.** 25 % elección contextual; 25 % flujo y WIP; 20 % hipótesis; 20 % coordinación; 10 % mejora.
+
+#### Fichas de medición
+
+**tiempo de ciclo comercial priorizado**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| días acumulados desde entrada lista hasta evidencia de decisión | unidades terminadas del tipo definido | mediana semanal y percentil 85 mensual | tablero de trabajo | Flow Manager |
+
+- **Lectura permitida:** detecta cuellos de botella y capacidad.
+- **Limitación:** no mide valor entregado ni productividad individual.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** identificar cuellos de botella.
+- **Datos necesarios:** historial anonimizado de estados, tiempos y bloqueos.
+- **Prompt reproducible:** `Analiza flujo por tipo de trabajo. Calcula mediana, P85, WIP y antigüedad; separa dato de hipótesis y no evalúes personas.`
+- **Resultado esperado:** diagnóstico del sistema y preguntas.
+- **Validación humana:** el equipo verifica eventos y discute causas en retrospectiva.
+- **Riesgos:** vigilancia laboral, causalidad espuria y optimización local.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** diagrama de flujo acumulado y revisión manual.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** equipo de producto; operación comercial; marketing de campaña; mejora de servicio.
+
+**Conocimientos previos y referencias cruzadas:** [05.11 · Roadmap orientado a valor](../part-05-producto-oferta-y-propuesta-de-valor/class-11-roadmap-orientado-a-valor.md) · [16.09 · Capacidad comercial](../part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) · [17.06 · Workflows](../part-17-marketing-automation-y-revenue-operations/class-06-workflows.md) · [19.10 · ICE, RICE y priorización](../part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) · [19.11 · Diseño de experimentos](../part-19-growth-marketing-y-growth-engineering/class-11-experiment-design.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Priorizar con un criterio explícito.** El riesgo de este paso es cerrar demasiado rápido alrededor de **esfuerzo estimado**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **aprendizajes por experimento** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Ejecutar en orden y documentar el resultado.** Con **aprendizaje esperado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **entradas con hipótesis completa** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Ejecutar en orden y documentar el resultado.** Con **aprendizaje esperado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tiempo de ciclo comercial priorizado** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Revisar el backlog con los aprendizajes acumulados.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **entrada del backlog**. **tasa de ejecución** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Revisar el backlog con los aprendizajes acumulados.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **marco ágil**. **entradas con hipótesis completa** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **entrada del backlog** y **fundamento de la hipótesis** como sinónimos | Se perdió la distinción entre «experimento formulado con hipótesis, métrica y criterio de decisión» y «evidencia o razonamiento que sostiene la expectativa» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «revisar el backlog con los aprendizajes acumulados» | Se saltó «formular cada idea como hipótesis con fundamento»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **entradas con hipótesis completa** | La métrica local reemplazó al resultado del sistema | Contrástala con **aprendizajes por experimento** y explicita el costo de oportunidad. |
+| Optimizar sólo **entradas con hipótesis completa** | La métrica local reemplazó al resultado del sistema | Contrástala con **tiempo de ciclo comercial priorizado** y explicita el costo de oportunidad. |
 | Mantener ideas sin hipótesis en el backlog | Error específico de esta clase | Exige hipótesis, métrica y criterio de refutación para cada entrada priorizada. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P19-C09-experiment-backlog/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **entradas con hipótesis completa**, **tasa de ejecución** y **aprendizajes por experimento** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **entradas con hipótesis completa**, **tasa de ejecución**, **aprendizajes por experimento** y **tiempo de ciclo comercial priorizado** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

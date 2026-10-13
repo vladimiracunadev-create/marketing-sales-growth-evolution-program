@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 from spec import bibliografia as bib  # noqa: E402
 from spec.partes import EMPRESA, PARTES  # noqa: E402
 
-FECHA = "2026-08-19"
+FECHA = "2026-10-13"
 
 
 def escribir(ruta, contenido):
@@ -444,6 +444,10 @@ def render_capstone(cls24):
         "| **C. Proyecto de terceros** | Empresa real con autorización escrita | Si existe acuerdo formal y datos disponibles |",
         "",
         "En cualquier opción debe declararse explícitamente qué datos son reales y cuáles simulados.",
+        "",
+        "La cadena acumulativa de investigación, diseño, lanzamiento y optimización está trazada en el "
+        "[proyecto transversal de Ruta Andina](../docs/PROYECTO-TRANSVERSAL-RUTA-ANDINA.md). Sus 30 "
+        "entregables se reutilizan aquí; no constituyen un caso separado.",
         "",
         "## Componentes obligatorios",
         "",

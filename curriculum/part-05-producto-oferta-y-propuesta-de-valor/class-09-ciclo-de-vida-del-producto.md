@@ -22,16 +22,16 @@ Esta clase existe porque el error que corrige es caro y frecuente en operaciones
 
 > **Pregunta rectora de la parte:** ¿Qué compra realmente el cliente y por qué elegiría esta oferta frente a no hacer nada?
 
-Los conceptos que estructuran la sesión son **fase del ciclo**, **decisión por fase**, **canibalización planificada** y **retiro ordenado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **fase del ciclo**, **decisión por fase**, **canibalización planificada**, **retiro ordenado**, **etapa de ciclo de vida**, **canibalización**, **renovación de producto** y **retiro gestionado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `fase del ciclo`, `decisión por fase`, `canibalización planificada` y `retiro ordenado` por sus observables y no por su definición memorizada.
+1. **Distinguir** `fase del ciclo`, `decisión por fase`, `canibalización planificada`, `retiro ordenado`, `etapa de ciclo de vida`, `canibalización`, `renovación de producto` y `retiro gestionado` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Producto, oferta y propuesta de valor**.
 3. **Aplicar** la secuencia **estimar la fase con datos de categoría y no de la propia empresa → definir la decisión de inversión que corresponde → planificar la canibalización si se lanza un reemplazo → diseñar el retiro ordenado cuando corresponda → revisar la estimación cada semestre** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **crecimiento de la categoría**, **participación relativa** y **margen por producto en el tiempo** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **crecimiento de la categoría**, **participación relativa**, **margen por producto en el tiempo** y **rentabilidad incremental de extensión** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **decisión por fase** | tipo de inversión que corresponde a la fase estimada | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **canibalización planificada** | reemplazo deliberado de un producto propio por otro más nuevo | Da un hecho compatible con la definición y otro que la refute. |
 | **retiro ordenado** | proceso de discontinuación que protege a los clientes existentes y la reputación | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **etapa de ciclo de vida** | patrón diagnosticado con adopción, crecimiento, competencia, margen y comportamiento, no edad del producto | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **canibalización** | ventas o uso de una oferta nueva que desplazan una oferta propia existente | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **renovación de producto** | cambio de propuesta, segmento, tecnología o modelo que busca reabrir crecimiento | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **retiro gestionado** | decisión planificada de descontinuar protegiendo clientes, datos, contratos y reputación | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **crecimiento de la categoría**: `variació
 
 Mantener un producto en declive conserva a los clientes que lo usan y consume capacidad de desarrollo y soporte. Retirarlo libera recursos y produce bajas y reclamos. El retiro ordenado —con aviso, ruta de migración y soporte durante la transición— cuesta más en el corto plazo y protege la relación; el abrupto ahorra y se paga en reputación.
 
-**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: la crítica al roadmap de funcionalidades con fechas y su reemplazo por objetivos (los capítulos sobre roadmaps de producto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **margen por producto en el tiempo** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: la crítica al roadmap de funcionalidades con fechas y su reemplazo por objetivos (los capítulos sobre roadmaps de producto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **rentabilidad incremental de extensión** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **retiro ordenado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resu
 Sintetizar ciclo de vida del producto no consiste en sumar definiciones. Empieza por **fase del ciclo**, contrasta **decisión por fase** con **canibalización planificada**, incorpora **retiro ordenado** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje H — Ciclo de vida del producto como hipótesis de gestión
+
+Introducción, crecimiento, madurez, saturación, declive, renovación, reposicionamiento y retiro describen patrones posibles, no una secuencia natural obligatoria. Distintos segmentos pueden estar en etapas distintas y una tecnología sustituta puede comprimirlas. La matriz BCG aporta una vista de portafolio, pero participación y crecimiento no reemplazan margen, sinergias ni opcionalidad.
+
+Cada etapa cambia inversión, riesgo, precio, canal, capacidad, innovación incremental y medición. Extender línea puede aumentar cobertura o canibalizar. La decisión se apoya en adopción, participación, retención, recompra, costos y rentabilidad; nunca en una curva dibujada sin evidencia.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Introducir** | aprender y reducir riesgo | adopción inicial y time to value |
+| **Crecer** | escalar sin degradar | retención, capacidad y margen |
+| **Madurar** | defender, segmentar y eficientar | recompra, share y contribución |
+| **Renovar** | reposicionar o sustituir | incrementalidad y canibalización |
+| **Retirar** | cerrar obligaciones y migrar | cobertura de transición e incidentes |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Diagnostica por separado SaaS, hardware y contratos institucionales de Ruta Andina. Propón invertir, mantener, renovar o retirar y calcula un escenario de canibalización del nuevo plan.
+
+**Secuencia.** diagnosticar con cinco evidencias → comparar BCG con economía → modelar canibalización → definir estrategia por etapa → preparar transición.
+
+**Solución orientadora.** La edad no basta: hardware puede estar maduro y rentable; SaaS puede crecer con retención frágil; institucional puede seguir en introducción. Un plan nuevo se aprueba por ingreso y margen incremental netos del desplazamiento, no por ventas brutas.
+
+**Evidencia de aprendizaje.** diagnóstico por línea, matriz de portafolio, escenario y plan de transición.
+
+**Rúbrica.** 25 % diagnóstico; 25 % economía; 20 % riesgo y canibalización; 20 % estrategia; 10 % límites.
+
+#### Fichas de medición
+
+**rentabilidad incremental de extensión**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| margen incremental nuevo menos margen desplazado y costos de transición | inversión incremental de la extensión | cohortes de 6 y 12 meses | facturación, costos y CRM | Portfolio Manager |
+
+- **Lectura permitida:** compara extensiones con base homogénea.
+- **Limitación:** depende del contrafactual y no debe usar ventas brutas como incrementalidad.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** simular escenarios de portafolio.
+- **Datos necesarios:** supuestos de adopción, margen, canibalización y costos.
+- **Prompt reproducible:** `Calcula tres escenarios sin alterar los supuestos. Devuelve fórmulas, sensibilidad y punto donde cambia la recomendación. Marca datos faltantes.`
+- **Resultado esperado:** tabla reproducible de escenarios.
+- **Validación humana:** finanzas recompone una muestra y producto revisa supuestos.
+- **Riesgos:** falsa precisión y ocultamiento del contrafactual.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** hoja de cálculo con análisis de sensibilidad.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** bien durable; SaaS; servicio recurrente; tecnología sustituida.
+
+**Conocimientos previos y referencias cruzadas:** [05.10 · Portafolio y arquitectura de oferta](../part-05-producto-oferta-y-propuesta-de-valor/class-10-portafolio-y-arquitectura-de-oferta.md) · [06.12 · Coherencia omnicanal](../part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) · [07.12 · Unit economics](../part-07-pricing-y-monetizacion/class-12-unit-economics.md) · [18.08 · Retención](../part-18-customer-experience-success-y-fidelizacion/class-08-retention.md) · [20.09 · Incrementalidad](../part-20-analitica-comercial-y-marketing-science/class-09-incrementalidad.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Planificar la canibalización si se lanza un reemplazo.** El riesgo de este paso es cerrar demasiado rápido alrededor de **canibalización planificada**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **margen por producto en el tiempo** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Diseñar el retiro ordenado cuando corresponda.** Con **retiro ordenado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **crecimiento de la categoría** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Diseñar el retiro ordenado cuando corresponda.** Con **retiro ordenado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **rentabilidad incremental de extensión** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Revisar la estimación cada semestre.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **fase del ciclo**. **participación relativa** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Revisar la estimación cada semestre.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **etapa de ciclo de vida**. **crecimiento de la categoría** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **fase del ciclo** y **decisión por fase** como sinónimos | Se perdió la distinción entre «etapa estimada según crecimiento de la categoría y comportamiento competitivo» y «tipo de inversión que corresponde a la fase estimada» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «revisar la estimación cada semestre» | Se saltó «estimar la fase con datos de categoría y no de la propia empresa»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **crecimiento de la categoría** | La métrica local reemplazó al resultado del sistema | Contrástala con **margen por producto en el tiempo** y explicita el costo de oportunidad. |
+| Optimizar sólo **crecimiento de la categoría** | La métrica local reemplazó al resultado del sistema | Contrástala con **rentabilidad incremental de extensión** y explicita el costo de oportunidad. |
 | Estimar la fase con datos propios | Error específico de esta clase | Usa datos de la categoría y del comportamiento competitivo, no la curva de ventas propia. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P05-C09-ciclo-de-vida-del-producto/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **crecimiento de la categoría**, **participación relativa** y **margen por producto en el tiempo** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **crecimiento de la categoría**, **participación relativa**, **margen por producto en el tiempo** y **rentabilidad incremental de extensión** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

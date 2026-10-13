@@ -200,6 +200,19 @@ Quien tiene que vender antes de poder contratar a alguien que venda. No necesita
 | 👑 [CRO — dirección de ingresos](cro.md) | Dirección | 01, 16, 17, 18 | Operating system del CRO con estructura, ritmo y gobierno |
 | 🚩 [Founder / dueño de negocio](founder.md) | Dirección | 01, 02, 03, 05 | Expediente de cliente con evidencia de compromiso costoso |
 
+## Variantes profesionales cubiertas sin duplicar rutas
+
+Estas variantes combinan una ruta existente con clases de especialización. Se creará una ruta nueva sólo si una evaluación futura demuestra que esta combinación no cubre el trabajo real.
+
+| Variante | Ruta base | Especialización | Evidencia faro |
+|---|---|---|---|
+| **Product Manager / Product Owner / dirección de producto** | [Product marketing manager](product-marketing.md) | 05.11, 19.09 y 05.13 | product brief, roadmap de resultados y backlog gobernado |
+| **Investigación de mercados** | [Analista de marketing y de ingresos](analista-de-marketing.md) | 02.04, 03.03–07 y 03.12 | plan, guion, libro de códigos e informe trazable |
+| **Customer Experience Manager** | [Customer Success Manager](customer-success.md) | 02.07, 18.01, 18.06 y 18.14 | journey, recuperación de servicio y sistema VoC |
+| **Key Account Manager / venta consultiva** | [Ejecutivo comercial / Account Executive](ejecutivo-comercial.md) | 09.07–14, 16.07 y 18.10–11 | mapa de cuenta, plan mutuo y renovación rentable |
+| **Especialista CRM** | [RevOps / Sales Operations](revops.md) | 16.01–14 y 17.08–14 | modelo de datos, gobierno y observabilidad |
+| **Consultor de negocios** | [Founder / dueño de negocio](founder.md) | 03.10, 05.11, 07.14 y 23.14 | diagnóstico, business case y sistema de gestión |
+
 ## Cómo usar una ruta
 
 1. **Lee la guía completa del rol** antes de empezar: describe el día a día real, no una lista de temas.

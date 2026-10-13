@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿En qué momento el cliente obtiene valor y qué lo hace quedarse o irse?
 
-Los conceptos que estructuran la sesión son **sistema de retención**, **capacidad predictiva**, **responsabilidad por cartera** y **ritmo de revisión**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **sistema de retención**, **capacidad predictiva**, **responsabilidad por cartera**, **ritmo de revisión**, **momento de la verdad**, **recuperación de servicio**, **voz del cliente** y **fidelización**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `sistema de retención`, `capacidad predictiva`, `responsabilidad por cartera` y `ritmo de revisión` por sus observables y no por su definición memorizada.
+1. **Distinguir** `sistema de retención`, `capacidad predictiva`, `responsabilidad por cartera`, `ritmo de revisión`, `momento de la verdad`, `recuperación de servicio`, `voz del cliente` y `fidelización` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Customer experience, success y fidelización**.
 3. **Aplicar** la secuencia **consolidar onboarding, salud, renovación y expansión → asignar responsabilidad por cartera → establecer el ritmo de revisión → validar la capacidad predictiva del sistema → medir ingreso neto retenido como resultado agregado** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **ingreso neto retenido**, **precisión de la predicción de bajas** y **cuentas con responsable asignado** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **ingreso neto retenido**, **precisión de la predicción de bajas**, **cuentas con responsable asignado** y **recuperación sostenible de servicio** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **capacidad predictiva** | anticipación de las bajas con un margen de error conocido | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **responsabilidad por cartera** | asignación explícita de quién responde por cada grupo de cuentas | Da un hecho compatible con la definición y otro que la refute. |
 | **ritmo de revisión** | calendario de revisiones de salud, riesgo y renovación | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **momento de la verdad** | interacción donde la experiencia confirma o contradice una expectativa importante | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **recuperación de servicio** | secuencia de reconocer, resolver, compensar cuando corresponda y prevenir repetición | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **voz del cliente** | sistema continuo que recoge, vincula y devuelve acción sobre percepciones y conducta | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **fidelización** | aumento sostenible de permanencia, recompra o recomendación basado en valor y confianza, no encierro | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **ingreso neto retenido**: `ingreso del mism
 
 Un sistema exhaustivo detecta más y consume tiempo que podría dedicarse a atender clientes. El equilibrio se logra automatizando la detección y reservando el tiempo humano para la intervención. Cuando ocurre lo contrario —personas produciendo informes de salud— el sistema consume lo que debería proteger.
 
-**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: la métrica que importa ahora: una sola, según etapa y modelo de negocio (los capítulos sobre la métrica única). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **cuentas con responsable asignado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Alistair Croll y Benjamin Yoskovitz — *Lean Analytics* (2013) aporta el criterio para pesar el intercambio: la métrica que importa ahora: una sola, según etapa y modelo de negocio (los capítulos sobre la métrica única). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **recuperación sostenible de servicio** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **ritmo de revisión** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Retener con c
 Sintetizar sistema de retención y expansión no consiste en sumar definiciones. Empieza por **sistema de retención**, contrasta **capacidad predictiva** con **responsabilidad por cartera**, incorpora **ritmo de revisión** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje L — Relaciones humanas, experiencia y fidelización
+
+Atención individualizada, empatía, comunicación directa, trato cercano y calidad consistente crean confianza cuando cumplen promesas. Customer Experience diseña percepciones a través de contactos; Customer Success gestiona resultados; posventa, reclamos y recuperación protegen la relación cuando falla el sistema.
+
+Journey mapping, momentos de la verdad y expectativas conectan operación con emoción. Lealtad, beneficios y referidos deben medir retención, recompra, calidad, costo y riesgo de selección. NPS, CSAT y correlaciones no demuestran causalidad; un experimento o diseño cuasiexperimental necesita supuestos explícitos.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Prometer** | expectativa clara y alcanzable | registrar alcance y exclusiones |
+| **Entregar** | calidad y consistencia | medir resultado y esfuerzo |
+| **Escuchar** | VoC y conducta | cerrar el ciclo con dueño |
+| **Recuperar** | resolver y prevenir | separar síntoma de causa |
+| **Fidelizar** | valor acumulado y confianza | evitar incentivos que compran conducta sin lealtad |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Mapea el journey de una cuenta de Ruta Andina que falla durante onboarding. Diseña contacto, recuperación, prevención y seguimiento; compara programa de beneficios con programa de referidos.
+
+**Secuencia.** reconstruir expectativa y hecho → ubicar momento de verdad → resolver y comunicar → eliminar causa → medir relación y economía.
+
+**Solución orientadora.** Un descuento sin corregir migración compra silencio y puede aumentar churn posterior. La recuperación suficiente reconoce impacto, fija responsable y plazo, verifica resultado y cambia el proceso. Un referido cuenta sólo si el nuevo cliente retiene y no genera reclamo fundado.
+
+**Evidencia de aprendizaje.** journey, guion de recuperación, análisis causal y diseño de programa.
+
+**Rúbrica.** 25 % experiencia y expectativa; 25 % recuperación; 20 % prevención; 20 % medición; 10 % ética.
+
+#### Fichas de medición
+
+**recuperación sostenible de servicio**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| casos resueltos sin reincidencia del mismo modo de falla en 90 días | casos de recuperación cerrados con seguimiento | cohorte móvil de 90 días | soporte, producto y CRM | Customer Experience Lead |
+
+- **Lectura permitida:** mide resolución y prevención conjunta.
+- **Limitación:** no demuestra que la recuperación causó retención.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** clasificar causas y preparar respuestas.
+- **Datos necesarios:** tickets anonimizados, política y contexto operativo.
+- **Prompt reproducible:** `Clasifica causa, impacto, urgencia y promesa aplicable. Propón respuesta empática sin inventar compensaciones ni plazos; marca decisiones que requieren humano.`
+- **Resultado esperado:** borrador y agrupación de causas.
+- **Validación humana:** soporte verifica hechos, autoridad y tono antes de enviar.
+- **Riesgos:** automatizar empatía sin resolver, datos sensibles y promesas falsas.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** plantillas de respuesta y revisión diaria de causas.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** servicio presencial; SaaS; e-commerce; contrato institucional.
+
+**Conocimientos previos y referencias cruzadas:** [02.07 · Customer journey](../part-02-cliente-y-comportamiento-del-consumidor/class-07-customer-journey.md) · [08.12 · Handoff a implementación](../part-08-fundamentos-profesionales-de-ventas/class-12-handoff-a-implementacion.md) · [18.01 · Experiencia de cliente](../part-18-customer-experience-success-y-fidelizacion/class-01-experiencia-de-cliente.md) · [18.06 · NPS, CSAT y CES](../part-18-customer-experience-success-y-fidelizacion/class-06-nps-csat-y-ces.md) · [18.12 · Advocacy y referidos](../part-18-customer-experience-success-y-fidelizacion/class-12-advocacy-y-referidos.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Establecer el ritmo de revisión.** El riesgo de este paso es cerrar demasiado rápido alrededor de **responsabilidad por cartera**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **cuentas con responsable asignado** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Validar la capacidad predictiva del sistema.** Con **ritmo de revisión** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **ingreso neto retenido** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Validar la capacidad predictiva del sistema.** Con **ritmo de revisión** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **recuperación sostenible de servicio** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Medir ingreso neto retenido como resultado agregado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **sistema de retención**. **precisión de la predicción de bajas** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Medir ingreso neto retenido como resultado agregado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **momento de la verdad**. **ingreso neto retenido** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **sistema de retención** y **capacidad predictiva** como sinónimos | Se perdió la distinción entre «conjunto de procesos, indicadores y responsables que sostiene la base de clientes» y «anticipación de las bajas con un margen de error conocido» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «medir ingreso neto retenido como resultado agregado» | Se saltó «consolidar onboarding, salud, renovación y expansión»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **ingreso neto retenido** | La métrica local reemplazó al resultado del sistema | Contrástala con **cuentas con responsable asignado** y explicita el costo de oportunidad. |
+| Optimizar sólo **ingreso neto retenido** | La métrica local reemplazó al resultado del sistema | Contrástala con **recuperación sostenible de servicio** y explicita el costo de oportunidad. |
 | Construir el sistema sin validar su capacidad predictiva | Error específico de esta clase | Compara las bajas previstas con las observadas cada trimestre y recalibra el modelo. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P18-C14-sistema-de-retencion-y-expansion/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **ingreso neto retenido**, **precisión de la predicción de bajas** y **cuentas con responsable asignado** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **ingreso neto retenido**, **precisión de la predicción de bajas**, **cuentas con responsable asignado** y **recuperación sostenible de servicio** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

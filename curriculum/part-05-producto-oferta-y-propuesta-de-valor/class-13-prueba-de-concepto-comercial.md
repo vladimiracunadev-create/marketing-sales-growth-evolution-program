@@ -22,16 +22,16 @@ El contenido se organiza para que la conclusión pueda ser auditada por otra per
 
 > **Pregunta rectora de la parte:** ¿Qué compra realmente el cliente y por qué elegiría esta oferta frente a no hacer nada?
 
-Los conceptos que estructuran la sesión son **prueba con precio real**, **compromiso condicionado**, **aprendizaje de objeciones** y **transparencia del estado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **prueba con precio real**, **compromiso condicionado**, **aprendizaje de objeciones**, **transparencia del estado**, **tipo de innovación**, **deseabilidad–factibilidad–viabilidad**, **sesgo del superviviente** y **abandono oportuno**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `prueba con precio real`, `compromiso condicionado`, `aprendizaje de objeciones` y `transparencia del estado` por sus observables y no por su definición memorizada.
+1. **Distinguir** `prueba con precio real`, `compromiso condicionado`, `aprendizaje de objeciones`, `transparencia del estado`, `tipo de innovación`, `deseabilidad–factibilidad–viabilidad`, `sesgo del superviviente` y `abandono oportuno` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Producto, oferta y propuesta de valor**.
 3. **Aplicar** la secuencia **definir la hipótesis comercial a probar → preparar propuesta y precio reales → ejecutar con un grupo acotado y declarar el estado del producto → registrar decisiones, objeciones y tiempos → decidir avanzar o abandonar con criterio previo** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **tasa de aceptación con precio real**, **tiempo de decisión** y **objeciones por categoría** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **tasa de aceptación con precio real**, **tiempo de decisión**, **objeciones por categoría** y **tasa de aprendizaje de innovación** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **compromiso condicionado** | acuerdo de compra sujeto a la entrega de una condición futura verificable | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **aprendizaje de objeciones** | registro estructurado de las razones de no avanzar en la prueba | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **transparencia del estado** | declaración explícita de qué existe y qué está por construirse | Da un hecho compatible con la definición y otro que la refute. |
+| **tipo de innovación** | cambio incremental o radical en producto, servicio, proceso o modelo de negocio con novedad y resultado observables | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **deseabilidad–factibilidad–viabilidad** | prueba conjunta de valor para personas, posibilidad técnica-operativa y sostenibilidad económica | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **sesgo del superviviente** | error de aprender sólo de iniciativas visibles o exitosas e ignorar abandonos y fracasos | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **abandono oportuno** | decisión previa de detener una iniciativa cuando evidencia, riesgo o costo superan el valor de seguir | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **tasa de aceptación con precio real**: `ac
 
 Probar con precio real puede quemar la oportunidad con clientes que habrían comprado más adelante, cuando el producto estuviera listo. Probar sin precio no informa. La solución intermedia —precio real con condiciones de pionero, declaradas como tales— conserva la señal y la relación, siempre que las condiciones especiales se respeten después.
 
-**Lo que aporta la fuente.** Rob Fitzpatrick — *The Mom Test* (2013) aporta el criterio para pesar el intercambio: el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés (los capítulos sobre compromiso y avance). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **objeciones por categoría** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Rob Fitzpatrick — *The Mom Test* (2013) aporta el criterio para pesar el intercambio: el compromiso costoso —tiempo, dinero o reputación— como única señal fiable de interés (los capítulos sobre compromiso y avance). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de aprendizaje de innovación** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **transparencia del estado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resu
 Sintetizar prueba de concepto comercial no consiste en sumar definiciones. Empieza por **prueba con precio real**, contrasta **compromiso condicionado** con **aprendizaje de objeciones**, incorpora **transparencia del estado** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. El resultado no es una opinión mejor redactada: es una decisión con dueño, fecha y condición de revisión.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje N — Innovación y desarrollo disciplinado de oportunidades
+
+La innovación puede ser incremental, radical o disruptiva, y ocurrir en producto, servicio, proceso o modelo. Design Thinking organiza empatía, definición, ideación, prototipado y prueba; divergencia produce opciones y convergencia aplica criterios. Creatividad sin oportunidad ni validación es inventario de ideas.
+
+Deseabilidad, factibilidad, viabilidad y escalabilidad se prueban por separado y luego juntas. La adopción tecnológica requiere cambio de procesos, capacidades e incentivos. La cultura de innovación aprende de intentos fallidos documentados; perseverar no es virtud cuando el criterio de abandono ya se cumplió.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Explorar** | señales, problemas y oportunidades | incluir casos fallidos y no usuarios |
+| **Divergir** | múltiples mecanismos y modelos | separar generación de selección |
+| **Converger** | criterios de deseo, factibilidad, viabilidad y riesgo | hacer trade-offs visibles |
+| **Prototipar** | representación suficiente para aprender | elegir fidelidad por hipótesis |
+| **Decidir** | perseverar, pivotar o abandonar | usar criterio previo y documentar fracaso |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Genera seis oportunidades para reducir inasistencias en Ruta Andina: dos de producto, dos de servicio y dos de modelo de negocio. Selecciona dos, prototipa una y ejecuta un pre-mortem con criterio de abandono.
+
+**Secuencia.** investigar problema → divergir sin evaluar → converger con cuatro criterios → prototipar y probar → registrar aprendizaje, incluido fracaso.
+
+**Solución orientadora.** Una solución tecnológicamente novedosa no domina si exige datos no disponibles o empeora confianza. Un servicio simple puede validar deseabilidad. La iniciativa se abandona si no aparece compromiso costoso en la muestra definida o si el riesgo de datos supera el beneficio bajo controles razonables.
+
+**Evidencia de aprendizaje.** mapa de oportunidades, matriz de selección, prototipo, plan de prueba y post-mortem.
+
+**Rúbrica.** 20 % investigación; 20 % diversidad de opciones; 25 % criterios; 20 % experimento; 15 % aprendizaje y abandono.
+
+#### Fichas de medición
+
+**tasa de aprendizaje de innovación**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| hipótesis críticas resueltas con evidencia y decisión | hipótesis críticas sometidas a prueba | por ciclo y portafolio trimestral | registro de experimentos y decisiones | Innovation Lead |
+
+- **Lectura permitida:** mide reducción de incertidumbre, incluidos abandonos.
+- **Limitación:** no equivale a tasa de éxito comercial ni premia experimentar sin decisión.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** ampliar opciones y atacar supuestos.
+- **Datos necesarios:** problema, restricciones y evidencia anonimizada.
+- **Prompt reproducible:** `Propón opciones en producto, servicio, proceso y modelo. Para cada una declara supuesto crítico, prueba barata, riesgo, criterio de abandono y alternativa no tecnológica.`
+- **Resultado esperado:** portafolio de hipótesis para revisar.
+- **Validación humana:** equipo diverso elimina duplicados y confronta con evidencia y afectados.
+- **Riesgos:** ideas homogéneas, sesgo cultural y entusiasmo tecnológico.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** brainwriting individual, matriz morfológica y pre-mortem.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** innovación incremental; nuevo modelo de negocio; adopción tecnológica; mejora de proceso.
+
+**Conocimientos previos y referencias cruzadas:** [03.13 · Validación de hipótesis comerciales](../part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-13-validacion-de-hipotesis-comerciales.md) · [05.03 · Encaje problema-solución](../part-05-producto-oferta-y-propuesta-de-valor/class-03-problema-solucion.md) · [05.04 · MVP comercial](../part-05-producto-oferta-y-propuesta-de-valor/class-04-mvp-comercial.md) · [19.11 · Diseño de experimentos](../part-19-growth-marketing-y-growth-engineering/class-11-experiment-design.md) · [21.12 · Evaluación y guardrails](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-12-evaluacion-y-guardrails.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Ejecutar con un grupo acotado y declarar el estado del producto.** El riesgo de este paso es cerrar demasiado rápido alrededor de **aprendizaje de objeciones**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **objeciones por categoría** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Registrar decisiones, objeciones y tiempos.** Con **transparencia del estado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tasa de aceptación con precio real** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Registrar decisiones, objeciones y tiempos.** Con **transparencia del estado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tasa de aprendizaje de innovación** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Decidir avanzar o abandonar con criterio previo.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **prueba con precio real**. **tiempo de decisión** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Decidir avanzar o abandonar con criterio previo.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **tipo de innovación**. **tasa de aceptación con precio real** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **prueba con precio real** y **compromiso condicionado** como sinónimos | Se perdió la distinción entre «presentación de la oferta con su precio efectivo para observar decisión genuina» y «acuerdo de compra sujeto a la entrega de una condición futura verificable» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «decidir avanzar o abandonar con criterio previo» | Se saltó «definir la hipótesis comercial a probar»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **tasa de aceptación con precio real** | La métrica local reemplazó al resultado del sistema | Contrástala con **objeciones por categoría** y explicita el costo de oportunidad. |
+| Optimizar sólo **tasa de aceptación con precio real** | La métrica local reemplazó al resultado del sistema | Contrástala con **tasa de aprendizaje de innovación** y explicita el costo de oportunidad. |
 | Probar interés sin mostrar el precio | Error específico de esta clase | Presenta el precio efectivo: sin él, la aceptación declarada no predice compra. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P05-C13-prueba-de-concepto-comercial/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **tasa de aceptación con precio real**, **tiempo de decisión** y **objeciones por categoría** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **tasa de aceptación con precio real**, **tiempo de decisión**, **objeciones por categoría** y **tasa de aprendizaje de innovación** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

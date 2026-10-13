@@ -22,16 +22,16 @@ Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si e
 
 > **Pregunta rectora de la parte:** ¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?
 
-Los conceptos que estructuran la sesión son **pregunta conductual**, **sesgo de complacencia**, **compromiso verificable** y **saturación**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **pregunta conductual**, **sesgo de complacencia**, **compromiso verificable**, **saturación**, **entrevista no dirigida**, **pregunta de seguimiento**, **codificación temática** y **triangulación**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `pregunta conductual`, `sesgo de complacencia`, `compromiso verificable` y `saturación` por sus observables y no por su definición memorizada.
+1. **Distinguir** `pregunta conductual`, `sesgo de complacencia`, `compromiso verificable`, `saturación`, `entrevista no dirigida`, `pregunta de seguimiento`, `codificación temática` y `triangulación` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
 3. **Aplicar** la secuencia **definir qué hipótesis debe refutar la entrevista → escribir preguntas sobre comportamiento pasado → eliminar preguntas que anticipan la respuesta deseada → buscar un compromiso verificable al cierre → registrar hechos y citas textuales, no interpretaciones** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **proporción de hechos sobre opiniones**, **tasa de compromiso obtenido** y **entrevistas hasta saturación** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **proporción de hechos sobre opiniones**, **tasa de compromiso obtenido**, **entrevistas hasta saturación**, **cobertura de perspectivas** y **saturación temática declarada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **sesgo de complacencia** | tendencia del entrevistado a responder lo que cree que el entrevistador quiere oír | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **compromiso verificable** | señal costosa —tiempo, dinero, presentación a un jefe— que confirma interés real | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **saturación** | punto en que nuevas entrevistas dejan de aportar categorías nuevas | Da un hecho compatible con la definición y otro que la refute. |
+| **entrevista no dirigida** | conversación donde el entrevistador explora conducta pasada sin conducir hacia su solución | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **pregunta de seguimiento** | indagación que pide ejemplo, secuencia, costo, actor o consecuencia de una respuesta | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **codificación temática** | asignación reproducible de etiquetas a fragmentos para identificar patrones y excepciones | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **triangulación** | contraste de un hallazgo con métodos, fuentes o investigadores diferentes | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **proporción de hechos sobre opiniones**: `
 
 Entrevistar a más personas mejora la cobertura y consume el recurso más escaso, que es el acceso. Cada conversación con un cliente potencial es una oportunidad que se gasta, y una entrevista mal preparada la quema sin retorno. Por eso la preparación —guion, hipótesis y criterio de refutación— no es formalidad: es lo que hace que el acceso rinda.
 
-**Lo que aporta la fuente.** Naresh K. Malhotra — *Marketing Research: An Applied Orientation* (2019, 7.ª ed.) aporta el criterio para pesar el intercambio: el diseño del cuestionario: orden, formulación y sesgo de respuesta (el capítulo sobre diseño de cuestionarios). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **entrevistas hasta saturación** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Naresh K. Malhotra — *Marketing Research: An Applied Orientation* (2019, 7.ª ed.) aporta el criterio para pesar el intercambio: el diseño del cuestionario: orden, formulación y sesgo de respuesta (el capítulo sobre diseño de cuestionarios). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **saturación temática declarada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **saturación** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,75 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Investigar pa
 Sintetizar diseño de entrevistas no consiste en sumar definiciones. Empieza por **pregunta conductual**, contrasta **sesgo de complacencia** con **compromiso verificable**, incorpora **saturación** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. El resultado no es una opinión mejor redactada: es una decisión con dueño, fecha y condición de revisión.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje C — Entrevistas comerciales e investigación del cliente
+
+La guía reutilizable parte de diez áreas: día típico, desafíos, características relevantes, formación, trayectoria, fuentes de información, forma de compra, elección de proveedor, valor esperado y objetivo de la compra. No se recitan como encuesta: se formulan sobre un episodio real y se profundizan con «¿qué ocurrió después?», «¿quién participó?» y «¿qué evidencia conserva?».
+
+SPIN sirve en discovery comercial; JTBD reconstruye la cronología del cambio; la entrevista de problema explora severidad y alternativas. Encuestas cuantifican patrones definidos, focus groups observan interacción social y la observación contextual detecta trabajo invisible. El diseño declara propósito exploratorio, descriptivo o causal; ninguna entrevista aislada demuestra causalidad.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Abrir** | propósito, consentimiento, uso y derecho a detenerse | obtener permiso antes de registrar |
+| **Reconstruir** | episodio, secuencia, actores, alternativas y consecuencias | escuchar y seguir evidencia |
+| **Profundizar** | situación, problema, implicación, necesidad y fuerzas JTBD | evitar vender durante la exploración |
+| **Analizar** | códigos, patrones, casos negativos y saturación | preservar citas y trazabilidad |
+| **Triangular** | CRM, analítica, encuesta u observación | declarar convergencia y contradicción |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Realiza una simulación de 25 minutos sobre la última compra de software de una pyme. Usa las diez áreas, cinco seguimientos y una secuencia SPIN o JTBD; después codifica sin incluir nombres ni datos identificables.
+
+**Secuencia.** preparar consentimiento → preguntar por conducta pasada → registrar señales de compra y contradicciones → codificar por dos personas → triangular una conclusión.
+
+**Solución orientadora.** La síntesis suficiente distingue cita de interpretación, conserva un caso que contradice el patrón, declara cobertura de la muestra y convierte el hallazgo en una hipótesis de decisión, no en una verdad poblacional.
+
+**Evidencia de aprendizaje.** guion, registro anonimizado, libro de códigos, tabla de hallazgos y memo de límites.
+
+**Rúbrica.** 20 % consentimiento; 25 % calidad de preguntas y escucha; 25 % codificación; 20 % triangulación; 10 % privacidad.
+
+#### Fichas de medición
+
+**cobertura de perspectivas**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| roles y estados de relación entrevistados | roles y estados definidos en el plan muestral | por ronda de investigación | registro de reclutamiento | Research Lead |
+
+- **Lectura permitida:** muestra qué voces faltan.
+- **Limitación:** no convierte una muestra intencional en representativa.
+
+**saturación temática declarada**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| entrevistas consecutivas sin tema accionable nuevo | entrevistas consecutivas revisadas | ventana móvil de cinco entrevistas | libro de códigos | Research Lead |
+
+- **Lectura permitida:** ayuda a decidir si seguir recolectando.
+- **Limitación:** depende del alcance y no prueba exhaustividad.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** asistir la codificación temática.
+- **Datos necesarios:** transcripciones anonimizadas y consentimiento compatible con el uso.
+- **Prompt reproducible:** `Codifica fragmentos con este libro de códigos. Devuelve cita, código, confianza, alternativa y caso contradictorio. No infieras atributos sensibles.`
+- **Resultado esperado:** borrador auditable de codificación.
+- **Validación humana:** revisión humana fragmento por fragmento y acuerdo entre codificadores.
+- **Riesgos:** datos sensibles, pérdida de contexto y sesgo de confirmación.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** codificar manualmente en una hoja compartida.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** entrevista remota; discovery comercial; investigación de abandono; inteligencia competitiva con fuentes públicas.
+
+**Conocimientos previos y referencias cruzadas:** [02.03 · Jobs to Be Done](../part-02-cliente-y-comportamiento-del-consumidor/class-03-jobs-to-be-done.md) · [03.04 · Diseño de encuestas](../part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-04-diseno-de-encuestas.md) · [03.05 · Muestreo y sesgos](../part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-05-muestreo-y-sesgos.md) · [09.02 · SPIN Selling](../part-09-venta-consultiva-y-b2b-compleja/class-02-spin-selling.md) · [21.03 · Investigación asistida por IA](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-03-investigacion-asistida-por-ia.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +223,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Eliminar preguntas que anticipan la respuesta deseada.** El riesgo de este paso es cerrar demasiado rápido alrededor de **compromiso verificable**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **entrevistas hasta saturación** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Buscar un compromiso verificable al cierre.** Con **saturación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de hechos sobre opiniones** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Buscar un compromiso verificable al cierre.** Con **saturación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **cobertura de perspectivas** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Registrar hechos y citas textuales, no interpretaciones.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **pregunta conductual**. **tasa de compromiso obtenido** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Registrar hechos y citas textuales, no interpretaciones.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **entrevista no dirigida**. **saturación temática declarada** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +279,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **pregunta conductual** y **sesgo de complacencia** como sinónimos | Se perdió la distinción entre «pregunta sobre lo que la persona efectivamente hizo, cuándo y con qué consecuencia» y «tendencia del entrevistado a responder lo que cree que el entrevistador quiere oír» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «registrar hechos y citas textuales, no interpretaciones» | Se saltó «definir qué hipótesis debe refutar la entrevista»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **proporción de hechos sobre opiniones** | La métrica local reemplazó al resultado del sistema | Contrástala con **entrevistas hasta saturación** y explicita el costo de oportunidad. |
+| Optimizar sólo **proporción de hechos sobre opiniones** | La métrica local reemplazó al resultado del sistema | Contrástala con **saturación temática declarada** y explicita el costo de oportunidad. |
 | Presentar la idea antes de conocer el comportamiento | Error específico de esta clase | Deja la presentación de la solución para el final y sólo después de haber registrado hechos. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +324,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P03-C03-diseno-de-entrevistas/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **proporción de hechos sobre opiniones**, **tasa de compromiso obtenido** y **entrevistas hasta saturación** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **proporción de hechos sobre opiniones**, **tasa de compromiso obtenido**, **entrevistas hasta saturación**, **cobertura de perspectivas** y **saturación temática declarada** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

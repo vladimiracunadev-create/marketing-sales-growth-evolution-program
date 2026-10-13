@@ -6,6 +6,16 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Integrada la ampliación curricular A–N en 14 clases existentes, sin alterar las 24 partes ni las 336
+  clases: valor, Buyer Persona, entrevistas, producto, entorno, marketing mix, ciclo de vida, pricing,
+  Agile, personalización, CX, productividad e innovación.
+- Añadidas una ficha Buyer Persona con evidencia, una guía de entrevistas ampliada y la trazabilidad de los
+  30 entregables acumulativos de Ruta Andina; cada eje incorpora actividad resuelta, métrica completa, uso
+  controlado de IA, alternativa sin IA, transferencia y referencias cruzadas.
+- Corregido el catálogo de conceptos y métricas para conservar definiciones contextuales distintas en vez de
+  ocultarlas mediante `first-wins`; sincronizados manifiesto, estado, portal y cifras verificables.
+- Integrados los casos de crecimiento responsable de la rama pendiente, preservando a la vez el contenido
+  MEDVi y Commercial Evidence Pack de `main`.
 - Añadida una ruta de descubrimiento para MEDVi desde el README principal, la documentación, el mapa del
   currículo y la Parte 24; una prueba de integridad evita que el caso vuelva a quedar como archivo huérfano.
 - Enriquecido visualmente el caso avanzado MEDVi con iconografía consistente, mapas de flujo Mermaid,

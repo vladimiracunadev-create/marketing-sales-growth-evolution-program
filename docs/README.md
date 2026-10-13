@@ -13,14 +13,16 @@
 | [Metodología](METODOLOGIA.md) | Por qué el programa está construido así |
 | [Preguntas frecuentes](PREGUNTAS-FRECUENTES.md) | Dudas habituales sobre alcance, uso y límites |
 | [Uso comercial](COMMERCIAL_USE.md) | Qué permite cada licencia y cuándo pedir autorización |
+| [Auditoría de ampliación integral](AUDITORIA-AMPLIACION-INTEGRAL.md) | Brechas A–N, matriz de integración, rutas y límites |
+| [Proyecto transversal Ruta Andina](PROYECTO-TRANSVERSAL-RUTA-ANDINA.md) | 30 entregables acumulativos con clase, reutilización y evidencia |
 
 ## Referencia de contenido
 
 | Documento | Contenido |
 |---|---|
 | [Mapa del currículo](MAPA-DEL-CURRICULO.md) | 24 partes y 336 clases con conceptos y señales · **generado** |
-| [Glosario](GLOSARIO.md) | 1.296 términos únicos con definición operacional · **generado** |
-| [Fórmulas y métricas](FORMULAS-Y-METRICAS.md) | 960 señales únicas con su ficha de medición · **generado** |
+| [Glosario](GLOSARIO.md) | 1.417 fichas conceptuales con contexto y definición operacional · **generado** |
+| [Fórmulas y métricas](FORMULAS-Y-METRICAS.md) | 1.031 fichas de señal contextuales · **generado** |
 | [Fuentes](FUENTES.md) | Las obras y enlaces que sostienen el programa, con su dirección · **generado** |
 | [Bibliografía](BIBLIOGRAFIA.md) | 103 obras con el lente que aporta cada una · **generado** |
 | [Mapa de competencias](MAPA-DE-COMPETENCIAS.md) | Competencias, roles y artefactos por parte · **generado** |
@@ -35,6 +37,7 @@
 | [Evaluación y rúbricas](EVALUACION-Y-RUBRICAS.md) | Instrumentos, pesos y criterios de aprobación |
 | [Arquitectura del programa](ARQUITECTURA-DEL-PROGRAMA.md) | Cómo se genera y se mantiene el repositorio |
 | [Auditoría Commercial Evidence](AUDITORIA-COMMERCIAL-EVIDENCE.md) | Cobertura, brechas, cambios y no duplicación |
+| [Auditoría de ampliación integral](AUDITORIA-AMPLIACION-INTEGRAL.md) | Integración curricular de valor, clientes, producto, estrategia, Agile e innovación |
 
 ## Contexto chileno y ética
 

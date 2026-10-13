@@ -22,16 +22,16 @@ Esta clase existe porque el error que corrige es caro y frecuente en operaciones
 
 > **Pregunta rectora de la parte:** ¿Qué compra realmente el cliente y por qué elegiría esta oferta frente a no hacer nada?
 
-Los conceptos que estructuran la sesión son **perfil del cliente**, **aliviador de dolor**, **encaje problema-solución** y **supuesto no verificado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **perfil del cliente**, **aliviador de dolor**, **encaje problema-solución**, **supuesto no verificado**, **valor percibido**, **sacrificio percibido**, **valor creado** y **valor capturado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `perfil del cliente`, `aliviador de dolor`, `encaje problema-solución` y `supuesto no verificado` por sus observables y no por su definición memorizada.
+1. **Distinguir** `perfil del cliente`, `aliviador de dolor`, `encaje problema-solución`, `supuesto no verificado`, `valor percibido`, `sacrificio percibido`, `valor creado` y `valor capturado` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Producto, oferta y propuesta de valor**.
 3. **Aplicar** la secuencia **completar el perfil del cliente sólo con evidencia → mapear la oferta actual sin idealizarla → trazar la correspondencia entre ambas mitades → marcar los supuestos sin evidencia → diseñar la validación de los tres supuestos más caros** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **proporción de elementos con evidencia**, **dolores atendidos por la oferta** y **supuestos validados por trimestre** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **proporción de elementos con evidencia**, **dolores atendidos por la oferta**, **supuestos validados por trimestre** y **tasa de valor validado** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **aliviador de dolor** | elemento de la oferta que reduce un dolor específico y documentado | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **encaje problema-solución** | correspondencia verificada entre lo que la oferta hace y lo que el cliente necesita | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **supuesto no verificado** | elemento del canvas sin evidencia asociada, marcado como pendiente de validar | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **valor percibido** | balance subjetivo y contextual entre beneficios esperados y sacrificios percibidos por quien decide | Da un hecho compatible con la definición y otro que la refute. |
+| **sacrificio percibido** | precio monetario más costos de transacción, aprendizaje, cambio y riesgos financieros, funcionales o reputacionales | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **valor creado** | beneficio total que la oferta hace posible para cliente, organización y otras partes afectadas | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **valor capturado** | porción del valor creado que la empresa retiene como ingreso, margen, aprendizaje o activo estratégico | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **proporción de elementos con evidencia**: 
 
 Un lienzo detallado captura matices y toma semanas; uno rápido orienta y omite. El error caro no es elegir mal la profundidad sino no marcar los supuestos: cada elemento del lienzo debería llevar una marca que indique si proviene de evidencia o de hipótesis. Con esa marca, un lienzo rápido es útil; sin ella, uno detallado es peligroso.
 
-**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **supuestos validados por trimestre** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Marty Cagan — *Inspired* (2017, 2.ª ed.) aporta el criterio para pesar el intercambio: los cuatro riesgos de producto: valor, usabilidad, viabilidad y factibilidad (los capítulos sobre riesgos del descubrimiento). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de valor validado** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **supuesto no verificado** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resu
 Sintetizar value Proposition Canvas no consiste en sumar definiciones. Empieza por **perfil del cliente**, contrasta **aliviador de dolor** con **encaje problema-solución**, incorpora **supuesto no verificado** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Una síntesis correcta indica qué evidencia falta y qué decisión se posterga hasta obtenerla.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje A — Creación, percepción y captura de valor
+
+El modelo `valor percibido = beneficios percibidos − sacrificios percibidos` ordena la conversación, pero no es una fórmula monetaria universal. La percepción depende del rol, la alternativa, el momento y la confianza: sumar una garantía puede mover más valor que agregar una funcionalidad, y un costo de migración puede anular una ventaja de precio.
+
+Distingue característica, ventaja y beneficio. Una característica describe la oferta; una ventaja compara su mecanismo con una alternativa; un beneficio expresa el resultado para el cliente. El análisis debe separar beneficios funcionales, emocionales, sociales y económicos, y comprobar si el valor creado permite capturar margen sin destruir confianza ni sostenibilidad.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Beneficio intrínseco** | resultado producido por el uso | medir desempeño o resultado observado |
+| **Beneficio extrínseco** | señal externa, servicio o conveniencia | probar si cambia elección o permanencia |
+| **Beneficio simbólico** | identidad, pertenencia o reputación | investigar lenguaje y contexto, no inferirlo |
+| **Sacrificio total** | precio, tiempo, aprendizaje, cambio y riesgo | hacer visibles costos fuera de la factura |
+| **Captura sostenible** | ingreso y margen compatibles con resultado y confianza | contrastar disposición a pagar, costo de servir y retención |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Compara tres ofertas de Ruta Andina: A cuesta CLP 39.000 con autoservicio y migración manual; B cuesta CLP 89.000 con migración asistida, capacitación y garantía de puesta en marcha; C cuesta CLP 69.000 con más funciones, contrato anual y soporte sólo por correo.
+
+**Secuencia.** puntuar beneficios por rol sin mezclarlos → estimar precio, transacción, aprendizaje, cambio y riesgos → declarar incertidumbre y sensibilidad → recomendar por segmento, no una ganadora universal.
+
+**Solución orientadora.** Para una pyme sin personal administrativo, B puede superar a C pese al mayor precio: reduce migración, aprendizaje y riesgo de interrupción. Para un equipo técnico con datos limpios, C podría capturar más valor. A domina sólo si la capacidad interna vuelve tolerable el sacrificio operativo. La respuesta correcta es condicional y separa precio de costo total percibido.
+
+**Evidencia de aprendizaje.** matriz de tres ofertas, supuestos por rol, recomendación y dato que podría invertirla.
+
+**Rúbrica.** 30 % distinción beneficio/sacrificio; 25 % evidencia; 25 % trade-off valor/precio/margen; 20 % límites y transferencia.
+
+#### Fichas de medición
+
+**tasa de valor validado**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| beneficios priorizados confirmados con conducta o resultado | beneficios priorizados sometidos a prueba | por cohorte y trimestre | entrevistas, pilotos, uso y CRM | Product Marketing |
+
+- **Lectura permitida:** compara qué beneficios sostienen elección y permanencia.
+- **Limitación:** no convierte percepciones en equivalentes monetarios ni demuestra causalidad.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** comparar propuestas sin inventar evidencia.
+- **Datos necesarios:** matriz anonimizada de beneficios, sacrificios y fuente de cada celda.
+- **Prompt reproducible:** `Actúa como revisor escéptico. Compara A, B y C por rol. Marca cada afirmación como dato, inferencia o hipótesis; no completes celdas faltantes. Devuelve sensibilidad y preguntas para validar.`
+- **Resultado esperado:** tabla de comparación y agenda de validación.
+- **Validación humana:** un responsable contrasta cada celda con la fuente y rehace el cálculo.
+- **Riesgos:** falsa precisión, preferencia inducida por el prompt y exposición de precios sensibles.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** usar una hoja de cálculo con ponderaciones y revisión por pares.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** B2C: conveniencia y riesgo percibido; B2B: costo total, adopción y veto; B2G: trazabilidad, continuidad y cumplimiento.
+
+**Conocimientos previos y referencias cruzadas:** [01.06 · Oferta, demanda y captura de valor](../part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/class-06-oferta-demanda-y-captura-de-valor.md) · [07.04 · Pricing basado en valor](../part-07-pricing-y-monetizacion/class-04-value-based-pricing.md) · [13.05 · Características versus beneficios](../part-13-contenido-copywriting-y-comunicacion-persuasiva/class-05-features-versus-benefits.md) · [18.03 · Time to value](../part-18-customer-experience-success-y-fidelizacion/class-03-time-to-value.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Trazar la correspondencia entre ambas mitades.** El riesgo de este paso es cerrar demasiado rápido alrededor de **encaje problema-solución**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **supuestos validados por trimestre** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Marcar los supuestos sin evidencia.** Con **supuesto no verificado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **proporción de elementos con evidencia** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Marcar los supuestos sin evidencia.** Con **supuesto no verificado** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tasa de valor validado** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Diseñar la validación de los tres supuestos más caros.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **perfil del cliente**. **dolores atendidos por la oferta** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Diseñar la validación de los tres supuestos más caros.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **valor percibido**. **proporción de elementos con evidencia** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **perfil del cliente** y **aliviador de dolor** como sinónimos | Se perdió la distinción entre «descripción de tareas, dolores y ganancias observadas y no supuestas» y «elemento de la oferta que reduce un dolor específico y documentado» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «diseñar la validación de los tres supuestos más caros» | Se saltó «completar el perfil del cliente sólo con evidencia»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **proporción de elementos con evidencia** | La métrica local reemplazó al resultado del sistema | Contrástala con **supuestos validados por trimestre** y explicita el costo de oportunidad. |
+| Optimizar sólo **proporción de elementos con evidencia** | La métrica local reemplazó al resultado del sistema | Contrástala con **tasa de valor validado** y explicita el costo de oportunidad. |
 | Llenar el canvas con supuestos sin marcarlos | Error específico de esta clase | Marca con color o etiqueta cada elemento sin evidencia y define cómo se validará. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P05-C02-value-proposition-canvas/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **proporción de elementos con evidencia**, **dolores atendidos por la oferta** y **supuestos validados por trimestre** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **proporción de elementos con evidencia**, **dolores atendidos por la oferta**, **supuestos validados por trimestre** y **tasa de valor validado** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

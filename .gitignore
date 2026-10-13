@@ -3,6 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+.pytest-run-*/
+.test-tmp*/
+.codex-test-*/
+.codex-collect-*/
 .mypy_cache/
 .ruff_cache/
 *.egg-info/

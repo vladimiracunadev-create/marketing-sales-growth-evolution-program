@@ -12,6 +12,8 @@ El Capstone integra las 24 partes del programa en una operación comercial defen
 
 En cualquier opción debe declararse explícitamente qué datos son reales y cuáles simulados.
 
+La cadena acumulativa de investigación, diseño, lanzamiento y optimización está trazada en el [proyecto transversal de Ruta Andina](../docs/PROYECTO-TRANSVERSAL-RUTA-ANDINA.md). Sus 30 entregables se reutilizan aquí; no constituyen un caso separado.
+
 ## Componentes obligatorios
 
 | # | Componente | Clase de referencia |

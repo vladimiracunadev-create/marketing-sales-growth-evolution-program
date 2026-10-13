@@ -1,6 +1,6 @@
 {
   "version": "clase-profunda-v2",
-  "actualizado": "2026-08-19",
+  "actualizado": "2026-10-13",
   "empresa": {
     "nombre": "Ruta Andina SpA",
     "descripcion": "Empresa chilena que vende una plataforma de agendamiento, pagos y CRM ligero para pymes de servicios (peluquerías, talleres, centros médicos pequeños, estudios contables). Tiene tres líneas de ingreso: suscripción SaaS (CLP 39.000 a CLP 199.000 mensuales por local), venta de hardware complementario por e-commerce y marketplace, y contratos anuales con municipios y corporaciones para digitalizar atención de público.",
@@ -314,12 +314,17 @@
             "diagnóstico",
             "política rectora",
             "plan operativo",
-            "coherencia de acciones"
+            "coherencia de acciones",
+            "orientación de marketing",
+            "marketing mix 7P",
+            "omnicanalidad",
+            "alineación marketing–ventas"
           ],
           "senales": [
             "proporción de presupuesto alineado",
             "acciones activas sin dueño",
-            "tiempo entre decisión y ejecución"
+            "tiempo entre decisión y ejecución",
+            "conversión aceptada por ventas"
           ],
           "libros": [
             "rumelt",
@@ -643,12 +648,17 @@
             "persona basada en evidencia",
             "atributo accionable",
             "hipótesis marcada",
-            "caducidad del perfil"
+            "caducidad del perfil",
+            "persona hipotética",
+            "persona sustentada",
+            "persona validada",
+            "segmentación contextual"
           ],
           "senales": [
             "proporción de atributos con fuente",
             "uso efectivo del perfil",
-            "antigüedad del perfil"
+            "antigüedad del perfil",
+            "proporción de atributos validados"
           ],
           "libros": [
             "fitzpatrick",
@@ -984,12 +994,17 @@
             "expediente de cliente",
             "trazabilidad de la evidencia",
             "prueba de uso",
-            "ciclo de actualización"
+            "ciclo de actualización",
+            "nivel de confianza del hallazgo",
+            "cita verificable",
+            "factor de abandono",
+            "mensaje por evidencia"
           ],
           "senales": [
             "proporción de afirmaciones con fuente",
             "resultado de la prueba de uso",
-            "frecuencia de uso del expediente"
+            "frecuencia de uso del expediente",
+            "calidad de ficha Buyer Persona"
           ],
           "libros": [
             "fitzpatrick",
@@ -1109,12 +1124,18 @@
             "pregunta conductual",
             "sesgo de complacencia",
             "compromiso verificable",
-            "saturación"
+            "saturación",
+            "entrevista no dirigida",
+            "pregunta de seguimiento",
+            "codificación temática",
+            "triangulación"
           ],
           "senales": [
             "proporción de hechos sobre opiniones",
             "tasa de compromiso obtenido",
-            "entrevistas hasta saturación"
+            "entrevistas hasta saturación",
+            "cobertura de perspectivas",
+            "saturación temática declarada"
           ],
           "libros": [
             "fitzpatrick",
@@ -1347,12 +1368,17 @@
             "modelo económico del competidor",
             "restricción del competidor",
             "movimiento probable",
-            "intensidad competitiva"
+            "intensidad competitiva",
+            "PESTEL",
+            "cinco fuerzas",
+            "ventaja competitiva",
+            "modelo de negocio"
           ],
           "senales": [
             "participación en negocios enfrentados",
             "cambios de precio del competidor",
-            "velocidad de respuesta"
+            "velocidad de respuesta",
+            "señales externas con respuesta definida"
           ],
           "libros": [
             "porter",
@@ -2073,12 +2099,17 @@
             "perfil del cliente",
             "aliviador de dolor",
             "encaje problema-solución",
-            "supuesto no verificado"
+            "supuesto no verificado",
+            "valor percibido",
+            "sacrificio percibido",
+            "valor creado",
+            "valor capturado"
           ],
           "senales": [
             "proporción de elementos con evidencia",
             "dolores atendidos por la oferta",
-            "supuestos validados por trimestre"
+            "supuestos validados por trimestre",
+            "tasa de valor validado"
           ],
           "libros": [
             "osterwalder-vpd",
@@ -2311,12 +2342,17 @@
             "fase del ciclo",
             "decisión por fase",
             "canibalización planificada",
-            "retiro ordenado"
+            "retiro ordenado",
+            "etapa de ciclo de vida",
+            "canibalización",
+            "renovación de producto",
+            "retiro gestionado"
           ],
           "senales": [
             "crecimiento de la categoría",
             "participación relativa",
-            "margen por producto en el tiempo"
+            "margen por producto en el tiempo",
+            "rentabilidad incremental de extensión"
           ],
           "libros": [
             "kotler",
@@ -2379,12 +2415,17 @@
             "resultado esperado",
             "nivel de confianza",
             "compromiso comercial",
-            "gestión de expectativa"
+            "gestión de expectativa",
+            "experiencia–propósito–oportunidad",
+            "Product Discovery",
+            "Product Delivery",
+            "gobierno de producto"
           ],
           "senales": [
             "cumplimiento de lo comprometido",
             "negocios cerrados con promesa futura",
-            "churn asociado a promesa incumplida"
+            "churn asociado a promesa incumplida",
+            "adopción del resultado de producto"
           ],
           "libros": [
             "cagan",
@@ -2447,12 +2488,17 @@
             "prueba con precio real",
             "compromiso condicionado",
             "aprendizaje de objeciones",
-            "transparencia del estado"
+            "transparencia del estado",
+            "tipo de innovación",
+            "deseabilidad–factibilidad–viabilidad",
+            "sesgo del superviviente",
+            "abandono oportuno"
           ],
           "senales": [
             "tasa de aceptación con precio real",
             "tiempo de decisión",
-            "objeciones por categoría"
+            "objeciones por categoría",
+            "tasa de aprendizaje de innovación"
           ],
           "libros": [
             "ramanujam",
@@ -3491,12 +3537,17 @@
             "arquitectura de monetización",
             "coherencia precio-valor",
             "gobierno de precios",
-            "proyección de ingreso"
+            "proyección de ingreso",
+            "precio basado en valor",
+            "Revenue Management",
+            "unit economics",
+            "rentabilidad segmentada"
           ],
           "senales": [
             "margen por plan",
             "desviación de cotizaciones",
-            "precisión de la proyección"
+            "precisión de la proyección",
+            "margen de contribución por segmento"
           ],
           "libros": [
             "nagle",
@@ -8988,12 +9039,17 @@
             "sistema de retención",
             "capacidad predictiva",
             "responsabilidad por cartera",
-            "ritmo de revisión"
+            "ritmo de revisión",
+            "momento de la verdad",
+            "recuperación de servicio",
+            "voz del cliente",
+            "fidelización"
           ],
           "senales": [
             "ingreso neto retenido",
             "precisión de la predicción de bajas",
-            "cuentas con responsable asignado"
+            "cuentas con responsable asignado",
+            "recuperación sostenible de servicio"
           ],
           "libros": [
             "mehta",
@@ -9317,12 +9373,17 @@
             "entrada del backlog",
             "fundamento de la hipótesis",
             "esfuerzo estimado",
-            "aprendizaje esperado"
+            "aprendizaje esperado",
+            "marco ágil",
+            "práctica ágil",
+            "métrica de flujo",
+            "hipótesis de negocio"
           ],
           "senales": [
             "entradas con hipótesis completa",
             "tasa de ejecución",
-            "aprendizajes por experimento"
+            "aprendizajes por experimento",
+            "tiempo de ciclo comercial priorizado"
           ],
           "libros": [
             "ellis-brown",
@@ -10189,12 +10250,17 @@
             "pertinencia percibida",
             "expectativa de privacidad",
             "finalidad declarada",
-            "efecto inquietante"
+            "efecto inquietante",
+            "personalización contextual",
+            "hiperpersonalización",
+            "fatiga de personalización",
+            "incrementalidad de personalización"
           ],
           "senales": [
             "efecto en conversión",
             "tasa de baja tras personalización",
-            "consultas sobre uso de datos"
+            "consultas sobre uso de datos",
+            "incrementalidad neta de personalización"
           ],
           "libros": [
             "thaler",
@@ -11497,12 +11563,17 @@
             "sistema de dirección",
             "independencia del sistema",
             "detección temprana",
-            "ritmo institucional"
+            "ritmo institucional",
+            "productividad comercial",
+            "gestión de cartera y territorio",
+            "cuello de botella comercial",
+            "forecast accionable"
           ],
           "senales": [
             "decisiones tomadas sin escalamiento",
             "detección temprana de desvíos",
-            "continuidad ante ausencias"
+            "continuidad ante ausencias",
+            "throughput comercial con calidad"
           ],
           "libros": [
             "grove",

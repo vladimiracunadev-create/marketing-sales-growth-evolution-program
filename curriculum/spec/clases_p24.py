@@ -483,7 +483,7 @@ CLASES = [
         senales=[
             ("obligaciones identificadas y cubiertas", "numerador: requisitos con solución y evidencia; denominador: requisitos aplicables identificados; ventana: cada hito del Capstone; fuente: matriz de cumplimiento"),
             ("verificaciones en fuente primaria", "numerador: normas comprobadas en texto oficial con fecha; denominador: normas citadas; ventana: antes de cada entrega; fuente: registro de fuentes"),
-            ("brechas con responsable", "numerador: brechas con acción, responsable y fecha; denominador: brechas detectadas; ventana: revisión quincenal; fuente: registro de riesgos"),
+            ("brechas con responsable", "brechas con acción, responsable y fecha, sobre brechas detectadas, por revisión quincenal; fuente: registro de riesgos"),
             ("claim rejection rate", "claims rechazados por el control, sobre claims extraídos, por versión de campaña"),
             ("regulatory incident rate", "incidentes regulatorios confirmados, sobre campañas activas, por trimestre"),
         ],

@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿Qué debe existir para que el resultado no dependa de que yo esté en cada reunión?
 
-Los conceptos que estructuran la sesión son **sistema de dirección**, **independencia del sistema**, **detección temprana** y **ritmo institucional**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **sistema de dirección**, **independencia del sistema**, **detección temprana**, **ritmo institucional**, **productividad comercial**, **gestión de cartera y territorio**, **cuello de botella comercial** y **forecast accionable**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `sistema de dirección`, `independencia del sistema`, `detección temprana` y `ritmo institucional` por sus observables y no por su definición memorizada.
+1. **Distinguir** `sistema de dirección`, `independencia del sistema`, `detección temprana`, `ritmo institucional`, `productividad comercial`, `gestión de cartera y territorio`, `cuello de botella comercial` y `forecast accionable` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Dirección comercial: CMO, VP Sales y CRO**.
 3. **Aplicar** la secuencia **consolidar estructura, roles y responsabilidades → documentar plan, presupuesto y objetivos → establecer el ritmo de gestión y sus reuniones → definir incentivos, desarrollo y gobierno → verificar la independencia con una prueba de ausencia** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **decisiones tomadas sin escalamiento**, **detección temprana de desvíos** y **continuidad ante ausencias** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **decisiones tomadas sin escalamiento**, **detección temprana de desvíos**, **continuidad ante ausencias** y **throughput comercial con calidad** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **independencia del sistema** | capacidad de operar sin intervención permanente de la dirección | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **detección temprana** | identificación de problemas antes de su efecto financiero | Da un hecho compatible con la definición y otro que la refute. |
 | **ritmo institucional** | calendario de revisiones y decisiones que sostiene la operación | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **productividad comercial** | resultado de calidad producido por unidad de capacidad y costo, sin trasladar daño a otra etapa | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **gestión de cartera y territorio** | asignación de cuentas, potencial, cobertura y esfuerzo con reglas explícitas | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **cuello de botella comercial** | restricción que limita el throughput del sistema aunque otras etapas aumenten actividad | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **forecast accionable** | proyección con método, error, sesgo, capacidad y decisiones asociadas | Da un hecho compatible con la definición y otro que la refute. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **decisiones tomadas sin escalamiento**: `de
 
 Un sistema más formal aporta consistencia y puede volverse burocrático en organizaciones pequeñas, donde consume más de lo que aporta. El criterio de formalización es la fricción: se formaliza lo que ya produce problemas de coordinación y se deja el resto en acuerdos simples.
 
-**Lo que aporta la fuente.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta el criterio para pesar el intercambio: el mapa estratégico que conecta causalmente objetivos entre perspectivas (los capítulos sobre relaciones causa-efecto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **continuidad ante ausencias** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) aporta el criterio para pesar el intercambio: el mapa estratégico que conecta causalmente objetivos entre perspectivas (los capítulos sobre relaciones causa-efecto). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **throughput comercial con calidad** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **ritmo institucional** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Escalar un mo
 Sintetizar operating system del CRO no consiste en sumar definiciones. Empieza por **sistema de dirección**, contrasta **independencia del sistema** con **detección temprana**, incorpora **ritmo institucional** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Cuando la integración funciona, cualquier persona del equipo puede reconstruir el razonamiento sin el autor presente.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje M — Productividad comercial y gestión de resultados
+
+La productividad individual no se infiere de actividad bruta y la del equipo no es la suma de rankings. Territorios, carteras, tiempo, pipeline, capacidad, automatización y coaching forman un sistema. Win rate, velocidad, ciclo, ticket, conversión y rentabilidad se interpretan por segmento y etapa.
+
+CRM y Revenue Operations entregan definiciones; forecast y planificación de capacidad traducen demanda a recursos. KPI monitorea desempeño, OKR coordina cambio y Balanced Scorecard equilibra perspectivas. Incentivos y evaluación deben premiar resultados controlables y calidad, no manipulación del pipeline. Cada métrica debe activar una decisión concreta.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Demanda** | volumen y mezcla | segmentar entrada y potencial |
+| **Capacidad** | personas, tiempo y restricciones | modelar cobertura real |
+| **Flujo** | conversión, ciclo y WIP | ubicar cuello de botella |
+| **Economía** | ticket, margen, CAC y costo comercial | optimizar contribución, no actividad |
+| **Gestión** | forecast, coaching, incentivos y mejora | cerrar aprendizaje |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Diagnostica un trimestre de Ruta Andina: leads +30 %, reuniones estables, propuestas −10 %, win rate estable y ciclo +20 %. Decide si contratar, redistribuir territorios, automatizar o mejorar discovery.
+
+**Secuencia.** reconciliar definiciones → localizar restricción → calcular capacidad y velocidad → comparar intervenciones → definir coaching e indicador.
+
+**Solución orientadora.** Más leads no resuelve una restricción entre reunión y propuesta. Contratar antes de medir carga y criterios puede amplificar desperdicio. Se audita discovery y tiempo por etapa, se redistribuye capacidad si hay mezcla desigual y se automatiza sólo trabajo repetible con control de calidad.
+
+**Evidencia de aprendizaje.** árbol de diagnóstico, modelo de capacidad, plan de 90 días y tablero.
+
+**Rúbrica.** 30 % diagnóstico sistémico; 25 % cálculos; 20 % decisión; 15 % personas e incentivos; 10 % revisión.
+
+#### Fichas de medición
+
+**throughput comercial con calidad**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| negocios ganados que cumplen margen, perfil y handoff | capacidad comercial disponible en horas equivalentes | mes y trimestre por territorio | CRM, facturación y capacidad | Revenue Operations |
+
+- **Lectura permitida:** compara rendimiento sistémico con calidad.
+- **Limitación:** no debe usarse como ranking individual sin controlar mezcla y territorio.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** detectar anomalías y simular capacidad.
+- **Datos necesarios:** datos agregados por etapa, territorio y cohorte.
+- **Prompt reproducible:** `Calcula conversión, ciclo, velocidad y capacidad. Marca anomalías sin atribuir culpa; propone tres explicaciones rivales y los datos para distinguirlas.`
+- **Resultado esperado:** diagnóstico provisional y escenarios.
+- **Validación humana:** RevOps reconcilia con CRM y líderes revisan contexto.
+- **Riesgos:** vigilancia, sesgo por territorio y datos incompletos.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** revisión de pipeline con hoja de cálculo.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** equipo inbound; ventas enterprise; territorio geográfico; canal de socios.
+
+**Conocimientos previos y referencias cruzadas:** [16.07 · Forecast](../part-16-crm-pipeline-y-sales-operations/class-07-forecast.md) · [16.09 · Capacidad comercial](../part-16-crm-pipeline-y-sales-operations/class-09-sales-capacity.md) · [16.10 · Velocidad comercial](../part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md) · [17.14 · Operating model de RevOps](../part-17-marketing-automation-y-revenue-operations/class-14-operating-model-revops.md) · [23.07 · OKR y KPI](../part-23-direccion-comercial-cmo-vp-sales-y-cro/class-07-okr-y-kpi.md) · [23.10 · Coaching comercial](../part-23-direccion-comercial-cmo-vp-sales-y-cro/class-10-coaching-comercial.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Establecer el ritmo de gestión y sus reuniones.** El riesgo de este paso es cerrar demasiado rápido alrededor de **detección temprana**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **continuidad ante ausencias** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Definir incentivos, desarrollo y gobierno.** Con **ritmo institucional** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **decisiones tomadas sin escalamiento** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Definir incentivos, desarrollo y gobierno.** Con **ritmo institucional** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **throughput comercial con calidad** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Verificar la independencia con una prueba de ausencia.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **sistema de dirección**. **detección temprana de desvíos** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Verificar la independencia con una prueba de ausencia.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **productividad comercial**. **decisiones tomadas sin escalamiento** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **sistema de dirección** y **independencia del sistema** como sinónimos | Se perdió la distinción entre «conjunto de estructuras, rutinas e indicadores que gobiernan la función de ingresos» y «capacidad de operar sin intervención permanente de la dirección» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «verificar la independencia con una prueba de ausencia» | Se saltó «consolidar estructura, roles y responsabilidades»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **decisiones tomadas sin escalamiento** | La métrica local reemplazó al resultado del sistema | Contrástala con **continuidad ante ausencias** y explicita el costo de oportunidad. |
+| Optimizar sólo **decisiones tomadas sin escalamiento** | La métrica local reemplazó al resultado del sistema | Contrástala con **throughput comercial con calidad** y explicita el costo de oportunidad. |
 | Escalar el equipo sin corregir el motor comercial | Error específico de esta clase | Verifica proceso, oferta y retención antes de comprometer contrataciones de escala. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P23-C14-operating-system-del-cro/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **decisiones tomadas sin escalamiento**, **detección temprana de desvíos** y **continuidad ante ausencias** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **decisiones tomadas sin escalamiento**, **detección temprana de desvíos**, **continuidad ante ausencias** y **throughput comercial con calidad** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

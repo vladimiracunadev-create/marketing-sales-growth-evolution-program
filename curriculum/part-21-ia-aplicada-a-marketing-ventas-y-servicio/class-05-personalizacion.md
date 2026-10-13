@@ -22,16 +22,16 @@ La clase trata el tema como un problema de evidencia y de consecuencia, no como 
 
 > **Pregunta rectora de la parte:** ¿Qué tarea mejora con IA, cómo sé que mejora y quién responde cuando falla?
 
-Los conceptos que estructuran la sesión son **pertinencia percibida**, **expectativa de privacidad**, **finalidad declarada** y **efecto inquietante**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **pertinencia percibida**, **expectativa de privacidad**, **finalidad declarada**, **efecto inquietante**, **personalización contextual**, **hiperpersonalización**, **fatiga de personalización** y **incrementalidad de personalización**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `pertinencia percibida`, `expectativa de privacidad`, `finalidad declarada` y `efecto inquietante` por sus observables y no por su definición memorizada.
+1. **Distinguir** `pertinencia percibida`, `expectativa de privacidad`, `finalidad declarada`, `efecto inquietante`, `personalización contextual`, `hiperpersonalización`, `fatiga de personalización` y `incrementalidad de personalización` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **IA aplicada a marketing, ventas y servicio**.
 3. **Aplicar** la secuencia **identificar qué datos entregó el cliente conscientemente → verificar la finalidad declarada al recogerlos → diseñar la personalización dentro de esa expectativa → probar la reacción con un grupo pequeño → medir efecto en conversión y en bajas** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **efecto en conversión**, **tasa de baja tras personalización** y **consultas sobre uso de datos** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **efecto en conversión**, **tasa de baja tras personalización**, **consultas sobre uso de datos** y **incrementalidad neta de personalización** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **expectativa de privacidad** | supuesto del cliente sobre qué información tiene la empresa y para qué | Da un hecho compatible con la definición y otro que la refute. |
 | **finalidad declarada** | uso informado al momento de recoger el dato | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **efecto inquietante** | reacción negativa ante una personalización que revela información inesperada | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **personalización contextual** | adaptación a situación, canal, etapa o necesidad observable con datos proporcionales | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **hiperpersonalización** | adaptación individual de alta granularidad basada en múltiples señales y automatización | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **fatiga de personalización** | caída de respuesta o confianza causada por repetición, intensidad o sensación de vigilancia | Da un hecho compatible con la definición y otro que la refute. |
+| **incrementalidad de personalización** | diferencia causal entre resultado con personalización y contrafactual comparable | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **efecto en conversión**: `diferencia de co
 
 Personalizar más aumenta la relevancia y el costo de producción, la complejidad operativa y el riesgo. Personalizar menos es más simple y menos efectivo. La proporción razonable personaliza aquello que mejora claramente la experiencia y deja el resto estándar, en lugar de personalizar por capacidad técnica.
 
-**Lo que aporta la fuente.** Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) aporta el criterio para pesar el intercambio: la reciprocidad: el aporte previo genera disposición a corresponder (el capítulo sobre reciprocidad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **consultas sobre uso de datos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Robert B. Cialdini — *Influence: The Psychology of Persuasion, New and Expanded* (2021) aporta el criterio para pesar el intercambio: la reciprocidad: el aporte previo genera disposición a corresponder (el capítulo sobre reciprocidad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **incrementalidad neta de personalización** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **efecto inquietante** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Publicar cont
 Sintetizar personalización no consiste en sumar definiciones. Empieza por **pertinencia percibida**, contrasta **expectativa de privacidad** con **finalidad declarada**, incorpora **efecto inquietante** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. La prueba de dominio es poder explicar el caso contrario: cuándo esta recomendación sería incorrecta.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje K — Personalización comercial con incrementalidad, privacidad y confianza
+
+Segmentar adapta una propuesta a grupos; personalizar decide para una persona o cuenta. Puede ser básica, contextual, conductual, psicográfica, por etapa u omnicanal. En B2B se personalizan cuenta, rol y momento; en B2C, necesidad y contexto. Recomendaciones y mensajes adaptativos deben explicar qué se usó y permitir control razonable.
+
+Más detalle no implica más eficacia: puede producir fatiga, vigilancia, discriminación o manipulación. Consentimiento, minimización, transparencia y explicabilidad son requisitos de diseño. Las cifras de «37 % más eficacia» y «2,5 veces más recomendación» no se usan como hechos mientras no exista fuente original verificada con población, método, año, contexto, magnitud y limitaciones.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Básica** | dato declarado y cambio visible | saludo, idioma o preferencia |
+| **Contextual** | situación y etapa | siguiente acción pertinente |
+| **Conductual** | acciones observadas | recomendación con control y caducidad |
+| **Psicográfica** | motivación investigada | evitar inferir rasgos sensibles |
+| **Hiperpersonalizada** | múltiples señales y modelo | exigir necesidad, prueba y guardarraíles superiores |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Diseña un experimento A/B para recomendar onboarding por segmento en Ruta Andina. Incluye control, unidad de asignación, métrica primaria, guardarraíles de queja/abandono/privacidad, costo y criterio de detención.
+
+**Secuencia.** definir necesidad y dato mínimo → explicar la adaptación → aleatorizar o justificar alternativa → medir incrementalidad y costos → revisar efectos adversos.
+
+**Solución orientadora.** Conversión sola no basta: la personalización gana si mejora activación incremental sin elevar quejas, abandono ni incidentes y cubre su costo. Si no hay muestra, se usa prueba cualitativa y se declara que no estima efecto causal.
+
+**Evidencia de aprendizaje.** protocolo experimental, DPIA ligera, mensajes, resultados y decisión.
+
+**Rúbrica.** 20 % diseño; 20 % privacidad; 25 % incrementalidad; 20 % guardarraíles; 15 % límites.
+
+#### Fichas de medición
+
+**incrementalidad neta de personalización**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| resultado del grupo tratado menos resultado contrafactual, menos costo atribuible | población elegible o inversión según la decisión | ventana predefinida por experimento | asignación, eventos, CRM y costos | Experiment Owner |
+
+- **Lectura permitida:** estima efecto bajo el diseño y supuestos declarados.
+- **Limitación:** no se generaliza fuera de población, canal o periodo.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** proponer mensajes adaptados bajo restricciones.
+- **Datos necesarios:** atributos permitidos, etapa y propuesta aprobada.
+- **Prompt reproducible:** `Genera tres variantes usando sólo los atributos permitidos. Explica qué dato cambia cada variante, evita inferencias sensibles y conserva la misma promesa verificable.`
+- **Resultado esperado:** variantes para probar, no mensajes aprobados.
+- **Validación humana:** legal, marca y dueño de canal revisan y se prueba con usuarios.
+- **Riesgos:** perfilado sensible, manipulación y opacidad.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** reglas deterministas por etapa y segmento.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** recomendador B2C; mensajería de cuenta B2B; onboarding; recuperación de abandono.
+
+**Conocimientos previos y referencias cruzadas:** [12.12 · Omnicanalidad](../part-12-marketing-digital-y-adquisicion/class-12-omnicanalidad.md) · [17.05 · Nurturing](../part-17-marketing-automation-y-revenue-operations/class-05-nurturing.md) · [20.09 · Incrementalidad](../part-20-analitica-comercial-y-marketing-science/class-09-incrementalidad.md) · [20.10 · A/B testing](../part-20-analitica-comercial-y-marketing-science/class-10-a-b-testing.md) · [21.13 · Privacidad y propiedad intelectual](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-13-privacidad-y-propiedad-intelectual.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Diseñar la personalización dentro de esa expectativa.** El riesgo de este paso es cerrar demasiado rápido alrededor de **finalidad declarada**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **consultas sobre uso de datos** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Probar la reacción con un grupo pequeño.** Con **efecto inquietante** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **efecto en conversión** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Probar la reacción con un grupo pequeño.** Con **efecto inquietante** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **incrementalidad neta de personalización** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Medir efecto en conversión y en bajas.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **pertinencia percibida**. **tasa de baja tras personalización** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Medir efecto en conversión y en bajas.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **personalización contextual**. **efecto en conversión** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **pertinencia percibida** y **expectativa de privacidad** como sinónimos | Se perdió la distinción entre «grado en que el cliente considera útil la adaptación del mensaje» y «supuesto del cliente sobre qué información tiene la empresa y para qué» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «medir efecto en conversión y en bajas» | Se saltó «identificar qué datos entregó el cliente conscientemente»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **efecto en conversión** | La métrica local reemplazó al resultado del sistema | Contrástala con **consultas sobre uso de datos** y explicita el costo de oportunidad. |
+| Optimizar sólo **efecto en conversión** | La métrica local reemplazó al resultado del sistema | Contrástala con **incrementalidad neta de personalización** y explicita el costo de oportunidad. |
 | Personalizar con datos fuera de la finalidad declarada | Error específico de esta clase | Limita la personalización a datos entregados conscientemente y para el uso informado. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P21-C05-personalizacion/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **efecto en conversión**, **tasa de baja tras personalización** y **consultas sobre uso de datos** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **efecto en conversión**, **tasa de baja tras personalización**, **consultas sobre uso de datos** y **incrementalidad neta de personalización** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

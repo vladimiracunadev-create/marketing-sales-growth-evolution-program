@@ -29,9 +29,10 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
 
 from spec import bibliografia as bib  # noqa: E402
+from spec.ampliaciones_integrales import aplicar as aplicar_ampliaciones  # noqa: E402
 from spec.partes import EMPRESA, NIVELES, PARTES  # noqa: E402
 
-FECHA = "2026-08-19"
+FECHA = "2026-10-13"
 
 CATEGORIAS = [
     ("marketing", "Marketing"),
@@ -68,7 +69,7 @@ def escribir(ruta, contenido):
 
 
 def clases(num):
-    return importlib.import_module("spec.clases_p{}".format(num)).CLASES
+    return aplicar_ampliaciones(num, importlib.import_module("spec.clases_p{}".format(num)).CLASES)
 
 
 def cabecera(titulo, tipo):
@@ -92,20 +93,23 @@ def build_glosario(datos):
     for parte, cls in datos:
         for c in cls:
             for termino, definicion in c["conceptos"]:
-                clave = termino.lower()
+                # Una misma etiqueta puede tener una definición operacional
+                # distinta según el contexto. No se oculta con first-wins:
+                # sólo se deduplican definiciones realmente idénticas.
+                clave = (termino.lower(), definicion.strip().lower())
                 if clave not in entradas:
                     entradas[clave] = (termino, definicion, parte, c)
     lineas = cabecera("Glosario del programa", "glossary")
     lineas += [
         "# Glosario",
         "",
-        "{} términos con definición operacional, cada uno vinculado a la clase donde se trabaja. Una "
+        "{} fichas conceptuales con definición operacional y contexto, cada una vinculada a la clase donde se trabaja. Una "
         "definición operacional indica qué observar, no sólo qué significa.".format(len(entradas)),
         "",
     ]
     por_letra = defaultdict(list)
     for clave in sorted(entradas):
-        por_letra[clave[0].upper()].append(entradas[clave])
+        por_letra[clave[0][0].upper()].append(entradas[clave])
     for letra in sorted(por_letra):
         lineas += ["## {}".format(letra), "", "| Término | Definición operacional | Clase |", "|---|---|---|"]
         for termino, definicion, parte, c in por_letra[letra]:
@@ -122,14 +126,16 @@ def build_formulas(datos):
     for parte, cls in datos:
         for c in cls:
             for nombre, definicion in c["senales"]:
-                clave = nombre.lower()
+                # Conserva variantes contextuales en vez de ocultar la segunda
+                # definición de una métrica con el mismo nombre.
+                clave = (nombre.lower(), definicion.strip().lower())
                 if clave not in entradas:
                     entradas[clave] = (nombre, definicion, parte, c)
     lineas = cabecera("Fórmulas y métricas", "reference")
     lineas += [
         "# Fórmulas y métricas",
         "",
-        "{} señales con definición operacional. Cada una indica qué se cuenta, sobre qué base y en qué "
+        "{} fichas de señal con definición operacional y contexto. Cada una indica qué se cuenta, sobre qué base y en qué "
         "ventana. Una métrica sin esos tres elementos no es reproducible y no debe usarse para decidir.".format(
             len(entradas)),
         "",

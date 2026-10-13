@@ -22,16 +22,16 @@ El material se ordena alrededor de una pregunta que un comité comercial haría 
 
 > **Pregunta rectora de la parte:** ¿Qué compra realmente el cliente y por qué elegiría esta oferta frente a no hacer nada?
 
-Los conceptos que estructuran la sesión son **resultado esperado**, **nivel de confianza**, **compromiso comercial** y **gestión de expectativa**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **resultado esperado**, **nivel de confianza**, **compromiso comercial**, **gestión de expectativa**, **experiencia–propósito–oportunidad**, **Product Discovery**, **Product Delivery** y **gobierno de producto**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `resultado esperado`, `nivel de confianza`, `compromiso comercial` y `gestión de expectativa` por sus observables y no por su definición memorizada.
+1. **Distinguir** `resultado esperado`, `nivel de confianza`, `compromiso comercial`, `gestión de expectativa`, `experiencia–propósito–oportunidad`, `Product Discovery`, `Product Delivery` y `gobierno de producto` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Producto, oferta y propuesta de valor**.
 3. **Aplicar** la secuencia **organizar el roadmap por problema y resultado → asignar nivel de confianza a cada iniciativa → definir qué puede comunicarse comercialmente y qué no → acordar el protocolo de comunicación con ventas → revisar el cumplimiento de lo comprometido cada trimestre** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **cumplimiento de lo comprometido**, **negocios cerrados con promesa futura** y **churn asociado a promesa incumplida** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **cumplimiento de lo comprometido**, **negocios cerrados con promesa futura**, **churn asociado a promesa incumplida** y **adopción del resultado de producto** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **nivel de confianza** | grado de certeza declarado sobre alcance y plazo de una iniciativa | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **compromiso comercial** | afirmación sobre el futuro que la empresa queda obligada a cumplir | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **gestión de expectativa** | práctica de comunicar dirección sin comprometer fechas no confirmadas | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **experiencia–propósito–oportunidad** | intersección entre experiencia observada, cambio que el producto pretende causar y oportunidad viable de negocio | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **Product Discovery** | reducción continua de riesgo de valor, usabilidad, factibilidad y viabilidad antes y durante la entrega | Da un hecho compatible con la definición y otro que la refute. |
+| **Product Delivery** | construcción, despliegue y operación confiable de cambios priorizados | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **gobierno de producto** | derechos de decisión, criterios, evidencia y cadencias que conectan estrategia, roadmap, backlog y retiro | Construye un caso límite donde el concepto se confunde con el anterior. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **cumplimiento de lo comprometido**: `inicia
 
 Comprometer fechas facilita el cierre de negocios y reduce la capacidad de reaccionar a lo que se aprende. No comprometer nada protege la flexibilidad y pierde oportunidades donde el cliente necesita certeza. La salida practicable es comprometer pocas cosas con fecha y muchas sin ella, definiendo quién puede convertir una en otra.
 
-**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: los objetivos con resultados clave medibles y su separación de la compensación (los capítulos que definen el sistema OKR). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **churn asociado a promesa incumplida** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: los objetivos con resultados clave medibles y su separación de la compensación (los capítulos que definen el sistema OKR). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **adopción del resultado de producto** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **gestión de expectativa** y otro de un supuesto del caso que nunca fue validado.
 
@@ -124,6 +128,66 @@ Esta parte vigila además un riesgo que es obligatorio declarar: **Prometer resu
 Sintetizar roadmap orientado a valor no consiste en sumar definiciones. Empieza por **resultado esperado**, contrasta **nivel de confianza** con **compromiso comercial**, incorpora **gestión de expectativa** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Si el análisis no puede nombrar qué pieza sostiene la recomendación, todavía no hay comprensión transferible.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje E — Desarrollo y gestión estratégica de productos
+
+La experiencia actual revela fricciones; el propósito delimita qué cambio merece producirse; la oportunidad exige un segmento, resultado, disposición a cambiar y economía viable. Ninguna de las tres piezas basta sola. La estrategia de producto declara visión, misión, problema, ventaja, modelo y decisiones que no se tomarán.
+
+Discovery y Delivery son trabajos conectados, no fases que se entregan documentos. El roadmap expresa resultados y supuestos; el backlog ordena opciones de trabajo. Se prioriza por valor, esfuerzo, riesgo e impacto, con stakeholders y requerimientos trazables. Marketing, ventas, implementación, operaciones y posventa participan antes del lanzamiento, y adopción, uso, rentabilidad y retiro cierran el ciclo.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Descubrir** | problema, necesidad y experiencia actual | entrevistas, observación y datos de uso |
+| **Definir** | propósito, segmento, resultado y oportunidad | estrategia y criterios de no hacer |
+| **Probar** | prototipo, MVP, concepto y viabilidad comercial | compromiso y aprendizaje validado |
+| **Entregar** | backlog, requerimientos, calidad y operación | incrementos utilizables y observables |
+| **Gestionar** | adopción, portafolio, rentabilidad y retiro | decisiones periódicas con evidencia |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Convierte la petición «construir IA para agendar» en un roadmap de resultados para Ruta Andina. Define problema, propósito, oportunidad, cuatro riesgos, MVP, backlog priorizado, GTM, adopción y criterio de retiro.
+
+**Secuencia.** formular resultado → mapear riesgos y stakeholders → comparar prototipo, concierge y desarrollo → priorizar con valor/esfuerzo/riesgo/impacto → conectar lanzamiento y posventa.
+
+**Solución orientadora.** El primer hito no es una función de IA sino reducir el tiempo de confirmación sin aumentar errores. Un servicio manual puede probar valor; el backlog nace de fallas observadas. Ventas no promete antes de la listeza, soporte define escalamiento y el retiro se activa si uso, seguridad o margen no alcanzan umbrales.
+
+**Evidencia de aprendizaje.** product brief, mapa de riesgos, roadmap de resultados, backlog y plan de retiro.
+
+**Rúbrica.** 25 % problema y oportunidad; 25 % evidencia y riesgos; 20 % priorización; 20 % integración comercial-operativa; 10 % retiro.
+
+#### Fichas de medición
+
+**adopción del resultado de producto**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| cuentas objetivo que completan la conducta de valor | cuentas objetivo habilitadas | cohortes de 30 y 90 días | eventos de producto y CRM | Product Manager |
+
+- **Lectura permitida:** compara adopción por segmento y versión.
+- **Limitación:** uso no demuestra por sí solo valor, causalidad ni rentabilidad.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** redactar y cuestionar opciones de roadmap.
+- **Datos necesarios:** evidencia anonimizada, restricciones y criterios.
+- **Prompt reproducible:** `Genera tres opciones de experimento para el resultado indicado. Para cada una declara hipótesis, riesgo que reduce, costo aproximado, criterio de refutación y dependencia. No priorices sin datos.`
+- **Resultado esperado:** opciones comparables, no un roadmap definitivo.
+- **Validación humana:** producto, tecnología, ventas, operaciones y riesgo revisan supuestos.
+- **Riesgos:** optimizar por texto plausible y filtrar estrategia confidencial.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** taller presencial con matriz valor–esfuerzo–riesgo–impacto.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** producto físico; producto digital; servicio; portafolio híbrido.
+
+**Conocimientos previos y referencias cruzadas:** [05.03 · Encaje problema-solución](../part-05-producto-oferta-y-propuesta-de-valor/class-03-problema-solucion.md) · [05.04 · MVP comercial](../part-05-producto-oferta-y-propuesta-de-valor/class-04-mvp-comercial.md) · [05.05 · Product-market fit](../part-05-producto-oferta-y-propuesta-de-valor/class-05-product-market-fit.md) · [05.09 · Ciclo de vida del producto](../part-05-producto-oferta-y-propuesta-de-valor/class-09-ciclo-de-vida-del-producto.md) · [19.10 · ICE, RICE y priorización](../part-19-growth-marketing-y-growth-engineering/class-10-ice-rice-y-priorizacion.md) · [22.09 · Lanzamientos](../part-22-go-to-market-canales-y-expansion/class-09-lanzamientos.md).
 
 ## 📚 Lectura comparada
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Definir qué puede comunicarse comercialmente y qué no.** El riesgo de este paso es cerrar demasiado rápido alrededor de **compromiso comercial**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **churn asociado a promesa incumplida** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Acordar el protocolo de comunicación con ventas.** Con **gestión de expectativa** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **cumplimiento de lo comprometido** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Acordar el protocolo de comunicación con ventas.** Con **gestión de expectativa** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **adopción del resultado de producto** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Revisar el cumplimiento de lo comprometido cada trimestre.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **resultado esperado**. **negocios cerrados con promesa futura** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Revisar el cumplimiento de lo comprometido cada trimestre.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **experiencia–propósito–oportunidad**. **cumplimiento de lo comprometido** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **resultado esperado** y **nivel de confianza** como sinónimos | Se perdió la distinción entre «cambio medible que la iniciativa busca producir en el cliente o en el negocio» y «grado de certeza declarado sobre alcance y plazo de una iniciativa» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «revisar el cumplimiento de lo comprometido cada trimestre» | Se saltó «organizar el roadmap por problema y resultado»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **cumplimiento de lo comprometido** | La métrica local reemplazó al resultado del sistema | Contrástala con **churn asociado a promesa incumplida** y explicita el costo de oportunidad. |
+| Optimizar sólo **cumplimiento de lo comprometido** | La métrica local reemplazó al resultado del sistema | Contrástala con **adopción del resultado de producto** y explicita el costo de oportunidad. |
 | Vender funcionalidades que aún no existen | Error específico de esta clase | Prohíbe comprometer por escrito iniciativas con nivel de confianza bajo y registra las excepciones. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P05-C11-roadmap-orientado-a-valor/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **cumplimiento de lo comprometido**, **negocios cerrados con promesa futura** y **churn asociado a promesa incumplida** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **cumplimiento de lo comprometido**, **negocios cerrados con promesa futura**, **churn asociado a promesa incumplida** y **adopción del resultado de producto** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

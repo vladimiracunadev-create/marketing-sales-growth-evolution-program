@@ -21,8 +21,8 @@
 [📚 Índice de las 336 clases](curriculum/README.md) ·
 [🧭 Rutas por rol](rutas/README.md) ·
 [📅 Syllabus](SYLLABUS.md) ·
-[📖 Glosario (1.296 términos únicos)](docs/GLOSARIO.md) ·
-[📐 Métricas (960 fichas únicas)](docs/FORMULAS-Y-METRICAS.md) ·
+[📖 Glosario (1.417 fichas contextuales)](docs/GLOSARIO.md) ·
+[📐 Métricas (1.031 fichas contextuales)](docs/FORMULAS-Y-METRICAS.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
 [🤝 Contribuir](CONTRIBUTING.md) ·
 [🔐 Seguridad](SECURITY.md)
@@ -74,16 +74,16 @@ supera las 4.800 palabras, está **redactado clase a clase** —no generado por 
 
 | Superficie | Cobertura |
 |---|---|
-| 📚 Currículo | 336/336 clases en 24 partes · 1.809.058 palabras · estándar `clase-profunda-v2` |
-| 🧩 Conceptos | 1.363 definiciones de clase, consolidadas en 1.303 términos únicos del [glosario](docs/GLOSARIO.md) |
-| 📐 Medición | 1.023 señales de clase, consolidadas en 971 fichas únicas de [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
+| 📚 Currículo | 336/336 clases en 24 partes · 1.819.556 palabras · estándar `clase-profunda-v2` |
+| 🧩 Conceptos | 1.419 definiciones de clase, consolidadas en 1.417 fichas contextuales del [glosario](docs/GLOSARIO.md) |
+| 📐 Medición | 1.038 señales de clase, consolidadas en 1.031 fichas contextuales de [fórmulas y métricas](docs/FORMULAS-Y-METRICAS.md) |
 | 📖 Bibliografía | 103 obras · 402 ideas catalogadas · **1.345 anclajes** clase a clase, auditados |
 | 🧪 Práctica | 48 laboratorios con rúbrica de 100 puntos y escenario adverso obligatorio |
 | 🏆 Evaluación | 24 evaluaciones de cuatro bloques ponderados + 12 proyectos + Capstone eliminatorio |
 | 🧭 Rutas por rol | 17 guías de carrera con día a día, artefactos, progresión y rangos |
-| 🖥️ Portal | 638 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
+| 🖥️ Portal | 641 páginas HTML autocontenidas, buscador, modo oscuro y hoja de impresión |
 | 🇨🇱 Regulación | Consumo, comercio electrónico, datos personales, marcas, tributación y libre competencia |
-| 🔧 Calidad | 92 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
+| 🔧 Calidad | 96 pruebas, 4 validadores, registro de fuentes con localizador comprobable, CI multi-OS/Python, CodeQL y verificación de reproducibilidad |
 
 ## 🗺️ El recorrido en 8 niveles
 
@@ -173,7 +173,9 @@ Las decisiones de cada parte condicionan las siguientes; el estado acumulado viv
 | 🎓 **1 Capstone** | Empresa completa con cumplimiento normativo **eliminatorio** |
 
 [Laboratorios](labs/) · [Evaluaciones](assessments/) · [Casos](cases/) · [Proyectos](projects/) ·
-[Capstone](capstone/README.md) · [Commercial Evidence Pack](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md)
+[Capstone](capstone/README.md) · [Proyecto transversal Ruta Andina](docs/PROYECTO-TRANSVERSAL-RUTA-ANDINA.md) ·
+[Auditoría de ampliación A–N](docs/AUDITORIA-AMPLIACION-INTEGRAL.md) ·
+[Commercial Evidence Pack](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/blob/main/templates/strategy/commercial-evidence-pack.md)
 
 ## 📦 Commercial Evidence Pack
 
@@ -314,7 +316,7 @@ python tools/validate_depth.py        # profundidad mínima por clase, lab, eval
 python tools/check_links.py           # enlaces internos
 python tools/validate_site.py         # artefacto del portal completo
 python scripts/verify_sources.py      # registro de fuentes: ISBN, DOI, cobertura y cifras del README
-python -m pytest -q                   # 91 pruebas
+python -m pytest -q                   # 96 pruebas
 ```
 
 ## 👩‍🏫 Para instructores

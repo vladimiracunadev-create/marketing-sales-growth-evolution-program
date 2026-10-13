@@ -13,7 +13,7 @@
 
 [![Version](https://img.shields.io/badge/versión-1.6.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-336%20·%2024%20partes-7c5cff?style=for-the-badge)](curriculum/README.md)
-[![Contenido](https://img.shields.io/badge/contenido-1,80M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
+[![Contenido](https://img.shields.io/badge/contenido-1,82M%20palabras-007c83?style=for-the-badge)](MANIFEST.md)
 [![Rutas](https://img.shields.io/badge/rutas%20por%20rol-17-0b5c8a?style=for-the-badge)](rutas/README.md)
 [![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](#-licencias)
 
@@ -40,6 +40,21 @@
 [Dirección](curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/README.md)
 
 </div>
+
+---
+
+## 🆕 Ampliación integral A–N publicada en `main`
+
+La actualización del **13 de octubre de 2026** amplía 14 clases estratégicas sin alterar la arquitectura
+de 24 partes y 336 clases. Incorpora teoría aplicada, frameworks, ejercicios resueltos, rúbricas, métricas,
+casos de IA con validación humana y alternativas sin IA, además de conexiones entre marketing, ventas,
+producto, CX, growth, RevOps y dirección comercial.
+
+- [📋 Auditoría y matriz completa de los ejes A–N](docs/AUDITORIA-AMPLIACION-INTEGRAL.md)
+- [🏔️ Proyecto transversal Ruta Andina con 30 entregables](docs/PROYECTO-TRANSVERSAL-RUTA-ANDINA.md)
+- [🧭 Buyer persona basado en evidencia](templates/customer/buyer-persona-evidence.md)
+- [🎙️ Guía ampliada de entrevistas de mercado](templates/market-research/interview-guide.md)
+- [🔎 Ver los 42 archivos modificados en el commit de ampliación](https://github.com/vladimiracunadev-create/marketing-sales-growth-evolution-program/commit/9e6aeaac5d2a9852ed072150eccd294037a3a069)
 
 ---
 

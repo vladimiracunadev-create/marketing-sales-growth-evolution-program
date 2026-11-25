@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar las diferencias reales de la oferta → 2. verificar cuáles el cliente valora con evidencia → 3. evaluar si son perceptibles antes de comprar → 4. estimar el tiempo de imitación de cada una → 5. diseñar señales para las diferencias no perceptibles
-```
+[![Modelo mental de la clase 04.08: Diferenciación](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar las diferencias reales de la oferta
+2. Verificar cuáles el cliente valora con evidencia
+3. Evaluar si son perceptibles antes de comprar
+4. Estimar el tiempo de imitación de cada una
+5. Diseñar señales para las diferencias no perceptibles
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

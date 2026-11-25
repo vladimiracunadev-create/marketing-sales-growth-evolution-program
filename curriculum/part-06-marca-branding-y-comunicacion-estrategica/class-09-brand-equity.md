@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. medir notoriedad y asociaciones con muestra del segmento → 2. estimar la prima de precio observada frente a competidores → 3. aislar el efecto de promociones vigentes → 4. seguir la evolución con olas comparables → 5. vincular la métrica de marca con costo de adquisición
-```
+[![Modelo mental de la clase 06.09: Brand equity](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Medir notoriedad y asociaciones con muestra del segmento
+2. Estimar la prima de precio observada frente a competidores
+3. Aislar el efecto de promociones vigentes
+4. Seguir la evolución con olas comparables
+5. Vincular la métrica de marca con costo de adquisición
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

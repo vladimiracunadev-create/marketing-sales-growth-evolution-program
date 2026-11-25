@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar objetivos, estructura y presupuesto → 2. definir umbrales de decisión por métrica → 3. preparar contingencias para los escenarios principales → 4. establecer el gobierno de cambios y su registro → 5. revisar mensualmente contra los umbrales definidos
-```
+[![Modelo mental de la clase 14.14: Plan de performance marketing](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar objetivos, estructura y presupuesto
+2. Definir umbrales de decisión por métrica
+3. Preparar contingencias para los escenarios principales
+4. Establecer el gobierno de cambios y su registro
+5. Revisar mensualmente contra los umbrales definidos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

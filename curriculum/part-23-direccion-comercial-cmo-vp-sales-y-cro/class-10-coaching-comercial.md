@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. observar interacciones reales con regularidad → 2. identificar una habilidad específica por ciclo → 3. entregar retroalimentación sobre comportamiento observable → 4. practicar la habilidad en un ejercicio dirigido → 5. verificar la mejora en la siguiente observación
-```
+[![Modelo mental de la clase 23.10: Coaching comercial](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Observar interacciones reales con regularidad
+2. Identificar una habilidad específica por ciclo
+3. Entregar retroalimentación sobre comportamiento observable
+4. Practicar la habilidad en un ejercicio dirigido
+5. Verificar la mejora en la siguiente observación
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

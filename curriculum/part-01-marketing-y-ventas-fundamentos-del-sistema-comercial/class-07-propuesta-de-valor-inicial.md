@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. escribir la propuesta en una frase con destinatario, problema y mecanismo → 2. nombrar explícitamente la alternativa que desplaza → 3. someterla a prueba de comprensión con cinco personas del segmento → 4. traducir la promesa en una evidencia comprobable → 5. registrar qué respuesta obligaría a reescribirla
-```
+[![Modelo mental de la clase 01.07: Propuesta de valor inicial](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Escribir la propuesta en una frase con destinatario, problema y mecanismo
+2. Nombrar explícitamente la alternativa que desplaza
+3. Someterla a prueba de comprensión con cinco personas del segmento
+4. Traducir la promesa en una evidencia comprobable
+5. Registrar qué respuesta obligaría a reescribirla
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

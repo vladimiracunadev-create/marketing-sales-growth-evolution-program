@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar etapas, criterios y materiales → 2. documentar guiones y objeciones con evidencia → 3. definir las reglas mínimas de CRM → 4. ejecutar la prueba con una persona nueva → 5. corregir lo que no resultó ejecutable y versionar el documento
-```
+[![Modelo mental de la clase 08.14: Playbook comercial básico](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar etapas, criterios y materiales
+2. Documentar guiones y objeciones con evidencia
+3. Definir las reglas mínimas de CRM
+4. Ejecutar la prueba con una persona nueva
+5. Corregir lo que no resultó ejecutable y versionar el documento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

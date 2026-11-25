@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. analizar qué productos se compran juntos → 2. diseñar paquetes con lógica de uso real → 3. definir umbrales de beneficio con margen verificado → 4. medir efecto conjunto en ticket y en conversión → 5. revisar devoluciones asociadas a los paquetes
-```
+[![Modelo mental de la clase 15.09: Ticket promedio y paquetes](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Analizar qué productos se compran juntos
+2. Diseñar paquetes con lógica de uso real
+3. Definir umbrales de beneficio con margen verificado
+4. Medir efecto conjunto en ticket y en conversión
+5. Revisar devoluciones asociadas a los paquetes
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

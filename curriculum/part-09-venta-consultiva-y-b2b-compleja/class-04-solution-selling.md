@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar el estado actual con datos verificables → 2. definir el estado futuro en métricas del cliente → 3. cuantificar la brecha y su valor → 4. cuestionar los requerimientos formulados como solución → 5. comprometer sólo lo que la operación puede sostener
-```
+[![Modelo mental de la clase 09.04: Solution Selling](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar el estado actual con datos verificables
+2. Definir el estado futuro en métricas del cliente
+3. Cuantificar la brecha y su valor
+4. Cuestionar los requerimientos formulados como solución
+5. Comprometer sólo lo que la operación puede sostener
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

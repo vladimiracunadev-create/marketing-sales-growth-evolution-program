@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el resultado deseado con el cliente antes de implementar → 2. instrumentar la señal que evidencia ese resultado → 3. medir el tiempo hasta el primer valor → 4. revisar salud de cuenta con criterios y no con impresiones → 5. proponer expansión sólo cuando el resultado inicial está acreditado
-```
+[![Modelo mental de la clase 01.11: Customer Success y expansión](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el resultado deseado con el cliente antes de implementar
+2. Instrumentar la señal que evidencia ese resultado
+3. Medir el tiempo hasta el primer valor
+4. Revisar salud de cuenta con criterios y no con impresiones
+5. Proponer expansión sólo cuando el resultado inicial está acreditado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar el resultado del cliente antes de invitarlo a referir → 2. elegir el momento posterior a un logro reconocido → 3. diseñar el mecanismo de compartir con esfuerzo mínimo → 4. definir incentivo y declararlo con transparencia → 5. medir volumen y calidad de los referidos
-```
+[![Modelo mental de la clase 19.07: Bucles de referencia](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar el resultado del cliente antes de invitarlo a referir
+2. Elegir el momento posterior a un logro reconocido
+3. Diseñar el mecanismo de compartir con esfuerzo mínimo
+4. Definir incentivo y declararlo con transparencia
+5. Medir volumen y calidad de los referidos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

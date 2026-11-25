@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. recolectar información pública y de conversaciones → 2. mapear estructura de poder y relaciones → 3. identificar prioridades con presupuesto asociado → 4. detectar iniciativas que compiten por el mismo fondo → 5. evaluar la posición y definir el movimiento siguiente
-```
+[![Modelo mental de la clase 09.09: Mapeo de cuentas](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Recolectar información pública y de conversaciones
+2. Mapear estructura de poder y relaciones
+3. Identificar prioridades con presupuesto asociado
+4. Detectar iniciativas que compiten por el mismo fondo
+5. Evaluar la posición y definir el movimiento siguiente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

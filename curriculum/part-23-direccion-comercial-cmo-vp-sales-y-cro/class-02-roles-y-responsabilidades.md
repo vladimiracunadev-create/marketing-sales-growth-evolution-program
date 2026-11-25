@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el resultado medible de cada rol → 2. declarar los derechos de decisión → 3. mapear las interfaces de coordinación → 4. identificar resultados sin dueño único → 5. revisar la definición cuando cambia la estructura
-```
+[![Modelo mental de la clase 23.02: Roles y responsabilidades](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el resultado medible de cada rol
+2. Declarar los derechos de decisión
+3. Mapear las interfaces de coordinación
+4. Identificar resultados sin dueño único
+5. Revisar la definición cuando cambia la estructura
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

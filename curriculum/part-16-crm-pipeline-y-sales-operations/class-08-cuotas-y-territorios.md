@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. estimar el potencial por territorio con datos → 2. distribuir territorios buscando equidad de potencial → 3. derivar la cuota del potencial y no del deseo → 4. verificar la alcanzabilidad histórica → 5. revisar la asignación cada año con datos de resultado
-```
+[![Modelo mental de la clase 16.08: Cuotas y territorios](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Estimar el potencial por territorio con datos
+2. Distribuir territorios buscando equidad de potencial
+3. Derivar la cuota del potencial y no del deseo
+4. Verificar la alcanzabilidad histórica
+5. Revisar la asignación cada año con datos de resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

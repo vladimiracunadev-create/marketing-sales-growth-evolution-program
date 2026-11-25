@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir cuál es el primer resultado para cada segmento → 2. identificar el camino más corto hacia él → 3. eliminar todo lo que no conduzca a ese resultado → 4. medir la tasa de activación y el tiempo hasta el primer resultado → 5. intervenir donde se concentra el abandono temprano
-```
+[![Modelo mental de la clase 18.02: Onboarding](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir cuál es el primer resultado para cada segmento
+2. Identificar el camino más corto hacia él
+3. Eliminar todo lo que no conduzca a ese resultado
+4. Medir la tasa de activación y el tiempo hasta el primer resultado
+5. Intervenir donde se concentra el abandono temprano
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

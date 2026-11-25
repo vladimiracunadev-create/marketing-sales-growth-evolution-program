@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. traducir el proceso comercial a etapas del sistema → 2. definir campos mínimos y su justificación → 3. configurar tableros para operación y dirección → 4. establecer reglas de higiene y responsables → 5. verificar que las métricas comprometidas se pueden calcular
-```
+[![Modelo mental de la clase 24.09: CRM y pipeline del Capstone](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Traducir el proceso comercial a etapas del sistema
+2. Definir campos mínimos y su justificación
+3. Configurar tableros para operación y dirección
+4. Establecer reglas de higiene y responsables
+5. Verificar que las métricas comprometidas se pueden calcular
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

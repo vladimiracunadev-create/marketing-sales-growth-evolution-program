@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. inventariar todos los puntos de contacto, incluidos los administrativos → 2. medir el esfuerzo percibido en los críticos → 3. priorizar la eliminación de fricción sobre la sorpresa → 4. corregir primero lo que produce contacto no deseado → 5. medir el efecto en retención y en volumen de soporte
-```
+[![Modelo mental de la clase 18.01: Experiencia de cliente](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Inventariar todos los puntos de contacto, incluidos los administrativos
+2. Medir el esfuerzo percibido en los críticos
+3. Priorizar la eliminación de fricción sobre la sorpresa
+4. Corregir primero lo que produce contacto no deseado
+5. Medir el efecto en retención y en volumen de soporte
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

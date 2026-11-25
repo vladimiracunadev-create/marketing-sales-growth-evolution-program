@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar todos los costos atribuibles al cliente → 2. separar costos fijos de variables → 3. calcular el piso de precio por segmento → 4. contrastar el piso con la disposición a pagar → 5. usar el resultado como restricción y no como decisión
-```
+[![Modelo mental de la clase 07.02: Pricing por costo](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar todos los costos atribuibles al cliente
+2. Separar costos fijos de variables
+3. Calcular el piso de precio por segmento
+4. Contrastar el piso con la disposición a pagar
+5. Usar el resultado como restricción y no como decisión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

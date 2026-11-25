@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la unidad de consumo y su precio realista → 2. estimar el número de unidades con fuentes citadas → 3. acotar por modelo, geografía y capacidad → 4. construir escenarios conservador, base y optimista → 5. declarar los tres supuestos que más mueven el resultado
-```
+[![Modelo mental de la clase 03.08: TAM, SAM y SOM](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la unidad de consumo y su precio realista
+2. Estimar el número de unidades con fuentes citadas
+3. Acotar por modelo, geografía y capacidad
+4. Construir escenarios conservador, base y optimista
+5. Declarar los tres supuestos que más mueven el resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

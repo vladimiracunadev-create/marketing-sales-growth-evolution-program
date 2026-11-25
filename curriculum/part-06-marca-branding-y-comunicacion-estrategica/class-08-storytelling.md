@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir una situación real y documentada → 2. definir protagonista, obstáculo y consecuencia → 3. reemplazar abstracciones por detalles verificables → 4. verificar autorización y exactitud de los datos citados → 5. probar recuerdo y comprensión con el segmento
-```
+[![Modelo mental de la clase 06.08: Storytelling](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir una situación real y documentada
+2. Definir protagonista, obstáculo y consecuencia
+3. Reemplazar abstracciones por detalles verificables
+4. Verificar autorización y exactitud de los datos citados
+5. Probar recuerdo y comprensión con el segmento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

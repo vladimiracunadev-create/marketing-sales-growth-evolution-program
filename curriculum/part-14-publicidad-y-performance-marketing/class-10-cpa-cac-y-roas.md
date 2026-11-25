@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el alcance de cada métrica por escrito → 2. verificar qué ingreso es incremental y cuál no → 3. calcular el costo de adquisición completo por canal → 4. contrastar con margen y periodo de recuperación → 5. decidir escalamiento sólo con economía verificada
-```
+[![Modelo mental de la clase 14.10: CPA, CAC y ROAS](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el alcance de cada métrica por escrito
+2. Verificar qué ingreso es incremental y cuál no
+3. Calcular el costo de adquisición completo por canal
+4. Contrastar con margen y periodo de recuperación
+5. Decidir escalamiento sólo con economía verificada
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

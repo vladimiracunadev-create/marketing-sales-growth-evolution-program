@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. seleccionar términos por intención comercial → 2. estructurar campañas por intención y no por producto → 3. construir la lista de exclusiones desde el informe de búsquedas → 4. vincular cada anuncio a una página coherente → 5. medir costo por oportunidad y no por clic
-```
+[![Modelo mental de la clase 12.05: SEM](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Seleccionar términos por intención comercial
+2. Estructurar campañas por intención y no por producto
+3. Construir la lista de exclusiones desde el informe de búsquedas
+4. Vincular cada anuncio a una página coherente
+5. Medir costo por oportunidad y no por clic
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

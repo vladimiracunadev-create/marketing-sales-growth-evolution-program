@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. seleccionar referentes similares al destinatario → 2. obtener testimonios verificables con autorización → 3. declarar cualquier incentivo entregado → 4. evitar formulaciones que comuniquen baja adopción → 5. medir el efecto por segmento
-```
+[![Modelo mental de la clase 13.12: Prueba social](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Seleccionar referentes similares al destinatario
+2. Obtener testimonios verificables con autorización
+3. Declarar cualquier incentivo entregado
+4. Evitar formulaciones que comuniquen baja adopción
+5. Medir el efecto por segmento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

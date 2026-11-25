@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la audiencia y sus decisiones → 2. elegir las métricas que informan esas decisiones → 3. establecer rangos esperados y acciones asociadas → 4. eliminar todo lo que no tenga acción → 5. revisar el uso real del tablero cada trimestre
-```
+[![Modelo mental de la clase 16.11: Dashboards comerciales](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la audiencia y sus decisiones
+2. Elegir las métricas que informan esas decisiones
+3. Establecer rangos esperados y acciones asociadas
+4. Eliminar todo lo que no tenga acción
+5. Revisar el uso real del tablero cada trimestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

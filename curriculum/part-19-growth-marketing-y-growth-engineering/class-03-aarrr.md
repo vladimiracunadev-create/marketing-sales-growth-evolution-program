@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. instrumentar una métrica por etapa → 2. medir volumen y conversión en cada una → 3. identificar el cuello de botella con datos → 4. estimar el efecto de mejorar cada etapa → 5. intervenir donde el efecto por peso invertido es mayor
-```
+[![Modelo mental de la clase 19.03: AARRR](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Instrumentar una métrica por etapa
+2. Medir volumen y conversión en cada una
+3. Identificar el cuello de botella con datos
+4. Estimar el efecto de mejorar cada etapa
+5. Intervenir donde el efecto por peso invertido es mayor
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

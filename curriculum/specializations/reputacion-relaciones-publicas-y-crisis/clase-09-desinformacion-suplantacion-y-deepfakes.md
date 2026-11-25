@@ -24,6 +24,20 @@ La organización enfrenta hoy contenido falso o manipulado producido a bajo cost
 - redactar un desmentido que no repita el contenido falso.
 - definir reglas de uso responsable de IA en comunicación y de divulgación de contenido sintético.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 09: Desinformación, cuentas falsas, suplantación y deepfakes](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Preservar el contenido y su ruta de difusión con fecha, enlace y cuenta
+2. Clasificar: información errónea, desinformación o malinformación, con la evidencia de falsedad e intención
+3. Verificar con la persona involucrada, registros propios y una fuente independiente
+4. Evaluar indicios técnicos sin concluir más de lo que muestran
+5. Contener: reportar a plataformas, avisar a públicos expuestos y activar canales oficiales
+6. Redactar un desmentido breve que afirme lo verdadero y no repita lo falso
+7. Evaluar acciones legales con asesoría y documentar para la revisión posterior
+
 ## 🔤 Definiciones
 
 **Definición simple.** Antes de desmentir hay que comprobar, y al desmentir hay que decir lo verdadero sin repetir lo falso.

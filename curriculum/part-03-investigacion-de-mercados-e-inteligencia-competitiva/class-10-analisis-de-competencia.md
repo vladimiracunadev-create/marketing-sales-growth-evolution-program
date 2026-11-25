@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada → 2. aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia → 3. etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha → 4. inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables → 5. definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla
-```
+[![Modelo mental de la clase 03.10: Análisis de competencia](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Delimitar categoría e inventariar competidores directos, sustitutos y no hacer nada
+2. Aplicar la matriz reproducible de propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia
+3. Etiquetar cada celda como dato, estimación, hipótesis o inferencia y registrar fuente y fecha
+4. Inferir fortalezas, debilidades y movimientos probables sólo desde patrones observables
+5. Definir la respuesta, su condición de activación y la evidencia que obligaría a revisarla
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

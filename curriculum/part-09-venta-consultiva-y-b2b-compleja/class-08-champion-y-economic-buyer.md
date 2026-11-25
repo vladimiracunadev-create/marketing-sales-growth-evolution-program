@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar el interés propio del campeón → 2. solicitar una acción que verifique su compromiso → 3. planificar el acceso al comprador económico → 4. preparar al campeón con material para defender el proyecto → 5. registrar la evidencia de ambos roles en el CRM
-```
+[![Modelo mental de la clase 09.08: Champion y comprador económico](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar el interés propio del campeón
+2. Solicitar una acción que verifique su compromiso
+3. Planificar el acceso al comprador económico
+4. Preparar al campeón con material para defender el proyecto
+5. Registrar la evidencia de ambos roles en el CRM
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar el modelo y la ventana utilizados → 2. comparar resultados bajo dos modelos distintos → 3. identificar los canales cuyo valor cambia según el modelo → 4. diseñar una prueba de incrementalidad para los casos críticos → 5. decidir presupuesto con evidencia causal donde el monto lo justifique
-```
+[![Modelo mental de la clase 12.11: Atribución básica](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar el modelo y la ventana utilizados
+2. Comparar resultados bajo dos modelos distintos
+3. Identificar los canales cuyo valor cambia según el modelo
+4. Diseñar una prueba de incrementalidad para los casos críticos
+5. Decidir presupuesto con evidencia causal donde el monto lo justifique
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

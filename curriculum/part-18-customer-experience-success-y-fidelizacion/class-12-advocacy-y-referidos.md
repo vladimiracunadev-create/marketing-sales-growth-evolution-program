@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar promotores con evidencia de resultado → 2. definir el momento de la petición → 3. facilitar el acto con material listo → 4. declarar cualquier incentivo entregado → 5. medir conversión y agradecer el resultado
-```
+[![Modelo mental de la clase 18.12: Advocacy y referidos](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar promotores con evidencia de resultado
+2. Definir el momento de la petición
+3. Facilitar el acto con material listo
+4. Declarar cualquier incentivo entregado
+5. Medir conversión y agradecer el resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

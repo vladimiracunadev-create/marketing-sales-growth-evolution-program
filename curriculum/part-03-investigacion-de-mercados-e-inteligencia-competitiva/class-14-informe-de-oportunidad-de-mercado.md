@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. abrir con la decisión, recomendación condicionada y fecha de corte → 2. resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes → 3. presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios → 4. incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia → 5. cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable
-```
+[![Modelo mental de la clase 03.14: Informe de oportunidad de mercado](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Abrir con la decisión, recomendación condicionada y fecha de corte
+2. Resumir mercado, categoría, segmentos, demanda, canales y precios observables con sus fuentes
+3. Presentar TAM, SAM, SOM y cuota sólo cuando sea defendible, siempre con supuestos y escenarios
+4. Incorporar la matriz de competidores, sustitutos, tendencias y benchmarks con su nivel de evidencia
+5. Cerrar con incertidumbres, riesgos, señales de revisión, responsables y enlace al anexo auditable
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

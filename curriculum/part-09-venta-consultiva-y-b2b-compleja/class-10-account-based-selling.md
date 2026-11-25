@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. seleccionar cuentas por potencial y ajuste con criterios escritos → 2. construir un plan por cuenta con actores y mensajes → 3. coordinar acciones de marketing y ventas sobre la misma lista → 4. medir penetración y avance por cuenta → 5. revisar la lista con datos de resultado cada trimestre
-```
+[![Modelo mental de la clase 09.10: Account-based selling](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Seleccionar cuentas por potencial y ajuste con criterios escritos
+2. Construir un plan por cuenta con actores y mensajes
+3. Coordinar acciones de marketing y ventas sobre la misma lista
+4. Medir penetración y avance por cuenta
+5. Revisar la lista con datos de resultado cada trimestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

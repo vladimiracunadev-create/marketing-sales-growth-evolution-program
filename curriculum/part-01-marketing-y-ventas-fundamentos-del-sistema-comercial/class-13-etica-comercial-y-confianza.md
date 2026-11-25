@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. revisar cada promesa comercial y su evidencia de respaldo → 2. identificar dónde la asimetría de información puede dañar al cliente → 3. verificar base legal y consentimiento del tratamiento de datos → 4. someter la táctica a la prueba de publicación: ¿resiste ser conocida? → 5. documentar la decisión y su responsable
-```
+[![Modelo mental de la clase 01.13: Ética comercial y confianza](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Revisar cada promesa comercial y su evidencia de respaldo
+2. Identificar dónde la asimetría de información puede dañar al cliente
+3. Verificar base legal y consentimiento del tratamiento de datos
+4. Someter la táctica a la prueba de publicación: ¿resiste ser conocida?
+5. Documentar la decisión y su responsable
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

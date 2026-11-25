@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la decisión que la presentación debe habilitar → 2. estructurar desde el problema del cliente → 3. incluir evidencia y opciones con consecuencias → 4. probar la comprensión con alguien ajeno al negocio → 5. medir si el documento circula y con qué efecto
-```
+[![Modelo mental de la clase 08.07: Presentaciones comerciales](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la decisión que la presentación debe habilitar
+2. Estructurar desde el problema del cliente
+3. Incluir evidencia y opciones con consecuencias
+4. Probar la comprensión con alguien ajeno al negocio
+5. Medir si el documento circula y con qué efecto
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

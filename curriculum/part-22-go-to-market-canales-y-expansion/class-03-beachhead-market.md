@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. evaluar segmentos por dominancia alcanzable y no por tamaño → 2. verificar la circulación interna de referencias → 3. concentrar recursos hasta alcanzar masa crítica → 4. medir participación dentro del segmento → 5. definir la condición que autoriza expandir a la adyacencia
-```
+[![Modelo mental de la clase 22.03: Beachhead market](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Evaluar segmentos por dominancia alcanzable y no por tamaño
+2. Verificar la circulación interna de referencias
+3. Concentrar recursos hasta alcanzar masa crítica
+4. Medir participación dentro del segmento
+5. Definir la condición que autoriza expandir a la adyacencia
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

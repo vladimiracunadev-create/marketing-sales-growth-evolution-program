@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. estimar disposición a pagar del segmento con evidencia y no con intuición → 2. calcular el costo de servir completo, incluida la posventa → 3. identificar quién más se lleva parte del excedente en la cadena → 4. evaluar qué cambio en la oferta modifica la disposición a pagar → 5. elegir una palanca de captura y medir su efecto en margen y volumen
-```
+[![Modelo mental de la clase 01.06: Oferta, demanda y captura de valor](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Estimar disposición a pagar del segmento con evidencia y no con intuición
+2. Calcular el costo de servir completo, incluida la posventa
+3. Identificar quién más se lleva parte del excedente en la cadena
+4. Evaluar qué cambio en la oferta modifica la disposición a pagar
+5. Elegir una palanca de captura y medir su efecto en margen y volumen
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

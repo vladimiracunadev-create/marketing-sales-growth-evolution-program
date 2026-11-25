@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar los factores de sensibilidad presentes en el segmento → 2. diseñar una prueba con variación real y grupos comparables → 3. estimar la respuesta con intervalo de incertidumbre → 4. verificar si la respuesta difiere por segmento → 5. decidir el nivel de precio y su condición de revisión
-```
+[![Modelo mental de la clase 07.06: Elasticidad y sensibilidad al precio](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar los factores de sensibilidad presentes en el segmento
+2. Diseñar una prueba con variación real y grupos comparables
+3. Estimar la respuesta con intervalo de incertidumbre
+4. Verificar si la respuesta difiere por segmento
+5. Decidir el nivel de precio y su condición de revisión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir destinatario, categoría, beneficio y razón para creer → 2. verificar que el beneficio sea relevante y diferenciable → 3. probar la declaración rechazando tres ideas concretas → 4. difundirla como criterio de evaluación interno → 5. auditar piezas existentes contra la declaración
-```
+[![Modelo mental de la clase 04.11: Declaración de posicionamiento](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir destinatario, categoría, beneficio y razón para creer
+2. Verificar que el beneficio sea relevante y diferenciable
+3. Probar la declaración rechazando tres ideas concretas
+4. Difundirla como criterio de evaluación interno
+5. Auditar piezas existentes contra la declaración
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

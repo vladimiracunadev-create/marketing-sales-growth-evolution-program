@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir los puntos de captura y su periodicidad → 2. estructurar la entrevista de baja y ejecutarla siempre → 3. clasificar los hallazgos con taxonomía estable → 4. enrutar a responsables con capacidad de actuar → 5. cerrar el circuito y medir el efecto de los cambios
-```
+[![Modelo mental de la clase 18.13: Voice of Customer continuo](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir los puntos de captura y su periodicidad
+2. Estructurar la entrevista de baja y ejecutarla siempre
+3. Clasificar los hallazgos con taxonomía estable
+4. Enrutar a responsables con capacidad de actuar
+5. Cerrar el circuito y medir el efecto de los cambios
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

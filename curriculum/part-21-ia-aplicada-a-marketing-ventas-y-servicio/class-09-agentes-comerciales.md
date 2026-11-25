@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la autoridad del agente por tipo de acción → 2. excluir las acciones irreversibles de la autonomía → 3. instrumentar el registro completo de acciones → 4. habilitar la detención inmediata y probarla → 5. revisar el registro periódicamente con responsable
-```
+[![Modelo mental de la clase 21.09: Agentes comerciales automatizados](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la autoridad del agente por tipo de acción
+2. Excluir las acciones irreversibles de la autonomía
+3. Instrumentar el registro completo de acciones
+4. Habilitar la detención inmediata y probarla
+5. Revisar el registro periódicamente con responsable
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

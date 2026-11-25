@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. investigar las normas del contexto antes de negociar → 2. preguntar explícitamente cómo se decide en esa organización → 3. ajustar ritmo y formalidad sin cambiar los criterios → 4. verificar entendimiento por escrito en cada hito → 5. registrar aprendizajes para futuras negociaciones en ese mercado
-```
+[![Modelo mental de la clase 10.12: Negociación intercultural](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Investigar las normas del contexto antes de negociar
+2. Preguntar explícitamente cómo se decide en esa organización
+3. Ajustar ritmo y formalidad sin cambiar los criterios
+4. Verificar entendimiento por escrito en cada hito
+5. Registrar aprendizajes para futuras negociaciones en ese mercado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

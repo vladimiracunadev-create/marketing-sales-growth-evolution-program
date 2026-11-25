@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. analizar qué distinguió a quienes tuvieron éxito → 2. construir el perfil con esas características → 3. diseñar ejercicios que reproduzcan tareas reales → 4. estructurar la entrevista para reducir sesgos → 5. medir la correlación entre evaluación y desempeño posterior
-```
+[![Modelo mental de la clase 23.03: Contratación comercial](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Analizar qué distinguió a quienes tuvieron éxito
+2. Construir el perfil con esas características
+3. Diseñar ejercicios que reproduzcan tareas reales
+4. Estructurar la entrevista para reducir sesgos
+5. Medir la correlación entre evaluación y desempeño posterior
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

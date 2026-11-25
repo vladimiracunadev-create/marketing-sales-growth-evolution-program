@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar la equivalencia del problema con evidencia → 2. evaluar si las referencias actuales transfieren credibilidad → 3. estimar el ajuste operativo necesario y su costo → 4. probar con un piloto acotado antes de comprometer → 5. decidir con criterio previo definido
-```
+[![Modelo mental de la clase 22.11: Expansión por segmento](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar la equivalencia del problema con evidencia
+2. Evaluar si las referencias actuales transfieren credibilidad
+3. Estimar el ajuste operativo necesario y su costo
+4. Probar con un piloto acotado antes de comprometer
+5. Decidir con criterio previo definido
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

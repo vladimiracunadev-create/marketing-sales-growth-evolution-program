@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el objetivo del modelo gratuito → 2. estimar el costo marginal de servir → 3. diseñar el gatillo de conversión en torno al valor → 4. medir conversión y calidad de la cohorte gratuita → 5. ajustar límites o abandonar el modelo con criterio previo
-```
+[![Modelo mental de la clase 07.10: Freemium y pruebas gratuitas](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el objetivo del modelo gratuito
+2. Estimar el costo marginal de servir
+3. Diseñar el gatillo de conversión en torno al valor
+4. Medir conversión y calidad de la cohorte gratuita
+5. Ajustar límites o abandonar el modelo con criterio previo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -65,9 +65,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. monitorear señales públicas y verificar su fuente y estado procesal → 2. activar un protocolo con dueño, canal, plazo y criterio de término → 3. comunicar hechos confirmados, incertidumbres y protección inmediata al cliente → 4. corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta → 5. cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia
-```
+[![Modelo mental de la clase 06.10: Confianza y reputación](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Monitorear señales públicas y verificar su fuente y estado procesal
+2. Activar un protocolo con dueño, canal, plazo y criterio de término
+3. Comunicar hechos confirmados, incertidumbres y protección inmediata al cliente
+4. Corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta
+5. Cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

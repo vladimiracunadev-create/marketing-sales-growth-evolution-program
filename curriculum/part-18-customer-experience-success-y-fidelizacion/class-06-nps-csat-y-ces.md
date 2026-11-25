@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir el indicador según la pregunta a responder → 2. aplicar con método y momento consistentes → 3. priorizar el análisis del comentario abierto → 4. cerrar el circuito con quien respondió → 5. evitar vincular el indicador a compensación individual
-```
+[![Modelo mental de la clase 18.06: NPS, CSAT y CES](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir el indicador según la pregunta a responder
+2. Aplicar con método y momento consistentes
+3. Priorizar el análisis del comentario abierto
+4. Cerrar el circuito con quien respondió
+5. Evitar vincular el indicador a compensación individual
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

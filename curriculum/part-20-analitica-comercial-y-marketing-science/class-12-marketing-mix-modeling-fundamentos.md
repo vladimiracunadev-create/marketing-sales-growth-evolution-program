@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar la disponibilidad de historia y de variación → 2. identificar los factores externos relevantes → 3. estimar el modelo con validación fuera de muestra → 4. interpretar los coeficientes con cautela → 5. contrastar con experimentos de incrementalidad
-```
+[![Modelo mental de la clase 20.12: Fundamentos de marketing mix modeling](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar la disponibilidad de historia y de variación
+2. Identificar los factores externos relevantes
+3. Estimar el modelo con validación fuera de muestra
+4. Interpretar los coeficientes con cautela
+5. Contrastar con experimentos de incrementalidad
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -24,6 +24,20 @@ Una respuesta eficaz se mide por lo que cambia en la vida de los afectados y por
 - construir un plan de recuperación con hitos y evidencia pública de cumplimiento.
 - realizar una revisión posterior que cambie procesos y no sólo busque culpables.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 08: Respuesta, reparación y recuperación de confianza](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Establecer los hechos, los afectados y el daño con la mejor evidencia disponible
+2. Determinar qué corresponde: reconocer, disculparse, corregir, compensar o explicar, y qué se ignora
+3. Elegir la estrategia de reparación según acusación, evidencia y audiencia
+4. Redactar la declaración con componentes verificables y revisión jurídica
+5. Ejecutar la reparación con criterios escritos y registro de cada caso
+6. Publicar compromisos con indicador, fecha y evidencia de cumplimiento
+7. Realizar la revisión posterior y cambiar procesos con responsable y plazo
+
 ## 🔤 Definiciones
 
 **Definición simple.** Reparar es hacer algo real por quienes sufrieron el daño y mostrar con pruebas que lo cumpliste; la confianza vuelve cuando lo que dijiste coincide con lo que hiciste.

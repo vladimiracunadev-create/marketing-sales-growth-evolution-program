@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. calcular el margen mensual por cliente → 2. determinar el periodo de recuperación por segmento → 3. compararlo con la vida media observada → 4. estimar el ritmo sostenible según la caja disponible → 5. ajustar la meta de adquisición a esa restricción
-```
+[![Modelo mental de la clase 20.05: Periodo de recuperación](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Calcular el margen mensual por cliente
+2. Determinar el periodo de recuperación por segmento
+3. Compararlo con la vida media observada
+4. Estimar el ritmo sostenible según la caja disponible
+5. Ajustar la meta de adquisición a esa restricción
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

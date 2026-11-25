@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. establecer líneas base de las métricas intermedias → 2. usarlas para diagnosticar dónde está el problema → 3. verificar la calidad del tráfico que producen → 4. decidir con métricas de negocio → 5. documentar la relación entre ambas para el canal
-```
+[![Modelo mental de la clase 14.09: CTR, CPC y CPM](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Establecer líneas base de las métricas intermedias
+2. Usarlas para diagnosticar dónde está el problema
+3. Verificar la calidad del tráfico que producen
+4. Decidir con métricas de negocio
+5. Documentar la relación entre ambas para el canal
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

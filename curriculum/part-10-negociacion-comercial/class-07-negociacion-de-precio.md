@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. establecer la referencia de valor antes de hablar de precio → 2. presentar el costo total y no sólo el precio de lista → 3. usar la palanca de alcance ante presión de descuento → 4. condicionar cualquier rebaja a una contrapartida → 5. documentar el precio efectivo y sus condiciones
-```
+[![Modelo mental de la clase 10.07: Negociación de precio](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Establecer la referencia de valor antes de hablar de precio
+2. Presentar el costo total y no sólo el precio de lista
+3. Usar la palanca de alcance ante presión de descuento
+4. Condicionar cualquier rebaja a una contrapartida
+5. Documentar el precio efectivo y sus condiciones
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

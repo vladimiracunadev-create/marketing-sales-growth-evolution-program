@@ -24,6 +24,20 @@ La escucha social para reputación no consiste en mirar un tablero de menciones 
 - construir indicadores reputacionales con numerador, denominador, ventana y límite.
 - decidir cuándo una señal exige respuesta, verificación, silencio o escalamiento.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 05: Escucha social, percepción y alertas](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Definir los términos de consulta: marca, productos, personas, variantes, errores y exclusiones
+2. Incorporar fuentes propias: reclamos, llamados, correos, reseñas y consultas de medios
+3. Clasificar menciones en crítica legítima, consulta, rumor, abuso y posible amplificación
+4. Fijar umbrales de volumen, velocidad y severidad por nivel de alerta
+5. Verificar cada alerta crítica con registros internos antes de responder
+6. Decidir: resolver, informar, verificar, moderar, documentar o escalar, y dejar registro
+7. Medir precisión de alertas e indicadores y revisar el sistema cada trimestre
+
 ## 🔤 Definiciones
 
 **Definición simple.** Escuchar es enterarse a tiempo de lo que dicen de ti, separar lo importante del ruido y saber cuándo hace falta actuar.

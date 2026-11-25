@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. evaluar los modos de entrada y su perfil de riesgo → 2. identificar los requisitos regulatorios del destino → 3. estimar el costo de coordinación real → 4. definir hitos y criterio de continuidad → 5. revisar la decisión en cada hito con datos
-```
+[![Modelo mental de la clase 22.12: Internacionalización](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Evaluar los modos de entrada y su perfil de riesgo
+2. Identificar los requisitos regulatorios del destino
+3. Estimar el costo de coordinación real
+4. Definir hitos y criterio de continuidad
+5. Revisar la decisión en cada hito con datos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

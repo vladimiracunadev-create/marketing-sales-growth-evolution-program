@@ -128,6 +128,8 @@ p { margin: .8rem 0; }
 ul, ol { margin: .8rem 0; padding-left: 1.4rem; }
 li { margin: .3rem 0; }
 li.tarea { list-style: none; margin-left: -1.2rem; }
+img.modelo { display: block; width: 100%; height: auto; margin: 1rem 0; border: 1px solid var(--borde);
+  border-radius: 10px; background: #ffffff; }
 blockquote {
   margin: 1.2rem 0; padding: .7rem 1.1rem; border-left: 4px solid var(--acento);
   background: var(--acento-suave); border-radius: 0 6px 6px 0;
@@ -421,6 +423,11 @@ def main():
         nombre_seccion = dict(SECCIONES).get(carpeta, carpeta.capitalize())
         for actual, dirs, files in os.walk(base):
             dirs[:] = sorted(d for d in dirs if not d.startswith((".", "__")))
+            for f in files:
+                if f.endswith(".svg"):
+                    rel_svg = os.path.relpath(os.path.join(actual, f), RAIZ)
+                    os.makedirs(os.path.dirname(os.path.join(SALIDA, rel_svg)), exist_ok=True)
+                    shutil.copy2(os.path.join(actual, f), os.path.join(SALIDA, rel_svg))
             archivos_md = sorted(f for f in files if f.endswith(".md"))
             clases = [f for f in archivos_md if f.startswith("class-")]
             for f in archivos_md:

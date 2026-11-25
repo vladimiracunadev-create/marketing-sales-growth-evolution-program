@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el segmento objetivo y su valor de contrato → 2. elegir el movimiento comercial coherente con ese valor → 3. calcular el costo del movimiento por cliente → 4. verificar la coherencia con la economía unitaria → 5. documentar la estrategia y sus supuestos
-```
+[![Modelo mental de la clase 22.01: Qué es una estrategia go-to-market](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el segmento objetivo y su valor de contrato
+2. Elegir el movimiento comercial coherente con ese valor
+3. Calcular el costo del movimiento por cliente
+4. Verificar la coherencia con la economía unitaria
+5. Documentar la estrategia y sus supuestos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

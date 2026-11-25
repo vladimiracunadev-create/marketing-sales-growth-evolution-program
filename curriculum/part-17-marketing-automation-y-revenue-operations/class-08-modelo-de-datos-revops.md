@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. inventariar entidades y sistemas actuales → 2. definir la fuente autoritativa de cada dato → 3. documentar estados válidos y transiciones → 4. resolver las inconsistencias más costosas primero → 5. establecer el proceso de cambio del modelo
-```
+[![Modelo mental de la clase 17.08: Modelo de datos de RevOps](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Inventariar entidades y sistemas actuales
+2. Definir la fuente autoritativa de cada dato
+3. Documentar estados válidos y transiciones
+4. Resolver las inconsistencias más costosas primero
+5. Establecer el proceso de cambio del modelo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

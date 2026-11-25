@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. investigar antes para minimizar preguntas de situación → 2. identificar el problema con preguntas abiertas → 3. desarrollar implicaciones sin proponer solución → 4. conducir a que el cliente enuncie el beneficio → 5. resumir por escrito el diagnóstico acordado
-```
+[![Modelo mental de la clase 09.02: SPIN Selling](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Investigar antes para minimizar preguntas de situación
+2. Identificar el problema con preguntas abiertas
+3. Desarrollar implicaciones sin proponer solución
+4. Conducir a que el cliente enuncie el beneficio
+5. Resumir por escrito el diagnóstico acordado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

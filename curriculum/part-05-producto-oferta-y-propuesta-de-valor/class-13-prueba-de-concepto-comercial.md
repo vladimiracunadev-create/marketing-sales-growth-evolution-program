@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la hipótesis comercial a probar → 2. preparar propuesta y precio reales → 3. ejecutar con un grupo acotado y declarar el estado del producto → 4. registrar decisiones, objeciones y tiempos → 5. decidir avanzar o abandonar con criterio previo
-```
+[![Modelo mental de la clase 05.13: Prueba de concepto comercial](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la hipótesis comercial a probar
+2. Preparar propuesta y precio reales
+3. Ejecutar con un grupo acotado y declarar el estado del producto
+4. Registrar decisiones, objeciones y tiempos
+5. Decidir avanzar o abandonar con criterio previo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el evento que representa el primer valor → 2. medir el tiempo actual por segmento → 3. identificar los bloqueadores más frecuentes → 4. reducir el trabajo inicial exigido al cliente → 5. verificar el efecto sobre retención a 90 días
-```
+[![Modelo mental de la clase 18.03: Time to value](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el evento que representa el primer valor
+2. Medir el tiempo actual por segmento
+3. Identificar los bloqueadores más frecuentes
+4. Reducir el trabajo inicial exigido al cliente
+5. Verificar el efecto sobre retención a 90 días
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

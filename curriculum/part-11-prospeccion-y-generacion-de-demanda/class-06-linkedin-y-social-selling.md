@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el tema en que la persona quiere ser reconocida → 2. publicar con regularidad contenido útil y verificable → 3. participar en conversaciones del gremio → 4. contactar con mensajes personalizados y proporcionales → 5. medir conversaciones sostenidas y no volumen de contactos
-```
+[![Modelo mental de la clase 11.06: LinkedIn y social selling](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el tema en que la persona quiere ser reconocida
+2. Publicar con regularidad contenido útil y verificable
+3. Participar en conversaciones del gremio
+4. Contactar con mensajes personalizados y proporcionales
+5. Medir conversaciones sostenidas y no volumen de contactos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

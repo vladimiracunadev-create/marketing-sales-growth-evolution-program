@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. dibujar el sistema completo de atención a renovación → 2. medir volumen, conversión y tiempo en cada eslabón → 3. identificar el eslabón limitante con datos y no con opinión → 4. estimar el efecto de mejorar ese eslabón frente a mejorar otro → 5. definir la intervención, su costo y la señal que la validaría
-```
+[![Modelo mental de la clase 01.01: Marketing, ventas y crecimiento como sistema](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Dibujar el sistema completo de atención a renovación
+2. Medir volumen, conversión y tiempo en cada eslabón
+3. Identificar el eslabón limitante con datos y no con opinión
+4. Estimar el efecto de mejorar ese eslabón frente a mejorar otro
+5. Definir la intervención, su costo y la señal que la validaría
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

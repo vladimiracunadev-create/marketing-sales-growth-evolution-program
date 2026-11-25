@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar intereses propios y estimar los de la contraparte → 2. evaluar y mejorar la alternativa fuera de la mesa → 3. definir el punto de retirada por escrito → 4. reunir criterios objetivos que respalden la posición → 5. planificar concesiones y sus contrapartidas
-```
+[![Modelo mental de la clase 10.01: Preparación de una negociación](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar intereses propios y estimar los de la contraparte
+2. Evaluar y mejorar la alternativa fuera de la mesa
+3. Definir el punto de retirada por escrito
+4. Reunir criterios objetivos que respalden la posición
+5. Planificar concesiones y sus contrapartidas
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

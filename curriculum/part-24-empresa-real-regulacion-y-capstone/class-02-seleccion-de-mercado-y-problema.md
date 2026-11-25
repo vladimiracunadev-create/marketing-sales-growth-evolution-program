@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar el problema con evidencia primaria → 2. verificar la accesibilidad del cliente objetivo → 3. evaluar la capacidad de servir con recursos reales → 4. definir el mecanismo de captura de valor → 5. declarar los supuestos críticos y su plan de validación
-```
+[![Modelo mental de la clase 24.02: Selección de mercado y problema](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar el problema con evidencia primaria
+2. Verificar la accesibilidad del cliente objetivo
+3. Evaluar la capacidad de servir con recursos reales
+4. Definir el mecanismo de captura de valor
+5. Declarar los supuestos críticos y su plan de validación
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

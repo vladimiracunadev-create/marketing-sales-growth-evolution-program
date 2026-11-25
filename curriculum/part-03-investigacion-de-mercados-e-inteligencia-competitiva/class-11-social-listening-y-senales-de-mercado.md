@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir qué fuentes se monitorean y con qué frecuencia → 2. clasificar los hallazgos por tema y por intensidad → 3. distinguir señal débil de ruido con un umbral escrito → 4. triangular con datos propios antes de actuar → 5. documentar la decisión tomada y su resultado
-```
+[![Modelo mental de la clase 03.11: Social listening y señales de mercado](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir qué fuentes se monitorean y con qué frecuencia
+2. Clasificar los hallazgos por tema y por intensidad
+3. Distinguir señal débil de ruido con un umbral escrito
+4. Triangular con datos propios antes de actuar
+5. Documentar la decisión tomada y su resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. evaluar si la empresa puede cumplir los requisitos de habilitación → 2. construir el plan mutuo con el cliente → 3. estimar el costo de servir completo → 4. involucrar a dirección en los hitos críticos → 5. evaluar el riesgo de concentración antes de firmar
-```
+[![Modelo mental de la clase 09.13: Negocios enterprise](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Evaluar si la empresa puede cumplir los requisitos de habilitación
+2. Construir el plan mutuo con el cliente
+3. Estimar el costo de servir completo
+4. Involucrar a dirección en los hitos críticos
+5. Evaluar el riesgo de concentración antes de firmar
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

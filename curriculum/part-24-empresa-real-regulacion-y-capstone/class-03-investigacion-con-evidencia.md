@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. formular las preguntas desde las decisiones pendientes → 2. elegir el método proporcional al tiempo disponible → 3. ejecutar y documentar el procedimiento → 4. declarar sesgos y límites → 5. conectar cada hallazgo con la decisión que informa
-```
+[![Modelo mental de la clase 24.03: Investigación con evidencia](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Formular las preguntas desde las decisiones pendientes
+2. Elegir el método proporcional al tiempo disponible
+3. Ejecutar y documentar el procedimiento
+4. Declarar sesgos y límites
+5. Conectar cada hallazgo con la decisión que informa
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

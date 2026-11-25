@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar estructura, roles y responsabilidades → 2. documentar plan, presupuesto y objetivos → 3. establecer el ritmo de gestión y sus reuniones → 4. definir incentivos, desarrollo y gobierno → 5. verificar la independencia con una prueba de ausencia
-```
+[![Modelo mental de la clase 23.14: Operating system del CRO](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar estructura, roles y responsabilidades
+2. Documentar plan, presupuesto y objetivos
+3. Establecer el ritmo de gestión y sus reuniones
+4. Definir incentivos, desarrollo y gobierno
+5. Verificar la independencia con una prueba de ausencia
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

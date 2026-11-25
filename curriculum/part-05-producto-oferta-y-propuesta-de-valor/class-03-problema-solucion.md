@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar el problema con frecuencia y costo → 2. estimar la intensidad del dolor en el segmento → 3. verificar que la solución produce alivio perceptible → 4. buscar señales de compromiso antes de construir → 5. decidir avanzar, ajustar o abandonar con criterio previo
-```
+[![Modelo mental de la clase 05.03: Encaje problema-solución](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar el problema con frecuencia y costo
+2. Estimar la intensidad del dolor en el segmento
+3. Verificar que la solución produce alivio perceptible
+4. Buscar señales de compromiso antes de construir
+5. Decidir avanzar, ajustar o abandonar con criterio previo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

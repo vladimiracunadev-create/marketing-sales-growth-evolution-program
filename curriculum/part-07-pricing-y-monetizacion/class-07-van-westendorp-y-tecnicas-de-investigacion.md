@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir la técnica según decisión, presupuesto y precisión → 2. aplicar con muestra representativa del segmento → 3. analizar rangos y no puntos únicos → 4. triangular con datos de comportamiento → 5. declarar el nivel de incertidumbre en la recomendación
-```
+[![Modelo mental de la clase 07.07: Van Westendorp y técnicas de investigación de precio](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir la técnica según decisión, presupuesto y precisión
+2. Aplicar con muestra representativa del segmento
+3. Analizar rangos y no puntos únicos
+4. Triangular con datos de comportamiento
+5. Declarar el nivel de incertidumbre en la recomendación
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

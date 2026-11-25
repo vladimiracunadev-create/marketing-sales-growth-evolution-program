@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable → 2. conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial → 3. registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre → 4. verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso → 5. publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión
-```
+[![Modelo mental de la clase 24.11: Commercial Evidence Pack y dashboard comercial](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar mercado, cliente, competencia, propuesta y precio con evidencia trazable
+2. Conectar adquisición, conversiones, capacidad, retención y churn con el forecast comercial
+3. Registrar por afirmación dato, estimación, hipótesis o inferencia y su incertidumbre
+4. Verificar la coherencia aritmética de CAC, LTV, ticket, frecuencia, clientes e ingreso
+5. Publicar el paquete ejecutivo con enlaces al detalle y condiciones de revisión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

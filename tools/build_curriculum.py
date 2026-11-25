@@ -25,7 +25,9 @@ import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "curriculum"))
+sys.path.insert(0, os.path.join(RAIZ, "tools"))
 
+import modelos_svg  # noqa: E402
 from spec import bibliografia as bib  # noqa: E402
 from spec import normas  # noqa: E402
 from spec.ampliaciones_integrales import aplicar as aplicar_ampliaciones  # noqa: E402
@@ -288,13 +290,27 @@ def bloque_conceptos(clase, i):
     return "\n".join(lineas)
 
 
-def bloque_modelo_mental(clase):
+def bloque_modelo_mental(parte, clase):
+    ref = "{}.{}".format(parte["num"], clase["n"])
+    _svg, forma = modelos_svg.modelo_svg(clase, parte["num"], ref, "Parte " + parte["num"])
+    lectura = {
+        "flujo": "El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente.",
+        "escalera": "El método desciende como una escalera: cada peldaño exige el resultado del anterior.",
+        "anillo": "El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión.",
+        "columna": "El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados.",
+    }[forma]
     return "\n".join([
         "## 🧠 Modelo mental",
         "",
-        "```text",
-        " → ".join("{}. {}".format(k + 1, paso) for k, paso in enumerate(clase["metodo"])),
-        "```",
+        "[![Modelo mental de la clase {}: {}](modelos/modelo-{}.svg)](modelos/modelo-{}.svg)".format(
+            ref, clase["titulo"], clase["n"], clase["n"]),
+        "",
+        "{} Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; "
+        "las fichas de medición muestran numerador sobre denominador.".format(lectura),
+        "",
+        "**Descripción textual del método.**",
+        "",
+        "\n".join("{}. {}".format(k + 1, paso[0].upper() + paso[1:]) for k, paso in enumerate(clase["metodo"])),
         "",
         "La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto "
         "revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo "
@@ -877,7 +893,7 @@ def render_clase(parte, clases, idx):
         bloque_resultados(parte, clase),
         bloque_agenda(clase),
         bloque_conceptos(clase, i),
-        bloque_modelo_mental(clase),
+        bloque_modelo_mental(parte, clase),
         bloque_desarrollo(parte, clase, i),
     ]
     ampliacion = bloque_ampliaciones(clase)
@@ -1167,9 +1183,18 @@ def main():
                     if existente.endswith(".md") and existente not in esperados:
                         os.remove(os.path.join(destino, existente))
                         print("Eliminado obsoleto: {}/{}".format(parte["slug"], existente))
+            carpeta_modelos = os.path.join(destino, "modelos")
+            esperados_svg = {"modelo-{}.svg".format(c["n"]) for c in clases}
+            if os.path.isdir(carpeta_modelos):
+                for existente in os.listdir(carpeta_modelos):
+                    if existente.endswith(".svg") and existente not in esperados_svg:
+                        os.remove(os.path.join(carpeta_modelos, existente))
             for idx, clase in enumerate(clases):
                 ruta = os.path.join(destino, "class-{}-{}.md".format(clase["n"], clase["slug"]))
                 escribir(ruta, render_clase(parte, clases, idx))
+                svg, _forma = modelos_svg.modelo_svg(
+                    clase, parte["num"], "{}.{}".format(parte["num"], clase["n"]), "Parte " + parte["num"])
+                escribir(os.path.join(carpeta_modelos, "modelo-{}.svg".format(clase["n"])), svg)
                 escritas += 1
             escribir(os.path.join(destino, "README.md"), render_readme(parte, clases))
 

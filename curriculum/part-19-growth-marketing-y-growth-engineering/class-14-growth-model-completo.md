@@ -60,9 +60,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir el modelo con las palancas y sus relaciones → 2. calibrar con datos históricos → 3. ejecutar el análisis de sensibilidad → 4. priorizar el backlog con base en el modelo → 5. actualizar el modelo con cada aprendizaje
-```
+[![Modelo mental de la clase 19.14: Growth model completo](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir el modelo con las palancas y sus relaciones
+2. Calibrar con datos históricos
+3. Ejecutar el análisis de sensibilidad
+4. Priorizar el backlog con base en el modelo
+5. Actualizar el modelo con cada aprendizaje
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

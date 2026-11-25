@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir curvas de retención por cohorte y segmento → 2. separar causas controlables de las que no lo son → 3. estimar el valor de una mejora de dos puntos → 4. intervenir sobre la causa controlable dominante → 5. medir el efecto en la curva de las cohortes posteriores
-```
+[![Modelo mental de la clase 18.08: Retención](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir curvas de retención por cohorte y segmento
+2. Separar causas controlables de las que no lo son
+3. Estimar el valor de una mejora de dos puntos
+4. Intervenir sobre la causa controlable dominante
+5. Medir el efecto en la curva de las cohortes posteriores
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

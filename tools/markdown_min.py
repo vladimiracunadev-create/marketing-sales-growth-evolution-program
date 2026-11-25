@@ -52,6 +52,10 @@ def _inline(texto):
     texto = re.sub(r"`([^`]+)`", guardar, texto)
     texto = html.escape(texto, quote=False)
 
+    # imágenes ![alternativo](ruta)
+    texto = re.sub(r"!\[([^\]]*)\]\((?!https?:)([^)\s]+)\)",
+                   lambda m: '<img class="modelo" src="{}" alt="{}" loading="lazy">'.format(
+                       html.escape(m.group(2), quote=True), m.group(1)), texto)
     # enlaces [texto](destino)
     def enlace(match):
         etiqueta, destino = match.group(1), match.group(2)

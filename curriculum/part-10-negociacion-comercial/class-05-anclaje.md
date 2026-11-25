@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. decidir si conviene anclar primero según información disponible → 2. preparar el ancla con su justificación → 3. ante un ancla extrema, no contraofertar de inmediato → 4. reencuadrar con criterios objetivos → 5. registrar el efecto del anclaje en el resultado
-```
+[![Modelo mental de la clase 10.05: Anclaje](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Decidir si conviene anclar primero según información disponible
+2. Preparar el ancla con su justificación
+3. Ante un ancla extrema, no contraofertar de inmediato
+4. Reencuadrar con criterios objetivos
+5. Registrar el efecto del anclaje en el resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

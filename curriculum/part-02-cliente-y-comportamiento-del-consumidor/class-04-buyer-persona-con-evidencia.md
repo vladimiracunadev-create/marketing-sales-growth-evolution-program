@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir qué decisiones debe informar la persona → 2. recolectar evidencia de entrevistas, CRM y analítica → 3. escribir sólo atributos accionables con su fuente → 4. marcar hipótesis pendientes y su plan de validación → 5. fijar fecha de revisión del perfil
-```
+[![Modelo mental de la clase 02.04: Buyer persona con evidencia](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir qué decisiones debe informar la persona
+2. Recolectar evidencia de entrevistas, CRM y analítica
+3. Escribir sólo atributos accionables con su fuente
+4. Marcar hipótesis pendientes y su plan de validación
+5. Fijar fecha de revisión del perfil
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

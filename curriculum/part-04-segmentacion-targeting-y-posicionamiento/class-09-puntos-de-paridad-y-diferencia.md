@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar las paridades exigidas por la categoría → 2. verificar cuáles la oferta no cumple → 3. definir las diferencias que se quieren instalar → 4. ordenar los mensajes por etapa del cliente → 5. medir si la paridad dudosa sigue apareciendo como objeción
-```
+[![Modelo mental de la clase 04.09: Puntos de paridad y de diferencia](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar las paridades exigidas por la categoría
+2. Verificar cuáles la oferta no cumple
+3. Definir las diferencias que se quieren instalar
+4. Ordenar los mensajes por etapa del cliente
+5. Medir si la paridad dudosa sigue apareciendo como objeción
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

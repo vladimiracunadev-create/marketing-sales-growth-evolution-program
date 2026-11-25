@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir las acciones que se registrarán como señal → 2. construir los segmentos con datos existentes → 3. verificar que cada segmento sea alcanzable y suficientemente grande → 4. diseñar un tratamiento distinto por segmento → 5. medir el efecto diferencial y descartar segmentos sin respuesta
-```
+[![Modelo mental de la clase 02.13: Segmentos conductuales](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir las acciones que se registrarán como señal
+2. Construir los segmentos con datos existentes
+3. Verificar que cada segmento sea alcanzable y suficientemente grande
+4. Diseñar un tratamiento distinto por segmento
+5. Medir el efecto diferencial y descartar segmentos sin respuesta
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

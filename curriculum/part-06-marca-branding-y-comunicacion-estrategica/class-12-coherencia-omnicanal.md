@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. auditar precio, condiciones y mensajes en todos los canales → 2. identificar la fuente única de verdad para cada dato → 3. corregir las incoherencias visibles primero → 4. definir reglas de gobierno por canal, incluida la conducta física y digital del personaje → 5. medir la recurrencia de incoherencias
-```
+[![Modelo mental de la clase 06.12: Coherencia omnicanal](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Auditar precio, condiciones y mensajes en todos los canales
+2. Identificar la fuente única de verdad para cada dato
+3. Corregir las incoherencias visibles primero
+4. Definir reglas de gobierno por canal, incluida la conducta física y digital del personaje
+5. Medir la recurrencia de incoherencias
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

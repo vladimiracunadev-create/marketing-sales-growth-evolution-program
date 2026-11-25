@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. describir la carencia en las palabras del cliente y no en las del producto → 2. identificar la alternativa real contra la que se compara, incluido no hacer nada → 3. verificar si existe presupuesto y quién lo controla → 4. cuantificar beneficio y costo total de cambio → 5. declarar qué evidencia convertiría el deseo en demanda medible
-```
+[![Modelo mental de la clase 01.02: Necesidades, deseos, demanda y valor](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Describir la carencia en las palabras del cliente y no en las del producto
+2. Identificar la alternativa real contra la que se compara, incluido no hacer nada
+3. Verificar si existe presupuesto y quién lo controla
+4. Cuantificar beneficio y costo total de cambio
+5. Declarar qué evidencia convertiría el deseo en demanda medible
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

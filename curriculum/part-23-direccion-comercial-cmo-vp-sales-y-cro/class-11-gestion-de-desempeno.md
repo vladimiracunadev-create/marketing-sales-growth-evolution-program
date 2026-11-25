@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. diagnosticar la causa con datos y observación → 2. descartar condiciones de territorio antes de evaluar a la persona → 3. acordar un plan de mejora con apoyo y plazo → 4. verificar el avance en los hitos definidos → 5. tomar la decisión con criterio previo y registro
-```
+[![Modelo mental de la clase 23.11: Gestión de desempeño](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Diagnosticar la causa con datos y observación
+2. Descartar condiciones de territorio antes de evaluar a la persona
+3. Acordar un plan de mejora con apoyo y plazo
+4. Verificar el avance en los hitos definidos
+5. Tomar la decisión con criterio previo y registro
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

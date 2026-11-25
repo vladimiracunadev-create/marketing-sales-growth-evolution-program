@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir hipótesis, métrica principal y guardarraíles → 2. calcular muestra y duración antes de iniciar → 3. ejecutar sin mirar resultados parciales → 4. analizar con el criterio previo y corregir por comparaciones múltiples → 5. replicar los resultados que sostienen decisiones importantes
-```
+[![Modelo mental de la clase 20.10: A/B testing](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir hipótesis, métrica principal y guardarraíles
+2. Calcular muestra y duración antes de iniciar
+3. Ejecutar sin mirar resultados parciales
+4. Analizar con el criterio previo y corregir por comparaciones múltiples
+5. Replicar los resultados que sostienen decisiones importantes
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

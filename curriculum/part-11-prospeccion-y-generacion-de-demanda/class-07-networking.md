@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar los espacios donde participa el segmento → 2. definir qué aporte concreto se puede entregar → 3. participar con regularidad y no sólo cuando se necesita → 4. registrar y cumplir los compromisos adquiridos → 5. medir oportunidades originadas por la red
-```
+[![Modelo mental de la clase 11.07: Networking](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar los espacios donde participa el segmento
+2. Definir qué aporte concreto se puede entregar
+3. Participar con regularidad y no sólo cuando se necesita
+4. Registrar y cumplir los compromisos adquiridos
+5. Medir oportunidades originadas por la red
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

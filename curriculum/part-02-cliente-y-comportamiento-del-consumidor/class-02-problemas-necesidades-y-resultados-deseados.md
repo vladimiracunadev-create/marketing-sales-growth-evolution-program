@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. recoger los resultados en las palabras del cliente → 2. reescribirlos como enunciados medibles → 3. puntuar importancia e insatisfacción de cada uno → 4. priorizar donde la brecha es mayor → 5. traducir la brecha priorizada en requisito de oferta
-```
+[![Modelo mental de la clase 02.02: Problemas, necesidades y resultados deseados](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Recoger los resultados en las palabras del cliente
+2. Reescribirlos como enunciados medibles
+3. Puntuar importancia e insatisfacción de cada uno
+4. Priorizar donde la brecha es mayor
+5. Traducir la brecha priorizada en requisito de oferta
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

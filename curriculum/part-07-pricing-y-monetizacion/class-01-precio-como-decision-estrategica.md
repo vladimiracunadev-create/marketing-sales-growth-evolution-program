@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. calcular el efecto de ±5 % de precio sobre la utilidad → 2. documentar la política vigente y sus excepciones reales → 3. verificar si la métrica de cobro sigue al valor entregado → 4. estimar disposición a pagar con evidencia → 5. definir la decisión de precio y su responsable
-```
+[![Modelo mental de la clase 07.01: El precio como decisión estratégica](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Calcular el efecto de ±5 % de precio sobre la utilidad
+2. Documentar la política vigente y sus excepciones reales
+3. Verificar si la métrica de cobro sigue al valor entregado
+4. Estimar disposición a pagar con evidencia
+5. Definir la decisión de precio y su responsable
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

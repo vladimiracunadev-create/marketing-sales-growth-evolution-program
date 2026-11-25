@@ -24,6 +24,20 @@ La reputación es la evaluación acumulada que los públicos hacen de una organi
 - explicar por qué la reputación es comparativa y depende de cada público.
 - diseñar un plan de gestión reputacional con indicadores verificables.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 01: Identidad, imagen y capital reputacional](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Listar los públicos clave y el tema sobre el que decidirán confiar o no
+2. Recoger la identidad declarada: cinco palabras, tres promesas y los límites explícitos
+3. Recoger la imagen percibida de cada público con la misma pregunta y la misma escala
+4. Auditar cinco puntos de contacto reales y registrar qué señal emite cada uno
+5. Clasificar cada brecha como comunicación, ejecución o expectativa
+6. Priorizar por impacto sobre la confianza y esfuerzo de corrección
+7. Fijar indicadores con numerador, denominador y ventana, responsable y criterio de revisión
+
 ## 🔤 Definiciones
 
 **Definición simple.** La reputación es lo que otras personas dicen de ti cuando no estás presente, y lo que esperan que hagas la próxima vez.

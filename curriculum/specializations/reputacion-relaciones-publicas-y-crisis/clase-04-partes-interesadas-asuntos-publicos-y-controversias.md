@@ -24,6 +24,20 @@ Una organización no opera ante un único público sino ante una red de partes i
 - explicar qué hace legítima la relación con autoridades y qué la convierte en opacidad.
 - definir cuándo una controversia pasa a gestión de crisis.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 04: Partes interesadas, asuntos públicos y gestión de controversias](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Listar partes interesadas por función: afectadas, decisoras, reguladoras, influyentes y colaboradoras
+2. Describir para cada una qué espera, qué puede hacer a la organización y qué canal la alcanza
+3. Puntuar poder, legitimidad y urgencia de 0 a 3 con la evidencia que lo justifica
+4. Ordenar por prominencia y asignar responsable y frecuencia de contacto
+5. Registrar temas emergentes con probabilidad, impacto, posición y dueño
+6. Decidir por tema: preparar, dialogar o ajustar práctica
+7. Definir el umbral que pasa un tema a crisis y revisar el mapa cada trimestre
+
 ## 🔤 Definiciones
 
 **Definición simple.** Las partes interesadas son todas las personas a las que tus decisiones pueden afectar o que pueden afectar tus decisiones; gestionarlas es saber quiénes son, qué esperan y a quién atender primero.

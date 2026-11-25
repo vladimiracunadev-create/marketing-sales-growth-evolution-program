@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir la comparación con alcance equivalente → 2. cuantificar el valor diferencial en unidades del cliente → 3. estimar la capacidad del competidor de sostener su precio → 4. decidir posición relativa con criterio explícito → 5. monitorear el efecto en participación y margen
-```
+[![Modelo mental de la clase 07.03: Pricing por competencia](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir la comparación con alcance equivalente
+2. Cuantificar el valor diferencial en unidades del cliente
+3. Estimar la capacidad del competidor de sostener su precio
+4. Decidir posición relativa con criterio explícito
+5. Monitorear el efecto en participación y margen
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

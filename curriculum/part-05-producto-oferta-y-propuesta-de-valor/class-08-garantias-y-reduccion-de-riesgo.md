@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar el riesgo que efectivamente frena la decisión → 2. diseñar una garantía específica y verificable → 3. estimar su costo esperado y su efecto en conversión → 4. verificar la coherencia con la normativa de consumo → 5. medir ejecución y efecto en calidad del cliente ganado
-```
+[![Modelo mental de la clase 05.08: Garantías y reducción de riesgo](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar el riesgo que efectivamente frena la decisión
+2. Diseñar una garantía específica y verificable
+3. Estimar su costo esperado y su efecto en conversión
+4. Verificar la coherencia con la normativa de consumo
+5. Medir ejecución y efecto en calidad del cliente ganado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

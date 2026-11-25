@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la audiencia y su problema principal → 2. declarar la promesa editorial → 3. asignar a cada tipo de pieza un objetivo comercial → 4. fijar un ritmo sostenible con la capacidad real → 5. medir el efecto sobre demanda y sobre el proceso de venta
-```
+[![Modelo mental de la clase 13.01: Estrategia de contenidos](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la audiencia y su problema principal
+2. Declarar la promesa editorial
+3. Asignar a cada tipo de pieza un objetivo comercial
+4. Fijar un ritmo sostenible con la capacidad real
+5. Medir el efecto sobre demanda y sobre el proceso de venta
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

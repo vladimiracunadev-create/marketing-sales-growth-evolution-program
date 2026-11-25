@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la decisión que el visitante debe poder tomar → 2. estructurar la página desde el problema y no desde la empresa → 3. hacer visible la ruta de conversión → 4. aplicar la prueba de cinco segundos con usuarios reales → 5. medir conversión por página y corregir la peor primero
-```
+[![Modelo mental de la clase 12.02: El sitio web como activo comercial](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la decisión que el visitante debe poder tomar
+2. Estructurar la página desde el problema y no desde la empresa
+3. Hacer visible la ruta de conversión
+4. Aplicar la prueba de cinco segundos con usuarios reales
+5. Medir conversión por página y corregir la peor primero
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

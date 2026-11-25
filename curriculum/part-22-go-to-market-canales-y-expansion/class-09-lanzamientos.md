@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el criterio de listeza interna → 2. preparar equipo, materiales y documentación → 3. verificar la listeza antes de comunicar → 4. escalar la comunicación según el nivel del cambio → 5. medir adopción y problemas en las primeras semanas
-```
+[![Modelo mental de la clase 22.09: Lanzamientos](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el criterio de listeza interna
+2. Preparar equipo, materiales y documentación
+3. Verificar la listeza antes de comunicar
+4. Escalar la comunicación según el nivel del cambio
+5. Medir adopción y problemas en las primeras semanas
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

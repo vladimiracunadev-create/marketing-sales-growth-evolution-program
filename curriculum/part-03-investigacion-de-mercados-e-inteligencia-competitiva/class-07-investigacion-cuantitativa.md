@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir las variables y su forma de medición → 2. calcular el tamaño de muestra según el efecto mínimo relevante → 3. recolectar con procedimiento uniforme → 4. reportar estimación e incertidumbre → 5. distinguir explícitamente asociación de causalidad
-```
+[![Modelo mental de la clase 03.07: Investigación cuantitativa](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir las variables y su forma de medición
+2. Calcular el tamaño de muestra según el efecto mínimo relevante
+3. Recolectar con procedimiento uniforme
+4. Reportar estimación e incertidumbre
+5. Distinguir explícitamente asociación de causalidad
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

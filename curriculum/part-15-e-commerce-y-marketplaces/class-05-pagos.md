@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar los medios que usa el segmento → 2. medir aprobación y costo por medio → 3. analizar las causas de rechazo → 4. calibrar las reglas antifraude con datos de contracargos → 5. revisar la mezcla de medios cada semestre
-```
+[![Modelo mental de la clase 15.05: Pagos](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar los medios que usa el segmento
+2. Medir aprobación y costo por medio
+3. Analizar las causas de rechazo
+4. Calibrar las reglas antifraude con datos de contracargos
+5. Revisar la mezcla de medios cada semestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. derivar el presupuesto de la meta y de los supuestos → 2. declarar cada supuesto y su fuente → 3. definir reglas de reasignación durante el periodo → 4. medir la desviación y explicarla → 5. usar el aprendizaje para el ciclo siguiente
-```
+[![Modelo mental de la clase 23.06: Presupuesto comercial](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Derivar el presupuesto de la meta y de los supuestos
+2. Declarar cada supuesto y su fuente
+3. Definir reglas de reasignación durante el periodo
+4. Medir la desviación y explicarla
+5. Usar el aprendizaje para el ciclo siguiente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

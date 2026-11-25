@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar la señal y el problema probable → 2. redactar asunto informativo y cuerpo breve → 3. incluir evidencia mínima verificable → 4. pedir un compromiso proporcional → 5. medir respuesta y ajustar una variable por vez
-```
+[![Modelo mental de la clase 11.04: Correo en frío](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar la señal y el problema probable
+2. Redactar asunto informativo y cuerpo breve
+3. Incluir evidencia mínima verificable
+4. Pedir un compromiso proporcional
+5. Medir respuesta y ajustar una variable por vez
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

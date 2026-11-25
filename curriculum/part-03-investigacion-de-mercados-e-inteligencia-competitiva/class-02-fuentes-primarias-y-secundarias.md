@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. buscar primero si la pregunta ya fue respondida por una fuente confiable → 2. leer la metodología antes de usar la cifra → 3. registrar origen, muestra, periodo y fecha de consulta → 4. identificar qué parte de la pregunta sigue sin respuesta → 5. diseñar la recolección primaria sólo para ese remanente
-```
+[![Modelo mental de la clase 03.02: Fuentes primarias y secundarias](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Buscar primero si la pregunta ya fue respondida por una fuente confiable
+2. Leer la metodología antes de usar la cifra
+3. Registrar origen, muestra, periodo y fecha de consulta
+4. Identificar qué parte de la pregunta sigue sin respuesta
+5. Diseñar la recolección primaria sólo para ese remanente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

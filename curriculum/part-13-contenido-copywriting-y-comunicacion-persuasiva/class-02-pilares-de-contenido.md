@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar los temas candidatos con evidencia de interés → 2. evaluar la autoridad propia en cada uno → 3. verificar la conexión con lo que se vende → 4. elegir tres pilares y descartar el resto por escrito → 5. auditar la producción contra los pilares cada trimestre
-```
+[![Modelo mental de la clase 13.02: Pilares de contenido](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar los temas candidatos con evidencia de interés
+2. Evaluar la autoridad propia en cada uno
+3. Verificar la conexión con lo que se vende
+4. Elegir tres pilares y descartar el resto por escrito
+5. Auditar la producción contra los pilares cada trimestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

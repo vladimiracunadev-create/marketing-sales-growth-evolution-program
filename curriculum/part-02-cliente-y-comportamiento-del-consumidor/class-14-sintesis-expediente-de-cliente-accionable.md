@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación → 2. traducir la evidencia a propuesta de valor, mensaje, oferta, canal y siguiente acción de venta → 3. usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas → 4. marcar hipótesis no validadas y someter la cadena completa a una prueba de uso → 5. corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización
-```
+[![Modelo mental de la clase 02.14: Síntesis: expediente de cliente accionable](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar segmento, ICP, entrevistas, JTBD, dolores y ganancias con origen y fecha por afirmación
+2. Traducir la evidencia a propuesta de valor, mensaje, oferta, canal y siguiente acción de venta
+3. Usar el mapa de empatía sólo como vista opcional derivada, sin crear afirmaciones nuevas
+4. Marcar hipótesis no validadas y someter la cadena completa a una prueba de uso
+5. Corregir los eslabones sin evidencia y fijar responsable y frecuencia de actualización
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

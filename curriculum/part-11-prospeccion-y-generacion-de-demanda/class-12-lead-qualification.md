@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir criterios de perfil y de intención por separado → 2. establecer el umbral de traspaso con evidencia de cierre → 3. instrumentar la retroalimentación de ventas → 4. recalibrar el modelo con datos de resultado → 5. documentar el acuerdo entre marketing y ventas
-```
+[![Modelo mental de la clase 11.12: Calificación de leads](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir criterios de perfil y de intención por separado
+2. Establecer el umbral de traspaso con evidencia de cierre
+3. Instrumentar la retroalimentación de ventas
+4. Recalibrar el modelo con datos de resultado
+5. Documentar el acuerdo entre marketing y ventas
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

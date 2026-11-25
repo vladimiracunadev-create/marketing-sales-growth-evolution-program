@@ -63,9 +63,22 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. declarar el contexto y la decisión que la presencia profesional debe facilitar → 2. acordar objetivos, consentimiento y límites del diagnóstico → 3. auditar hechos y señales actuales sin juzgar características corporales → 4. explicitar la identidad personal y la identidad profesional que sí son pertinentes → 5. recoger la percepción actual y separar observaciones, preferencias e inferencias → 6. localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento → 7. formular dos conjuntos de recomendaciones adecuados al contexto → 8. priorizar e implementar cambios reversibles con evidencia → 9. observar comprensión, coherencia y consecuencias no deseadas → 10. ajustar, documentar límites y transferir el criterio a la persona
-```
+[![Modelo mental de la clase 06.11: Employer branding y marca personal](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Declarar el contexto y la decisión que la presencia profesional debe facilitar
+2. Acordar objetivos, consentimiento y límites del diagnóstico
+3. Auditar hechos y señales actuales sin juzgar características corporales
+4. Explicitar la identidad personal y la identidad profesional que sí son pertinentes
+5. Recoger la percepción actual y separar observaciones, preferencias e inferencias
+6. Localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento
+7. Formular dos conjuntos de recomendaciones adecuados al contexto
+8. Priorizar e implementar cambios reversibles con evidencia
+9. Observar comprensión, coherencia y consecuencias no deseadas
+10. Ajustar, documentar límites y transferir el criterio a la persona
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

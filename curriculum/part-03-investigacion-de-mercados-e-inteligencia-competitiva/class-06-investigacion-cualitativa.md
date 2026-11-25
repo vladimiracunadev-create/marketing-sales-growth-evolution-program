@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. registrar la evidencia en su forma original → 2. codificar de forma abierta y luego consolidar categorías → 3. buscar activamente casos negativos → 4. triangular con datos operativos o cuantitativos → 5. formular hipótesis verificables a partir de las categorías
-```
+[![Modelo mental de la clase 03.06: Investigación cualitativa](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Registrar la evidencia en su forma original
+2. Codificar de forma abierta y luego consolidar categorías
+3. Buscar activamente casos negativos
+4. Triangular con datos operativos o cuantitativos
+5. Formular hipótesis verificables a partir de las categorías
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

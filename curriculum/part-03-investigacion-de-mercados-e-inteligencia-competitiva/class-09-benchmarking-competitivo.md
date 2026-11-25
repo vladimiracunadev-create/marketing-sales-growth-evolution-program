@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir muestra, fecha de corte y regla común de comparación → 2. registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa → 3. adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse → 4. separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia → 5. decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas
-```
+[![Modelo mental de la clase 03.09: Benchmarking competitivo](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir muestra, fecha de corte y regla común de comparación
+2. Registrar propuesta, segmento, posicionamiento, precio, packaging, canal y experiencia por alternativa
+3. Adjuntar fuente observable a cada celda y marcar como no observable lo que no pueda verificarse
+4. Separar fortaleza o debilidad observada de la inferencia sobre su causa o importancia
+5. Decidir dónde igualar o diferenciarse usando razones de compra y pérdida documentadas
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

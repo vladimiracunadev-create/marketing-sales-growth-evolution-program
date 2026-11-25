@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar las preguntas y objeciones reales del segmento → 2. ordenar los bloques según esas preguntas → 3. incluir prueba visible junto a cada afirmación fuerte → 4. repetir el llamado a la acción en los puntos de decisión → 5. probar comprensión con usuarios del segmento
-```
+[![Modelo mental de la clase 13.08: Copy de landing page](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar las preguntas y objeciones reales del segmento
+2. Ordenar los bloques según esas preguntas
+3. Incluir prueba visible junto a cada afirmación fuerte
+4. Repetir el llamado a la acción en los puntos de decisión
+5. Probar comprensión con usuarios del segmento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

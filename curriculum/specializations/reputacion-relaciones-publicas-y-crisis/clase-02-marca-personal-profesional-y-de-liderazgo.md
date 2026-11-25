@@ -24,6 +24,21 @@ La marca personal es la reputación de una persona en el contexto de su trabajo:
 - auditar presencia pública sin juzgar características corporales ni invadir la vida privada.
 - redactar un manual de marca personal con límites y mecanismo de revisión.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 02: Marca personal profesional y de liderazgo](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Declarar el contexto y la decisión que la presencia profesional debe facilitar
+2. Acordar objetivos, consentimiento y límites de la auditoría con la persona evaluada
+3. Recoger hechos y señales actuales de perfil, contenido, trayectoria y conducta
+4. Formular la promesa profesional en una frase refutable
+5. Listar la evidencia pública por tipo: resultado, criterio, conocimiento y trato
+6. Definir el alcance: personal, profesional y corporativo, con regla de autorización
+7. Implementar cambios reversibles y medir si cambia la comprensión de la promesa
+8. Revisar cada seis meses o ante un cambio de rol
+
 ## 🔤 Definiciones
 
 **Definición simple.** Tu marca personal es la respuesta que daría otra persona a la pregunta «¿para qué sirve y en qué se le puede creer?».

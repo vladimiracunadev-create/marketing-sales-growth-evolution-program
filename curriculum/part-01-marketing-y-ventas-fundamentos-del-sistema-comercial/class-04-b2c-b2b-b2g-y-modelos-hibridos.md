@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar quién usa, quién decide, quién paga y quién puede vetar → 2. estimar el riesgo personal de cada participante → 3. mapear el proceso formal exigido, si existe → 4. ajustar evidencia, materiales y plazos a esa estructura → 5. definir el movimiento comercial coherente con el valor del contrato
-```
+[![Modelo mental de la clase 01.04: B2C, B2B, B2G y modelos híbridos](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar quién usa, quién decide, quién paga y quién puede vetar
+2. Estimar el riesgo personal de cada participante
+3. Mapear el proceso formal exigido, si existe
+4. Ajustar evidencia, materiales y plazos a esa estructura
+5. Definir el movimiento comercial coherente con el valor del contrato
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. completar el perfil del cliente sólo con evidencia → 2. mapear la oferta actual sin idealizarla → 3. trazar la correspondencia entre ambas mitades → 4. marcar los supuestos sin evidencia → 5. diseñar la validación de los tres supuestos más caros
-```
+[![Modelo mental de la clase 05.02: Value Proposition Canvas](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Completar el perfil del cliente sólo con evidencia
+2. Mapear la oferta actual sin idealizarla
+3. Trazar la correspondencia entre ambas mitades
+4. Marcar los supuestos sin evidencia
+5. Diseñar la validación de los tres supuestos más caros
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

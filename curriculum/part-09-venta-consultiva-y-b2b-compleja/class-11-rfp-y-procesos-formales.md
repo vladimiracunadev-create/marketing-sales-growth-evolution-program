@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. evaluar el criterio de participación antes de decidir → 2. identificar quién influyó en las bases → 3. verificar el cumplimiento formal antes del contenido → 4. diferenciarse dentro del formato permitido → 5. registrar el resultado y calibrar el criterio
-```
+[![Modelo mental de la clase 09.11: RFP y procesos formales](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Evaluar el criterio de participación antes de decidir
+2. Identificar quién influyó en las bases
+3. Verificar el cumplimiento formal antes del contenido
+4. Diferenciarse dentro del formato permitido
+5. Registrar el resultado y calibrar el criterio
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

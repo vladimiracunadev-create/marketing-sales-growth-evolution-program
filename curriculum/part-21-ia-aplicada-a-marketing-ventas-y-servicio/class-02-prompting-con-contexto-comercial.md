@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir objetivo, audiencia y restricciones → 2. verificar qué datos pueden incluirse en el contexto → 3. incorporar ejemplos y criterios de aceptación → 4. documentar la plantilla que funciona → 5. revisar la salida contra los criterios antes de usarla
-```
+[![Modelo mental de la clase 21.02: Prompting con contexto comercial](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir objetivo, audiencia y restricciones
+2. Verificar qué datos pueden incluirse en el contexto
+3. Incorporar ejemplos y criterios de aceptación
+4. Documentar la plantilla que funciona
+5. Revisar la salida contra los criterios antes de usarla
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

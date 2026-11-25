@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. clasificar cada costo como variable, escalonado o fijo → 2. atribuir los costos variables a clientes y segmentos → 3. calcular el margen por segmento y por producto → 4. identificar los segmentos con margen negativo → 5. validar el resultado con contabilidad
-```
+[![Modelo mental de la clase 20.06: Margen de contribución](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Clasificar cada costo como variable, escalonado o fijo
+2. Atribuir los costos variables a clientes y segmentos
+3. Calcular el margen por segmento y por producto
+4. Identificar los segmentos con margen negativo
+5. Validar el resultado con contabilidad
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

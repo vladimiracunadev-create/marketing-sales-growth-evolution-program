@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir las decisiones que el tablero debe habilitar → 2. seleccionar pocos indicadores con contexto → 3. establecer bandas de variación esperada → 4. señalar explícitamente qué requiere decisión → 5. verificar el uso real con la dirección
-```
+[![Modelo mental de la clase 20.13: Dashboards ejecutivos](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir las decisiones que el tablero debe habilitar
+2. Seleccionar pocos indicadores con contexto
+3. Establecer bandas de variación esperada
+4. Señalar explícitamente qué requiere decisión
+5. Verificar el uso real con la dirección
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

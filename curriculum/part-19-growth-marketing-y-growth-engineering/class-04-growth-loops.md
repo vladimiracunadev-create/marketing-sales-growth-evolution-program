@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar qué produce el usuario al usar el producto → 2. evaluar si ese output puede atraer a otros → 3. diseñar el mecanismo que cierra el bucle → 4. medir velocidad y factor de amplificación → 5. decidir si conviene invertir en el bucle o en canales directos
-```
+[![Modelo mental de la clase 19.04: Growth loops](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar qué produce el usuario al usar el producto
+2. Evaluar si ese output puede atraer a otros
+3. Diseñar el mecanismo que cierra el bucle
+4. Medir velocidad y factor de amplificación
+5. Decidir si conviene invertir en el bucle o en canales directos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

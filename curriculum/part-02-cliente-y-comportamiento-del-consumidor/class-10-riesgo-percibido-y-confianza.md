@@ -60,9 +60,18 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. enumerar los riesgos percibidos por cada rol → 2. clasificarlos en económico, operativo, reputacional y personal → 3. clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo → 4. asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable → 5. aumentar la reversibilidad donde el riesgo es alto → 6. decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión
-```
+[![Modelo mental de la clase 02.10: Riesgo percibido y confianza](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Enumerar los riesgos percibidos por cada rol
+2. Clasificarlos en económico, operativo, reputacional y personal
+3. Clasificar cada mensaje como afirmación verificable, opinión, omisión material, testimonio o incentivo
+4. Asignar a cada riesgo una evidencia primaria, su limitación y una persona responsable
+5. Aumentar la reversibilidad donde el riesgo es alto
+6. Decidir publicar, corregir o retirar y medir calidad posterior, no sólo conversión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

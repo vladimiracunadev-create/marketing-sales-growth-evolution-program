@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir el insight con datos propios o de mercado → 2. reencuadrar el problema y verificar la reacción → 3. adaptar el insight a la economía del cliente → 4. conducir la conversación de decisión y proceso → 5. verificar si el reencuadre modificó el criterio del cliente
-```
+[![Modelo mental de la clase 09.03: Challenger Sale](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir el insight con datos propios o de mercado
+2. Reencuadrar el problema y verificar la reacción
+3. Adaptar el insight a la economía del cliente
+4. Conducir la conversación de decisión y proceso
+5. Verificar si el reencuadre modificó el criterio del cliente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

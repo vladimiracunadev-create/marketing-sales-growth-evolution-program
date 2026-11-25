@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar las características relevantes → 2. traducir cada una a un cambio concreto para el cliente → 3. descartar los beneficios que cualquier competidor podría afirmar → 4. asociar una prueba a cada beneficio → 5. verificar la traducción con clientes reales
-```
+[![Modelo mental de la clase 13.05: Características versus beneficios](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar las características relevantes
+2. Traducir cada una a un cambio concreto para el cliente
+3. Descartar los beneficios que cualquier competidor podría afirmar
+4. Asociar una prueba a cada beneficio
+5. Verificar la traducción con clientes reales
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

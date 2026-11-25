@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. clasificar términos por intención → 2. estructurar campañas y grupos según esa clasificación → 3. definir tipos de coincidencia y exclusiones → 4. vincular cada grupo a una página coherente → 5. revisar el informe de términos semanalmente
-```
+[![Modelo mental de la clase 14.05: Google Ads: arquitectura conceptual](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Clasificar términos por intención
+2. Estructurar campañas y grupos según esa clasificación
+3. Definir tipos de coincidencia y exclusiones
+4. Vincular cada grupo a una página coherente
+5. Revisar el informe de términos semanalmente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

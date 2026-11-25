@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir qué señales importan para el perfil objetivo → 2. usar el sistema para reunir y resumir información pública → 3. verificar cada dato antes de mencionarlo → 4. limitar la recolección a lo proporcional → 5. medir el efecto en la tasa de respuesta
-```
+[![Modelo mental de la clase 21.06: Investigación de prospectos asistida](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir qué señales importan para el perfil objetivo
+2. Usar el sistema para reunir y resumir información pública
+3. Verificar cada dato antes de mencionarlo
+4. Limitar la recolección a lo proporcional
+5. Medir el efecto en la tasa de respuesta
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

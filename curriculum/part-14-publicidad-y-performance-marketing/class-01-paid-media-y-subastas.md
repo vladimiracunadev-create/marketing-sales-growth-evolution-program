@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la unidad de resultado que se compra → 2. medir el costo por resultado actual como línea base → 3. mejorar relevancia antes de aumentar la oferta → 4. monitorear la competencia por la audiencia → 5. fijar el costo máximo admisible según la economía unitaria
-```
+[![Modelo mental de la clase 14.01: Medios pagados y subastas](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la unidad de resultado que se compra
+2. Medir el costo por resultado actual como línea base
+3. Mejorar relevancia antes de aumentar la oferta
+4. Monitorear la competencia por la audiencia
+5. Fijar el costo máximo admisible según la economía unitaria
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

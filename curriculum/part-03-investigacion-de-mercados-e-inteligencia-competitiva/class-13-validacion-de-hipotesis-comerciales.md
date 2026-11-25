@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. escribir la hipótesis con magnitud y plazo → 2. definir el criterio de refutación antes de ejecutar → 3. diseñar la prueba más barata que discrimine → 4. ejecutar sin modificar el criterio a mitad de camino → 5. registrar el aprendizaje y la decisión resultante
-```
+[![Modelo mental de la clase 03.13: Validación de hipótesis comerciales](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Escribir la hipótesis con magnitud y plazo
+2. Definir el criterio de refutación antes de ejecutar
+3. Diseñar la prueba más barata que discrimine
+4. Ejecutar sin modificar el criterio a mitad de camino
+5. Registrar el aprendizaje y la decisión resultante
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

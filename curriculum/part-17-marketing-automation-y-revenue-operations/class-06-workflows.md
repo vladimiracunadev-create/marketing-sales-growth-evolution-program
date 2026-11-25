@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar propósito y condiciones antes de construir → 2. probar con registros de prueba → 3. activar con volumen limitado y monitoreo → 4. registrar responsable y fecha de revisión → 5. auditar flujos activos cada semestre y retirar los obsoletos
-```
+[![Modelo mental de la clase 17.06: Workflows](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar propósito y condiciones antes de construir
+2. Probar con registros de prueba
+3. Activar con volumen limitado y monitoreo
+4. Registrar responsable y fecha de revisión
+5. Auditar flujos activos cada semestre y retirar los obsoletos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

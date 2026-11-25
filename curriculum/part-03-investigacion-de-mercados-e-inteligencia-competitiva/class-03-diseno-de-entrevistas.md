@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir qué hipótesis debe refutar la entrevista → 2. escribir preguntas sobre comportamiento pasado → 3. eliminar preguntas que anticipan la respuesta deseada → 4. buscar un compromiso verificable al cierre → 5. registrar hechos y citas textuales, no interpretaciones
-```
+[![Modelo mental de la clase 03.03: Diseño de entrevistas](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir qué hipótesis debe refutar la entrevista
+2. Escribir preguntas sobre comportamiento pasado
+3. Eliminar preguntas que anticipan la respuesta deseada
+4. Buscar un compromiso verificable al cierre
+5. Registrar hechos y citas textuales, no interpretaciones
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

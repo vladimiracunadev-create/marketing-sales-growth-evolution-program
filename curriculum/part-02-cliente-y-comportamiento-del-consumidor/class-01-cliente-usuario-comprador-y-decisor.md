@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar a todas las personas que tocan la decisión → 2. asignar rol y criterio de decisión a cada una → 3. identificar conflictos entre criterios → 4. diseñar la evidencia específica que necesita cada rol → 5. definir el orden de conversaciones que reduce el riesgo de veto tardío
-```
+[![Modelo mental de la clase 02.01: Cliente, usuario, comprador y decisor](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar a todas las personas que tocan la decisión
+2. Asignar rol y criterio de decisión a cada una
+3. Identificar conflictos entre criterios
+4. Diseñar la evidencia específica que necesita cada rol
+5. Definir el orden de conversaciones que reduce el riesgo de veto tardío
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

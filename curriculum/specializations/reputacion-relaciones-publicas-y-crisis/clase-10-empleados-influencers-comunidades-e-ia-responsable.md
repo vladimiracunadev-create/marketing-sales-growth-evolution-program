@@ -24,6 +24,20 @@ La reputación de una organización ya no se juega sólo en su comunicación ofi
 - operar una comunidad con reglas publicadas, moderación pareja y protocolo de escalamiento.
 - gobernar el uso de IA en comunicación con registro, verificación y divulgación.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 10: Empleados, influencers, comunidades e IA responsable](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Redactar la política de redes con tres capas y ejemplos de conductas permitidas y no permitidas
+2. Definir procedimiento de controversias de empleados con verificación, escucha y proporcionalidad
+3. Establecer el acuerdo con influencers: divulgación, conducta, respaldo de afirmaciones y salida
+4. Publicar las reglas de la comunidad y el protocolo de moderación y escalamiento
+5. Definir el protocolo de respuesta en crisis por plataforma, con comunicado único
+6. Crear el registro de uso de IA y las reglas de verificación y divulgación
+7. Capacitar, probar con una simulación y revisar a los seis meses
+
 ## 🔤 Definiciones
 
 **Definición simple.** Cada persona que habla de tu empresa influye en su reputación; gobernar esa voz es poner reglas claras, ser justo con las personas y estar preparado cuando algo sale mal.

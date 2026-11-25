@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir los componentes de ajuste y de comportamiento → 2. asignar pesos derivados de datos históricos → 3. aplicar decaimiento por inactividad → 4. validar contra conversión real cada trimestre → 5. recalibrar y documentar los cambios
-```
+[![Modelo mental de la clase 17.03: Lead scoring](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir los componentes de ajuste y de comportamiento
+2. Asignar pesos derivados de datos históricos
+3. Aplicar decaimiento por inactividad
+4. Validar contra conversión real cada trimestre
+5. Recalibrar y documentar los cambios
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

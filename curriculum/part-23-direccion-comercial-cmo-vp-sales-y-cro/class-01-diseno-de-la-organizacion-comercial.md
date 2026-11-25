@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. mapear el trabajo comercial completo → 2. decidir el nivel de especialización según volumen y complejidad → 3. identificar las fronteras y su mecanismo de traspaso → 4. asignar responsabilidad por resultado a cada rol → 5. medir la pérdida en cada frontera
-```
+[![Modelo mental de la clase 23.01: Diseño de la organización comercial](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Mapear el trabajo comercial completo
+2. Decidir el nivel de especialización según volumen y complejidad
+3. Identificar las fronteras y su mecanismo de traspaso
+4. Asignar responsabilidad por resultado a cada rol
+5. Medir la pérdida en cada frontera
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

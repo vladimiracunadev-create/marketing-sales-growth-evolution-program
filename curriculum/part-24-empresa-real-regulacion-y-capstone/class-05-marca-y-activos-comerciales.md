@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el conjunto mínimo de activos necesarios → 2. producirlos con coherencia de promesa y tono → 3. someterlos a prueba de uso con alguien ajeno → 4. corregir lo que no resultó ejecutable → 5. documentar las reglas de uso y actualización
-```
+[![Modelo mental de la clase 24.05: Marca y activos comerciales](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el conjunto mínimo de activos necesarios
+2. Producirlos con coherencia de promesa y tono
+3. Someterlos a prueba de uso con alguien ajeno
+4. Corregir lo que no resultó ejecutable
+5. Documentar las reglas de uso y actualización
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

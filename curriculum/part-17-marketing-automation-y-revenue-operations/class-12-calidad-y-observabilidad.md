@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar los procesos críticos y sus modos de falla → 2. definir indicadores de salud por proceso → 3. configurar alertas accionables con responsable → 4. medir tiempo de detección y de recuperación → 5. revisar incidentes y corregir causas raíz
-```
+[![Modelo mental de la clase 17.12: Calidad y observabilidad](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar los procesos críticos y sus modos de falla
+2. Definir indicadores de salud por proceso
+3. Configurar alertas accionables con responsable
+4. Medir tiempo de detección y de recuperación
+5. Revisar incidentes y corregir causas raíz
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

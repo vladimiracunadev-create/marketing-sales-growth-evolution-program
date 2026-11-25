@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. calcular las cuatro variables con datos propios → 2. simular el efecto de mejorar cada una por separado → 3. identificar la palanca dominante y su costo → 4. intervenir sobre esa palanca → 5. medir el efecto y recalcular
-```
+[![Modelo mental de la clase 16.10: Velocidad comercial](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Calcular las cuatro variables con datos propios
+2. Simular el efecto de mejorar cada una por separado
+3. Identificar la palanca dominante y su costo
+4. Intervenir sobre esa palanca
+5. Medir el efecto y recalcular
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

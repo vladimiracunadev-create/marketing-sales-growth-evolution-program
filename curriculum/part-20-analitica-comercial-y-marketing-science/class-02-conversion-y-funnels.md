@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la unidad de análisis y justificarla → 2. especificar numerador, denominador y ventana → 3. documentar la fuente de cada componente → 4. verificar la comparabilidad antes de contrastar → 5. publicar las definiciones junto con las cifras
-```
+[![Modelo mental de la clase 20.02: Conversión y embudos](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la unidad de análisis y justificarla
+2. Especificar numerador, denominador y ventana
+3. Documentar la fuente de cada componente
+4. Verificar la comparabilidad antes de contrastar
+5. Publicar las definiciones junto con las cifras
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

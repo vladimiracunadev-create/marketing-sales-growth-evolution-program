@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. valorizar el costo de cada término solicitado → 2. priorizar qué términos son negociables y cuáles no → 3. verificar la coherencia con la capacidad operativa → 4. revisar el cumplimiento normativo de las cláusulas → 5. documentar el acuerdo completo y sus anexos
-```
+[![Modelo mental de la clase 10.09: Términos y condiciones](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Valorizar el costo de cada término solicitado
+2. Priorizar qué términos son negociables y cuáles no
+3. Verificar la coherencia con la capacidad operativa
+4. Revisar el cumplimiento normativo de las cláusulas
+5. Documentar el acuerdo completo y sus anexos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

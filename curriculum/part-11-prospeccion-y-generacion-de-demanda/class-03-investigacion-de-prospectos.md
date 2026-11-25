@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir qué señales importan para el perfil objetivo → 2. establecer el nivel de investigación según valor de la cuenta → 3. documentar la señal encontrada antes de contactar → 4. construir el mensaje sobre esa señal → 5. medir la diferencia de respuesta con y sin señal
-```
+[![Modelo mental de la clase 11.03: Investigación de prospectos](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir qué señales importan para el perfil objetivo
+2. Establecer el nivel de investigación según valor de la cuenta
+3. Documentar la señal encontrada antes de contactar
+4. Construir el mensaje sobre esa señal
+5. Medir la diferencia de respuesta con y sin señal
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

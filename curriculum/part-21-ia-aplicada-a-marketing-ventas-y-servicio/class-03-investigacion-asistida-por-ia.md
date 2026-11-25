@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. usar el sistema para ordenar y explorar, no para establecer hechos → 2. marcar toda afirmación factual como pendiente de verificación → 3. verificar en fuente primaria antes de usarla en una decisión → 4. registrar la fuente junto a la afirmación → 5. descartar lo que no se pudo verificar
-```
+[![Modelo mental de la clase 21.03: Investigación asistida por IA](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Usar el sistema para ordenar y explorar, no para establecer hechos
+2. Marcar toda afirmación factual como pendiente de verificación
+3. Verificar en fuente primaria antes de usarla en una decisión
+4. Registrar la fuente junto a la afirmación
+5. Descartar lo que no se pudo verificar
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

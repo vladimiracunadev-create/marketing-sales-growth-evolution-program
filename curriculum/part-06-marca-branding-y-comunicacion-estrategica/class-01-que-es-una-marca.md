@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar las situaciones de compra en que la marca debería aparecer → 2. medir el recuerdo espontáneo en esas situaciones → 3. auditar la disponibilidad física en los canales relevantes → 4. priorizar la brecha mayor entre ambas disponibilidades → 5. definir la inversión y su métrica de seguimiento
-```
+[![Modelo mental de la clase 06.01: Qué es una marca](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar las situaciones de compra en que la marca debería aparecer
+2. Medir el recuerdo espontáneo en esas situaciones
+3. Auditar la disponibilidad física en los canales relevantes
+4. Priorizar la brecha mayor entre ambas disponibilidades
+5. Definir la inversión y su métrica de seguimiento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

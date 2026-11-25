@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la población objetivo con precisión → 2. describir el marco muestral y sus exclusiones → 3. elegir el método de selección y justificarlo → 4. estimar quién queda fuera y cómo podría diferir → 5. declarar los límites de extrapolación en el informe
-```
+[![Modelo mental de la clase 03.05: Muestreo y sesgos](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la población objetivo con precisión
+2. Describir el marco muestral y sus exclusiones
+3. Elegir el método de selección y justificarlo
+4. Estimar quién queda fuera y cómo podría diferir
+5. Declarar los límites de extrapolación en el informe
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

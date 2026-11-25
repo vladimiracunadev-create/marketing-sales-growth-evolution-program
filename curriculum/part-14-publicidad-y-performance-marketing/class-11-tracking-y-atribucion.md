@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la convención de nomenclatura y aplicarla → 2. instrumentar eventos con definición documentada → 3. estimar la cobertura real de la medición → 4. reconciliar con el CRM cada mes → 5. declarar el margen de error en los informes
-```
+[![Modelo mental de la clase 14.11: Tracking y atribución](modelos/modelo-11.svg)](modelos/modelo-11.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la convención de nomenclatura y aplicarla
+2. Instrumentar eventos con definición documentada
+3. Estimar la cobertura real de la medición
+4. Reconciliar con el CRM cada mes
+5. Declarar el margen de error en los informes
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

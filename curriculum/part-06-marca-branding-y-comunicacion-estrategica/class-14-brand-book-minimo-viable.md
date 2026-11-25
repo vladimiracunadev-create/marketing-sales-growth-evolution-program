@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar posicionamiento, promesa y activos → 2. escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan → 3. incluir la guía verbal con antes y después → 4. definir el sistema de medición y su periodicidad → 5. ejecutar la prueba de producción con alguien ajeno
-```
+[![Modelo mental de la clase 06.14: Brand book mínimo viable](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar posicionamiento, promesa y activos
+2. Escribir reglas de aplicación con ejemplos, incluida la mascota y su corpóreo cuando existan
+3. Incluir la guía verbal con antes y después
+4. Definir el sistema de medición y su periodicidad
+5. Ejecutar la prueba de producción con alguien ajeno
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

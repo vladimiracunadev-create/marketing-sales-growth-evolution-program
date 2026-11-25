@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el criterio de cohorte y la métrica a seguir → 2. construir la tabla de cohortes con datos propios → 3. comparar cohortes sucesivas en el mismo hito → 4. atribuir las diferencias a cambios conocidos → 5. usar el análisis para evaluar intervenciones
-```
+[![Modelo mental de la clase 18.09: Análisis de cohortes](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el criterio de cohorte y la métrica a seguir
+2. Construir la tabla de cohortes con datos propios
+3. Comparar cohortes sucesivas en el mismo hito
+4. Atribuir las diferencias a cambios conocidos
+5. Usar el análisis para evaluar intervenciones
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

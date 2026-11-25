@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. medir el estado actual de completitud y exactitud → 2. establecer rutinas de deduplicación y verificación → 3. definir la política de retención y eliminación → 4. asignar responsables por tipo de dato → 5. reportar el estado de la base cada trimestre
-```
+[![Modelo mental de la clase 16.05: Higiene de datos](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Medir el estado actual de completitud y exactitud
+2. Establecer rutinas de deduplicación y verificación
+3. Definir la política de retención y eliminación
+4. Asignar responsables por tipo de dato
+5. Reportar el estado de la base cada trimestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir la métrica de cobro que sigue al valor → 2. calcular el periodo de recuperación por segmento → 3. definir la política de renovación y de cancelación → 4. verificar el cumplimiento del deber de información → 5. seguir expansión, contracción y baja por cohorte
-```
+[![Modelo mental de la clase 07.09: Suscripción e ingreso recurrente](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir la métrica de cobro que sigue al valor
+2. Calcular el periodo de recuperación por segmento
+3. Definir la política de renovación y de cancelación
+4. Verificar el cumplimiento del deber de información
+5. Seguir expansión, contracción y baja por cohorte
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

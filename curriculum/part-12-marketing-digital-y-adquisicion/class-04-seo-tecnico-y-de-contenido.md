@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. mapear intenciones de búsqueda del segmento → 2. auditar rastreabilidad e indexación → 3. producir contenido que responda mejor que las alternativas → 4. construir autoridad con fuentes legítimas → 5. medir posición, tráfico e ingresos por intención
-```
+[![Modelo mental de la clase 12.04: SEO técnico y de contenido](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Mapear intenciones de búsqueda del segmento
+2. Auditar rastreabilidad e indexación
+3. Producir contenido que responda mejor que las alternativas
+4. Construir autoridad con fuentes legítimas
+5. Medir posición, tráfico e ingresos por intención
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

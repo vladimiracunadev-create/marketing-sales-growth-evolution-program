@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. formular propósito, promesa y personalidad por separado → 2. verificar que cada uno tenga consecuencia operativa → 3. buscar la prueba de renuncia en el historial → 4. traducir la personalidad a reglas observables de tono, trato y conducta del personaje → 5. auditar coherencia en tres puntos de contacto reales
-```
+[![Modelo mental de la clase 06.03: Propósito, promesa y personalidad](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Formular propósito, promesa y personalidad por separado
+2. Verificar que cada uno tenga consecuencia operativa
+3. Buscar la prueba de renuncia en el historial
+4. Traducir la personalidad a reglas observables de tono, trato y conducta del personaje
+5. Auditar coherencia en tres puntos de contacto reales
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

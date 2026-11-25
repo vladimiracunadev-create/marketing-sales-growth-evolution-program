@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. resumir por escrito dentro de las 24 horas → 2. detallar condiciones, exclusiones y responsables → 3. solicitar confirmación explícita → 4. archivar en el sistema accesible para operación → 5. revisar el cumplimiento en los hitos definidos
-```
+[![Modelo mental de la clase 10.13: Cierre y documentación](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Resumir por escrito dentro de las 24 horas
+2. Detallar condiciones, exclusiones y responsables
+3. Solicitar confirmación explícita
+4. Archivar en el sistema accesible para operación
+5. Revisar el cumplimiento en los hitos definidos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

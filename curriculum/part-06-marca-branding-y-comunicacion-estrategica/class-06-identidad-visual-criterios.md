@@ -63,9 +63,19 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir objetivo, audiencia, mensaje y alternativa sin personaje antes de diseñar → 2. traducir personalidad a silueta, rasgos y conductas observables sin confundir gusto con asociación → 3. probar reconocimiento, atribución y accesibilidad en versiones física y digital → 4. presupuestar diseño, uso, intérprete, acompañamiento, transporte, cuidado y medición sin doble conteo → 5. diseñar operación, interacción respetuosa, seguridad, registro de incidentes y criterios de detención → 6. comparar con y sin corpóreo controlando horario, afluencia, promoción, ubicación y composición del público → 7. decidir continuar, ajustar o descartar según evidencia de marca, actividad, respuesta comercial y resultado
-```
+[![Modelo mental de la clase 06.06: Identidad visual: criterios](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir objetivo, audiencia, mensaje y alternativa sin personaje antes de diseñar
+2. Traducir personalidad a silueta, rasgos y conductas observables sin confundir gusto con asociación
+3. Probar reconocimiento, atribución y accesibilidad en versiones física y digital
+4. Presupuestar diseño, uso, intérprete, acompañamiento, transporte, cuidado y medición sin doble conteo
+5. Diseñar operación, interacción respetuosa, seguridad, registro de incidentes y criterios de detención
+6. Comparar con y sin corpóreo controlando horario, afluencia, promoción, ubicación y composición del público
+7. Decidir continuar, ajustar o descartar según evidencia de marca, actividad, respuesta comercial y resultado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

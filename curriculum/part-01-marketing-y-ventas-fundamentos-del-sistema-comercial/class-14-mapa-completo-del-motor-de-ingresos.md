@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. dibujar las etapas desde el disparador de compra hasta la renovación → 2. anotar volumen, conversión, tiempo y costo por etapa → 3. marcar los supuestos críticos y su nivel de evidencia → 4. identificar los tres puntos de fuga principales → 5. listar las decisiones pendientes con dueño y fecha
-```
+[![Modelo mental de la clase 01.14: Mapa completo del motor de ingresos](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Dibujar las etapas desde el disparador de compra hasta la renovación
+2. Anotar volumen, conversión, tiempo y costo por etapa
+3. Marcar los supuestos críticos y su nivel de evidencia
+4. Identificar los tres puntos de fuga principales
+5. Listar las decisiones pendientes con dueño y fecha
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. designar responsable y procedimiento de cambio → 2. documentar la configuración vigente → 3. definir el control de acceso por rol → 4. revisar y eliminar la deuda de configuración cada semestre → 5. auditar accesos y registro de tratamiento de datos
-```
+[![Modelo mental de la clase 16.13: Gobierno del CRM](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Designar responsable y procedimiento de cambio
+2. Documentar la configuración vigente
+3. Definir el control de acceso por rol
+4. Revisar y eliminar la deuda de configuración cada semestre
+5. Auditar accesos y registro de tratamiento de datos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

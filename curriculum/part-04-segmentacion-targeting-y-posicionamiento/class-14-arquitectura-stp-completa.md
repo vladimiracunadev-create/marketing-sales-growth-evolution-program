@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar la segmentación con sus criterios y evidencia → 2. declarar el foco y los descartes con su justificación → 3. fijar la declaración de posicionamiento y su prueba → 4. verificar coherencia entre promesa, precio, canal y operación → 5. definir los indicadores de seguimiento y su periodicidad
-```
+[![Modelo mental de la clase 04.14: Arquitectura STP completa](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar la segmentación con sus criterios y evidencia
+2. Declarar el foco y los descartes con su justificación
+3. Fijar la declaración de posicionamiento y su prueba
+4. Verificar coherencia entre promesa, precio, canal y operación
+5. Definir los indicadores de seguimiento y su periodicidad
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

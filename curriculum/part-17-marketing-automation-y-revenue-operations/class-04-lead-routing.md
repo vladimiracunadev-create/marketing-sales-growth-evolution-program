@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir las reglas de asignación por segmento y territorio → 2. medir el tiempo de asignación y de primer contacto → 3. configurar escalamiento por falta de respuesta → 4. auditar los contactos no asignados → 5. revisar las reglas cuando cambia la estructura del equipo
-```
+[![Modelo mental de la clase 17.04: Enrutamiento de leads](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir las reglas de asignación por segmento y territorio
+2. Medir el tiempo de asignación y de primer contacto
+3. Configurar escalamiento por falta de respuesta
+4. Auditar los contactos no asignados
+5. Revisar las reglas cuando cambia la estructura del equipo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. estimar costo por oportunidad y conversión por canal → 2. verificar la capacidad de atención del equipo → 3. asignar presupuesto con supuestos explícitos → 4. definir la regla de reasignación y su periodicidad → 5. revisar mensualmente contra los supuestos declarados
-```
+[![Modelo mental de la clase 12.13: Plan de adquisición](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Estimar costo por oportunidad y conversión por canal
+2. Verificar la capacidad de atención del equipo
+3. Asignar presupuesto con supuestos explícitos
+4. Definir la regla de reasignación y su periodicidad
+5. Revisar mensualmente contra los supuestos declarados
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el resultado de negocio esperado → 2. elegir el objetivo de optimización coherente → 3. verificar que la señal de conversión esté bien instrumentada → 4. asegurar volumen suficiente de señal para el aprendizaje → 5. evaluar con la misma métrica que se optimizó
-```
+[![Modelo mental de la clase 14.02: Objetivos de campaña](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el resultado de negocio esperado
+2. Elegir el objetivo de optimización coherente
+3. Verificar que la señal de conversión esté bien instrumentada
+4. Asegurar volumen suficiente de señal para el aprendizaje
+5. Evaluar con la misma métrica que se optimizó
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

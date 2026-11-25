@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir la lista objetivo con base de licitud documentada → 2. diseñar secuencias y guiones por segmento → 3. producir la propuesta estándar con alcance y exclusiones → 4. documentar objeciones frecuentes con respuesta → 5. probar el sistema con una persona ajena
-```
+[![Modelo mental de la clase 24.08: Prospección y ventas del Capstone](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir la lista objetivo con base de licitud documentada
+2. Diseñar secuencias y guiones por segmento
+3. Producir la propuesta estándar con alcance y exclusiones
+4. Documentar objeciones frecuentes con respuesta
+5. Probar el sistema con una persona ajena
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

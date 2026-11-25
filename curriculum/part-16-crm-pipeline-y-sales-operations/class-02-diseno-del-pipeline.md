@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. reconstruir el proceso real desde negocios ganados → 2. definir etapas por evidencia del cliente → 3. calcular la probabilidad histórica de cada etapa → 4. escribir criterios de salida verificables → 5. revisar las probabilidades cada semestre con datos nuevos
-```
+[![Modelo mental de la clase 16.02: Diseño del pipeline](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Reconstruir el proceso real desde negocios ganados
+2. Definir etapas por evidencia del cliente
+3. Calcular la probabilidad histórica de cada etapa
+4. Escribir criterios de salida verificables
+5. Revisar las probabilidades cada semestre con datos nuevos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

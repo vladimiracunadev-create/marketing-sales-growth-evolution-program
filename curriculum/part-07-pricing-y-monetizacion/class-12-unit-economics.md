@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el alcance de cada componente por escrito → 2. calcular por segmento y no sólo agregado → 3. verificar los números contra contabilidad → 4. analizar sensibilidad ante cambios de churn y margen → 5. fijar el umbral que autoriza escalar la inversión
-```
+[![Modelo mental de la clase 07.12: Unit economics](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el alcance de cada componente por escrito
+2. Calcular por segmento y no sólo agregado
+3. Verificar los números contra contabilidad
+4. Analizar sensibilidad ante cambios de churn y margen
+5. Fijar el umbral que autoriza escalar la inversión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

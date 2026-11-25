@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar volumen y calidad de datos antes de modelar → 2. evaluar el desempeño frente a la regla manual actual → 3. revisar el sesgo por segmento → 4. monitorear la deriva y recalibrar → 5. mantener supervisión humana sobre las decisiones
-```
+[![Modelo mental de la clase 21.07: Lead scoring asistido por modelos](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar volumen y calidad de datos antes de modelar
+2. Evaluar el desempeño frente a la regla manual actual
+3. Revisar el sesgo por segmento
+4. Monitorear la deriva y recalibrar
+5. Mantener supervisión humana sobre las decisiones
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

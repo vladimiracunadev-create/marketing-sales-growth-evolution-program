@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. editar eliminando lo que no aporta al lector → 2. definir la variable a probar y el criterio de éxito → 3. calcular la muestra necesaria → 4. ejecutar sin modificar el criterio → 5. documentar el aprendizaje en la guía editorial
-```
+[![Modelo mental de la clase 13.13: Edición y testing de mensajes](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Editar eliminando lo que no aporta al lector
+2. Definir la variable a probar y el criterio de éxito
+3. Calcular la muestra necesaria
+4. Ejecutar sin modificar el criterio
+5. Documentar el aprendizaje en la guía editorial
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

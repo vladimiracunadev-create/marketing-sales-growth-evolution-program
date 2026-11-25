@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. inventariar las definiciones actuales de las métricas críticas → 2. acordar una definición única por métrica y documentarla → 3. modelar las entidades y estados que la sostienen → 4. establecer acuerdos de servicio entre áreas → 5. instalar alertas sobre las rupturas más caras
-```
+[![Modelo mental de la clase 01.12: Revenue Operations como integración](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Inventariar las definiciones actuales de las métricas críticas
+2. Acordar una definición única por métrica y documentarla
+3. Modelar las entidades y estados que la sostienen
+4. Establecer acuerdos de servicio entre áreas
+5. Instalar alertas sobre las rupturas más caras
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto → 2. definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn → 3. medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento → 4. proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad → 5. asignar responsable, fuente, supuesto y condición de revisión por tramo
-```
+[![Modelo mental de la clase 17.10: Embudo de ingresos](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir el modelo aplicable: B2B, e-commerce, suscripción, PLG o canal indirecto
+2. Definir unidades y criterios desde demanda hasta clientes, ingreso, retención y churn
+3. Medir volumen, conversión, ticket o frecuencia y duración por tramo y segmento
+4. Proyectar el resultado y contrastarlo con CAC, LTV, cobertura de pipeline y capacidad
+5. Asignar responsable, fuente, supuesto y condición de revisión por tramo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

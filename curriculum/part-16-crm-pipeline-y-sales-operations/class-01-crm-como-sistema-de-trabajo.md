@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar las tareas diarias del equipo comercial → 2. configurar el sistema para facilitar esas tareas → 3. reducir el costo de registro al mínimo necesario → 4. verificar que cada campo obligatorio tiene un uso real → 5. medir adopción y calidad del dato, no sólo cumplimiento
-```
+[![Modelo mental de la clase 16.01: El CRM como sistema de trabajo](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar las tareas diarias del equipo comercial
+2. Configurar el sistema para facilitar esas tareas
+3. Reducir el costo de registro al mínimo necesario
+4. Verificar que cada campo obligatorio tiene un uso real
+5. Medir adopción y calidad del dato, no sólo cumplimiento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

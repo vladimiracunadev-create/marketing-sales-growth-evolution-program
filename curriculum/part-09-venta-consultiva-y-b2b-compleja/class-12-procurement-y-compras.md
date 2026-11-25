@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. construir valor con el área usuaria antes de la intervención de compras → 2. preparar el costo total de propiedad con evidencia → 3. identificar los criterios con que se evalúa a compras → 4. negociar sobre criterios objetivos y no sólo precio → 5. documentar los acuerdos y sus condiciones
-```
+[![Modelo mental de la clase 09.12: Procurement y compras](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Construir valor con el área usuaria antes de la intervención de compras
+2. Preparar el costo total de propiedad con evidencia
+3. Identificar los criterios con que se evalúa a compras
+4. Negociar sobre criterios objetivos y no sólo precio
+5. Documentar los acuerdos y sus condiciones
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

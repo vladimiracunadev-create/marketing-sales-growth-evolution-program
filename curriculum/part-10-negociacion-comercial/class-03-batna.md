@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar y valorizar la alternativa propia → 2. actuar para mejorarla antes de negociar → 3. estimar la alternativa de la contraparte con evidencia → 4. derivar el valor de reserva del análisis → 5. revisar la estimación si aparece información nueva
-```
+[![Modelo mental de la clase 10.03: BATNA](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar y valorizar la alternativa propia
+2. Actuar para mejorarla antes de negociar
+3. Estimar la alternativa de la contraparte con evidencia
+4. Derivar el valor de reserva del análisis
+5. Revisar la estimación si aparece información nueva
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

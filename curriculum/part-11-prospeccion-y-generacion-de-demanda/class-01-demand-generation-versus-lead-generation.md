@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. separar en el plan las acciones de demanda y las de captura → 2. definir criterios de calificación antes de capturar → 3. medir cada tipo con métricas propias → 4. evaluar la contribución de la demanda al costo de captura → 5. ajustar la proporción según el estado del pipeline
-```
+[![Modelo mental de la clase 11.01: Generación de demanda versus generación de leads](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Separar en el plan las acciones de demanda y las de captura
+2. Definir criterios de calificación antes de capturar
+3. Medir cada tipo con métricas propias
+4. Evaluar la contribución de la demanda al costo de captura
+5. Ajustar la proporción según el estado del pipeline
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. mapear los sistemas y los datos que comparten → 2. definir dirección y frecuencia de cada sincronización → 3. especificar el manejo de errores y reintentos → 4. instalar monitoreo con alerta → 5. revisar el mapa de integraciones cada semestre
-```
+[![Modelo mental de la clase 17.09: Integraciones](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Mapear los sistemas y los datos que comparten
+2. Definir dirección y frecuencia de cada sincronización
+3. Especificar el manejo de errores y reintentos
+4. Instalar monitoreo con alerta
+5. Revisar el mapa de integraciones cada semestre
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

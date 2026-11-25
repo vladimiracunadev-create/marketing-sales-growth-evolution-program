@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. calcular el margen de contribución con costos completos → 2. estimar permanencia desde curvas de retención por cohorte → 3. incorporar expansión y contracción observadas → 4. aplicar tasa de descuento y declarar supuestos → 5. presentar el resultado como rango y no como cifra única
-```
+[![Modelo mental de la clase 20.04: Valor de vida del cliente](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Calcular el margen de contribución con costos completos
+2. Estimar permanencia desde curvas de retención por cohorte
+3. Incorporar expansión y contracción observadas
+4. Aplicar tasa de descuento y declarar supuestos
+5. Presentar el resultado como rango y no como cifra única
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

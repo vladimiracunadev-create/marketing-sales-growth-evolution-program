@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir el conjunto mínimo de campos críticos → 2. eliminar los campos que nadie usa → 3. devolver valor al vendedor con vistas y alertas útiles → 4. medir completitud y oportunidad del registro → 5. corregir el proceso antes de sancionar a la persona
-```
+[![Modelo mental de la clase 08.13: Disciplina de CRM](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir el conjunto mínimo de campos críticos
+2. Eliminar los campos que nadie usa
+3. Devolver valor al vendedor con vistas y alertas útiles
+4. Medir completitud y oportunidad del registro
+5. Corregir el proceso antes de sancionar a la persona
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

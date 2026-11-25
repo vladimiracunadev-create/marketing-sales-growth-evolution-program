@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la acción que representa valor entregado → 2. construir curvas de retención por cohorte → 3. verificar si la curva se aplana y a qué nivel → 4. complementar con evidencia cualitativa de decepción → 5. decidir escalar sólo si la evidencia converge
-```
+[![Modelo mental de la clase 05.05: Product-market fit](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la acción que representa valor entregado
+2. Construir curvas de retención por cohorte
+3. Verificar si la curva se aplana y a qué nivel
+4. Complementar con evidencia cualitativa de decepción
+5. Decidir escalar sólo si la evidencia converge
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. mapear los canales y los sistemas que los sostienen → 2. definir la identidad única de cliente → 3. identificar los puntos donde se pierde el contexto → 4. acordar responsabilidades y niveles de servicio entre áreas → 5. medir continuidad desde la perspectiva del cliente
-```
+[![Modelo mental de la clase 12.12: Omnicanalidad](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Mapear los canales y los sistemas que los sostienen
+2. Definir la identidad única de cliente
+3. Identificar los puntos donde se pierde el contexto
+4. Acordar responsabilidades y niveles de servicio entre áreas
+5. Medir continuidad desde la perspectiva del cliente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

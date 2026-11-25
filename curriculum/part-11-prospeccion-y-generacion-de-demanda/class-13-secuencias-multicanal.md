@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. diseñar la cadencia con canales y espaciamiento definidos → 2. asignar un aporte distinto a cada contacto → 3. definir puntos de salida claros → 4. medir respuesta y solicitudes de baja por paso → 5. ajustar la cadencia con datos y no con intuición
-```
+[![Modelo mental de la clase 11.13: Secuencias multicanal](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Diseñar la cadencia con canales y espaciamiento definidos
+2. Asignar un aporte distinto a cada contacto
+3. Definir puntos de salida claros
+4. Medir respuesta y solicitudes de baja por paso
+5. Ajustar la cadencia con datos y no con intuición
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

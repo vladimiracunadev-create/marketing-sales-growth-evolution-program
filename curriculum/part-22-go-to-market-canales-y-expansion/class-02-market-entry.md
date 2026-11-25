@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar la demanda con evidencia primaria → 2. evaluar la capacidad actual de servir ese mercado → 3. identificar y costear el camino de acceso → 4. estimar el costo de entrada y el tiempo hasta el ingreso → 5. definir el criterio de abandono antes de invertir
-```
+[![Modelo mental de la clase 22.02: Entrada a un mercado](modelos/modelo-02.svg)](modelos/modelo-02.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar la demanda con evidencia primaria
+2. Evaluar la capacidad actual de servir ese mercado
+3. Identificar y costear el camino de acceso
+4. Estimar el costo de entrada y el tiempo hasta el ingreso
+5. Definir el criterio de abandono antes de invertir
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

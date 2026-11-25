@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir los criterios de atractivo y su ponderación → 2. definir los criterios de accesibilidad → 3. puntuar cada segmento con evidencia y no con impresión → 4. graficar la matriz y discutir los casos límite → 5. elegir y declarar explícitamente qué segmentos se descartan
-```
+[![Modelo mental de la clase 04.05: Atractivo y accesibilidad de segmentos](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir los criterios de atractivo y su ponderación
+2. Definir los criterios de accesibilidad
+3. Puntuar cada segmento con evidencia y no con impresión
+4. Graficar la matriz y discutir los casos límite
+5. Elegir y declarar explícitamente qué segmentos se descartan
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

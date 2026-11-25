@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar los criterios de decisión con investigación previa → 2. medir la percepción con una muestra del segmento → 3. construir el mapa con datos y no con juicio interno → 4. evaluar si los espacios vacantes tienen demanda → 5. definir el movimiento de posición y su costo
-```
+[![Modelo mental de la clase 04.10: Mapas perceptuales](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar los criterios de decisión con investigación previa
+2. Medir la percepción con una muestra del segmento
+3. Construir el mapa con datos y no con juicio interno
+4. Evaluar si los espacios vacantes tienen demanda
+5. Definir el movimiento de posición y su costo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

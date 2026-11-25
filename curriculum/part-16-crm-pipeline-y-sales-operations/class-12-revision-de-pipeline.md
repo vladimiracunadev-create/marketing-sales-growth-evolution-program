@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la estructura y los criterios de la revisión → 2. revisar por evidencia y no por sensación → 3. identificar riesgos y acordar acciones → 4. registrar las decisiones y sus responsables → 5. verificar el cumplimiento en la revisión siguiente
-```
+[![Modelo mental de la clase 16.12: Revisión de pipeline](modelos/modelo-12.svg)](modelos/modelo-12.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la estructura y los criterios de la revisión
+2. Revisar por evidencia y no por sensación
+3. Identificar riesgos y acordar acciones
+4. Registrar las decisiones y sus responsables
+5. Verificar el cumplimiento en la revisión siguiente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

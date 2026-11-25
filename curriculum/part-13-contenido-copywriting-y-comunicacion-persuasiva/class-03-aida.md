@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. verificar que el inicio capta atención con algo relevante → 2. conectar con un problema reconocible en las primeras líneas → 3. concretar el beneficio en la situación del lector → 4. cerrar con una acción específica y de bajo esfuerzo → 5. probar la pieza con lectores del segmento
-```
+[![Modelo mental de la clase 13.03: AIDA](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Verificar que el inicio capta atención con algo relevante
+2. Conectar con un problema reconocible en las primeras líneas
+3. Concretar el beneficio en la situación del lector
+4. Cerrar con una acción específica y de bajo esfuerzo
+5. Probar la pieza con lectores del segmento
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

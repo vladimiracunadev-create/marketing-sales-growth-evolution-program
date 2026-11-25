@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar las decisiones que la segmentación debería cambiar → 2. proponer variables candidatas y verificar su poder discriminante → 3. estimar tamaño y accesibilidad de cada segmento → 4. calcular el costo de tratarlos de forma separada → 5. conservar sólo los segmentos que superan ese costo
-```
+[![Modelo mental de la clase 04.01: Segmentación útil versus decorativa](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar las decisiones que la segmentación debería cambiar
+2. Proponer variables candidatas y verificar su poder discriminante
+3. Estimar tamaño y accesibilidad de cada segmento
+4. Calcular el costo de tratarlos de forma separada
+5. Conservar sólo los segmentos que superan ese costo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

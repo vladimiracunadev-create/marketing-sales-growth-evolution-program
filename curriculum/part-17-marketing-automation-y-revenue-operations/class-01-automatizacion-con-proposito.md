@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. documentar el proceso manual y estandarizarlo → 2. eliminar pasos innecesarios antes de automatizar → 3. identificar los modos de falla y su consecuencia → 4. instalar detección y alerta antes de activar → 5. medir el efecto sobre el resultado y no sólo el ahorro de tiempo
-```
+[![Modelo mental de la clase 17.01: Automatización con propósito](modelos/modelo-01.svg)](modelos/modelo-01.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Documentar el proceso manual y estandarizarlo
+2. Eliminar pasos innecesarios antes de automatizar
+3. Identificar los modos de falla y su consecuencia
+4. Instalar detección y alerta antes de activar
+5. Medir el efecto sobre el resultado y no sólo el ahorro de tiempo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -24,6 +24,20 @@ Una crisis es un evento que amenaza expectativas importantes de los públicos, e
 - aplicar la prueba de publicación completa para separar control de daños de encubrimiento.
 - decidir cuándo responder, reconocer, disculparse, corregir, suspender publicaciones o escalar.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 07: Prevención, detección y contención de crisis](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Inventariar riesgos y asignar dueño, indicador de alerta y medida preventiva
+2. Definir tres niveles de severidad con criterios observables, responsable y plazo
+3. Verificar la señal con fuentes internas antes de comunicar
+4. Activar contención: proteger afectados, detener lo que agrava y preservar evidencia
+5. Aplicar la prueba de publicación completa a todo texto antes de emitirlo
+6. Decidir responder, reconocer, disculparse, corregir, suspender o escalar y registrar la decisión
+7. Documentar tiempos, decisiones y desvíos para la revisión posterior
+
 ## 🔤 Definiciones
 
 **Definición simple.** Una crisis es un problema que no puede esperar y que, si se maneja mal, daña la confianza; prevenir es evitar que ocurra y contener es evitar que crezca.

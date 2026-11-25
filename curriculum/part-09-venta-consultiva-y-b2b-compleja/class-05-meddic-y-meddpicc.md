@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. completar cada elemento con evidencia y no con supuestos → 2. identificar los campos vacíos y planificar cómo llenarlos → 3. verificar al campeón con una acción concreta → 4. revisar el proceso formal y el papeleo requerido → 5. usar el nivel de completitud como criterio de forecast
-```
+[![Modelo mental de la clase 09.05: MEDDIC y MEDDPICC](modelos/modelo-05.svg)](modelos/modelo-05.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Completar cada elemento con evidencia y no con supuestos
+2. Identificar los campos vacíos y planificar cómo llenarlos
+3. Verificar al campeón con una acción concreta
+4. Revisar el proceso formal y el papeleo requerido
+5. Usar el nivel de completitud como criterio de forecast
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

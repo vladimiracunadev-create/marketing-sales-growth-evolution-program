@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir la oferta con alcance y exclusiones → 2. fundamentar el precio con evidencia de valor → 3. calcular la economía unitaria completa → 4. verificar la coherencia con la capacidad operativa → 5. declarar los supuestos y su sensibilidad
-```
+[![Modelo mental de la clase 24.04: Oferta y pricing del Capstone](modelos/modelo-04.svg)](modelos/modelo-04.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir la oferta con alcance y exclusiones
+2. Fundamentar el precio con evidencia de valor
+3. Calcular la economía unitaria completa
+4. Verificar la coherencia con la capacidad operativa
+5. Declarar los supuestos y su sensibilidad
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

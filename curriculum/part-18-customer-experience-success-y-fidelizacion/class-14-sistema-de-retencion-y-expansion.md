@@ -63,9 +63,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar onboarding, salud, renovación y expansión → 2. asignar responsabilidad por cartera → 3. establecer el ritmo de revisión → 4. validar la capacidad predictiva del sistema → 5. medir ingreso neto retenido como resultado agregado
-```
+[![Modelo mental de la clase 18.14: Sistema de retención y expansión](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar onboarding, salud, renovación y expansión
+2. Asignar responsabilidad por cartera
+3. Establecer el ritmo de revisión
+4. Validar la capacidad predictiva del sistema
+5. Medir ingreso neto retenido como resultado agregado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

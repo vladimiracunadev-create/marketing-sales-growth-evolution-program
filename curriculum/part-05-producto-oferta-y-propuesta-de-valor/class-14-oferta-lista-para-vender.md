@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. consolidar propuesta, alcance, precio y garantía → 2. producir los materiales mínimos de venta → 3. definir criterios de calificación y descalificación → 4. ejecutar la prueba de traspaso con alguien ajeno → 5. corregir lo que no resultó ejecutable y publicar la versión
-```
+[![Modelo mental de la clase 05.14: Oferta lista para vender](modelos/modelo-14.svg)](modelos/modelo-14.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Consolidar propuesta, alcance, precio y garantía
+2. Producir los materiales mínimos de venta
+3. Definir criterios de calificación y descalificación
+4. Ejecutar la prueba de traspaso con alguien ajeno
+5. Corregir lo que no resultó ejecutable y publicar la versión
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

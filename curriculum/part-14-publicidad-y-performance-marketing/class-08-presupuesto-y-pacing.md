@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. estimar el retorno marginal por canal → 2. definir el ritmo según estacionalidad observada → 3. fijar la frecuencia de revisión y el umbral de cambio → 4. documentar cada reasignación y su justificación → 5. evaluar el efecto de las reasignaciones a fin de periodo
-```
+[![Modelo mental de la clase 14.08: Presupuesto y ritmo de gasto](modelos/modelo-08.svg)](modelos/modelo-08.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Estimar el retorno marginal por canal
+2. Definir el ritmo según estacionalidad observada
+3. Fijar la frecuencia de revisión y el umbral de cambio
+4. Documentar cada reasignación y su justificación
+5. Evaluar el efecto de las reasignaciones a fin de periodo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

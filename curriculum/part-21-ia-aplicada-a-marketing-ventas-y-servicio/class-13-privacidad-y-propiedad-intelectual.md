@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. inventariar qué datos se tratan en cada caso de uso → 2. verificar finalidad, base de licitud e información al titular → 3. definir la política de uso de contenido generado → 4. documentar las decisiones automatizadas y su supervisión → 5. revisar la política cuando cambia la normativa o las herramientas
-```
+[![Modelo mental de la clase 21.13: Privacidad y propiedad intelectual](modelos/modelo-13.svg)](modelos/modelo-13.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Inventariar qué datos se tratan en cada caso de uso
+2. Verificar finalidad, base de licitud e información al titular
+3. Definir la política de uso de contenido generado
+4. Documentar las decisiones automatizadas y su supervisión
+5. Revisar la política cuando cambia la normativa o las herramientas
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

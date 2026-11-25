@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. seleccionar el evento por perfil de asistente y no por tamaño → 2. diseñar un aporte de valor concreto → 3. capturar contactos con consentimiento y contexto → 4. ejecutar el seguimiento dentro de las 72 horas → 5. medir el costo por oportunidad y por cliente ganado
-```
+[![Modelo mental de la clase 11.09: Eventos y comunidades](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Seleccionar el evento por perfil de asistente y no por tamaño
+2. Diseñar un aporte de valor concreto
+3. Capturar contactos con consentimiento y contexto
+4. Ejecutar el seguimiento dentro de las 72 horas
+5. Medir el costo por oportunidad y por cliente ganado
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. elegir un problema específico del perfil objetivo → 2. construir un recurso útil por sí mismo → 3. solicitar sólo los datos necesarios → 4. informar con claridad el uso posterior → 5. medir calidad del lead y no sólo volumen
-```
+[![Modelo mental de la clase 11.10: Lead magnets](modelos/modelo-10.svg)](modelos/modelo-10.svg)
+
+El método es un ciclo: el último paso alimenta al primero, por eso se repite en cada revisión. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Elegir un problema específico del perfil objetivo
+2. Construir un recurso útil por sí mismo
+3. Solicitar sólo los datos necesarios
+4. Informar con claridad el uso posterior
+5. Medir calidad del lead y no sólo volumen
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

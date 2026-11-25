@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. cruzar valor obtenible con costo de servir → 2. verificar el cruce con datos de retención y margen → 3. nombrar segmentos por comportamiento y no por rubro → 4. definir tratamiento comercial por segmento → 5. revisar el mapa cada semestre con datos nuevos
-```
+[![Modelo mental de la clase 04.03: Variables de segmentación B2B](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Cruzar valor obtenible con costo de servir
+2. Verificar el cruce con datos de retención y margen
+3. Nombrar segmentos por comportamiento y no por rubro
+4. Definir tratamiento comercial por segmento
+5. Revisar el mapa cada semestre con datos nuevos
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

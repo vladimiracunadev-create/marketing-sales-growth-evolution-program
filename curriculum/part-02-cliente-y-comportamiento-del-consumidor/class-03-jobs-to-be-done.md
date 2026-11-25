@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. reconstruir la línea de tiempo de una compra reciente → 2. identificar el evento disparador y la circunstancia → 3. nombrar el trabajo funcional, social y emocional → 4. mapear las cuatro fuerzas de progreso y resistencia → 5. diseñar la intervención que reduce ansiedad o hábito
-```
+[![Modelo mental de la clase 02.03: Jobs to Be Done](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Reconstruir la línea de tiempo de una compra reciente
+2. Identificar el evento disparador y la circunstancia
+3. Nombrar el trabajo funcional, social y emocional
+4. Mapear las cuatro fuerzas de progreso y resistencia
+5. Diseñar la intervención que reduce ansiedad o hábito
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

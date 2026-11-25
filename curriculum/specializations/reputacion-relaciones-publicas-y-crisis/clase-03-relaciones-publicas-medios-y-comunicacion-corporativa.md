@@ -24,6 +24,20 @@ Las relaciones públicas administran vínculos de confianza entre una organizaci
 - decidir cuándo conviene proactividad y cuándo conviene esperar.
 - evaluar una acción de relaciones públicas con indicadores de credibilidad y no sólo de alcance.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 03: Relaciones públicas, medios y comunicación corporativa](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Definir el objetivo de la acción en términos de comprensión o confianza de un público concreto
+2. Identificar el hecho noticiable y por qué le interesa a quien lo reformulará
+3. Reunir hechos verificables con fuente y definir qué se puede y qué no se puede decir
+4. Elegir el vocero y preparar mensajes fundamentales y respuestas a preguntas difíciles
+5. Redactar la nota informativa con titular, hechos, cifras, cita autorizada y contacto
+6. Contactar al periodista adecuado con respeto de plazos y sin condicionar la cobertura
+7. Monitorear la cobertura, corregir inexactitudes y registrar aprendizajes
+
 ## 🔤 Definiciones
 
 **Definición simple.** Las relaciones públicas consisten en ganar el derecho a ser creídos por personas que no controlas, con hechos y trato, no con espacio comprado.

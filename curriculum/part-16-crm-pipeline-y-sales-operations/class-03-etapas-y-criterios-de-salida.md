@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. definir un hecho del cliente por cada criterio de salida → 2. registrar la evidencia junto al cambio de etapa → 3. permitir y normalizar el retroceso de etapa → 4. auditar una muestra cada mes → 5. corregir el criterio si resulta inaplicable
-```
+[![Modelo mental de la clase 16.03: Etapas y criterios de salida](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Definir un hecho del cliente por cada criterio de salida
+2. Registrar la evidencia junto al cambio de etapa
+3. Permitir y normalizar el retroceso de etapa
+4. Auditar una muestra cada mes
+5. Corregir el criterio si resulta inaplicable
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

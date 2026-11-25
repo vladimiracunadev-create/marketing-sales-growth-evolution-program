@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. listar las alternativas que el cliente nombró espontáneamente en discovery → 2. clasificar cada alternativa como directa, funcional o statu quo → 3. identificar de qué presupuesto sale el dinero en cada caso → 4. estimar el precio de referencia asociado a esa categoría → 5. elegir la definición de categoría que se quiere ocupar y justificar el costo de esa elección
-```
+[![Modelo mental de la clase 01.03: Mercados, categorías y competencia](modelos/modelo-03.svg)](modelos/modelo-03.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Listar las alternativas que el cliente nombró espontáneamente en discovery
+2. Clasificar cada alternativa como directa, funcional o statu quo
+3. Identificar de qué presupuesto sale el dinero en cada caso
+4. Estimar el precio de referencia asociado a esa categoría
+5. Elegir la definición de categoría que se quiere ocupar y justificar el costo de esa elección
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

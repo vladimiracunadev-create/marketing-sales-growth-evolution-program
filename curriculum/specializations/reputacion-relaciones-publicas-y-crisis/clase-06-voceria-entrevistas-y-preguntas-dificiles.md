@@ -24,6 +24,20 @@ La vocería es una función, no un talento: se prepara con mensajes autorizados,
 - conducir una conferencia de prensa con reglas, tiempos y registro.
 - evitar frases citables fuera de contexto, cifras improvisadas y promesas imposibles.
 
+## 🧠 Modelo mental
+
+[![Modelo mental de la clase 06: Vocería, entrevistas y preguntas difíciles](modelos/modelo-06.svg)](modelos/modelo-06.svg)
+
+El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:
+
+1. Definir el objetivo de la intervención y la audiencia final
+2. Escribir el mensaje central y dos o tres hechos de apoyo con fuente
+3. Listar lo que no se dirá y por qué: reservado, desconocido o ajeno
+4. Elaborar las diez preguntas más difíciles y responder tres con hecho, acción, incertidumbre y plazo
+5. Ensayar con alguien que juegue al entrevistador, grabar y marcar frases citables
+6. Ejecutar la entrevista con registro de compromisos adquiridos
+7. Revisar lo dicho, corregir imprecisiones y cumplir los compromisos publicados
+
 ## 🔤 Definiciones
 
 **Definición simple.** Hablar en nombre de otros es decir lo que se sabe, lo que se hace y lo que se ignora, sin inventar ni evadir.

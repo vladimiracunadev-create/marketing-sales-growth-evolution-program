@@ -19,29 +19,53 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `cases` | 24 | case-01-marketing-y-ventas-fundamentos-del-sistema-comercial.md, case-02-cliente-y-comportamiento-del-consumidor.md, case-03-investigacion-de-mercados-e-inteligencia-competitiva.md, case-04-segmentacion-targeting-y-posicionamiento.md, case-05-producto-oferta-y-propuesta-de-valor.md, case-06-marca-branding-y-comunicacion-estrategica.md… |
 | `curriculum` | 2 | README.md, curriculum.json |
 | `curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial` | 15 | README.md, class-01-marketing-ventas-y-crecimiento-como-sistema.md, class-02-necesidades-deseos-demanda-y-valor.md, class-03-mercados-categorias-y-competencia.md, class-04-b2c-b2b-b2g-y-modelos-hibridos.md, class-05-funnel-flywheel-y-ciclo-de-compra.md… |
+| `curriculum/part-01-marketing-y-ventas-fundamentos-del-sistema-comercial/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-02-cliente-y-comportamiento-del-consumidor` | 15 | README.md, class-01-cliente-usuario-comprador-y-decisor.md, class-02-problemas-necesidades-y-resultados-deseados.md, class-03-jobs-to-be-done.md, class-04-buyer-persona-con-evidencia.md, class-05-ideal-customer-profile.md… |
+| `curriculum/part-02-cliente-y-comportamiento-del-consumidor/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva` | 15 | README.md, class-01-preguntas-de-investigacion-y-decisiones.md, class-02-fuentes-primarias-y-secundarias.md, class-03-diseno-de-entrevistas.md, class-04-diseno-de-encuestas.md, class-05-muestreo-y-sesgos.md… |
+| `curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-04-segmentacion-targeting-y-posicionamiento` | 15 | README.md, class-01-segmentacion-util-versus-decorativa.md, class-02-variables-de-segmentacion-b2c.md, class-03-variables-de-segmentacion-b2b.md, class-04-clustering-conceptual-de-clientes.md, class-05-atractivo-y-accesibilidad-de-segmentos.md… |
+| `curriculum/part-04-segmentacion-targeting-y-posicionamiento/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-05-producto-oferta-y-propuesta-de-valor` | 15 | README.md, class-01-producto-servicio-y-solucion.md, class-02-value-proposition-canvas.md, class-03-problema-solucion.md, class-04-mvp-comercial.md, class-05-product-market-fit.md… |
+| `curriculum/part-05-producto-oferta-y-propuesta-de-valor/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-06-marca-branding-y-comunicacion-estrategica` | 15 | README.md, class-01-que-es-una-marca.md, class-02-identidad-versus-imagen.md, class-03-proposito-promesa-y-personalidad.md, class-04-naming.md, class-05-identidad-verbal.md… |
+| `curriculum/part-06-marca-branding-y-comunicacion-estrategica/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-07-pricing-y-monetizacion` | 15 | README.md, class-01-precio-como-decision-estrategica.md, class-02-cost-plus-pricing.md, class-03-competitor-based-pricing.md, class-04-value-based-pricing.md, class-05-willingness-to-pay.md… |
+| `curriculum/part-07-pricing-y-monetizacion/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-08-fundamentos-profesionales-de-ventas` | 15 | README.md, class-01-proceso-comercial-reproducible.md, class-02-prospeccion.md, class-03-apertura-y-rapport.md, class-04-discovery.md, class-05-calificacion-de-oportunidades.md… |
+| `curriculum/part-08-fundamentos-profesionales-de-ventas/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-09-venta-consultiva-y-b2b-compleja` | 15 | README.md, class-01-venta-consultiva.md, class-02-spin-selling.md, class-03-challenger-sale.md, class-04-solution-selling.md, class-05-meddic-y-meddpicc.md… |
+| `curriculum/part-09-venta-consultiva-y-b2b-compleja/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-10-negociacion-comercial` | 15 | README.md, class-01-preparacion-de-una-negociacion.md, class-02-intereses-versus-posiciones.md, class-03-batna.md, class-04-zopa.md, class-05-anclaje.md… |
+| `curriculum/part-10-negociacion-comercial/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-11-prospeccion-y-generacion-de-demanda` | 15 | README.md, class-01-demand-generation-versus-lead-generation.md, class-02-list-building-etico.md, class-03-investigacion-de-prospectos.md, class-04-cold-email.md, class-05-cold-calling.md… |
+| `curriculum/part-11-prospeccion-y-generacion-de-demanda/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-12-marketing-digital-y-adquisicion` | 15 | README.md, class-01-estrategia-digital.md, class-02-sitio-web-como-activo-comercial.md, class-03-landing-pages.md, class-04-seo-tecnico-y-de-contenido.md, class-05-sem.md… |
+| `curriculum/part-12-marketing-digital-y-adquisicion/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva` | 15 | README.md, class-01-estrategia-de-contenidos.md, class-02-pilares-de-contenido.md, class-03-aida.md, class-04-pas.md, class-05-features-versus-benefits.md… |
+| `curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-14-publicidad-y-performance-marketing` | 15 | README.md, class-01-paid-media-y-subastas.md, class-02-objetivos-de-campana.md, class-03-audiencias.md, class-04-creatividades.md, class-05-google-ads-arquitectura-conceptual.md… |
+| `curriculum/part-14-publicidad-y-performance-marketing/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-15-e-commerce-y-marketplaces` | 15 | README.md, class-01-modelo-operativo-e-commerce.md, class-02-catalogo-y-merchandising-digital.md, class-03-product-detail-page.md, class-04-checkout.md, class-05-pagos.md… |
+| `curriculum/part-15-e-commerce-y-marketplaces/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-16-crm-pipeline-y-sales-operations` | 15 | README.md, class-01-crm-como-sistema-de-trabajo.md, class-02-diseno-del-pipeline.md, class-03-etapas-y-criterios-de-salida.md, class-04-lead-contact-account-y-opportunity.md, class-05-higiene-de-datos.md… |
+| `curriculum/part-16-crm-pipeline-y-sales-operations/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-17-marketing-automation-y-revenue-operations` | 15 | README.md, class-01-automatizacion-con-proposito.md, class-02-lifecycle-stages.md, class-03-lead-scoring.md, class-04-lead-routing.md, class-05-nurturing.md… |
+| `curriculum/part-17-marketing-automation-y-revenue-operations/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-18-customer-experience-success-y-fidelizacion` | 15 | README.md, class-01-experiencia-de-cliente.md, class-02-onboarding.md, class-03-time-to-value.md, class-04-customer-success.md, class-05-health-score.md… |
+| `curriculum/part-18-customer-experience-success-y-fidelizacion/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-19-growth-marketing-y-growth-engineering` | 15 | README.md, class-01-que-es-growth.md, class-02-north-star-metric.md, class-03-aarrr.md, class-04-growth-loops.md, class-05-activation.md… |
+| `curriculum/part-19-growth-marketing-y-growth-engineering/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-20-analitica-comercial-y-marketing-science` | 15 | README.md, class-01-arbol-de-metricas.md, class-02-conversion-y-funnels.md, class-03-cac.md, class-04-ltv.md, class-05-payback.md… |
+| `curriculum/part-20-analitica-comercial-y-marketing-science/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio` | 15 | README.md, class-01-mapa-de-ia-comercial.md, class-02-prompting-con-contexto-comercial.md, class-03-investigacion-asistida-por-ia.md, class-04-generacion-de-contenido-con-controles.md, class-05-personalizacion.md… |
+| `curriculum/part-21-ia-aplicada-a-marketing-ventas-y-servicio/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-22-go-to-market-canales-y-expansion` | 15 | README.md, class-01-que-es-una-estrategia-gtm.md, class-02-market-entry.md, class-03-beachhead-market.md, class-04-sales-led-growth.md, class-05-product-led-growth.md… |
+| `curriculum/part-22-go-to-market-canales-y-expansion/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro` | 15 | README.md, class-01-diseno-de-la-organizacion-comercial.md, class-02-roles-y-responsabilidades.md, class-03-contratacion.md, class-04-onboarding-de-equipos.md, class-05-compensacion-e-incentivos.md… |
+| `curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
+| `curriculum/part-24-empresa-real-regulacion-y-capstone/modelos` | 14 | modelo-01.svg, modelo-02.svg, modelo-03.svg, modelo-04.svg, modelo-05.svg, modelo-06.svg… |
 | `curriculum/spec` | 64 | __init__.py, ampliaciones_integrales.py, ampliaciones_reputacion.py, anclajes.py, aportes.py, bibliografia.py… |
 | `curriculum/specializations/reputacion-relaciones-publicas-y-crisis` | 12 | README.md, assessment.md, clase-01-identidad-imagen-y-capital-reputacional.md, clase-02-marca-personal-profesional-y-de-liderazgo.md, clase-03-relaciones-publicas-medios-y-comunicacion-corporativa.md, clase-04-partes-interesadas-asuntos-publicos-y-controversias.md… |
 | `curriculum/specializations/reputacion-relaciones-publicas-y-crisis/labs` | 6 | lab-01-auditoria-reputacional-y-plan-de-gestion.md, lab-02-manual-de-marca-personal-y-guia-de-voceria.md, lab-03-matriz-de-partes-interesadas-y-mapa-de-controversias.md, lab-04-sistema-de-escucha-e-indicadores-reputacionales.md, lab-05-protocolo-de-crisis-y-plantillas-de-declaracion.md, lab-06-verificacion-de-desinformacion-y-politica-de-redes.md |
@@ -100,7 +124,7 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 2 | commercial-evidence-pack.md, stp-canvas.md |
 | `tests` | 10 | conftest.py, test_ampliaciones_integrales.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py… |
-| `tools` | 16 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_fuentes.py, build_practica.py… |
+| `tools` | 17 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_fuentes.py, build_practica.py… |
 
 ---
 

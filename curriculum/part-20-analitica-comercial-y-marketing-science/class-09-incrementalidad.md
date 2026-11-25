@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar la inversión cuyo efecto se quiere verificar → 2. diseñar el grupo de control comparable → 3. calcular la duración necesaria para detectar el efecto → 4. ejecutar y medir la diferencia con intervalo → 5. decidir la asignación con el resultado obtenido
-```
+[![Modelo mental de la clase 20.09: Incrementalidad](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de arriba hacia abajo siguiendo la columna central, alternando lados. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar la inversión cuyo efecto se quiere verificar
+2. Diseñar el grupo de control comparable
+3. Calcular la duración necesaria para detectar el efecto
+4. Ejecutar y medir la diferencia con intervalo
+5. Decidir la asignación con el resultado obtenido
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

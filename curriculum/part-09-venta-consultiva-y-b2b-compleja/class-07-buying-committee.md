@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar miembros, roles y criterios → 2. estimar postura y capacidad de bloqueo de cada uno → 3. detectar el punto probable de ruptura → 4. producir material específico para ese desacuerdo → 5. hacer visible el costo del no acuerdo
-```
+[![Modelo mental de la clase 09.07: Comité de compra](modelos/modelo-07.svg)](modelos/modelo-07.svg)
+
+El método desciende como una escalera: cada peldaño exige el resultado del anterior. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar miembros, roles y criterios
+2. Estimar postura y capacidad de bloqueo de cada uno
+3. Detectar el punto probable de ruptura
+4. Producir material específico para ese desacuerdo
+5. Hacer visible el costo del no acuerdo
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

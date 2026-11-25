@@ -59,9 +59,17 @@ Una definición que no produce predicciones observables sigue siendo demasiado v
 
 ## 🧠 Modelo mental
 
-```text
-1. identificar la mayor pérdida con analítica → 2. investigar la causa con evidencia cualitativa → 3. formular la hipótesis con mecanismo explícito → 4. calcular muestra y duración antes de iniciar → 5. validar el resultado antes de implementarlo de forma permanente
-```
+[![Modelo mental de la clase 12.09: Conversión web](modelos/modelo-09.svg)](modelos/modelo-09.svg)
+
+El método se lee de izquierda a derecha y, al llegar al borde, continúa en la fila siguiente. Las insignias **↔ n** de cada concepto indican en qué pasos del método se usa su vocabulario; las fichas de medición muestran numerador sobre denominador.
+
+**Descripción textual del método.**
+
+1. Identificar la mayor pérdida con analítica
+2. Investigar la causa con evidencia cualitativa
+3. Formular la hipótesis con mecanismo explícito
+4. Calcular muestra y duración antes de iniciar
+5. Validar el resultado antes de implementarlo de forma permanente
 
 La secuencia no es un ritual: cada paso reduce una incertidumbre distinta y produce un artefacto revisable. Saltarse un paso no acelera la decisión, sólo traslada el error a una etapa donde corregirlo cuesta más caro.
 

@@ -36,6 +36,7 @@ from spec.reputacion import (ESPECIALIZACION, LABS, NIVELES, ROLES_RUTA, SCENARI
 from spec.reputacion_clases import CLASES  # noqa: E402
 from spec.reputacion_extras import CIERRES, LAB_EXTRAS  # noqa: E402
 from build_curriculum import cita_localizada  # noqa: E402
+import modelos_svg  # noqa: E402
 
 SALIDA = os.path.join(RAIZ, "curriculum", "specializations", ESPECIALIZACION["slug"])
 FECHA = "2026-11-25"
@@ -99,6 +100,13 @@ def render_clase(i):
          "- **120–150 min.** Responde las preguntas de comprobación sin volver al texto y empieza el laboratorio {}.".format(c["lab"]), "",
          "### Resultados de aprendizaje", ""]
     L += ["- {}.".format(r) for r in c["resultados"]]
+    _svg, forma = modelos_svg.modelo_svg(c, "25", "ESP." + c["n"], "Especialización")
+    L += ["", "## 🧠 Modelo mental", "",
+          "[![Modelo mental de la clase {}: {}](modelos/modelo-{}.svg)](modelos/modelo-{}.svg)".format(
+              c["n"], c["titulo"], c["n"], c["n"]), "",
+          "El diagrama se construye con el método y los conceptos de esta clase. Las insignias **↔ n** indican en "
+          "qué pasos se usa el vocabulario de cada concepto. Descripción textual del método:", ""]
+    L += ["{}. {}".format(k + 1, p[0].upper() + p[1:]) for k, p in enumerate(c["metodo"])]
     L += ["", "## 🔤 Definiciones", "",
           "**Definición simple.** {}".format(N(c["def_simple"])), "",
           "**Definición formal.** {}".format(N(c["def_formal"])), "",
@@ -247,6 +255,8 @@ def main():
         assert c["lab"] in {l["n"] for l in LABS}, c["n"]
     for i, c in enumerate(CLASES):
         escribir(os.path.join(SALIDA, nombre_clase(c)), render_clase(i))
+        svg, _forma = modelos_svg.modelo_svg(c, "25", "ESP." + c["n"], "Especialización")
+        escribir(os.path.join(SALIDA, "modelos", "modelo-{}.svg".format(c["n"])), svg)
     for i, l in enumerate(LABS):
         escribir(os.path.join(SALIDA, "labs", nombre_lab(l)), render_lab(i))
     for i, s in enumerate(SCENARIOS):

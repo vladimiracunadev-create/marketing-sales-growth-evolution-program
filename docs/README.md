@@ -15,6 +15,8 @@
 | [Uso comercial](COMMERCIAL_USE.md) | Qué permite cada licencia y cuándo pedir autorización |
 | [Auditoría de ampliación integral](AUDITORIA-AMPLIACION-INTEGRAL.md) | Brechas A–N, matriz de integración, rutas y límites |
 | [Proyecto transversal Ruta Andina](PROYECTO-TRANSVERSAL-RUTA-ANDINA.md) | 30 entregables acumulativos con clase, reutilización y evidencia |
+| [Auditoría de reputación y crisis](AUDITORIA-AMPLIACION-REPUTACION.md) | Matriz EXISTE / PARCIAL / FALTA antes y después, entregables y límites |
+| [Matriz de competencias de reputación](MATRIZ-COMPETENCIAS-REPUTACION.md) | Competencias, clases, laboratorios, escenarios y niveles de dominio |
 
 ## Referencia de contenido
 

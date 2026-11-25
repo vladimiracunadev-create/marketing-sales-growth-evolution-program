@@ -22,16 +22,16 @@ El material se ordena alrededor de una pregunta que un comité comercial haría 
 
 > **Pregunta rectora de la parte:** ¿Qué debe recordar el mercado sobre nosotros cuando aparece la necesidad?
 
-Los conceptos que estructuran la sesión son **marca empleadora**, **marca personal profesional**, **imagen profesional** y **coherencia omnicanal personal**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **marca empleadora**, **marca personal profesional**, **imagen profesional**, **coherencia omnicanal personal**, **vocería**, **mensaje central**, **pregunta difícil** y **exposición pública del empleado**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `marca empleadora`, `marca personal profesional`, `imagen profesional` y `coherencia omnicanal personal` por sus observables y no por su definición memorizada.
+1. **Distinguir** `marca empleadora`, `marca personal profesional`, `imagen profesional`, `coherencia omnicanal personal`, `vocería`, `mensaje central`, `pregunta difícil` y `exposición pública del empleado` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
 3. **Aplicar** la secuencia **declarar el contexto y la decisión que la presencia profesional debe facilitar → acordar objetivos, consentimiento y límites del diagnóstico → auditar hechos y señales actuales sin juzgar características corporales → explicitar la identidad personal y la identidad profesional que sí son pertinentes → recoger la percepción actual y separar observaciones, preferencias e inferencias → localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento → formular dos conjuntos de recomendaciones adecuados al contexto → priorizar e implementar cambios reversibles con evidencia → observar comprensión, coherencia y consecuencias no deseadas → ajustar, documentar límites y transferir el criterio a la persona** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **coherencia de señales profesionales**, **origen de candidatos** y **rotación temprana** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **coherencia de señales profesionales**, **origen de candidatos**, **rotación temprana** y **preparación de vocería completada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **marca personal profesional** | expectativa pública sobre la contribución de una persona, sostenida por conducta y evidencia verificable | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **imagen profesional** | percepción situada producida por señales visuales, verbales, conductuales y digitales en un contexto de trabajo | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **coherencia omnicanal personal** | compatibilidad reconocible entre la presencia física, el CV, los perfiles, el portafolio, las publicaciones y los proyectos | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **vocería** | función de hablar en nombre de una organización con mensajes autorizados, preparación previa y límites definidos | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **mensaje central** | idea que la persona vocera debe dejar clara aunque la conversación se desvíe | Da un hecho compatible con la definición y otro que la refute. |
+| **pregunta difícil** | pregunta que expone un riesgo, un error o un conflicto y cuya respuesta puede ser citada fuera de contexto | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **exposición pública del empleado** | conducta o declaración de una persona de la organización que, por su rol o por su alcance, puede ser atribuida a la empresa | Construye un caso límite donde el concepto se confunde con el anterior. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **coherencia de señales profesionales**: `s
 
 El vestuario profesional se elige desde `profesión + industria + función + audiencia + cultura + clima + comodidad + identidad + objetivo comunicacional`. Las etiquetas —formal, *business formal*, *business casual*, *smart casual* y casual profesional— son convenciones locales y móviles, no una escala universal de mérito. Una entrevista, una reunión ejecutiva, una conferencia, un encuentro de networking, una presentación y una videollamada remota plantean riesgos y funciones distintas: en remoto importan también encuadre, luz, audio y contraste con el fondo; en terreno pueden dominar seguridad, movilidad y clima. Color se trabaja con valor claro-oscuro, contraste, armonía, repetición, combinación con prendas y legibilidad en el entorno. La revisión de Elliot y Maier advierte problemas metodológicos e importancia del contexto en los efectos psicológicos del color ([Annual Review of Psychology, 2014](https://doi.org/10.1146/annurev-psych-010213-115035)); por tanto, la colorimetría personal se presenta como práctica estética para comparar combinaciones, no como ciencia capaz de revelar personalidad, credibilidad o competencia. Grooming significa `cuidado + coherencia + adecuación`: higiene, cabello, barba o afeitado cuando la persona los elige, uñas, estado de prendas, calzado y accesorios. No define un cuerpo ideal. Los casos cambian la recomendación: quien busca empleo prioriza legibilidad y ajuste; un profesional senior, consistencia y autoridad sustentada; un ejecutivo, representación institucional; un emprendedor o consultor, reconocimiento y cercanía con su cliente; un perfil tecnológico, evidencia en proyectos y GitHub; un docente, claridad y movilidad; un vendedor, adecuación al cliente sin disfraz; y un conferencista, visibilidad en escenario y fotografía. Ninguna de esas convenciones autoriza discriminar ni inferir capacidad desde apariencia.
 
-**Lo que aporta la fuente.** Seth Godin — *This Is Marketing* (2018) aporta el criterio para pesar el intercambio: el público mínimo viable: servir a los pocos que sí quieren esto (los capítulos sobre el público mínimo viable). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **rotación temprana** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Seth Godin — *This Is Marketing* (2018) aporta el criterio para pesar el intercambio: el público mínimo viable: servir a los pocos que sí quieren esto (los capítulos sobre el público mínimo viable). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **preparación de vocería completada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **coherencia omnicanal personal** y otro de un supuesto del caso que nunca fue validado.
 
@@ -125,6 +129,68 @@ Sintetizar employer branding y marca personal no consiste en sumar definiciones.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Si el análisis no puede nombrar qué pieza sostiene la recomendación, todavía no hay comprensión transferible.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje P — Marca personal, vocería y marca empleadora bajo exposición pública
+
+La marca personal de empleados, profesionales, fundadores, ejecutivos y figuras públicas comparte un mecanismo: otras personas repiten lo que creen saber de ti. Lo que cambia es el riesgo. Un empleado comunica sobre todo su trabajo y sus criterios; un ejecutivo o fundador comunica también a la organización, y cada declaración puede interpretarse como postura corporativa. Por eso la política de redes no se limita a prohibir: define qué se habla a título personal, qué requiere autorización y qué se deriva a vocería.
+
+La vocería se prepara como una decisión, no como un talento. Se acuerda el mensaje central, se identifican las tres preguntas más difíciles, se escribe qué se puede y qué no se puede decir, y se ensaya la respuesta a cada una. La respuesta a una pregunta difícil sigue un orden: reconocer lo que se sabe, decir lo que se hace, declarar lo que se ignora y comprometer cuándo se informará. Cambiar de tema o improvisar cifras es la causa más frecuente de una crisis secundaria.
+
+La marca empleadora comparte el mismo principio de coherencia: lo que la empresa promete a candidatos debe corresponder con lo que viven los equipos. Una controversia de un empleado o de un influencer asociado a la marca se analiza con cuatro preguntas: ¿hay hecho verificable?, ¿afecta a personas o a la legalidad?, ¿habla a título personal o corporativo?, ¿qué obliga la norma laboral antes de actuar? La respuesta rara vez es inmediata ni pública.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Mensaje central** | idea única que debe quedar | someter a prueba de cita aislada |
+| **Pregunta difícil** | riesgo o error expuesto | preparar respuesta con hecho, acción, incertidumbre y plazo |
+| **Alcance de la persona** | título personal o corporativo | aclarar en política de redes y contrato |
+| **Controversia de empleado** | conducta atribuible a la organización | verificar hecho, derecho aplicable y proporcionalidad |
+| **Influencer asociado** | persona con acuerdo comercial | exigir divulgación, cláusula de conducta y plan de salida |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** La gerente comercial de Ruta Andina será entrevistada sobre una caída del servicio. Prepara el mensaje central, tres preguntas difíciles y las respuestas que sí puede dar. Una de las preguntas es cuánto dinero perdieron los clientes.
+
+**Secuencia.** definir el mensaje central → listar tres preguntas difíciles → escribir hecho, acción, incertidumbre y plazo por pregunta → ensayar y detectar frases citables fuera de contexto.
+
+**Solución orientadora.** Mensaje central: «Reconocemos la falla, protegimos a los clientes afectados y publicaremos la causa el viernes». Para la pregunta de pérdidas se responde con lo medido (clientes afectados y horas), se declara que aún no existe una cifra confiable de pérdida por cliente, se explica cómo se recogerá y se compromete fecha. No se improvisa un monto ni se minimiza.
+
+**Evidencia de aprendizaje.** guion de vocería con mensaje central, tres preguntas, respuestas y observaciones del ensayo.
+
+**Rúbrica.** 25 % mensaje central; 30 % calidad de respuestas difíciles; 25 % honestidad ante lo desconocido; 20 % revisión de frases citables.
+
+#### Fichas de medición
+
+**preparación de vocería completada**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| voceros con mensaje central, banco de preguntas y ensayo documentado antes de una exposición | voceros con exposición prevista | por trimestre | registro de capacitación y agenda de exposiciones | Comunicaciones |
+
+- **Lectura permitida:** indica si la exposición se preparó con método.
+- **Limitación:** no mide el desempeño real ni la recepción del público.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** simular preguntas difíciles de un entrevistador.
+- **Datos necesarios:** mensaje central, hechos autorizados y perfil de la audiencia.
+- **Prompt reproducible:** `Actúa como un entrevistador escéptico. Formula diez preguntas difíciles sobre estos hechos autorizados. No inventes datos ni cifras sobre la empresa.`
+- **Resultado esperado:** banco de preguntas para ensayo.
+- **Validación humana:** el vocero y comunicaciones descartan preguntas fuera de contexto y completan respuestas con evidencia.
+- **Riesgos:** preguntas irreales, falsa seguridad y uso de información reservada.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** ensayo con un colega que juegue el papel de entrevistador.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** ejecutivo en medios; fundador en redes; empleado con perfil público; influencer contratado.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [06.12 · Coherencia omnicanal](../part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) · [11.06 · LinkedIn y social selling](../part-11-prospeccion-y-generacion-de-demanda/class-06-linkedin-y-social-selling.md) · [23.12 · Ética y cultura comercial](../part-23-direccion-comercial-cmo-vp-sales-y-cro/class-12-etica-y-cultura.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -135,6 +201,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | La prueba de aplicación en todos los soportes reales antes de aprobar un sistema | La sección sobre elementos y aplicaciones | ¿Qué debería observarse en **marca personal profesional** si aquí opera «la prueba de aplicación en todos los soportes reales antes de aprobar un sistema»? ¿Y qué observación lo desmentiría en este caso? |
 | Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | El estándar editorial: verificación de datos, claridad y coherencia de voz | La parte sobre publicación y estándares | ¿Qué debería observarse en **imagen profesional** si aquí opera «el estándar editorial: verificación de datos, claridad y coherencia de voz»? ¿Y qué observación lo desmentiría en este caso? |
 | Seth Godin — *This Is Marketing* (2018) | El público mínimo viable: servir a los pocos que sí quieren esto | Los capítulos sobre el público mínimo viable | ¿Qué debería observarse en **coherencia omnicanal personal** si aquí opera «el público mínimo viable: servir a los pocos que sí quieren esto»? ¿Y qué observación lo desmentiría en este caso? |
+| Tim Ambler y Simon Barrow — *The Employer Brand (Journal of Brand Management)* (1996) | La marca empleadora como paquete de beneficios funcionales, económicos y psicológicos que ofrece el empleo y se identifica con la empresa empleadora | La sección donde el artículo define la marca empleadora | ¿Qué debería observarse en **vocería** si aquí opera «la marca empleadora como paquete de beneficios funcionales, económicos y psicológicos que ofrece el empleo y se identifica con la empresa empleadora»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -150,19 +217,19 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Auditar hechos y señales actuales sin juzgar características corporales.** El riesgo de este paso es cerrar demasiado rápido alrededor de **imagen profesional**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **rotación temprana** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Explicitar la identidad personal y la identidad profesional que sí son pertinentes.** Con **coherencia omnicanal personal** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **coherencia de señales profesionales** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Explicitar la identidad personal y la identidad profesional que sí son pertinentes.** Con **coherencia omnicanal personal** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **preparación de vocería completada** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Recoger la percepción actual y separar observaciones, preferencias e inferencias.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **marca empleadora**. **origen de candidatos** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Recoger la percepción actual y separar observaciones, preferencias e inferencias.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **vocería**. **coherencia de señales profesionales** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
-**Paso 6 — Localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento.** El equipo escribe primero el supuesto asociado a **marca personal profesional** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **rotación temprana** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
+**Paso 6 — Localizar brechas entre identidad, expresión, imagen percibida, reputación y posicionamiento.** El equipo escribe primero el supuesto asociado a **mensaje central** y se prohíbe tratarlo como hecho. Contrasta ese supuesto con **origen de candidatos** y anota qué parte del dato todavía no existe. Del paso sale un artefacto revisable y una frase explícita: «cambiaríamos de rumbo si…».
 
-**Paso 7 — Formular dos conjuntos de recomendaciones adecuados al contexto.** El trabajo aquí es separar lo observado de lo inferido sobre **imagen profesional**. La evidencia que ordena la discusión es **coherencia de señales profesionales**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
+**Paso 7 — Formular dos conjuntos de recomendaciones adecuados al contexto.** El trabajo aquí es separar lo observado de lo inferido sobre **pregunta difícil**. La evidencia que ordena la discusión es **rotación temprana**; si su definición no está escrita, escribirla es parte del paso. Nada avanza mientras el equipo no acuerde qué contaría como refutación.
 
-**Paso 8 — Priorizar e implementar cambios reversibles con evidencia.** El riesgo de este paso es cerrar demasiado rápido alrededor de **coherencia omnicanal personal**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **origen de candidatos** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
+**Paso 8 — Priorizar e implementar cambios reversibles con evidencia.** El riesgo de este paso es cerrar demasiado rápido alrededor de **exposición pública del empleado**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **preparación de vocería completada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 9 — Observar comprensión, coherencia y consecuencias no deseadas.** Con **marca empleadora** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **rotación temprana** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 9 — Observar comprensión, coherencia y consecuencias no deseadas.** Con **marca empleadora** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **coherencia de señales profesionales** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 10 — Ajustar, documentar límites y transferir el criterio a la persona.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **marca personal profesional**. **coherencia de señales profesionales** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 10 — Ajustar, documentar límites y transferir el criterio a la persona.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **marca personal profesional**. **origen de candidatos** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -216,7 +283,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **marca empleadora** y **marca personal profesional** como sinónimos | Se perdió la distinción entre «percepción del mercado laboral sobre cómo es trabajar en la empresa» y «expectativa pública sobre la contribución de una persona, sostenida por conducta y evidencia verificable» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «ajustar, documentar límites y transferir el criterio a la persona» | Se saltó «declarar el contexto y la decisión que la presencia profesional debe facilitar»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **coherencia de señales profesionales** | La métrica local reemplazó al resultado del sistema | Contrástala con **rotación temprana** y explicita el costo de oportunidad. |
+| Optimizar sólo **coherencia de señales profesionales** | La métrica local reemplazó al resultado del sistema | Contrástala con **preparación de vocería completada** y explicita el costo de oportunidad. |
 | Confundir adecuación contextual con competencia | Error específico de esta clase | Describe la señal y el contexto, conserva comodidad e identidad, y exige evidencia de desempeño antes de atribuir capacidad. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -239,7 +306,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **imagen profesional** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **coherencia de señales profesionales**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Consumer Behavior: Buying, Having, and Being* y *This Is Marketing*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Consumer Behavior: Buying, Having, and Being* y *The Employer Brand (Journal of Brand Management)*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -261,7 +328,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P06-C11-employer-y-personal-branding/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **coherencia de señales profesionales**, **origen de candidatos** y **rotación temprana** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **coherencia de señales profesionales**, **origen de candidatos**, **rotación temprana** y **preparación de vocería completada** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -290,6 +357,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Alina Wheeler y Rob Meyerson — [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) (2024, 6.ª ed.) · ISBN 9781119984825 — **aporta a esta clase:** la prueba de aplicación en todos los soportes reales antes de aprobar un sistema. **Dónde buscarlo:** la sección sobre elementos y aplicaciones. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) · ISBN 9781119854319 — **aporta a esta clase:** el estándar editorial: verificación de datos, claridad y coherencia de voz. **Dónde buscarlo:** la parte sobre publicación y estándares. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el público mínimo viable: servir a los pocos que sí quieren esto. **Dónde buscarlo:** los capítulos sobre el público mínimo viable. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Tim Ambler y Simon Barrow — [*The Employer Brand (Journal of Brand Management)*](https://doi.org/10.1057/bm.1996.42) (1996) · DOI 10.1057/bm.1996.42 — **aporta a esta clase:** la marca empleadora como paquete de beneficios funcionales, económicos y psicológicos que ofrece el empleo y se identifica con la empresa empleadora. **Dónde buscarlo:** la sección donde el artículo define la marca empleadora. **Acceso:** acceso limitado. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

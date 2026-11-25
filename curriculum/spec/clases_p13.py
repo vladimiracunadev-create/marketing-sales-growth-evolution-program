@@ -485,7 +485,7 @@ CLASES = [
             "En Chile, las reseñas o testimonios falsos y la publicidad encubierta están prohibidas. Los "
             "incentivos entregados deben declararse."
         ),
-        libros=["cialdini", "sharp2", "godin", "reichheld"],
+        libros=["cialdini", "sharp2", "godin", "reichheld", "benoit"],
         error=("Usar testimonios de segmentos distintos al destinatario",
                "Selecciona referentes del mismo rubro y tamaño, con autorización verificable."),
     ),

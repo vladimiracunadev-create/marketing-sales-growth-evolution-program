@@ -22,16 +22,16 @@ La clase trata el tema como un problema de evidencia y de consecuencia, no como 
 
 > **Pregunta rectora de la parte:** ¿Qué tiene que entender, creer y sentir esta persona para dar el siguiente paso?
 
-Los conceptos que estructuran la sesión son **similitud del referente**, **verificabilidad**, **prueba social negativa** y **transparencia de incentivos**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **similitud del referente**, **verificabilidad**, **prueba social negativa**, **transparencia de incentivos**, **publicidad engañosa**, **reseña auténtica**, **cuenta falsa** y **retractación**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `similitud del referente`, `verificabilidad`, `prueba social negativa` y `transparencia de incentivos` por sus observables y no por su definición memorizada.
+1. **Distinguir** `similitud del referente`, `verificabilidad`, `prueba social negativa`, `transparencia de incentivos`, `publicidad engañosa`, `reseña auténtica`, `cuenta falsa` y `retractación` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Contenido, copywriting y comunicación persuasiva**.
 3. **Aplicar** la secuencia **seleccionar referentes similares al destinatario → obtener testimonios verificables con autorización → declarar cualquier incentivo entregado → evitar formulaciones que comuniquen baja adopción → medir el efecto por segmento** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **efecto de la prueba social**, **testimonios verificables** y **representatividad declarada** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **efecto de la prueba social**, **testimonios verificables**, **representatividad declarada** y **afirmaciones comerciales con respaldo** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **verificabilidad** | posibilidad de que un tercero compruebe que el testimonio es real | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **prueba social negativa** | mensaje que comunica involuntariamente que pocos adoptan la solución | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **transparencia de incentivos** | declaración de si el testimonio fue compensado de alguna forma | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **publicidad engañosa** | mensaje comercial que induce a error sobre características, precio, condiciones o resultados de lo ofrecido | Da un hecho compatible con la definición y otro que la refute. |
+| **reseña auténtica** | opinión de una persona con experiencia real, sin pago oculto ni incentivo condicionado a su signo | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **cuenta falsa** | perfil que simula identidad o comportamiento orgánico para influir en la percepción | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **retractación** | corrección pública de una afirmación comercial que resultó inexacta | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **efecto de la prueba social**: `numerador: 
 
 Mostrar mucha prueba social refuerza la credibilidad hasta un punto a partir del cual genera sospecha, especialmente si todos los testimonios son igualmente entusiastas. La variedad y la presencia de matices resultan más creíbles que la uniformidad, aunque intuitivamente parezca lo contrario.
 
-**Lo que aporta la fuente.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta el criterio para pesar el intercambio: los usos correctos e incorrectos del indicador de recomendación (los capítulos sobre medición de lealtad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **representatividad declarada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) aporta el criterio para pesar el intercambio: los usos correctos e incorrectos del indicador de recomendación (los capítulos sobre medición de lealtad). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **afirmaciones comerciales con respaldo** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **transparencia de incentivos** y otro de un supuesto del caso que nunca fue validado.
 
@@ -125,6 +129,65 @@ Sintetizar prueba social no consiste en sumar definiciones. Empieza por **simili
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Una síntesis correcta indica qué evidencia falta y qué decisión se posterga hasta obtenerla.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje S — Prueba social, publicidad engañosa y reputación
+
+La prueba social crea reputación solo si es verificable. Reseñas compradas, testimonios sin consentimiento o cifras sin fuente convierten un activo en un riesgo: si se descubre, el daño excede el beneficio de la mejora de conversión. La regla práctica es publicar solo lo que puede respaldarse con un registro que un tercero pueda revisar.
+
+Cuando un mensaje resulta engañoso, aun sin intención, la respuesta correcta es retirar, corregir y explicar qué cambió. Defender el mensaje original agrava el problema. Si la publicidad ya produjo decisiones de compra, corresponde evaluar compensación y comunicación directa a quienes compraron.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Afirmación con respaldo** | dato o resultado documentado | publicar con fuente y fecha |
+| **Afirmación sin respaldo** | promesa o cifra sin registro | retirar o reformular |
+| **Reseña incentivada** | opinión con beneficio asociado | declarar el incentivo |
+| **Reseñas sospechosas** | patrón anómalo de cuentas | reportar, no responder en bloque |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** La landing de Ruta Andina dice «reduce inasistencias en 60 %» a partir de un piloto con cuatro clientes. Un periodista consulta por la cifra.
+
+**Secuencia.** rastrear la fuente de la cifra → evaluar tamaño y condiciones del piloto → decidir retirar, matizar o respaldar → preparar la respuesta al periodista.
+
+**Solución orientadora.** La cifra proviene de un piloto pequeño sin grupo de comparación, por lo que no puede presentarse como resultado general. Se retira de la landing, se reformula como resultado del piloto con su tamaño y se responde al periodista con la fuente, el límite y la corrección realizada. No se discute la intención.
+
+**Evidencia de aprendizaje.** registro de la fuente, versión corregida y texto de respuesta.
+
+**Rúbrica.** 30 % rastreo de evidencia; 30 % decisión proporcional; 25 % transparencia; 15 % tono.
+
+#### Fichas de medición
+
+**afirmaciones comerciales con respaldo**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| afirmaciones publicadas con fuente archivada | afirmaciones publicadas | trimestral | inventario de afirmaciones y evidencias | Marketing y Legal |
+
+- **Lectura permitida:** mide higiene de evidencia previa a campaña.
+- **Limitación:** no prueba que el respaldo sea suficiente en sede regulatoria.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** detectar afirmaciones sin respaldo en una pieza.
+- **Datos necesarios:** texto de la pieza y lista de evidencias disponibles.
+- **Prompt reproducible:** `Lista cada afirmación cuantitativa o de resultado de este texto y marca si existe evidencia en la lista entregada. No inventes fuentes.`
+- **Resultado esperado:** inventario de afirmaciones.
+- **Validación humana:** Legal contrasta cada afirmación con su evidencia.
+- **Riesgos:** falsos respaldos y omisiones.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** revisión manual con checklist.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** landing de producto; campaña pagada; testimonios de clientes; reseñas de marketplace.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [13.13 · Edición y testing de mensajes](../part-13-contenido-copywriting-y-comunicacion-persuasiva/class-13-edicion-y-testing-de-mensajes.md) · [14.13 · Fraude, brand safety y privacidad](../part-14-publicidad-y-performance-marketing/class-13-fraude-brand-safety-y-privacidad.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -135,6 +198,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Jenni Romaniuk y Byron Sharp — *How Brands Grow: Part 2* (2015) | Las situaciones de compra como puntos de entrada a la memoria de categoría | El capítulo sobre puntos de entrada de categoría | ¿Qué debería observarse en **verificabilidad** si aquí opera «las situaciones de compra como puntos de entrada a la memoria de categoría»? ¿Y qué observación lo desmentiría en este caso? |
 | Seth Godin — *This Is Marketing* (2018) | El permiso como activo: el derecho a comunicarse con quien espera el mensaje | Los capítulos sobre marketing de permiso | ¿Qué debería observarse en **prueba social negativa** si aquí opera «el permiso como activo: el derecho a comunicarse con quien espera el mensaje»? ¿Y qué observación lo desmentiría en este caso? |
 | Fred Reichheld, Darci Darnell y Maureen Burns — *Winning on Purpose* (2021) | Los usos correctos e incorrectos del indicador de recomendación | Los capítulos sobre medición de lealtad | ¿Qué debería observarse en **transparencia de incentivos** si aquí opera «los usos correctos e incorrectos del indicador de recomendación»? ¿Y qué observación lo desmentiría en este caso? |
+| William L. Benoit — *Accounts, Excuses, and Apologies: Image Repair Theory and Research* (2014, 2.ª ed.) | Las estrategias de reparación de imagen —negación, evasión de responsabilidad, reducción de la ofensividad, acción correctiva y mortificación— sólo funcionan frente a una acusación y una audiencia definidas | El capítulo que presenta la tipología de estrategias de reparación de imagen | ¿Qué debería observarse en **publicidad engañosa** si aquí opera «las estrategias de reparación de imagen —negación, evasión de responsabilidad, reducción de la ofensividad, acción correctiva y mortificación— sólo funcionan frente a una acusación y una audiencia definidas»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Declarar cualquier incentivo entregado.** El riesgo de este paso es cerrar demasiado rápido alrededor de **prueba social negativa**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **representatividad declarada** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Evitar formulaciones que comuniquen baja adopción.** Con **transparencia de incentivos** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **efecto de la prueba social** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Evitar formulaciones que comuniquen baja adopción.** Con **transparencia de incentivos** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **afirmaciones comerciales con respaldo** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Medir el efecto por segmento.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **similitud del referente**. **testimonios verificables** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Medir el efecto por segmento.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **publicidad engañosa**. **efecto de la prueba social** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **similitud del referente** y **verificabilidad** como sinónimos | Se perdió la distinción entre «grado en que quien testimonia se parece al destinatario del mensaje» y «posibilidad de que un tercero compruebe que el testimonio es real» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «medir el efecto por segmento» | Se saltó «seleccionar referentes similares al destinatario»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **efecto de la prueba social** | La métrica local reemplazó al resultado del sistema | Contrástala con **representatividad declarada** y explicita el costo de oportunidad. |
+| Optimizar sólo **efecto de la prueba social** | La métrica local reemplazó al resultado del sistema | Contrástala con **afirmaciones comerciales con respaldo** y explicita el costo de oportunidad. |
 | Usar testimonios de segmentos distintos al destinatario | Error específico de esta clase | Selecciona referentes del mismo rubro y tamaño, con autorización verificable. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -229,7 +293,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **prueba social negativa** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **efecto de la prueba social**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Influence: The Psychology of Persuasion, New and Expanded* y *Winning on Purpose*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Influence: The Psychology of Persuasion, New and Expanded* y *Accounts, Excuses, and Apologies: Image Repair Theory and Research*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P13-C12-prueba-social/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **efecto de la prueba social**, **testimonios verificables** y **representatividad declarada** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **efecto de la prueba social**, **testimonios verificables**, **representatividad declarada** y **afirmaciones comerciales con respaldo** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -280,6 +344,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Jenni Romaniuk y Byron Sharp — [*How Brands Grow: Part 2*](https://openlibrary.org/isbn/9780195596267) (2015) · ISBN 9780195596267 — **aporta a esta clase:** las situaciones de compra como puntos de entrada a la memoria de categoría. **Dónde buscarlo:** el capítulo sobre puntos de entrada de categoría. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Fred Reichheld, Darci Darnell y Maureen Burns — [*Winning on Purpose*](https://openlibrary.org/isbn/9781647821784) (2021) · ISBN 9781647821784 — **aporta a esta clase:** los usos correctos e incorrectos del indicador de recomendación. **Dónde buscarlo:** los capítulos sobre medición de lealtad. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- William L. Benoit — [*Accounts, Excuses, and Apologies: Image Repair Theory and Research*](https://openlibrary.org/isbn/9781438454009) (2014, 2.ª ed.) · ISBN 9781438454009 — **aporta a esta clase:** las estrategias de reparación de imagen —negación, evasión de responsabilidad, reducción de la ofensividad, acción correctiva y mortificación— sólo funcionan frente a una acusación y una audiencia definidas. **Dónde buscarlo:** el capítulo que presenta la tipología de estrategias de reparación de imagen. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

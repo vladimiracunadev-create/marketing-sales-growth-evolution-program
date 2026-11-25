@@ -22,16 +22,16 @@ El contenido se organiza para que la conclusión pueda ser auditada por otra per
 
 > **Pregunta rectora de la parte:** ¿Qué debe existir para que el resultado no dependa de que yo esté en cada reunión?
 
-Los conceptos que estructuran la sesión son **resultado frente a plan**, **causa del desvío**, **decisión que requiere aprobación** y **transparencia sobre riesgos**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **resultado frente a plan**, **causa del desvío**, **decisión que requiere aprobación**, **transparencia sobre riesgos**, **parte interesada**, **prominencia**, **asuntos públicos** y **gestión de controversias**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `resultado frente a plan`, `causa del desvío`, `decisión que requiere aprobación` y `transparencia sobre riesgos` por sus observables y no por su definición memorizada.
+1. **Distinguir** `resultado frente a plan`, `causa del desvío`, `decisión que requiere aprobación`, `transparencia sobre riesgos`, `parte interesada`, `prominencia`, `asuntos públicos` y `gestión de controversias` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Dirección comercial: CMO, VP Sales y CRO**.
 3. **Aplicar** la secuencia **presentar resultado frente a plan con contexto → explicar las causas principales del desvío → declarar los riesgos antes de que se materialicen → solicitar explícitamente las decisiones que requieren aprobación → registrar los acuerdos y hacer seguimiento** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **anticipación de riesgos**, **decisiones resueltas en sesión** y **consistencia entre reportes** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **anticipación de riesgos**, **decisiones resueltas en sesión**, **consistencia entre reportes** y **temas emergentes con posición definida** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **causa del desvío** | explicación verificable de la diferencia entre lo planificado y lo logrado | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **decisión que requiere aprobación** | asunto que excede la autoridad de la gerencia | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 | **transparencia sobre riesgos** | declaración anticipada de los problemas relevantes | Da un hecho compatible con la definición y otro que la refute. |
+| **parte interesada** | persona o grupo que puede afectar o ser afectado por las decisiones de la organización | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **prominencia** | grado de atención que merece una parte interesada según su poder, legitimidad y urgencia | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **asuntos públicos** | relación de la organización con autoridades, reguladores y políticas que afectan su operación | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **gestión de controversias** | identificación temprana de temas que pueden transformarse en conflicto público y decisión sobre su tratamiento | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **anticipación de riesgos**: `riesgos repor
 
 Informar en detalle demuestra rigor y consume el tiempo escaso de un órgano que revisa muchas materias; informar poco agiliza y puede leerse como falta de control. La estructura que funciona presenta lo esencial y las decisiones al principio, con el detalle disponible como respaldo.
 
-**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: la transparencia de objetivos como mecanismo de alineamiento (los capítulos sobre alineación y conexión). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **consistencia entre reportes** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** John Doerr — *Measure What Matters* (2018) aporta el criterio para pesar el intercambio: la transparencia de objetivos como mecanismo de alineamiento (los capítulos sobre alineación y conexión). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **temas emergentes con posición definida** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **transparencia sobre riesgos** y otro de un supuesto del caso que nunca fue validado.
 
@@ -125,6 +129,65 @@ Sintetizar reporte al directorio no consiste en sumar definiciones. Empieza por 
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. El resultado no es una opinión mejor redactada: es una decisión con dueño, fecha y condición de revisión.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje U — Partes interesadas, asuntos públicos y gestión de controversias
+
+El reporte al directorio incluye riesgos que no figuran en el tablero comercial: relación con reguladores, comunidad, medios, empleados y proveedores. La matriz de partes interesadas registra, para cada una, qué espera, qué puede hacer a la organización, qué canal la alcanza y quién es el responsable. Priorizar por poder, legitimidad y urgencia evita atender solo a quien grita más fuerte.
+
+La gestión de controversias es un proceso previo a la crisis: se identifican temas con potencial de conflicto, se evalúa su probabilidad e impacto, se decide si se prepara posición, se dialoga o se ajusta la práctica. Los asuntos públicos operan dentro de la transparencia: la influencia legítima se declara y se documenta, no se ejerce de forma opaca.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Poder** | capacidad de afectar a la organización | evaluar con evidencia, no con intuición |
+| **Legitimidad** | derecho reconocido a reclamar | distinguir de la capacidad de hacer ruido |
+| **Urgencia** | plazo y criticidad del reclamo | ordenar la agenda de respuesta |
+| **Tema emergente** | controversia potencial | decidir preparar, dialogar o ajustar práctica |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Ruta Andina debe priorizar cinco partes interesadas ante un incidente de datos: clientes afectados, regulador, medio local, empleados y un influencer del rubro. Construye la matriz y define el orden de contacto.
+
+**Secuencia.** describir expectativa y canal por parte → puntuar poder, legitimidad y urgencia → ordenar prioridad → asignar responsable y plazo.
+
+**Solución orientadora.** Clientes afectados y regulador concentran legitimidad y urgencia; se contactan primero y con texto aprobado por Legal. Empleados se informan inmediatamente después para que no se enteren por medios. El medio local recibe una declaración al publicarse la comunicación a afectados. El influencer se atiende con la misma información pública, sin trato privilegiado.
+
+**Evidencia de aprendizaje.** matriz de partes interesadas con prioridad, canal, responsable y plazo.
+
+**Rúbrica.** 30 % criterio de priorización; 25 % canal adecuado; 25 % coherencia del mensaje; 20 % responsabilidad y plazo.
+
+#### Fichas de medición
+
+**temas emergentes con posición definida**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| temas priorizados con posición y responsable | temas priorizados | trimestral | registro de controversias y comité | Asuntos Corporativos |
+
+- **Lectura permitida:** mide preparación previa a la controversia.
+- **Limitación:** no mide la evolución pública del tema.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** ordenar información de partes interesadas y escenarios.
+- **Datos necesarios:** registro anonimizado de reclamos, normas y expectativas.
+- **Prompt reproducible:** `Resume por parte interesada las expectativas que aparecen en el registro. Indica qué datos faltan y no asignes puntajes sin criterios.`
+- **Resultado esperado:** resumen por parte interesada.
+- **Validación humana:** responsable valida expectativas con fuentes.
+- **Riesgos:** supuestos sobre personas y sesgo de selección.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** taller con matriz impresa.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** incidente de datos; cambio regulatorio; conflicto con comunidad; controversia pública del sector.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [23.12 · Ética y cultura comercial](../part-23-direccion-comercial-cmo-vp-sales-y-cro/class-12-etica-y-cultura.md) · [24.12 · Cumplimiento normativo en Chile](../part-24-empresa-real-regulacion-y-capstone/class-12-cumplimiento-chile.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -135,6 +198,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Robert S. Kaplan y David P. Norton — *The Balanced Scorecard* (1996) | Las cuatro perspectivas: financiera, cliente, procesos y aprendizaje | Los capítulos que presentan el cuadro de mando | ¿Qué debería observarse en **causa del desvío** si aquí opera «las cuatro perspectivas: financiera, cliente, procesos y aprendizaje»? ¿Y qué observación lo desmentiría en este caso? |
 | Jim Collins — *Good to Great* (2001) | Enfrentar los hechos brutales sin perder la fe en el resultado | El capítulo sobre la paradoja de Stockdale | ¿Qué debería observarse en **decisión que requiere aprobación** si aquí opera «enfrentar los hechos brutales sin perder la fe en el resultado»? ¿Y qué observación lo desmentiría en este caso? |
 | John Doerr — *Measure What Matters* (2018) | La transparencia de objetivos como mecanismo de alineamiento | Los capítulos sobre alineación y conexión | ¿Qué debería observarse en **transparencia sobre riesgos** si aquí opera «la transparencia de objetivos como mecanismo de alineamiento»? ¿Y qué observación lo desmentiría en este caso? |
+| Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood — *Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)* (1997) | Una parte interesada es más prominente cuanto más poder, legitimidad y urgencia reúne, y su clase determina la atención que merece | La sección sobre la tipología de atributos y clases de partes interesadas | ¿Qué debería observarse en **parte interesada** si aquí opera «una parte interesada es más prominente cuanto más poder, legitimidad y urgencia reúne, y su clase determina la atención que merece»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Declarar los riesgos antes de que se materialicen.** El riesgo de este paso es cerrar demasiado rápido alrededor de **decisión que requiere aprobación**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **consistencia entre reportes** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Solicitar explícitamente las decisiones que requieren aprobación.** Con **transparencia sobre riesgos** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **anticipación de riesgos** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Solicitar explícitamente las decisiones que requieren aprobación.** Con **transparencia sobre riesgos** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **temas emergentes con posición definida** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Registrar los acuerdos y hacer seguimiento.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **resultado frente a plan**. **decisiones resueltas en sesión** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Registrar los acuerdos y hacer seguimiento.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **parte interesada**. **anticipación de riesgos** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **resultado frente a plan** y **causa del desvío** como sinónimos | Se perdió la distinción entre «comparación del desempeño con el compromiso previo» y «explicación verificable de la diferencia entre lo planificado y lo logrado» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «registrar los acuerdos y hacer seguimiento» | Se saltó «presentar resultado frente a plan con contexto»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **anticipación de riesgos** | La métrica local reemplazó al resultado del sistema | Contrástala con **consistencia entre reportes** y explicita el costo de oportunidad. |
+| Optimizar sólo **anticipación de riesgos** | La métrica local reemplazó al resultado del sistema | Contrástala con **temas emergentes con posición definida** y explicita el costo de oportunidad. |
 | Reportar un riesgo cuando ya se materializó | Error específico de esta clase | Declara los riesgos relevantes en el reporte anterior a su posible materialización. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -229,7 +293,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **decisión que requiere aprobación** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **anticipación de riesgos**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *High Output Management* y *Measure What Matters*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *High Output Management* y *Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P23-C13-board-reporting/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **anticipación de riesgos**, **decisiones resueltas en sesión** y **consistencia entre reportes** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **anticipación de riesgos**, **decisiones resueltas en sesión**, **consistencia entre reportes** y **temas emergentes con posición definida** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -280,6 +344,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Robert S. Kaplan y David P. Norton — [*The Balanced Scorecard*](https://openlibrary.org/isbn/9780875846514) (1996) · ISBN 9780875846514 — **aporta a esta clase:** las cuatro perspectivas: financiera, cliente, procesos y aprendizaje. **Dónde buscarlo:** los capítulos que presentan el cuadro de mando. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Jim Collins — [*Good to Great*](https://openlibrary.org/isbn/9780066620992) (2001) · ISBN 9780066620992 — **aporta a esta clase:** enfrentar los hechos brutales sin perder la fe en el resultado. **Dónde buscarlo:** el capítulo sobre la paradoja de Stockdale. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - John Doerr — [*Measure What Matters*](https://openlibrary.org/isbn/9780525536222) (2018) · ISBN 9780525536222 — **aporta a esta clase:** la transparencia de objetivos como mecanismo de alineamiento. **Dónde buscarlo:** los capítulos sobre alineación y conexión. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood — [*Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)*](https://doi.org/10.5465/amr.1997.9711022105) (1997) · DOI 10.5465/amr.1997.9711022105 — **aporta a esta clase:** una parte interesada es más prominente cuanto más poder, legitimidad y urgencia reúne, y su clase determina la atención que merece. **Dónde buscarlo:** la sección sobre la tipología de atributos y clases de partes interesadas. **Acceso:** acceso limitado. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

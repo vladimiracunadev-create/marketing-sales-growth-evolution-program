@@ -2,7 +2,7 @@
 
 # Bibliografía
 
-103 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
+110 obras de referencia. El repositorio **no distribuye** ninguna de ellas: cita, contrasta y enseña a usarlas de forma selectiva. El acceso debe obtenerse por biblioteca, editorial, librería o suscripción legítima.
 
 ## Cómo se usa la bibliografía en este programa
 
@@ -41,6 +41,7 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 | Geoffrey A. Moore — *Crossing the Chasm* (2014, 3.ª ed.) | adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos | 25 clases | [9780062293008](https://openlibrary.org/isbn/9780062293008) |
 | Richard Rumelt — *Good Strategy / Bad Strategy* (2011) | diagnóstico, política rectora y acción coherente frente a la estrategia decorativa | 20 clases | [9781846684807](https://openlibrary.org/isbn/9781846684807) |
 | Peter F. Drucker — *The Practice of Management* (1954) | el propósito de una empresa es crear un cliente; marketing e innovación como funciones centrales | 01.01 | [9780060110956](https://openlibrary.org/isbn/9780060110956) |
+| Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood — *Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)* (1997) | prominencia de cada parte interesada según poder, legitimidad y urgencia | 23.13 | [10.5465/amr.1997.9711022105](https://doi.org/10.5465/amr.1997.9711022105) |
 | Michael E. Porter — *What Is Strategy? (Harvard Business Review)* (1996) | estrategia como sistema de actividades coherentes y elección explícita de qué no hacer | 6 clases | [fuente primaria](https://hbr.org/1996/11/what-is-strategy) |
 
 ## Cliente y Jobs to Be Done
@@ -75,14 +76,20 @@ Las normas chilenas son la excepción: se leen completas y gratis, y cada clase 
 |---|---|---|---|
 | David A. Aaker — *Building Strong Brands* (1996) | brand equity, identidad de marca y arquitectura de portafolio | 12 clases | [9780029001516](https://openlibrary.org/isbn/9780029001516) |
 | Alina Wheeler y Rob Meyerson — *Designing Brand Identity* (2024, 6.ª ed.) | proceso de identidad de marca: investigación, diseño, aplicación y gobierno | 7 clases | [9781119984825](https://openlibrary.org/isbn/9781119984825) |
+| Dorie Clark — *Reinventing You: Define Your Brand, Imagine Your Future* (2013) | método para definir, evidenciar y reposicionar una marca personal profesional | 11.06 | [9781422144138](https://openlibrary.org/isbn/9781422144138) |
 | Kevin Lane Keller y Vanitha Swaminathan — *Strategic Brand Management* (2019, 5.ª ed.) | modelo CBBE: notoriedad, significado, respuesta y resonancia de marca | 13 clases | [9780134892498](https://openlibrary.org/isbn/9780134892498) |
+| Tim Ambler y Simon Barrow — *The Employer Brand (Journal of Brand Management)* (1996) | aplicación de la gestión de marca al empleo: beneficios funcionales, económicos y psicológicos | 06.11 | [10.1057/bm.1996.42](https://doi.org/10.1057/bm.1996.42) |
 | Pankaj Aggarwal y Ann L. McGill — *When Brands Seem Human, Do Humans Act Like Brands?* (2012) | efectos conductuales y condiciones de la antropomorfización de marca | 06.06 | [10.1086/662614](https://doi.org/10.1086/662614) |
 
 ## Comunicación
 
 | Obra | Lente que aporta | Clases que la usan | Dónde |
 |---|---|---|---|
+| William L. Benoit — *Accounts, Excuses, and Apologies: Image Repair Theory and Research* (2014, 2.ª ed.) | tipología de estrategias de reparación de imagen y condiciones de su eficacia | 13.12 | [9781438454009](https://openlibrary.org/isbn/9781438454009) |
+| Claire Wardle y Hossein Derakhshan — *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making* (2017) | taxonomía de información errónea, desinformación y malinformación para analizar incidentes | 03.11 | [fuente primaria](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c) |
 | Chip Heath y Dan Heath — *Made to Stick* (2007) | ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción | 12 clases | [9781400064281](https://openlibrary.org/isbn/9781400064281) |
+| W. Timothy Coombs — *Ongoing Crisis Communication: Planning, Managing, and Responding* (2019, 5.ª ed.) | comunicación de crisis por etapas y selección de respuesta según la atribución de responsabilidad | 12.07 | [9781544331959](https://openlibrary.org/isbn/9781544331959) |
+| Charles J. Fombrun — *Reputation: Realizing Value from the Corporate Image* (1996) | reputación como evaluación comparada de los públicos clave y como activo con valor económico | 06.10 | [9780875846330](https://openlibrary.org/isbn/9780875846330) |
 
 ## Contenido y copywriting
 

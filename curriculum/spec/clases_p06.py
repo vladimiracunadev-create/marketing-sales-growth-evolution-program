@@ -433,7 +433,8 @@ CLASES = [
             "La comunicación no sustituye la reparación. Un protocolo impecable sobre un problema no resuelto "
             "acelera la pérdida de confianza."
         ),
-        libros=["reichheld", "godin", "dixon-effort", "fiscalia-ac-inversions"],
+        libros=["reichheld", "godin", "dixon-effort", "fiscalia-ac-inversions", "fombrun"],
+        normas_adicionales=["ley-19733", "ley-20393"],
         error=("Comunicar antes de reparar",
                "Define el protocolo: contención, reparación, comunicación y prevención documentada, en ese orden."),
     ),
@@ -486,7 +487,7 @@ CLASES = [
             "características corporales, identidad o expresión de género convierte la consultoría en discriminación. "
             "Además, si el activo comercial reside sólo en una persona, su salida se lleva parte de la relación."
         ),
-        libros=["solomon", "wheeler", "handley", "godin"],
+        libros=["solomon", "wheeler", "handley", "godin", "ambler-barrow"],
         error=("Confundir adecuación contextual con competencia",
                "Describe la señal y el contexto, conserva comodidad e identidad, y exige evidencia de desempeño antes de atribuir capacidad."),
     ),

@@ -59,6 +59,28 @@
       "status": "verificada"
     },
     {
+      "id": "ambler-barrow",
+      "type": "paper",
+      "authors": [
+        "Ambler, Tim",
+        "Barrow, Simon"
+      ],
+      "title": "The Employer Brand (Journal of Brand Management)",
+      "published": "1996",
+      "edition": "1996",
+      "authority": "Journal of Brand Management / Palgrave",
+      "category": "marca",
+      "contribution": "aplicación de la gestión de marca al empleo: beneficios funcionales, económicos y psicológicos",
+      "cited_as": "Tim Ambler y Simon Barrow",
+      "access": "restringida",
+      "doi": "10.1057/bm.1996.42",
+      "locator": "https://doi.org/10.1057/bm.1996.42",
+      "used_in": [
+        "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-11-employer-y-personal-branding.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "ambrose",
       "type": "book",
       "authors": [
@@ -441,6 +463,27 @@
         "curriculum/part-02-cliente-y-comportamiento-del-consumidor/class-09-sesgos-cognitivos-y-decisiones.md",
         "curriculum/part-05-producto-oferta-y-propuesta-de-valor/class-07-packaging-y-bundling.md",
         "curriculum/part-10-negociacion-comercial/class-05-anclaje.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "benoit",
+      "type": "book",
+      "authors": [
+        "Benoit, William L."
+      ],
+      "title": "Accounts, Excuses, and Apologies: Image Repair Theory and Research",
+      "published": "2014",
+      "edition": "2014, 2.ª ed.",
+      "authority": "State University of New York Press",
+      "category": "comunicacion",
+      "contribution": "tipología de estrategias de reparación de imagen y condiciones de su eficacia",
+      "cited_as": "William L. Benoit",
+      "access": "comercial",
+      "isbn13": "9781438454009",
+      "locator": "https://openlibrary.org/isbn/9781438454009",
+      "used_in": [
+        "curriculum/part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md"
       ],
       "status": "verificada"
     },
@@ -1156,6 +1199,27 @@
       "status": "verificada"
     },
     {
+      "id": "clark",
+      "type": "book",
+      "authors": [
+        "Clark, Dorie"
+      ],
+      "title": "Reinventing You: Define Your Brand, Imagine Your Future",
+      "published": "2013",
+      "edition": "2013",
+      "authority": "Harvard Business Review Press",
+      "category": "marca",
+      "contribution": "método para definir, evidenciar y reposicionar una marca personal profesional",
+      "cited_as": "Dorie Clark",
+      "access": "comercial",
+      "isbn13": "9781422144138",
+      "locator": "https://openlibrary.org/isbn/9781422144138",
+      "used_in": [
+        "curriculum/part-11-prospeccion-y-generacion-de-demanda/class-06-linkedin-y-social-selling.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "collins",
       "type": "book",
       "authors": [
@@ -1183,6 +1247,27 @@
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-12-etica-y-cultura.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md",
         "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-14-operating-system-del-cro.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "coombs",
+      "type": "book",
+      "authors": [
+        "Coombs, W. Timothy"
+      ],
+      "title": "Ongoing Crisis Communication: Planning, Managing, and Responding",
+      "published": "2019",
+      "edition": "2019, 5.ª ed.",
+      "authority": "SAGE Publications",
+      "category": "comunicacion",
+      "contribution": "comunicación de crisis por etapas y selección de respuesta según la atribución de responsabilidad",
+      "cited_as": "W. Timothy Coombs",
+      "access": "comercial",
+      "isbn13": "9781544331959",
+      "locator": "https://openlibrary.org/isbn/9781544331959",
+      "used_in": [
+        "curriculum/part-12-marketing-digital-y-adquisicion/class-07-social-media.md"
       ],
       "status": "verificada"
     },
@@ -2556,6 +2641,27 @@
       "status": "verificada"
     },
     {
+      "id": "fombrun",
+      "type": "book",
+      "authors": [
+        "Fombrun, Charles J."
+      ],
+      "title": "Reputation: Realizing Value from the Corporate Image",
+      "published": "1996",
+      "edition": "1996",
+      "authority": "Harvard Business School Press",
+      "category": "comunicacion",
+      "contribution": "reputación como evaluación comparada de los públicos clave y como activo con valor económico",
+      "cited_as": "Charles J. Fombrun",
+      "access": "comercial",
+      "isbn13": "9780875846330",
+      "locator": "https://openlibrary.org/isbn/9780875846330",
+      "used_in": [
+        "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md"
+      ],
+      "status": "verificada"
+    },
+    {
       "id": "geddes",
       "type": "book",
       "authors": [
@@ -3474,6 +3580,29 @@
         "curriculum/part-16-crm-pipeline-y-sales-operations/class-03-etapas-y-criterios-de-salida.md",
         "curriculum/part-16-crm-pipeline-y-sales-operations/class-10-sales-velocity.md",
         "curriculum/part-16-crm-pipeline-y-sales-operations/class-12-revision-de-pipeline.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "mitchell-agle-wood",
+      "type": "paper",
+      "authors": [
+        "Mitchell, Ronald K.",
+        "Agle, Bradley R.",
+        "Wood, Donna J."
+      ],
+      "title": "Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)",
+      "published": "1997",
+      "edition": "1997",
+      "authority": "Academy of Management Review",
+      "category": "estrategia",
+      "contribution": "prominencia de cada parte interesada según poder, legitimidad y urgencia",
+      "cited_as": "Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood",
+      "access": "restringida",
+      "doi": "10.5465/amr.1997.9711022105",
+      "locator": "https://doi.org/10.5465/amr.1997.9711022105",
+      "used_in": [
+        "curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro/class-13-board-reporting.md"
       ],
       "status": "verificada"
     },
@@ -4710,6 +4839,29 @@
         "curriculum/part-10-negociacion-comercial/class-01-preparacion-de-una-negociacion.md",
         "curriculum/part-10-negociacion-comercial/class-05-anclaje.md",
         "curriculum/part-10-negociacion-comercial/class-11-tacticas-dificiles.md"
+      ],
+      "status": "verificada"
+    },
+    {
+      "id": "wardle-derakhshan",
+      "type": "reference",
+      "authors": [
+        "Wardle, Claire",
+        "Derakhshan, Hossein"
+      ],
+      "title": "Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making",
+      "published": "2017",
+      "edition": "2017",
+      "authority": "Council of Europe",
+      "category": "comunicacion",
+      "contribution": "taxonomía de información errónea, desinformación y malinformación para analizar incidentes",
+      "cited_as": "Claire Wardle y Hossein Derakhshan",
+      "access": "abierta",
+      "locator": "https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c",
+      "accessed": "2026-11-25",
+      "note": "Informe DGI(2017)09 del Consejo de Europa. Uso: distinguir información errónea, desinformación y malinformación; no se usa para atribuir intención a un caso concreto.",
+      "used_in": [
+        "curriculum/part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md"
       ],
       "status": "verificada"
     },

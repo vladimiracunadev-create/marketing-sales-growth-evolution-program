@@ -1407,20 +1407,27 @@
             "señal débil",
             "sesgo de voz",
             "vocabulario del cliente",
-            "umbral de acción"
+            "umbral de acción",
+            "señal débil",
+            "umbral de alerta",
+            "rumor",
+            "severidad de una señal"
           ],
           "senales": [
             "volumen y tono por tema",
             "tiempo de detección",
-            "tasa de confirmación"
+            "tasa de confirmación",
+            "alertas críticas verificadas"
           ],
           "libros": [
             "kaushik",
             "godin",
             "chaffey",
-            "solomon"
+            "solomon",
+            "wardle-derakhshan"
           ],
           "anclajes": {
+            "wardle-derakhshan": "trastorno-informacion",
             "kaushik": "multiplicidad",
             "godin": "publico-minimo",
             "chaffey": "medios-propios",
@@ -2900,24 +2907,32 @@
             "manejo de errores",
             "coherencia observable",
             "costo de recuperación",
-            "estado procesal"
+            "estado procesal",
+            "capital reputacional",
+            "control de daños",
+            "encubrimiento",
+            "reparación verificable",
+            "crisis"
           ],
           "senales": [
             "respuesta material oportuna",
             "resolución en primera instancia",
-            "actualizaciones cumplidas"
+            "actualizaciones cumplidas",
+            "tiempo hasta primera comunicación confirmada"
           ],
           "libros": [
             "reichheld",
             "godin",
             "dixon-effort",
-            "fiscalia-ac-inversions"
+            "fiscalia-ac-inversions",
+            "fombrun"
           ],
           "anclajes": {
             "reichheld": "proposito",
             "godin": "permiso",
             "dixon-effort": "resolucion-siguiente",
-            "fiscalia-ac-inversions": "estado-procesal"
+            "fiscalia-ac-inversions": "estado-procesal",
+            "fombrun": "capital-reputacional"
           },
           "ruta": "curriculum/part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md"
         },
@@ -2934,20 +2949,27 @@
             "marca empleadora",
             "marca personal profesional",
             "imagen profesional",
-            "coherencia omnicanal personal"
+            "coherencia omnicanal personal",
+            "vocería",
+            "mensaje central",
+            "pregunta difícil",
+            "exposición pública del empleado"
           ],
           "senales": [
             "coherencia de señales profesionales",
             "origen de candidatos",
-            "rotación temprana"
+            "rotación temprana",
+            "preparación de vocería completada"
           ],
           "libros": [
             "solomon",
             "wheeler",
             "handley",
-            "godin"
+            "godin",
+            "ambler-barrow"
           ],
           "anclajes": {
+            "ambler-barrow": "paquete-empleo",
             "solomon": "identidad",
             "wheeler": "aplicabilidad",
             "handley": "estandar-editorial",
@@ -5279,9 +5301,11 @@
             "blount",
             "godin",
             "handley",
-            "vaynerchuk"
+            "vaynerchuk",
+            "clark"
           ],
           "anclajes": {
+            "clark": "marca-personal-evidencia",
             "blount": "disciplina",
             "godin": "permiso",
             "handley": "empatia",
@@ -5801,20 +5825,27 @@
             "función del canal por etapa",
             "alcance orgánico",
             "comunidad",
-            "atención pública"
+            "atención pública",
+            "moderación",
+            "protocolo de escalamiento",
+            "silencio de calendario",
+            "respuesta pública y privada"
           ],
           "senales": [
             "alcance y participación por función",
             "tiempo de respuesta en atención pública",
-            "oportunidades originadas por red"
+            "oportunidades originadas por red",
+            "tiempo de primera respuesta pública"
           ],
           "libros": [
             "godin",
             "vaynerchuk",
             "chaffey",
-            "handley"
+            "handley",
+            "coombs"
           ],
           "anclajes": {
+            "coombs": "atribucion-responsabilidad",
             "godin": "cambio",
             "vaynerchuk": "contexto-canal",
             "chaffey": "modelo-canal",
@@ -6470,20 +6501,27 @@
             "similitud del referente",
             "verificabilidad",
             "prueba social negativa",
-            "transparencia de incentivos"
+            "transparencia de incentivos",
+            "publicidad engañosa",
+            "reseña auténtica",
+            "cuenta falsa",
+            "retractación"
           ],
           "senales": [
             "efecto de la prueba social",
             "testimonios verificables",
-            "representatividad declarada"
+            "representatividad declarada",
+            "afirmaciones comerciales con respaldo"
           ],
           "libros": [
             "cialdini",
             "sharp2",
             "godin",
-            "reichheld"
+            "reichheld",
+            "benoit"
           ],
           "anclajes": {
+            "benoit": "reparacion-imagen",
             "cialdini": "prueba-social",
             "sharp2": "situaciones-compra",
             "godin": "permiso",
@@ -10493,12 +10531,17 @@
             "conjunto de evaluación",
             "guardarraíl",
             "monitoreo posterior",
-            "umbral de aceptación"
+            "umbral de aceptación",
+            "suplantación de identidad",
+            "deepfake",
+            "procedencia de contenido",
+            "verificación independiente"
           ],
           "senales": [
             "desempeño en el conjunto de evaluación",
             "incidentes por guardarraíl activado",
-            "deriva de desempeño"
+            "deriva de desempeño",
+            "incidentes de suplantación contenidos"
           ],
           "libros": [
             "nist-airmf",
@@ -11529,20 +11572,27 @@
             "resultado frente a plan",
             "causa del desvío",
             "decisión que requiere aprobación",
-            "transparencia sobre riesgos"
+            "transparencia sobre riesgos",
+            "parte interesada",
+            "prominencia",
+            "asuntos públicos",
+            "gestión de controversias"
           ],
           "senales": [
             "anticipación de riesgos",
             "decisiones resueltas en sesión",
-            "consistencia entre reportes"
+            "consistencia entre reportes",
+            "temas emergentes con posición definida"
           ],
           "libros": [
             "grove",
             "kaplan-norton",
             "collins",
-            "doerr"
+            "doerr",
+            "mitchell-agle-wood"
           ],
           "anclajes": {
+            "mitchell-agle-wood": "prominencia",
             "grove": "reuniones",
             "kaplan-norton": "cuatro-perspectivas",
             "collins": "hechos-brutales",

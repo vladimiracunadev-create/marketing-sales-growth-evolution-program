@@ -8,17 +8,17 @@ Inventario cuantitativo verificable. Los números se calculan contando archivos 
 |---|---:|
 | Partes del currículo | 24 |
 | Clases | 336 |
-| Palabras en las clases | 1.819.556 |
-| Conceptos con definición operacional | 1419 |
-| Señales y métricas definidas | 1038 |
-| Obras en la bibliografía | 103 |
+| Palabras en las clases | 1.826.700 |
+| Conceptos con definición operacional | 1448 |
+| Señales y métricas definidas | 1045 |
+| Obras en la bibliografía | 110 |
 | Laboratorios | 48 |
 | Evaluaciones de parte | 24 |
 | Casos extendidos | 24 |
 | Proyectos integradores | 12 |
 | Notebooks de analítica | 8 |
 | Conjuntos de datos | 5 |
-| Plantillas | 16 |
+| Plantillas | 21 |
 
 ## Verificación
 

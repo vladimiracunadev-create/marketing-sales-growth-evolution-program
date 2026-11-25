@@ -456,7 +456,7 @@ CLASES = [
             "El monitoreo de conversaciones debe respetar la privacidad y los términos de cada plataforma. "
             "Recolectar y almacenar datos personales de personas identificables exige base legal."
         ),
-        libros=["kaushik", "godin", "chaffey", "solomon"],
+        libros=["kaushik", "godin", "chaffey", "solomon", "wardle-derakhshan"],
         error=("Tomar comentarios aislados como tendencia",
                "Fija un umbral de menciones y una verificación con datos propios antes de escalar la señal."),
     ),

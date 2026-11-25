@@ -242,7 +242,7 @@ CLASES = [
             "Las plataformas tienen términos de uso que prohíben ciertas automatizaciones. Infringirlos puede "
             "costar la cuenta y la reputación asociada."
         ),
-        libros=["blount", "godin", "handley", "vaynerchuk"],
+        libros=["blount", "godin", "handley", "vaynerchuk", "clark"],
         error=("Automatizar mensajes idénticos a escala",
                "Personaliza sobre una señal concreta y mide conversaciones sostenidas, no contactos agregados."),
     ),

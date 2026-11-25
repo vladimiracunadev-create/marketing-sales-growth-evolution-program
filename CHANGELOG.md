@@ -6,6 +6,19 @@ nuevo, **parche** = correcciones.
 
 ## [Sin publicar]
 
+- Añadida la especialización «Reputación, relaciones públicas y comunicación de crisis», sin alterar la
+  grilla de 24 partes y 336 clases: diez clases de más de 2.500 palabras, seis laboratorios, ocho escenarios de
+  crisis con decisiones alternativas, evaluación integradora, ocho rutas por rol y cinco niveles de dominio,
+  generados desde `curriculum/spec/reputacion*.py` con `tools/build_reputacion.py`.
+- Incorporadas siete ampliaciones (ejes O–U) en las clases 06.10, 06.11, 03.11, 12.07, 13.12, 21.12 y 23.13
+  con control de daños frente a encubrimiento, vocería, escucha y alertas, community management, publicidad
+  engañosa, deepfakes y suplantación, y partes interesadas.
+- Registradas siete obras nuevas (Fombrun, Coombs, Benoit, Clark, Ambler y Barrow, Mitchell, Agle y Wood,
+  Wardle y Derakhshan) y dos normas chilenas (Leyes 19.733 y 20.393), cada una anclada a una idea concreta.
+- Añadidas diez plantillas de reputación en `templates/reputation/`, la matriz de competencias, la auditoría
+  de cobertura y tres variantes profesionales en las rutas por rol; `validate_depth.py` valida la
+  especialización por separado sin sumar sus clases a las 336 del currículo.
+
 - Integrada la ampliación curricular A–N en 14 clases existentes, sin alterar las 24 partes ni las 336
   clases: valor, Buyer Persona, entrevistas, producto, entorno, marketing mix, ciclo de vida, pricing,
   Agile, personalización, CX, productividad e innovación.

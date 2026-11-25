@@ -42,9 +42,12 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `curriculum/part-22-go-to-market-canales-y-expansion` | 15 | README.md, class-01-que-es-una-estrategia-gtm.md, class-02-market-entry.md, class-03-beachhead-market.md, class-04-sales-led-growth.md, class-05-product-led-growth.md… |
 | `curriculum/part-23-direccion-comercial-cmo-vp-sales-y-cro` | 15 | README.md, class-01-diseno-de-la-organizacion-comercial.md, class-02-roles-y-responsabilidades.md, class-03-contratacion.md, class-04-onboarding-de-equipos.md, class-05-compensacion-e-incentivos.md… |
 | `curriculum/part-24-empresa-real-regulacion-y-capstone` | 15 | README.md, class-01-diseno-de-la-empresa-del-capstone.md, class-02-seleccion-de-mercado-y-problema.md, class-03-investigacion-con-evidencia.md, class-04-oferta-y-pricing.md, class-05-marca-y-activos-comerciales.md… |
-| `curriculum/spec` | 58 | __init__.py, ampliaciones_integrales.py, anclajes.py, aportes.py, bibliografia.py, clases_p01.py… |
+| `curriculum/spec` | 64 | __init__.py, ampliaciones_integrales.py, ampliaciones_reputacion.py, anclajes.py, aportes.py, bibliografia.py… |
+| `curriculum/specializations/reputacion-relaciones-publicas-y-crisis` | 12 | README.md, assessment.md, clase-01-identidad-imagen-y-capital-reputacional.md, clase-02-marca-personal-profesional-y-de-liderazgo.md, clase-03-relaciones-publicas-medios-y-comunicacion-corporativa.md, clase-04-partes-interesadas-asuntos-publicos-y-controversias.md… |
+| `curriculum/specializations/reputacion-relaciones-publicas-y-crisis/labs` | 6 | lab-01-auditoria-reputacional-y-plan-de-gestion.md, lab-02-manual-de-marca-personal-y-guia-de-voceria.md, lab-03-matriz-de-partes-interesadas-y-mapa-de-controversias.md, lab-04-sistema-de-escucha-e-indicadores-reputacionales.md, lab-05-protocolo-de-crisis-y-plantillas-de-declaracion.md, lab-06-verificacion-de-desinformacion-y-politica-de-redes.md |
+| `curriculum/specializations/reputacion-relaciones-publicas-y-crisis/scenarios` | 8 | scenario-01-declaracion-polemica-de-un-ejecutivo.md, scenario-02-publicidad-enganosa.md, scenario-03-falla-de-producto.md, scenario-04-reclamos-de-consumidores.md, scenario-05-crisis-de-reputacion-digital.md, scenario-06-filtracion-de-informacion.md… |
 | `datasets` | 6 | README.md, campaigns.csv, customers.csv, ecommerce_orders.csv, experiments.csv, leads.csv |
-| `docs` | 26 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, AUDITORIA-AMPLIACION-INTEGRAL.md, AUDITORIA-COMMERCIAL-EVIDENCE.md, BIBLIOGRAFIA.md, COMMERCIAL_USE.md… |
+| `docs` | 28 | ACCESIBILIDAD.md, ARQUITECTURA-DEL-PROGRAMA.md, AUDITORIA-AMPLIACION-INTEGRAL.md, AUDITORIA-AMPLIACION-REPUTACION.md, AUDITORIA-COMMERCIAL-EVIDENCE.md, BIBLIOGRAFIA.md… |
 | `evidence` | 2 | .gitkeep, README.md |
 | `labs/part-01` | 2 | lab-01-1-b2c-b2b-b2g-y-modelos-hibridos.md, lab-01-2-ventas-transaccionales-y-consultivas.md |
 | `labs/part-02` | 2 | lab-02-1-buyer-persona-con-evidencia.md, lab-02-2-riesgo-percibido-y-confianza.md |
@@ -92,11 +95,12 @@ Inventario del repositorio, excluyendo artefactos generados de compilación y co
 | `templates/performance` | 1 | experiment.md |
 | `templates/pricing` | 1 | pricing-model.csv |
 | `templates/prospecting` | 1 | sequence.md |
+| `templates/reputation` | 7 | guia-voceria.md, indicadores-reputacionales.csv, manual-marca-personal.md, matriz-partes-interesadas.csv, plan-gestion-reputacional.md, plantillas-declaraciones.md… |
 | `templates/revops` | 1 | sla.md |
 | `templates/sales` | 3 | discovery-notes.md, meddpicc.md, objection-log.csv |
 | `templates/strategy` | 2 | commercial-evidence-pack.md, stp-canvas.md |
-| `tests` | 9 | conftest.py, test_ampliaciones_integrales.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py… |
-| `tools` | 15 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_fuentes.py, build_practica.py… |
+| `tests` | 10 | conftest.py, test_ampliaciones_integrales.py, test_contenido_publicado.py, test_especificacion.py, test_fundamentacion.py, test_integridad.py… |
+| `tools` | 16 | audit_fuentes.py, build_bibliography_json.py, build_curriculum.py, build_docs.py, build_fuentes.py, build_practica.py… |
 
 ---
 

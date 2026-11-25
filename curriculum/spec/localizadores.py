@@ -905,6 +905,40 @@ LOCALIZADORES = {
         "estado": "verificada",
     },
 
+    # --- Reputación, relaciones públicas y crisis -----------------------------
+    "fombrun": {
+        "tipo": "book", "autores": ["Fombrun, Charles J."], "publicado": "1996",
+        "isbn13": "9780875846330", "autoridad": "Harvard Business School Press", "estado": "verificada",
+    },
+    "coombs": {
+        "tipo": "book", "autores": ["Coombs, W. Timothy"], "publicado": "2019",
+        "isbn13": "9781544331959", "autoridad": "SAGE Publications", "estado": "verificada",
+    },
+    "benoit": {
+        "tipo": "book", "autores": ["Benoit, William L."], "publicado": "2014",
+        "isbn13": "9781438454009", "autoridad": "State University of New York Press", "estado": "verificada",
+    },
+    "clark": {
+        "tipo": "book", "autores": ["Clark, Dorie"], "publicado": "2013",
+        "isbn13": "9781422144138", "autoridad": "Harvard Business Review Press", "estado": "verificada",
+    },
+    "ambler-barrow": {
+        "acceso": "restringida", "tipo": "paper", "autores": ["Ambler, Tim", "Barrow, Simon"], "publicado": "1996",
+        "doi": "10.1057/bm.1996.42", "autoridad": "Journal of Brand Management / Palgrave", "estado": "verificada",
+    },
+    "mitchell-agle-wood": {
+        "acceso": "restringida", "tipo": "paper", "autores": ["Mitchell, Ronald K.", "Agle, Bradley R.", "Wood, Donna J."],
+        "publicado": "1997", "doi": "10.5465/amr.1997.9711022105",
+        "autoridad": "Academy of Management Review", "estado": "verificada",
+    },
+    "wardle-derakhshan": {
+        "acceso": "abierta", "tipo": "reference", "autores": ["Wardle, Claire", "Derakhshan, Hossein"], "publicado": "2017",
+        "url": "https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c",
+        "autoridad": "Council of Europe", "consultado": "2026-11-25",
+        "nota": "Informe DGI(2017)09 del Consejo de Europa. Uso: distinguir información errónea, desinformación y malinformación; no se usa para atribuir intención a un caso concreto.",
+        "estado": "verificada",
+    },
+
     # --- Precio y monetización -----------------------------------------------
     "nagle": {
         "tipo": "book",

@@ -70,6 +70,7 @@ Estas son las obras sobre las que se apoya la parte, con lo que aporta cada una 
 | Alistair Croll y Benjamin Yoskovitz — [*Lean Analytics*](https://openlibrary.org/isbn/9781449335670) (2013) | una métrica que importa por etapa y por modelo de negocio | 1 | ISBN 9781449335670 | comprar o biblioteca |
 | Aaron Ross y Marylou Tyler — [*Predictable Revenue*](https://openlibrary.org/isbn/9780984380213) (2011) | especialización de roles comerciales y generación de pipeline predecible | 1 | ISBN 9780984380213 | comprar o biblioteca |
 | Neil Rackham — [*SPIN Selling*](https://openlibrary.org/isbn/9780070511132) (1988) | investigación conductual sobre venta compleja: situación, problema, implicación y necesidad-beneficio | 1 | ISBN 9780070511132 | comprar o biblioteca |
+| Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood — [*Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)*](https://doi.org/10.5465/amr.1997.9711022105) (1997) | prominencia de cada parte interesada según poder, legitimidad y urgencia | 1 | DOI 10.5465/amr.1997.9711022105 | acceso limitado |
 | Donald J. Wheeler — [*Understanding Variation*](https://openlibrary.org/isbn/9780945320531) (2000) | distinguir variación común de variación especial antes de reaccionar a un KPI | 1 | ISBN 9780945320531 | comprar o biblioteca |
 | Cathy O'Neil — [*Weapons of Math Destruction*](https://openlibrary.org/isbn/9780141985428) (2016) | daños de los modelos opacos a escala y necesidad de auditoría | 1 | ISBN 9780141985428 | comprar o biblioteca |
 

@@ -523,7 +523,7 @@ CLASES = [
             "Un reporte exhaustivo consume el tiempo del directorio en detalle operativo. La selección es "
             "parte del trabajo de dirección."
         ),
-        libros=["grove", "kaplan-norton", "collins", "doerr"],
+        libros=["grove", "kaplan-norton", "collins", "doerr", "mitchell-agle-wood"],
         error=("Reportar un riesgo cuando ya se materializó",
                "Declara los riesgos relevantes en el reporte anterior a su posible materialización."),
     ),

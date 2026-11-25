@@ -491,6 +491,8 @@ def main():
             ("cases", "Casos", "24 casos extendidos con complicación"),
             ("projects", "Proyectos", "12 proyectos integradores acumulativos"),
             ("capstone", "Capstone", "Operación comercial completa y defensa"),
+            ("curriculum/specializations/reputacion-relaciones-publicas-y-crisis", "Reputación y crisis",
+             "Especialización: 10 clases, 6 laboratorios y 8 escenarios de crisis"),
             ("docs", "Documentación", "Metodología, estándares, glosario y regulación"),
         ])
     tarjetas += ('<a class="tarjeta" href="apps/learning-dashboard/index.html"><strong>Panel de progreso</strong>'

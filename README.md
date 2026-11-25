@@ -58,6 +58,22 @@ producto, CX, growth, RevOps y dirección comercial.
 
 ---
 
+## 🛡️ Especialización: reputación, relaciones públicas y comunicación de crisis
+
+Ruta transversal que **no altera las 24 partes ni las 336 clases**. Agrega diez clases, seis laboratorios y ocho
+escenarios de crisis con decisiones alternativas (declaración polémica de un ejecutivo, publicidad engañosa,
+falla de producto, reclamos de consumidores, crisis digital, filtración, desinformación y controversias de
+empleados e influencers), más siete ampliaciones en clases existentes. Distingue prevención, detección,
+contención, respuesta, corrección, recuperación y aprendizaje; control de daños de encubrimiento; y
+relaciones públicas de publicidad.
+
+- [🛡️ Especialización completa y rutas por rol](curriculum/specializations/reputacion-relaciones-publicas-y-crisis/README.md)
+- [📋 Auditoría y matriz EXISTE / PARCIAL / FALTA](docs/AUDITORIA-AMPLIACION-REPUTACION.md)
+- [🧩 Matriz de competencias profesionales](docs/MATRIZ-COMPETENCIAS-REPUTACION.md)
+- [🧰 Plantillas de reputación y crisis](templates/reputation/plan-gestion-reputacional.md)
+
+---
+
 > [!WARNING]
 > **Cumplimiento y datos personales.** Los ejercicios usan **datos sintéticos** y no requieren clientes ni
 > presupuesto real. Antes de aplicar cualquier contenido a una operación real, verifica la norma vigente en
@@ -349,7 +365,7 @@ taller intensivo de dos días y programa completo de doce meses.
 
 ## 📚 Fuentes
 
-La redacción del material es original y se apoya en **103 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
+La redacción del material es original y se apoya en **110 obras** de referencia y en las normas chilenas vigentes. Están todas listadas, con su enlace, en **[`docs/FUENTES.md`](docs/FUENTES.md)**: qué obras sostienen cada parte, los libros agrupados por área y las fuentes primarias.
 
 Cada clase cierra indicando **qué idea concreta** de cada obra sostiene lo que acabas de leer y **en qué capítulo buscarla**. El identificador de cada obra —ISBN-13, DOI o dirección de la fuente— está en [`sources/bibliography.json`](sources/bibliography.json).
 
@@ -368,6 +384,8 @@ Texto completo y gratuito. **La norma vigente manda sobre el material pedagógic
 | **Ley 17.336** | derechos de autor sobre dibujos, personajes y demás obras originales | <https://www.bcn.cl/leychile/navegar?idNorma=28933> |
 | **Código del Trabajo** | deber de protección eficaz de la vida y salud de quienes trabajan | <https://www.bcn.cl/leychile/navegar?idNorma=207436> |
 | **Decreto 594/1999** | condiciones sanitarias y ambientales y control de riesgos laborales | <https://www.bcn.cl/leychile/navegar?idNorma=167766> |
+| **Ley 19.733** | libertad de información, derecho de aclaración y rectificación y responsabilidad por abusos | <https://www.bcn.cl/leychile/navegar?idNorma=186049> |
+| **Ley 20.393** | modelo de prevención de delitos y responsabilidad penal de la persona jurídica | <https://www.bcn.cl/leychile/navegar?idNorma=1008668> |
 
 El programa **no distribuye** ninguna de las obras citadas: las cita, las contrasta y enseña a usarlas de forma selectiva. El acceso se obtiene por biblioteca, editorial, librería o suscripción legítima.
 

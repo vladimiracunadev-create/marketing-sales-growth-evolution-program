@@ -22,16 +22,16 @@ El material se ordena alrededor de una pregunta que un comité comercial haría 
 
 > **Pregunta rectora de la parte:** ¿Qué evidencia mínima necesito para decidir, y qué sesgo podría estar produciéndola?
 
-Los conceptos que estructuran la sesión son **señal débil**, **sesgo de voz**, **vocabulario del cliente** y **umbral de acción**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **señal débil**, **sesgo de voz**, **vocabulario del cliente**, **umbral de acción**, **señal débil**, **umbral de alerta**, **rumor** y **severidad de una señal**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `señal débil`, `sesgo de voz`, `vocabulario del cliente` y `umbral de acción` por sus observables y no por su definición memorizada.
+1. **Distinguir** `señal débil`, `sesgo de voz`, `vocabulario del cliente`, `umbral de acción`, `señal débil`, `umbral de alerta`, `rumor` y `severidad de una señal` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Investigación de mercados e inteligencia competitiva**.
 3. **Aplicar** la secuencia **definir qué fuentes se monitorean y con qué frecuencia → clasificar los hallazgos por tema y por intensidad → distinguir señal débil de ruido con un umbral escrito → triangular con datos propios antes de actuar → documentar la decisión tomada y su resultado** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **volumen y tono por tema**, **tiempo de detección** y **tasa de confirmación** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **volumen y tono por tema**, **tiempo de detección**, **tasa de confirmación** y **alertas críticas verificadas** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **sesgo de voz** | sobrerrepresentación de opiniones extremas en canales públicos | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **vocabulario del cliente** | términos concretos con que el mercado nombra su problema y sus soluciones | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **umbral de acción** | criterio explícito que convierte una señal en decisión de investigar o intervenir | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **señal débil** | mención aislada o patrón incipiente que todavía no alcanza volumen pero puede anticipar un conflicto | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **umbral de alerta** | valor predefinido de volumen, velocidad o sentimiento que activa una revisión humana | Da un hecho compatible con la definición y otro que la refute. |
+| **rumor** | afirmación sin verificar que circula entre personas; no es lo mismo que desinformación, que exige falsedad e intención de dañar | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **severidad de una señal** | combinación de alcance potencial, credibilidad de la fuente y daño posible a personas o a la organización | Construye un caso límite donde el concepto se confunde con el anterior. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **volumen y tono por tema**: `menciones por 
 
 Escuchar más canales aumenta la cobertura y multiplica el ruido y el costo de revisión. Un seguimiento amplio sin criterio de acción produce informes semanales que nadie usa. La decisión razonable es definir de antemano qué tipo de señal obligaría a hacer algo y monitorear sólo los canales donde esa señal puede aparecer.
 
-**Lo que aporta la fuente.** Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) aporta el criterio para pesar el intercambio: la cultura y la subcultura como marco de significado de la compra (la parte sobre consumidores y cultura). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tasa de confirmación** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) aporta el criterio para pesar el intercambio: la cultura y la subcultura como marco de significado de la compra (la parte sobre consumidores y cultura). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **alertas críticas verificadas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **umbral de acción** y otro de un supuesto del caso que nunca fue validado.
 
@@ -125,6 +129,65 @@ Sintetizar social listening y señales de mercado no consiste en sumar definicio
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Si el análisis no puede nombrar qué pieza sostiene la recomendación, todavía no hay comprensión transferible.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje Q — Escucha social, percepción y alertas tempranas
+
+La escucha social descrita en esta clase sirve también para reputación: detectar controversias, rumores y conflictos emergentes antes de que se conviertan en crisis. La diferencia con la investigación de mercado es el plazo. Aquí interesa la velocidad: ¿cuántas menciones por hora?, ¿qué cuentas amplifican?, ¿hay hechos verificables o sólo opinión?
+
+Una alerta útil combina tres variables y no una: volumen, velocidad de crecimiento y severidad. Un aumento de menciones sin personas afectadas no equivale a una crisis, y una sola mención grave de una persona con daño real puede requerir acción inmediata. Las herramientas automáticas clasifican sentimiento con errores conocidos, sobre todo en ironía y modismos locales; por eso toda alerta crítica pasa por revisión humana.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Señal débil** | mención o patrón incipiente | observar y registrar sin responder |
+| **Señal confirmada** | hecho verificable con afectados | activar protocolo y asignar dueño |
+| **Rumor** | afirmación sin verificar | verificar fuente antes de decidir si se corrige |
+| **Ataque coordinado** | patrón de cuentas y tiempos anómalos | documentar, reportar a la plataforma y escalar |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** En una hora aparecen 140 menciones sobre un supuesto cobro duplicado de Ruta Andina. 90 provienen de 12 cuentas creadas hace menos de una semana; 6 son clientes reales con comprobante.
+
+**Secuencia.** separar cuentas reales de patrón anómalo → verificar los seis casos con registros internos → clasificar severidad → decidir respuesta y escalamiento.
+
+**Solución orientadora.** Los seis casos reales se tratan como señal confirmada: se verifica el cobro, se contacta a cada cliente y se corrige. Las 90 menciones de cuentas nuevas se documentan como posible amplificación artificial y se reportan a la plataforma, sin responderles individualmente. Se prepara una declaración sobre lo verificado y se escala porque hay clientes con perjuicio y un patrón coordinado.
+
+**Evidencia de aprendizaje.** tabla de menciones clasificadas, verificación interna y decisión documentada.
+
+**Rúbrica.** 30 % separación entre patrón y casos reales; 25 % verificación; 25 % decisión proporcional; 20 % documentación.
+
+#### Fichas de medición
+
+**alertas críticas verificadas**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| alertas con hecho confirmado tras revisión humana | alertas críticas emitidas | mensual | panel de escucha y bitácora de verificación | Social Listening Lead |
+
+- **Lectura permitida:** mide precisión del sistema de alertas.
+- **Limitación:** no mide cobertura de lo que el sistema no detectó.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** agrupar menciones y detectar patrones anómalos.
+- **Datos necesarios:** menciones públicas anonimizadas con fecha, plataforma y antigüedad de cuenta.
+- **Prompt reproducible:** `Agrupa las menciones por tema. Señala patrones de tiempo y antigüedad de cuentas que parezcan anómalos y explica por qué. No concluyas que son falsas.`
+- **Resultado esperado:** mapa de temas y patrones sospechosos.
+- **Validación humana:** analista verifica una muestra y confirma o descarta cada patrón.
+- **Riesgos:** falsos positivos, sesgo de idioma y perfilado de personas.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** revisión manual por muestra y reglas simples de volumen.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** reclamos de consumidores; controversia de ejecutivo; rumor sobre producto; campaña de reseñas falsas.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [12.07 · Social media](../part-12-marketing-digital-y-adquisicion/class-07-social-media.md) · [21.12 · Evaluación y guardrails](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-12-evaluacion-y-guardrails.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -135,6 +198,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Seth Godin — *This Is Marketing* (2018) | El público mínimo viable: servir a los pocos que sí quieren esto | Los capítulos sobre el público mínimo viable | ¿Qué debería observarse en **sesgo de voz** si aquí opera «el público mínimo viable: servir a los pocos que sí quieren esto»? ¿Y qué observación lo desmentiría en este caso? |
 | Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | La distinción entre medios propios, ganados y pagados | El capítulo sobre canales digitales | ¿Qué debería observarse en **vocabulario del cliente** si aquí opera «la distinción entre medios propios, ganados y pagados»? ¿Y qué observación lo desmentiría en este caso? |
 | Michael R. Solomon — *Consumer Behavior: Buying, Having, and Being* (2019, 13.ª ed.) | La cultura y la subcultura como marco de significado de la compra | La parte sobre consumidores y cultura | ¿Qué debería observarse en **umbral de acción** si aquí opera «la cultura y la subcultura como marco de significado de la compra»? ¿Y qué observación lo desmentiría en este caso? |
+| Claire Wardle y Hossein Derakhshan — *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making* (2017) | Información errónea, desinformación y malinformación se distinguen por falsedad e intención de dañar, y se analizan por fase, elemento y agente | El apartado de definiciones y el marco de fases y elementos | ¿Qué debería observarse en **señal débil** si aquí opera «información errónea, desinformación y malinformación se distinguen por falsedad e intención de dañar, y se analizan por fase, elemento y agente»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Distinguir señal débil de ruido con un umbral escrito.** El riesgo de este paso es cerrar demasiado rápido alrededor de **vocabulario del cliente**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **tasa de confirmación** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Triangular con datos propios antes de actuar.** Con **umbral de acción** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **volumen y tono por tema** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Triangular con datos propios antes de actuar.** Con **umbral de acción** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **alertas críticas verificadas** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Documentar la decisión tomada y su resultado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **señal débil**. **tiempo de detección** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Documentar la decisión tomada y su resultado.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **señal débil**. **volumen y tono por tema** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **señal débil** y **sesgo de voz** como sinónimos | Se perdió la distinción entre «indicio temprano de un cambio que aún no aparece en los datos agregados» y «sobrerrepresentación de opiniones extremas en canales públicos» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «documentar la decisión tomada y su resultado» | Se saltó «definir qué fuentes se monitorean y con qué frecuencia»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **volumen y tono por tema** | La métrica local reemplazó al resultado del sistema | Contrástala con **tasa de confirmación** y explicita el costo de oportunidad. |
+| Optimizar sólo **volumen y tono por tema** | La métrica local reemplazó al resultado del sistema | Contrástala con **alertas críticas verificadas** y explicita el costo de oportunidad. |
 | Tomar comentarios aislados como tendencia | Error específico de esta clase | Fija un umbral de menciones y una verificación con datos propios antes de escalar la señal. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -229,7 +293,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **vocabulario del cliente** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **volumen y tono por tema**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Web Analytics 2.0* y *Consumer Behavior: Buying, Having, and Being*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Web Analytics 2.0* y *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P03-C11-social-listening-y-senales-de-mercado/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **volumen y tono por tema**, **tiempo de detección** y **tasa de confirmación** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **volumen y tono por tema**, **tiempo de detección**, **tasa de confirmación** y **alertas críticas verificadas** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -280,6 +344,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el público mínimo viable: servir a los pocos que sí quieren esto. **Dónde buscarlo:** los capítulos sobre el público mínimo viable. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) · ISBN 9781292400990 — **aporta a esta clase:** la distinción entre medios propios, ganados y pagados. **Dónde buscarlo:** el capítulo sobre canales digitales. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Michael R. Solomon — [*Consumer Behavior: Buying, Having, and Being*](https://openlibrary.org/isbn/9781292318103) (2019, 13.ª ed.) · ISBN 9781292318103 — **aporta a esta clase:** la cultura y la subcultura como marco de significado de la compra. **Dónde buscarlo:** la parte sobre consumidores y cultura. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- Claire Wardle y Hossein Derakhshan — [*Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c) (2017) · fuente primaria — **aporta a esta clase:** información errónea, desinformación y malinformación se distinguen por falsedad e intención de dañar, y se analizan por fase, elemento y agente. **Dónde buscarlo:** el apartado de definiciones y el marco de fases y elementos. **Acceso:** gratis. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

@@ -237,6 +237,22 @@ LIBROS = {
                               "Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude", "2024",
                               "explicación del mecanismo y evidencia exigible antes de prometer estabilidad", "etica"),
 
+    # --- Reputación, relaciones públicas y crisis -----------------------------
+    "fombrun": ("Charles J. Fombrun", "Reputation: Realizing Value from the Corporate Image", "1996",
+                "reputación como evaluación comparada de los públicos clave y como activo con valor económico", "comunicacion"),
+    "coombs": ("W. Timothy Coombs", "Ongoing Crisis Communication: Planning, Managing, and Responding", "2019, 5.ª ed.",
+               "comunicación de crisis por etapas y selección de respuesta según la atribución de responsabilidad", "comunicacion"),
+    "benoit": ("William L. Benoit", "Accounts, Excuses, and Apologies: Image Repair Theory and Research", "2014, 2.ª ed.",
+               "tipología de estrategias de reparación de imagen y condiciones de su eficacia", "comunicacion"),
+    "clark": ("Dorie Clark", "Reinventing You: Define Your Brand, Imagine Your Future", "2013",
+              "método para definir, evidenciar y reposicionar una marca personal profesional", "marca"),
+    "ambler-barrow": ("Tim Ambler y Simon Barrow", "The Employer Brand (Journal of Brand Management)", "1996",
+                      "aplicación de la gestión de marca al empleo: beneficios funcionales, económicos y psicológicos", "marca"),
+    "wardle-derakhshan": ("Claire Wardle y Hossein Derakhshan", "Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making", "2017",
+                          "taxonomía de información errónea, desinformación y malinformación para analizar incidentes", "comunicacion"),
+    "mitchell-agle-wood": ("Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood", "Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)", "1997",
+                           "prominencia de cada parte interesada según poder, legitimidad y urgencia", "estrategia"),
+
     # --- Pedagogía (estándar transversal del programa) ------------------------
     "ambrose": ("Susan A. Ambrose et al.", "How Learning Works", "2010",
                 "principios de aprendizaje: conocimiento previo, práctica y retroalimentación", "pedagogia"),

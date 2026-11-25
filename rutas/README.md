@@ -212,6 +212,11 @@ Estas variantes combinan una ruta existente con clases de especialización. Se c
 | **Key Account Manager / venta consultiva** | [Ejecutivo comercial / Account Executive](ejecutivo-comercial.md) | 09.07–14, 16.07 y 18.10–11 | mapa de cuenta, plan mutuo y renovación rentable |
 | **Especialista CRM** | [RevOps / Sales Operations](revops.md) | 16.01–14 y 17.08–14 | modelo de datos, gobierno y observabilidad |
 | **Consultor de negocios** | [Founder / dueño de negocio](founder.md) | 03.10, 05.11, 07.14 y 23.14 | diagnóstico, business case y sistema de gestión |
+| **Reputación, relaciones públicas y comunicación corporativa** | [Brand manager](brand-manager.md) | 06.10, 06.11, 23.13 y especialización de reputación (clases 01–10) | plan de gestión reputacional y protocolo de crisis aprobado |
+| **Community y social listening manager** | [Content manager / Copywriter comercial](content-manager.md) | 03.11, 12.07–08 y especialización de reputación (clases 05, 09 y 10) | sistema de escucha con umbrales y bitácora de verificación |
+| **Vocería y marca personal ejecutiva** | [Founder / dueño de negocio](founder.md) | 06.11 y especialización de reputación (clases 02, 06 y 08) | manual de marca personal y guía de vocería ensayada |
+
+La especialización transversal [Reputación, relaciones públicas y comunicación de crisis](../curriculum/specializations/reputacion-relaciones-publicas-y-crisis/README.md) trae ocho rutas por rol y cinco niveles de dominio propios, con sus plantillas en [templates/reputation](../templates/reputation/plan-gestion-reputacional.md).
 
 ## Cómo usar una ruta
 

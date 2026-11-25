@@ -1005,6 +1005,36 @@ APORTES = {
         "mecanismo-estabilidad": ("una etiqueta de estabilidad no reemplaza la explicación verificable del mecanismo, sus límites y las intervenciones que lo sostienen",
                                   "los apartados sobre UST, el veredicto civil y el acuerdo final"),
     },
+    "fombrun": {
+        "capital-reputacional": ("la reputación como representación perceptual de las acciones pasadas y las perspectivas de la empresa, comparada con sus rivales ante todos sus públicos clave",
+                                 "los capítulos iniciales sobre qué es la reputación corporativa y por qué crea valor"),
+    },
+    "coombs": {
+        "atribucion-responsabilidad": ("la respuesta de crisis se ajusta a cuánta responsabilidad el público atribuye a la organización según el tipo de crisis, su historial y su reputación previa",
+                                       "los capítulos sobre la teoría situacional de comunicación de crisis y la selección de estrategias de respuesta"),
+        "etapas-crisis": ("la gestión de crisis se ordena en prevención y preparación, respuesta y revisión posterior, con instrucción primero a las víctimas y luego a la reputación",
+                          "los capítulos sobre el ciclo de la crisis y la respuesta inicial"),
+    },
+    "benoit": {
+        "reparacion-imagen": ("las estrategias de reparación de imagen —negación, evasión de responsabilidad, reducción de la ofensividad, acción correctiva y mortificación— sólo funcionan frente a una acusación y una audiencia definidas",
+                              "el capítulo que presenta la tipología de estrategias de reparación de imagen"),
+    },
+    "clark": {
+        "marca-personal-evidencia": ("la marca personal se define con una promesa y se sostiene con evidencia pública repetible por otras personas, y se reposiciona por etapas",
+                                     "las secciones sobre definir la marca personal y construir la reputación"),
+    },
+    "ambler-barrow": {
+        "paquete-empleo": ("la marca empleadora como paquete de beneficios funcionales, económicos y psicológicos que ofrece el empleo y se identifica con la empresa empleadora",
+                           "la sección donde el artículo define la marca empleadora"),
+    },
+    "wardle-derakhshan": {
+        "trastorno-informacion": ("información errónea, desinformación y malinformación se distinguen por falsedad e intención de dañar, y se analizan por fase, elemento y agente",
+                                  "el apartado de definiciones y el marco de fases y elementos"),
+    },
+    "mitchell-agle-wood": {
+        "prominencia": ("una parte interesada es más prominente cuanto más poder, legitimidad y urgencia reúne, y su clase determina la atención que merece",
+                        "la sección sobre la tipología de atributos y clases de partes interesadas"),
+    },
 
     # ================================================================ PEDAGOGÍA
     "ambrose": {

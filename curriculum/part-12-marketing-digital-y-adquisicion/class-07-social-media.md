@@ -22,16 +22,16 @@ Esta sesión distingue lo que se sabe, lo que se supone y lo que todavía no se 
 
 > **Pregunta rectora de la parte:** ¿Qué activo digital genera demanda propia y qué parte del resultado es alquilada?
 
-Los conceptos que estructuran la sesión son **función del canal por etapa**, **alcance orgánico**, **comunidad** y **atención pública**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **función del canal por etapa**, **alcance orgánico**, **comunidad**, **atención pública**, **moderación**, **protocolo de escalamiento**, **silencio de calendario** y **respuesta pública y privada**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `función del canal por etapa`, `alcance orgánico`, `comunidad` y `atención pública` por sus observables y no por su definición memorizada.
+1. **Distinguir** `función del canal por etapa`, `alcance orgánico`, `comunidad`, `atención pública`, `moderación`, `protocolo de escalamiento`, `silencio de calendario` y `respuesta pública y privada` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marketing digital y adquisición**.
 3. **Aplicar** la secuencia **definir la función de cada red en el recorrido → producir contenido acorde a esa función → establecer el protocolo de atención pública → medir con indicadores propios de cada función → evaluar la dependencia del alcance orgánico** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **alcance y participación por función**, **tiempo de respuesta en atención pública** y **oportunidades originadas por red** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **alcance y participación por función**, **tiempo de respuesta en atención pública**, **oportunidades originadas por red** y **tiempo de primera respuesta pública** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **alcance orgánico** | personas alcanzadas sin pago, sujeto a las reglas cambiantes de la plataforma | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **comunidad** | grupo de personas con interés común que interactúa entre sí y no sólo con la marca | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **atención pública** | gestión de consultas y reclamos visibles para terceros | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **moderación** | aplicación coherente de reglas de conversación publicadas, sin borrar críticas legítimas | Da un hecho compatible con la definición y otro que la refute. |
+| **protocolo de escalamiento** | regla que define qué consulta pública pasa a atención, jurídico o dirección y en qué plazo | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **silencio de calendario** | suspensión deliberada de publicaciones programadas durante un incidente | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **respuesta pública y privada** | separación entre lo que se contesta en abierto y lo que se resuelve por un canal con datos personales | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **alcance y participación por función**: `
 
 Estar en más plataformas amplía la presencia y fragmenta el esfuerzo, con lo que ninguna alcanza calidad suficiente. Cada red tiene una gramática propia y adaptar el contenido cuesta. La decisión razonable elige pocas plataformas donde el público objetivo efectivamente está y las trabaja con profundidad.
 
-**Lo que aporta la fuente.** Ann Handley — *Everybody Writes* (2022, 2.ª ed.) aporta el criterio para pesar el intercambio: la escritura desde el problema del lector y en su vocabulario (los capítulos sobre empatía con el lector). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **oportunidades originadas por red** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Ann Handley — *Everybody Writes* (2022, 2.ª ed.) aporta el criterio para pesar el intercambio: la escritura desde el problema del lector y en su vocabulario (los capítulos sobre empatía con el lector). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo de primera respuesta pública** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **atención pública** y otro de un supuesto del caso que nunca fue validado.
 
@@ -125,6 +129,65 @@ Sintetizar social media no consiste en sumar definiciones. Empieza por **funció
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Una síntesis correcta indica qué evidencia falta y qué decisión se posterga hasta obtenerla.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje R — Community management y respuesta multiplataforma
+
+Community management es la operación diaria que decide cómo se ve la empresa cuando alguien reclama en público. Las reglas de conversación se publican, se aplican igual a todos y distinguen crítica de abuso: borrar críticas legítimas es un incidente en sí mismo. Lo que se resuelve en abierto es la confirmación de que se atiende; lo que contiene datos personales se traslada a un canal privado.
+
+En una crisis, cada plataforma exige un formato distinto: una publicación fijada en el perfil, una respuesta breve en comentarios, un comunicado en el sitio, un aviso en el producto y un correo a los afectados. La fuente de verdad es una sola y las demás la remiten. Antes de publicar, se revisa si el calendario programado contiene mensajes promocionales que contradicen la situación.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Crítica legítima** | queja con hecho verificable | responder y resolver, no borrar |
+| **Abuso** | insulto, amenaza o spam | aplicar regla publicada y registrar |
+| **Dato personal en público** | información sensible expuesta | ocultar según política y trasladar a canal privado |
+| **Incidente activo** | falla o crisis en curso | suspender calendario y fijar comunicado único |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Durante la caída del servicio hay 40 comentarios en Instagram, 25 en X y 18 reclamos por correo. Hay también una publicación promocional programada. Diseña la respuesta por plataforma.
+
+**Secuencia.** definir comunicado único → adaptar formato por plataforma → suspender lo programado → trasladar casos con datos a canal privado.
+
+**Solución orientadora.** Se fija un comunicado único en el sitio y se enlaza desde cada plataforma. En Instagram se responde con una frase y el enlace; en X una actualización breve con hora de la próxima; por correo se envía un mensaje directo a afectados. Se suspende la publicación promocional. Cualquier cliente que entregue datos en público recibe indicación de moverse a un canal privado.
+
+**Evidencia de aprendizaje.** comunicado único, respuestas por plataforma y registro de la suspensión.
+
+**Rúbrica.** 30 % coherencia; 25 % formato por plataforma; 25 % protección de datos; 20 % control de calendario.
+
+#### Fichas de medición
+
+**tiempo de primera respuesta pública**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| minutos desde el comentario hasta la primera respuesta del equipo | comentarios que requieren respuesta | diario y por incidente | herramienta de gestión social | Community Manager |
+
+- **Lectura permitida:** mide capacidad de atención en abierto.
+- **Limitación:** no mide si el reclamo quedó resuelto.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** clasificar comentarios y sugerir respuestas.
+- **Datos necesarios:** comentarios públicos sin datos personales y política de conversación.
+- **Prompt reproducible:** `Clasifica estos comentarios en crítica legítima, abuso, consulta y spam. Sugiere una respuesta breve sin prometer plazos ni compensaciones.`
+- **Resultado esperado:** clasificación y borradores.
+- **Validación humana:** el Community Manager aprueba cada respuesta antes de publicar.
+- **Riesgos:** respuestas genéricas, promesas no autorizadas y errores de tono.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** banco de respuestas aprobadas y revisión humana.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** falla de producto; reclamo viral; publicidad cuestionada; ataque de cuentas falsas.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [12.08 · Community marketing](../part-12-marketing-digital-y-adquisicion/class-08-community-marketing.md) · [03.11 · Social listening y señales de mercado](../part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) · [18.10 · Renovación](../part-18-customer-experience-success-y-fidelizacion/class-10-renewal.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -135,6 +198,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Gary Vaynerchuk — *Jab, Jab, Jab, Right Hook* (2013) | El mensaje adaptado a la gramática nativa de cada plataforma | Los capítulos por plataforma | ¿Qué debería observarse en **alcance orgánico** si aquí opera «el mensaje adaptado a la gramática nativa de cada plataforma»? ¿Y qué observación lo desmentiría en este caso? |
 | Dave Chaffey y Fiona Ellis-Chadwick — *Digital Marketing* (2022, 8.ª ed.) | El modelo de contribución de canal a la conversión | Los capítulos sobre estrategia de canales | ¿Qué debería observarse en **comunidad** si aquí opera «el modelo de contribución de canal a la conversión»? ¿Y qué observación lo desmentiría en este caso? |
 | Ann Handley — *Everybody Writes* (2022, 2.ª ed.) | La escritura desde el problema del lector y en su vocabulario | Los capítulos sobre empatía con el lector | ¿Qué debería observarse en **atención pública** si aquí opera «la escritura desde el problema del lector y en su vocabulario»? ¿Y qué observación lo desmentiría en este caso? |
+| W. Timothy Coombs — *Ongoing Crisis Communication: Planning, Managing, and Responding* (2019, 5.ª ed.) | La respuesta de crisis se ajusta a cuánta responsabilidad el público atribuye a la organización según el tipo de crisis, su historial y su reputación previa | Los capítulos sobre la teoría situacional de comunicación de crisis y la selección de estrategias de respuesta | ¿Qué debería observarse en **moderación** si aquí opera «la respuesta de crisis se ajusta a cuánta responsabilidad el público atribuye a la organización según el tipo de crisis, su historial y su reputación previa»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -150,9 +214,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Establecer el protocolo de atención pública.** El riesgo de este paso es cerrar demasiado rápido alrededor de **comunidad**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **oportunidades originadas por red** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Medir con indicadores propios de cada función.** Con **atención pública** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **alcance y participación por función** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Medir con indicadores propios de cada función.** Con **atención pública** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tiempo de primera respuesta pública** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Evaluar la dependencia del alcance orgánico.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **función del canal por etapa**. **tiempo de respuesta en atención pública** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Evaluar la dependencia del alcance orgánico.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **moderación**. **alcance y participación por función** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -206,7 +270,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **función del canal por etapa** y **alcance orgánico** como sinónimos | Se perdió la distinción entre «papel específico que cumple la red en el recorrido del cliente» y «personas alcanzadas sin pago, sujeto a las reglas cambiantes de la plataforma» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «evaluar la dependencia del alcance orgánico» | Se saltó «definir la función de cada red en el recorrido»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **alcance y participación por función** | La métrica local reemplazó al resultado del sistema | Contrástala con **oportunidades originadas por red** y explicita el costo de oportunidad. |
+| Optimizar sólo **alcance y participación por función** | La métrica local reemplazó al resultado del sistema | Contrástala con **tiempo de primera respuesta pública** y explicita el costo de oportunidad. |
 | Usar redes exclusivamente para publicar ofertas | Error específico de esta clase | Asigna una función por red y mide con indicadores propios de esa función. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -229,7 +293,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **comunidad** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **alcance y participación por función**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *This Is Marketing* y *Everybody Writes*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *This Is Marketing* y *Ongoing Crisis Communication: Planning, Managing, and Responding*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -251,7 +315,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P12-C07-social-media/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **alcance y participación por función**, **tiempo de respuesta en atención pública** y **oportunidades originadas por red** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **alcance y participación por función**, **tiempo de respuesta en atención pública**, **oportunidades originadas por red** y **tiempo de primera respuesta pública** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -280,6 +344,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Gary Vaynerchuk — [*Jab, Jab, Jab, Right Hook*](https://openlibrary.org/isbn/9780062273079) (2013) · ISBN 9780062273079 — **aporta a esta clase:** el mensaje adaptado a la gramática nativa de cada plataforma. **Dónde buscarlo:** los capítulos por plataforma. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Dave Chaffey y Fiona Ellis-Chadwick — [*Digital Marketing*](https://openlibrary.org/isbn/9781292400990) (2022, 8.ª ed.) · ISBN 9781292400990 — **aporta a esta clase:** el modelo de contribución de canal a la conversión. **Dónde buscarlo:** los capítulos sobre estrategia de canales. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Ann Handley — [*Everybody Writes*](https://openlibrary.org/isbn/9781119854319) (2022, 2.ª ed.) · ISBN 9781119854319 — **aporta a esta clase:** la escritura desde el problema del lector y en su vocabulario. **Dónde buscarlo:** los capítulos sobre empatía con el lector. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
+- W. Timothy Coombs — [*Ongoing Crisis Communication: Planning, Managing, and Responding*](https://openlibrary.org/isbn/9781544331959) (2019, 5.ª ed.) · ISBN 9781544331959 — **aporta a esta clase:** la respuesta de crisis se ajusta a cuánta responsabilidad el público atribuye a la organización según el tipo de crisis, su historial y su reputación previa. **Dónde buscarlo:** los capítulos sobre la teoría situacional de comunicación de crisis y la selección de estrategias de respuesta. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

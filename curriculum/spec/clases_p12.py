@@ -282,7 +282,7 @@ CLASES = [
             "La actividad en redes rara vez produce conversión directa en B2B con ciclos largos. Exigirle "
             "ventas atribuibles lleva a abandonar su función real de credibilidad."
         ),
-        libros=["godin", "vaynerchuk", "chaffey", "handley"],
+        libros=["godin", "vaynerchuk", "chaffey", "handley", "coombs"],
         error=("Usar redes exclusivamente para publicar ofertas",
                "Asigna una función por red y mide con indicadores propios de esa función."),
     ),

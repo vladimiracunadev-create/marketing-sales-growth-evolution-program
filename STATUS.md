@@ -14,14 +14,14 @@
 | Evaluaciones de parte | 24 | 24 | OK |
 | Casos extendidos | 24 | 24 | OK |
 | Proyectos integradores | 12 | 12 | OK |
-| Documentos de docs/ | 26 | 20 | OK |
+| Documentos de docs/ | 28 | 20 | OK |
 | Notebooks | 8 | 8 | OK |
 | Conjuntos de datos | 5 | 5 | OK |
-| Obras en bibliografía | 103 | 90 | OK |
+| Obras en bibliografía | 110 | 90 | OK |
 
-**Palabras de contenido curricular:** 1.819.556
+**Palabras de contenido curricular:** 1.826.700
 
-**Páginas HTML generadas:** 641 · **Módulos de prueba:** 9 · **Plantillas:** 16
+**Páginas HTML generadas:** 678 · **Módulos de prueba:** 10 · **Plantillas:** 21
 
 ## Verificaciones automatizadas
 

@@ -22,16 +22,16 @@ La clase trata el tema como un problema de evidencia y de consecuencia, no como 
 
 > **Pregunta rectora de la parte:** ¿Qué tarea mejora con IA, cómo sé que mejora y quién responde cuando falla?
 
-Los conceptos que estructuran la sesión son **conjunto de evaluación**, **guardarraíl**, **monitoreo posterior** y **umbral de aceptación**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **conjunto de evaluación**, **guardarraíl**, **monitoreo posterior**, **umbral de aceptación**, **suplantación de identidad**, **deepfake**, **procedencia de contenido** y **verificación independiente**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `conjunto de evaluación`, `guardarraíl`, `monitoreo posterior` y `umbral de aceptación` por sus observables y no por su definición memorizada.
+1. **Distinguir** `conjunto de evaluación`, `guardarraíl`, `monitoreo posterior`, `umbral de aceptación`, `suplantación de identidad`, `deepfake`, `procedencia de contenido` y `verificación independiente` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **IA aplicada a marketing, ventas y servicio**.
 3. **Aplicar** la secuencia **construir el conjunto de evaluación con casos reales → definir el umbral de aceptación antes de probar → implementar guardarraíles sobre los riesgos identificados → monitorear el desempeño en producción → documentar incidentes y ajustar el sistema** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **desempeño en el conjunto de evaluación**, **incidentes por guardarraíl activado** y **deriva de desempeño** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **desempeño en el conjunto de evaluación**, **incidentes por guardarraíl activado**, **deriva de desempeño** y **incidentes de suplantación contenidos** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -54,6 +54,10 @@ Al terminar esta clase serás capaz de:
 | **guardarraíl** | restricción que impide un comportamiento inaceptable del sistema | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **monitoreo posterior** | medición continua del desempeño tras el despliegue | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 | **umbral de aceptación** | nivel de desempeño mínimo que autoriza el uso en producción | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **suplantación de identidad** | uso no autorizado del nombre, imagen, voz o cuenta de una persona u organización | Da un hecho compatible con la definición y otro que la refute. |
+| **deepfake** | contenido sintético que imita rostro o voz de una persona para aparentar hechos o declaraciones que no ocurrieron | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **procedencia de contenido** | registro verificable de origen y modificaciones de una pieza | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **verificación independiente** | contraste de una afirmación con una fuente que no depende de quien la difunde | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -105,7 +109,7 @@ Ficha de medición obligatoria para **desempeño en el conjunto de evaluación**
 
 Evaluaciones más exhaustivas detectan más problemas y retrasan el despliegue. El equilibrio debe hacerse según la consecuencia del error: un asistente que redacta borradores internos admite una evaluación ligera; uno que se comunica con clientes, no. Esa gradación debe estar en la política y no decidirse caso a caso.
 
-**Lo que aporta la fuente.** ISO — *ISO 31000: Gestión del riesgo* (2018) aporta el criterio para pesar el intercambio: el proceso de gestión del riesgo: identificar, analizar, evaluar y tratar (la cláusula sobre el proceso). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **deriva de desempeño** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** ISO — *ISO 31000: Gestión del riesgo* (2018) aporta el criterio para pesar el intercambio: el proceso de gestión del riesgo: identificar, analizar, evaluar y tratar (la cláusula sobre el proceso). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **incidentes de suplantación contenidos** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **umbral de aceptación** y otro de un supuesto del caso que nunca fue validado.
 
@@ -128,6 +132,65 @@ En contenido regulado, el guardarraíl debe tener una salida ejecutable y no só
 Sintetizar evaluación y guardrails no consiste en sumar definiciones. Empieza por **conjunto de evaluación**, contrasta **guardarraíl** con **monitoreo posterior**, incorpora **umbral de aceptación** como restricción y cierra con la medición. Aplica entonces la secuencia completa conservando tres columnas por paso: evidencia utilizada, alternativa descartada y razón del descarte.
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. Una síntesis correcta indica qué evidencia falta y qué decisión se posterga hasta obtenerla.
+
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje T — Desinformación, suplantación y deepfakes: verificación y respuesta
+
+La IA reduce el costo de producir mensajes falsos creíbles y también el de comunicar con rapidez. La organización necesita ambos conocimientos: cómo detectar y responder a contenido sintético que la suplanta, y cómo usar IA como apoyo de redacción sin delegar el juicio. Distinguir información errónea, desinformación y malinformación evita atribuir intención donde solo hay error.
+
+Ante un deepfake o suplantación se actúa en tres planos: verificar (¿hay registro original?, ¿hay fallas técnicas?, ¿puede confirmarse con la persona?), contener (reportar a la plataforma, avisar a quienes puedan ser engañados, preservar evidencia) y comunicar (desmentir con evidencia, canales oficiales y sin amplificar innecesariamente el contenido falso).
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Contenido sospechoso** | pieza con indicios de manipulación | preservar y verificar antes de responder |
+| **Suplantación confirmada** | cuenta o mensaje falso | reportar, avisar y publicar canales oficiales |
+| **Información errónea** | falsedad sin intención de dañar | corregir con evidencia |
+| **Desinformación coordinada** | falsedad intencional y patrón | documentar, escalar y evaluar acción legal |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Circula un audio atribuido al gerente de Ruta Andina que anuncia el cierre de la empresa. El gerente confirma que nunca lo grabó. Define verificación, contención y comunicación.
+
+**Secuencia.** preservar el audio y su origen → confirmar con la persona y con análisis técnico → reportar y avisar a públicos clave → publicar desmentido en canales oficiales.
+
+**Solución orientadora.** Se guarda el archivo y su trayectoria de difusión, se pide análisis técnico y se confirma con el gerente. Se reporta a la plataforma, se avisa a clientes y empleados por canal oficial y se publica un desmentido breve con evidencia, sin repetir el contenido falso. Se evalúa denuncia con asesoría jurídica.
+
+**Evidencia de aprendizaje.** registro de verificación, avisos enviados y desmentido publicado.
+
+**Rúbrica.** 30 % verificación; 25 % contención; 25 % comunicación; 20 % criterio jurídico.
+
+#### Fichas de medición
+
+**incidentes de suplantación contenidos**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| incidentes con retiro o reporte confirmado dentro de 48 horas | incidentes de suplantación detectados | trimestral | registro de incidentes y respuestas de plataformas | Seguridad y Comunicaciones |
+
+- **Lectura permitida:** mide capacidad de contención.
+- **Limitación:** no mide el daño ya producido antes de la detección.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** apoyar la redacción de desmentidos y la preparación de materiales.
+- **Datos necesarios:** hechos verificados y canales oficiales.
+- **Prompt reproducible:** `Redacta un desmentido breve usando solo estos hechos verificados. No repitas el contenido falso ni agregues datos.`
+- **Resultado esperado:** borrador de desmentido.
+- **Validación humana:** responsable verifica cada afirmación y Legal aprueba.
+- **Riesgos:** inclusión de datos no verificados y amplificación del falso.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** plantilla de desmentido preaprobada.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** suplantación de ejecutivo; cuenta falsa de atención; audio o video manipulado; falsa oferta de empleo.
+
+**Conocimientos previos y referencias cruzadas:** [06.10 · Confianza y reputación](../part-06-marca-branding-y-comunicacion-estrategica/class-10-confianza-y-reputacion.md) · [03.11 · Social listening y señales de mercado](../part-03-investigacion-de-mercados-e-inteligencia-competitiva/class-11-social-listening-y-senales-de-mercado.md) · [21.13 · Privacidad y propiedad intelectual](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-13-privacidad-y-propiedad-intelectual.md).
 
 ## 📚 Lectura comparada
 
@@ -154,9 +217,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Implementar guardarraíles sobre los riesgos identificados.** El riesgo de este paso es cerrar demasiado rápido alrededor de **monitoreo posterior**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **deriva de desempeño** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Monitorear el desempeño en producción.** Con **umbral de aceptación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **desempeño en el conjunto de evaluación** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Monitorear el desempeño en producción.** Con **umbral de aceptación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **incidentes de suplantación contenidos** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Documentar incidentes y ajustar el sistema.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **conjunto de evaluación**. **incidentes por guardarraíl activado** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Documentar incidentes y ajustar el sistema.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **suplantación de identidad**. **desempeño en el conjunto de evaluación** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -210,7 +273,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **conjunto de evaluación** y **guardarraíl** como sinónimos | Se perdió la distinción entre «casos representativos con resultado esperado que permiten medir el desempeño» y «restricción que impide un comportamiento inaceptable del sistema» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «documentar incidentes y ajustar el sistema» | Se saltó «construir el conjunto de evaluación con casos reales»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **desempeño en el conjunto de evaluación** | La métrica local reemplazó al resultado del sistema | Contrástala con **deriva de desempeño** y explicita el costo de oportunidad. |
+| Optimizar sólo **desempeño en el conjunto de evaluación** | La métrica local reemplazó al resultado del sistema | Contrástala con **incidentes de suplantación contenidos** y explicita el costo de oportunidad. |
 | Desplegar sin conjunto de evaluación ni umbral | Error específico de esta clase | Construye casos representativos con respuesta esperada y define el umbral antes del despliegue. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -255,7 +318,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P21-C12-evaluacion-y-guardrails/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **desempeño en el conjunto de evaluación**, **incidentes por guardarraíl activado** y **deriva de desempeño** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **desempeño en el conjunto de evaluación**, **incidentes por guardarraíl activado**, **deriva de desempeño** y **incidentes de suplantación contenidos** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 

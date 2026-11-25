@@ -39,7 +39,7 @@ Las obras que ordenan el criterio de cada parte. El índice de cada una lista ad
 
 ## Libros de referencia por área
 
-Las 103 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
+Las 110 obras del programa, agrupadas por lo que aportan. El título enlaza al catálogo donde se resuelve su ISBN, para que no haya duda de qué edición se está hablando.
 
 ### Marketing
 
@@ -59,6 +59,7 @@ Las 103 obras del programa, agrupadas por lo que aportan. El título enlaza al c
 - Geoffrey A. Moore — [*Crossing the Chasm*](https://openlibrary.org/isbn/9780062293008) (2014, 3.ª ed.) — adopción tecnológica, beachhead market y el abismo entre visionarios y pragmáticos.
 - Richard Rumelt — [*Good Strategy / Bad Strategy*](https://openlibrary.org/isbn/9781846684807) (2011) — diagnóstico, política rectora y acción coherente frente a la estrategia decorativa.
 - Peter F. Drucker — [*The Practice of Management*](https://openlibrary.org/isbn/9780060110956) (1954) — el propósito de una empresa es crear un cliente; marketing e innovación como funciones centrales.
+- Ronald K. Mitchell, Bradley R. Agle y Donna J. Wood — [*Toward a Theory of Stakeholder Identification and Salience (Academy of Management Review)*](https://doi.org/10.5465/amr.1997.9711022105) (1997) — prominencia de cada parte interesada según poder, legitimidad y urgencia.
 - Michael E. Porter — [*What Is Strategy? (Harvard Business Review)*](https://hbr.org/1996/11/what-is-strategy) (1996) — estrategia como sistema de actividades coherentes y elección explícita de qué no hacer.
 
 ### Cliente y trabajo por resolver
@@ -85,12 +86,18 @@ Las 103 obras del programa, agrupadas por lo que aportan. El título enlaza al c
 
 - David A. Aaker — [*Building Strong Brands*](https://openlibrary.org/isbn/9780029001516) (1996) — brand equity, identidad de marca y arquitectura de portafolio.
 - Alina Wheeler y Rob Meyerson — [*Designing Brand Identity*](https://openlibrary.org/isbn/9781119984825) (2024, 6.ª ed.) — proceso de identidad de marca: investigación, diseño, aplicación y gobierno.
+- Dorie Clark — [*Reinventing You: Define Your Brand, Imagine Your Future*](https://openlibrary.org/isbn/9781422144138) (2013) — método para definir, evidenciar y reposicionar una marca personal profesional.
 - Kevin Lane Keller y Vanitha Swaminathan — [*Strategic Brand Management*](https://openlibrary.org/isbn/9780134892498) (2019, 5.ª ed.) — modelo CBBE: notoriedad, significado, respuesta y resonancia de marca.
+- Tim Ambler y Simon Barrow — [*The Employer Brand (Journal of Brand Management)*](https://doi.org/10.1057/bm.1996.42) (1996) — aplicación de la gestión de marca al empleo: beneficios funcionales, económicos y psicológicos.
 - Pankaj Aggarwal y Ann L. McGill — [*When Brands Seem Human, Do Humans Act Like Brands?*](https://doi.org/10.1086/662614) (2012) — efectos conductuales y condiciones de la antropomorfización de marca.
 
 ### Comunicación e identidad
 
+- William L. Benoit — [*Accounts, Excuses, and Apologies: Image Repair Theory and Research*](https://openlibrary.org/isbn/9781438454009) (2014, 2.ª ed.) — tipología de estrategias de reparación de imagen y condiciones de su eficacia.
+- Claire Wardle y Hossein Derakhshan — [*Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c) (2017) — taxonomía de información errónea, desinformación y malinformación para analizar incidentes.
 - Chip Heath y Dan Heath — [*Made to Stick*](https://openlibrary.org/isbn/9781400064281) (2007) — ideas que se recuerdan: simplicidad, concreción, credibilidad y emoción.
+- W. Timothy Coombs — [*Ongoing Crisis Communication: Planning, Managing, and Responding*](https://openlibrary.org/isbn/9781544331959) (2019, 5.ª ed.) — comunicación de crisis por etapas y selección de respuesta según la atribución de responsabilidad.
+- Charles J. Fombrun — [*Reputation: Realizing Value from the Corporate Image*](https://openlibrary.org/isbn/9780875846330) (1996) — reputación como evaluación comparada de los públicos clave y como activo con valor económico.
 
 ### Contenido y copywriting
 
@@ -229,6 +236,8 @@ Texto completo y gratuito en Ley Chile. **La norma vigente manda sobre el materi
 - **Ley 17.336** — Propiedad intelectual (Ministerio de Educación Pública): <https://www.bcn.cl/leychile/navegar?idNorma=28933>
 - **Código del Trabajo** — Fija el texto refundido, coordinado y sistematizado del Código del Trabajo (Ministerio del Trabajo y Previsión Social): <https://www.bcn.cl/leychile/navegar?idNorma=207436>
 - **Decreto 594/1999** — Aprueba reglamento sobre condiciones sanitarias y ambientales básicas en los lugares de trabajo (Ministerio de Salud): <https://www.bcn.cl/leychile/navegar?idNorma=167766>
+- **Ley 19.733** — Sobre libertades de opinión e información y ejercicio del periodismo (Ministerio Secretaría General de Gobierno): <https://www.bcn.cl/leychile/navegar?idNorma=186049>
+- **Ley 20.393** — Establece la responsabilidad penal de las personas jurídicas (Ministerio Secretaría General de la Presidencia): <https://www.bcn.cl/leychile/navegar?idNorma=1008668>
 
 ## Organismos que fiscalizan
 
@@ -249,6 +258,7 @@ Las normas de arriba, completas. Y estas obras, que su autor o su organismo publ
 - U.S. Attorney's Office, Southern District of New York — [*Co-Founder of OneCoin Sentenced to 20 Years in Prison*](https://www.justice.gov/usao-sdny/pr/co-founder-multibillion-dollar-cryptocurrency-scheme-onecoin-sentenced-20-years-prison) (2023).
 - Corte de Apelaciones del Segundo Circuito de Estados Unidos — [*Estados Unidos contra Bankman-Fried, 24-961-cr*](https://ww3.ca2.uscourts.gov/decisions/OPN/24-961_opn.pdf) (2026).
 - U.S. Attorney's Office, Southern District of New York — [*Founder of Celsius Sentenced to 12 Years for Fraud and Market Manipulation*](https://www.justice.gov/usao-sdny/pr/founder-celsius-sentenced-12-years-fraud-and-market-manipulation) (2025).
+- Claire Wardle y Hossein Derakhshan — [*Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c) (2017).
 - Andrew Ng — [*Machine Learning Yearning*](https://info.deeplearning.ai/machine-learning-yearning-book) (2018).
 - Fiscalía de Chile — [*Por dos delitos formalizan a ex gerente de AC Inversions*](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions) (2016).
 - Comisión de Bolsa y Valores de Estados Unidos (SEC) — [*Terraform y Kwon pagarán 4.500 millones de dólares tras veredicto por fraude*](https://www.sec.gov/newsroom/press-releases/2024-73) (2024).

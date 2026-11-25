@@ -31,11 +31,15 @@ def palabras(ruta):
         return len(fh.read().split())
 
 
-def recorrer(carpeta, prefijo=None, sufijo=".md"):
+ESPECIALIZACIONES = os.path.join("curriculum", "specializations")
+
+
+def recorrer(carpeta, prefijo=None, sufijo=".md", excluir=()):
     base = os.path.join(RAIZ, carpeta)
     encontrados = []
     for actual, dirs, files in os.walk(base):
-        dirs[:] = [d for d in dirs if not d.startswith((".", "__"))]
+        dirs[:] = [d for d in dirs if not d.startswith((".", "__"))
+                   and os.path.relpath(os.path.join(actual, d), RAIZ) not in excluir]
         for f in sorted(files):
             if not f.endswith(sufijo):
                 continue
@@ -71,7 +75,10 @@ def main():
     args = ap.parse_args()
 
     grupos = [
-        ("Clases", recorrer("curriculum", prefijo="class-"), args.minimo),
+        ("Clases", recorrer("curriculum", prefijo="class-", excluir=(ESPECIALIZACIONES,)), args.minimo),
+        ("Esp. clases", recorrer(ESPECIALIZACIONES, prefijo="clase-"), args.minimo),
+        ("Esp. labs", recorrer(os.path.join(ESPECIALIZACIONES), prefijo="lab-"), MINIMO_LAB),
+        ("Esp. escenarios", recorrer(ESPECIALIZACIONES, prefijo="scenario-"), MINIMO_CASO),
         ("Laboratorios", recorrer("labs"), MINIMO_LAB),
         ("Evaluaciones", recorrer("assessments"), MINIMO_EVAL),
         ("Casos", recorrer("cases"), MINIMO_CASO),

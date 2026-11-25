@@ -471,9 +471,11 @@ AMPLIACIONES = {
 
 def aplicar(parte, clases):
     """Adjunta las ampliaciones y sus conceptos/métricas una sola vez."""
+    from spec.ampliaciones_reputacion import AMPLIACIONES_REPUTACION
+
     for clase in clases:
         ref = "{}.{}".format(parte, clase["n"])
-        ampliaciones = AMPLIACIONES.get(ref, [])
+        ampliaciones = AMPLIACIONES.get(ref, []) + AMPLIACIONES_REPUTACION.get(ref, [])
         if not ampliaciones or clase.get("_ampliaciones_aplicadas"):
             continue
         clase["ampliaciones"] = ampliaciones

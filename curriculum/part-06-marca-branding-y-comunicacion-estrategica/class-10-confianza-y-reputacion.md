@@ -22,16 +22,16 @@ Antes de cualquier herramienta, esta clase obliga a nombrar qué cambiaría si e
 
 > **Pregunta rectora de la parte:** ¿Qué debe recordar el mercado sobre nosotros cuando aparece la necesidad?
 
-Los conceptos que estructuran la sesión son **reputación**, **manejo de errores**, **coherencia observable**, **costo de recuperación** y **estado procesal**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
+Los conceptos que estructuran la sesión son **reputación**, **manejo de errores**, **coherencia observable**, **costo de recuperación**, **estado procesal**, **capital reputacional**, **control de daños**, **encubrimiento**, **reparación verificable** y **crisis**. No se estudian como lista de vocabulario: cada uno debe producir una predicción distinta sobre lo que ocurriría en la operación.
 
 ## 📚 Resultados de aprendizaje
 
 Al terminar esta clase serás capaz de:
 
-1. **Distinguir** `reputación`, `manejo de errores`, `coherencia observable`, `costo de recuperación` y `estado procesal` por sus observables y no por su definición memorizada.
+1. **Distinguir** `reputación`, `manejo de errores`, `coherencia observable`, `costo de recuperación`, `estado procesal`, `capital reputacional`, `control de daños`, `encubrimiento`, `reparación verificable` y `crisis` por sus observables y no por su definición memorizada.
 2. **Explicar** por qué esas distinciones cambian una decisión concreta dentro de **Marca, branding y comunicación estratégica**.
 3. **Aplicar** la secuencia **monitorear señales públicas y verificar su fuente y estado procesal → activar un protocolo con dueño, canal, plazo y criterio de término → comunicar hechos confirmados, incertidumbres y protección inmediata al cliente → corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta → cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia** conservando supuestos, alternativas descartadas y trazabilidad.
-4. **Operacionalizar** **respuesta material oportuna**, **resolución en primera instancia** y **actualizaciones cumplidas** indicando numerador, denominador, ventana, fuente y uso permitido.
+4. **Operacionalizar** **respuesta material oportuna**, **resolución en primera instancia**, **actualizaciones cumplidas** y **tiempo hasta primera comunicación confirmada** indicando numerador, denominador, ventana, fuente y uso permitido.
 5. **Resolver** el caso con al menos dos opciones defendibles y un criterio explícito de detención.
 6. **Contrastar** dos obras de la lectura comparada y señalar dónde entregan recomendaciones distintas.
 
@@ -55,6 +55,11 @@ Al terminar esta clase serás capaz de:
 | **coherencia observable** | correspondencia entre lo declarado y lo que el cliente experimenta | Explica qué decisión cambiaría si el concepto estuviera ausente. |
 | **costo de recuperación** | esfuerzo necesario para restablecer la confianza después de un incidente | Construye un caso límite donde el concepto se confunde con el anterior. |
 | **estado procesal** | etiqueta que distingue denuncia o alegación, hecho acreditado, condena y recurso pendiente o resuelto | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
+| **capital reputacional** | confianza acumulada de los públicos clave que reduce el costo de ser creídos y absorbe parte del daño de un error | Traduce el concepto en una pregunta que puedas hacerle a un cliente real. |
+| **control de daños** | conjunto de acciones para limitar el perjuicio a las personas afectadas y a la organización mientras se establecen los hechos | Da un hecho compatible con la definición y otro que la refute. |
+| **encubrimiento** | ocultar, retrasar sin justificación o deformar hechos relevantes para evitar consecuencias; es lo opuesto al control de daños legítimo | Explica qué decisión cambiaría si el concepto estuviera ausente. |
+| **reparación verificable** | medida correctiva con responsable, plazo y evidencia que un tercero puede comprobar | Construye un caso límite donde el concepto se confunde con el anterior. |
+| **crisis** | evento que amenaza expectativas de los públicos, exige decisiones en plazos cortos y puede afectar la continuidad o la legitimidad de la organización | Indica qué dato tendrías que ver para afirmarlo en una reunión de comité. |
 
 Una definición que no produce predicciones observables sigue siendo demasiado vaga para dirigir. Si dos personas del equipo aplican la misma definición a un caso y clasifican distinto, la definición todavía no es operacional.
 
@@ -106,7 +111,7 @@ Ficha de medición obligatoria para **respuesta material oportuna**: `numerador:
 
 Responder públicamente a una crítica puede corregir el registro y también amplificarla. No responder evita la amplificación y deja la versión ajena como única. La decisión debe tomarse con un criterio previo —qué tipo de crítica se responde y quién lo autoriza— y no en el momento, cuando la presión empuja a reaccionar.
 
-**Lo que aporta la fuente.** Fiscalía de Chile — *Por dos delitos formalizan a ex gerente de AC Inversions* (2016) aporta el criterio para pesar el intercambio: una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena (la nota oficial de la audiencia de formalización del 4 de marzo de 2016). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **actualizaciones cumplidas** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
+**Lo que aporta la fuente.** Fiscalía de Chile — *Por dos delitos formalizan a ex gerente de AC Inversions* (2016) aporta el criterio para pesar el intercambio: una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena (la nota oficial de la audiencia de formalización del 4 de marzo de 2016). Úsalo para construir una matriz `beneficio esperado / costo / reversibilidad / afectado / señal temprana`. La evidencia **tiempo hasta primera comunicación confirmada** ayuda a detectar si el intercambio está ocurriendo como se esperaba, pero no elimina la obligación de observar efectos laterales fuera del indicador principal.
 
 Haz un *pre-mortem*: supón que la opción recomendada fracasó a los seis meses y enumera tres mecanismos que lo expliquen. Al menos uno debe provenir de un efecto de segundo orden asociado a **costo de recuperación** y otro de un supuesto del caso que nunca fue validado.
 
@@ -126,6 +131,68 @@ Sintetizar confianza y reputación no consiste en sumar definiciones. Empieza po
 
 Esa disciplina permite que una revisión posterior distinga una mala decisión de un mal resultado. Sin ella, el equipo reescribe la historia después de conocer el desenlace y no aprende nada transferible. La prueba de dominio es poder explicar el caso contrario: cuándo esta recomendación sería incorrecta.
 
+## 🧠 Ampliación integral
+
+Esta subsección profundiza una brecha transversal sin crear una clase nueva ni repetir el desarrollo completo en otras partes. Sus referencias cruzadas indican dónde se reutiliza.
+
+### Eje O — Reputación, daño y reparación verificable
+
+Esta clase trata la confianza como resultado de conducta observable. La ampliación separa siete fases que suelen mezclarse: prevención (reducir la probabilidad), detección (ver a tiempo), contención (limitar el daño), respuesta (decir y hacer lo necesario), corrección (arreglar la causa), recuperación (recomponer la confianza con evidencia) y aprendizaje (cambiar el sistema). Un equipo que sólo domina la respuesta llega tarde a todo lo demás.
+
+Control de daños no es encubrimiento. Controlar daños es proteger primero a quienes pueden resultar afectados, establecer hechos y comunicar lo confirmado, lo incierto y lo que se hará. Encubrir es retener o deformar información relevante. La frontera se prueba con una pregunta: si la información completa se hiciera pública mañana, ¿la comunicación de hoy resultaría engañosa por omisión? Si la respuesta es sí, ya no es gestión de crisis sino un segundo problema, con riesgos jurídicos y reputacionales propios.
+
+Responder no siempre es hablar más. Corresponde responder cuando hay personas afectadas, la señal tiene fuente verificable y su alcance puede crecer; corresponde reconocer un error cuando la evidencia interna lo confirma; corresponde pedir disculpas cuando la organización causó el daño y puede nombrar qué hará distinto; corresponde corregir cuando circula información falsa que afecta decisiones; corresponde suspender publicaciones cuando el calendario puede agravar el conflicto; y corresponde escalar cuando el hecho supera la autoridad, el conocimiento o el riesgo jurídico del equipo.
+
+#### Marco de decisión
+
+| Dimensión | Definición aplicada | Decisión o prueba |
+|---|---|---|
+| **Prevención y detección** | reducir probabilidad y ver a tiempo | registrar riesgos, dueños y umbrales de alerta |
+| **Contención y respuesta** | limitar el daño y comunicar lo confirmado | activar protocolo con dueño, canal y plazo |
+| **Corrección y recuperación** | reparar la causa y recomponer confianza | publicar medida, fecha y evidencia de cumplimiento |
+| **Aprendizaje** | cambiar proceso, política o producto | cerrar con revisión posterior y acciones con responsable |
+| **Límite ético** | no engañar por acción ni por omisión | someter el texto a la prueba de publicación completa |
+
+#### Actividad aplicada y solución razonada
+
+**Consigna.** Una nueva versión de Ruta Andina duplica citas en la agenda de 80 clientes durante 36 horas. Aún no se conoce la causa, 12 clientes ya reclamaron en redes y existe una campaña programada para mañana. Decide qué hacer en las primeras tres horas: responder o esperar, qué reconocer, qué suspender y a quién escalar.
+
+**Secuencia.** clasificar hechos confirmados, inciertos y supuestos → identificar afectados y daño inmediato → decidir qué se suspende y qué se comunica → asignar dueño, canal y hora de la próxima actualización.
+
+**Solución orientadora.** Se reconoce el fallo con lo confirmado (duplicación, rango horario, clientes afectados), se declara que la causa se investiga y se fija hora de próxima actualización. Se suspende la campaña programada porque promocionar un servicio con falla activa agrava la percepción. Se contacta directamente a los 80 clientes con instrucciones para corregir citas. No se atribuye la causa a un proveedor sin evidencia ni se promete que no volverá a ocurrir. La decisión de compensar se escala a dirección si implica costo o compromiso contractual.
+
+**Evidencia de aprendizaje.** registro de decisiones de las tres primeras horas, texto de la primera declaración y lista de afectados contactados.
+
+**Rúbrica.** 30 % distinción hechos/supuestos; 25 % protección de afectados; 25 % decisión sobre suspender y escalar; 20 % ausencia de promesas no verificables.
+
+#### Fichas de medición
+
+**tiempo hasta primera comunicación confirmada**
+
+| Numerador | Denominador | Ventana | Fuente | Responsable |
+|---|---|---|---|---|
+| minutos entre la detección verificada y la primera comunicación a afectados | incidentes con afectados identificables | por incidente y trimestre | registro de incidentes y bitácora de comunicación | Responsable de comunicaciones |
+
+- **Lectura permitida:** muestra velocidad de respuesta a partir de una detección confirmada.
+- **Limitación:** no mide calidad del contenido ni evita que un mensaje rápido sea incorrecto.
+
+#### IA como apoyo, con control humano
+
+- **Objetivo:** preparar borradores de declaración y listas de preguntas probables.
+- **Datos necesarios:** hechos confirmados, supuestos marcados y público afectado, sin datos personales.
+- **Prompt reproducible:** `Con los hechos confirmados que te entrego, redacta una declaración breve que no afirme nada fuera de ellos. Lista las preguntas difíciles probables y marca qué respuesta aún no puede darse.`
+- **Resultado esperado:** borrador de declaración y banco de preguntas.
+- **Validación humana:** responsable jurídico y dueño del hecho contrastan cada frase con la evidencia antes de publicar.
+- **Riesgos:** afirmaciones no verificadas, tono evasivo y filtración de datos de afectados.
+- **Límites:** La salida es una hipótesis de trabajo; no constituye investigación, predicción ni decisión validada por sí sola.
+- **Alternativa sin IA:** plantillas aprobadas con anterioridad y revisión por dos personas.
+
+#### Transferencia y continuidad
+
+**Contextos de transferencia:** falla de producto; reclamo masivo de consumidores; error de publicidad; incidente con datos de clientes.
+
+**Conocimientos previos y referencias cruzadas:** [06.12 · Coherencia omnicanal](../part-06-marca-branding-y-comunicacion-estrategica/class-12-coherencia-omnicanal.md) · [06.13 · Medición de marca](../part-06-marca-branding-y-comunicacion-estrategica/class-13-medicion-de-marca.md) · [13.12 · Prueba social](../part-13-contenido-copywriting-y-comunicacion-persuasiva/class-12-prueba-social.md) · [18.10 · Renovación](../part-18-customer-experience-success-y-fidelizacion/class-10-renewal.md) · [21.12 · Evaluación y guardrails](../part-21-ia-aplicada-a-marketing-ventas-y-servicio/class-12-evaluacion-y-guardrails.md) · [23.12 · Ética y cultura comercial](../part-23-direccion-comercial-cmo-vp-sales-y-cro/class-12-etica-y-cultura.md).
+
 ## 📚 Lectura comparada
 
 No se pide leer las obras completas. Para cada una se indica **qué idea concreta** sostiene esta clase, **dónde buscarla** y **qué pregunta** esa idea le hace a tu propio diagnóstico. La lectura termina cuando puedes responder esa pregunta con evidencia del caso.
@@ -136,6 +203,7 @@ No se pide leer las obras completas. Para cada una se indica **qué idea concret
 | Seth Godin — *This Is Marketing* (2018) | El permiso como activo: el derecho a comunicarse con quien espera el mensaje | Los capítulos sobre marketing de permiso | ¿Qué debería observarse en **manejo de errores** si aquí opera «el permiso como activo: el derecho a comunicarse con quien espera el mensaje»? ¿Y qué observación lo desmentiría en este caso? |
 | Matthew Dixon, Nick Toman y Rick DeLisi — *The Effortless Experience* (2013) | La resolución del siguiente problema previsible en el mismo contacto | Los capítulos sobre resolución anticipada | ¿Qué debería observarse en **coherencia observable** si aquí opera «la resolución del siguiente problema previsible en el mismo contacto»? ¿Y qué observación lo desmentiría en este caso? |
 | Fiscalía de Chile — *Por dos delitos formalizan a ex gerente de AC Inversions* (2016) | Una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena | La nota oficial de la audiencia de formalización del 4 de marzo de 2016 | ¿Qué debería observarse en **costo de recuperación** si aquí opera «una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena»? ¿Y qué observación lo desmentiría en este caso? |
+| Charles J. Fombrun — *Reputation: Realizing Value from the Corporate Image* (1996) | La reputación como representación perceptual de las acciones pasadas y las perspectivas de la empresa, comparada con sus rivales ante todos sus públicos clave | Los capítulos iniciales sobre qué es la reputación corporativa y por qué crea valor | ¿Qué debería observarse en **estado procesal** si aquí opera «la reputación como representación perceptual de las acciones pasadas y las perspectivas de la empresa, comparada con sus rivales ante todos sus públicos clave»? ¿Y qué observación lo desmentiría en este caso? |
 
 **Después de leer, escribe una discrepancia real.** Al menos dos de estas obras entregan recomendaciones que no coinciden cuando se aplican al mismo caso; identifica cuáles y qué condición del caso decide a favor de una. Si no encuentras la discrepancia, es señal de que leíste buscando confirmación.
 
@@ -151,9 +219,9 @@ La lectura se evalúa por **uso**, no por cantidad de páginas. La nota de lectu
 
 **Paso 3 — Comunicar hechos confirmados, incertidumbres y protección inmediata al cliente.** El riesgo de este paso es cerrar demasiado rápido alrededor de **coherencia observable**. Antes de concluir, el equipo enumera dos explicaciones alternativas del mismo patrón y revisa si **actualizaciones cumplidas** logra distinguirlas. Si no lo logra, hace falta otra evidencia y así debe quedar registrado.
 
-**Paso 4 — Corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta.** Con **costo de recuperación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **respuesta material oportuna** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
+**Paso 4 — Corregir, reparar y documentar causa raíz sin esperar una narrativa perfecta.** Con **costo de recuperación** ya delimitado, la pregunta pasa a ser de consecuencia: qué cambia en la operación, en la caja y en la carga del equipo. **tiempo hasta primera comunicación confirmada** entrega la lectura cuantitativa; el juicio sobre el costo de oportunidad sigue siendo humano y debe quedar firmado.
 
-**Paso 5 — Cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **estado procesal**. **resolución en primera instancia** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
+**Paso 5 — Cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia.** El cierre exige compromiso: responsable, fecha, umbral de éxito y condición de detención asociados a **estado procesal**. **respuesta material oportuna** se convierte en la señal de seguimiento y se acuerda con qué frecuencia se revisa y quién puede declarar el fracaso sin costo político.
 
 **Síntesis.** La recomendación termina con responsable, fecha, evidencia de éxito y señal de detención. Omitir cualquiera de esas cuatro piezas convierte el análisis en opinión difícil de auditar.
 
@@ -207,7 +275,7 @@ Cada paso indica qué hacer, con qué material y cómo saber que está terminado
 |---|---|---|
 | Usar **reputación** y **manejo de errores** como sinónimos | Se perdió la distinción entre «juicio acumulado del mercado basado en el comportamiento observado en el tiempo» y «protocolo de reconocimiento, reparación y prevención ante una falla propia» | Vuelve a los observables y exige una señal distinta para cada concepto. |
 | Empezar por «cerrar sólo cuando la medida correctiva y la actualización al cliente tengan evidencia» | Se saltó «monitorear señales públicas y verificar su fuente y estado procesal»: la solución llegó antes que el diagnóstico | Reconstruye la cadena completa y marca el primer supuesto no demostrado. |
-| Optimizar sólo **respuesta material oportuna** | La métrica local reemplazó al resultado del sistema | Contrástala con **actualizaciones cumplidas** y explicita el costo de oportunidad. |
+| Optimizar sólo **respuesta material oportuna** | La métrica local reemplazó al resultado del sistema | Contrástala con **tiempo hasta primera comunicación confirmada** y explicita el costo de oportunidad. |
 | Comunicar antes de reparar | Error específico de esta clase | Define el protocolo: contención, reparación, comunicación y prevención documentada, en ese orden. |
 | No fijar revisión | La decisión se vuelve permanente por inercia | Define responsable, fecha, señal de éxito y condición de detención. |
 
@@ -230,7 +298,7 @@ No encontrarás aquí las respuestas: encontrarás **qué tiene que contener** u
 | 2 | Dos observaciones concretas: una que confirmaría **coherencia observable** y otra que te obligaría a abandonarlo. Una respuesta sin condición de refutación no es suficiente. |
 | 3 | El dato faltante debe ser nombrable y obtenible: qué se mide, quién lo tiene y en cuánto tiempo. «Faltan datos» no cuenta como respuesta. |
 | 4 | Debes distinguir asociación de causa y proponer al menos una explicación alternativa del mismo movimiento de **respuesta material oportuna**. |
-| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Winning on Purpose* y *Por dos delitos formalizan a ex gerente de AC Inversions*. |
+| 5 | Identifica la condición del caso que decide entre ambas obras. Basta con que sea una: la respuesta correcta no es «depende», sino «depende de esto, y aquí ocurre así». Ancla el contraste en *Winning on Purpose* y *Reputation: Realizing Value from the Corporate Image*. |
 | 6 | Describe la decisión equivocada concreta —qué se haría de más o de menos— y quién pagaría el costo. Un límite que no produce una decisión distinta no está operando como límite. |
 
 Si tres o más respuestas no alcanzan el criterio, no sigas a la clase siguiente: repite el desarrollo con el caso en la mano. Avanzar con la definición floja es lo que produce, más adelante, decisiones que nadie puede auditar.
@@ -242,6 +310,8 @@ Riesgo asociado a esta parte: **Confundir gusto estético del equipo con constru
 - **Consumo y comercio.** [Ley 19.496](https://www.bcn.cl/leychile/navegar?idNorma=61438) — *Establece normas sobre protección de los derechos de los consumidores* (Ministerio de Economía, Fomento y Reconstrucción), y su reglamento de comercio electrónico, [Decreto 6/2021](https://www.bcn.cl/leychile/navegar?idNorma=1165504) — *Aprueba reglamento de comercio electrónico* (Ministerio de Economía, Fomento y Turismo).
 - **Datos personales.** [Ley 21.719](https://www.bcn.cl/leychile/navegar?idNorma=1209272) — *Regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales* (Ministerio Secretaría General de la Presidencia), que sustituye progresivamente a [Ley 19.628](https://www.bcn.cl/leychile/navegar?idNorma=141599) — *Sobre protección de la vida privada* (Ministerio Secretaría General de la Presidencia).
 - **Derecho a retracto.** [Decreto 52/2024](https://www.bcn.cl/leychile/navegar?idNorma=1206144) — *Aprueba reglamento que regula la forma y condiciones en que los proveedores deberán comunicar la exclusión del derecho a retracto y los bienes en que excepcionalmente y por su naturaleza procederá tal exclusión* (Ministerio de Economía, Fomento y Turismo).
+- **Fuente adicional aplicable a esta clase.** [Ley 19.733](https://www.bcn.cl/leychile/navegar?idNorma=186049) — *Sobre libertades de opinión e información y ejercicio del periodismo* (Ministerio Secretaría General de Gobierno).
+- **Fuente adicional aplicable a esta clase.** [Ley 20.393](https://www.bcn.cl/leychile/navegar?idNorma=1008668) — *Establece la responsabilidad penal de las personas jurídicas* (Ministerio Secretaría General de la Presidencia).
 
 Dentro del repositorio, el [mapa regulatorio](../../docs/MAPA-REGULATORIO-CHILE.md) ordena qué norma aplica a cada decisión comercial, [datos personales y ética](../../docs/DATOS-PERSONALES-Y-ETICA.md) desarrolla el tratamiento de datos y [fuentes oficiales](../../docs/FUENTES-OFICIALES.md) lista los organismos con su fecha de consulta. Ninguno de esos documentos reemplaza al texto legal.
 
@@ -252,7 +322,7 @@ La regla del programa es simple: **la fuente oficial manda sobre el material ped
 Guarda en `evidence/P06-C10-confianza-y-reputacion/`:
 
 - `decision-brief.md` — problema, evidencia, alternativas, recomendación y gobierno.
-- `ficha-metricas.md` — definición operacional de **respuesta material oportuna**, **resolución en primera instancia** y **actualizaciones cumplidas** con fuente, ventana y lectura prohibida.
+- `ficha-metricas.md` — definición operacional de **respuesta material oportuna**, **resolución en primera instancia**, **actualizaciones cumplidas** y **tiempo hasta primera comunicación confirmada** con fuente, ventana y lectura prohibida.
 - `nota-de-lectura.md` — dos fuentes contrastadas con edición y páginas consultadas.
 - `red-team.md` — la objeción más fuerte a tu recomendación y el dato que la invalidaría.
 
@@ -281,6 +351,7 @@ Aquí conviene separar dos cosas que suelen ir juntas y no son lo mismo.
 - Seth Godin — [*This Is Marketing*](https://openlibrary.org/isbn/9780525540830) (2018) · ISBN 9780525540830 — **aporta a esta clase:** el permiso como activo: el derecho a comunicarse con quien espera el mensaje. **Dónde buscarlo:** los capítulos sobre marketing de permiso. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Matthew Dixon, Nick Toman y Rick DeLisi — [*The Effortless Experience*](https://openlibrary.org/isbn/9780241003305) (2013) · ISBN 9780241003305 — **aporta a esta clase:** la resolución del siguiente problema previsible en el mismo contacto. **Dónde buscarlo:** los capítulos sobre resolución anticipada. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 - Fiscalía de Chile — [*Por dos delitos formalizan a ex gerente de AC Inversions*](https://www.fiscaliadechile.cl/actualidad/noticias/regionales/por-dos-delitos-formalizan-ex-gerente-de-ac-inversions) (2016) · fuente primaria — **aporta a esta clase:** una formalización contiene imputaciones y posiciones procesales que deben etiquetarse como alegaciones, no como condena. **Dónde buscarlo:** la nota oficial de la audiencia de formalización del 4 de marzo de 2016. **Acceso:** gratis. Registra edición y páginas consultadas en tu nota de lectura.
+- Charles J. Fombrun — [*Reputation: Realizing Value from the Corporate Image*](https://openlibrary.org/isbn/9780875846330) (1996) · ISBN 9780875846330 — **aporta a esta clase:** la reputación como representación perceptual de las acciones pasadas y las perspectivas de la empresa, comparada con sus rivales ante todos sus públicos clave. **Dónde buscarlo:** los capítulos iniciales sobre qué es la reputación corporativa y por qué crea valor. **Acceso:** comprar o biblioteca. Registra edición y páginas consultadas en tu nota de lectura.
 
 **Estándar pedagógico del programa:** Susan A. Ambrose et al. — [*How Learning Works*](https://openlibrary.org/isbn/9780470484104) (2010); Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel — [*Make It Stick*](https://openlibrary.org/isbn/9780674419377) (2014); Grant Wiggins y Jay McTighe — [*Understanding by Design*](https://openlibrary.org/isbn/9781416600350) (2005, 2.ª ed.); Anders Ericsson y Robert Pool — [*Peak*](https://openlibrary.org/isbn/9781473513143) (2016); William Ellet — [*The Case Study Handbook*](https://openlibrary.org/isbn/9781633696150) (2018, ed. revisada).
 

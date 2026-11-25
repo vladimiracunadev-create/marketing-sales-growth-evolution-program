@@ -98,6 +98,20 @@ NORMAS = {
         "id_norma": "167766",
         "materia": "condiciones sanitarias y ambientales y control de riesgos laborales",
     },
+    "ley-19733": {
+        "numero": "Ley 19.733",
+        "titulo": "Sobre libertades de opinión e información y ejercicio del periodismo",
+        "organismo": "Ministerio Secretaría General de Gobierno",
+        "id_norma": "186049",
+        "materia": "libertad de información, derecho de aclaración y rectificación y responsabilidad por abusos",
+    },
+    "ley-20393": {
+        "numero": "Ley 20.393",
+        "titulo": "Establece la responsabilidad penal de las personas jurídicas",
+        "organismo": "Ministerio Secretaría General de la Presidencia",
+        "id_norma": "1008668",
+        "materia": "modelo de prevención de delitos y responsabilidad penal de la persona jurídica",
+    },
 }
 
 
